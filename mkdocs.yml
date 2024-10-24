@@ -3,6 +3,7 @@ theme: material
 theme:
   features:
     - navigation.tabs
+    - navigation.path
 plugins:
   - search
 docs_dir: docs
