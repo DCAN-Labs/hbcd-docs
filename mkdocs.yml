@@ -1,5 +1,6 @@
 site_name: HBCD Data Release
-theme: material
+theme:
+  name: material
   features:
     - navigation.tabs
     - navigation.path
