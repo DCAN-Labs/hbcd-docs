@@ -28,7 +28,5 @@ nav:
     - Imaging Curation: datacuration/imaging.md
     - Biosensor Curation: datacuration/motion.md
     - Phenotypes Curation: datacuration/phenotypes.md
-  - Data Processing:
-    - HBCD Processing: processing/processing.md
-    - Pipelines & Software Standards: processing/pipelines.md
+  - Data Processing: processing/pipelines.md
   
