@@ -1,5 +1,8 @@
 site_name: HBCD Data Release
 theme: material
+theme:
+  features:
+    - navigation.tabs
 plugins:
   - search
 docs_dir: docs
