@@ -5,9 +5,12 @@ theme:
   features:
     - navigation.tabs
     - navigation.path
+    - version
+  custom_dir: overrides
     
 plugins:
   - search
+  - mike
   
 docs_dir: docs
   
