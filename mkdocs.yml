@@ -1,12 +1,19 @@
 site_name: HBCD Data Release
+
 theme:
   name: material
   features:
     - navigation.tabs
     - navigation.path
+    
 plugins:
   - search
+  
 docs_dir: docs
+
+extra_css:
+  - assets/styles/extra.css
+  
 nav: 
   - About: index.md
   - Release Notes: main/releasenotes.md
