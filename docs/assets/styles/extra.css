@@ -1,0 +1,8 @@
+/* Hide the left sidebar when there's only one item */
+.md-sidebar {
+  display: none;
+}
+
+.md-sidebar[data-md-sticky] ul > li + li {
+  display: block;
+}
