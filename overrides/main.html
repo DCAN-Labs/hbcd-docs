@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <style>
+    /* Custom styles for the version dropdown */
+    .md-version-select {
+      margin-right: 10px;
+    }
+  </style>
+{% endblock %}
+
+{% block header %}
+  {{ super() }}
+  <div class="md-version-select">
+    <select onchange="window.location.href=this.value">
+      <option value="/">main</option>
+      <option value="/">dev</option>
+    </select>
+  </div>
+{% endblock %}
