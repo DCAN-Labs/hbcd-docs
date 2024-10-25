@@ -19,23 +19,24 @@ nav:
   - Release Notes: main/releasenotes.md
   - Change Log: main/changelog.md
   - FAQ: main/faq.md
-  - Data Measures & Quality Control:
-    - Demographics: measures/demographics.md
-    - "Physical Health: Food Insecurity": measures/physhealth.md
-    - Pregnancy and exposures: measures/pregexposures.md
-    - Novel Technologies/Wearable Sensors: measures/sensors.md
-    - Social and Environmental Determinants: measures/socenv_determinants.md
-    - Behavior/Caregiver Child Interaction: measures/behavior.md
-    - EEG: measures/eeg.md
-  - MRI Protocols:
-    - Siemens Protocol: mriprotocols/siemens.md
-    - GE Protocol: mriprotocols/ge.md
-  - Data Curation & BIDS Data Creation: 
-    - Overview: datacuration/bids.md
-    - Imaging Curation: datacuration/imaging.md
-    - Biosensor Curation: datacuration/motion.md
-    - Phenotypes Curation: datacuration/phenotypes.md
-  - Data Processing: 
-    - Pipelines & Software Standards: processing/pipelines.md
-    - External Processing Documentation: processing/processing.md
+  - Release:
+    - Data Measures & Quality Control:
+      - Demographics: measures/demographics.md
+      - "Physical Health: Food Insecurity": measures/physhealth.md
+      - Pregnancy and exposures: measures/pregexposures.md
+      - Novel Technologies/Wearable Sensors: measures/sensors.md
+      - Social and Environmental Determinants: measures/socenv_determinants.md
+      - Behavior/Caregiver Child Interaction: measures/behavior.md
+      - EEG: measures/eeg.md
+    - MRI Protocols:
+      - Siemens Protocol: mriprotocols/siemens.md
+      - GE Protocol: mriprotocols/ge.md
+    - Data Curation & BIDS Data Creation: 
+      - Overview: datacuration/bids.md
+      - Imaging Curation: datacuration/imaging.md
+      - Biosensor Curation: datacuration/motion.md
+      - Phenotypes Curation: datacuration/phenotypes.md
+    - Data Processing: 
+      - Pipelines & Software Standards: processing/pipelines.md
+      - External Processing Documentation: processing/processing.md
   
