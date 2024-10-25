@@ -10,9 +10,6 @@ plugins:
   - search
   
 docs_dir: docs
-
-extra_css:
-  - assets/styles/extra.css
   
 nav: 
   - About: index.md
