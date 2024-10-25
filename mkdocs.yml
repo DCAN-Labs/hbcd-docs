@@ -28,8 +28,8 @@ nav:
     - Behavior/Caregiver Child Interaction: measures/behavior.md
     - EEG: measures/eeg.md
   - MRI Protocols:
-    - Siemens Protocol v2.2: mriprotocols/siemens.md
-    - GE Protocol v2.2: mriprotocols/ge.md
+    - Siemens Protocol: mriprotocols/siemens.md
+    - GE Protocol: mriprotocols/ge.md
   - Data Curation & BIDS Data Creation: 
     - Overview: datacuration/bids.md
     - Imaging Curation: datacuration/imaging.md
