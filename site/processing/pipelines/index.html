@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Pipelines - HBCD Data Release</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../../css/custom.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Pipelines";
+        var mkdocs_page_input_path = "processing/pipelines.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> HBCD Data Release
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">About</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Release Notes</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" >Data Measures & Quality Control</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/demographics/">Demographics</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/socenv_determinants/">Social & Environmental Determinants</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/neurocog_language/">Neurocognition & Language</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/eeg/">Electroencephalogram (EEG)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/mri/">Magnetic Resonance Imaging (MRI)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/sensors/">Novel Technologies & Wearable Sensors</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/physhealth/">Physical Health</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/behavior/">Behavior & Caregiver-Child Interaction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Pregnancy & Exposure</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../measures/pregexp/preghealth/">Pregnancy Health</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../measures/pregexp/infant/">Infant Health</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../measures/pregexp/mentalhealth/">Psychiatric Evaluation & History</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../measures/pregexp/substanceuse/">Substance Use</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >MRI Protocols</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../mriprotocols/siemens/">Siemens Protocol</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../mriprotocols/ge/">GE Protocol</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >HBCD BIDS Dataset</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/bids/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/imaging/">Imaging</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/eeg/">EEG</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/motion/">Motion Data</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/phenotypes/">Phenotypes</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" >Data Processing</a>
+    <ul class="current">
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">Pipelines</a>
+    <ul class="current">
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../standards/">Pipeline Software Standards</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../processing/">External Processing Documentation</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Change Log</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../changelog/pending/">Pending Updates</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Version History</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.4/">Beta Release 5/V1.4</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.3/">Beta Release 4/V1.3</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.2/">Beta Release 3/V1.2</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.1/">Beta Release 2/V1.1</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.0/">Beta Release 1/V1.0</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">FAQ & Contact</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../faq/">FAQ</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../contact/">Contact</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">HBCD Data Release</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Release Notes</li>
+          <li class="breadcrumb-item">Data Processing</li>
+      <li class="breadcrumb-item active">Pipelines</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="processing-pipelines">Processing Pipelines</h1>
+<p>The following pipelines were used for HBCD data processing: for more details, visit the pipeline webpages linked below as well as the <a href="https://hbcd-cbrain-processing.readthedocs.io/latest/tool_details.html">Tool Details Overview</a> section of the <a href="https://hbcd-cbrain-processing.readthedocs.io/latest/index.html">HBCD Processing webpage</a>.</p>
+<p><strong>Magnetic Resonance Imaging (MRI)</strong>  <br />
+- <a href="https://mriqc.readthedocs.io/en/latest/">MRIQC</a>: automated extraction of image quality metrics from structural (T1w and T2w) and functional MRI data<br />
+- <a href="https://bibsnet.readthedocs.io/en/latest/">BIBSNet</a>: deep learning model for brain segmentation
+- <a href="https://nibabies.readthedocs.io/en/latest/">infant-fMRIPrep/fMRIPrep</a>: structural and functional MRI preprocessing pipeline <br />
+- <a href="https://xcp-d.readthedocs.io/en/latest/">XCP-D</a>: functional MRI post-processing and noise regression pipeline<br />
+- <a href="https://qsiprep.readthedocs.io/en/latest/">QSIPrep</a> and <a href="https://qsirecon.readthedocs.io/en/latest/">QSIRecon</a>: diffusion-weighted MRI (dMRI) data processing pipelines<br />
+-  <a href="https://hbcd-symri-postproc.readthedocs.io/en/latest/index.html">SyMRI</a>: minimal post-processing for synthetic images generated from SyMRI tools using QALAS acquisition</p>
+<p><strong>Electroencephalogram (EEG)</strong>
+- <a href="https://docs-hbcd-made.readthedocs.io/en/latest/">HBCD-MADE</a>: Maryland Analysis of Developmental EEG (MADE) pipeline adapted for HBCD data</p>
+<p><strong>Magnetic Resonance Spectroscopy (MRS)</strong>
+- <a href="https://osprey-bids.readthedocs.io/en/latest/index.html">OSPREY</a>: MRS data processing pipeline</p>
+<p><strong>Biosensor Data</strong>
+- <a href="https://hbcd-motion-postproc.readthedocs.io/en/latest/">AXIVITY</a>: leg movement data processing</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../../datacuration/phenotypes/" class="btn btn-neutral float-left" title="Phenotypes"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../standards/" class="btn btn-neutral float-right" title="Pipeline Software Standards">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../../datacuration/phenotypes/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../standards/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Social & Environmental Determinants - HBCD Data Release</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../../css/custom.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Social \u0026 Environmental Determinants";
+        var mkdocs_page_input_path = "measures/socenv_determinants.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> HBCD Data Release
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">About</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Release Notes</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" >Data Measures & Quality Control</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../demographics/">Demographics</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">Social & Environmental Determinants</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#neighborhood-safety">Neighborhood Safety</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#overview">Overview</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#implementation">Implementation</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#data-collection">Data Collection</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#quality-control-qc">Quality Control (QC)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#potential-issues-flagged-by-subject-matter-experts">Potential Issues Flagged by Subject Matter Experts</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#references">References</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#discrimination">Discrimination</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#overview_1">Overview</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#implementation_1">Implementation</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#data-collection_1">Data Collection</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#quality-control-qc_1">Quality Control (QC)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#potential-issues-flagged-by-subject-matter-experts_1">Potential Issues Flagged by Subject Matter Experts</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#references_1">References</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#paces">PACES</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#overview_2">Overview</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#implementation_2">Implementation</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#data-collection_2">Data Collection</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#quality-control-qc_2">Quality Control (QC)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#potential-issues-flagged-by-subject-matter-experts_2">Potential Issues Flagged by Subject Matter Experts</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#references_2">References</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#perceived-stresssocial-support">Perceived Stress/Social Support</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#overview_3">Overview</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#implementation_3">Implementation</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#data-collection_3">Data Collection</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#quality-control-qc_3">Quality Control (QC)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#potential-issues-flagged-by-subject-matter-experts_3">Potential Issues Flagged by Subject Matter Experts</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#additional-information">Additional Information</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#references_3">References</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#babys-first-year">Baby’s First Year</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#overview_4">Overview</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#implementation_4">Implementation</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#data-collection_4">Data Collection</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#quality-control-qc_4">Quality Control (QC)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#potential-issues-flagged-by-subject-matter-experts_4">Potential Issues Flagged by Subject Matter Experts</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#references_4">References</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#ehits">eHITS</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#overview_5">Overview</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#implementation_5">Implementation</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#data-collection_5">Data Collection</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#quality-control-qc_5">Quality Control (QC)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#potential-issues-flagged-by-subject-matter-experts_5">Potential Issues Flagged by Subject Matter Experts</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#references_5">References</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../neurocog_language/">Neurocognition & Language</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../eeg/">Electroencephalogram (EEG)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../mri/">Magnetic Resonance Imaging (MRI)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../sensors/">Novel Technologies & Wearable Sensors</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../physhealth/">Physical Health</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../behavior/">Behavior & Caregiver-Child Interaction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Pregnancy & Exposure</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/preghealth/">Pregnancy Health</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/infant/">Infant Health</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/mentalhealth/">Psychiatric Evaluation & History</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/substanceuse/">Substance Use</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >MRI Protocols</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../mriprotocols/siemens/">Siemens Protocol</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../mriprotocols/ge/">GE Protocol</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >HBCD BIDS Dataset</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/bids/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/imaging/">Imaging</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/eeg/">EEG</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/motion/">Motion Data</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/phenotypes/">Phenotypes</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Data Processing</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../processing/pipelines/">Pipelines</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../processing/standards/">Pipeline Software Standards</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../processing/processing/">External Processing Documentation</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Change Log</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../changelog/pending/">Pending Updates</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Version History</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.4/">Beta Release 5/V1.4</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.3/">Beta Release 4/V1.3</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.2/">Beta Release 3/V1.2</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.1/">Beta Release 2/V1.1</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.0/">Beta Release 1/V1.0</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">FAQ & Contact</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../faq/">FAQ</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../contact/">Contact</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">HBCD Data Release</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Release Notes</li>
+          <li class="breadcrumb-item">Data Measures & Quality Control</li>
+      <li class="breadcrumb-item active">Social & Environmental Determinants</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="social-and-environmental-determinants">Social and Environmental Determinants</h1>
+<h2 id="neighborhood-safety">Neighborhood Safety</h2>
+<h3 id="overview">Overview</h3>
+<p><strong>Full Name</strong>: PhenX+ Toolkit Neighborhood Safety<br />
+<strong>Acronym/Brief Name</strong>: Neighborhood Safety<br />
+<strong>Construct</strong>:  Social Determinants of Health<br />
+<strong>Description</strong>: This measure is a three-item questionnaire to assess the respondent’s perceptions about safety, violence, and crime in their neighborhoods. Neighborhood safety may be relevant to a range of maternal and child health outcomes. The respondent’s perception of their neighborhood may also be used alongside geocoded measures of neighborhood crime statistics to help understand an individuals experience within a neighborhood. <br />
+<strong>Summary</strong>: This measure is a questionnaire to assess the respondent’s subjective perceptions about safety and crime in their neighborhoods. </p>
+<h3 id="implementation">Implementation</h3>
+<p><strong>Method of Administration</strong>: RA administered in person or remote survey<br />
+<strong>REDCap Form Name</strong>: sed_bm_nbhsaf<br />
+<strong>Pilot Data Dictionary</strong>: Unknown<br />
+<strong>Spanish Translation</strong>: Existing<br />
+<strong>Child Specific/Unspecific Form</strong>: Child Unspecific<br />
+<strong>Respondent:</strong> Adult Participant</p>
+<h3 id="data-collection">Data Collection</h3>
+<p><strong>Visits Administered and corresponding age range of administration:</strong> Visit 1 (prenatal), Visit 5 (10-17 months), Visit 7 (16-31 months), Visit 9 (32-46 months)  <br />
+<strong>Estimated length of time for completion</strong>: 1 minute</p>
+<h3 id="quality-control-qc">Quality Control (QC)</h3>
+<p><strong>QC Procedures</strong>: Monitoring missingness <br />
+<strong>Common Issues Identified</strong>: None</p>
+<h3 id="potential-issues-flagged-by-subject-matter-experts">Potential Issues Flagged by Subject Matter Experts</h3>
+<p>None</p>
+<h3 id="references">References</h3>
+<ul>
+<li>Mujahid, M. S., Diez Roux, A. V., Morenoff, J. D., &amp; Raghunathan, T. (2007). Assessing the measurement properties of neighborhood scales: From psychometrics to ecometrics. <em>American Journal of Epidemiology,</em> <em>165,</em> 858-867.</li>
+<li>PhenX Toolkit. (2024 October 28). Neighborhood Safety, PhenX Toolkit. https://www.phenxtoolkit.org/protocols/view/210901</li>
+</ul>
+<h2 id="discrimination">Discrimination</h2>
+<h3 id="overview_1">Overview</h3>
+<p><strong>Full Name</strong>: PhenX+ Toolkit Discrimination  <br />
+<strong>Acronym/Brief Name</strong>: PhenX+ Discrimination <br />
+<strong>Construct</strong>: Discrimination <br />
+<strong>Description</strong> This measure can be used by respondents to report discriminatory experiences. Discrimination is an important factor in an individual’s health because it affects access to employment, housing, and education opportunities and can affect self-esteem and cause stress.  <br />
+<strong>Summary</strong>: This measure is a questionnaire to assess perceived discriminatory experiences.</p>
+<h3 id="implementation_1">Implementation</h3>
+<p><strong>Method of Administration</strong>: Remote survey<br />
+<strong>REDCap Form Name</strong>: sed_bm_phx_i_discr; Phenx Discrimination (Experiences with Unfair Treatment) 
+<strong>Pilot Data Dictionary</strong>: sed_bm_phx_i_discr 
+<strong>Spanish Translation</strong>: Existing<br />
+<strong>Child Specific/Unspecific Form</strong>: Child Unspecific<br />
+<strong>Respondent:</strong> Parent on Self</p>
+<h3 id="data-collection_1">Data Collection</h3>
+<p><strong>Visits</strong>: V1, 2nd-3rd trimester and postnatal; V5, 10-17 months; V7, 16-31 months   <br />
+<strong>Estimated length of time for completion</strong>: 3 minutes</p>
+<h3 id="quality-control-qc_1">Quality Control (QC)</h3>
+<p><strong>QC Procedures:</strong>  TODO
+<strong>Common Issues Identified:</strong> TODO</p>
+<h3 id="potential-issues-flagged-by-subject-matter-experts_1">Potential Issues Flagged by Subject Matter Experts</h3>
+<p>None</p>
+<h3 id="references_1">References</h3>
+<ul>
+<li>Williams, D. R. (2015). Measuring discrimination resource. http://scholar.harvard.edu/davidrwilliams/node/32777</li>
+<li>Sternthal, M., Slopen, N., Williams, D.R. “Racial Disparities in Health: How Much Does Stress Really Matter?” Du Bois Review, 2011; 8(1): 95-113.</li>
+<li>PhenX Toolkit. (2024 September 30). Discrimination, PhenX Toolkit. https://www.phenxtoolkit.org/protocols/view/210302</li>
+</ul>
+<h2 id="paces">PACES</h2>
+<h3 id="overview_2">Overview</h3>
+<p><strong>Full Name</strong>: Protective and Compensatory Experience
+<strong>Acronym/Brief Name</strong>: PACES (Current)
+<strong>Construct</strong>: Protective Factors
+<strong>Description</strong>: Assesses positive experiences during childhood through age 18
+<strong>Summary</strong>: A 10 question scale with scores ranging between 0 and 10 assessing positive childhood experiences such as: relationships, feeling of connectedness, physical activity, engagement, environment, and opportunities</p>
+<h3 id="implementation_2">Implementation</h3>
+<p><strong>Method of Administration</strong>: RA administered in person, remote survey <br />
+<strong>REDCap Form Name</strong>: sed_bm_paces<br />
+<strong>Pilot Data Dictionary</strong>: PACES<br />
+<strong>Spanish Translation</strong>: BURG   <br />
+<strong>Child Specific/Unspecific Form</strong>: Child Unspecific<br />
+<strong>Respondent:</strong> Parent on Self</p>
+<h3 id="data-collection_2">Data Collection</h3>
+<p><strong>Visits</strong>: V01 Prenatal (PACES Current)   </p>
+<h3 id="quality-control-qc_2">Quality Control (QC)</h3>
+<p><strong>QC Procedures:</strong> Social and Environmental Working Group QC procedures included monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency.  <br />
+<strong>Common Issues Identified:</strong> None</p>
+<h3 id="potential-issues-flagged-by-subject-matter-experts_2">Potential Issues Flagged by Subject Matter Experts</h3>
+<p>None</p>
+<h3 id="references_2">References</h3>
+<ul>
+<li>Morris AS, Treat A, Hays-Grudo J, Chesher T, Williamson AC, Mendez J. Integrating
+research and theory on early relationships to guide intervention and prevention. Building
+early social and emotional relationships with infants and toddlers: Integrating research
+and practice. 2018:1-25</li>
+<li>Morris AS, Hays-Grudo J, Zapata MI, Treat A, Kerr KL. Adverse and protective
+childhood experiences and parenting attitudes: The role of cumulative protection in
+understanding resilience. Adversity and Resilience Science. 2021;2:181-192</li>
+</ul>
+<h2 id="perceived-stresssocial-support">Perceived Stress/Social Support</h2>
+<h3 id="overview_3">Overview</h3>
+<p><strong>Full Name</strong>: Patient-Reported Outcome Measurement Information System<br />
+<strong>Acronym/Brief Name</strong>: Perceived Stress/Social Support   <br />
+<strong>Construct</strong>: Perceived Stress/Social Support    <br />
+<strong>Description</strong>: These measures of perceived stress and social support are a combination of the PROMIS emotional support 4a questionnaire and the Perceived Stress Scale – 4 (PSS-4). The first 4 questions are the PROMIS emotional support 4a questionnaire which measures the quality of the emotional support to which the participant has access. The last 4 questions (PSS-4) represent the shortened version of the PSS-14. This questionnaire measures perceived general stress in the past month. It has been used in many populations world wide including pregnant individuals and young families. <br />
+<strong>Summary</strong>: The Perceived Stress and Social support tools measure perceived stress and perceptions of emotional support by one’s social network in the caregivers in this study longitudinally.       </p>
+<h3 id="implementation_3">Implementation</h3>
+<p><strong>Method of Administration</strong>: Remote survey     <br />
+<strong>REDCap Form Name</strong>: sed_bm_strsup   <br />
+<strong>Pilot Data Dictionary</strong>: PROMIS      <br />
+<strong>Spanish Translation</strong>: Existing      <br />
+<strong>Child Specific/Unspecific Form</strong>: Child Specific<br />
+<strong>Respondent:</strong> Caregiver</p>
+<h3 id="data-collection_3">Data Collection</h3>
+<p><strong>Visits Administered and corresponding age range of administration</strong>: V1 (prenatal), V2 (0-1m), V3 (3-9m)<br />
+<strong>Estimated length of time for completion</strong>: 4 minutes </p>
+<h3 id="quality-control-qc_3">Quality Control (QC)</h3>
+<p><strong>QC Procedures:</strong> monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency. <br />
+<strong>Common Issues Identified:</strong> None</p>
+<h3 id="potential-issues-flagged-by-subject-matter-experts_3">Potential Issues Flagged by Subject Matter Experts</h3>
+<p>None</p>
+<h3 id="additional-information">Additional Information</h3>
+<p>Relevant Documents: Scoring Manuals</p>
+<h3 id="references_3">References</h3>
+<ul>
+<li>PROMIS Emotional Support: Hahn, E.A., Cella, D., Bode, R.K. et al. Measuring Social Well-Being in People with Chronic Illness. Soc Indic Res 96, 381–401 (2010).</li>
+<li>Cohen, S., Kamarck, T., &amp; Mermelstein, R. (1983). A global measure of perceived stress. Journal of Health and Social Behavior, 24, 385-396.</li>
+</ul>
+<h2 id="babys-first-year">Baby’s First Year</h2>
+<h3 id="overview_4">Overview</h3>
+<p><strong>Full Name</strong>: Baby’s First Years – Benefits/Services/Economic Stress    <br />
+<strong>Acronym/Brief Name</strong>: BFY  <br />
+<strong>Construct</strong>: Benefits/Services/Economic Stress     <br />
+<strong>Description</strong>: 10 Likert Scale questions on economic stress, financial instability, inability to meet basic needs, and benefits or social services received over the past 12 months.    <br />
+<strong>Summary</strong>: Selected questions from the Year 1 protocol of the NIH-funded Baby’s First Years study of infant and child development and originated from the Moving to Opportunity (MTO) study. Assessing economic stress, financial instability, ability to meet basic needs, and benefits/services received. Some slight modifications were made for the HBCD study by removing the Medicaid coverage question asked elsewhere in the study and adding a question asking whether anyone in the family receives free and reduced lunch.</p>
+<h3 id="implementation_4">Implementation</h3>
+<p><strong>Method of Administration</strong>: In Person   <br />
+<strong>REDCap Form Name</strong>: sed_bm_bfy    <br />
+<strong>Pilot Data Dictionary</strong>: BFY-Economic Stress    <br />
+<strong>Spanish Translation</strong>: Publisher BURG   <br />
+<strong>Child Specific/Unspecific Form</strong>: Child Unpecific<br />
+<strong>Respondent:</strong> Parent on Self    </p>
+<h3 id="data-collection_4">Data Collection</h3>
+<p><strong>Visits</strong>: V01 Prenatal      <br />
+<strong>Estimated length of time for completion</strong>: 4 minutes</p>
+<h3 id="quality-control-qc_4">Quality Control (QC)</h3>
+<p><strong>QC Procedures</strong>: Social and Environmental Working Group QC procedures included monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency.<br>
+<strong>Common Issues Identified</strong>: None</p>
+<h3 id="potential-issues-flagged-by-subject-matter-experts_4">Potential Issues Flagged by Subject Matter Experts</h3>
+<p>None</p>
+<h3 id="references_4">References</h3>
+<ul>
+<li>Noble KG, Magnuson K, Gennetian LA, et al. Baby’s first years: design of a randomized controlled trial of poverty reduction in the United States. Pediatrics. 2021;148(4).</li>
+<li>Sanbonmatsu L, Potter NA, Adam E, et al. The long-term effects of moving to opportunity on adult health and economic self-sufficiency. Cityscape. 2012:109-136.</li>
+</ul>
+<h2 id="ehits">eHITS</h2>
+<h3 id="overview_5">Overview</h3>
+<p><strong>Full Name</strong>: BExtended – Hurt, Insult, Threaten, Scream    <br />
+<strong>Acronym/Brief Name</strong>: eHITS  <br />
+<strong>Construct</strong>: Intimate Partner Violence     <br />
+<strong>Description</strong>: Self-administered 5 question Likert scale screener for experiences of psychological aggression, physical assault, sexual coercion, and injury    <br />
+<strong>Summary</strong>: Created for quick administration in a health care setting or emergency department, the eHITS asks individuals to indicate whether their partner has done any of the following over the past 12 months:  physically hurt you, insulted you, threatened to harm you, screamed or cursed at you, or forced you to have sexual activities.</p>
+<h3 id="implementation_5">Implementation</h3>
+<p><strong>Method of Administration</strong>: In Person   <br />
+<strong>REDCap Form Name</strong>: sed_bm_ehits    <br />
+<strong>Pilot Data Dictionary</strong>:        <br />
+<strong>Spanish Translation</strong>: BURG   <br />
+<strong>Child Specific/Unspecific Form</strong>: Child Unpecific<br />
+<strong>Respondent:</strong> Parent on Self    </p>
+<h3 id="data-collection_5">Data Collection</h3>
+<p><strong>Visits</strong>: V01 Prenatal      <br />
+<strong>Estimated length of time for completion</strong>: 2 minutes</p>
+<h3 id="quality-control-qc_5">Quality Control (QC)</h3>
+<p><strong>QC Procedures</strong>: Social and Environmental Working Group QC procedures included monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency. eHITS has a summary score.<br>
+<strong>Common Issues Identified</strong>: None</p>
+<h3 id="potential-issues-flagged-by-subject-matter-experts_5">Potential Issues Flagged by Subject Matter Experts</h3>
+<p>None</p>
+<h3 id="references_5">References</h3>
+<ul>
+<li>Portnoy GA, Haskell SG, King MW, Maskin R, Gerber MR, Iverson KM. Accuracy and Acceptability of a Screening Tool for Identifying Intimate Partner Violence Perpetration among Women Veterans: A Pre-Implementation Evaluation. Womens Health Issues. 2018;28(5):439-445.</li>
+<li>Chan, CC; Chan, YC; Cheung, GOC. Reliability and validity of the "Extended - Hurt, Insult, Threaten, Scream" (E-HITS) screening tool in detecting intimate partner violence in hospital emergency departments in Hong Kong. Hong Kong Journal of Emergency Medicine. 2010;17(2): 110-117.</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../demographics/" class="btn btn-neutral float-left" title="Demographics"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../neurocog_language/" class="btn btn-neutral float-right" title="Neurocognition & Language">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../demographics/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../neurocog_language/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

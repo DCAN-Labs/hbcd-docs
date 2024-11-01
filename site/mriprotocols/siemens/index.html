@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Siemens Protocol - HBCD Data Release</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../../css/custom.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Siemens Protocol";
+        var mkdocs_page_input_path = "mriprotocols/siemens.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> HBCD Data Release
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">About</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Release Notes</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" >Data Measures & Quality Control</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/demographics/">Demographics</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/socenv_determinants/">Social & Environmental Determinants</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/neurocog_language/">Neurocognition & Language</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/eeg/">Electroencephalogram (EEG)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/mri/">Magnetic Resonance Imaging (MRI)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/sensors/">Novel Technologies & Wearable Sensors</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/physhealth/">Physical Health</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/behavior/">Behavior & Caregiver-Child Interaction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Pregnancy & Exposure</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../measures/pregexp/preghealth/">Pregnancy Health</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../measures/pregexp/infant/">Infant Health</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../measures/pregexp/mentalhealth/">Psychiatric Evaluation & History</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../measures/pregexp/substanceuse/">Substance Use</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" >MRI Protocols</a>
+    <ul class="current">
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">Siemens Protocol</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#installation-instructions">Installation Instructions</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#operation-instructions">Operation Instructions</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#update-history">Update History</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#v22-april-19-2024">v2.2 (April 19, 2024)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#v21-june-30-2023">v2.1 (June 30, 2023)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#v20-june-20-2023">v2.0 (June 20, 2023)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#v152-april-1-2023">v1.5.2 (April 1, 2023)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#v151-march-16-2023">v1.5.1 (March 16, 2023)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#v15-january-25-2023">v1.5 (January 25, 2023)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#v141-october-6-2022">v1.4.1 (October 6, 2022)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#v14-august-3-2022">v1.4 (August 3, 2022)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#v13-july-14-2022">v1.3 (July 14, 2022)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#v12-june-28-2022">v1.2 (June 28, 2022)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#v112-june-20-2022">v1.1.2 (June 20, 2022)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#v111-june-16-2022">v1.1.1 (June 16, 2022)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#v11-june-13-2022">v1.1 (June 13, 2022)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#v10-april-19-2022">v1.0 (April 19, 2022)</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#download-v22-sequences">Download v2.2 Sequences</a>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ge/">GE Protocol</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >HBCD BIDS Dataset</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/bids/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/imaging/">Imaging</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/eeg/">EEG</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/motion/">Motion Data</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/phenotypes/">Phenotypes</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Data Processing</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../processing/pipelines/">Pipelines</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../processing/standards/">Pipeline Software Standards</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../processing/processing/">External Processing Documentation</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Change Log</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../changelog/pending/">Pending Updates</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Version History</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.4/">Beta Release 5/V1.4</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.3/">Beta Release 4/V1.3</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.2/">Beta Release 3/V1.2</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.1/">Beta Release 2/V1.1</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.0/">Beta Release 1/V1.0</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">FAQ & Contact</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../faq/">FAQ</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../contact/">Contact</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">HBCD Data Release</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Release Notes</li>
+          <li class="breadcrumb-item">MRI Protocols</li>
+      <li class="breadcrumb-item active">Siemens Protocol</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="siemens-protocol-v22">Siemens Protocol v2.2</h1>
+<h2 id="installation-instructions">Installation Instructions</h2>
+<p>For HBCD sites, please make sure to follow the HBCD protocol upgrade SOP which will help ensure there are records of when each protocol update is applied at your site.</p>
+<p>Before importing the HBCD protocol, please ensure you have received and installed the necessary C2P sequence packages for access to the latest versions of each sequence:</p>
+<ul>
+<li>
+<p><strong><a href="https://www.cmrr.umn.edu/multiband/">Multiband EPI (University of Minnesota) Sequence Download and Installation Instructions</a></strong></p>
+</li>
+<li>
+<p><strong><a href="https://mri-motion-correction-vnav-morphometry.readthedocs-hosted.com/en/nxva30a_162141/requesting.html">vNav Morphometry (University of Pennsylvania) Instructions</a></strong></p>
+</li>
+<li>
+<p><strong>QALAS (Boston Children’s Hospital):</strong> Please contact Borjan Gagoski (Borjan.Gagoski@childrens.harvard.edu)</p>
+</li>
+<li>
+<p><strong>ISTHMUS spectroscopy (Johns Hopkins University):</strong> Please contact Richard Edden (edden@jhu.edu)</p>
+</li>
+</ul>
+<p>Without these C2P packages installed, the protocol cannot be imported.</p>
+<p><strong>IMPORTANT DIRECTIONS BEFORE SEQUENCE INSTALLATION:</strong> Siemens has identified a bug in NXVA30A SP02 (the software baseline used for this study) that may cause your scanner to become non-responsive during the installation of the certificates required for custom sequences. Please ensure you have SP02 SD05 installed on your scanner before proceeding, as this fixes the bug and allows you to install custom sequences.</p>
+<p><strong>IMPORTANT UPGRADE NOTE FOR v2.2</strong> The HBCD vNav Structural sequence package from University of Pennsylvania has been updated since the HBCD v2.1 protocol. To enable full compatibility with the FIRMM tablet, please install the latest version of the HBCD vNav Structural sequence package on your scanner. The latest version can be requested from Dylan Tisdall (mtisdall@pennmedicine.upenn.edu)</p>
+<p><strong>N4VE11C (a.k.a., VE11C) systems</strong></p>
+<p>This software baseline is no longer supported. All scanners must upgrade to NXVA30A SP02 to run the v2.0 or later protocol.</p>
+<p><strong>NXVA30A (a.k.a., XA30) systems</strong></p>
+<ol>
+<li>
+<p>This package can only be installed on systems with the SP02 service pack installed. To confirm this is installed, go to the "?" menu in the top-right corner of the scanner console, then select "About", then click on “System Info”; a window should pop up with the following version information:</p>
+<p>Numaris/X VA30A-03GR<br>
+syngo OAK_v7QR2201</p>
+<p>or</p>
+<p>Numaris/X VA30A-03MV<br>
+syngo OAK_v7QR2301B</p>
+<p>If you double click the "VA30A-03GR" (or “VA30A-03MV”), it shows the build stamp, which should be</p>
+<p>Numaris/X VA30A.Night_20220414.2 C228547</p>
+<p>or</p>
+<p>Numaris/X VA30A.Night_20230910.1 C338286</p>
+<p>If your version and/or build stamp do not match these values, please contact Siemens to upgrade to the SP02 or SP03 service pack.</p>
+</li>
+<li>
+<p>Note that this protocol requires the CS_SPACE, SMS, and SVS licenses from Siemens be activated on your scanner. If you do not have these licenses, protocols will not import or run correctly. HBCD has negotiated group pricing for the CS_SPACE and SVS licenses if you do not already have them activated.</p>
+</li>
+<li>
+<p>Please put the files “DiffusionVectors_HBCD_pe1_03142022.dvs” and “DiffusionVectors_HBCD_pe2_03142022.dvs” into:</p>
+<p>C:\ProgramData\Siemens\Numaris\MriCustomer\CustomerSeq\DiffusionVectorSets\</p>
+<p>Note, the “ProgramData” directory may not be visible in Windows Explorer, but can be accessed by typing the path into the address bar. You may have to create the “DiffusionVectorSets” directory if it does not already exist.</p>
+</li>
+<li>
+<p>If the file does not already exist, please create an empty text file at the location:</p>
+<p>C:\ProgramData\Siemens\Numaris\MriCustomer\MriSiteData\Paradigms\Local\PresentationSystemAvailable.txt</p>
+<p>This file is needed to ensure the pre-configured integration with the FIRMM tablet operates correctly within our protocol.</p>
+</li>
+<li>
+<p>Please import “HBCD_NXVA30A_v2.2_32ch.exar1” and/or “HBCD_NXVA30A_v2.2_64ch.exar1” files, and copy the “HBCD_v2.2_32ch” and/or “HBCD_v2.2_64ch” protocol to your scanner’s sequence tree.</p>
+</li>
+<li>If you have a non-standard installation of your FIRMM tablet, where the tablet has a non-standard IP address or port, please contact Turing for directions on how to update the BOLD Add-In for the structural, fMRI and Diffusion sequences in the protocol to match your specific configuration. As distributed, the HBCD protocol assumes the FIRMM tablet is attached to the default IP address and port.</li>
+</ol>
+<p>The PDF files are for your review, but please do not attempt to recreate the protocol manually from the PDFs.</p>
+<p><strong>REPORTING ISSUES WITH INSTALLATION:</strong> If you encounter issues with the installation of the sequences or study protocol, please submit a LORIS ticket with the following information:</p>
+<ol>
+<li>
+<p>Follow these steps to report discrepancies in scanner software baseline:</p>
+<p>Go to the "?" menu in the top-right corner of the scanner console, then select "About", then click on “System Info”; a window should pop up with the following version information:</p>
+<p>Numaris/X VA30A-03GR<br>
+syngo OAK_v7QR2201</p>
+<p>If you double click the "VA30A-03GR", it shows the build stamp, which should be</p>
+<p>Numaris/X VA30A.Night_20220414.2 C228547</p>
+<p>If the values on your system are not what is listed above, please report the values from your system.</p>
+</li>
+<li>
+<p>Please indicate which of the four certificates you have successfully installed. Certificates are from UMinn/CMRR (EPI sequences), Johns Hopkins/KKI (SVS Sequence), Boston Children's Hospital (QALAS), and University of Pennsylvania (vNav Structural sequences)</p>
+</li>
+<li>Please indicate which of the sequences you have successfully installed: EPI sequences, SVS Sequence, QALAS, vNav Structural sequences</li>
+<li>Please indicate what step in the sequence installation process is failing for you (i.e., which certificate/sequence you're trying to install and how it is failing, what errors you are encountering importing the final v2.x HBCD protocol).</li>
+<li>
+<p>If you believe you have installed the sequences correctly, but are encountering errors importing the v2.x HBCD protocol, please perform the following steps to confirm the sequences are fully installed:
+      a. Open Dot Cockpit
+      b. Browse the DEFAULT &gt; Sequence Region &gt; Customer Sequences &gt; Default directory (accessible in the top left of the Dot Cockpit interface (see figure 1 below)
+      c. Report whether all of the following sequences are listed as available in the right-most Dot Cockpit pane: cmrr_mbep2d_bold, cmrr_mbep2d_diff, cmrr_mdep2d_se, smm_svs_herc_hyper_avg_sp, a_tfl_vnav_hbcd, a_space_vnav_hbcd, tfl_3d_qalas</p>
+</li>
+<li>
+<p>Please provide any additional information and/or further details if your issue is not related to those outlined above.</p>
+</li>
+</ol>
+<p>Figure 1. Check for fully installed sequences in DEFAULT &gt; Sequence Region &gt; Customer Sequences &gt; Default.</p>
+<p><img alt="siemens_fig1" src="../../images/siemens_fig1.png" /></p>
+<h2 id="operation-instructions">Operation Instructions</h2>
+<p>Operation instructions (a.k.a, SOP) can be found <a href="https://hbcdstudy.atlassian.net/wiki/pages/viewpageattachments.action?pageId=85033234">here</a></p>
+<h2 id="update-history">Update History</h2>
+<h3 id="v22-april-19-2024">v2.2 (April 19, 2024)</h3>
+<ul>
+<li>anat-t1w and anat-t2w now have the BOLD Add-In to enable connection to FIRMM</li>
+<li>fMRI and DWI scans have now all be configured to auto-open the inline display</li>
+<li>anat-t2w had its B0 Shim set to Standard</li>
+</ul>
+<h3 id="v21-june-30-2023">v2.1 (June 30, 2023)</h3>
+<ul>
+<li>SVS localizer protocols (axial and coronal) have been updated to reduce SAR:<ul>
+<li>RF Pulse Type: Normal -&gt; Low SAR</li>
+<li>Allowed Delay: 0 s -&gt; 30 s</li>
+<li>[Axial] TR: 4630 ms -&gt; 4700 ms</li>
+<li>[Coronal] TR: 1700 ms -&gt; 1800 ms</li>
+</ul>
+</li>
+<li>Coronal SVS localizer had its shim region set to automatic (and erroneously been set to a custom manual shim region before)</li>
+<li>anat-t1w had its TI changed from 1100 ms to 1060 ms (this had been incorrectly set in v2.0)</li>
+</ul>
+<h3 id="v20-june-20-2023">v2.0 (June 20, 2023)</h3>
+<ul>
+<li>[N4VE11] N4VE11 is no longer supported. All scanners must be upgraded to NXVA30A SP02 to run the v2.0 protocol.</li>
+<li>[NXVA30] DWI protocol was modified:<ul>
+<li>Prescan Normalize turned on (Normalize -&gt; Prescan)</li>
+<li>Dummy scans enabled before reference scans to reduce motion artifacts</li>
+</ul>
+</li>
+<li>[NXVA30] SVS localizer protocol has been overhauled to improve registration with the structural scans in the spectroscopy analysis pipeline. SVS localizer was previously a single scan, but is now two separate scans: anat-t2w_desc-mrsLocAX and anat-t2w_desc-mrsLocCOR.</li>
+<li>[NXVA30] Separate SVS and HERCULES spectroscopy scans have now all been merged into a single sequence (ISTHMUS).</li>
+<li>[NXVA30] T2 structural sequence has been updated to improve contrast in infants based on consensus recommendation of the Structural MRI WG. Key changes include TR, TE, and echo train length.</li>
+<li>[NXVA30] T1 structural sequence has been updated to use compressed sensing acceleration to reduce scan time (previous versions used GRAPPA).</li>
+<li>[NXVA30] T1 and T2 structural sequences now have embedded vNavs that capture motion information during the scans.</li>
+<li>[NXVA30] T1 and T2 structural sequences now have distortion correction turned off (was previously set to 3D and saved separate uncorrected series).</li>
+<li>[NXVA30] There are now only 2 repetitions of the EPI field mapping sequences during the fMRI block (previously field mapping was repeated 3 times).</li>
+</ul>
+<h3 id="v152-april-1-2023">v1.5.2 (April 1, 2023)</h3>
+<ul>
+<li>[N4VE11] There are no changes to the N4VE11 protocol, so it remains at v1.4 but is included in the v1.5.1 directory.</li>
+<li>[NXVA30] The DWI protocol was again modified to have all derived images disabled except for FA Map. We previously tried to disable all derived images (see v1.5). However, a bug in the DWI sequence causes all derived images to be reenabled whenever the protocol is opened, unless at least one derived image is selected.</li>
+</ul>
+<h3 id="v151-march-16-2023">v1.5.1 (March 16, 2023)</h3>
+<ul>
+<li>[N4VE11] There are no changes to the N4VE11 protocol, so it remains at v1.4 but is included in the v1.5.1 directory.</li>
+<li>[NXVA30] Copy references settings were corrected for spectroscopy sequences in 32-channel protocol. Previously some scans copied the incorrect information, leading to runtime errors.</li>
+<li>[NXVA30] To assist in reproducible subject registration, the protocol folders have been set to:<ul>
+<li>Table Mode -&gt; Fixed</li>
+<li>Anatomy -&gt; Brain</li>
+</ul>
+</li>
+</ul>
+<h3 id="v15-january-25-2023">v1.5 (January 25, 2023)</h3>
+<ul>
+<li>[N4VE11] There are no changes to the N4VE11 protocol, so it remains at v1.4 but is included in the v1.5 directory.</li>
+<li>[NXVA30] Sequences were renamed to match their primary BIDS output</li>
+<li>[NXVA30] The following protocol changes were made to DWI scans:<ul>
+<li>Prescan Normalize turned off (Normalize -&gt; Off)</li>
+<li>All derived images (e.g., FA Map) turned off on Diff card</li>
+<li>Fat Saturation mode changed to enable RF saturation (Fat-Water Contrast -&gt; Fat Saturation)</li>
+</ul>
+</li>
+<li>[NXVA30] The following protocol changes were made to fMRI and topup scans to harmonize across vendors:<ul>
+<li>FoV Read -&gt; 224 mm</li>
+<li>Base Resolution -&gt; 112</li>
+<li>Echo Spacing -&gt; 0.54 ms</li>
+<li>Bandwidth -&gt; 2350 Hz/px</li>
+</ul>
+</li>
+<li>[NXVA30] The SVS Localizer had its coronal slices increased from 1 to 5 to support better localization of relevant anatomy.</li>
+<li>[NXVA30] QALAS protocol changes:<ul>
+<li>Distortion Correction -&gt; Off</li>
+<li>Image Scaling -&gt; 3.0</li>
+</ul>
+</li>
+</ul>
+<h3 id="v141-october-6-2022">v1.4.1 (October 6, 2022)</h3>
+<ul>
+<li>[N4VE11] There are no changes to the N4VE11 protocol, so it remains at v1.4 but is included in the v1.4.1 directory.</li>
+<li>[NXVA30] Corrected the automatic FOV-copying links for resting state fMRI in 32-channel protocol.</li>
+<li>[NXVA30] Added the "Set Strategy To Fixed" step to the start of the protocols, ensuring that the table remains stationary for the duration of the scan session.</li>
+<li>[NXVA30] Added the "BOLD add in" to the fMRI and DWI scans, pre-populated with default information to enable support for the FIRMM tablet.</li>
+</ul>
+<h3 id="v14-august-3-2022">v1.4 (August 3, 2022)</h3>
+<ul>
+<li>First release at NXVA30A</li>
+<li>[NXVA30] T2w_SPACE now uses CS factor of 4 instead of 2x2 GRAPPA</li>
+<li>[NXVA30 and N4VE11] Now include up-to-date diffusion direction files with the protocol. Also confirmed that diffusion protocol is using these up-to-date direction files.</li>
+<li>[NXVA30 and N4VE11] Changed default location of SVS voxel to isocenter and default alignment to transversal.</li>
+</ul>
+<h3 id="v13-july-14-2022">v1.3 (July 14, 2022)</h3>
+<ul>
+<li>Localizer_SVS has been changed to a HASTE-based protocol.</li>
+</ul>
+<h3 id="v12-june-28-2022">v1.2 (June 28, 2022)</h3>
+<ul>
+<li>SpinEchoFieldMap_AP, SpinEchoFieldMap_PA, and rfMRI_REST_PA, had the following adjustments to prevent triggering the peripheral nerve stimulation model:<ul>
+<li>FOV 216 mm</li>
+<li>Matrix Size 108 pixels</li>
+<li>Bandwidth 2204 Hz/Px</li>
+<li>Echo Spacing 0.56 ms</li>
+</ul>
+</li>
+<li>QALAS3d_1p3mm_R2 had its FOV unlinked from T2w_SPACE, and is now set manually. tfl_b1map is now set to default its FOV to follow QALAS3d_1p3mm.</li>
+</ul>
+<h3 id="v112-june-20-2022">v1.1.2 (June 20, 2022)</h3>
+<ul>
+<li>SpinEchoFieldMap_AP, SpinEchoFieldMap_PA, and rfMRI_REST_PA, corrected to have pure axial orientation for FOV (was previously angled T &gt; C).</li>
+</ul>
+<h3 id="v111-june-16-2022">v1.1.1 (June 16, 2022)</h3>
+<ul>
+<li>DWI_pe2_AP correct to no longer wait for user before starting; this was missed in the previous v1.1 release.</li>
+<li>Corrected Localizer_SVS to have “Body part examined” set to “Brain”. This was missed in the previous v1.1 release.</li>
+</ul>
+<h3 id="v11-june-13-2022">v1.1 (June 13, 2022)</h3>
+<ul>
+<li>Replaced Localizer with Localizer_quiet, based on Baby Connectome Project localizer (with addition of "Acoustic Noise Reduction" filter) to reduce acoustic noise.</li>
+<li>FOV for QALAS3d_1p3mm_R2, tfl_b1map, and T1w_MPR have now been set to default to follow the FOV for T2w_SPACE.</li>
+<li>DWI_pe1_AP and DWI_pe2_AP have now been set to use their FOV as the default shim volume (was previously a manual volume).</li>
+<li>FOV of DWI_pe2_AP has now been set to default to follow FOV for DWI_pe1_AP.</li>
+<li>Default FOV of DWI scans has been moved to L0 P0 H6, matching initial fMRI FOV.</li>
+<li>PRESS35 and HERC sequences have now been set to use their voxel as the default shim volume (was previously a manual volume).</li>
+<li>PRESS35_unsupp and HERC_unsupp now have parameter Sequence &gt; Common &gt; Delta frequency set to 0.0 ppm (was previously -1.7 ppm).</li>
+<li>Voxel of PRESS35_unsupp, HERC, and HERC_unsupp have now been set to follow the voxel for PRESS35.</li>
+<li>Added Localizer_SVS before PRESS35 scan, to provide anatomical localizer for SVS sequence. This sequence is somewhat louder than Localizer_quiet, but is shorter and has greater axial coverage.</li>
+<li>In 64-channel protocol, tfl_b1map was moved up in scan order to follow QALAS3d_1p3mm_R2 (now matches 32-channel protocol). </li>
+<li>"Wait for start" has been removed from all sequences to ensure back-to-back play-through, minimizing silent "gaps".</li>
+<li>Positioning mode of all sequences has been set to FIX (previously had mix of REF and FIX modes)</li>
+<li>T2w_SPACE now has filter mode set explicitly, removing dependence on "implicit filter" settings on individual scanners.</li>
+<li>T2w_SPACE now has default image scaling set to 2 (was previously 1)</li>
+<li>DWI_pe1_AP and DWI_pe2_AP had their TEs set to 88 ms (was previously 87.40 ms)</li>
+<li>All scans have "Body part examined" set to "Brain".</li>
+</ul>
+<h3 id="v10-april-19-2022">v1.0 (April 19, 2022)</h3>
+<p>Initial release.</p>
+<h2 id="download-v22-sequences">Download v2.2 Sequences</h2>
+<p><a href="../v2.2_sequences/siemens/HBCD_v2.2_32ch.pdf">HBCD_v2.2_32ch.pdf</a><br>
+<a href="../v2.2_sequences/siemens/HBCD_v2.2_64ch.pdf">HBCD_v2.2_64ch.pdf</a><br>
+<a href="../v2.2_sequences/siemens/HBCD_v2.2_32ch.exar1">HBCD_v2.2_32ch.exar1</a><br>
+<a href="../v2.2_sequences/siemens/HBCD_v2.2_64ch.exar1">HBCD_v2.2_64ch.exar1</a><br>
+<a href="../v2.2_sequences/siemens/DiffusionVectors_HBCD_pe1_03142022.dvs">DiffusionVectors_HBCD_pe1_03142022.dvs</a><br>
+<a href="../v2.2_sequences/siemens/DiffusionVectors_HBCD_pe2_03142022.dvs">DiffusionVectors_HBCD_pe2_03142022.dvs</a></p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../../measures/pregexp/substanceuse/" class="btn btn-neutral float-left" title="Substance Use"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../ge/" class="btn btn-neutral float-right" title="GE Protocol">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../../measures/pregexp/substanceuse/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../ge/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Neurocognition & Language - HBCD Data Release</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../../css/custom.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Neurocognition \u0026 Language";
+        var mkdocs_page_input_path = "measures/neurocog_language.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> HBCD Data Release
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">About</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Release Notes</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" >Data Measures & Quality Control</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../demographics/">Demographics</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../socenv_determinants/">Social & Environmental Determinants</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">Neurocognition & Language</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#multilingual-language-development-screener">Multilingual Language Development Screener</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#overview">Overview</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#implementation">Implementation</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#data-collection">Data Collection</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#quality-control-qc">Quality Control (QC)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#potential-issues-flagged-by-subject-matter-experts">Potential Issues Flagged by Subject Matter Experts</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../eeg/">Electroencephalogram (EEG)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../mri/">Magnetic Resonance Imaging (MRI)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../sensors/">Novel Technologies & Wearable Sensors</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../physhealth/">Physical Health</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../behavior/">Behavior & Caregiver-Child Interaction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Pregnancy & Exposure</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/preghealth/">Pregnancy Health</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/infant/">Infant Health</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/mentalhealth/">Psychiatric Evaluation & History</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/substanceuse/">Substance Use</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >MRI Protocols</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../mriprotocols/siemens/">Siemens Protocol</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../mriprotocols/ge/">GE Protocol</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >HBCD BIDS Dataset</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/bids/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/imaging/">Imaging</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/eeg/">EEG</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/motion/">Motion Data</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/phenotypes/">Phenotypes</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Data Processing</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../processing/pipelines/">Pipelines</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../processing/standards/">Pipeline Software Standards</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../processing/processing/">External Processing Documentation</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Change Log</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../changelog/pending/">Pending Updates</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Version History</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.4/">Beta Release 5/V1.4</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.3/">Beta Release 4/V1.3</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.2/">Beta Release 3/V1.2</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.1/">Beta Release 2/V1.1</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.0/">Beta Release 1/V1.0</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">FAQ & Contact</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../faq/">FAQ</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../contact/">Contact</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">HBCD Data Release</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Release Notes</li>
+          <li class="breadcrumb-item">Data Measures & Quality Control</li>
+      <li class="breadcrumb-item active">Neurocognition & Language</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="neurocognition-language">Neurocognition &amp; Language</h1>
+<h2 id="multilingual-language-development-screener">Multilingual Language Development Screener</h2>
+<h3 id="overview">Overview</h3>
+<p><strong>Full Name</strong>: Multilingual Language Development Screener  <br />
+<strong>Acronym/Brief Name</strong>: MLDS  <br />
+<strong>Construct</strong>: Multilingual exposure     <br />
+<strong>Description</strong>: This measure is assessing the child’s exposure to languages and whether there are concerns about the child’s hearing. A series of forced choice questions were used to elicit the responses and slide scales were used to assess the percentage of time a child is exposed to a given language in their various environments (i.e., home, daycare, other family member household, babysitter). Up to ten non-parental childcare arrangements were sampled. The measure was designed to inform the site’s assessment team prior to assessments related to neurocognitive and language functioning. Responses are used to determine who was able to conduct the cognitive and language assessments (i.e., English or Spanish speaking) and to document additional challenges to completing assessments (hearing impairment, other languages). This was a questionnaire developed specifically for HBCD to inform assessment process. Caregivers opt for their child’s assessment to be performed in either English or Spanish for in person performance tasks (i.e., NIH Baby Toolbox, Bayley-4, or Deferred Imitation) by selecting between a forced choice of English or Spanish. For the MacArthur-Bates Communicative Development Inventories (CDI), an algorithm was used to determine if the CDI is done in English only, English and Spanish,  English only, or not at all. <br />
+<strong>Summary</strong>: This instrument involves a series of questionnaires that assess parental concern regarding the child’s hearing and the presence of English, Spanish, or Other languages in the child’s home and childcare environments. </p>
+<p><strong>General Scoring Description and Procedure</strong>  </p>
+<p><em>Non-parental childcare arrangements:</em> </p>
+<p>For up to 10 non-parental childcare arrangements, total days per week and total hours per day were calculated from the sum of days/week and hours/day, respectively, spent in non-parental childcare arrangements: <code>Daycare</code>, <code>With Babysitter</code>, <code>With other family members outside of the household</code>, and <code>Other non-parental childcare arrangement</code>.</p>
+<p>Frequency of English and Spanish was quantified for each environment as follows:</p>
+<ul>
+<li>only in Spanish: child’s language environment has &gt;= 30% Spanish AND &lt; 30% English</li>
+<li>only in English: child’s language environment has &gt;= 30% English AND &lt; 30% Spanish</li>
+<li>in both languages (still pending Steering Committee voting): child’s language environment has &gt;= 30% Spanish AND &gt;= 30% English</li>
+<li>neither Spanish nor English: child’s language environment has &lt; 30% Spanish AND &lt; 30% Englis</li>
+</ul>
+<p>The total frequency of Spanish and English was then computed by multiplying the percentage of English and Spanish language provided per environment by the total hours per week in both the home and other care environments. The values are provided for home and for the overall total child experience, combining home and other care environments.</p>
+<h3 id="implementation">Implementation</h3>
+<p><strong>Method of Administration</strong>: This measure is completed remotely by caregivers prior to when cognitive and language assessments will be performed. If the caregiver does not complete the assessment remotely, it is conducted at the visit to document the child’s language exposure environments. The instrument can be administered by an RA in person or via video as needed.  <br />
+<strong>REDCap Form Name</strong>: Child Language Exposure Survey  <br />
+<strong>Pilot Data Dictionary</strong>: ncl_ch_mlds<br />
+<strong>Spanish Translation</strong>: Existing <br />
+<strong>Child Specific/Unspecific Form</strong>: Child Specific<br />
+<strong>Respondent:</strong> Primary caregiver of the child</p>
+<h3 id="data-collection">Data Collection</h3>
+<p><strong>Visits Administered and corresponding age range of administration</strong>: V3, V4, V5, V6, V7, V8<br />
+<strong>Estimated length of time for completion</strong>: 3-10 minutes</p>
+<h3 id="quality-control-qc">Quality Control (QC)</h3>
+<p><strong>QC Procedures:</strong> Frequency of decline to answer and completeness was monitored during data collection.      <br />
+<strong>Common Issues Identified:</strong> Initial data shows that about 10% of questionnaires were not complete.</p>
+<h3 id="potential-issues-flagged-by-subject-matter-experts">Potential Issues Flagged by Subject Matter Experts</h3>
+<p>None</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../socenv_determinants/" class="btn btn-neutral float-left" title="Social & Environmental Determinants"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../eeg/" class="btn btn-neutral float-right" title="Electroencephalogram (EEG)">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../socenv_determinants/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../eeg/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

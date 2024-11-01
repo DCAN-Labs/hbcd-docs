@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Pipeline Software Standards - HBCD Data Release</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../../css/custom.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Pipeline Software Standards";
+        var mkdocs_page_input_path = "processing/standards.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> HBCD Data Release
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">About</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Release Notes</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" >Data Measures & Quality Control</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/demographics/">Demographics</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/socenv_determinants/">Social & Environmental Determinants</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/neurocog_language/">Neurocognition & Language</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/eeg/">Electroencephalogram (EEG)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/mri/">Magnetic Resonance Imaging (MRI)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/sensors/">Novel Technologies & Wearable Sensors</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/physhealth/">Physical Health</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/behavior/">Behavior & Caregiver-Child Interaction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Pregnancy & Exposure</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../measures/pregexp/preghealth/">Pregnancy Health</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../measures/pregexp/infant/">Infant Health</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../measures/pregexp/mentalhealth/">Psychiatric Evaluation & History</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../measures/pregexp/substanceuse/">Substance Use</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >MRI Protocols</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../mriprotocols/siemens/">Siemens Protocol</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../mriprotocols/ge/">GE Protocol</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >HBCD BIDS Dataset</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/bids/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/imaging/">Imaging</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/eeg/">EEG</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/motion/">Motion Data</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/phenotypes/">Phenotypes</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" >Data Processing</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../pipelines/">Pipelines</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">Pipeline Software Standards</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#documentation">Documentation</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#nmind-documentation-checklist">NMIND Documentation Checklist</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#webpage-for-documentation">Webpage For Documentation</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#infrastructure">Infrastructure</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#nmind-infrastructure-checklist">NMIND Infrastructure Checklist</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#licensing-and-obtaining-a-doi">Licensing and Obtaining a DOI</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#versioning-and-new-release-policies">Versioning and New Release Policies</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#testing-ability">Testing Ability</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#nmind-testing-checklist">NMIND Testing Checklist</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../processing/">External Processing Documentation</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Change Log</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../changelog/pending/">Pending Updates</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Version History</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.4/">Beta Release 5/V1.4</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.3/">Beta Release 4/V1.3</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.2/">Beta Release 3/V1.2</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.1/">Beta Release 2/V1.1</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.0/">Beta Release 1/V1.0</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">FAQ & Contact</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../faq/">FAQ</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../contact/">Contact</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">HBCD Data Release</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Release Notes</li>
+          <li class="breadcrumb-item">Data Processing</li>
+      <li class="breadcrumb-item active">Pipeline Software Standards</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="processing-and-analytic-software-standards">Processing and Analytic Software Standards</h1>
+<p>The following guidelines were presented to the HBCD pipeline developers and working groups, along with community developers, wishing to include their tools as part of the HBCD release environment to ensure standardization of HBCD software and documentation. These guidelines were developed based on principles and utilities developed by <a href="https://www.nmind.org/about">NMIND</a> to foster reproducibility and standardization of tools within the field of neuroimaging (<a href="https://www.nature.com/articles/s41562-023-01647-0">Kiar et. al 2023</a>). This includes the <a href="https://www.nmind.org/standards-checklist/">NMIND Coding Standards Checklist</a>, a rating system to assess the quality of documentation, infrastructure, and testing ability of neuroimaging software. </p>
+<p>Developers were instructed to complete the checklist and open a pull request in the <a href="https://github.com/nmind/proceedings">proceedings repository</a> (with the exported JSON associated with the tool) for external review. Issues or feature requests for  this utility can be posted as an issue to the NMIND <a href="https://github.com/nmind/standards-checklist">GitHub repository</a>! </p>
+<p>At minimum, equivalent standards to the Bronze badge in the rating system are required. Items not relevant can be ignored/circumvented. For example, providing software dependencies is not as critical because all HBCD software is required to be containerized. Developers were instructed to user their best judgment regarding the relevance of each item to their specific software.</p>
+<h2 id="documentation">Documentation</h2>
+<h3 id="nmind-documentation-checklist">NMIND Documentation Checklist</h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Landing page (e.g., GitHub README, website) provides a link to documentation and brief description of what program does</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Documentation is up to date with version of software</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Typical intended usage is described</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> An example of its usage is shown</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Document functions intended to be used by users (i.e., public function docstring / help coverage ≥ 10%)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Description of required input parameters for user-facing functions with reasonable description of inputs (i.e., "NIfTI of brain mask in MNI" vs. "An image file")</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Description of output(s)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> User installation instructions available</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Dependencies listed (i.e., external and within-language requirements)</li>
+</ul>
+<h3 id="webpage-for-documentation">Webpage For Documentation</h3>
+<p>In addition to the general guidelines provided by the checklist, each pipeline is required to have living documentation made available via a web page using utilities such as <a href="https://about.readthedocs.com/?ref=readthedocs.com">ReadtheDocs</a>, <a href="https://pages.github.com/?(null)">GitHub Pages</a>, <a href="https://support.microsoft.com/en-us/office/create-and-edit-a-wiki-dc64f9c2-d1a2-44b5-ac59-b9d535551a32">Wiki</a>, etc. This allows for information to stay up-to-date as compared to a publication and also is easier to navigate than a simple GitHub README given the depth of information typically required for image processing pipelines. </p>
+<p>We recommended using the <a href="https://fmriprep.org/en/stable/">fMRIPrep ReadtheDocs</a> as a guide for overall organization and what level of detail each section should ideally include. </p>
+<h2 id="infrastructure">Infrastructure</h2>
+<h3 id="nmind-infrastructure-checklist">NMIND Infrastructure Checklist</h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Code is open source  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Package is under version control  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Readme is present  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> License is present (see more details in following section)  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Issues tracking is enabled (i.e., either through GitHub or external site)  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Digital Object Identifier (DOI) points to latest version (e.g., Zenodo)  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> All documented installation instructions can be successfully followed</li>
+</ul>
+<h3 id="licensing-and-obtaining-a-doi">Licensing and Obtaining a DOI</h3>
+<p>All included software require a <a href="https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository">license</a> and also a DOI for software publication. Internal pipelines to HBCD might be leveraged for release data prior to publication. For pipelines without an associated scientific article yet that can be cited, developers obtained a DOI by self-publishing on <a href="https://cdnis-brain.readthedocs.io/zenodo/">Zenodo</a>. Software provided for HBCD releases from non-HBCD PIs will be required to be peer reviewed and published along with the DOI. <br />
+All software is required to run on BIDS input data or currently available HBCD derivatives as provided in the most current HBCD release. </p>
+<h3 id="versioning-and-new-release-policies">Versioning and New Release Policies</h3>
+<p>Beyond basic version control in GitHub, developers are instructed to tag new releases that are associated with specific versions of the repository whenever a large update (or large number of updates) has been made. The new tagged release should also include a change log that carefully documents the differences between the new and prior version.</p>
+<p>Developers may also wish to decide on a standard release cycle as well as special cases/parameters which warrant a new release (e.g. a serious bug fix that needs to be implemented in version ASAP). Ideally there would be documentation around which versions are expected to receive long-term support vs versions that will be deprecated and the timeline for deprecation.</p>
+<h2 id="testing-ability">Testing Ability</h2>
+<h3 id="nmind-testing-checklist">NMIND Testing Checklist</h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Provide / generate / point to test data**  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Provide instructions for users to run tests that include instructions for evaluation for correct behavior</li>
+</ul>
+<p>**Note that standards for testing ability may not be relevant to or high-priority for all processing pipelines used by HBCD. Additionally, depending on how specialized a given application is for HBCD, making test data openly available that is representative of the workflow is likely not possible. </p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../pipelines/" class="btn btn-neutral float-left" title="Pipelines"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../processing/" class="btn btn-neutral float-right" title="External Processing Documentation">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../pipelines/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../processing/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

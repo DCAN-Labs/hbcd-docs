@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Behavior & Caregiver-Child Interaction - HBCD Data Release</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../../css/custom.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Behavior \u0026 Caregiver-Child Interaction";
+        var mkdocs_page_input_path = "measures/behavior.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> HBCD Data Release
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">About</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Release Notes</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" >Data Measures & Quality Control</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../demographics/">Demographics</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../socenv_determinants/">Social & Environmental Determinants</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../neurocog_language/">Neurocognition & Language</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../eeg/">Electroencephalogram (EEG)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../mri/">Magnetic Resonance Imaging (MRI)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../sensors/">Novel Technologies & Wearable Sensors</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../physhealth/">Physical Health</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">Behavior & Caregiver-Child Interaction</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#ibq-r-vsfbi">IBQ-R (VSF)+BI</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#overview">Overview</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#implementation">Implementation</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#data-collection">Data Collection</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#quality-control-qc">Quality Control (QC)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#potential-issues-flagged-by-subject-matter-experts">Potential Issues Flagged by Subject Matter Experts</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#additional-information">Additional Information</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#references">References</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#maps-tl">MAPS-TL</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#overview_1">Overview</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#implementation_1">Implementation</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#data-collection_1">Data Collection</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#quality-control-qc_1">Quality Control (QC)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#potential-issues-flagged-by-subject-matter-experts_1">Potential Issues Flagged by Subject Matter Experts</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#references_1">References</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#ecpromis-child-caregiver-interaction">ecPROMIS Child-Caregiver Interaction</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#overview_2">Overview</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#implementation_2">Implementation</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#data-collection_2">Data Collection</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#quality-control-qc_2">Quality Control (QC)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#potential-issues-flagged-by-subject-matter-experts_2">Potential Issues Flagged by Subject Matter Experts</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#additional-information_1">Additional Information</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#references_2">References</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Pregnancy & Exposure</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/preghealth/">Pregnancy Health</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/infant/">Infant Health</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/mentalhealth/">Psychiatric Evaluation & History</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/substanceuse/">Substance Use</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >MRI Protocols</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../mriprotocols/siemens/">Siemens Protocol</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../mriprotocols/ge/">GE Protocol</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >HBCD BIDS Dataset</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/bids/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/imaging/">Imaging</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/eeg/">EEG</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/motion/">Motion Data</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/phenotypes/">Phenotypes</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Data Processing</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../processing/pipelines/">Pipelines</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../processing/standards/">Pipeline Software Standards</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../processing/processing/">External Processing Documentation</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Change Log</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../changelog/pending/">Pending Updates</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Version History</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.4/">Beta Release 5/V1.4</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.3/">Beta Release 4/V1.3</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.2/">Beta Release 3/V1.2</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.1/">Beta Release 2/V1.1</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.0/">Beta Release 1/V1.0</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">FAQ & Contact</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../faq/">FAQ</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../contact/">Contact</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">HBCD Data Release</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Release Notes</li>
+          <li class="breadcrumb-item">Data Measures & Quality Control</li>
+      <li class="breadcrumb-item active">Behavior & Caregiver-Child Interaction</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="behavior-caregiver-child-interaction">Behavior &amp; Caregiver-Child Interaction</h1>
+<h2 id="ibq-r-vsfbi">IBQ-R (VSF)+BI</h2>
+<h3 id="overview">Overview</h3>
+<p><strong>Full Name</strong>: Infant Behavior Questionnaire – Revised Very Short Form + Behavior Inhibition<br />
+<strong>Acronym/Brief Name</strong>: IBQ<br />
+<strong>Construct</strong>: Temperamental Surgency, Negative Affect, Effortful Control, and Behavioral Inhibition<br />
+<strong>Description</strong>: The IBQ-R VSF is a caregiver report form used to assess temperamental reactivity and regulation in infancy. It is adapted from the well validated IBQ-R Very Short Form, with additional items reflecting Behavioral Inhibition from the long form of the IBQ-R. Caregivers are asked to report on the infant’s behaviors on a 7-point Likert scale ranging from 1 (never) to 7 (always). For the purposes of HBCD, the measure consists of 4 scale domains: surgency (13 items), negative affect (12 items), effortful control (12 items), and behavioral inhibition (13 items).<br />
+<strong>Summary</strong>: The IBQ provides a comprehensive assessment of early temperament, focusing on key traits that influence development and behavior during the early years.</p>
+<p><strong>General Scoring Description and Procedure</strong>:<br />
+The IBQ-R+BI is scored in 4 domains: Surgency, Negative Affect, Effortful Control, Behavioral Inhibition. Respondents report on the frequency of infant’s behavior using the following scale:  </p>
+<blockquote>
+<blockquote>
+<p>1 - Never <br />
+2 - Very rarely <br />
+3 - Less than half the time    <br />
+4 - About half the time <br />
+5 - More than half the time <br />
+6 - Almost always <br />
+7 - Always <br />
+8 - (Does not apply/missing)</p>
+</blockquote>
+</blockquote>
+<p>Scale scores represent the mean score of all scale items applicable to the child, as judged by the caregiver and are computed as follows:</p>
+<ol>
+<li>Sum all numerical item responses for a given scale. Note that:<ul>
+<li>If caregiver omitted an item, that item receives no numerical score</li>
+<li>If caregiver checked the "does not apply" or “choose not to respond” response option for an item, that item receives no numerical score  </li>
+</ul>
+</li>
+<li>Divide the total by the number of items receiving a numerical response  </li>
+<li>Do not include items marked “does not apply (N/A)” or “choose not to respond” in determining the number of items.  </li>
+<li>If &gt;40% of items from a scale are missing (i.e., there are only 7/12 completed responses in a scale), it is not possible to score the individual domain  </li>
+</ol>
+<p>For example, given a sum of 47 for a scale of 12 items, with one item receiving no response, two items marked "does not apply," and 9 items receiving a numerical response, the sum of 47 would be divided by 9 to yield a mean of 5.22 for the scale score. Items with an “R” are reverse scored and already implemented in the HBCD scoring algorithm.</p>
+<h3 id="implementation">Implementation</h3>
+<p><strong>Method of Administration</strong>: remote survey<br />
+<strong>REDCap Form Name</strong>: mh_cg_ibqr<br />
+<strong>Pilot Data Dictionary</strong>: IBQ<br />
+<strong>Spanish Translation</strong>: Existing<br />
+<strong>Child Specific/Unspecific Form</strong>: Child Specific<br />
+<strong>Respondent</strong>: Caregiver</p>
+<h3 id="data-collection">Data Collection</h3>
+<p><strong>Visits Administered and corresponding age range of administration</strong>: V03, V05, validated for ages 3 months 0 days to 17 months 30 days (for HBCD purposes)<br />
+<strong>Estimated length of time for completion</strong>: Approximately 7-10 minutes     </p>
+<h3 id="quality-control-qc">Quality Control (QC)</h3>
+<p><strong>QC Procedures</strong>:</p>
+<ul>
+<li>Examine the range of the child’s age to ensure that it falls in the age range 3 to 18 months</li>
+<li>Examine missingness. Count the number of items answered for each participant</li>
+<li>Calculate sum scores and means applying appropriate rules to account formissing data</li>
+<li>Generate summary statistics and visualizations for item-level frequencies, age, and scores</li>
+<li>Calculate Cronbach's Alpha for reliability  </li>
+</ul>
+<p><strong>Common Issues Identified</strong>:  <br />
+Scoring not accurately applied to observations with missing responses and incorrect administration ages, missing data patterns that may be site specific.</p>
+<h3 id="potential-issues-flagged-by-subject-matter-experts">Potential Issues Flagged by Subject Matter Experts</h3>
+<p>None</p>
+<h3 id="additional-information">Additional Information</h3>
+<ul>
+<li><a href="https://research.bowdoin.edu/rothbart-temperament-questionnaires">Mary Rothbart's Temperament Questionnaires</a></li>
+</ul>
+<h3 id="references">References</h3>
+<ul>
+<li>Gartstein, M. A., &amp; Rothbart, M. K. (2003). Studying infant temperament via the Revised Infant Behavior Questionnaire. Infant Behavior and Development, 26 (1), 64-86.</li>
+<li>Putnam, S. P., Helbig, A. L., Gartstein, M. A., Rothbart, M. K. &amp; Leerkes, E. (2014). Development and Assessment of Short and Very Short Forms of the Infant Behavior Questionnaire-Revised. Journal of Personality Assessment, 96, 445-458.</li>
+<li>Rothbart, M. K. (1981). Measurement of temperament in infancy. Child Development, 52, 569-578.</li>
+</ul>
+<h2 id="maps-tl">MAPS-TL</h2>
+<h3 id="overview_1">Overview</h3>
+<p><strong>Full Name</strong>: Multidimensional Assessment Profiles - Temper Loss scale.<br />
+<strong>Acronym/Brief Name</strong>: MAPS-TL<br />
+<strong>Construct</strong>: Irritability<br />
+<strong>Description</strong>: Multidimensional Assessment Profiles- Temper Loss scale (MAPS-TL) is a well-validated survey assessing irritability that serves as a tool for characterizing the developmental expression of early mental health risk. MAPS-TL measures a range of behaviors that encompass dysregulation, responsiveness to environmental input, and context. Questions inquire about the behaviors of the focal child over the past month. Irritability has been identified as an early dimensional marker of lifespan mental health risk. MAPS-TL aims to delineate the typical:atypical spectrum of irritability in early childhood and identify those young children at high probability of subsequent adaptational problems based on problems with dysregulation. </p>
+<p><strong>General Scoring Description and Procedure</strong>:<br />
+Sum scores are computed by the following method:</p>
+<ol>
+<li>If a caregiver answers all 17 items, sum all numerical item responses. Each item is answered on a scale of 1-6:<blockquote>
+<blockquote>
+<p>1 - Never <br />
+2 - Rarely (Less than once per week) <br />
+3 - Some (1-3) days of the week   <br />
+4 - Most (4-6) days of the week <br />
+5 - Every day of the week <br />
+6 - Many times each day</p>
+</blockquote>
+</blockquote>
+</li>
+<li>Items are marked as missing if the caregiver does not enter a value of 1 to 6. When items are missing, as long as at least 9 items have responses, a prorated score is generated: <code>(sum of items answered/the number of items answered)*17</code></li>
+<li>If a caregiver answers less than 9 items, the sum score is marked as missing</li>
+</ol>
+<h3 id="implementation_1">Implementation</h3>
+<p><strong>Method of Administration</strong>: This questionnaire is to be filled out by the child’s caregiver in a remote setting. Questions inquire about the behaviors of the focal child over the past month.<br />
+<strong>REDCap Form Name</strong>: N/A<br />
+<strong>Pilot Data Dictionary</strong>: N/A<br />
+<strong>Spanish Translation</strong>: Yes<br />
+<strong>Child Specific/Unspecific Form</strong>: Child Specific<br />
+<strong>Respondent:</strong> Primary Caregiver</p>
+<h3 id="data-collection_1">Data Collection</h3>
+<p><strong>Visits Administered and corresponding age range of administration</strong>: V03 (3 months 0 days to 9 months  0 days)<br />
+<strong>Estimated length of time for completion</strong>: 5 minutes </p>
+<h3 id="quality-control-qc_1">Quality Control (QC)</h3>
+<p><strong>QC Procedures</strong></p>
+<ul>
+<li>Examine the range of the child’s age to ensure that it falls in the age range 3 to 9 months  </li>
+<li>Examine missingness. Count the number of items answered for each participant  </li>
+<li>Calculate sum scores and means applying our prorated scoring rule  </li>
+<li>Generate summary statistics and visualizations for item-level frequencies, age, and scores  </li>
+<li>Calculate Cronbach's Alpha for reliability  </li>
+</ul>
+<p><strong>Common Issues Identified</strong>  <br />
+(1) Prorated scoring not applied to observations with missing responses and (2) incorrect ages</p>
+<h3 id="potential-issues-flagged-by-subject-matter-experts_1">Potential Issues Flagged by Subject Matter Experts</h3>
+<p>The missingness rule not being correctly implemented leads to incorrect scores. Measure administration has a strict age cutoff. Age auto-generation needs to be fixed so that QC can ensure the measure is being administered to correct target population.</p>
+<h3 id="references_1">References</h3>
+<ul>
+<li>Krogh-Jespersen, S., Kaat, A. J., Petitclerc, A., Perlman, S. B., Briggs-Gowan, M. J., Burns, J. L., ... &amp; Wakschlag, L. S. (2022). Calibrating temper loss severity in the transition to toddlerhood: Implications for developmental science. <em>Applied developmental science,</em> 26(4), 785-798.</li>
+</ul>
+<h2 id="ecpromis-child-caregiver-interaction">ecPROMIS Child-Caregiver Interaction</h2>
+<h3 id="overview_2">Overview</h3>
+<p><strong>Full Name</strong>: Early Childhood Patient-Reported Outcome Measurement Information System Child/Caregiver Relationship Scale.<br />
+<strong>Acronym/Brief Name</strong>: ecPROMIS Child-Caregiver Interaction  <br />
+<strong>Construct</strong>: Relationships<br />
+<strong>Description</strong>: The Early Childhood Patient-Reported Outcome Measurement Information System (ecPROMIS) offers clinicians and researchers a brief, efficient, and precise way to evaluate young children’s well-being. The ecPROMIS Child-Caregiver Relationship Scale assesses the degree to which young children develop close, satisfying relationships with caregivers. Questions inquire about the focal child/caregiver relationship over the past 7 days. The ecPROMIS Child/Caregiver relationship form (Infancy: &lt; 1 year) was developed for HBCD based on the “PROMIS Early Childhood Parent-Report Short Form v1.0 - Social Relationships – Child-Caregiver Interactions 5a” form.</p>
+<p><strong>General Scoring Description and Procedure</strong>: 
+Sum scores are computed by the following methods depending on the number of items answered out of 5 (‘fam_ec2’, ‘fam_ec6’, ‘fam_ec1’, ‘fam_ec4’, ‘fam_ec10’):</p>
+<ul>
+<li>If caregiver answers all 5 items: sum all numerical item responses</li>
+<li>If caregiver answers 3 or 4 items: items without an answer are scored as zero and a prorated sum score is generated based on items with answers (<code>(sum of items answered/the number of items answered)*5</code>)</li>
+<li>If caregiver answers fewer than 3 items: sum score marked as missing</li>
+</ul>
+<h3 id="implementation_2">Implementation</h3>
+<p><strong>Method of Administration</strong>: This questionnaire is to be filled out by the child’s caregiver in a remote setting.<br />
+<strong>REDCap Form Name</strong>: N/A <br />
+<strong>Pilot Data Dictionary</strong>: N/A  <br />
+<strong>Spanish Translation</strong>: Yes  <br />
+<strong>Child Specific/Unspecific Form</strong>: Child Specific  <br />
+<strong>Respondent:</strong> Primary Caregiver</p>
+<h3 id="data-collection_2">Data Collection</h3>
+<p><strong>Visits Administered and corresponding age range of administration</strong>: V03 (&lt;12mo age)<br />
+<strong>Estimated length of time for completion</strong>: 1-2 minutes</p>
+<h3 id="quality-control-qc_2">Quality Control (QC)</h3>
+<p><strong>QC Procedures</strong> <br />
+  * Examine the range of the child’s age to ensure that it falls in the age range 3 to 9 months<br />
+  * Examine missingness. Count the number of items answered for each participant<br />
+  * Calculate sum scores and means applying our prorated scoring rule<br />
+  * Generate summary statistics and visualizations for item-level frequencies, age, and scores<br />
+  * Calculate Cronbach's Alpha for reliability  </p>
+<p><strong>Common Issues Identified</strong><br />
+Prorated scoring not applied to observations with missing responses. Incorrect ages.</p>
+<h3 id="potential-issues-flagged-by-subject-matter-experts_2">Potential Issues Flagged by Subject Matter Experts</h3>
+<p>The missingness rule not being correctly implemented leads to incorrect scores. Measure administration has a strict age cutoff. Age auto-generation needs to be fixed so that QC can ensure the measure is being administered to the correct target population.</p>
+<h3 id="additional-information_1">Additional Information</h3>
+<p>HealthMeasures, the creators of ecPROMIS have an <a href="https://www.healthmeasures.net/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=190&amp;Itemid=1214">Assessment Center API</a> that translates sum scores into T-scores (see Links to Resources). When administered in REDCap, sum scores can be auto-calculated, and trigger an API call to obtain corresponding T-scores. Higher T-scores represent more of the phenomenon being measured. In this case, higher T-scores indicate increased child/caregiver interaction. </p>
+<h3 id="references_2">References</h3>
+<ul>
+<li>Cella, D., Blackwell, C.K., &amp; Wakschlag, L.S. (2022). Bringing PROMIS to Early Childhood: Introduction and Qualitative Methods for the Development of Early Childhood Parent Report Instruments. <em>Journal of Pediatric Psychology</em>, 47(5):500-9.</li>
+<li>Lai, J.S., Kallen, M.A., Blackwell, C.K., Wakschlag, L.S., &amp; Cella, D. (2022). Psychometric Considerations in Developing PROMIS® Measures for Early Childhood. <em>Journal of Pediatric Psychology</em>, 47(5):510-22.</li>
+<li>Park, C.H., Blaisdell, C.J., &amp; Gillman, M.W. (2022). The NIH ECHO Program: An Impetus for the Development of Early Childhood PROMIS Tools. <em>Journal of Pediatric Psychology</em>, 47(5), 497-499.</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../physhealth/" class="btn btn-neutral float-left" title="Physical Health"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../pregexp/preghealth/" class="btn btn-neutral float-right" title="Pregnancy Health">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../physhealth/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../pregexp/preghealth/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

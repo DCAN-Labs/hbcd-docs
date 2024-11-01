@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Phenotypes - HBCD Data Release</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../../css/custom.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Phenotypes";
+        var mkdocs_page_input_path = "datacuration/phenotypes.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> HBCD Data Release
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">About</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Release Notes</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" >Data Measures & Quality Control</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/demographics/">Demographics</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/socenv_determinants/">Social & Environmental Determinants</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/neurocog_language/">Neurocognition & Language</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/eeg/">Electroencephalogram (EEG)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/mri/">Magnetic Resonance Imaging (MRI)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/sensors/">Novel Technologies & Wearable Sensors</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/physhealth/">Physical Health</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/behavior/">Behavior & Caregiver-Child Interaction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Pregnancy & Exposure</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../measures/pregexp/preghealth/">Pregnancy Health</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../measures/pregexp/infant/">Infant Health</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../measures/pregexp/mentalhealth/">Psychiatric Evaluation & History</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../measures/pregexp/substanceuse/">Substance Use</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >MRI Protocols</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../mriprotocols/siemens/">Siemens Protocol</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../mriprotocols/ge/">GE Protocol</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" >HBCD BIDS Dataset</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../bids/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../imaging/">Imaging</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../eeg/">EEG</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../motion/">Motion Data</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">Phenotypes</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#data-structure">Data Structure</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#excluded-elements">Excluded Elements</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#static-elements-excluded">Static Elements Excluded</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#dynamic-elements-excluded">Dynamic Elements Excluded</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#general-rules-applied-to-all-data">General Rules Applied to All Data</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#biosample-urine-results">Biosample Urine Results</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#basic-demographics">Basic Demographics</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#visit-data">Visit Data</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#instrument-data">Instrument Data</a>
+    </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Data Processing</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../processing/pipelines/">Pipelines</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../processing/standards/">Pipeline Software Standards</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../processing/processing/">External Processing Documentation</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Change Log</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../changelog/pending/">Pending Updates</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Version History</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.4/">Beta Release 5/V1.4</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.3/">Beta Release 4/V1.3</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.2/">Beta Release 3/V1.2</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.1/">Beta Release 2/V1.1</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.0/">Beta Release 1/V1.0</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">FAQ & Contact</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../faq/">FAQ</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../contact/">Contact</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">HBCD Data Release</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Release Notes</li>
+          <li class="breadcrumb-item">HBCD BIDS Dataset</li>
+      <li class="breadcrumb-item active">Phenotypes</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="phenotypes-data-curation-bids-conversion">Phenotypes Data Curation &amp; BIDS Conversion</h1>
+<h2 id="data-structure">Data Structure</h2>
+<pre><code>root/
+|__ assembly_bids/
+|__ participants.tsv
+|__ participants.json
+|__ phenotype/
+|   |__ biosample_urine.tsv
+|   |__ biosample_urine.json
+|   |__ sed_basic_demographics.tsv
+|   |__ sed_basic_demographics.json
+|   |__ visit_data.tsv
+|   |__ visit_data.json
+|   |__ &lt;instrument_name&gt;.tsv (repeat for all selected instruments)
+|   |__ &lt;instrument_name&gt;.json (repeat for all selected instruments)
+</code></pre>
+<h2 id="excluded-elements">Excluded Elements</h2>
+<h3 id="static-elements-excluded">Static Elements Excluded</h3>
+<p>This section lists <strong>static elements</strong> excluded from the data release.</p>
+<p><strong>Excluded Instruments</strong>:</p>
+<ul>
+<li>Biosensor Receipt Form ('sens_ch_rcpt')  </li>
+<li>EEG Acquisition Form ('eeg_ch_chkl')  </li>
+<li>EEG Acquisition Form Reattempt - 1 ('eeg_ch_chkl_1')  </li>
+<li>EEG Acquisition Form Reattempt - 2 ('eeg_ch_chkl_2')  </li>
+<li>MRI Data Summary Form ('mri_ra_chkl_data')  </li>
+<li>MRI Scan Session Summary Form ('mri_ra_chkl_scan')  </li>
+<li>MRI Pre/Post Scan Prep ('mri_ra_prep')  </li>
+<li>NIH Baby ToolBox ('ncl_ch_nbtb')  </li>
+<li>Participant Feedback Form ('adm_cg_fb')  </li>
+<li>RA Feedback ('adm_ra_fb')  </li>
+<li>Visit Level Data ('adm_fd_visitdata’)  </li>
+<li>Visit start ('visit_start')  </li>
+<li>Urgent Events ('adm_fd_urgent')  </li>
+<li>Participant Alerts ('admin_alert')  </li>
+<li>TLFB (Timeline Follow Back) Summary Parser ('pex_ch_tlfb')  </li>
+<li>Transitions in Care Questionnaire ('sed_cg_tic')</li>
+</ul>
+<p><strong>Excluded Instrument Fields</strong> (mostly metadata fields):</p>
+<ul>
+<li>Date of Administration (‘date_taken’)  </li>
+<li>Examiner (‘Examiner’)  </li>
+<li>Timestamps ('timestamp', ‘timestamp_start', 'timestamp_stop', 'timestamp_start_tmp', 'timestamp_redcap_locked', 'dtt')  </li>
+<li>REDCap Complete status ('complete')</li>
+</ul>
+<p><strong>TODO: were these fields excluded as well? (from Loris beta release notes)</strong>
+ - Date of Birth (DOB)<br />
+ - Clinical Alerts
+ - Scannable codes (BioSamples codes, tracking Nos, etc...)</p>
+<h3 id="dynamic-elements-excluded">Dynamic Elements Excluded</h3>
+<p>This section lists <strong>dynamic exclusions</strong> applied during the Data Release process.</p>
+<ul>
+<li>No brain rating or brain rating noted “abnormal” are not selected  </li>
+<li>Only active participants and sessions are selected  </li>
+<li>Participants from Data Coordination Center (DCC) and University of Florida (UFL) sites are not selected  </li>
+<li>Only participants with PSCIDs starting with “CH” are selected (excluding all test participants e.g. QI,YI,XI,PI)  </li>
+<li>Participants having REDCap instruments not filled out by the exact “redcap” examiner will be excluded from the result (i.e. possible modification of data between REDCap and LORIS, or data entered directly into LORIS)</li>
+<li>For Beta Data Release, the process considers only data noted with launchpad complete status from before 2024-07-01 (YYYY-MM-DD)  </li>
+</ul>
+<h3 id="general-rules-applied-to-all-data">General Rules Applied to All Data</h3>
+<ul>
+<li>All participants having only one active visit that is V01 will have their sex changed to “Other” instead of “Male” or “Female”  </li>
+<li>All empty string “” or missing values will be replaced with the default ReproSchema-compliant string “n/a”  </li>
+<li>For V01, all “Candidate_Age” values are replaced with “n/a”  </li>
+<li>For other visits, “Candidate_Age” will be computed in years  </li>
+<li>Some fields can have out of range values. They are considered “extreme” values and are changed to “n/a”. Filters apply to:  </li>
+<li>Pex Bm Healthv2 Inf (‘pex_bm_healthv2_inf’) instrument:  <ul>
+<li>Field “001_i_01”: higher than 16  </li>
+<li>Field “001_i_02”: higher than 66  </li>
+<li>Field “002”: outside of range 12-51  </li>
+<li>Field “002_i_01”: outside of range 30-130</li>
+</ul>
+</li>
+</ul>
+<h2 id="biosample-urine-results">Biosample Urine Results</h2>
+<p>Regarding <code>phenotype/biosample_urine</code> files:</p>
+<ul>
+<li>USDTL Urine results   </li>
+<li>Updated up to July 1st  </li>
+<li>File produced by BAH  </li>
+<li>Includes DCCID, Visit Label &amp; Scannable code  </li>
+<li>‘bio’ domain prepended</li>
+</ul>
+<h2 id="basic-demographics">Basic Demographics</h2>
+<p>The <code>phenotype/sed_basic_demographics</code> files contain demographics data of each participant useful with phenotype context, including:</p>
+<ul>
+<li>Gestational age at birth  </li>
+<li>Sex  </li>
+<li>Recruitment site  </li>
+<li>Child demographics: race, ethnicity  </li>
+<li>Mother demographics: race, ethnicity, education, income, language spoken at home  </li>
+<li>Substance Use (SU) - can be any of the following:  </li>
+<li>Self reported use (TLFB): any flag raised for SU  </li>
+<li>Biospecimen: any result returning a flag for SU  </li>
+<li>Health V2 instrument (‘pex_bm_healthv2_inf’)<ul>
+<li>Neonatal Opioid Withdrawal Syndrome (NOWS) - Field -007’, option 1  </li>
+<li>Fetal Alcohol Syndrome (FAS) - Field ‘007’, option 5</li>
+</ul>
+</li>
+</ul>
+<h2 id="visit-data">Visit Data</h2>
+<p>The <code>phenotype/visit_data</code> files contain all participant visit data. This includes:</p>
+<ul>
+<li>Project  </li>
+<li>Cohort  </li>
+<li>Site </li>
+<li>Visit information:  </li>
+<li>Label  </li>
+<li>Stage  </li>
+<li>Date  </li>
+<li>If the visit was missed and the reason  </li>
+<li>Participant Withdrawal Information: If the participant withdrew from the study, the reason, and date  </li>
+<li>Participant Protocol Exception Information: If there was a protocol exception, the type, and the date</li>
+</ul>
+<h2 id="instrument-data">Instrument Data</h2>
+<p>The <code>phenotype/&lt;instrument_name&gt;</code> files contain <code>.tsv</code> tables per instrument with all instrument values for each participant. All fields for the instrument except those listed in the exclusion filter section are included. The accompanying .json file for each instrument contains the Data Dictionary elements describing the instrument fields for the given instrument. </p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../motion/" class="btn btn-neutral float-left" title="Motion Data"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../processing/pipelines/" class="btn btn-neutral float-right" title="Pipelines">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../motion/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../../processing/pipelines/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

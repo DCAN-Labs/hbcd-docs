@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>Pregnancy Health - HBCD Data Release</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../../../css/custom.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Pregnancy Health";
+        var mkdocs_page_input_path = "measures/pregexp/preghealth.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> HBCD Data Release
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../..">About</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Release Notes</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" >Data Measures & Quality Control</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../../demographics/">Demographics</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../socenv_determinants/">Social & Environmental Determinants</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../neurocog_language/">Neurocognition & Language</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../eeg/">Electroencephalogram (EEG)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../mri/">Magnetic Resonance Imaging (MRI)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../sensors/">Novel Technologies & Wearable Sensors</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../physhealth/">Physical Health</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../behavior/">Behavior & Caregiver-Child Interaction</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" >Pregnancy & Exposure</a>
+    <ul class="current">
+                <li class="toctree-l3 current"><a class="reference internal current" href="#">Pregnancy Health</a>
+    <ul class="current">
+    <li class="toctree-l4"><a class="reference internal" href="#overview">Overview</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#implementation">Implementation</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#data-collection">Data Collection</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#quality-control-qc">Quality Control (QC)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#potential-issues-flagged-by-subject-matter-experts">Potential Issues Flagged by Subject Matter Experts</a>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../infant/">Infant Health</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../mentalhealth/">Psychiatric Evaluation & History</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../substanceuse/">Substance Use</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >MRI Protocols</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../mriprotocols/siemens/">Siemens Protocol</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../mriprotocols/ge/">GE Protocol</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >HBCD BIDS Dataset</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../datacuration/bids/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../datacuration/imaging/">Imaging</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../datacuration/eeg/">EEG</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../datacuration/motion/">Motion Data</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../datacuration/phenotypes/">Phenotypes</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Data Processing</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../processing/pipelines/">Pipelines</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../processing/standards/">Pipeline Software Standards</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../processing/processing/">External Processing Documentation</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Change Log</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../changelog/pending/">Pending Updates</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Version History</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../changelog/versions/v1.4/">Beta Release 5/V1.4</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../changelog/versions/v1.3/">Beta Release 4/V1.3</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../changelog/versions/v1.2/">Beta Release 3/V1.2</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../changelog/versions/v1.1/">Beta Release 2/V1.1</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../changelog/versions/v1.0/">Beta Release 1/V1.0</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">FAQ & Contact</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../faq/">FAQ</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contact/">Contact</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">HBCD Data Release</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Release Notes</li>
+          <li class="breadcrumb-item">Data Measures & Quality Control</li>
+          <li class="breadcrumb-item">Pregnancy & Exposure</li>
+      <li class="breadcrumb-item active">Pregnancy Health</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h2 id="pregnancy-health">Pregnancy Health</h2>
+<h3 id="overview">Overview</h3>
+<p><strong>Full Name</strong>: Pregnancy health<br />
+<strong>Acronym/Brief Name</strong>: Healthhx<br />
+<strong>Construct</strong>: Pre-pregnancy and pregnancy health<br />
+<strong>Description</strong>: This was a created to assess pre-pregnancy and pregnancy health<br />
+<strong>Summary</strong>: Gravidity and parity, height and weight, pregnancy intentions, use of assisted reproductive technology, start of prenatal care, prenatal vitamin or aspirin use, secondhand smoke.</p>
+<h3 id="implementation">Implementation</h3>
+<p><strong>Method of Administration</strong>: self-administered<br />
+<strong>REDCap Form Name</strong>: Healthhx<br />
+<strong>Pilot Data Dictionary</strong>: <br />
+<strong>Spanish Translation</strong>: Created<br />
+<strong>Child Specific/Unspecific Form</strong>: Unspecific<br />
+<strong>Respondent:</strong> pregnant person</p>
+<h3 id="data-collection">Data Collection</h3>
+<p><strong>Visits Administered and corresponding age range of administration</strong>:  V1 (pregnancy)
+<strong>Estimated length of time for completion</strong>: 5 minutes</p>
+<h3 id="quality-control-qc">Quality Control (QC)</h3>
+<p><strong>QC Procedures</strong>: Distributions for answers<br />
+<strong>Common Issues Identified</strong>: None</p>
+<h3 id="potential-issues-flagged-by-subject-matter-experts">Potential Issues Flagged by Subject Matter Experts</h3>
+<p>None</p>
+<h2 id="pregnancy-health-vaccines">Pregnancy Health - Vaccines</h2>
+<h3 id="overview_1">Overview</h3>
+<p><strong>Full Name</strong>: Pregnancy health- vaccines<br />
+<strong>Acronym/Brief Name</strong>: Exp I vacc<br />
+<strong>Construct</strong>: Vaccines in pregnancy<br />
+<strong>Description</strong>: This was a created to assess vaccine receipt in pregnancy<br />
+<strong>Summary</strong>: Asks about receipt of a list of common vaccines in pregnancy, and trimester received</p>
+<h3 id="implementation_1">Implementation</h3>
+<p><strong>Method of Administration</strong>: self-administered<br />
+<strong>REDCap Form Name</strong>: Vacc<br />
+<strong>Pilot Data Dictionary</strong>: <br />
+<strong>Spanish Translation</strong>: Created<br />
+<strong>Child Specific/Unspecific Form</strong>: Unspecific<br />
+<strong>Respondent:</strong> pregnant person</p>
+<h3 id="data-collection_1">Data Collection</h3>
+<p><strong>Visits Administered and corresponding age range of administration</strong>:  V1 (pregnancy)
+<strong>Estimated length of time for completion</strong>: 3 minutes</p>
+<h3 id="quality-control-qc_1">Quality Control (QC)</h3>
+<p><strong>QC Procedures</strong>: Distributions for answers<br />
+<strong>Common Issues Identified</strong>: None</p>
+<h3 id="potential-issues-flagged-by-subject-matter-experts_1">Potential Issues Flagged by Subject Matter Experts</h3>
+<p>None</p>
+<h2 id="pregnancy-health-illness">Pregnancy Health - Illness</h2>
+<h3 id="overview_2">Overview</h3>
+<p><strong>Full Name</strong>: Pregnancy health- illness<br />
+<strong>Acronym/Brief Name</strong>: Exp I illness<br />
+<strong>Construct</strong>: Illness in pregnancy<br />
+<strong>Description</strong>: This was a created to capture illnesses in pregnancy<br />
+<strong>Summary</strong>: Asks about covid-19 or other illnesses in pregnancy, including start and stop dates and whether the person had a fever.</p>
+<h3 id="implementation_2">Implementation</h3>
+<p><strong>Method of Administration</strong>: RA-administered in person<br />
+<strong>REDCap Form Name</strong>: illness<br />
+<strong>Pilot Data Dictionary</strong>: <br />
+<strong>Spanish Translation</strong>: Created<br />
+<strong>Child Specific/Unspecific Form</strong>: Unspecific<br />
+<strong>Respondent:</strong> pregnant person</p>
+<h3 id="data-collection_2">Data Collection</h3>
+<p><strong>Visits Administered and corresponding age range of administration</strong>:  V1 (pregnancy)
+<strong>Estimated length of time for completion</strong>: 3 minutes</p>
+<h3 id="quality-control-qc_2">Quality Control (QC)</h3>
+<p><strong>QC Procedures</strong>: Distributions for answers<br />
+<strong>Common Issues Identified</strong>: None</p>
+<h3 id="potential-issues-flagged-by-subject-matter-experts_2">Potential Issues Flagged by Subject Matter Experts</h3>
+<p>Illnesses are captured either from ICD codes (from BioPortal ICD) or symptom codes (from World Health Organization), which were at times difficult for the participant to name or the RA to correctly find in the ICD or symptom database.</p>
+<h2 id="pregnancy-health-erhospitalizations">Pregnancy Health - ER/Hospitalizations</h2>
+<h3 id="overview_3">Overview</h3>
+<p><strong>Full Name</strong>: Pregnancy health- ER/hospitalizations<br />
+<strong>Acronym/Brief Name</strong>: Exp I ERhosp<br />
+<strong>Construct</strong>: ER visit or hospitalization in pregnancy<br />
+<strong>Description</strong>: This was a created to capture reasons for any ER visits or hospitalizations in pregnancy<br />
+<strong>Summary</strong>: Asks about any ER visits or hospitalizations in pregnancy</p>
+<h3 id="implementation_3">Implementation</h3>
+<p><strong>Method of Administration</strong>: RA-administered in person<br />
+<strong>REDCap Form Name</strong>: ERhosp<br />
+<strong>Pilot Data Dictionary</strong>: <br />
+<strong>Spanish Translation</strong>: Created<br />
+<strong>Child Specific/Unspecific Form</strong>: Unspecific<br />
+<strong>Respondent:</strong> pregnant person</p>
+<h3 id="data-collection_3">Data Collection</h3>
+<p><strong>Visits Administered and corresponding age range of administration</strong>:  V1 pregnancy visit<br />
+<strong>Estimated length of time for completion</strong>: 5 minutes</p>
+<h3 id="quality-control-qc_3">Quality Control (QC)</h3>
+<p><strong>QC Procedures</strong>: Distributions for answers<br />
+<strong>Common Issues Identified</strong>: None</p>
+<h3 id="potential-issues-flagged-by-subject-matter-experts_3">Potential Issues Flagged by Subject Matter Experts</h3>
+<p>Reasons for ER visit or hospitalization are captured from ICD codes (from BioPortal ICD), which were at times difficult for the participant to name or the RA to correctly find in the ICD database. This was particularly apparent for use of the ER for normal care (no diagnosis) or false alarms (e.g. thought water broke but it did not), resulting in the use of ‘don’t know.’</p>
+<h2 id="pregnancy-health-chronic-conditions">Pregnancy Health- Chronic Conditions</h2>
+<h3 id="overview_4">Overview</h3>
+<p><strong>Full Name</strong>: Pregnancy health- chronic conditions<br />
+<strong>Acronym/Brief Name</strong>: Exp I chroncond<br />
+<strong>Construct</strong>: chronic conditions and sexually transmitted infections in pregnancy<br />
+<strong>Description</strong>: This was a created to capture chronic conditions (queried from a list) and sexually transmitted diseases in pregnancy. <br />
+<strong>Summary</strong>: Asks about a pre-defined list of chronic conditions and sexually transmitted infections in pregnancy. Endorsed chronic conditions are asked whether they are ongoing or resolved. </p>
+<h3 id="implementation_4">Implementation</h3>
+<p><strong>Method of Administration</strong>: self-administered in person<br />
+<strong>REDCap Form Name</strong>: chroncond<br />
+<strong>Pilot Data Dictionary</strong>: <br />
+<strong>Spanish Translation</strong>: Created<br />
+<strong>Child Specific/Unspecific Form</strong>: Unspecific<br />
+<strong>Respondent:</strong> pregnant person</p>
+<h3 id="data-collection_4">Data Collection</h3>
+<p><strong>Visits Administered and corresponding age range of administration</strong>:  V1 (pregnancy)
+<strong>Estimated length of time for completion</strong>: 3 minutes</p>
+<h3 id="quality-control-qc_4">Quality Control (QC)</h3>
+<p><strong>QC Procedures</strong>: Distributions for answers<br />
+<strong>Common Issues Identified</strong>: None</p>
+<h3 id="potential-issues-flagged-by-subject-matter-experts_4">Potential Issues Flagged by Subject Matter Experts</h3>
+<p>None</p>
+<h2 id="pregnancy-health-medications">Pregnancy Health - Medications</h2>
+<h3 id="overview_5">Overview</h3>
+<p><strong>Full Name</strong>: Pregnancy health- medications<br />
+<strong>Acronym/Brief Name</strong>: Exp I Meds<br />
+<strong>Construct</strong>: prescription and over the counter medications in pregnancy<br />
+<strong>Description</strong>: This was a created to capture prescription and over the counter medications in pregnancy.<br />
+<strong>Summary</strong>: Asks about any prescription or over the counter medications used since last menstrual period. For each, the participant is asked medication name, indication, frequency, start and stop date (if applicable).</p>
+<h3 id="implementation_5">Implementation</h3>
+<p><strong>Method of Administration</strong>: RA-administered in person<br />
+<strong>REDCap Form Name</strong>: Meds<br />
+<strong>Pilot Data Dictionary</strong>: <br />
+<strong>Spanish Translation</strong>: Created<br />
+<strong>Child Specific/Unspecific Form</strong>: Unspecific<br />
+<strong>Respondent:</strong> pregnant person</p>
+<h3 id="data-collection_5">Data Collection</h3>
+<p><strong>Visits Administered and corresponding age range of administration</strong>:  V1 (pregnancy)
+<strong>Estimated length of time for completion</strong>: 5 minutes</p>
+<h3 id="quality-control-qc_5">Quality Control (QC)</h3>
+<p><strong>QC Procedures</strong>: Distributions for answers<br />
+<strong>Common Issues Identified</strong>: None</p>
+<h3 id="potential-issues-flagged-by-subject-matter-experts_5">Potential Issues Flagged by Subject Matter Experts</h3>
+<p>Medication was queried from the RxNORM database. Reasons for medication use are captured from ICD codes (from BioPortal ICD), which were at times difficult for the participant to name or the RA to correctly find in the ICD database. This was apparent with aspirin used for preeclampsia, as there was not an option for coding preventive use. Aspirin was specifically moved to the prenatal vitamin section a few months into the study. Additionally, medications used PRN were difficult for the participant to report. Finally, although not asked, some medications were coded with the dose in the database, although this was not asked and should not be used.</p>
+<h2 id="pregnancy-health-v2-end-of-pregnancy">Pregnancy Health- V2 (End of Pregnancy)</h2>
+<h3 id="overview_6">Overview</h3>
+<p><strong>Full Name</strong>: Pregnancy health- V2 (end of pregnancy)<br />
+<strong>Acronym/Brief Name</strong>: Healthv2 Preg<br />
+<strong>Construct</strong>: updates information between enrollment and delivery<br />
+<strong>Description</strong>: This was a created to capture exposures between enrollment and delivery<br />
+<strong>Summary</strong>: Updates information on prenatal vitamins, aspirin, infections, vaccines, prescription and over the counter medications (both continued from V1 and any new medications) and illnesses. In addition, we ask about pregnancy complications (from a list: e.g. gestational diabetes), labor, mode of delivery, place of delivery, and how many nights the birthing person remained in the hospital. </p>
+<h3 id="implementation_6">Implementation</h3>
+<p><strong>Method of Administration</strong>: RA-administered in person<br />
+<strong>REDCap Form Name</strong>: HealthV2 Preg<br />
+<strong>Pilot Data Dictionary</strong>: <br />
+<strong>Spanish Translation</strong>: Created<br />
+<strong>Child Specific/Unspecific Form</strong>: Unspecific<br />
+<strong>Respondent:</strong> person who gave birth</p>
+<h3 id="data-collection_6">Data Collection</h3>
+<p><strong>Visits Administered and corresponding age range of administration</strong>:  V2 (0-1 month postnatal visit)<br />
+<strong>Estimated length of time for completion</strong>: 10 minutes</p>
+<h3 id="quality-control-qc_6">Quality Control (QC)</h3>
+<p><strong>QC Procedures</strong>: Distributions for answers<br />
+<strong>Common Issues Identified</strong>: None</p>
+<h3 id="potential-issues-flagged-by-subject-matter-experts_6">Potential Issues Flagged by Subject Matter Experts</h3>
+<p>Same issues identified at V1 (difficulty with ICD codes (from BioPortal ICD) and medication names (from RxNORM)) apply to this visit as well.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../../behavior/" class="btn btn-neutral float-left" title="Behavior & Caregiver-Child Interaction"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../infant/" class="btn btn-neutral float-right" title="Infant Health">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../../behavior/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../infant/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

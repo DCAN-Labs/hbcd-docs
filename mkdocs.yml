@@ -33,6 +33,7 @@ nav:
               - "Psychiatric Evaluation & History": measures/pregexp/mentalhealth.md
               - Substance Use: measures/pregexp/substanceuse.md
       - "MRI Protocols": 
+          - Overview: mriprotocols/overview.md
           - Siemens Protocol: mriprotocols/siemens.md
           - GE Protocol: mriprotocols/ge.md
       - HBCD BIDS Dataset:

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Imaging - HBCD Data Release</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../../css/custom.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Imaging";
+        var mkdocs_page_input_path = "datacuration/imaging.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> HBCD Data Release
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">About</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Release Notes</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" >Data Measures & Quality Control</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/demographics/">Demographics</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/socenv_determinants/">Social & Environmental Determinants</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/neurocog_language/">Neurocognition & Language</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/eeg/">Electroencephalogram (EEG)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/mri/">Magnetic Resonance Imaging (MRI)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/sensors/">Novel Technologies & Wearable Sensors</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/physhealth/">Physical Health</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../measures/behavior/">Behavior & Caregiver-Child Interaction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Pregnancy & Exposure</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../measures/pregexp/preghealth/">Pregnancy Health</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../measures/pregexp/infant/">Infant Health</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../measures/pregexp/mentalhealth/">Psychiatric Evaluation & History</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../measures/pregexp/substanceuse/">Substance Use</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >MRI Protocols</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../mriprotocols/siemens/">Siemens Protocol</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../mriprotocols/ge/">GE Protocol</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" >HBCD BIDS Dataset</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../bids/">Overview</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">Imaging</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#quality-control">Quality Control</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#mri">MRI</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#anatomical-images">Anatomical Images</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#diffusion">Diffusion</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#fieldmap-images">Fieldmap Images</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#functional-bold">Functional BOLD</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#spectroscopy">Spectroscopy</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../eeg/">EEG</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../motion/">Motion Data</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../phenotypes/">Phenotypes</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Data Processing</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../processing/pipelines/">Pipelines</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../processing/standards/">Pipeline Software Standards</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../processing/processing/">External Processing Documentation</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Change Log</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../changelog/pending/">Pending Updates</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Version History</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.4/">Beta Release 5/V1.4</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.3/">Beta Release 4/V1.3</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.2/">Beta Release 3/V1.2</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.1/">Beta Release 2/V1.1</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.0/">Beta Release 1/V1.0</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">FAQ & Contact</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../faq/">FAQ</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../contact/">Contact</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">HBCD Data Release</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Release Notes</li>
+          <li class="breadcrumb-item">HBCD BIDS Dataset</li>
+      <li class="breadcrumb-item active">Imaging</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="imaging-data-curation-bids-conversion">Imaging Data Curation &amp; BIDS Conversion</h1>
+<h2 id="quality-control">Quality Control</h2>
+<p>Quality control of the MRI images can be found in the <code>scans.tsv</code> file in the session folder. The raw QC process involves reviewing unprocessed or lightly processed MRI data to identify and exclude data with severe artifacts from further processing. An initial protocol compliance check is performed by extracting information from DICOM headers and checking for common issues and protocol deviations, such as missing files or incorrect patient orientation. Automated QC metrics are calculated from the image data. A deep learning model estimates motion artifacts for structural scans (T1w, T2w, and qMRI), while metrics related to motion, bad frames, line artifacts, and FOV (field of view) cutoff are assessed for dMRI, fMRI, and field maps. A subset of series are selected for manual review based on multivariate prediction and Bayesian classifiers using the automated metrics. During the manual review, data quality is scored based on the severity of specific artifacts. For structural scans, motion artifacts are scored based on perceived severity on a scale of 0 to 3. Scores indicate no artifact (0), mild (1), moderate (2), or severe (3). Other artifacts, such as unusual intensity inhomogeneity or ghosting are noted by the reviewer. For dMRI, fMRI, and field maps, scored artifacts include susceptibility artifacts, FOV cutoff, and line artifacts. Other artifacts may be noted. Series with severe artifacts that clearly compromise data usability are rejected (QC=0).</p>
+<h2 id="mri">MRI</h2>
+<p>DICOM images are converted using a <a href="https://github.com/rordenlab/dcm2niix/tree/c5caaa9f858b704b61d3ff4a7989282922dd712e">custom version</a> of the <a href="https://github.com/rordenlab/dcm2niix">dcm2niix</a> tool that included bug fixes for some modalities acquired in HBCD.</p>
+<p>The MRI protocol is then checked in the produced NIfTI and JSON files in which certain exclusion criteria have been developed to ensure the quality of the data. For example, a check to ensure that all images are acquired using a head coil was performed before including it in the BIDS dataset. Other exclusion criteria will be detailed in each of the image type sections below.</p>
+<p>In some instances, the NIfTI and JSON files obtained from the dcm2niix conversion needed to be altered by in-house script to include additional header information. Those changes are listed below in each of the image type sections below. Any hard-coded headers are listed in the <code>HardCodedValues</code> field of the JSON sidecar file of the acquisition.</p>
+<h3 id="anatomical-images">Anatomical Images</h3>
+<p>The following images are located in the <code>anat/</code> subdirectory and are accompanied by sidecar <code>.json</code> files that contain relevant header information about the acquisitions. </p>
+<h4 id="t1w">T1W</h4>
+<p><strong>Filename:</strong> <code>anat/sub-&lt;label&gt;_ses-&lt;label&gt;_run-&lt;label&gt;_T1w.nii.gz</code></p>
+<p><strong>Exclusion Criteria</strong>  <br />
+- TR outside of range 2.3-2.41<br />
+- TE outside of range 0.002-0.0035<br />
+- TI outside of range 1.06-1.1<br />
+- Slice thickness not being 0.8</p>
+<p><strong>Notes:</strong> For Philips T1W images, the <code>RepetitionTime</code> value obtained after the dcm2niix conversion was incorrectly set and needed to be hardcoded to reflect the actual repetition time of the acquisition. </p>
+<h4 id="t2w">T2W</h4>
+<p><strong>Filename:</strong> <code>anat/sub-&lt;label&gt;_ses-&lt;label&gt;_run-&lt;label&gt;_T1w.nii.gz</code></p>
+<p><strong>Exclusion Criteria</strong>   <br />
+- TR outside of range 2.5-4.5<br />
+- TE outside of range 0.09-0.15<br />
+- TI outside of range 0.29-0.33<br />
+- Slice thickness outside of range 0.563-0.565</p>
+<h4 id="mrs-localizer">MRS localizer</h4>
+<p><strong>Filename:</strong> <code>anat/sub-&lt;label&gt;_ses-&lt;label&gt;_acq-&lt;label&gt;_run-&lt;label&gt;_T2w.nii.gz</code></p>
+<p><strong>Exclusion Criteria</strong>
+- TR outside of range 2.5-4.5<br />
+- TE outside of range 0.09-0.15<br />
+- TI outside of range 0.29-0.33<br />
+- Slice thickness outside of range 0.563-0.565</p>
+<p><em>Notes:</em> Axial MRS localizers are labeled using the <code>acq-mrsLocAx</code> label and coronal MRS localizers are labeled using the <code>acq-mrsLocCor</code> label.</p>
+<h4 id="quantitative-mri">Quantitative MRI</h4>
+<p><strong>Filename:</strong> <code>sub-&lt;label&gt;_ses-&lt;label&gt;_run-&lt;label&gt;_inv-&lt;label&gt;_QALAS.nii.gz</code>. </p>
+<p>Depending on the scanner manufacturer, dcm2niix produced either 5 NIfTI 3D files or 1 NIfTI 4D file with 5 volumes. In addition, some header information was missing from the JSON file produced by <code>dcm2niix</code>. Therefore, we took the files produced by <code>dcm2niix</code> and generated the QALAS NIfTI files that can be found in the BIDS dataset. Therefore, each QALAS series results in 5 NIfTI files with different inversion time (labeled using the <code>inv-&lt;label&gt;</code> BIDS tag). In addition, JSON sidecar file needed to have the following headers modified:</p>
+<p><code>InversionTime</code> values were hard-coded as follows: <br />
+- 0 in the <code>inv-0</code> QALAS file<br />
+- 0.1 in the <code>inv-1</code> QALAS file<br />
+- 1 in the <code>inv-2</code> QALAS file<br />
+- 1.9 in the <code>inv-3</code> QALAS file<br />
+- 2.7 in the <code>inv-4</code> QALAS file  </p>
+<p><code>T2Prep</code> was hard-coded as 0.1 in the <code>inv-0</code> QALAS file</p>
+<h3 id="diffusion">Diffusion</h3>
+<p>DWI images can be found in the dwi subdirectory located in the session folder, labeled as <code>sub-&lt;label&gt;_ses-&lt;label&gt;_dir-&lt;label&gt;_run-&lt;label&gt;_dwi.nii.gz</code>. The JSON sidecar file contains relevant header information about the acquisition. The label <code>dir-&lt;label&gt;</code> is used to distinguish between the DWI acquired in the AP phase encoding direction (<code>dir-AP</code>) and the DWI acquired in the PA phase encoding direction (<code>dir-PA</code>). <em>Note:</em> After <code>dcm2niix</code> conversion, Philips DWI files were missing <code>PhaseEncodingDirection</code>, <code>TotalReadoutTime</code>, and <code>SliceTiming</code> header information. These headers have been hard-coded into the JSON sidecar file for Philips DWI acquisitions. <code>SmallDelta</code> and <code>LargeDelta</code> header values have also been added to all DWI JSON sidecar files.</p>
+<p><strong>Exclusion Criteria</strong>
+- TR not being set to 4.8<br />
+- TE outside of range 0.0880-0.0980<br />
+- Slice thickness not being set to 1.7<br />
+- The total number of volumes between DWI AP and DWI PA is below 90 volumes</p>
+<h3 id="fieldmap-images">Fieldmap Images</h3>
+<h4 id="epi-images">EPI Images</h4>
+<p>EPI images can be found in the fmap subdirectory located in the session folder, labeled as <code>sub-&lt;label&gt;_ses-&lt;label&gt;_dir-&lt;label&gt;_run-&lt;label&gt;_epi.nii.gz</code>. The JSON sidecar file contains relevant header information about the acquisition. The label <code>dir-&lt;label&gt;</code> is used to distinguish between the EPI acquired in the AP phase encoding direction (<code>dir-AP</code>) and the EPI acquired in the PA phase encoding direction (<code>dir-PA</code>). <em>Note:</em> After <code>dcm2niix</code> conversion, Philips EPI files were missing <code>PhaseEncodingDirection</code> and <code>TotalReadoutTime</code> header information. These headers have now been hard-coded into the JSON sidecar file for Philips EPI acquisitions.</p>
+<p><strong>Exclusion Criteria</strong>
+- TR outside of range 8.4-9.2<br />
+- TE outside of range 0.064-0.0661<br />
+- TI not being set to 2<br />
+- Slice thickness outside of range 0.563-0.565</p>
+<h4 id="siemens-b1-map">Siemens B1 Map</h4>
+<p>Siemens B1 images can be found in the fmap subdirectory located in the session folder, labeled as <code>sub-&lt;label&gt;_ses-&lt;label&gt;_acq-&lt;label&gt;_run-&lt;label&gt;_TB1TFL.nii.gz</code>. The JSON sidecar file contains relevant header information about the acquisition. Anatomical (like) image for this acquisition is labeled <code>acq-anat</code> and scaled flip angle map is labeled <code>acq-fmap</code> as specified in the <a href="https://bids-specification.readthedocs.io/en/stable/appendices/qmri.html#tb1tfl-and-tb1rfm-specific-notes">BIDS specification for quantitative MRI</a>.</p>
+<h4 id="ge-and-philips-b1-map">GE and Philips B1 Map</h4>
+<p>Siemens B1 images can be found in the fmap subdirectory located in the session folder, labeled as <code>sub-&lt;label&gt;_ses-&lt;label&gt;_acq-&lt;label&gt;_run-&lt;label&gt;_TB1AFI.nii.gz</code>. The JSON sidecar file contains relevant header information about the acquisition. The first TR image for this acquisition is labeled <code>acq-tr1</code> and the second TR image is labeled <code>acq-tr2</code> as specified in the <a href="https://bids-specification.readthedocs.io/en/stable/appendices/qmri.html#tb1tfl-and-tb1rfm-specific-notes">BIDS specification for quantitative MRI</a>. <em>Note:</em> For GE scanners, the <code>RepetitionTime</code> field needed to be hard-coded to 0.015 for <code>acq-tr1</code> and 0.075 for <code>acq-tr2</code> as it was not properly populated by the conversion tool.</p>
+<h3 id="functional-bold">Functional BOLD</h3>
+<p>BOLD images can be found in the func subdirectory located in the session folder, labeled as <code>sub-&lt;label&gt;_ses-&lt;label&gt;_task-rest_dir-PA_run-&lt;label&gt;_bold.nii.gz</code>. The JSON sidecar file contains relevant header information about the acquisition. <em>Note:</em> Philips BOLD files obtained after the <code>dcm2niix</code> conversion were missing the <code>PhaseEncodingDirection</code>, <code>TotalReadoutTime</code>, and <code>SliceTiming</code> header information. Those headers have been hard-coded in the JSON sidecar file for Philips BOLD acquisitions.</p>
+<p><strong>Exclusion Criteria</strong>
+- TR not being set to 1.725<br />
+- TE outside of range 0.0369-0.0371<br />
+- Slice thickness not being set to 2<br />
+- fMRI is shorter than 87 volumes (approximately less than 2.5 minutes long)</p>
+<h3 id="spectroscopy">Spectroscopy</h3>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../bids/" class="btn btn-neutral float-left" title="Overview"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../eeg/" class="btn btn-neutral float-right" title="EEG">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../bids/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../eeg/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

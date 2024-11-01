@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>Substance Use - HBCD Data Release</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../../../css/custom.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Substance Use";
+        var mkdocs_page_input_path = "measures/pregexp/substanceuse.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> HBCD Data Release
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../..">About</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Release Notes</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" >Data Measures & Quality Control</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../../demographics/">Demographics</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../socenv_determinants/">Social & Environmental Determinants</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../neurocog_language/">Neurocognition & Language</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../eeg/">Electroencephalogram (EEG)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../mri/">Magnetic Resonance Imaging (MRI)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../sensors/">Novel Technologies & Wearable Sensors</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../physhealth/">Physical Health</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../behavior/">Behavior & Caregiver-Child Interaction</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" >Pregnancy & Exposure</a>
+    <ul class="current">
+                <li class="toctree-l3"><a class="reference internal" href="../preghealth/">Pregnancy Health</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../infant/">Infant Health</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../mentalhealth/">Psychiatric Evaluation & History</a>
+                </li>
+                <li class="toctree-l3 current"><a class="reference internal current" href="#">Substance Use</a>
+    <ul class="current">
+    <li class="toctree-l4"><a class="reference internal" href="#overview">Overview</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#implementation">Implementation</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#data-collection">Data Collection</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#quality-control-qc">Quality Control (QC)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#potential-issues-flagged-by-subject-matter-experts">Potential Issues Flagged by Subject Matter Experts</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#references">References</a>
+    </li>
+    </ul>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >MRI Protocols</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../mriprotocols/siemens/">Siemens Protocol</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../mriprotocols/ge/">GE Protocol</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >HBCD BIDS Dataset</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../datacuration/bids/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../datacuration/imaging/">Imaging</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../datacuration/eeg/">EEG</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../datacuration/motion/">Motion Data</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../datacuration/phenotypes/">Phenotypes</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Data Processing</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../processing/pipelines/">Pipelines</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../processing/standards/">Pipeline Software Standards</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../processing/processing/">External Processing Documentation</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Change Log</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../changelog/pending/">Pending Updates</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Version History</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../changelog/versions/v1.4/">Beta Release 5/V1.4</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../changelog/versions/v1.3/">Beta Release 4/V1.3</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../changelog/versions/v1.2/">Beta Release 3/V1.2</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../changelog/versions/v1.1/">Beta Release 2/V1.1</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../changelog/versions/v1.0/">Beta Release 1/V1.0</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">FAQ & Contact</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../faq/">FAQ</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../contact/">Contact</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">HBCD Data Release</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Release Notes</li>
+          <li class="breadcrumb-item">Data Measures & Quality Control</li>
+          <li class="breadcrumb-item">Pregnancy & Exposure</li>
+      <li class="breadcrumb-item active">Substance Use</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h2 id="assist-v1">ASSIST V1</h2>
+<h3 id="overview">Overview</h3>
+<p><strong>Full Name</strong>: NIDA-modified Alcohol, Smoking and Substance Involvement Screening Test (ASSIST) V2.0<br />
+<strong>Acronym/Brief Name</strong>: ASSIST V1<br />
+<strong>Construct</strong>: Substance use before and during pregnancy<br />
+<strong>Description</strong>: This was a created to capture maternal substance use before, during and after pregnancy<br />
+<strong>Summary</strong>: Lifetime and problematic use, pre-pregnancy and pregnancy use was expanded into the following substances: nicotine or tobacco products, alcohol, cannabis, cannabidiol, synthetic cannabinoids, prescription opioids, heroin or other illicit opioids, methadone, buprenorphine, benzodiazepines, cocaine, amphetamine type stimulants, methamphetamine, inhalants, hallucinogens or club drugs, androgenic anabolic steroids, phencyclidine, and kratom. Participants were asked for each substance whether they had ever used it, and for those endorsed, a series of questions about disordered use or use causing problems in their lives. Information was obtained about modes of use specific to each substance. For example, for tobacco, participants were asked to report the type of product used, such as cigarettes or e-cigarettes. Likewise, participants who used cannabis were asked what types of products they used, such as smoking marijuana flower, vaping, or consuming edibles. If alcohol was reported during this period, the participant was further asked what type of alcohol they consumed (beer, hard cider, hard seltzer/wine/spirits). For each one, they were asked, on average, the volume of one typical glass/container that they consumed. United States defined ‘standard drinks’ were then calculated by dividing the amount reported by 12oz (beer, hard cider, hard seltzer), 5oz (wine) or 1.5 oz (spirits). Finally, if the participant reported opioids, they were asked the type of opioid used during the period, and typical quantities per occasion for the following: heroin (grams, bags), prescription opioids (pills), buprenorphine (pills, injectables, films), and methadone (mg). Any endorsement of substances in the 3 months prior to pregnancy or during pregnancy triggered the Time Line Follow Back (TLFB).</p>
+<h3 id="implementation">Implementation</h3>
+<p><strong>Method of Administration</strong>: RA administered in person (except in Alabama, where it was self-administered) <br />
+<strong>REDCap Form Name</strong>: Assist V1 
+<strong>Pilot Data Dictionary</strong>: <br />
+<strong>Spanish Translation</strong>: Created<br />
+<strong>Child Specific/Unspecific Form</strong>: Unspecific 
+<strong>Respondent:</strong> pregnant person</p>
+<h3 id="data-collection">Data Collection</h3>
+<p><strong>Visits Administered and corresponding age range of administration</strong>:  V1
+<strong>Estimated length of time for completion</strong>: 5 minutes</p>
+<h3 id="quality-control-qc">Quality Control (QC)</h3>
+<p><strong>QC Procedures</strong>: Distributions for answers, cross with TLFB <br />
+<strong>Common Issues Identified</strong>: If a participant endorsed a substance on the TLFB, it should have been noted on the Assist. Sometimes it was not, which triggered a query to the site to correct it.</p>
+<h3 id="potential-issues-flagged-by-subject-matter-experts">Potential Issues Flagged by Subject Matter Experts</h3>
+<ul>
+<li>To capture ‘standard drinks’ of alcohol, participants were asked to self-report their typical size of a single drink (in oz). This was difficult for some participants, and some reports are outside of expected range. Sites were queried on outliers, but participants were not always able to be re-contacted. </li>
+</ul>
+<h3 id="references">References</h3>
+<ul>
+<li>National Institute on Drug Abuse. (n.d.). <em>NIDA Modified ASSIST</em>.</li>
+</ul>
+<h2 id="assist-v2">ASSIST V2</h2>
+<p><strong>Full Name</strong>: NIDA-modified Alcohol, Smoking and Substance Involvement Screening Test (ASSIST) V2.0<br />
+<strong>Acronym/Brief Name</strong>: ASSIST V2<br />
+<strong>Construct</strong>: Substance use (end of pregnancy and postnatal)<br />
+<strong>Description</strong>: This was a created to capture maternal substance use between enrollment and delivery and postnatal (weeks 0-4) substance use.<br />
+<strong>Summary</strong>: Participants were first asked to update whether they had used any of the 18 substances of interest between V1 and delivery. If alcohol was reported during this period, the participant was further asked what type of alcohol they consumed (beer, hard cider, hard seltzer/wine/spirits). For each one, they were asked, on average, the volume of one typical glass/container that they consumed. United States defined ‘standard drinks’ were then calculated by dividing the amount reported by 12oz (beer, hard cider, hard seltzer), 5oz (wine) or 1.5 oz (spirits). Finally, if the participant reported opioids, they were asked the type of opioid used during the period, and typical quantities per occasion for the following: heroin (grams, bags), prescription opioids (pills), buprenorphine (pills, injectables, films), and methadone (mg). Any endorsement of substances between V1 and delivery triggered the Time Line Follow Back (TLFB). <br />
+In addition, participants were asked if they used any of the 18 substances between delivery and V2 (0-4 weeks postnatal). Response choices are: 0, Never | 1, Once or Twice | 2, Monthly | 3, Weekly | 4, Daily or Almost Daily.</p>
+<h3 id="implementation_1">Implementation</h3>
+<p><strong>Method of Administration</strong>: RA-administered in person (except in Alabama, where it was self-administered)
+<strong>REDCap Form Name</strong>: Assist V2<br />
+<strong>Pilot Data Dictionary</strong>: <br />
+<strong>Spanish Translation</strong>: Created<br />
+<strong>Child Specific/Unspecific Form</strong>: Unspecific 
+<strong>Respondent:</strong> person who gave birth</p>
+<h3 id="data-collection_1">Data Collection</h3>
+<p><strong>Visits Administered and corresponding age range of administration</strong>:  V2
+<strong>Estimated length of time for completion</strong>: 5 minutes</p>
+<h3 id="quality-control-qc_1">Quality Control (QC)</h3>
+<p><strong>QC Procedures</strong>: Distributions for answers, cross with TLFB<br />
+<strong>Common Issues Identified</strong>: If a participant endorsed a substance on the TLFB, it should have been noted on the Assist. Sometimes it was not, which triggered a query to the site to correct it.</p>
+<h3 id="potential-issues-flagged-by-subject-matter-experts_1">Potential Issues Flagged by Subject Matter Experts</h3>
+<ul>
+<li>To capture ‘standard drinks’ of alcohol, participants were asked to self-report their typical size of a single drink (in oz). This was difficult for some participants, and some reports are outside of expected range. Sites were queried on outliers, but participants were not always able to be re-contacted. </li>
+</ul>
+<h3 id="references_1">References</h3>
+<ul>
+<li>National Institute on Drug Abuse. (n.d.). <em>NIDA Modified ASSIST</em>.</li>
+</ul>
+<h2 id="assist-v3">ASSIST V3</h2>
+<p><strong>Full Name</strong>: NIDA-modified Alcohol, Smoking and Substance Involvement Screening Test (ASSIST) V2.0<br />
+<strong>Acronym/Brief Name</strong>: ASSIST V3<br />
+<strong>Construct</strong>: Substance use after pregnancy<br />
+<strong>Description</strong>: This was a created to capture maternal substance use throughout the rest of the study.<br />
+<strong>Summary</strong>: Participants were asked if they used any of the 18 substances in the last 3 months. Response choices are: 0, Never | 1, Once or Twice | 2, Monthly | 3, Weekly | 4, Daily or Almost Daily.</p>
+<h3 id="implementation_2">Implementation</h3>
+<p><strong>Method of Administration</strong>: RA administered in person (except in Alabama, where it was self-administered) <br />
+<strong>REDCap Form Name</strong>: Assist V3<br />
+<strong>Pilot Data Dictionary</strong>: <br />
+<strong>Spanish Translation</strong>: Created<br />
+<strong>Child Specific/Unspecific Form</strong>: Unspecific 
+<strong>Respondent:</strong> person who gave birth or primary caregiver</p>
+<h3 id="data-collection_2">Data Collection</h3>
+<p><strong>Visits Administered and corresponding age range of administration</strong>:  V3
+<strong>Estimated length of time for completion</strong>: 3 minutes</p>
+<h3 id="quality-control-qc_2">Quality Control (QC)</h3>
+<p><strong>QC Procedures</strong>: Distributions for answers<br />
+<strong>Common Issues Identified</strong>: None</p>
+<h3 id="potential-issues-flagged-by-subject-matter-experts_2">Potential Issues Flagged by Subject Matter Experts</h3>
+<p>None</p>
+<h3 id="references_2">References</h3>
+<ul>
+<li>National Institute on Drug Abuse. (n.d.). <em>NIDA Modified ASSIST</em>.</li>
+</ul>
+<h2 id="timeline-follow-back">Timeline Follow Back</h2>
+<p><strong>Full Name</strong>: Timeline Follow Back<br />
+<strong>Acronym/Brief Name</strong>: TLFB<br />
+<strong>Construct</strong>: Substance use before and during pregnancy<br />
+<strong>Description</strong>: This was a created to capture maternal substance use before and during pregnancy<br />
+<strong>Summary</strong>: Participants who reported any substance use in the three months before or during pregnancy were interviewed about their use of each substance with a TLFB approach.  They were instructed to report their substance use during 9 weeks in total for each substance reported on the ASSIST, disaggregated into product type (e.g. edible cannabis products). The number of occasions of use per day was captured for all products except for cigarettes and cigarillos (number per day) and alcohol (number of single servings per day). The sampled weeks captured 9 weeks in total and were as follows: pre-pregnancy use (Weeks 1-2: four weeks before LMP through two weeks before LMP), early pregnancy use (Weeks 3-6: two weeks after LMP through six weeks after LMP), and current use (Week 7: the week prior to V1). The TLFB was repeated at V2 to capture substance use during the last two full weeks of gestation (Weeks 8-9). While for most participants, the TLFB was administered by study staff, at the site where prenatal substance use was reportable by study staff, participants received training to enter their use directly into the TLFB.  </p>
+<h3 id="implementation_3">Implementation</h3>
+<p><strong>Method of Administration</strong>: RA administered in person (except in Alabama, where it was self-administered) 
+<strong>REDCap Form Name</strong>: TLFB <br />
+<strong>Pilot Data Dictionary</strong>: <br />
+<strong>Spanish Translation</strong>: Created<br />
+<strong>Child Specific/Unspecific Form</strong>: Unspecific 
+<strong>Respondent:</strong> pregnant person or person who gave birth</p>
+<h3 id="data-collection_3">Data Collection</h3>
+<p><strong>Visits Administered and corresponding age range of administration</strong>:  V1, V2
+<strong>Estimated length of time for completion</strong>: 10 minutes</p>
+<h3 id="quality-control-qc_3">Quality Control (QC)</h3>
+<p><strong>QC Procedures</strong>: Distributions for answers, cross with Assist </p>
+<p><strong>Common Issues Identified</strong>: If a participant endorsed a substance on the TLFB, it should have been noted on the Assist. Sometimes it was not, which triggered a query to the site to correct it.</p>
+<h3 id="potential-issues-flagged-by-subject-matter-experts_3">Potential Issues Flagged by Subject Matter Experts</h3>
+<p>Important note for users: the TLFB was a sampling of weeks of use before (Weeks 1-2) and during (Weeks 3-9) pregnancy. It is completely reasonable that someone could endorse a substance during pregnancy, and it doesn’t appear on the TLFB because it didn’t happen to fall within a sampled week. Similarly, they may have a positive biospecimen but no data on the TLFB for the same reason. Sampling (before, early, mid and late pregnancy) was meant to minimize participant burden (and not request a 40-week TLFB) but capture portions of pregnancy where behaviors tend to change (before and after pregnancy recognition, late pregnancy). </p>
+<p>Also of note- participants were asked to report occasions (except cigarettes/ cigarillos and drinks (number), but some substances (e.g. electronic cigarette devices) are difficult to report in occasions and have outliers.</p>
+<p>The TLFB data should be combined with the biospecimen and Assist data. One could also create trajectories of use from the TLFB with assumptions by using data on early pregnancy (weeks 3-6) carried forward until stated pregnancy recognition (V1 Health), then using enrollment (week 7) information and carrying that forward until late pregnancy (weeks 8-9). </p>
+<h3 id="references_3">References</h3>
+<ul>
+<li>Sobell, L., &amp; Sobell, M. (2000). Alcohol timeline follow-back (TLFB). In <em>Handbook of psychiatric measures.</em> (p. 477). American Psychiatric Association.</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../mentalhealth/" class="btn btn-neutral float-left" title="Psychiatric Evaluation & History"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../../mriprotocols/siemens/" class="btn btn-neutral float-right" title="Siemens Protocol">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../mentalhealth/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../../../mriprotocols/siemens/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

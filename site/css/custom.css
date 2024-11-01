@@ -31,6 +31,10 @@
     padding: 0 1rem;
 }
 
+.md-header-nav {
+    background-color: #409b92;
+}
+
 .md-header {
     background-color: #409b92;
 }

@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Electroencephalogram (EEG) - HBCD Data Release</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../../css/custom.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Electroencephalogram (EEG)";
+        var mkdocs_page_input_path = "measures/eeg.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> HBCD Data Release
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">About</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Release Notes</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" >Data Measures & Quality Control</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../demographics/">Demographics</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../socenv_determinants/">Social & Environmental Determinants</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../neurocog_language/">Neurocognition & Language</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">Electroencephalogram (EEG)</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#video-resting-state">Video Resting State</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#overview">Overview</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#implementation">Implementation</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#data-collection">Data Collection</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#quality-control-qc">Quality Control (QC)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#potential-issues-flagged-by-subject-matter-experts">Potential Issues Flagged by Subject Matter Experts</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#additional-information">Additional Information</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#references">References</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#faces-task">Faces Task</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#overview_1">Overview</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#implementation_1">Implementation</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#data-collection_1">Data Collection</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#quality-control-qc_1">Quality Control (QC)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#potential-issues-flagged-by-subject-matter-experts_1">Potential Issues Flagged by Subject Matter Experts</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#additional-information_1">Additional Information</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#references_1">References</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#auditory-mismatch-negativity-task">Auditory Mismatch Negativity Task</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#overview_2">Overview</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#implementation_2">Implementation</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#data-collection_2">Data Collection</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#quality-control-qc_2">Quality Control (QC)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#potential-issues-flagged-by-subject-matter-experts_2">Potential Issues Flagged by Subject Matter Experts</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#additional-information_2">Additional Information</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#references_2">References</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#visual-evoked-potential-task">Visual Evoked Potential Task</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#overview_3">Overview</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#implementation_3">Implementation</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#data-collection_3">Data Collection</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#quality-control-qc_3">Quality Control (QC)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#potential-issues-flagged-by-subject-matter-experts_3">Potential Issues Flagged by Subject Matter Experts</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#additional-information_3">Additional Information</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#references_3">References</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../mri/">Magnetic Resonance Imaging (MRI)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../sensors/">Novel Technologies & Wearable Sensors</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../physhealth/">Physical Health</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../behavior/">Behavior & Caregiver-Child Interaction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Pregnancy & Exposure</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/preghealth/">Pregnancy Health</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/infant/">Infant Health</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/mentalhealth/">Psychiatric Evaluation & History</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/substanceuse/">Substance Use</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >MRI Protocols</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../mriprotocols/siemens/">Siemens Protocol</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../mriprotocols/ge/">GE Protocol</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >HBCD BIDS Dataset</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/bids/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/imaging/">Imaging</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/eeg/">EEG</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/motion/">Motion Data</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../datacuration/phenotypes/">Phenotypes</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Data Processing</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../processing/pipelines/">Pipelines</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../processing/standards/">Pipeline Software Standards</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../processing/processing/">External Processing Documentation</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Change Log</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../changelog/pending/">Pending Updates</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Version History</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.4/">Beta Release 5/V1.4</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.3/">Beta Release 4/V1.3</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.2/">Beta Release 3/V1.2</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.1/">Beta Release 2/V1.1</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../changelog/versions/v1.0/">Beta Release 1/V1.0</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">FAQ & Contact</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../faq/">FAQ</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../contact/">Contact</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">HBCD Data Release</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Release Notes</li>
+          <li class="breadcrumb-item">Data Measures & Quality Control</li>
+      <li class="breadcrumb-item active">Electroencephalogram (EEG)</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="electroencephalogram-eeg">Electroencephalogram (EEG)</h1>
+<h2 id="video-resting-state">Video Resting State</h2>
+<h3 id="overview">Overview</h3>
+<p><strong>Full Name</strong>: Video Resting State<br />
+<strong>Acronym/Brief Name</strong>: RS<br />
+<strong>Construct</strong>: The Video Resting State (v.11.29.23) task provides information about neural oscillations measured in EEG power across the scalp. Developmental changes in oscillatory activity reflect underlying developing large scale neural networks associated with early self-regulatory, cognitive, and affective processes and developmental outcomes (Gabard-Durnam et al., 2019; E. J. Jones et al., 2020; Whedon et al., 2020). The metrics derived from the resting EEG signal include power across the frequency spectrum (Gabard-Durnam et al., 2019) and relative power between different scalp locations (Davidson &amp; Fox, 1982). See Fox et al. (2024) for more information about the RS. <br />
+<strong>Description</strong>:  <br />
+In V03, a silent video plays with a variety of colorful and abstract toys and visuals on screen. The child watches the video for the duration of the task.</p>
+<p><img alt="" src="../../images/eeg-RS-V03.png" /></p>
+<p>In V04/6, a silent video plays with a variety of marble run and construction visuals on screen. The child watches the video for the duration of the task.  <br />
+<img alt="" src="../../images/eeg-RS-V04.png" /></p>
+<p><strong>Summary</strong>: The Resting State Task (v.11.29.23) provides assessment of the development of large scale neural networks during infancy and early childhood. It includes thorough QC procedures to ensure data accuracy and integrity.</p>
+<h3 id="implementation">Implementation</h3>
+<p><strong>Method of Administration</strong>: RA administered in person<br />
+<strong>REDCap Form Name</strong>: NA<br />
+<strong>Pilot Data Dictionary</strong>: NA<br />
+<strong>Spanish Translation</strong>: NA<br />
+<strong>Child Specific/Unspecific Form</strong>: Child Specific<br />
+<strong>Respondent</strong>: NA</p>
+<h3 id="data-collection">Data Collection</h3>
+<p><strong>Visits Administered and corresponding age range of administration</strong>: V03 (3-9 months), V04 (9-15 months), V06 (15-48 months)<br><br />
+<strong>Estimated length of time for completion</strong>: Approximately 3 minutes</p>
+<h3 id="quality-control-qc">Quality Control (QC)</h3>
+<p><strong>QC Procedures</strong> 
+  * Data are cleaned and preprocessed using the Maryland Analysis of Developmental EEG (MADE) pipeline (Debnath et al., 2019). <br />
+  * Ongoing QC monitoring via LORIS dashboard<br />
+  * Rate quality of EEG cap application for each recording<br />
+  * Site specific check ins and troubleshooting<br />
+  * See Fox et al. (2024) for more information on EEG data quality control procedures.   </p>
+<p><strong>Common Issues Identified</strong><br />
+  * Irregular application of EEG sensors </p>
+<h3 id="potential-issues-flagged-by-subject-matter-experts">Potential Issues Flagged by Subject Matter Experts</h3>
+<ul>
+<li>Change in video content between V03 - V04/6</li>
+</ul>
+<h3 id="additional-information">Additional Information</h3>
+<p><strong>Relevant Documents</strong>: HBCD E-Prime Task Manual, Official EEG Acquisition Manual<br />
+<strong>Links to Resources</strong>:<br />
+  * <a href="https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing">E-Prime manual</a><br />
+  * <a href="https://docs.google.com/document/d/1tjrFJzntHOqJOrq-SRGy2Z0LOj56MFsZ2ZocgrUogSs/edit?usp=sharing">EEG Acquisition Manual</a></p>
+<h3 id="references">References</h3>
+<ul>
+<li>Davidson, R. J., &amp; Fox, N. A. (1982). Asymmetrical Brain Activity Discriminates Between Positive and Negative Affective Stimuli in Human Infants. Science, 218(4578), 1235– 1237. <a href="https://doi.org/10.1126/science.7146906">https://doi.org/10.1126/science.7146906</a></li>
+<li>Fox, N.A., Pérez-Edgar, K., Morales, S., Brito, N.H., Campbell, A.M., Cavanagh, J.F., Gabard-Durnam, L.J., Hudac, C.M., Key, A.P., Larson-Prior, L.J., Pedapati, E.V., Norton, E.S., Reetzke, R., Roberts, T.P., Rutter, T.M., Scott, L.S., Shuffrey, L.C., Antúnez, M., Boylan, M.R., … Yoder, L. (2024). The development and structure of the Healthy Brain and Child Development (HBCD) study EEG Protocol. Developmental Cognitive Neuroscience, 69, 101447. https://doi.org/10.1016/j.dcn.2024.101447</li>
+<li>Gabard-Durnam, L.J., Wilkinson, C., Kapur, K., Tager-Flusberg, H., Levin, A.R., &amp; Nelson, C.A. (2019). Longitudinal EEG power in the first postnatal year differentiates autism outcomes. Nature Communications, 10(1), Article 1. <a href="https://doi.org/10.1038/s41467-019-12202-9">https://doi.org/10.1038/s41467-019-12202-9</a></li>
+<li>Jones, E.J. H., Goodwin, A., Orekhova, E., Charman, T., Dawson, G., Webb, S.J., &amp; Johnson, M.H. (2020). Infant EEG theta modulation predicts childhood intelligence. Scientiﬁc Reports, 10(1), 11232. <a href="https://doi.org/10.1038/s41598-020-67687-y">https://doi.org/10.1038/s41598-020-67687-y</a></li>
+<li>Whedon, M., Perry, N.B., &amp; Bell, M.A. (2020). Relations between frontal EEG maturation and inhibitory control in preschool in the prediction of children’s early academic skills. Brain and Cognition, 145, 105636. <a href="https://doi.org/10.1016/j.bandc.2020.105636">https://doi.org/10.1016/j.bandc.2020.105636</a> </li>
+</ul>
+<h2 id="faces-task">Faces Task</h2>
+<h3 id="overview_1">Overview</h3>
+<p><strong>Full Name</strong>: Faces task<br />
+<strong>Acronym/Brief Name</strong>: Face<br />
+<strong>Construct</strong>: The Faces task (v.11.29.23) assesses child and infant face processing abilities as well as the underlying neural activity supporting face and object processing. ERPs are computed as a function of repeated presentation of faces and objects. The ERPs index different stages of processing including attention, perception, categorization, individuation and memory. The ERP components elicited by the Faces task are the P1, N290, and P400 components. See Fox et al (2024) for additional information on the rationale for task/stimulus development and ERP findings from pilot data. <br />
+<strong>Description</strong>: The task consists of 2 blocks: 50 trials of upright faces &amp; 50 trials of inverted faces and 50 trials of upright faces &amp; 50 trials of objects. If the child loses attention, an attention getter may be played to bring the child’s focus back to the task. </p>
+<p><strong>Face task images (Face vs. Object)</strong><br>
+<img alt="" src="../../images/eeg-facetask.png" /></p>
+<p><strong>Face task schematic (Face vs. Object)</strong><br>
+<strong>UNDER CONSTRUCTION</strong></p>
+<p><strong>Summary</strong>: The Face task (v.11.29.23) is used to assess neural activity supporting face and object processing within the first years of life. It assesses child and infant face processing development including attention, perception, categorization, individuation and memory. The measure includes rigorous QC procedures to ensure data integrity and reliability.</p>
+<h3 id="implementation_1">Implementation</h3>
+<p><strong>Method of Administration</strong>: RA administered in person<br />
+<strong>REDCap Form Name</strong>: NA<br />
+<strong>Pilot Data Dictionary</strong>: NA<br />
+<strong>Spanish Translation</strong>: NA<br />
+<strong>Child Specific/Unspecific Form</strong>: Child Specific<br />
+<strong>Respondent</strong>: NA</p>
+<h3 id="data-collection_1">Data Collection</h3>
+<p><strong>Visits Administered and corresponding age range of administration</strong>: V03 (3-9 months), V04 (9-15 months), V06 (15-48 months)<br />
+<strong>Estimated length of time for completion</strong>: Approximately 5 minutes</p>
+<h3 id="quality-control-qc_1">Quality Control (QC)</h3>
+<p><strong>QC Procedures</strong>:<br />
+  * Data are cleaned and preprocessed using the Maryland Analysis of Developmental EEG (MADE) pipeline (Debnath et al., 2019)<br />
+  * Ongoing QC monitoring via LORIS dashboard<br />
+  * Rate quality of EEG cap application for each recording<br />
+  * Site specific check ins and troubleshooting<br />
+  * See Fox et al. (2024) for more information on EEG data quality control procedures. <br />
+<strong>Common Issues Identified</strong>:<br />
+  * Partial task completion due to infant fussing out<br />
+  * Irregular application of EEG sensors <br />
+  * Missing stimulus flags</p>
+<h3 id="potential-issues-flagged-by-subject-matter-experts_1">Potential Issues Flagged by Subject Matter Experts</h3>
+<p>None</p>
+<h3 id="additional-information_1">Additional Information</h3>
+<p><strong>Relevant Documents</strong>: HBCD E-Prime Task Manual, Official EEG Acquisition Manual<br />
+<strong>Links to Resources</strong>:<br />
+  * <a href="https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing">E-Prime manual</a><br />
+  * <a href="https://docs.google.com/document/d/1tjrFJzntHOqJOrq-SRGy2Z0LOj56MFsZ2ZocgrUogSs/edit?usp=sharing">EEG Acquisition Manual</a></p>
+<h3 id="references_1">References</h3>
+<ul>
+<li>Barry-Anwar, Ryan, Tracy Riggins, and Lisa S. Scott, 'Electrophysiology in Developmental Populations Key Methods and Findings', in Kathrin Cohen Kadosh (ed.), <em>Oxford Handbook of Developmental Cognitive Neuroscience</em>, Oxford Library of Psychology (2024; online edn, Oxford Academic, 2 Sept. 2020), <a href="https://doi.org/10.1093/oxfordhb/9780198827474.013.3">https://doi.org/10.1093/oxfordhb/9780198827474.013.3</a></li>
+<li>Fox, N.A., Pérez-Edgar, K., Morales, S., Brito, N.H., Campbell, A.M., Cavanagh, J.F., Gabard-Durnam, L.J., Hudac, C.M., Key, A.P., Larson-Prior, L.J., Pedapati, E.V., Norton, E.S., Reetzke, R., Roberts, T.P., Rutter, T.M., Scott, L.S., Shuffrey, L.C., Antúnez, M., Boylan, M.R., … Yoder, L. (2024). The development and structure of the Healthy Brain and Child Development (HBCD) study EEG Protocol. Developmental Cognitive Neuroscience, 69, 101447. https://doi.org/10.1016/j.dcn.2024.101447</li>
+<li>Markant, J., &amp; Scott, L.S. (2018). Attention and Perceptual Learning Interact in the Development of the Other-Race Effect. <em>Current Directions in Psychological Science</em>, <em>27</em>(3), 163–169. <a href="https://doi.org/10.1177/0963721418769884">https://doi.org/10.1177/0963721418769884</a></li>
+<li>Scherf, K.S., &amp; Scott, L.S. (2012). Connecting developmental trajectories: Biases in face processing from infancy to adulthood. <em>Developmental Psychobiology</em>, <em>54</em>(6), 643–663. <a href="https://doi.org/10.1002/dev.21013">https://doi.org/10.1002/dev.21013</a></li>
+</ul>
+<h2 id="auditory-mismatch-negativity-task">Auditory Mismatch Negativity Task</h2>
+<h3 id="overview_2">Overview</h3>
+<p><strong>Full Name</strong>: Auditory Mismatch Negativity Task<br />
+<strong>Acronym/Brief Name</strong>: MMN<br />
+<strong>Construct</strong>: The Auditory mismatch negativity (MMN) Task (v.11.29.23) facilitates examining auditory evoked potentials and habituation/dishabituation to auditory stimuli. The MMN captures differences in neural responses to standard (“ba”) and deviant (“da”) stimuli.  From this task the MMN difference wave is computed, which is also known as the Mismatch Response (MMR). The amplitude/latency of this difference wave has been linked to language (Choudhury &amp; Benasich, 2011), temperament/personality (Gurrera et al., 2001; Marshall et al., 2009), internalizing problems (Reeb-Sutherland et al., 2009), externalizing/attention problems (Gumenyuk et al., 2005), and disorders including autism (Lepistö et al., 2005; Schwartz et al., 2018) and reading ability/dyslexia (Leppänen et al., 2010; Norton, Beach, et al., 2021). See Fox et al. (2024) for more information about the MMN task. <br />
+<strong>Description</strong>: An auditory presentation of human syllables including “ba” and “da”. A video is played on iPad as a distractor with brightness all the way up, in airplane mode, and not plugged in. The task runs for 11:30 minutes in V03 and 8:30 minutes in V04/6. The task may be paused if breaks are needed. <br />
+<strong>Summary</strong>: The MMN task (v.11.29.23) provides a comprehensive assessment of infant speech sound processing. The measure includes rigorous QC procedures to ensure data integrity and reliability.</p>
+<h3 id="implementation_2">Implementation</h3>
+<p><strong>Method of Administration</strong>: RA administered in person<br />
+<strong>REDCap Form Name</strong>: NA<br />
+<strong>Pilot Data Dictionary</strong>: NA<br />
+<strong>Spanish Translation</strong>: NA<br />
+<strong>Child Specific/Unspecific Form</strong>: Child Specific<br />
+<strong>Respondent</strong>: NA</p>
+<h3 id="data-collection_2">Data Collection</h3>
+<p><strong>Visits Administered and corresponding age range of administration</strong>:<br />
+  * V03: 3-9 months<br />
+  * V04: 9-15 months<br />
+  * V06: 15-48 months<br />
+<strong>Estimated length of time for completion</strong>: Approximately 11:30 minutes (V03) or 8:30 minutes (V04/6)</p>
+<h3 id="quality-control-qc_2">Quality Control (QC)</h3>
+<p><strong>QC Procedures</strong> 
+  * Data are cleaned and preprocessed using the Maryland Analysis of Developmental EEG (MADE) pipeline (Debnath et al., 2019)<br />
+  * Ongoing QC monitoring via LORIS dashboard<br />
+  * Rate quality of EEG cap application for each recording<br />
+  * Site specific check ins and troubleshooting<br />
+  * See Fox et al. (2024) for more information on EEG data quality control procedures.   </p>
+<p><strong>Common Issues Identified</strong><br />
+  * Partial task completion due to infant fussing out<br />
+  * Irregular application of EEG sensors <br />
+  * Missing stimulus flags</p>
+<h3 id="potential-issues-flagged-by-subject-matter-experts_2">Potential Issues Flagged by Subject Matter Experts</h3>
+<p>Interstimulus interval (ISI) changes between V03 - V04/6. See Fox et al. (2024) and Morr et al. (2002) for more information about the ISI change. </p>
+<h3 id="additional-information_2">Additional Information</h3>
+<p><strong>Relevant Documents</strong>: HBCD E-Prime Task Manual, Official EEG Acquisition Manual<br />
+<strong>Links to Resources</strong>:<br />
+  * <a href="https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing">E-Prime manual</a><br />
+  * <a href="https://docs.google.com/document/d/1tjrFJzntHOqJOrq-SRGy2Z0LOj56MFsZ2ZocgrUogSs/edit?usp=sharing">EEG Acquisition Manual</a></p>
+<h3 id="references_2">References</h3>
+<ul>
+<li>Choudhury, N., &amp; Benasich, A. A. (2011). Maturation of auditory evoked potentials from 6 to 48 months: Prediction to 3 and 4 year language and cognitive abilities. Clinical Neurophysiology, 122(2), 320–338. <a href="https://doi.org/10.1016/j.clinph.2010.05.035">https://doi.org/10.1016/j.clinph.2010.05.035</a></li>
+<li>Fox, N.A., Pérez-Edgar, K., Morales, S., Brito, N.H., Campbell, A.M., Cavanagh, J.F., Gabard-Durnam, L.J., Hudac, C.M., Key, A.P., Larson-Prior, L.J., Pedapati, E.V., Norton, E.S., Reetzke, R., Roberts, T.P., Rutter, T.M., Scott, L.S., Shuffrey, L.C., Antúnez, M., Boylan, M.R., … Yoder, L. (2024). The development and structure of the Healthy Brain and Child Development (HBCD) study EEG Protocol. Developmental Cognitive Neuroscience, 69, 101447. https://doi.org/10.1016/j.dcn.2024.101447</li>
+<li>Gumenyuk, V., Korzyukov, O., Escera, C., Hämäläinen, M., Huotilainen, M., Häyrinen, T., Oksanen, H., Näätänen, R., Von Wendt, L., &amp; Alho, K. (2005). Electrophysiological evidence of enhanced distractibility in ADHD children. Neuroscience Letters, 374(3), 212–217. https://doi.org/10.1016/j.neulet.2004.10.081</li>
+<li>Gurrera, R.J., O’Donnell, B.F., Nestor, P.G., Gainski, J., &amp; McCarley, R.W. (2001). The P3 auditory event–related brain potential indexes major personality traits. Biological Psychiatry, 49(11), 922–929. https://doi.org/10.1016/S0006-3223(00)01067-2</li>
+<li>Lachmann, T., Berti, S., Kujala, T., &amp; Schröger, E. (2005). Diagnostic subgroups of developmental dyslexia have different deficits in neural processing of tones and phonemes. International Journal of Psychophysiology, 55(2), 105–120. <a href="https://doi.org/10.1016/j.ijpsycho.2004.11.005">https://doi.org/10.1016/j.ijpsycho.2004.11.005</a></li>
+<li>Lepistö, T., Kujala, T., Vanhala, R., Alku, P., Huotilainen, M., &amp; Näätänen, R. (2005). The discrimination of and orienting to speech and non-speech sounds in children with autism. Brain Research, 1066(1–2), 147–157.</li>
+<li>Leppänen, P.H., Hämäläinen, J.A., Salminen, H.K., Eklund, K.M., Guttorm, T.K., Lohvansuu, K., Puolakanaho, A., &amp; Lyytinen, H. (2010). Newborn brain event-related potentials revealing atypical processing of sound frequency and the subsequent association with later literacy skills in children with familial dyslexia. Cortex, 46(10), 1362–1376.</li>
+<li>Marshall, P.J., Reeb, B.C., &amp; Fox, N.A. (2009). Electrophysiological responses to auditory novelty in temperamentally different 9-month-old infants. Developmental Science, 12(4), 568–582. <a href="https://doi.org/10.1111/j.1467-7687.2008.00808.x">https://doi.org/10.1111/j.1467-7687.2008.00808.x</a></li>
+<li>Morr, M.L., Shafer, V.L., Kreuzer, J.A., &amp; Kurtzberg, D. (2002). Maturation of mismatch negativity in typically developing infants and preschool children. Ear and Hearing, 23(2), 118–136. https://doi.org/10.1097/00003446-200204000-00005</li>
+<li>Norton, E.S., Beach, S.D., Eddy, M.D., McWeeny, S., Ozernov-Palchik, O., Gaab, N., &amp; Gabrieli, J.D. (2021). ERP mismatch negativity amplitude and asymmetry reflect 34 phonological and rapid automatized naming     skills in English-speaking kindergartners. Frontiers in Human Neuroscience, 15, 624617.</li>
+<li>Reeb-Sutherland, B.C., Vanderwert, R.E., Degnan, K.A., Marshall, P.J., Pérez-Edgar, K., Chronis-Tuscano, A., Pine, D.S., &amp; Fox, N.A. (2009). Attention to novelty in behaviorally inhibited adolescents moderates risk   for anxiety. Journal of Child Psychology and Psychiatry, 50(11), 1365–1372. <a href="https://doi.org/10.1111/j.1469-">https://doi.org/10.1111/j.1469-</a>7610.2009.02170.x</li>
+<li>Schwartz, S., Shinn-Cunningham, B., &amp; Tager-Flusberg, H. (2018). Meta-analysis and systematic review of the literature characterizing auditory mismatch negativity in individuals with autism. Neuroscience &amp; Biobehavioral Reviews, 87, 106–117.</li>
+</ul>
+<h2 id="visual-evoked-potential-task">Visual Evoked Potential Task</h2>
+<h3 id="overview_3">Overview</h3>
+<p><strong>Full Name</strong>: Visual Evoked Potential Task<br />
+<strong>Acronym/Brief Name</strong>: VEP<br />
+<strong>Construct</strong>: The Visual Evoked Potential Task (VEP) (v.11.29.23) measures cortical responses to flashing checkerboard visual stimuli. VEP amplitude and latency decreases with age during the first three years of life. The VEP has been associated with concurrent and later developmental outcomes as a function of prenatal substance exposures (Margolis et al., 2024), early visual enrichment or deprivation (Jensen et al., 2019), vision system maturation (Lippé et al., 2009), neurodevelopmental disorders (e.g., ASD and ADHD; Cremone- Caira et al., 2023; Nazhvani et al., 2013), and reading and learning disabilities (Shandiz et al., 2017). The morphology of the VEP likely reflects varying degrees of synaptic efficiency and as such, can be used as a readout of general cortical function. The task elicits a VEP response in the occipital area (Oz), consisting of the, N1 (first negative peak), P1 (first positive peak), and N2 (second negative peak) components. See Fox et al. (2024) for more information about the VEP task.<br />
+<strong>Description</strong>: A flashing black and white checkerboard is shown for the duration of the task.  </p>
+<p><img alt="VEP checkerboard image" src="../../images/eeg-vep-checkerboard.png" /></p>
+<p><strong>Summary</strong>: The Visual Evoked Potential Task (v.11.29.23) measures development of visual cortex and response to stimuli, reflecting underlying cortical development. The measure includes rigorous QC procedures to ensure data integrity and reliability.</p>
+<h3 id="implementation_3">Implementation</h3>
+<p><strong>Method of Administration</strong>: RA administered in person<br />
+<strong>REDCap Form Name</strong>: NA<br />
+<strong>Pilot Data Dictionary</strong>: NA<br />
+<strong>Spanish Translation</strong>: NA<br />
+<strong>Child Specific/Unspecific Form</strong>: Child Specific<br />
+<strong>Respondent</strong>: NA</p>
+<h3 id="data-collection_3">Data Collection</h3>
+<p><strong>Visits Administered and corresponding age range of administration</strong>: V03 (3-9 months), V04 (9-15 months), V06 (15-48 months)<br />
+<strong>Estimated length of time for completion</strong>: Approximately 1 minute</p>
+<h3 id="quality-control-qc_3">Quality Control (QC)</h3>
+<p><strong>QC Procedures</strong>:<br />
+  * Data are cleaned and preprocessed using the Maryland Analysis of Developmental EEG (MADE) pipeline (Debnath et al., 2019)<br />
+  * Ongoing QC monitoring via LORIS dashboard<br />
+  * Rate quality of EEG cap application for each recording<br />
+  * Site specific check ins and troubleshooting<br />
+  * See Fox et al. (2024) for more information on EEG data quality control procedures.   </p>
+<p><strong>Common Issues Identified</strong>:<br />
+  * Irregular application of EEG sensors <br />
+  * Missing stimulus flags</p>
+<h3 id="potential-issues-flagged-by-subject-matter-experts_3">Potential Issues Flagged by Subject Matter Experts</h3>
+<p>None</p>
+<h3 id="additional-information_3">Additional Information</h3>
+<p><strong>Relevant Documents</strong>: HBCD E-Prime Task Manual, Official EEG Acquisition Manual<br />
+<strong>Links to Resources</strong>:<br />
+  * <a href="https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing">E-Prime manual</a><br />
+  * <a href="https://docs.google.com/document/d/1tjrFJzntHOqJOrq-SRGy2Z0LOj56MFsZ2ZocgrUogSs/edit?usp=sharing">EEG Acquisition Manual</a></p>
+<h3 id="references_3">References</h3>
+<ul>
+<li>Cremone-Caira, A., Braverman, Y., MacNaughton, G.A., Nikolaeva, J.I., &amp; Faja, S. (2023). Reduced Visual Evoked Potential Amplitude in Autistic Children with Co-Occurring Features of Attention-Deficit/Hyperactivity Disorder. Journal of Autism and Developmental Disorders. <a href="https://doi.org/10.1007/s10803-023-06005-7">https://doi.org/10.1007/s10803-023-06005-7</a></li>
+<li>Fox, N.A., Pérez-Edgar, K., Morales, S., Brito, N.H., Campbell, A.M., Cavanagh, J.F., Gabard-Durnam, L.J., Hudac, C.M., Key, A.P., Larson-Prior, L.J., Pedapati, E.V., Norton, E.S., Reetzke, R., Roberts, T.P., Rutter, T.M., Scott, L.S., Shuffrey, L.C., Antúnez, M., Boylan, M.R., … Yoder, L. (2024). The development and structure of the Healthy Brain and Child Development (HBCD) study EEG Protocol. Developmental Cognitive Neuroscience, 69, 101447. https://doi.org/10.1016/j.dcn.2024.101447</li>
+<li>Lippé, S., Kovacevic, N., &amp; McIntosh, A.R. (2009). Differential Maturation of Brain Signal Complexity in the Human Auditory and Visual System. Frontiers in Human Neuroscience, 3, 48. https://doi.org/10.3389/neuro.09.048.2009</li>
+<li>Jensen, S.K., Kumar, S., Xie, W., Tofail, F., Haque, R., Petri, W.A., &amp; Nelson, C.A. (2019). Neural correlates of early adversity among Bangladeshi infants. Scientific Reports, 9(1), 1–10.</li>
+<li>Margolis, E.T., Davel, L., Bourke, N.J., Bosco, C., Zieff, M.R., Monachino, A.D., Mazubane, T., Williams, S.R., Miles, M., &amp; Jacobs, C.A. (2024). Longitudinal effects of prenatal alcohol exposure on visual neurodevelopment over infancy. Developmental Psychology. <a href="https://psycnet.apa.org/record/2024-66755-001">https://psycnet.apa.org/record/2024-66755-001</a></li>
+<li>Nazhvani, A.D., Boostani, R., Afrasiabi, S., &amp; Sadatnezhad, K. (2013). Classification of ADHD and BMD patients using visual evoked potential. Clinical Neurology and Neurosurgery, 115(11), 2329–2335.</li>
+<li>Shandiz, J.H., Heyrani, M., Sobhani-Rad, D., Salehinejad, Z., Shojaei, S., Khoshsima, M.J., Azimi, A., Yekta, A.A., &amp; Yazdi, S.H.H. (2017). Pattern Visual Evoked Potentials in Dyslexic Children. Journal of Ophthalmic &amp; Vision Research, 12(4), 402–406. https://doi.org/10.4103/jovr.jovr_106_16</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../neurocog_language/" class="btn btn-neutral float-left" title="Neurocognition & Language"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../mri/" class="btn btn-neutral float-right" title="Magnetic Resonance Imaging (MRI)">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../neurocog_language/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../mri/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
