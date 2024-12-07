@@ -9,18 +9,17 @@ The Edinburgh Postnatal Depression Scale (<a href="https://downloads.aap.org/AAP
     <li>EPDS depression, overall score greater than 11</li>
 </ul>
 
-
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<br>
-<p><strong>Method of Administration</strong>: self-administered in person or remote  <br />
-<strong>REDCap Form Names</strong>: EPDS <br />
-<strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
-<strong>Child Specific/Unspecific Form</strong>: Child Unspecific <br />
-<strong>Respondent</strong>: Pregnant person or person who gave birth  <br />
-<strong>Visits</strong>: V01, V02, V03 <br />
-<strong>Estimated length of time for completion</strong>: 3 min </p>
+<li><b>Method of Administration</b>: self-administered in person or remote  </li>
+<li><b>REDCap Form Names</b>: EPDS </li>
+<li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
+<li><b>Child Specific/Unspecific Form</b>: Child Unspecific </li>
+<li><b>Respondent</b>: Pregnant person or person who gave birth  </li>
+<li><b>Visits</b>: V01, V02, V03 </li>
+<li><b>Estimated length of time for completion</b>: 3 min</li>
+</ul>
 </details>
 
 ## HBCD Modifications

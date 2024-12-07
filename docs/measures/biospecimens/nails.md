@@ -1,5 +1,5 @@
 # Nails
-**Full Name**: Nails       
+**Full Name**: NAILS		       
 **Construct**: Toxicology screen, fingernails and toenails     
 **Description**: Results of toxicology assays in nails collected at V1 and V2
 
@@ -11,13 +11,12 @@ The nail processing workflow was re-developed and implemented on July 1, 2024 to
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<p>
-<p><strong>Method of Administration</strong>: Self-collected under research team supervision, or collected by research team<br />
-<strong>Respondent:</strong> Pregnant/Postpartum person <br />
-<strong>Visits</strong>: V01, V02 <br />
-<strong>Estimated length of time for completion</strong>: 5 minutes</p>
+<li><b>Method of Administration</b>: Self-collected under research team supervision, or collected by research team</li>
+<li><b>Respondent</b>: Pregnant/Postpartum person</li>
+<li><b>Visits</b>: V01, V02</li>
+<li><b>Estimated length of time for completion</b>: 5 minutes</li>
+</ul>
 </details>
-</p>
 
 ## USDTL Assay
 Based on the predefined threshold outlined in **Table 1**, a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) was determined to be positive, negative, or invalid (*QNS* i.e. *quantity not sufficient*) (**Table 2**). Note that continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs). The class-level (e.g. *c_nictotine_u*) and sample-level (e.g. *c_any_specimen_n*) are correspondingly scored as positive (1), negative (0), and invalid (3). If all classes are negative (0), then sample-levels are negative (0). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in **Table 3**. 

@@ -45,12 +45,12 @@ When triggered by Assist responses, the [Time Line Follow Back (TLFB)](https://c
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<br>
-<p><strong>Method of Administration</strong>: RA-administered in person (except in Alabama, where participants were trained too self-administer) <br />
-<strong>REDCap Form Names</strong>: Assist V1; Assist V2; Assist V3; TLFB <br />
-<strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
-<strong>Child Specific/Unspecific Form</strong>: Child Unspecific <br />
-<strong>Estimated length of time for completion</strong>: 5 min (Assist V1/2); 3 min (Assist V3); 10 min (TLFB)</p>
+<li><b>Method of Administration</b>: RA-administered in person (except in Alabama, where participants were trained too self-administer) </li>
+<li><b>REDCap Form Names</b>: Assist V1; Assist V2; Assist V3; TLFB </li>
+<li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
+<li><b>Child Specific/Unspecific Form</b>: Child Unspecific </li>
+<li><b>Estimated length of time for completion</b>: 5 min (Assist V1/2); 3 min (Assist V3); 10 min (TLFB)</li>
+</ul>
 </details>
 
 ## HBCD Modifications

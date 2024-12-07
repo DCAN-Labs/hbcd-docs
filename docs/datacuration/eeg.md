@@ -39,4 +39,4 @@ The EEG lead was placed on either the head (`acq-eeg`) or chest (`acq-ecg`). Loc
 EEG is acquired for each task (see [Data Measures & Quality Control > EEG](../measures/eeg/overview.md) for task descriptions) as indicated by the `task-<label>` BIDS entity
 
 **Sourcedata files**    
-These files include information about quality control flags and acquisition (`*_flags.json`- see [Quality Control & Known Issues](../measures/eeg/overview.md#quality-control--known-issues)), impedance values to ensure good electrode contact (`*_impedence.json`), and task stimuli presentations (`*_eventlogs.txt`).
+These files include information about quality control flags and acquisition (`*_flags.json`- see [Quality Control & Known Issues](../measures/eeg/overview.md#quality-control-known-issues)), impedance values to ensure good electrode contact (`*_impedence.json`), and task stimuli presentations (`*_eventlogs.txt`).

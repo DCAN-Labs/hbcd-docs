@@ -1,5 +1,5 @@
 # Blood
-**Full Name**: Blood              
+**Full Name**: BLOOD		              
 **Construct**: Toxicology screen, blood        
 **Description**:  Results of toxicology assays in dried blood spots collected at V1
 
@@ -13,12 +13,13 @@ Processing of Blood Spot Cards consists of preparing three 1/8” punches of dri
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<br>
-<p><strong>Method of Administration</strong>: Phlebotomist-collected venous blood, which is pipetted onto dried blood spot cards <br />
-<strong>Respondent:</strong> Pregnant person <br />
-<strong>Visits</strong>: V01 <br />
-<strong>Estimated length of time for completion</strong>: 5 minutes</p>
+<li><b>Method of Administration</b>: Phlebotomist-collected venous blood, which is pipetted onto dried blood spot cards</li>
+<li><b>Respondent</b>: Pregnant person</li>
+<li><b>Visits</b>: V01</li>
+<li><b>Estimated length of time for completion</b>: 5 minutes</li>
+</ul>
 </details>
+
 
 ## PEth Assay
 PEth assays are confirmation-only testing. Test results were determined to be positive (*c_peth_b_cat*), negative, or canceled according to the thresholds outlined in **Table 1** (note that continuous variables should be interpreted with caution based on the limits of quantification, LOQs). The sample-level (*c_any_specimen_b*) was correspondingly scored as positive (1), negative (0), and canceled (3) (**Table 2**). Class-level groupings by analyte screening tests and analyte confirmatory tests are shown in **Table 3**.

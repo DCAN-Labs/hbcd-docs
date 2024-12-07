@@ -2,6 +2,7 @@ site_name: HBCD Data Release
 
 theme:
   name: readthedocs
+  custom_dir: docs/overrides # for template overrides
   features:
     - toc.integrate
     - navigation.expand
@@ -12,31 +13,43 @@ theme:
 
 markdown_extensions:
   - toc:
-      permalink: '🔗'
+      permalink: '🔗'  
   
 extra_javascript:
   - js/extra.js
+
 extra_css:
   - css/custom.css
+  - css/banners.css
+  - css/headers.css
 
 plugins:
   - search
   - git-authors
+  # - git-revision-date-localized:
+  #       type: datetime
+  #       locale: en
+  #       fallback_to_build_date: false  # Use build date if Git history isn't available
+  #       enable_creation_date: true  # Optional to display the creation date
+#   - macros:
+#       module_name: macros  
 
 docs_dir: docs
 
 nav: 
   - ABOUT: index.md
-  - HOW TO ACCESS DATA: data_access.md
-  - DUC PROCESS: duc_process.md
-  - FAQS: faq.md
-  - REPORT ISSUES: reportissue.md
-  - RESPONSIBLE DATA USE: resp_data_use.md
-  - DATA DICTIONARY EXPLORER: datadictionary.md
+  - Access Data:
+    - How To Access Data: data_access.md
+    - Responsible Data Use: resp_data_use.md
+    - Data Dictionary Explorer: datadictionary.md
+  - Get Help:
+    - FAQs: faq.md
+    - Report Issues: reportissue.md
   - Release Notes:
     - "Data Measures & Quality Control":
         - Overview: measures/index.md
         - "Behavior & Caregiver-Child Interaction": 
+            - Overview: measures/beh_CG_interaction/overview.md  
             - ecPROMIS: measures/beh_CG_interaction/ecPROMIS.md  
             - IBQ-R (VSF)+BI: measures/beh_CG_interaction/IBQ-R.md
             - MAPS-TL: measures/beh_CG_interaction/MAPS-TL.md    
@@ -52,11 +65,11 @@ nav:
             - Video Resting State: measures/eeg/video_rs.md
             - Visual Evoked Potential Task: measures/eeg/vis_ep_task.md
         - Magnetic Resonance Imaging (MRI):
-            - Overview: measures/mri/overview.md
+            - "Overview & Raw Data QC": measures/mri/overview.md
             - Structural MRI: measures/mri/smri.md
             - Functional MRI: measures/mri/fmri.md
             - Diffusion MRI: measures/mri/dmri.md
-            - Quantitative MRI: measures/mri/quant.md
+            - Quantitative MRI: measures/mri/qmri.md
             - Magnetic Resonance Spectroscopy: measures/mri/mrs.md  
         - "Neurocognition & Language": 
             - MLDS: measures/neurocog/MLDS.md    
@@ -85,7 +98,7 @@ nav:
         - Siemens: mriprotocols/siemens.md
         - GE: mriprotocols/ge.md
         - Philips: mriprotocols/philips.md
-    - BIDS Dataset:
+    - HBCD BIDS Conversion:
         - Overview: datacuration/bids.md
         - Imaging: datacuration/imaging.md
         - EEG: datacuration/eeg.md
@@ -94,18 +107,23 @@ nav:
     - Data Processing: 
         - Pipelines & Processing: processing/pipelines.md
         - Pipeline Software Standards: processing/standards.md
-    - Change Log: 
-        - Pending & Upcoming Updates: changelog/pending.md
-        - Version History: 
-            - Beta Release 5/V1.4: changelog/versions/v1.4.md
-            - Beta Release 4/V1.3: changelog/versions/v1.3.md
-            - Beta Release 3/V1.2: changelog/versions/v1.2.md
-            - Beta Release 2/V1.1: changelog/versions/v1.1.md
-            - Beta Release 1/V1.0: changelog/versions/v1.0.md
-    - Internal Documentation (temp):
-            - Overview: internal/overview.md
-            - WG Report Issues: internal/reportissues.md
-            - Review Beta Data Release Site: internal/beta_release_site_review.md
+  - CHANGE LOG: 
+    - Pending & Upcoming Updates: changelog/pending.md
+    - Version History:    
+        - Beta Release 8: changelog/versions/BR8.md
+        - Beta Release 7.5: changelog/versions/BR7.5.md
+        - Beta Release 7: changelog/versions/BR7.md      
+        - Beta Release 6.5: changelog/versions/BR6.5.md    
+        - Beta Release 6: changelog/versions/BR6.md          
+        - Beta Release 5: changelog/versions/v1.4.md
+        - Beta Release 4: changelog/versions/v1.3.md
+        - Beta Release 3: changelog/versions/v1.2.md
+        - Beta Release 2: changelog/versions/v1.1.md
+        - Beta Release 1: changelog/versions/v1.0.md
+  - INTERNAL:
+    - WG Report Issues: internal/reportissues.md
+    - Review Beta Data Release Site: internal/beta_release_site_review.md
+    - Information to Finalize: internal/infotofinalize.md
 
   
 

@@ -9,14 +9,14 @@ This measure is a three-item questionnaire to assess the respondent’s percepti
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<br>
-<p><strong>Method of Administration</strong>: RA-administered in person or via remote survey <br />
-<strong>REDCap Form Name</strong>: nbhsaf <br />
-<strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
-<strong>Child Specific/Unspecific Form</strong>: Child Unspecific <br />
-<strong>Respondent:</strong> Adult Participant <br />
-<strong>Visits</strong>: V01, V02, V07, V09 <br />
-<strong>Estimated length of time for completion</strong>: 1 minute</p>
+<li><b>Method of Administration</b>: RA-administered in person or via remote survey </li>
+<li><b>REDCap Form Name</b>: nbhsaf </li>
+<li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
+<li><b>Child Specific/Unspecific Form</b>: Child Unspecific </li>
+<li><b>Respondent:</b> Adult Participant </li>
+<li><b>Visits</b>: V01, V02, V07, V09 </li>
+<li><b>Estimated length of time for completion</b>: 1 minute</li>
+</ul>
 </details>
 
 ## HBCD Modifications

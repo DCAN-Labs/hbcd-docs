@@ -8,15 +8,15 @@ The Perceived Stress and Social support tools measure perceived stress and perce
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<br>
-<p><strong>Method of Administration</strong>: Remote survey <br />
-<strong>REDCap Form Name</strong>: sed_bm_strsup <br />
-<strong>Pilot Data Dictionary</strong>: PROMIS <br />
-<strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
-<strong>Child Specific/Unspecific Form</strong>: Child Specific <br />
-<strong>Respondent:</strong> Caregiver <br />
-<strong>Visits</strong>: V01, V02, V03 <br />
-<strong>Estimated length of time for completion</strong>: 4 minutes</p>
+<li><b>Method of Administration</b>: Remote survey </li>
+<li><b>REDCap Form Name</b>: sed_bm_strsup </li>
+<li><b>Pilot Data Dictionary</b>: PROMIS </li>
+<li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
+<li><b>Child Specific/Unspecific Form</b>: Child Specific </li>
+<li><b>Respondent:</b> Caregiver </li>
+<li><b>Visits</b>: V01, V02, V03 </li>
+<li><b>Estimated length of time for completion</b>: 4 minutes</li>
+</ul>
 </details>
 
 ## HBCD Modifications

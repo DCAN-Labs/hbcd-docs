@@ -9,14 +9,14 @@ This measure was created from combining and modifying the [Family History Assess
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<br>
-<p><strong>Method of Administration</strong>: Self-administered in person <br />
-<strong>REDCap Form Name</strong>: Personal and family psych history <br />
-<strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
-<strong>Child Specific/Unspecific Form</strong>: Unspecific <br />
-<strong>Respondent:</strong> Pregnant person <br />
-<strong>Visits</strong>: V01 <br />
-<strong>Estimated length of time for completion</strong>: 5 minutes</p>
+<li><b>Method of Administration</b>: Self-administered in person </li>
+<li><b>REDCap Form Name</b>: Personal and family psych history </li>
+<li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
+<li><b>Child Specific/Unspecific Form</b>: Unspecific </li>
+<li><b>Respondent:</b> Pregnant person </li>
+<li><b>Visits</b>: V01 </li>
+<li><b>Estimated length of time for completion</b>: 5 minutes</li>
+</ul>
 </details>
 
 ## HBCD Modifications

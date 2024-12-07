@@ -8,14 +8,14 @@ The eHITS is a self-administered 5 question Likert scale screener for experience
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<br>
-<p><strong>Method of Administration</strong>: In Person <br />
-<strong>REDCap Form Name</strong>: sed<em>bm</em>ehit <br />
-<strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
-<strong>Child Specific/Unspecific Form</strong>: Child Unpecific <br />
-<strong>Respondent:</strong> Parent on Self <br />
-<strong>Visits</strong>: V01 <br />
-<strong>Estimated length of time for completion</strong>: 2 minutes</p>
+<li><b>Method of Administration</b>: In Person </li>
+<li><b>REDCap Form Name</b>: sed<em>bm</em>ehit </li>
+<li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
+<li><b>Child Specific/Unspecific Form</b>: Child Unpecific </li>
+<li><b>Respondent:</b> Parent on Self </li>
+<li><b>Visits</b>: V01 </li>
+<li><b>Estimated length of time for completion</b>: 2 minutes</li>
+</ul>
 </details>
 
 ## HBCD Modifications

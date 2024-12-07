@@ -17,7 +17,7 @@
   </li>
   <li style="margin-bottom: 10px;">
     <a href="https://nibabies.readthedocs.io/en/latest/" style="color: #2a7ae2; text-decoration: none; font-weight: bold;">
-      infant-fMRIPrep/fMRIPrep
+      infant-fMRIPrep
     </a>: structural and functional MRI preprocessing pipeline
   </li>
   <li style="margin-bottom: 10px;">
@@ -35,7 +35,7 @@
   </li>
   <li style="margin-bottom: 10px;">
     <a href="https://hbcd-symri-postproc.readthedocs.io/en/latest/index.html" style="color: #2a7ae2; text-decoration: none; font-weight: bold;">
-      SyMRI
+      qMRI Postproc 
     </a>: minimal post-processing for SyMRI synthetic images derived from QALAS acquisition
   </li>
 </ul>
@@ -50,13 +50,13 @@
 ### Magnetic Resonance Spectroscopy (MRS)       
 <p style="list-style-type: none; padding: 0; font-family: Arial, sans-serif;">
     <a href="https://osprey-bids.readthedocs.io/en/latest/index.html" style="color: #2a7ae2; text-decoration: none; font-weight: bold;">
-      OSPREY
+      OSPREY-BIDS
     </a>: MRS data processing pipeline
 </p>
 
 ### Biosensor Data      
 <p style="list-style-type: none; padding: 0; font-family: Arial, sans-serif;">
     <a href="https://hbcd-motion-postproc.readthedocs.io/en/latest/" style="color: #2a7ae2; text-decoration: none; font-weight: bold;">
-      AXIVITY
+      HBCD-Motion
     </a>: leg movement sensor data processing
 </p>

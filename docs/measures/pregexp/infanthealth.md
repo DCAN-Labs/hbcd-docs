@@ -9,16 +9,15 @@ Infant health- V2 captures infant birth weight and length, nights in hospital, n
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<br>
-<p><strong>Method of Administration</strong>: RA-administered in person <br />
-<strong>REDCap Form Name</strong>: HealthV2 Preg <br />
-<strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
-<strong>Child Specific/Unspecific Form</strong>: Child specific <br />
-<strong>Respondent:</strong> person who gave birth or primary caregiver <br />
-<strong>Visits</strong>:  V02 <br />
-<strong>Estimated length of time for completion</strong>: 10 minutes</p>
+<li><b>Method of Administration</b>: RA-administered in person </li>
+<li><b>REDCap Form Name</b>: HealthV2 Preg </li>
+<li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
+<li><b>Child Specific/Unspecific Form</b>: Child specific </li>
+<li><b>Respondent:</b> person who gave birth or primary caregiver </li>
+<li><b>Visits</b>:  V02 </li>
+<li><b>Estimated length of time for completion</b>: 10 minutes</li>
+</ul>
 </details>
-<br>
 
 ## Quality Control & Known Issues
 Response distributions were reviewed for outliers and no common issues were identified. Potential issues flagged by subject matter experts are the same identified at V01 for medications (difficulty with ICD codes from BioPortal ICD and medication names from RxNORM).

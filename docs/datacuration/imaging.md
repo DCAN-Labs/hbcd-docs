@@ -35,15 +35,18 @@ Anatomical files include T1- and T2-weighted MRI images, MRS localizer files (`a
 ```
 
 ### Diffusion
-Diffusion files include DWI images acquired in AP (`dir-AP`) and PA (`dir-PA`) phase encoding directions:
+
+Diffusion files include DWI runs (`*_dwi.nii.gz`) along with `bval` and `bvec` files, which provide the magnitudes and orientations of the diffusion gradients for each volume, respectively. Single-band reference files (`*_sbref.nii.gz`) are also included in the release. All images were acquired in both AP (`dir-AP`) and PA (`dir-PA`) phase encoding directions.
 ```
 ...
 |   |__ ses-<label>/
 |       |__ dwi/
-|       |   |__ sub-<label>_ses-<label>_dir-AP_run-<label>_dwi.nii.gz
-|       |   |__ sub-<label>_ses-<label>_dir-AP_run-<label>_dwi.json
-|       |   |__ sub-<label>_ses-<label>_dir-PA_run-<label>_dwi.nii.gz
-|       |   |__ sub-<label>_ses-<label>_dir-PA_run-<label>_dwi.json
+|       |   |__ sub-<label>_ses-<label>_dir-<AP/PA>_run-<label>_dwi.bval
+|       |   |__ sub-<label>_ses-<label>_dir-<AP/PA>_run-<label>_dwi.bvec
+|       |   |__ sub-<label>_ses-<label>_dir-<AP/PA>_run-<label>_dwi.nii.gz
+|       |   |__ sub-<label>_ses-<label>_dir-<AP/PA>_run-<label>_dwi.json
+|       |   |__ sub-<label>_ses-<label>_dir-<AP/PA>_run-<label>_sbref.json
+|       |   |__ sub-<label>_ses-<label>_dir-<AP/PA>_run-<label>_sbref.nii.gz
 ```
 
 ### Functional & EPI Fieldmaps

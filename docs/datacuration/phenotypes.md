@@ -21,15 +21,13 @@ assembly_bids/
 |       |   |__ <instrument_name>.tsv (repeat for all selected instruments)
 |       |   |__ <instrument_name>.json (repeat for all selected instruments)
 ```
+Each instrument (`phenotype/<instrument_name>*`) has a `.tsv` Data Table containing all instrument values for the participants and a `.json` Data Dictionary describing all instrument fields (except those in the exclusion lists provided below).
 
-Below is additional information on the files and file contents provided for each phenotype:
-
+Information provided by the other files include:
 <p>
 <details>
 <summary>Demographics files (<i>phenotype/sed_basic_demographics</i>)</summary>
 <ul>
-<br>
-These files contain demographics information including:
     <li>Gestational age at birth</li>
     <li>Sex</li>
     <li>Recruitment site</li>
@@ -49,8 +47,6 @@ These files contain demographics information including:
 <details>
 <summary>Biosample Urine Result files (<i>phenotype/biosample_urine</i>)</summary>
 <ul>
-<br>
-<i>Regarding biosample urine result files:</i>
     <li>USDTL Urine results produced by BAH (Booz-Allen Hamilton)</li>
     <li>Includes DCCID, Visit Label, Scannable code, and other BioSpecimen result fields</li>
     <li>‘bio’ domain prepended for all protocol elements</li>
@@ -61,8 +57,6 @@ These files contain demographics information including:
 <details>
 <summary>Visit data files (<i>phenotype/visit_data</i>)</summary>
 <ul>
-<br>
-<i>These files contain participant visit data including:</i>
     <li>Project</li>
     <li>Cohort</li>
     <li>Site</li>
@@ -74,21 +68,16 @@ These files contain demographics information including:
             <li>If the visit was missed and the reason</li>
          </ul>
     <li>Participant Withdrawal Information: If the participant withdrew from the study, the reason, and date</li>
-    <li>Participant Protocol Exception Information: If there was a protocol exception, the type, and the date</li>
+    <li>Protocol violation: If there was a protocol exception and the date</li>
+    <li>All Substance Use (SU) flags from three locations:
+        <ul>
+        <li>TimeLine Follow Back (TLFB) instrument flags</li>
+        <li>Health V2 flags</li>
+        <li>Biosample urine flags.</li>
+        </ul>
 </ul>
 </details>
 </p>
-
-<details>
-<summary>Instrument data files (<i>phenotype/instrument_name</i>)</summary>
-<ul>
-<br>
-<i>The following files are provided for each instrument:</i>
-    <li><i><instrument_name>.tsv</i>: Data Table containing all instrument values for the participants</li>
-    <li><i><instrument_name>.json</i>: Data Dictionary describing all instrument fields except those in the exclusion lists provided below</li>
-</ul>
-</details><br>
-
 
 ## Excluded Elements & General Rules
 Below is a list of static elements (i.e. precisely identified hard-coded elements such as participants, instruments, and instrument fields) and dynamic elements excluded during the data release process as well as general rules applied to all data:
@@ -97,29 +86,81 @@ Below is a list of static elements (i.e. precisely identified hard-coded element
 <details>
 <summary>Static Element Exclusions</summary>
 <ul>
+<br><b>Participant Filters</b>:
+    <li>Participants with a 'Postnatal Recruitment' visit  </li>
+    <li>Multiple Birth Participants</li>
+
 <br><b>Excluded Instruments</b>:
     <li>Biosensor Receipt Form ('sens_ch_rcpt')</li>
-    <li>EEG Acquisition Form ('eeg_ch_chkl')</li>
-    <li>EEG Acquisition Form Reattempt - 1 ('eeg_ch_chkl_1')</li>
-    <li>EEG Acquisition Form Reattempt - 2 ('eeg_ch_chkl_2')</li>
-    <li>MRI Data Summary Form ('mri_ra_chkl_data')</li>
-    <li>MRI Scan Session Summary Form ('mri_ra_chkl_scan')</li>
+    <li>EEG Acquisition Checklists
+    <ul>
+        <li>Form ('eeg_ch_chkl')</li>
+        <li>Form Reattempt - 1 ('eeg_ch_chkl_1')</li>
+        <li>Form Reattempt - 2 ('eeg_ch_chkl_2')</li>
+    </ul>
+    <li>GABI Setup/Receipt
+        <ul>
+        <li>'nt_pa_gabi_setup'  </li>
+        <li>'nt_pa_gabi_rcpt'  </li>
+        </ul>
+    </li>
+    <li>ERICA forms
+        <ul>
+        <li>'mh_cg_erica_3_7m'  </li>
+        <li>'mh_cg_erica_7_9m'  </li>
+        <li>'mh_cg_erica_fcm_adm_3_7m'  </li>
+        <li>'mh_cg_erica_fcm_adm_7_9m'  </li>
+        </ul>
+    </li>
+    <li>MRI Checklists
+        <ul>
+        <li>Data Summary Form ('mri_ra_chkl_data')  </li>
+        <li>Scan Session Summary Form ('mri_ra_chkl_scan')  </li>
+        </ul>
+    </li>
     <li>MRI Pre/Post Scan Prep ('mri_ra_prep')</li>
     <li>NIH Baby ToolBox ('ncl_ch_nbtb')</li>
     <li>Participant Feedback Form ('adm_cg_fb')</li>
     <li>RA Feedback ('adm_ra_fb')</li>
+    <li>Participant Alerts ('admin_alert')</li>
+    <li>TLFB (Timeline Follow Back) Summary Parser ('pex_ch_tlfb')</li>
     <li>Visit Level Data ('adm_fd_visitdata')</li>
     <li>Visit start ('visit_start')</li>
     <li>Urgent Events ('adm_fd_urgent')</li>
-    <li>Participant Alerts ('admin_alert')</li>
-    <li>TLFB (Timeline Follow Back) Summary Parser ('pex_ch_tlfb')</li>
     <li>Transitions in Care Questionnaire ('sed_cg_tic')</li>
 
-<br><b>Excluded Instrument Fields (mostly metadata fields)</b>:
-    <li>Date of Administration (‘date_taken’)</li>
-    <li>Examiner (‘Examiner’)</li>
-    <li>Timestamps ('timestamp', ‘timestamp_start', 'timestamp_stop', 'timestamp_start_tmp', 'timestamp_redcap_locked', 'dtt')</li>
-    <li>REDCap Complete status ('complete')</li>
+<br><b>Excluded Instrument Fields:</b>
+    <li>Examiner ('Examiner’)  </li>
+    <li>Date of Birth (‘DOB’)  </li>
+    <li>Informant (‘informant’)  </li>
+    <li>Validity (‘validity’)  </li>
+    <li>Duration (‘duration’)  </li>
+    <li>Window Difference (‘window_difference’)  </li>
+    <li>Start timestamp (‘timestamp_start’)  </li>
+    <li>Stop timestamp (‘timestamp_stop’)  </li>
+    <li>REDCap timestamp (‘timestamp_redcap_locked’)  </li>
+    <li>Visit Data ('visit_stage' removed from the 'visit_data' category)  </li>
+    <li>'Height/Weight/Head Circumference' ('ph_ch_anthro')
+        <ul>
+        <li>BMI-related fields removed  </li>
+        </ul>
+    </li>
+    <li>Breast Feeding History ('ph_cg_phx_i_bfh')
+        <ul>
+        <li>All fields except '001' excluded  </li>
+        </ul>
+    </li>
+    <li>Filter out extreme values for 'Height/Weight/Head Circumference' ('ph_ch_anthro')
+        <ul>
+        <li>Length ('len_001_i_03'): Min => 30 / Max => 130  </li>
+        <li>Weight ('wei_001_i_03'): Min => 0.5 / Max => 30  </li>
+        <li>Head Circumference ('head_001_i_03'): Min => 25 / Max => 55  </li>
+        </ul>
+    </li>
+    <li>Clinical Alerts  </li>
+    <li>REDCap Complete status ('complete')  </li>
+    <li>Scannable codes (BioSamples codes, tracking Nos, etc...)  </li>
+    <li>Line fields</li>
 </ul>
 </details>
 </p>
@@ -137,7 +178,7 @@ Below is a list of static elements (i.e. precisely identified hard-coded element
 
 <br>
 <b>Visit Filters:</b>
-    <li>For Beta Data Release, the process considers only data noted with launchpad complete status from before 2024-07-01 (YYYY-MM-DD)</li>
+    <li>Only visits whose 'LaunchPad Complete' Status was set to 'Complete' before July 1st, 2024 are included</li>
 
 <br>
 <b>Domain Filters:</b>

@@ -1,16 +1,16 @@
 # Urine
-**Full Name**: Urine        
+**Full Name**: URINE		        
 **Construct**: Toxicology screen, urine     
 **Description**: Results of toxicology assays in urine collected at V1
 
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<br>
-<p><strong>Method of Administration</strong>: Self collected <br />
-<strong>Respondent:</strong> Pregnant person <br />
-<strong>Visits</strong>: V01 <br />
-<strong>Estimated length of time for completion</strong>: 5 minutes</p>
+<li><b>Method of Administration</b>: Self-collected</li>
+<li><b>Respondent</b>: Pregnant person</li>
+<li><b>Visits</b>: V01</li>
+<li><b>Estimated length of time for completion</b>: 5 minutes</li>
+</ul>
 </details>
 
 ## Assay
@@ -76,14 +76,21 @@ Based on the predefined thresholds outlined in **Table 1**, a confirmatory test 
 		<td>3</td>
 		<td>7.5</td>
 		<td>15</td>
-		<td>No consensus*</td>
+		<td>No consensus</td>
 	</tr>
 	<tr>
 		<td>Carboxy-cannabidiol</td>
 		<td>10</td>
 		<td>25</td>
 		<td>50</td>
-		<td>No consensus*</td>
+		<td>No consensus</td>
+	</tr>
+		<tr>
+		<td>Cotinine*</td>
+		<td>34</td>
+		<td>34</td>
+		<td>500</td>
+		<td>Up to 7 days</td>
 	</tr>
 	<tr>
 		<td>Benzoylecgonine</td>
@@ -415,6 +422,7 @@ Based on the predefined thresholds outlined in **Table 1**, a confirmatory test 
 	</tr>
 </tbody>
 </table>
+<i>*Based on DRI® Cotinine assay for the qualitative and semiquantitative determination of Cotinine</i><br>
 <i>LOD: limit of detection; LOQ: limit of quantification: Cutoff concentration used to categorize metabolite as positive/negative</i>
 </details>
 
@@ -484,14 +492,14 @@ Based on the predefined thresholds outlined in **Table 1**, a confirmatory test 
 </details>
 
 <details>
-  <summary>Table 3. Mapping From Class to Screening Tests and Confirmatory Tests for Urine Assays</summary>
+  <summary>Table 3. Mapping From Class to Screening Tests and Confirmatory Tests</summary>
   <table class="docutils" style="width: 100%;">
   <br>
     <thead>
       <tr>
         <th>Class</th>
         <th>Screening Test</th>
-        <th>Confirmatory Test (reflexes from positive screening)</th>
+        <th>Confirmatory Test (positive screen reflex)</th>
       </tr>
     </thead>
     <tbody>

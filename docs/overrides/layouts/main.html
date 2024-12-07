@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="page-date" style="text-align: right; font-size: 0.9em; color: #666;">
+  <p>
+    Published on: {{ page.meta.date or page.meta.git_revision_date_localized }}
+  </p>
+</div>
+{{ super() }}
+{% endblock %}

@@ -2,15 +2,11 @@
 
 In this section we provide a brief overview of each data measure provided in the data release, including, where applicable, details of implementation and data collection, scoring procedures, quality control procedures and known issues, and references.
 
-For measures that include surveys, all surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). The visits where measures are administered are noted for each section. The corresponding ages of the infant/child for each visit are:
->>>
-Visit 1 (V01): Prenatal <br>
-Visit 2 (V02): 0-1 months <br>
-Visit 3 (V03): 3-9 months <br>
-Visit 4 (V04): 9-15 months <br>
-Visit 5 (V05): 10-17 months <br>
-Visit 7 (V07): 16-31 months <br>
-Visit 9 (V09): 32-46 months <br>
+For measures that include surveys, all surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). The visits and corresponding ages of the infant/child are listed below:
+
+***Visit procedures are under development. Procedures for Visit 4 and beyond are accurate as of March 2024 and may change during piloting. Figure provided courtesy of [Dean et al. 2024](https://doi.org/10.1016/j.dcn.2024.101452).***
+
+![](Deanetal2024_visits.png)
 
 ## HBCD Workgroups and Associated Data Measures
 
@@ -20,6 +16,15 @@ Visit 9 (V09): 32-46 months <br>
 <li><a href="beh_CG_interaction/ecPROMIS">ecPROMIS</a></li>
 <li><a href="beh_CG_interaction/IBQ-R">IBQ-R (VSF)+BI</a></li>
 <li><a href="beh_CG_interaction/MAPS-TL">MAPS-TL</a></li></ul>
+</li>
+</ul>
+
+<ul>
+<li>BIOSPECIMENS
+<ul>
+<li><a href="biospecimens/blood">Blood</a></li>
+<li><a href="biospecimens/nails">Nails</a></li>
+<li><a href="biospecimens/urine">Urine</a></li></ul>
 </li>
 </ul>
 
@@ -43,7 +48,7 @@ Visit 9 (V09): 32-46 months <br>
 <li><a href="mri/smri">Structural MRI</a></li>
 <li><a href="mri/fmri">Functional MRI</a></li>
 <li><a href="mri/dmri">Diffusion MRI</a></li>
-<li><a href="mri/qalas">Quantitative MRI</a></li>
+<li><a href="mri/quant">Quantitative MRI</a></li>
 <li><a href="mri/mrs">Magnetic Resonance Spectroscopy</a></li></ul>
 </li>
 </ul>

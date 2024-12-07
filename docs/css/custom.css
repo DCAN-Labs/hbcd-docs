@@ -1,61 +1,46 @@
 /* HBCD HEX color codes */ 
 /* green: #24AE70 */ 
-/* blue: #199BD6 */ 
-/* red: #BE074C0 */ 
+/* blue: #199bd6 */ 
+/* red: #be074c */ 
 /* black/gray: #6b6b6b */ 
 
-/* Specs for headers */ 
-h1 {
-    font-size: 2em;
-    margin: 2 0 5px; /* space added above, left/right, and below */
-    font-weight: normal;
-    border-bottom: 2px solid #24AE70; /* underline color */
-    padding-bottom: 5px;
-  }
-
-h2 {
-font-size: 1.5em;
-margin: 40px 0 5px;
-font-weight: normal;
-border-bottom: 2px solid #24AE70;
-padding-bottom: 5px;
-}    
-
-h3 {
-  font-size: 1.2em; 
-  margin: 40px 0 0; 
-  font-weight: normal;
-  border-bottom: 2px solid #24AE70;
-  padding-bottom: 5px;
-  }    
+.wy-side-nav-search {background-color: #199bd6;}
 
 /* Specs for general collapsible sections */ 
-.collapsible {
-    background-color: #24AE7066;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
-  }
-  details {
-    background-color: #24AE7066; /* add 66 to make more transparent */ 
-    padding: 10px;
-    margin: 10px 1;
-    border-radius: 5px;
-  }
-  summary {
-    font-size: 16px;
-    cursor: pointer;
-    border-bottom: none
-  }
-  a {
-    color: #007BFF;
-    text-decoration: none;
-  }
-
+details {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #24ae7000;
+  border: 0.5px solid #199bd6;
+  border-radius: 8px;
+}
+details summary {
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+details ul {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  line-height: 1.6;
+}
+details li {
+  margin-bottom: 0.3rem;
+}
+details ul ul {
+  margin-top: 0.5rem;
+}
+details ul ul li {
+  margin-bottom: 0.3rem;
+}
+details li b {
+  color: #0077cc;
+}
 
   /* References section collapsible styling */
 .collapsible.references {
   background-color: white;
+  border: 1px solid white;
   padding: 10px;
   margin: 10px 0;
   border-radius: 5px;
@@ -74,10 +59,7 @@ summary.references {
   border-bottom: 2px solid #24AE70;
 }
 details.references summary.references {
-  font-size: 1.5em;
+  font-size: 1.4em;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
-
-

@@ -8,15 +8,15 @@ BFY assesses economic stress, financial instability, ability to meet basic needs
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<br>
-<p><strong>Method of Administration</strong>: In Person <br />
-<strong>REDCap Form Name</strong>: sed_bm_bfy <br />
-<strong>Pilot Data Dictionary</strong>: BFY-Economic Stress <br />
-<strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
-<strong>Child Specific/Unspecific Form</strong>: Child Unspecific <br />
-<strong>Respondent:</strong> Parent on Self <br />
-<strong>Visits</strong>: V01, V05, V07 <br />
-<strong>Estimated length of time for completion</strong>: 4 minutes</p>
+<li><b>Method of Administration</b>: In Person </li>
+<li><b>REDCap Form Name</b>: sed_bm_bfy </li>
+<li><b>Pilot Data Dictionary</b>: BFY-Economic Stress </li>
+<li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
+<li><b>Child Specific/Unspecific Form</b>: Child Unspecific </li>
+<li><b>Respondent:</b> Parent on Self </li>
+<li><b>Visits</b>: V01, V05, V07 </li>
+<li><b>Estimated length of time for completion</b>: 4 minutes</li>
+</ul>
 </details>
 
 ## HBCD Modifications

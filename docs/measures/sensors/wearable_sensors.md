@@ -4,15 +4,13 @@
 
 Wearable sensor data (accelerometer and gyroscope) were collected continuously over 72 hours from sensors placed on infants’ right and left ankles to estimate movement frequency, intensity, and sleep periods. Caregivers followed normal routines, removing sensors only for water exposure (e.g., baths) and replacing them afterward. Each sensor (Axivity AX6) was calibrated by recording 10 seconds on each of its six flat surfaces before data collection. Sensors recorded accelerometer (±16 g) and gyroscope (±2000 dps) data at 25 Hz, enabling estimates of sedentary, light, moderate-to-vigorous activity, and sleep. See [Pini et al. 2024](https://doi.org/10.1016/j.dcn.2024.101446) for a full measure description.
 
-<p>
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<br>
-<p><strong>Method of Administration</strong>: RA placed sensors on child at visit, sensors then worn while 72 hours of data were collected across typical activities in the natural environment. <br />
-<strong>Visits</strong>: V02, V03 </p>
+<li><b>Method of Administration</b>: RA placed sensors on child at visit, sensors then worn while 72 hours of data were collected across typical activities in the natural environment.</li>
+<li><b>Visits</b>: V02, V03</li>
+</ul>
 </details>
-</p>
 
 ## Quality Control & Known Issues  
 Raw calibration files were checked during active data collection to verify the presence of sufficient data for each of the six axes. A random selection of 72-hour data files were reviewed on a weekly basis to check for the presence of data, labeling of right and left leg, and sampling rate used. Since the QC process is manual and visual, only a small percentage of files were reviewed each week.
@@ -39,7 +37,10 @@ Quality control revealed that issues were generally rare and most data were deem
 </details>
 </p>
 
-No issues were flagged by subject matter experts, but users should note that accelerometer sensor timestamps can drift over time. Although right and left leg sensors start recording simultaneously with the same sampling rate and duration, exact time alignment cannot be assumed. By our estimates, Axivity AX6 sensors recording at 25 samples/sec diverge from one another by a couple of secondsover 72 hours, with the magnitude of this discrepancy increasing over time. Furthermore, offsets differed between sensors, necessitating a calibration procedure to correct for these differences (Oh et al., 2024).
+Subject matter experts would like users to note that accelerometer sensor timestamps can drift over time. Although right and left leg sensors start recording simultaneously with the same sampling rate and duration, exact time alignment cannot be assumed. By our estimates, Axivity AX6 sensors recording at 25 samples/sec diverge from one another by a couple of seconds over 72 hours, with the magnitude of this discrepancy increasing over time. Furthermore, offsets differed between sensors, necessitating a calibration procedure to correct for these differences ([Oh et al., 2024](https://doi.org/10.3390/s24175736)).
+
+In addition, for raw data downloads, when calibration files are missing, it is technically possible to use a different set of calibration files from the same 2 sensors that were collected from a different data collection session close in time. For processed data downloads, when calibration files are missing, data are not processed. In analysis, users are advised to use caution in analyzing datasets with missing data.
+
 
 <details class="collapsible references">
   <summary class="references">References</summary>

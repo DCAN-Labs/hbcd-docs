@@ -10,15 +10,14 @@ This questionnaire asks about the ways the child sensory systems contribute to d
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<br>
-<p><strong>Method of Administration</strong>: Remote survey <br />
-<strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
-<strong>Child Specific/Unspecific Form</strong>: Child Specific <br />
-<strong>Respondent:</strong> Caregiver <br />
-<strong>Visits</strong>: V03, V05 <br />
-<strong>Estimated length of time for completion</strong>: 12 minutes</p>
+<li><b>Method of Administration</b>: Remote survey</li>
+<li><b>Spanish Translation</b>: Translated for HBCD by BURG</li>
+<li><b>Child Specific/Unspecific Form</b>: Child Specific</li>
+<li><b>Respondent:</b> Primary caregiver of the child</li>
+<li><b>Visits</b>: V03, V05</li>
+<li><b>Estimated length of time for completion</b>: 12 minutes</li>
+</ul>
 </details>
-
 
 ## Quality Control & Known Issues
 For QC, a measure expert periodically reviews data capture to ensure that items are being fully completed and scoring is spot checked to assure algorithms are being correctly employed. One common QC issue identified by subject matter experts was that the "Decline to answer" instructions were updated to differentiate from behaviors that have never been seen (i.e. developmentally inappropriate).

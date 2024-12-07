@@ -1,0 +1,24 @@
+/* Specs for headers */ 
+h1 {
+    font-size: 2em;
+    margin: 2 0 5px; /* space added above, left/right, and below */
+    font-weight: normal;
+    border-bottom: 2px solid #6b6b6b66; /* underline color */
+    padding-bottom: 5px;
+  }
+
+h2 {
+font-size: 1.5em;
+margin: 40px 0 5px;
+font-weight: normal;
+border-bottom: 1px solid #6b6b6b66;
+padding-bottom: 5px;
+}    
+
+h3 {
+  font-size: 1.2em; 
+  margin: 40px 0 0; 
+  font-weight: normal;
+  border-bottom: 1px solid #6b6b6b66;
+  padding-bottom: 5px;
+  }    

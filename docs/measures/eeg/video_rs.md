@@ -15,6 +15,8 @@ In V03, a silent video plays with a variety of colorful and abstract toys and vi
 In V04/6, a silent video plays with a variety of marble run and construction visuals on screen. The child watches the video for the duration of the task:    
 ![](images/eeg-RS-V04.png)
 
+***Users should be aware that, as noted in the title, this is not a true resting state as there is a visual stimulus present.***
+
 <details class="collapsible references">
   <summary class="references">References</summary>
  <ul>

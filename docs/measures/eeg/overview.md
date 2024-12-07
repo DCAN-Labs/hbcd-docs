@@ -7,11 +7,11 @@
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<br>
-<p><strong>Method of Administration</strong>: RA administered in person <br />
-<strong>Child Specific/Unspecific Form</strong>: Child Specific <br />
-<strong>Visits</strong>: Visit 3 (3-9 months), Visit 4 (9-15 months), Visit 6 (15-48 months) <br />
-<strong>Estimated length of time for completion</strong>: Video RS 3 min; Face 5 min, MMN 11.5 [V03] & 8.5 [V04/6] min; VEP 1 min</p>
+<li><b>Method of Administration</b>: RA administered in person</li>
+<li><b>Child Specific/Unspecific Form</b>: Child Specific</li>
+<li><b>Visits</b>: V03, V04, V06</li>
+<li><b>Estimated length of time for completion</b>: Video RS 3 min; Face 5 min, MMN 11.5(V03) & 8.5 (V04/06) min; VEP 1 min</li>
+</ul>
 </details>
 
 ## Quality Control & Known Issues 

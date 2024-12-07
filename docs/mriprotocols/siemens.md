@@ -1,4 +1,4 @@
-# Siemens Protocol v2.2 
+# Siemens Protocol v2.2 (XA30)
 
 ## Installation Instructions
 Before importing the HBCD protocol, please ensure you have received and installed the necessary C2P sequence packages for access to the latest versions of each sequence. Without the C2P packages installed, the full protocol cannot be imported.

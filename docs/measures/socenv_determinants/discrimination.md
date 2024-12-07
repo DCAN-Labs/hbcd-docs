@@ -9,15 +9,15 @@ This measure is a questionnaire to assess perceived discriminatory experiences. 
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<br>
-<p><strong>Method of Administration</strong>: Remote survey <br />
-<strong>REDCap Form Name</strong>: sed<em>bm</em>phx<em>i</em>discr; Phenx Discrimination (Experiences with Unfair Treatment) <br />
-<strong>Pilot Data Dictionary</strong>: sed<em>bm</em>phx<em>i</em>discr <br />
-<strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
-<strong>Child Specific/Unspecific Form</strong>: Child Unspecific <br />
-<strong>Respondent:</strong> Parent on Self <br />
-<strong>Visits</strong>: V01, V05, V07 <br />
-<strong>Estimated length of time for completion</strong>: 3 minutes</p>
+<p><li><b>Method of Administration</b>: Remote survey </li>
+<li><b>REDCap Form Name</b>: sed<em>bm</em>phx<em>i</em>discr; Phenx Discrimination (Experiences with Unfair Treatment) </li>
+<li><b>Pilot Data Dictionary</b>: sed<em>bm</em>phx<em>i</em>discr </li>
+<li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
+<li><b>Child Specific/Unspecific Form</b>: Child Unspecific </li>
+<li><b>Respondent:</b> Parent on Self </li>
+<li><b>Visits</b>: V01, V05, V07 </li>
+<li><b>Estimated length of time for completion</b>: 3 minutes</li>
+</ul>
 </details>
 
 

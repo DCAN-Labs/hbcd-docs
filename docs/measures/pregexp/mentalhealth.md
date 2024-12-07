@@ -1,4 +1,33 @@
 # Mental Health
+
+<div id="alert-banner" class="alert-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji">&#9888;</span>
+    <span class="text">Important Responsible Data Use and Analysis Considerations</span>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</div>
+<div class="alert-collapsible-content">
+<br>
+<p>When writing about mental health symptoms or diagnoses, it is important to use person-centered language. One exception to this is in the area of autism, where there is ongoing dialogue within the affected community about preferred language. It is important to take guidance from those with lived experiences and professional stakeholders when considering any language. Please see the following resources:</p> 
+<ul>
+General
+<li><a href="https://apastyle.apa.org/style-grammar-guidelines/bias-free-language/disability">APA style guidelines for writing about disability</a></li>
+</ul>
+<ul>
+Autism-specific
+<li><a href="https://autisticadvocacy.org/about-asan/identity-first-language/">“Identity-First Language” by Lydia Brown via the Autistic Self Advocacy Network</a></li>
+<li><a href="https://journals.sagepub.com/pb-assets/cmscontent/AUT/Autism-terminology-guidance-2021-1626860796.pdf">Terminology guidance from Autism: The International Journal of Research and Practice</a></li>
+</ul>
+
+<p>Many mental health diagnoses and experiences with mental health care can be influenced by cultural and structural factors that could impact the interpretation of items (symptoms), as well as influenced by previous diagnoses assigned by providers outside the ABCD Study. These cultural and structural factors should be acknowledged, as appropriate.</p>
+
+<p>We recommend statistically examining measurement invariance in mental health measures, considering whether scales and individual items function similarly across demographic groups, and carefully considering the use of measures when bias is demonstrated. It is important for researchers to explicitly acknowledge: (1) potential sources of bias, (2) issues with the measure given evidence of measurement invariance, and/or (3) interpretation limitations that may stem from the use of a given measure.</p>
+
+<p>We recommend following these recommendations for the responsible use and communication of race and <a href="https://www.nature.com/articles/s41593-024-01608-4">ethnicity</a>.</p>
+</div><br>
+
+
 **Full Name**: DSM-5 Self-Rated Level 1 and Level 2 (version 8a) Cross-Cutting Symptom Measure—Adult   
 **Acronym/Brief Name**: APA 1/2  
 **Construct**: Mental health   
@@ -26,14 +55,14 @@ The mental health screening instrument has two levels. Level 1 includes one to t
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<br>
-<p><strong>Method of Administration</strong>: self-administered in person or remote <br />
-<strong>REDCap Form Name</strong>: APA Level 1/2 <br />
-<strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
-<strong>Child Specific/Unspecific Form</strong>: Child Unspecific <br />
-<strong>Respondent:</strong> pregnant person/person who gave birth/primary caregiver <br />
-<strong>Visits</strong>:  V01, V02, V03 <br />
-<strong>Estimated length of time for completion</strong>: 5 minutes</p>
+<li><b>Method of Administration</b>: self-administered in person or remote </li>
+<li><b>REDCap Form Name</b>: APA Level 1/2 </li>
+<li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
+<li><b>Child Specific/Unspecific Form</b>: Child Unspecific </li>
+<li><b>Respondent:</b> pregnant person/person who gave birth/primary caregiver </li>
+<li><b>Visits</b>:  V01, V02, V03 </li>
+<li><b>Estimated length of time for completion</b>: 5 minutes</li>
+</ul>
 </details>
 
 ## HBCD Modifications

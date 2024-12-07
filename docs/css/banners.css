@@ -1,0 +1,161 @@
+/* General, non-collapsible banner specs */
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: #24AE7066;
+    border: 1px solid #24AE70;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+  }
+  .banner .emoji {
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+  .banner .text {
+    font-size: 1rem; 
+  }
+
+/* Yellow Collapsible Warning Banner */
+.warning-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align text and icon/button at the ends */
+    background-color: rgba(255, 251, 0, 0.705);
+    border: 1px solid yellow;
+    padding: 4px 20px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    cursor: pointer;
+  }
+  .warning-banner .emoji {
+    font-size: 1.5rem; 
+    margin-right: 10px;
+    color: yellow;
+  }
+  .warning-banner .text {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .warning-collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #fff;
+    border: 1px solid yellow;
+    border-top: none;
+    padding: 0 20px;
+    border-radius: 0 0 5px 5px;
+  }
+  .warning-collapsible-content.open {
+    max-height: none;
+  }
+  .warning-arrow {
+    font-size: 1.8rem;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    transform-origin: center;
+    color: #333;
+  }
+  .warning-arrow.rotate {
+    transform: rotate(90deg);
+  }
+  
+  
+  
+  
+  /* Red Collapsible RDU Alert Banner */
+  .alert-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #be074d3d; 
+    border: 1px solid #be074c; 
+    padding: 4px 20px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    color: #333333; 
+    cursor: pointer;
+  }
+  .alert-banner .emoji {
+    font-size: 1.5rem; 
+    margin-right: 10px;
+    color: red;
+  }
+  .alert-banner .text {
+    font-size: 1rem; 
+    font-weight: bold; 
+  }
+  .alert-collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #fff;
+    border: 1px solid #be074c;
+    border-top: none;
+    padding: 0 20px;
+    border-radius: 0 0 5px 5px;
+  }
+  .alert-collapsible-content.open {
+    max-height: none;
+  }
+  .alert-arrow {
+    font-size: 1.8rem;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    transform-origin: center;
+    color: #333;
+  }
+  .alert-arrow.rotate {
+    transform: rotate(90deg);
+  }
+
+
+
+
+/* Green Collapsible Notification Banner */
+.notification-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eaf9f0;
+    border: 1px solid #14b955;
+    padding: 4px 20px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    cursor: pointer; 
+  }
+  .notification-banner .emoji {
+    font-size: 1.5rem; 
+    margin-right: 10px;
+    color: #14b955;
+  }
+  .notification-banner .text {
+    font-size: 1rem; 
+    font-weight: bold;
+  }
+  .notification-collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #fff;
+    border: 1px solid #14b955;
+    border-top: none;
+    padding: 0 20px;
+    border-radius: 0 0 5px 5px;
+  }
+  .notification-collapsible-content.open {
+    max-height: none;
+  }
+  .notification-arrow {
+    font-size: 1.8rem;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    transform-origin: center;
+    color: #333;
+  }
+  .notification-arrow.rotate {
+    transform: rotate(90deg);
+  }
