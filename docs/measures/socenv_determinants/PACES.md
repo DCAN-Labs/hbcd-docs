@@ -34,7 +34,7 @@ Social and Environmental Working Group QC procedures included monitoring the dat
 <details class="collapsible references">
   <summary class="references">References</summary>
 <ul>
-    <li>Morris, A. S., Hays-Grudo, J., Zapata, M. I., Treat, A., &amp; Kerr, K. L. (2021). Adverse and protective childhood experiences and parenting attitudes: The role of cumulative protection in understanding resilience. <em>Adversity and Resilience Science</em>, 2(3), 181–192. <a href="https://doi.org/10.1007/s42844-021-00036-8">https://doi.org/10.1007/s42844-021-00036-8</a></li>
-    <li>Morris, A. S., Treat, A., Hays-Grudo, J., Chesher, T., Williamson, A. C., &amp; Mendez, J. (2018). Integrating research and theory on early relationships to guide intervention and prevention. In <em>Building Early Social and Emotional Relationships with Infants and Toddlers</em> (pp. 1–25). Springer International Publishing. <a href="https://doi.org/10.1007/978-3-030-03110-7_1">https://doi.org/10.1007/978-3-030-03110-7_1</a></li>
+    <p>Morris, A. S., Hays-Grudo, J., Zapata, M. I., Treat, A., &amp; Kerr, K. L. (2021). Adverse and protective childhood experiences and parenting attitudes: The role of cumulative protection in understanding resilience. <em>Adversity and Resilience Science</em>, 2(3), 181–192. <a href="https://doi.org/10.1007/s42844-021-00036-8">https://doi.org/10.1007/s42844-021-00036-8</a></p>
+    <p>Morris, A. S., Treat, A., Hays-Grudo, J., Chesher, T., Williamson, A. C., &amp; Mendez, J. (2018). Integrating research and theory on early relationships to guide intervention and prevention. In <em>Building Early Social and Emotional Relationships with Infants and Toddlers</em> (pp. 1–25). Springer International Publishing. <a href="https://doi.org/10.1007/978-3-030-03110-7_1">https://doi.org/10.1007/978-3-030-03110-7_1</a></p>
 </ul>
 </details>

@@ -26,7 +26,7 @@ For QC, a measure expert periodically reviews data capture to ensure that items 
 <details class="collapsible references">
   <summary class="references">References</summary>
 <ul>
-<li>Parham, L. D., Ecker, C. L., Kuhaneck, H., Henry, D. A., & Glennon, T. J. (2021). <i>Sensory Processing Measure, Second Edition (SPM-2)</i> [Manual]. Torrance, CA: Western Psychological Services.</li>
+<p>Parham, L. D., Ecker, C. L., Kuhaneck, H., Henry, D. A., & Glennon, T. J. (2021). <i>Sensory Processing Measure, Second Edition (SPM-2)</i> [Manual]. Torrance, CA: Western Psychological Services.</p>
 </ul>
 </details>
 

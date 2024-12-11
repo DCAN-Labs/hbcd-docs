@@ -60,12 +60,12 @@ To ensure data processing and analytic reproducibility, all HBCD pipelines must 
 A full list of tools evaluated through the [NMIND Coding Standards Checklist](https://www.nmind.org/standards-checklist/) can be found on their webpage under [Evaluated Tools](https://www.nmind.org/proceedings/). Below are the badge rating details for pipelines integrated into the HBCD release environment:
 
 - [MRIQC](https://www.nmind.org/proceedings/mriqc/)
-- BIBSNet
-- [infant-fMRIPrep](https://www.nmind.org/proceedings/nibabies/) 
+- [BIBSNet](https://www.nmind.org/proceedings/bibsnet/)
+- [infant-fMRIPrep](https://www.nmind.org/proceedings/nibabies/) (as well as base software [fMRIPrep](https://www.nmind.org/proceedings/fmriprep/))
 - [XCP-D](https://www.nmind.org/proceedings/xcpd/)
 - [QSIPrep](https://www.nmind.org/proceedings/qsiprep/) 
 - [QSIRecon](https://www.nmind.org/proceedings/qsirecon/)
 - [qMRI Postproc](https://www.nmind.org/proceedings/hbcd_qmri_postproc/)
 - [HBCD-MADE](https://www.nmind.org/proceedings/hbcdmade/)
-- [OSPREY-BIDS](https://www.nmind.org/proceedings/osprey_bids/)
+- [OSPREY-BIDS](https://www.nmind.org/proceedings/osprey_bids/) (as well as base software [OSPREY](https://www.nmind.org/proceedings/osprey/))
 - [HBCD-Motion](https://www.nmind.org/proceedings/hbcd_motion_postproc/)

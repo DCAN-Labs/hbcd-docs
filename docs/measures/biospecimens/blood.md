@@ -6,7 +6,7 @@
 Processing of Blood Spot Cards consists of preparing three 1/8” punches of dried blood spot followed by extraction using an organic solvent. Detection of PETH in the extract is accomplished with a single pass using LCMSMS (**Figure 1**):
 
 **Figure 1. Blood Processing**
-<img src="Fig1_blood.png" width="100%" height="auto">
+<img src="../Fig1_blood.png" width="100%" height="auto">
 
 <br>
 
@@ -31,9 +31,9 @@ PEth assays are confirmation-only testing. Test results were determined to be po
     <thead>
       <tr>
         <th>Analyte</th>
-        <th>LOD (ng/mL)</th>
-        <th>LOQ (ng/mL)</th>
-        <th>Cutoff (ng/mL)</th>
+        <th> LOD <br>(ng/mL)</th>
+        <th> LOQ <br>(ng/mL)</th>
+        <th> Cutoff <br>(ng/mL)</th>
         <th>Detection Window</th>
       </tr>
     </thead>

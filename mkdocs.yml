@@ -58,6 +58,7 @@ nav:
             - Nails: measures/biospecimens/nails.md 
             - Urine: measures/biospecimens/urine.md    
         - Demographics: measures/demographics.md
+        - Geocoding: measures/geocoding.md
         - Electroencephalogram (EEG): 
             - Overview: measures/eeg/overview.md
             - Faces Task: measures/eeg/faces_task.md
@@ -93,11 +94,7 @@ nav:
             - Neighborhood Safety: measures/socenv_determinants/neighborhood_safety.md  
             - PROMIS: measures/socenv_determinants/PROMIS.md
             - PACES: measures/socenv_determinants/PACES.md
-    - "MRI Protocols": 
-        - Overview: mriprotocols/overview.md
-        - Siemens: mriprotocols/siemens.md
-        - GE: mriprotocols/ge.md
-        - Philips: mriprotocols/philips.md
+    - MRI Protocols: mriprotocols/mriprotocols.md
     - HBCD BIDS Conversion:
         - Overview: datacuration/bids.md
         - Imaging: datacuration/imaging.md
@@ -109,7 +106,9 @@ nav:
         - Pipeline Software Standards: processing/standards.md
   - CHANGE LOG: 
     - Pending & Upcoming Updates: changelog/pending.md
+    - Known Issues: changelog/knownissues.md
     - Version History:    
+        - Beta Release 9: changelog/versions/BR9.md
         - Beta Release 8: changelog/versions/BR8.md
         - Beta Release 7.5: changelog/versions/BR7.5.md
         - Beta Release 7: changelog/versions/BR7.md      
@@ -123,7 +122,6 @@ nav:
   - INTERNAL:
     - WG Report Issues: internal/reportissues.md
     - Review Beta Data Release Site: internal/beta_release_site_review.md
-    - Information to Finalize: internal/infotofinalize.md
 
   
 

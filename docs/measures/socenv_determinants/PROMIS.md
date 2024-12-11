@@ -30,7 +30,7 @@ QC procedures involved monitoring the data dashboard for variable missingness, p
 <details class="collapsible references">
   <summary class="references">References</summary>
 <ul>
-<li>Cohen, S., Kamarck, T., &amp; Mermelstein, R. (1983). A global measure of perceived stress. <em>Journal of Health and Social Behavior</em>, 24(4), 385–396. <a href="https://doi.org/10.2307/2136404">https://doi.org/10.2307/2136404</a></li>
-<li>Hahn, E. A., Cella, D., Bode, R. K., &amp; Hanrahan, R. T. (2010). Measuring social well-being in people with chronic illness. <em>Social Indicators Research</em>, 96(3), 381–401. <a href="https://doi.org/10.1007/s11205-009-9484-z">https://doi.org/10.1007/s11205-009-9484-z</a></li>
+<p>Cohen, S., Kamarck, T., &amp; Mermelstein, R. (1983). A global measure of perceived stress. <em>Journal of Health and Social Behavior</em>, 24(4), 385–396. <a href="https://doi.org/10.2307/2136404">https://doi.org/10.2307/2136404</a></p>
+<p>Hahn, E. A., Cella, D., Bode, R. K., &amp; Hanrahan, R. T. (2010). Measuring social well-being in people with chronic illness. <em>Social Indicators Research</em>, 96(3), 381–401. <a href="https://doi.org/10.1007/s11205-009-9484-z">https://doi.org/10.1007/s11205-009-9484-z</a></p>
 </ul>
 </details>

@@ -54,8 +54,8 @@ The data dashboard was monitored for variable missingness, possible coding error
 <details class="collapsible references">
   <summary class="references">References</summary>
 <ul>
-<li>Noble, K. G., Magnuson, K., Gennetian, L. A., Duncan, G. J., Yoshikawa, H., Fox, N. A., &amp; Halpern-Meekin, S. (2021). Baby’s First Years: Design of a randomized controlled trial of poverty reduction in the United States. <em>Pediatrics</em>, 148(4), e2020049702. <a href="https://doi.org/10.1542/peds.2020-049702">https://doi.org/10.1542/peds.2020-049702</a></li>
-<li>Sanbonmatsu, L., Marvakov, J., Potter, N. A., Yang, F., Adam, E. K., Congdon, W. J., Duncan, G. J., Gennetian, L. A., Katz, L. F., Kling, J. R., Kessler, R. C., Lindau, S. T., Ludwig, J., &amp; McDade, T. W. (2012). The long-term effects of moving to opportunity on adult health and economic self-sufficiency. <em>Cityscape: A Journal of Policy Development and Research</em>, 14, 109-136.</li>
+<p>Noble, K. G., Magnuson, K., Gennetian, L. A., Duncan, G. J., Yoshikawa, H., Fox, N. A., &amp; Halpern-Meekin, S. (2021). Baby’s First Years: Design of a randomized controlled trial of poverty reduction in the United States. <em>Pediatrics</em>, 148(4), e2020049702. <a href="https://doi.org/10.1542/peds.2020-049702">https://doi.org/10.1542/peds.2020-049702</a></p>
+<p>Sanbonmatsu, L., Marvakov, J., Potter, N. A., Yang, F., Adam, E. K., Congdon, W. J., Duncan, G. J., Gennetian, L. A., Katz, L. F., Kling, J. R., Kessler, R. C., Lindau, S. T., Ludwig, J., &amp; McDade, T. W. (2012). The long-term effects of moving to opportunity on adult health and economic self-sufficiency. <em>Cityscape: A Journal of Policy Development and Research</em>, 14, 109-136.</p>
 </ul>
 </details>
 

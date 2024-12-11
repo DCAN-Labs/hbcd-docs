@@ -146,8 +146,8 @@ The TLFB data should be combined with the biospecimen and Assist data. One could
 <details class="collapsible references">
   <summary class="references">References</summary>
  <ul>
-<li>National Institute on Drug Abuse. (n.d.). <em>NIDA Modified ASSIST</em>.</li>
-<li>Sobell, L., &amp; Sobell, M. (2000). Alcohol timeline follow-back (TLFB). In <em>Handbook of psychiatric measures.</em> (p. 477). American Psychiatric Association.</li>
+<p>National Institute on Drug Abuse. (n.d.). <em>NIDA Modified ASSIST</em>.</p>
+<p>Sobell, L., &amp; Sobell, M. (2000). Alcohol timeline follow-back (TLFB). In <em>Handbook of psychiatric measures.</em> (p. 477). American Psychiatric Association.</p>
 </ul>
 </details>
 <br>

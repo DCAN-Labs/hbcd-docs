@@ -5,14 +5,15 @@
     <span class="emoji">&#9888;</span>
     <span class="text">Important Responsible Data Use and Analysis Considerations</span>
   </span>
-  <span class="arrow">&rsaquo;</span>
+  <span class="arrow">▸</span>
 </div>
 
-<div class="alert-collapsible-content">
+<div class="collapsible-content">
 <br>
 <p>When using HBCD data, all data users must agree to responsible use as described in the DUC. When conceptualizing studies, analyzing data, and communicating findings from studies that use variables such as race, ethnicity, country of origin, and socioeconomic data, it is critical to consider strategies to avoid stigmatization of any groups and perpetuating harmful biases.</p> 
 <p>Race and ethnicity are collected as a part of the HBCD protocol to reflect social experiences (i.e. representing social constructs) and should not be conceptualized as as biological, natural, intrinsic, or fixed categories of people. In addition, researchers sometimes use race/ethnicity variables as a proxy for unmeasured social experiences or environmental exposures. HBCD measures a wide variety of social experiences and environmental exposures; in analyzing HBCD data, race/ethnicity should not be used as a proxy for measured variables</p>
 </div><br>
+
 
 **Full Name**: HBCD Demographics V01  
 **Acronym/Brief Name**: Demographics  
@@ -262,9 +263,11 @@ QC was performed by monitoring the data dashboard for variable missingness and d
 
 <details class="collapsible references">
 <summary class="references">References</summary>
+<ul>
     <p>Barch, D. M., Albaugh, M. D., Avenevoli, S., Chang, L., Clark, D. B., Glantz, M. D., Hudziak, J. J., Jernigan, T. L., Tapert, S. F., Yurgelun-Todd, D., Alia-Klein, N., Potter, A. S., Paulus, M. P., Prouty, D., Zucker, R. A., & Sher, K. J. (2018). Demographic, physical and mental health assessments in the adolescent brain and cognitive development study: Rationale and description. <em>Developmental Cognitive Neuroscience</em>, 32, 55–66. <a href="https://doi.org/10.1016/j.dcn.2017.10.010" target="_blank">https://doi.org/10.1016/j.dcn.2017.10.010</a></p>
     <p>Cioffredi, L.-A., Yerby, L. G., Burris, H. H., Cole, K. M., Engel, S. M., Murray, T. M., Slopen, N., Volk, H. E., Acheson, A., & HBCD Social and Environmental Determinants Working Group. (2024). Assessing prenatal and early childhood social and environmental determinants of health in the HEALthy Brain and Child Development Study (HBCD). <em>Developmental Cognitive Neuroscience</em>, 69(101429), 101429. <a href="https://doi.org/10.1016/j.dcn.2024.101429" target="_blank">https://doi.org/10.1016/j.dcn.2024.101429</a></p>
     <p>Federal Register. (2023, January 27). Initial Proposals For Updating OMB’s Race and Ethnicity Statistical Standards (<a href="https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards" target="_blank">Document No. 2023-01635</a>). 88 FR 5375-5384.</p>
     <p>Hamilton, C. M., Strader, L. C., Pratt, J. G., Maiese, D., Hendershot, T., Kwok, R. K., Hammond, J. A., Huggins, W., Jackman, D., Pan, H., Nettles, D. S., Beaty, T. H., Farrer, L. A., Kraft, P., Marazita, M. L., Ordovas, J. M., Pato, C. N., Spitz, M. R., Wagener, D., … Haines, J. (2011). The PhenX Toolkit: get the most from your measures. <em>American Journal of Epidemiology</em>, 174(3), 253–260. <a href="https://doi.org/10.1093/aje/kwr193" target="_blank">https://doi.org/10.1093/aje/kwr193</a></p>
     <p>Jones, C. P., Truman, B. I., Elam-Evans, L. D., Jones, C. A., Jones, C. Y., Jiles, R., Rumisha, S. F., & Perry, G. S. (2008). Using “socially assigned race” to probe white advantages in health status. <em>Ethnicity & Disease</em>, 18(4), 496–504. <a href="https://www.ncbi.nlm.nih.gov/pubmed/19157256" target="_blank">https://www.ncbi.nlm.nih.gov/pubmed/19157256</a></p>
+</ul>    
 </details>

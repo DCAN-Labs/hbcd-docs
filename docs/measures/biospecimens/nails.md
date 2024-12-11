@@ -6,7 +6,7 @@
 The nail processing workflow was re-developed and implemented on July 1, 2024 to consider the amount of specimen available and offer the opportunity for additional confirmation tests in case of low sample quantity. Specimens are sorted by weight and screened following the workflow outlined in **Figure 1**. Specimens that contain at least 20 mg of nail are screened using ELISA with subsequent LCMSMS confirmation for presumptive positives, each confirmation of which requires an additional 20 mg. In the updated workflow, if additional specimen is not available for LCMSMS confirmation, the remnant of ELISA extract is instead used for confirmation. Nail weights and test ordered (custom 14 panel test; EtG only; cancelled) are noted in the sample-data dictionary below (**Table 2**).
 
 ##### Figure 1. Schematic for nail processing
-<img src="Fig1_nails.png" width="100%" height="auto">
+<img src="../Fig1_nails.png" width="100%" height="auto">
 
 <details>
 <summary>Implementation & Data Collection Details</summary>
@@ -27,11 +27,11 @@ Based on the predefined threshold outlined in **Table 1**, a confirmatory test r
   <br>
     <thead>
       <tr>
-        <th>Analyte</th>
+		<th style="width: 180px; word-wrap: break-word; white-space: normal;">Analyte</th>
         <th>LOD<br />(pg/mL)</th>
         <th>LOQ<br />(pg/mL)</th>
         <th>Cutoff<br />(pg/mL)</th>
-        <th>Detection Window</th>
+        <th>Detection Window (months)</th>
       </tr>
     </thead>
     <tbody>
@@ -40,329 +40,329 @@ Based on the predefined threshold outlined in **Table 1**, a confirmatory test r
 		<td>20</td>
 		<td>40</td>
 		<td>100</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Methamphetamine</td>
 		<td>20</td>
 		<td>40</td>
 		<td>100</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>MDA</td>
 		<td>20</td>
 		<td>40</td>
 		<td>100</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>MDMA</td>
 		<td>20</td>
 		<td>40</td>
 		<td>100</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>MDEA</td>
 		<td>20</td>
 		<td>40</td>
 		<td>100</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Carboxy-delta-9-THC</td>
 		<td>0.01</td>
 		<td>0.02</td>
 		<td>0.05</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Cocaine</td>
 		<td>20</td>
 		<td>40</td>
 		<td>100</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Cocaethylene</td>
 		<td>10</td>
 		<td>20</td>
 		<td>50</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Benzoylecgonine</td>
 		<td>10</td>
 		<td>20</td>
 		<td>50</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Norcocaine</td>
 		<td>10</td>
 		<td>20</td>
 		<td>50</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>6-MAM</td>
 		<td>20</td>
 		<td>40</td>
 		<td>100</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Codeine</td>
 		<td>20</td>
 		<td>40</td>
 		<td>100</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Hydrocodone</td>
 		<td>20</td>
 		<td>40</td>
 		<td>100</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Hydromorphone</td>
 		<td>20</td>
 		<td>40</td>
 		<td>100</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Morphine</td>
 		<td>20</td>
 		<td>40</td>
 		<td>100</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Norhydrocodone</td>
 		<td>8</td>
 		<td>16</td>
 		<td>40</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Oxycodone</td>
 		<td>20</td>
 		<td>40</td>
 		<td>100</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Oxymorphone</td>
 		<td>20</td>
 		<td>40</td>
 		<td>100</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Noroxycodone</td>
 		<td>8</td>
 		<td>16</td>
 		<td>40</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Methadone</td>
 		<td>20</td>
 		<td>40</td>
 		<td>100</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>EDDP</td>
 		<td>20</td>
 		<td>40</td>
 		<td>100</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Amobarbital</td>
 		<td>80</td>
 		<td>80</td>
 		<td>200</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Butalbital</td>
 		<td>80</td>
 		<td>80</td>
 		<td>200</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Pentobarbital</td>
 		<td>80</td>
 		<td>80</td>
 		<td>200</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Phenobarbital</td>
 		<td>80</td>
 		<td>80</td>
 		<td>200</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Secobarbital</td>
 		<td>80</td>
 		<td>80</td>
 		<td>200</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Alprazolam</td>
 		<td>20</td>
 		<td>40</td>
 		<td>100</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Diazepam</td>
 		<td>20</td>
 		<td>40</td>
 		<td>100</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Midazolam</td>
 		<td>20</td>
 		<td>40</td>
 		<td>100</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Nordiazepam</td>
 		<td>20</td>
 		<td>40</td>
 		<td>100</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Oxazepam</td>
 		<td>20</td>
 		<td>40</td>
 		<td>100</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Temazepam</td>
 		<td>20</td>
 		<td>40</td>
 		<td>100</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Ketamine</td>
 		<td>20</td>
 		<td>40</td>
 		<td>100</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Norketamine</td>
 		<td>20</td>
 		<td>40</td>
 		<td>100</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Tramadol</td>
 		<td>200</td>
 		<td>400</td>
 		<td>500</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Fentanyl</td>
 		<td>2</td>
 		<td>4</td>
 		<td>10</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Norfentanyl</td>
 		<td>2</td>
 		<td>4</td>
 		<td>10</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Alfentanil</td>
 		<td>2</td>
 		<td>4</td>
 		<td>10</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Acetyl Fentanyl</td>
 		<td>2</td>
 		<td>4</td>
 		<td>10</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Acetyl Norfentanyl</td>
 		<td>2</td>
 		<td>4</td>
 		<td>10</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Sufentanil</td>
 		<td>1</td>
 		<td>2</td>
 		<td>5</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Norsufentanil</td>
 		<td>2</td>
 		<td>2</td>
 		<td>5</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Buprenorphine</td>
 		<td>4</td>
 		<td>8</td>
 		<td>20</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Norbuprenorphine</td>
 		<td>4</td>
 		<td>8</td>
 		<td>20</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Ethyl glucuronide</td>
 		<td>4</td>
 		<td>8</td>
 		<td>20</td>
-		<td>Finger 3 months <br /> Toe no consensus*</td>
+		<td>Finger 3 months <br /> Toe no consensus</td>
 	</tr>
 	<tr>
 		<td>Nicotine</td>
 		<td>20</td>
 		<td>40</td>
 		<td>100</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 	</tr>
 	<tr>
 		<td>Cotinine</td>
 		<td>20</td>
 		<td>40</td>
 		<td>100</td>
-		<td>Finger 3-6 months Toe 10-14 months</td>
+		<td>Finger 3-6 & Toe 10-14</td>
 </tr>
 </tbody>
 </table>
@@ -466,7 +466,7 @@ Based on the predefined threshold outlined in **Table 1**, a confirmatory test r
       <tr>
 		<th>Class</th>
 		<th>Screening test</th>
-		<th>Confirmatory Test<br />(reflexes from positive screening test)/th>
+		<th>Confirmatory Test<br />(reflexes from positive screening test)</th>
 	   </tr>
 	</thead>
 	<tbody>
@@ -683,7 +683,7 @@ One potential issue flagged by subject matter experts is that the nail processin
 <details class="collapsible references">
   <summary class="references">References</summary>
  <ul>
-    <li>Bandoli, G., Anunziata, F., Bogdan, R., Zilverstand, A., Chaiyachati, B. H., Gurka, K. K., Sullivan, E., Croff, J., & Bakhireva, L. N. (2024). Assessment of substance exposures in nail clipping samples: A systematic review. <i>Drug and Alcohol Dependence</i>, 254, 111038. <a href="https://doi.org/10.1016/j.drugalcdep.2023.111038" target="_blank">https://doi.org/10.1016/j.drugalcdep.2023.111038</a></li>
+    <p>Bandoli, G., Anunziata, F., Bogdan, R., Zilverstand, A., Chaiyachati, B. H., Gurka, K. K., Sullivan, E., Croff, J., & Bakhireva, L. N. (2024). Assessment of substance exposures in nail clipping samples: A systematic review. <i>Drug and Alcohol Dependence</i>, 254, 111038. <a href="https://doi.org/10.1016/j.drugalcdep.2023.111038" target="_blank">https://doi.org/10.1016/j.drugalcdep.2023.111038</a></p>
   </ul>
 </details>
 

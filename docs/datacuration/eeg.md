@@ -1,6 +1,5 @@
 # EEG Data Curation & BIDS Conversion
 
-## BIDS Conversion
 To facilitate data handling and preprocessing, we employ [EEG2BIDS Wizard](https://github.com/aces/eeg2bids), a custom MATLAB application installed at all HBCD sites. After each EEG session, raw data are uploaded to the Wizard, which, among other things, converts this data to the BIDS standard data structure. The resulting BIDS data structure is:
 ```
 assembly_bids/ 
@@ -31,12 +30,12 @@ assembly_bids/
 |       |       |__ sub-<label>_ses-<label>_task-<FACE/MMN/RS/VEP>_acq-eeg_impedances.json
 |       |       |__ sub-<label>_ses-<label>_task-<FACE/MMN/RS/VEP>_acq-eeg_eventlogs.txt
 ```
-## Additional File Descriptions
-**Location of electrodes**    
-The EEG lead was placed on either the head (`acq-eeg`) or chest (`acq-ecg`). Location coordinates are specified in the `*_electrodes.tsv` file following cartesian coordinates specified by fields of the accompanying `*_coordsystem.json` file.
 
-**Task acquisitions**      
-EEG is acquired for each task (see [Data Measures & Quality Control > EEG](../measures/eeg/overview.md) for task descriptions) as indicated by the `task-<label>` BIDS entity
+The specific **location of electrodes**, placed on either the head (`acq-eeg`) or chest (`acq-ecg`), is specified in the `*_electrodes.tsv` files following cartesian coordinates provided by the accompanying `*_coordsystem.json` file. For **task acquisitions**, the task is specified by `task-<label>`, with task options of `FACE`, `MMN`, `RS`, and `VEP` (see task details [here](../measures/eeg/overview.md#eeg-parameters)).
 
-**Sourcedata files**    
-These files include information about quality control flags and acquisition (`*_flags.json`- see [Quality Control & Known Issues](../measures/eeg/overview.md#quality-control-known-issues)), impedance values to ensure good electrode contact (`*_impedence.json`), and task stimuli presentations (`*_eventlogs.txt`).
+<ul>
+The accompanying <code>sourcedata/</code> files include:
+<li>Information about quality control flags and acquisition (<code>*_flags.json</code>- see QC details <a href="../../measures/eeg/overview#quality-control-known-issues">here</a>)</li>
+<li>Impedance values used to ensure good electrode contact (<code>*_impedence.json</code>)</li>
+<li>Task stimuli presentations (<code>*_eventlogs.txt</code>)</li>
+</ul>

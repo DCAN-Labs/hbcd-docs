@@ -16,17 +16,19 @@ The protocol was further optimized for robust measurement in pediatric populatio
 
 <details class="collapsible references">
   <summary class="references">References</summary>
-<li><p>Bottomley, P. A. (1987). Spatial localization in NMR spectroscopy in vivo. <em>Annals of the New York Academy of Sciences</em>, 508(1), 333–348. <a href="https://doi.org/10.1111/j.1749-6632.1987.tb32915.x">https://doi.org/10.1111/j.1749-6632.1987.tb32915.x</a></p></li>
+<ul>
+<p>Bottomley, P. A. (1987). Spatial localization in NMR spectroscopy in vivo. <em>Annals of the New York Academy of Sciences</em>, 508(1), 333–348. <a href="https://doi.org/10.1111/j.1749-6632.1987.tb32915.x">https://doi.org/10.1111/j.1749-6632.1987.tb32915.x</a></p>
 
-<li><p>Edden, R. A. E., Oeltzschner, G., Harris, A. D., Puts, N. A. J., Chan, K. L., Boer, V. O., Schär, M., & Barker, P. B. (2016). Prospective frequency correction for macromolecule-suppressed GABA editing at 3T. <em>Journal of Magnetic Resonance Imaging</em>, 44(6), 1474–1482.. <a href="https://doi.org/10.1002/jmri.25304">https://doi.org/10.1002/jmri.25304</a></p></li>
+<p>Edden, R. A. E., Oeltzschner, G., Harris, A. D., Puts, N. A. J., Chan, K. L., Boer, V. O., Schär, M., & Barker, P. B. (2016). Prospective frequency correction for macromolecule-suppressed GABA editing at 3T. <em>Journal of Magnetic Resonance Imaging</em>, 44(6), 1474–1482.. <a href="https://doi.org/10.1002/jmri.25304">https://doi.org/10.1002/jmri.25304</a></p>
 
-<li><p>Harris, A. D., Glaubitz, B., Near, J., John Evans, C., Puts, N. A. J., Schmidt-Wilcke, T., Tegenthoff, M., Barker, P. B., & Edden, R. A. E. (2014). Impact of frequency drift on gamma-aminobutyric acid-edited MR spectroscopy. <em>Magnetic Resonance in Medicine</em>, 72(4), 941–948. <a href="https://doi.org/10.1002/mrm.25009">https://doi.org/10.1002/mrm.25009</a></p></li>
+<p>Harris, A. D., Glaubitz, B., Near, J., John Evans, C., Puts, N. A. J., Schmidt-Wilcke, T., Tegenthoff, M., Barker, P. B., & Edden, R. A. E. (2014). Impact of frequency drift on gamma-aminobutyric acid-edited MR spectroscopy. <em>Magnetic Resonance in Medicine</em>, 72(4), 941–948. <a href="https://doi.org/10.1002/mrm.25009">https://doi.org/10.1002/mrm.25009</a></p>
 
-<li><p>Hui, S. C. N., Murali-Manohar, S., Zöllner, H. J., Hupfeld, K. E., Davies-Jenkins, C. W., Gudmundson, A. T., Song, Y., Yedavalli, V., Wisnowski, J. L., Gagoski, B., Oeltzschner, G., & Edden, R. A. E. (2024). Integrated Short-TE and Hadamard-edited Multi-Sequence (ISTHMUS) for advanced MRS. <em>Journal of Neuroscience Methods</em>, 409(110206), 110206. <a href="https://doi.org/10.1016/j.jneumeth.2024.110206">https://doi.org/10.1016/j.jneumeth.2024.110206</a></p></li>
+<p>Hui, S. C. N., Murali-Manohar, S., Zöllner, H. J., Hupfeld, K. E., Davies-Jenkins, C. W., Gudmundson, A. T., Song, Y., Yedavalli, V., Wisnowski, J. L., Gagoski, B., Oeltzschner, G., & Edden, R. A. E. (2024). Integrated Short-TE and Hadamard-edited Multi-Sequence (ISTHMUS) for advanced MRS. <em>Journal of Neuroscience Methods</em>, 409(110206), 110206. <a href="https://doi.org/10.1016/j.jneumeth.2024.110206">https://doi.org/10.1016/j.jneumeth.2024.110206</a></p>
 
-<li><p>Oeltzschner, G., Saleh, M. G., Rimbault, D., Mikkelsen, M., Chan, K. L., Puts, N. A. J., & Edden, R. A. E. (2019). Advanced Hadamard-encoded editing of seven low-concentration brain metabolites: Principles of HERCULES. <em>NeuroImage</em>, 185, 181–190. <a href="https://doi.org/10.1016/j.neuroimage.2018.10.002">https://doi.org/10.1016/j.neuroimage.2018.10.002</a></p></li>
+<p>Oeltzschner, G., Saleh, M. G., Rimbault, D., Mikkelsen, M., Chan, K. L., Puts, N. A. J., & Edden, R. A. E. (2019). Advanced Hadamard-encoded editing of seven low-concentration brain metabolites: Principles of HERCULES. <em>NeuroImage</em>, 185, 181–190. <a href="https://doi.org/10.1016/j.neuroimage.2018.10.002">https://doi.org/10.1016/j.neuroimage.2018.10.002</a></p>
 
-<li><p>Träber, F., Block, W., Lamerichs, R., Gieseke, J., & Schild, H. H. (2004). 1H metabolite relaxation times at 3.0 tesla: Measurements of T1 and T2 values in normal brain and determination of regional differences in transverse relaxation. <em>Journal of Magnetic Resonance Imaging</em>, 19(5), 537–545. <a href="https://doi.org/10.1002/jmri.20053">https://doi.org/10.1002/jmri.20053</a></p></li>
+<p>Träber, F., Block, W., Lamerichs, R., Gieseke, J., & Schild, H. H. (2004). 1H metabolite relaxation times at 3.0 tesla: Measurements of T1 and T2 values in normal brain and determination of regional differences in transverse relaxation. <em>Journal of Magnetic Resonance Imaging</em>, 19(5), 537–545. <a href="https://doi.org/10.1002/jmri.20053">https://doi.org/10.1002/jmri.20053</a></p>
+</ul>
 </details>
 
 

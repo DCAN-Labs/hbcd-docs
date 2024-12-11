@@ -5,7 +5,7 @@
     <span class="emoji">&#x1f4a1;</span>
     <span class="text">NOTIFICATION: Potential Data Access Issues</span>
   </span>
-  <span class="arrow">&rsaquo;</span>
+  <span class="notification-arrow">▸</span>
 </div>
 
 <div class="notification-collapsible-content">

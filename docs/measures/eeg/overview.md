@@ -32,6 +32,8 @@ During quality control, a frequently observed issue across all tasks was the irr
 Subject matter experts flagged potential issues related to task design changes between versions V03 and V04/6. These include updates to the video content in the video RS task and modifications to the interstimulus interval (ISI) in the auditory mismatch negativity task (see Fox et al., 2024; Morr et al., 2002, for details on the ISI changes). No potential issues were identified for the faces or visual evoked potential tasks.
 
 ## Resources
-- [HBCD E-Prime Task Manual](pdfs/HBCDE-PrimeTaskManual.pdf)  
-- [Official EEG Acquisition Manual](pdfs/OfficialEEGAcquisitionManual6.23.24.pdf)
+- [HBCD E-Prime Task Manual](https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing)
+- [Official EEG Acquisition Manual](https://docs.google.com/document/d/1tjrFJzntHOqJOrq-SRGy2Z0LOj56MFsZ2ZocgrUogSs/edit?usp=sharing)
+
+
 

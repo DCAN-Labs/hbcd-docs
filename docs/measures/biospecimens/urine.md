@@ -757,10 +757,14 @@ Based on the predefined thresholds outlined in **Table 1**, a confirmatory test 
 ## Quality Control & Known Issues
 QC procedures involved examining assay ranges and categorical versus continuous measures. No common issues were identified from QC.
 
-Subject matter experts have highlighted one potential issue regarding creatinine results included in the data release. For context, urine specimen validation is determined based on creatinine, pH, and nitrite measurements ([Figure 1](#figure-1-urine-processing-schematic)). Specimens with low creatinine (<20 mg/dL) are confirmed using specific gravity via refractometer, and the creatinine analysis is repeated to rule out issues with the first analysis (e.g. sample mix-ups, air bubble in a line on the instrument, etc.) ([Table 4](#table-4-urine-validity-creatininespecific-gravity-decision-grid)). All assays are marked as invalid for specimens identified as dilute, substituted, adulterated, or otherwise insufficient. However, for data release, only the initial creatinine results are reported. Creatinine and specific gravity values are therefore provided for researchers who wish to adjust for urinary concentration in continuous measures or apply different thresholds.
+Subject matter experts have highlighted one potential issue regarding creatinine results included in the data release. For context, urine specimen validation is determined based on creatinine, pH, and nitrite measurements (**Figure 1**). Specimens with low creatinine (<20 mg/dL) are confirmed using specific gravity via refractometer, and the creatinine analysis is repeated to rule out issues with the first analysis (e.g. sample mix-ups, air bubble in a line on the instrument, etc.) (**Table 4**). All assays are marked as invalid for specimens identified as dilute, substituted, adulterated, or otherwise insufficient. However, for data release, only the initial creatinine results are reported. Creatinine and specific gravity values are therefore provided for researchers who wish to adjust for urinary concentration in continuous measures or apply different thresholds.
 
-#### Figure 1. Urine Processing Schematic
-<img src="Fig1_biospec_urine.png" width="75%" height="auto">
+**Figure 1. Urine Processing Schematic**
+<img src="../Fig1_biospec_urine.png" width="90%" height="auto">
 
-#### Table 4. Urine Validity (Creatinine/Specific Gravity) Decision Grid
-<img src="Table1_biospec_urine.png" width="75%" height="auto">
+<br>
+
+**Table 4. Urine Validity (Creatinine/Specific Gravity) Decision Grid**
+<img src="../Table1_biospec_urine.png" width="90%" height="auto">
+
+<br>
