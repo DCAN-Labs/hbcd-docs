@@ -42,8 +42,8 @@ nav:
     - FAQs: faq.md
     - Report Issues: reportissue.md
   - Release Notes:
+    - Overview: measures/index.md
     - "Data Measures & Quality Control":
-        - Overview: measures/index.md
         - "Behavior & Caregiver-Child Interaction": 
             - Overview: measures/beh_CG_interaction/overview.md  
             - ecPROMIS: measures/beh_CG_interaction/ecPROMIS.md  
@@ -92,12 +92,12 @@ nav:
             - PACES: measures/socenv_determinants/PACES.md
     - MRI Protocols: mriprotocols/mriprotocols.md
     - HBCD BIDS Conversion:
-        - Overview: datacuration/bids.md
         - Imaging: datacuration/imaging.md
         - EEG: datacuration/eeg.md
         - Motion Data: datacuration/motion.md
         - Phenotypes: datacuration/phenotypes.md
     - Data Processing: 
+        - Data Curation: datacuration/bids.md
         - Pipelines & Processing: processing/pipelines.md
         - Pipeline Software Standards: processing/standards.md
   - CHANGE LOG: 

@@ -26,7 +26,7 @@ assembly_bids/
 
 **Instrument files** (`<instrument_name>.tsv|json`): each instrument has a `.tsv` Data Table containing all instrument values for the participants and a `.json` Data Dictionary describing all instrument fields (except those in the exclusion lists provided below). 
 
-**Visit data** (`visit_data.tsv|json`): include visit information fields (e.g. Label, Stage, Date, and if the visit was missed or participant withdrew and the reason) as well as all Substance Use (SU) flags from three locations ([TLFB](../measures/pregexp/substanceuse_all.md), [Health V2](../measures/pregexp/infanthealth.md), and [Biosample Urine](../measures/biospecimens/urine.md))
+**Visit data** (`visit_data.tsv|json`): include visit information fields (e.g. Label, Stage, Date, and if the visit was missed or participant withdrew and the reason), Project, Cohort, and Site. These files also contain Substance Use (SU) flags from three locations ([TLFB](../measures/pregexp/substanceuse_all.md), [Health V2](../measures/pregexp/infanthealth.md), and [Biosample Urine](../measures/biospecimens/urine.md))
 
 **Demographics files** (`sed_basic_demographics.tsv|json`): include demographics of the infant/child (gestational age at birth, sex, recruitment site, race, ethnicity) and mother (race, ethnicity, education, income, language spoken at home). These files also contain information about substance abuse. This includes flags raised for SU (from self-reported use (TLFB) and/or biospecimen results) and the Health-V2 instrument *pex_bm_healthv2_inf* (field “007”) if option 1 (NOWS - Neonatal Opioid Withdrawal Syndrome) or 5 (FAS - Fetal Alcohol Syndrome) was selected.
 
