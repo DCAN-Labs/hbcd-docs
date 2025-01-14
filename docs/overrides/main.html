@@ -1,8 +1,0 @@
-{% extends "base.html" %}
-
-{% block content %}
-<div class="last-updated">
-    <p>Page Last Updated: {{ page.meta.git_revision_date_localized | default("Unknown date") }}</p>
-</div>
-{{ super() }}
-{% endblock %}
