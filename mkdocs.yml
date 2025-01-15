@@ -36,50 +36,10 @@ docs_dir: docs
 
 nav: 
   - ABOUT: index.md
-  - Access Data:
-    - How To Access Data: data_access/index.md
-    - Go To NBDC Portal: data_access/nbdcquicklink.html
-    - Responsible Data Use: data_access/resp_data_use.md
-    - Data Dictionary Explorer: data_access/datadictionary.md
-  - Get Help:
-    - FAQs: faq.md
-    - Report Issues: reportissue.md
-  - Release Notes:
-    - "Data Measures & Quality Control":
-        - Overview: measures/index.md
-        - "Behavior & Caregiver-Child Interaction": measures/behCGinteraction.md   
-        - Biospecimens: measures/biospec.md   
-        - Demographics: measures/demographics.md
-        - Electroencephalogram: measures/eeg/index.md
-        - Magnetic Resonance Imaging:
-            - Overview: measures/mri/index.md
-            - Quality Control Procedures: measures/mri/qc.md
-            - Structural MRI: measures/mri/smri.md
-            - Functional MRI: measures/mri/fmri.md
-            - Diffusion MRI: measures/mri/dmri.md
-            - Quantitative MRI: measures/mri/qmri.md
-            - Magnetic Resonance Spectroscopy: measures/mri/mrs.md  
-        - "Neurocognition & Language": measures/neurocog.md    
-        - "Novel Technologies & Wearable Sensors": measures/sensors.md                     
-        - Physical Health: measures/physicalhealth.md
-        - "Pregnancy & Exposure": 
-            - "Pregnancy & Infant Health": measures/pregexp/preghealth.md
-            - Substance Use: measures/pregexp/substanceuse.md
-            - Mental Health: measures/pregexp/mentalhealth.md
-        - "Social & Environmental Determinants": measures/socenvdet.md
-    - MRI Protocols: mriprotocols/mriprotocols.md
-    - HBCD BIDS Data:
-        - Overview: datacuration/overview.md
-        - Raw Data: datacuration/rawbids.md
-        - Derivatives: datacuration/derivatives.md
-        - Phenotype: datacuration/phenotypes.md
-        - Exclusion Criteria: datacuration/exclusions.md
-    - Data Processing: 
-        - Pipelines & Processing: processing/pipelines.md
-        - Pipeline Software Standards: processing/standards.md
+  - WG Report Issues: internal/reportissues.md
+  - Review Beta Data Release Site: internal/beta_release_site_review.md
   - CHANGE LOG: 
     - Pending & Upcoming Updates: changelog/pending.md
-    - Known Issues: changelog/knownissues.md
     - Version History:    
         - Beta Release 11: changelog/versions/BR11.md
         - Beta Release 10: changelog/versions/BR10.md
@@ -94,9 +54,6 @@ nav:
         - Beta Release 3: changelog/versions/v1.2.md
         - Beta Release 2: changelog/versions/v1.1.md
         - Beta Release 1: changelog/versions/v1.0.md
-  - INTERNAL:
-    - WG Report Issues: internal/reportissues.md
-    - Review Beta Data Release Site: internal/beta_release_site_review.md
 
   
 
