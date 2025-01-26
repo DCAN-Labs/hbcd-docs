@@ -41,6 +41,7 @@ nav:
   - CHANGE LOG: 
     - Pending & Upcoming Updates: changelog/pending.md
     - Version History:    
+        - Beta Release 13: changelog/versions/BR13.md
         - Beta Release 12: changelog/versions/BR12.md
         - Beta Release 11: changelog/versions/BR11.md
         - Beta Release 10: changelog/versions/BR10.md
