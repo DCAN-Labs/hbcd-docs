@@ -38,6 +38,7 @@ nav:
   - ABOUT: index.md
   - WG Report Issues: internal/reportissues.md
   - Review Beta Data Release Site: internal/beta_release_site_review.md
+  - Slides: slides.md
   - CHANGE LOG: 
     - Pending & Upcoming Updates: changelog/pending.md
     - Version History:    
