@@ -36,7 +36,7 @@ docs_dir: docs
 
 nav: 
   - ABOUT: index.md
-  - WG Report Issues: internal/reportissues.md
+  - Report Issues: internal/reportissues.md
   - Review Beta Data Release Site: internal/beta_release_site_review.md
   - Slides: slides.md
   - CHANGE LOG: 
