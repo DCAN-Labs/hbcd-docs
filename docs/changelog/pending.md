@@ -1,5 +1,9 @@
 # Pending & Upcoming Updates
 
-### Fields Excluded  - BR15
+## BR15
+### Fields Excluded
   * Remove 'user_completion' from TLFB (precise name: 'ph_ch_tlfb_tlfb_user_completion') 
-  
+
+
+### EEG  
+ * Exclude additional BIDS and derivative data for subjects flagged by EEG team
