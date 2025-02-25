@@ -3,7 +3,7 @@
 ## Imaging, Spectroscopy, EEG, & Accelerometry
 
 #### Acquisition Parameter Criteria
-Following conversion to BIDS format, the MRI NIfTI and JSON files undergo additional checks to ensure data integrity. All images are verified to be acquired using a head coil before inclusion in the BIDS dataset. Modality-specific inclusion criteria, parsed from the image JSON files, are as follows:
+Following conversion to BIDS format, the MRI NIfTI and JSON files undergo additional checks to ensure data integrity. All images are verified to be acquired using a head coil before inclusion in the BIDS dataset. There is slight variability in the acceptable range of certain acquisition parameters due to vendor differences. Modality-specific inclusion criteria, parsed from the image JSON files, are as follows:
 
 <p>
 <div id="acq-param-table" class="table-banner" onclick="toggleCollapse(this)">
