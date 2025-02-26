@@ -3,11 +3,11 @@
 HBCD protocols for structural MRI were informed by recent large-scale developmental neuroimaging studies including ABCD, HCP Lifespan, and BCP. These studies provided a solid starting point for the development of well-validated, high-resolution protocols harmonized across all three major scanner vendors ([Casey et al., 2018](https://doi.org/10.1016/j.dcn.2018.03.001)) and the importance of T2w acquisition in infants due to suboptimal grey/white T1w contrast resulting from incomplete myelination ([Howell et al., 2019](https://doi.org/10.1016/j.neuroimage.2018.03.049), [Myers et al., 2023](https://doi.org/10.1016/j.neuroimage.2018.03.049)).
 
 <p style="font-size: 1.1em; margin-bottom: 0px"><strong>Key features of the HBCD T1w and T2w structural imaging protocols include:</strong></p>
-- 0.8 mm isotropic resolution (with some variation present due to vendor differences, including GE, acquired with 0.8 x 0.5 x 0.5 mm resolution)
+- 0.8 mm isotropic resolution
 - The use of compressed SENSE reconstructions to allow high acceleration factors and thus much shorter acquisition times (under 9 minutes total for T1w and T2w – see vendor specific pages for details)
 - The use of embedded navigators to track motion during structural imaging ([White et al., 2010](https://doi.org/10.1002/mrm.22176), [Tisdall et al., 2016](https://doi.org/10.1016/j.neuroimage.2015.11.054), [Andersen et al., 2019](https://doi.org/10.1371/journal.pone.0217145)). In the current release, scans were not prospectively corrected for motion, although this is intended to come online in later releases.
-- As with ABCD, the contrast-relevant parameters are matched as closely as possible across vendors for the T1w scans.
-- Also similar to ABCD, for the T2w scans, vendor-specific parameters were chosen to achieve similar contrast and SNR, accounting for the fact that each vendor implements their 3D T2w pulse sequences differently.
+- As with ABCD, the contrast-relevant parameters are matched as closely as possible across vendors for the T1w scans (see [Acquisition Parameter Criteria](../../datacuration/exclusions.md#acquisition-parameter-criteria) for details).
+- Also similar to ABCD, for the T2w scans, vendor-specific parameters were chosen to achieve similar contrast and SNR, accounting for the fact that each vendor implements their 3D T2w pulse sequences differently (see [Acquisition Parameter Criteria](../../datacuration/exclusions.md#acquisition-parameter-criteria) for details).
 
 ## References
 <div class="references">
