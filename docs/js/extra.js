@@ -81,3 +81,32 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   });
 });
+
+
+// Expand all function for measures overview page 
+document.addEventListener("DOMContentLoaded", function () {
+  const toggleAllBtn = document.getElementById("toggle-all-btn");
+  const banners = document.querySelectorAll(".table-banner");
+  const sections = document.querySelectorAll(".table-collapsible-content");
+
+  toggleAllBtn.addEventListener("click", function () {
+      const allExpanded = Array.from(sections).every(sec => sec.classList.contains("open"));
+
+      banners.forEach(banner => {
+          if (allExpanded) {
+              // If all are expanded, collapse them
+              if (banner.nextElementSibling.classList.contains("open")) {
+                  toggleCollapse(banner);
+              }
+          } else {
+              // If not all are expanded, expand them
+              if (!banner.nextElementSibling.classList.contains("open")) {
+                  toggleCollapse(banner);
+              }
+          }
+      });
+
+      toggleAllBtn.textContent = allExpanded ? "Expand All Sections  ↕️" : "Collapse All Sections ↕️";
+  });
+});
+

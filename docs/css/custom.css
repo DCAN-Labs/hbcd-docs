@@ -4,6 +4,25 @@
 /* red: #be074c */ 
 /* black/gray: #6b6b6b */ 
 
+/* Style for expand all button (measures overview page) */
+#toggle-all-btn {
+  background-color: #d0dff0;
+  color: #474646;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.592);
+  display: block;
+}
+#toggle-all-btn:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+
 /* Style for folder tree display */
 .folder-tree {
   font-family: monospace;

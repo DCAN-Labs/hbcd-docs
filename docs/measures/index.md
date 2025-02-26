@@ -3,6 +3,12 @@
 ## Data Measure Release Notes
 The current release includes data from Visits 1, 2, and 3 (V01, V02, and V03). In this section we provide a brief overview of each data measure provided in the data release, including, where applicable, details of implementation and data collection, scoring procedures, quality control procedures, known issues, and references.
 ![](../images/timeline-img.png)
+<p>
+<div class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Visit numbers are labeled as Visit X or V0X in the release notes (e.g., V01 = Visit 1)</span>
+</div>
+</p>
 
 Below is a summary of measures included in Release 1.0. Note that the HBCD Data Release Docs only cover the measures currently available, with additional documentation to follow in future updates as additional measure data are released. 
 
@@ -12,12 +18,9 @@ The release also includes raw (`rawdata/`) and processed "derivative" (`derivati
 
 For details on upcoming additions in Release 1.1, see [Pending & Upcoming Updates](../changelog/pending.md). Full study protocols are available on the [HBCD Study site](https://hbcdstudy.org/study-protocols/).
 
-<p>
-<div class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Visit numbers are labeled as Visit X or V0X in the release notes (e.g., V01 = Visit 1)</span>
-</div>
-</p>
+
+<button id="toggle-all-btn">Expand All Sections ↕️</button>
+
 
 <div id="behCGinteraction" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">Behavior & Caregiver-Child Interaction</span>
@@ -54,7 +57,6 @@ For details on upcoming additions in Release 1.1, see [Pending & Upcoming Update
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Irritability</td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">mh_cg_mapdb__inf</td>
   </tr>
-  <tr>
   </tbody>
   </table>
 </div>
