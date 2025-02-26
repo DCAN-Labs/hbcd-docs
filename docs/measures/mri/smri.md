@@ -6,8 +6,8 @@ HBCD protocols for structural MRI were informed by recent large-scale developmen
 - 0.8 mm isotropic resolution
 - The use of compressed SENSE reconstructions to allow high acceleration factors and thus much shorter acquisition times (under 9 minutes total for T1w and T2w – see vendor specific pages for details)
 - The use of embedded navigators to track motion during structural imaging ([White et al., 2010](https://doi.org/10.1002/mrm.22176), [Tisdall et al., 2016](https://doi.org/10.1016/j.neuroimage.2015.11.054), [Andersen et al., 2019](https://doi.org/10.1371/journal.pone.0217145)). In the current release, scans were not prospectively corrected for motion, although this is intended to come online in later releases.
-- As with ABCD, the contrast-relevant parameters are matched as closely as possible across vendors for the T1w scans (see [Acquisition Parameter Criteria](../../datacuration/exclusions.md#acquisition-parameter-criteria) for details).
-- Also similar to ABCD, for the T2w scans, vendor-specific parameters were chosen to achieve similar contrast and SNR, accounting for the fact that each vendor implements their 3D T2w pulse sequences differently (see [Acquisition Parameter Criteria](../../datacuration/exclusions.md#acquisition-parameter-criteria) for details).
+- As with ABCD, the contrast-relevant parameters are matched as closely as possible across vendors for the T1w scans.
+- Also similar to ABCD, for the T2w scans, vendor-specific parameters were chosen to achieve similar contrast and SNR, accounting for the fact that each vendor implements their 3D T2w pulse sequences differently.
 
 ## References
 <div class="references">
