@@ -226,13 +226,12 @@ M-CRIB-S and FreeSurfer source directories from [Infant-fMRIPrep](#infant-fmripr
 #### M-CRIB-S
 M-CRIB-S is a surface reconstruction method developed for neonates using the surface-based Melbourne Children's Regional Infant Brain atlases ([Adamson et al. 2020](https://doi.org/10.1038/s41598-020-61326-2)). The contents of the `mcribs/SUBSES/freesurfer/` folder are not listed below because they largely mirror the files found in the `derivatives/freesurfer/` folder (see details in the [following section](#freesurfer)). One key difference is that the `derivatives/freesurfer/` folder contains a few additional files, such as `surf/<l|r>h.midthickness`.
 
-<div id="symlinks-banner" class="table-banner" onclick="toggleCollapse(this)">
+<div id="symlinks" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">Restoring Symlink Files</span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
-<p>The <code>mcribs/SUBSES/freesurfer/</code> folder and other subfolders contain a few symlink files, which act as references to data stored elsewhere. When uploaded to the release bucket, these symlink files are labeled with <code>*_symlink_s3_object</code> to distinguish them from regular files. To restore these symlink files, use one of the following commands in the terminal:</p>
-
+<p>The <code>mcribs/SUBSES/freesurfer/</code> folder and other subfolders contain symlink files, which serve as references to data stored elsewhere. When these files are uploaded to the release bucket, they are renamed with the suffix <code>*_symlink_s3_object</code> to distinguish them from regular files. When downloaded, these symlink files appear as text files because they contain the S3 object path instead of the actual file content. To restore them as symlinks, run one of the following commands in the terminal:</p>
 <p>Option 1: This command simply prints what commands to run to restore individual symlinks and does not change anything:</p>
 <div class="copy-box">
   <div class="copy-text-container">
