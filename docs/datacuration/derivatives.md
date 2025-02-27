@@ -224,14 +224,16 @@ sub-<span class="label">&lt;label&gt;</span>/
 M-CRIB-S and FreeSurfer source directories from [Infant-fMRIPrep](#infant-fmriprep-nibabies) processing are included under `derivatives/` in the data release as well. These are intermediate pipeline outputs used for surface reconstruction, organized for the release within the `mcribs/` and `freesurfer/` folders, respectively. Note that the folder structure uses `<pipeline>/sub-<label>_ses-<label>` instead of the typical derivatives structure `<pipeline_name>/sub-<label>/ses-<label>`. 
 
 #### M-CRIB-S
-M-CRIB-S is a surface reconstruction method developed for neonates using the surface-based Melbourne Children's Regional Infant Brain atlases ([Adamson et al. 2020](https://doi.org/10.1038/s41598-020-61326-2)). The contents of the `mcribs/SUBSES/freesurfer/` folder are not listed below because they largely mirror the files found in the `derivatives/freesurfer/` folder (see details in the [following section](#freesurfer)). One key difference is that the `derivatives/freesurfer/` folder contains a few additional files, such as `surf/<l|r>h.midthickness`.
+M-CRIB-S is a surface reconstruction method developed for neonates using the surface-based Melbourne Children's Regional Infant Brain atlases ([Adamson et al. 2020](https://doi.org/10.1038/s41598-020-61326-2)). 
+
+*Note*: The M-CRIB-S `mcribs/SUBSES/freesurfer/` folder mostly mirrors the contents of the FreeSurfer (`derivatives/freesurfer/`) folder ([see details below](#freesurfer)), except for two symlinks replacing regular files. The visual below shows only the files unique to the M-CRIB-S `freesurfer/` folder.
 
 <div id="symlinks" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">Restoring Symlink Files</span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
-<p>The M-CRIB-S subfolders (<code>TissueSeg/</code> and <code>freesurfer/mri/</code>) contain a total of four symlink files, which serve as references to data stored elsewhere. When these files are uploaded to the release bucket, they are renamed with the suffix <code>*_symlink_s3_object</code> to distinguish them from regular files. When downloaded, these symlink files appear as text files because they contain the S3 object path instead of the actual file content. To restore them as symlinks, run one of the following commands in the terminal:</p>
+<p>The M-CRIB-S subfolders (<code>TissueSeg/</code> and <code>freesurfer/mri/</code>) contain a total of 4 symlink files, which serve as references to data stored elsewhere. When these files are uploaded to the release bucket, they are renamed with the suffix <code>*_symlink_s3_object</code> to distinguish them from regular files. When downloaded, these symlink files appear as text files because they contain the S3 object path instead of the actual file content. To restore them as symlinks, run one of the following commands in the terminal:</p>
 <p>Option 1: This command simply prints what commands to run to restore individual symlinks and does not change anything:</p>
 <div class="copy-box">
   <div class="copy-text-container">
@@ -316,7 +318,14 @@ mcribs/
     |       |__ N4/
     |           |__ <span class="subses">SUBSES</span>.nii.gz_symlink_s3_object
     |
-    |__ freesurfer/ <span class="hashtag"># Files match contents of freesurfer/ folder displayed in section below</span>
+    |__ freesurfer/ <span class="hashtag"># Only files unique to M-CRIB-S freesurfer/ folder displayed below</span>
+    |   |__ <span class="subses">SUBSES</span>/
+    |       |__ label/
+    |       |__ mri/
+    |       |   |__ brain.mgz_symlink_s3_object
+    |       |   |__ orig.mgz_symlink_s3_object
+    |       |__ stats/
+    |       |__ surf/
     |
     |__ logs/
     |   |__ <span class="subses">SUBSES</span>.log
@@ -326,7 +335,9 @@ mcribs/
 *See [Format of File Structure Visuals](#visformat) for further guidance on interpreting the folder tree above.*
 
 #### FreeSurfer
-MCRIBS converts and organizes its output into a FreeSurfer-compatible format, provided in the `freesurfer/` folder of the Data Release. The output files follow the structure of FreeSurfer’s `recon-all` results, which are documented in the [FreeSurfer Wiki](https://surfer.nmr.mgh.harvard.edu/fswiki/ReconAllOutputFiles) and explained in [FreeSurfer Tutorial #3: Recon-all](https://andysbrainbook.readthedocs.io/en/latest/FreeSurfer/FS_ShortCourse/FS_03_ReconAll.html) from Andy's Brain Book.
+M-CRIB-S converts and organizes its output into a FreeSurfer-compatible format, provided in the `freesurfer/` folder of the Data Release. The output files follow the structure of FreeSurfer’s `recon-all` results, which are documented in the [FreeSurfer Wiki](https://surfer.nmr.mgh.harvard.edu/fswiki/ReconAllOutputFiles) and explained in [FreeSurfer Tutorial #3: Recon-all](https://andysbrainbook.readthedocs.io/en/latest/FreeSurfer/FS_ShortCourse/FS_03_ReconAll.html) from Andy's Brain Book. 
+
+*Note*: As noted above, the `freesurfer/` folder nested under M-CRIB-S mirrors the files found in the FreeSurfer folder below. The difference (in addition to the symlink files unique to the M-CRIB-S folder) is that the latter includes 3 additional files (`scripts/mcribs.log` and `surf/<l|r>h.midthickness`).
 
 <pre class="folder-tree">
 freesurfer/
