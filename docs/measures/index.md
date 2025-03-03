@@ -562,123 +562,154 @@ For details on upcoming additions in Release 1.1, see [Pending & Upcoming Update
 </div>
 
 ## ReproSchema
-### What is ReproSchema?
-ReproSchema is both a standardized schema and a software platform for managing questionnaires in research studies: As a schema, it provides a structured format for organizing questionnaires, ensuring consistency across different timepoints and studies. As a platform, it offers tools to:  
+### 1. What is ReproSchema?
+Ensuring consistency in research data collection is critical, especially in large-scale and multi-site studies like the HEALthy Brain and Child Development (HBCD) study. However, tracking changes in questionnaires, maintaining structured formats, and ensuring version control across different time points can be challenging.
 
-- Store and version questionnaires  
-- Track changes over time  
-- Access specific versions  
-- Compare different versions  
-- Document modifications
+ReproSchema is a framework designed to address these challenges by providing a structured, standardized, and version-controlled system for managing research questionnaires. It functions as both a schema and a platform to enhance the reliability and reproducibility of survey-based data collection.
 
-For more information about reproschema, please visit [https://www.repronim.org/reproschema/](https://www.repronim.org/reproschema/).
+As a schema, ReproSchema defines a structured format for organizing questionnaires, ensuring that questions, response options, and metadata remain consistent across studies and timepoints.  
+As a platform, it provides a set of tools to store, version, and track questionnaires, allowing researchers to:
 
-<div style="padding: 0;">In the HBCD Study, ReproSchema ensures all questionnaires are:
-  <ul style="margin: 0 0 20px 20px; padding: 0;">
-  <ul>
-<li>Consistently structured  </li>
-<li>Properly versioned  </li>
-<li>Easily accessible  </li>
-<li>Traceable across releases</li>
-</div>
+- Access specific versions of questionnaires at any time  
+- Compare changes across different study phases  
+- Document and review all modifications to ensure data consistency
 
-### Quick Start Guide
-- Each data release has its own set of questionnaire versions  
-- Access questionnaires through the data portal: [https://github.com/ReproNim/hbcd-loris2reproschema](https://github.com/ReproNim/hbcd-loris2reproschema)  
-- Compare versions to understand changes over time
+ReproSchema is not a standalone survey tool like Qualtrics or REDCap. Instead, it is a modular framework that integrates with existing data collection systems to standardize questionnaires and track their evolution over time. In the HBCD study, for example, researchers use REDCap to administer surveys, but ReproSchema provides a structured backbone that ensures:
 
-### Overview
-<div style="padding: 0;">
-  ReproSchema manages questionnaire changes across data releases. Changes may include:
-  <ul style="margin: 0 0 20px 20px; padding: 0;">
-    <li>Fixing typos</li>
-    <li>Adjusting answer choices</li>
-    <li>Modifying question order</li>
-    <li>Adding/removing questions</li>
-  </ul>
-</div>
+- Every questionnaire follows a consistent format across study sites and time points.  
+- Changes to questions—such as modifications in wording, response options, or scoring—are version-controlled and fully documented.  
+- Researchers can easily retrieve past versions of a questionnaire to compare responses across different data releases.
 
-<div style="padding: 0;">
-  Each change is tracked and documented, allowing you to:
-  <ul style="margin: 0 0 20px 20px; padding: 0;">
-<li>View exact questions used at any timepoint  </li>
-<li>Compare versions between releases  </li>
-<li>Match responses to specific question versions  </li>
-<li>Analyze data consistently across timepoints</li>
-</ul>
-</div>
+By integrating ReproSchema into the HBCD study, researchers can reduce inconsistencies in questionnaire administration, improve data traceability, and ensure reproducibility in longitudinal research.  
 
-<div id="age" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Example: A sleep quality question changed between Release 1.0 and 2.0</span>
-</div>
-<div class="collapsible-content">
-<p>Release 1.0: "How many hours do you usually sleep?"</p> 
-<p>Release 2.0: "In the past month, how many hours do you usually sleep per night?"</p>
-</div>
+<figure>
+  <img src="images/reproschema-fig1.jpg" alt="ReproSchema Figure 1">
+  <figcaption style="font-size: 0.9em;"><b>Figure 1. ReproSchema workflow overview.</b> This figure presents the ReproSchema workflow, which standardizes survey data collection to enhance research reproducibility and interoperability across studies. The workflow consists of six key components: <b>(A)</b> ReproSchema supports multiple input formats, including questionnaires in PDF or DOC format (which can be converted to ReproSchema format using large language models (LLMs), such as Claude 3.7 Sonnet, as demonstrated in the supplementary material), existing assessments from the ReproSchema library, and REDCap CSV exports (which can be automatically converted using redcap2reproschema). <b>(B)</b> The reproschema-protocol-cookiecutter tool provides a structured, stepwise process for researchers to create and publish a protocol on GitHub, ensuring organized metadata and version control. This tool enables schema validation and user interface (UI) serving. <b>(C)</b> ReproSchema protocols are stored in GitHub repositories (or other Git-compatible services), where version-controlled URIs ensure persistent access to protocols, activities, and assessment items, supporting reproducibility and provenance tracking. <b>(D)</b> The ReproSchema-UI provides a browser-based interface for interactive survey deployment, allowing researchers and participants to collect structured data while maintaining schema integrity. <b>(E)</b> Survey responses are stored in JSON-LD format, with embedded URIs linking each protocol, activity, and item to their respective sources in the ReproSchema library. This structure ensures data provenance, traceability, and semantic interoperability. <b>(F)</b> The reproschema-py tools facilitate output conversion into various standardized formats, including the National Institute of Mental Health (NIMH) Common Data Elements (reproschema2cde), the Brain Imaging Data Structure (BIDS) phenotype format (reproschema2bids), and REDCap CSV format (output2redcap), ensuring compatibility with existing research workflows.</figcaption>
+</figure>
 
-### Structure  
+For more information about reproschema, please visit [https://www.repronim.org/reproschema/](https://www.repronim.org/reproschema/) or read [Chen et al., 2024](https://preprints.jmir.org/preprint/63343). 
 
-**Protocol → Activity → Item hierarchy**
+### 2. Core Components of ReproSchema
+ReproSchema is designed to standardize and manage research questionnaires by functioning as both a structured schema and a software platform. These two components work together to ensure that questionnaires remain consistent, versioned, and reproducible over time.
 
-<div style="padding: 0;">Protocol
-  <ul style="margin: 0 0 20px 20px; padding: 0;">
-<li>Full study collection  </li>
-<li>Contains all questionnaires (15 total)  </li>
-<li>Version matches data release</li>
-</div>
+#### 2.1 ReproSchema as a Schema
+As a schema, ReproSchema provides a structured format for defining and organizing questionnaires. This ensures that:
 
-<div style="padding: 0;">Activity (Questionnaires)
-  <ul style="margin: 0 0 20px 20px; padding: 0;">
-<li>Individual assessments  </li>
-<li>Examples: PHQ-9, GAD-7  </li>
-<li>Track additions/removals</li>
-</div>
+- Questionnaires are consistently formatted across different studies and time points.  
+- Each question, response option, and skip pattern is clearly defined and linked to metadata.  
+- Version history is preserved so researchers can track changes over time.
 
-<div style="padding: 0;">Items (Questions)
-  <ul style="margin: 0 0 20px 20px; padding: 0;">
-<li>Individual questions  </li>
-<li>Track wording changes  </li>
-<li>Track response option changes  </li>
-<li>Track skip pattern updates</li>
-</div>
+In the HBCD study, this structured approach ensures that all surveys follow a common framework, regardless of where or when they are administered.
 
-### Accessing Questionnaires
+#### 2.1 ReproSchema as a Platform
+Beyond structuring questionnaires, ReproSchema provides tools that help researchers store, track, and access different versions of their surveys. These tools allow researchers to:
 
-<div style="padding: 0;">Step-by-step guide:
-  <ul style="margin: 0 0 20px 20px; padding: 0;">
-<li>Find your data release version    </li>
-<li>Go to [PORTAL_URL]   </li>
-<li>Select version from dropdown  </li>
-<li>View/download questionnaires</li>
-</div>
+- Store and version questionnaires to prevent discrepancies in multi-site studies.  
+- Track and document changes, such as wording adjustments, adding or removing questions, or updating response options.  
+- Compare different versions of a questionnaire to understand how changes impact data collection.  
+- Access specific versions of a questionnaire used at any given time, ensuring longitudinal research consistency.
 
-<div style="padding: 0;">Each questionnaire package includes:
-  <ul style="margin: 0 0 20px 20px; padding: 0;">
-<li>Questions  </li>
-<li>Response options  </li>
-<li>Skip patterns  </li>
-<li>Scoring instructions  </li>
-<li>Change history</li>
-</div>
+For example, in the HBCD study, if a question about sleep duration was updated between Release 1.0 and Release 2.0, researchers can use ReproSchema to compare both versions and determine how the change may impact data analysis.
 
-<div style="padding: 0;">Available formats:
-  <ul style="margin: 0 0 20px 20px; padding: 0;">
-<li>JSON (programmatic access)</li>
-</div>
+### 3. ReproSchema’s Role in the HBCD Study
+In the HBCD Study, researchers collect data using REDCap, a web application for managing surveys and databases. To share and analyze this data, they convert it into the LORIS data dictionary format, which is used for data releases. ReproSchema provides a standardized framework for both REDCap and LORIS, ensuring that questionnaires maintain a consistent structure during this conversion. This consistency is crucial for preserving data integrity across different platforms and study phases.​
 
-### Tracking Change
-View what changed between versions via [LINK]
+### 4 Quick Start Guide for Researchers 
+By using ReproSchema, the HBCD study ensures that data collected in REDCap can be accurately transformed into the LORIS format. This harmonization supports seamless data integration and analysis, enhancing the reliability and reproducibility of research findings.  
+​In the HEALthy Brain and Child Development (HBCD) Study, researchers can access and compare questionnaires using the following steps:​
 
-<div style="padding: 0;">Changes are clearly documented, including but not limited to:
-  <ul style="margin: 0 0 20px 20px; padding: 0;">
-<li>Question text updates  </li>
-<li>Response option modifications  </li>
-<li>Skip pattern adjustments  </li>
-<li>Question additions/removals  </li>
-<li>Implementation dates</li>
-</div>
+#### 4.1 Accessing Questionnaires
 
+- Data Portal: Visit the NIH Brain Development Cohorts (NBDC) Data Sharing Platform, which hosts HBCD data releases.​  
+- Data Use Certification (DUC): Complete the required DUC process to gain access to the data.​  
+- Data Navigation: [need details from the website]
+
+#### 4.2 Comparing Questionnaire Versions
+- Version Documentation: Each questionnaire includes a JSON file detailing its metadata, including version history.​  
+- Change Logs: Review the change logs in the metadata to identify any modifications between versions.​  
+- Longitudinal Consistency: Understanding these changes is crucial for maintaining consistency in longitudinal analyses.​
+
+### 5. Overview of Version Management
+In the HEALthy Brain and Child Development (HBCD) Study, ReproSchema plays a crucial role in managing changes to questionnaires across data releases, ensuring data consistency and reliability. Here's an overview of how ReproSchema handles various modifications:  
+
+#### 5.1 Fixing Typographical Errors
+When a typographical error is identified in a questionnaire, ReproSchema allows for its correction while maintaining a record of the change. This ensures that all future data collections use the corrected version, and researchers can trace back to understand the impact of the error on previously collected data.  
+
+#### 5.2 Adjusting Answer Choices
+If answer choices need modification—such as adding new options or refining existing ones—ReproSchema facilitates these updates. Each change is documented, allowing researchers to account for these adjustments during data analysis and ensuring that variations in response options are considered when interpreting results.  
+
+#### 5.3 Modifying Question Order
+Changes in the sequence of questions can influence how respondents perceive and answer them. ReproSchema tracks any reordering of questions, enabling researchers to assess potential effects on responses due to such modifications.  
+
+#### 5.4 Adding or Removing Questions
+Introducing new questions or removing existing ones can significantly impact data comparability over time. ReproSchema meticulously documents these additions or deletions, ensuring that longitudinal analyses account for these structural changes in the questionnaires.
+
+#### Importance of Tracking and Documenting Changes
+In longitudinal studies like HBCD, where data is collected over extended periods, tracking every change in data collection instruments is vital. ReproSchema's systematic documentation allows researchers to:
+
+- Maintain Data Consistency: By having a clear record of all modifications, researchers can ensure that data remains comparable across different time points.  
+- Enhance Data Reliability: Understanding the history of changes helps in assessing the reliability of the data, as it provides context for any variations observed in the responses.  
+- Facilitate Transparent Reporting: Comprehensive documentation supports transparent reporting of methodologies, which is essential for reproducibility and credibility in scientific research.
+
+### 6. Practical Example: Evolution of a Sleep Quality Question Across Data Releases
+
+**Initial Version (Release 1.0):**  
+Question: "How many hours do you sleep on a typical night?"  
+Response Options: Participants entered the number of hours as a free-text response.
+
+**Revised Version (Release 2.0):**  
+Question: "On average, how many hours of sleep do you get per night?"  
+Response Options: A dropdown menu with the following choices:  
+Less than 5 hours  
+5-6 hours  
+7-8 hours  
+More than 8 hours
+
+**Further Revision (Release 3.0):**  
+Question: "On average, how many hours of sleep do you get in a 24-hour period, including naps?"  
+Response Options: Same as Release 2.0.
+
+**Implications for Data Analysis:**
+
+- Data Consistency: The shift from a free-text response to predefined categories (Release 1.0 to 2.0) standardizes data collection, reducing variability and simplifying analysis. However, it may also limit the granularity of the data.  
+- Comparability: The change in question-wording to include naps (Release 2.0 to 3.0) affects the comparability of data across releases. Analysts must account for this when interpreting trends over time.  
+- Data Harmonization: ReproSchema's version management ensures that each change is documented. This allows researchers to adjust their analyses accordingly, maintaining the integrity of longitudinal studies.
+
+### 7. How ReproSchema Organizes Questionnaires
+ReproSchema structures research questionnaires into three levels, making it easy to track, update, and maintain consistency in data collection over time.  
+
+<figure>
+  <img src="images/reproschema-fig2.jpg" alt="ReproSchema Figure 1">
+  <figcaption style="font-size: 0.9em;"><b>Figure 2. Mapping a research protocol to ReproSchema.</b> This figure illustrates how an assessment is structured and represented in ReproSchema, as well as how it appears in the user interface. The entire assessment (outlined in red) is an Activity. Each individual question (green) is an Item, and the available answer choices (purple) are ResponseOptions. When a participant selects an answer (orange), that selection is recorded as a Response. One protocol can have multiple activities. The right panel demonstrates how different Activities within a protocol are organized in the UI, allowing users to navigate between different activities.</figcaption>
+</figure>
+
+#### 7.1 Protocol Level: The Big Picture
+At the highest level, a protocol represents the entire study’s questionnaire framework. It includes all assessments and surveys used in the research. Each protocol is tied to a specific data release, ensuring everything is version-controlled and well-documented. This structure helps researchers keep surveys consistent across different phases of a study.
+
+#### 7.2 Activity Level: The Questionnaires
+Within each protocol, the activity level includes individual questionnaires or assessments, such as the PHQ-9 (depression scale) or GAD-7 (anxiety scale). ReproSchema tracks changes at this level, including when assessments are added, removed, or modified. This tracking ensures that researchers can compare data across time while maintaining accuracy.
+
+#### 7.3 Item Level: The Questions
+The smallest unit in ReproSchema is an item, which refers to individual questions within a questionnaire. Each question is carefully tracked, including:
+
+- Question Text: The exact wording of the question.  
+- Response Options: The answer choices given to participants.  
+- Skip Patterns: If certain answers lead to different follow-up questions.
+
+Tracking these elements allows researchers to see when and how questions change, which is critical in studies that collect data over multiple years.
+
+### 8. Accessing and Using Questionnaires
+Researchers can easily find and use questionnaires from the HBCD study by following these steps:
+
+- To be added
+
+
+### Tracking Change 
 Need help? Open an issue on [GitHub](https://github.com/ReproNim/hbcd-loris2reproschema)
 
+## References
+<div class="references">
+	<p>Chen Y, Jarecka D, Abraham SA, Gau R, Ng E, Low DM, Bevers I, Johnson A, Keshavan A, Klein A, Clucas J, Rosli Z, Hodge SM, Linkersdörfer J, Bartsch H, Das S, Fair D, Kennedy D, Ghosh SS. ReproSchema: Enhancing Research Reproducibility through Standardized Survey Data Collection. JMIR Preprints. 21/06/2024:63343. DOI: 10.2196/preprints.63343. URL: <a href="https://preprints.jmir.org/preprint/63343">https://preprints.jmir.org/preprint/63343 </a></p> 
+</div>
+<br>
 
