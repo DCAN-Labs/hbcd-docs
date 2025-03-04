@@ -66,19 +66,16 @@ For more information about reproschema, please visit [https://www.repronim.org/r
 ## Overview of Version Management
 In longitudinal studies like HBCD, where data is collected over extended periods, tracking every change in data collection instruments is vital. ReproSchema's systematic documentation allows researchers to:
 
-- Maintain Data Consistency: By having a clear record of all modifications, researchers can ensure that data remains comparable across different time points.  
-- Enhance Data Reliability: Understanding the history of changes helps in assessing the reliability of the data, as it provides context for any variations observed in the responses.  
-- Facilitate Transparent Reporting: Comprehensive documentation supports transparent reporting of methodologies, which is essential for reproducibility and credibility in scientific research.
+- **Maintain Data Consistency**: By having a clear record of all modifications, researchers can ensure that data remains comparable across different time points.  
+- **Enhance Data Reliability**: Understanding the history of changes helps in assessing the reliability of the data, as it provides context for any variations observed in the responses.  
+- **Facilitate Transparent Reporting**: Comprehensive documentation supports transparent reporting of methodologies, which is essential for reproducibility and credibility in scientific research.
 
 **Here's an overview of how ReproSchema handles various modifications:**
 
-**Fixing Typographical Errors**: When a typographical error is identified in a questionnaire, ReproSchema allows for its correction while maintaining a record of the change. This ensures that all future data collections use the corrected version, and researchers can trace back to understand the impact of the error on previously collected data.  
-
-**Adjusting Answer Choices**: If answer choices need modification—such as adding new options or refining existing ones—ReproSchema facilitates these updates. Each change is documented, allowing researchers to account for these adjustments during data analysis and ensuring that variations in response options are considered when interpreting results.  
-
-**Modifying Question Order**: Changes in the sequence of questions can influence how respondents perceive and answer them. ReproSchema tracks any reordering of questions, enabling researchers to assess potential effects on responses due to such modifications.  
-
-**Adding or Removing Questions**: Introducing new questions or removing existing ones can significantly impact data comparability over time. ReproSchema meticulously documents these additions or deletions, ensuring that longitudinal analyses account for these structural changes in the questionnaires.
+**Fixing Typographical Errors** – Ensures corrected versions are used in future data collection and allows for tracking the impact of the error on past data.    
+**Adjusting Answer Choices** – Documents changes in options to ensure variations are considered during data analysis.    
+**Modifying Question Order** – Tracks reordering to assess potential effects on responses, as the  sequence of questions can influence how respondents perceive and answer them.   
+**Adding or Removing Questions** – Ensures structural changes are documented for accurate longitudinal analysis and data comparability.
 
 ## How ReproSchema Organizes Questionnaires
 ReproSchema structures research questionnaires into three levels, making it easy to track, update, and maintain consistency in data collection over time.  
@@ -104,27 +101,13 @@ The smallest unit in ReproSchema is an item, which refers to individual question
 Tracking these elements allows researchers to see when and how questions change, which is critical in studies that collect data over multiple years.
 
 ## Quick Start Guide for Researchers
-
 In the HBCD Study, researchers collect data using REDCap, a web application for managing surveys and databases. To share and analyze this data, they convert it into the LORIS data dictionary format used for data releases. ReproSchema enables standardized and accurate transformation from REDCap to LORIS, ensuring questionnaire consistency and preserving data integrity across platforms and study phases.
 
-Researchers can access and compare questionnaires using the following steps:​
-
-**Accessing Questionnaires**
-
-- Data Portal: Visit the NIH Brain Development Cohorts (NBDC) Data Sharing Platform, which hosts HBCD data releases.​  
-- Data Use Certification (DUC): Complete the required DUC process to gain access to the data.​  
-- Data Navigation: [need details from the website]
-
-**Comparing Questionnaire Versions**
-
-- Version Documentation: Each questionnaire includes a JSON file detailing its metadata, including version history.​  
-- Change Logs: Review the change logs in the metadata to identify any modifications between versions.​  
-- Longitudinal Consistency: Understanding these changes is crucial for maintaining consistency in longitudinal analyses.​
-
 ### Accessing and Using Questionnaires
-Researchers can easily find and use questionnaires from the HBCD study by following these steps:
+After obtaining access to the data (see instructions [here](../data_access/index.md)), researchers can easily access and compare questionnaires from the HBCD study by following these steps:
 
-- To be added
+ - Each questionnaire includes a JSON file detailing its metadata, including version history.​ The metadata includes change logs detailing any modifications between versions.​
+ - TO DO
 
 ## Tracking Change 
 Need help? Open an issue on [GitHub](https://github.com/ReproNim/hbcd-loris2reproschema)
