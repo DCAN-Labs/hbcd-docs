@@ -221,7 +221,7 @@ sub-<span class="label">&lt;label&gt;</span>/
 *See [Format of File Structure Visuals](#visformat) for further guidance on interpreting the folder tree above.*
 
 ### M-CRIB-S & FreeSurfer Source Directories
-M-CRIB-S and FreeSurfer source directories from [Infant-fMRIPrep](#infant-fmriprep-nibabies) processing are included under `derivatives/` in the data release as well. These are intermediate pipeline outputs used for surface reconstruction, organized for the release within the `mcribs/` and `freesurfer/` folders, respectively. Note that the folder structure uses `<pipeline>/sub-<label>_ses-<label>` instead of the typical derivatives structure `<pipeline_name>/sub-<label>/ses-<label>`. 
+M-CRIB-S and FreeSurfer source directories from [Infant-fMRIPrep](#infant-fmriprep-nibabies) processing are included under `derivatives/` in the data release as well. These are intermediate pipeline outputs used for surface reconstruction, organized for the release within the `mcribs/` and `freesurfer/` folders, respectively.
 
 #### M-CRIB-S
 M-CRIB-S is a surface reconstruction method developed for neonates using the surface-based Melbourne Children's Regional Infant Brain atlases ([Adamson et al. 2020](https://doi.org/10.1038/s41598-020-61326-2)). 
@@ -264,7 +264,8 @@ done</span>
 
 <pre class="folder-tree">
 mcribs/
-|__ <span class="subses">SUBSES</span>/
+sub-<span class="label">&lt;label&gt;</span>/
+|_ ses-<span class="label">&lt;label&gt;</span>/
     |__ RawT2/
     |   |__ <span class="subses">SUBSES</span>.nii.gz
     |
@@ -341,7 +342,8 @@ M-CRIB-S converts and organizes its output into a FreeSurfer-compatible format, 
 
 <pre class="folder-tree">
 freesurfer/
-|__ <span class="subses">SUBSES</span>/
+sub-<span class="label">&lt;label&gt;</span>/
+|_ ses-<span class="label">&lt;label&gt;</span>/
     |__ label/
     |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc+DKTatlas.annot
     |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc+DKTatlas.auto.nomask.annot
