@@ -64,7 +64,8 @@ Below are alterations made to demographic constructs, informed by the HBCD Socia
 QC was performed by monitoring the data dashboard for variable missingness and data consistency. The only common QC issue noted was high missingness for income, although this is in line with expectations. 
 
 ## Demographic Protocol Sources & DEI Modifications
-<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
+
+<div id="DD" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">Table 1. Demographics of Birth Parent</span>
   <span class="arrow">▸</span>
 </div>
