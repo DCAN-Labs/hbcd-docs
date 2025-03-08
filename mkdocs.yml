@@ -22,6 +22,7 @@ extra_css:
   - css/custom.css
   - css/copybox.css
   - css/banners.css
+  - css/hoverable_elements.css
   - css/legends.css
   - css/headers.css
   - css/tables.css

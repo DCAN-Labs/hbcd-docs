@@ -1,0 +1,49 @@
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: help;
+    border-bottom: 1px dotted #555; /* Dotted underline for hover indication */
+    color: #007bff; /* A blue color to indicate interactivity */
+    font-weight: 500;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 6px;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%; /* Position above the text */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    max-width: 90vw; /* Prevents the tooltip from exceeding the viewport width */
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+/* Show tooltip on hover */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Add a slight color change on hover */
+.tooltip:hover {
+    color: #0056b3;
+    border-bottom: 1px dotted #0056b3;
+}
+
+/* Special positioning for the tooltip with .tooltip-left class */
+.tooltip-left .tooltiptext {
+    left: auto;
+    right: 0;
+    transform: translateX(0);
+}

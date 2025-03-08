@@ -54,6 +54,9 @@ th, td {
   margin-bottom: 10px; /* Adds spacing below the section */
   width: 100%;
 }
+.table-collapsible-content b {
+  color: #0077cc;
+}
 .table-collapsible-content.open {
   max-height: none;
 }
@@ -71,6 +74,9 @@ th, td {
   margin-bottom: 20px; /* Adds spacing below the section */
   width: 100%; /* Make the collapsible section span the full width of its container */
   box-sizing: border-box; /* Include padding and borders in the width calculation */
+}
+.table-open-collapsible-content b {
+  color: #0077cc;
 }
 .table-open-collapsible-content.open {
   max-height: none;
