@@ -66,7 +66,7 @@ To save time on future queries, click the **Save Query** button. Your saved quer
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">study</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Indicates whether table/measure is a core study component or belongs to sub/anxiliary studies</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Indicates if table/measure is part of core or sub/auxiliary study</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Core; Substudy</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">NO</td>
 	</tr>
@@ -118,8 +118,8 @@ To save time on future queries, click the **Save Query** button. Your saved quer
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">header</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Intermediate headers/instructions for a specific set of questions.</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">"Below is a list of items that describe children and youths. For each item that describes your child <span class="tooltip">...
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Header/instructions for a set of questions</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">"Below is a list of items that describe children and youths. For each item that describes your child <span class="tooltip"><strong>...</strong>
 		<span class="tooltiptext">... now or within the past 6 months, please choose whether the item is very true or often true of your child, somewhat or sometimes true of your child, or not true of your child. Please answer all items as well as you can, even if some do not seem to apply to your child."</span>
 	  </span>
 	 </td>
@@ -149,7 +149,7 @@ To save time on future queries, click the **Save Query** button. Your saved quer
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">type_data</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Data type as represented in the data/database</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Data type (in database)</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">date; timestamp; time;
 	  <span class="tooltip">character
 		<span class="tooltiptext">Character only used for categorical columns</span>
@@ -168,14 +168,14 @@ To save time on future queries, click the **Save Query** button. Your saved quer
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">type_field</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Field type in electronic data capture system (i.e., how it was presented to the participant)</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Field type in data capture system as presented to participant</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">dropdown; radio; checkbox</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
 	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">order_display</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Order (within a given measure) in which item is displayed to participants</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Display order of item within measure</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
 	</tr>
@@ -189,28 +189,28 @@ To save time on future queries, click the **Save Query** button. Your saved quer
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">label_es</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Spanish version of "label" column</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Label (Spanish)</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
 	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">instruction_es</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Spanish version of "instruction" column</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Instruction (Spanish)</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
 	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">header_es</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Spanish version of "header" column</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Header (Spanish)</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
 	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">note_es</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Spanish version of "note" column</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Note (Spanish)</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
 	</tr>
@@ -245,7 +245,7 @@ To save time on future queries, click the **Save Query** button. Your saved quer
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">url_table_warn_use</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Link to responsible data use warning on HBCD Docs (table)</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Link to responsible use warning on HBCD Docs (table)</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
 	</tr>
@@ -259,7 +259,7 @@ To save time on future queries, click the **Save Query** button. Your saved quer
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">url_warn_use</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Link to responsible data use warning on HBCD Docs (variable)</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Link to responsible use warning on HBCD Docs (variable)</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
 	</tr>
@@ -273,7 +273,7 @@ To save time on future queries, click the **Save Query** button. Your saved quer
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">order_sort</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Standard sort order within a table/measure when HTML table is loaded; also determines order of columns in data/database</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Standard sort order in table/measure and column order in data/database</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
 	</tr>
