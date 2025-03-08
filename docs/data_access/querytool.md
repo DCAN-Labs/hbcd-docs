@@ -46,7 +46,7 @@ To save time on future queries, click the **Save Query** button. Your saved quer
 ## Data Dictionary: Definition of Terms
 
 <div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
-  <span class="table-text">Data Dictionary</span>
+  <span class="table-text">Data Dictionary Definitions</span>
   <span class="arrow">▸</span>
 </div>
 <div class="table-open-collapsible-content">
