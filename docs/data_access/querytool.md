@@ -59,7 +59,7 @@ To save time on future queries, click the **Save Query** button. Your saved quer
 		<th style="width: 25%; border: 1px solid #ddd; padding: 5px; text-align: center;"><b>{</b>Possible Values<b>}</b> / Example(s)</th>
 		<th style="width: 5%; border: 1px solid #ddd; padding: 5px; word-wrap: break-word; white-space: normal; text-align: center;">
 			<span class="tooltip tooltip-left">Mutable
-				<span class="tooltiptext">Values can change across releases</span>
+				<span class="tooltiptext">Values may vary between releases</span>
 			</span></th>
 	  </tr>
 	</thead>
