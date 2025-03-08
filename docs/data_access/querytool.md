@@ -44,6 +44,7 @@ To save time on future queries, click the **Save Query** button. Your saved quer
 <img src="../images/querytool/query_step6.png" width="100%" height="auto" class="center">
 
 ## Data Dictionary: Definition of Terms
+
 <div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">Data Dictionary</span>
   <span class="arrow">▸</span>
@@ -55,11 +56,11 @@ To save time on future queries, click the **Save Query** button. Your saved quer
 		<th style="width: 10%; border: 1px solid #ddd; padding: 5px; text-align: center;">Column Name</th>
 		<th style="width: 5%; border: 1px solid #ddd; padding: 5px; word-wrap: break-word; white-space: normal; text-align: center;">JSON Element</th>
 		<th style="width: 30%; border: 1px solid #ddd; padding: 5px; text-align: center;">Description</th>
-		<th style="width: 30%; border: 1px solid #ddd; padding: 5px; text-align: center;">Possible Values / Example(s)</th>
+		<th style="width: 30%; border: 1px solid #ddd; padding: 5px; text-align: center;"><b>{</b> Possible Values <b>}</b> / Example(s)</th>
 		<th style="width: 5%; border: 1px solid #ddd; padding: 5px; word-wrap: break-word; white-space: normal; text-align: center;">
-	  <span class="tooltip tooltip-left">Mutable
-		<span class="tooltiptext">Can change<br>across releases</span>
-	  </span></th>
+			<span class="tooltip tooltip-left">Mutable
+				<span class="tooltiptext">Can change across releases</span>
+			</span></th>
 	  </tr>
 	</thead>
 	<tbody>
@@ -67,7 +68,7 @@ To save time on future queries, click the **Save Query** button. Your saved quer
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">study</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Indicates if table/measure is part of core or sub/auxiliary study</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Core; Substudy</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;"><b>{</b> Core; Substudy <b>}</b></td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">NO</td>
 	</tr>
 	<tr>
@@ -143,18 +144,18 @@ To save time on future queries, click the **Save Query** button. Your saved quer
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">type_var</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Derivative</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Type of column/variable/question</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">administrative; item; derived item; summary score</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;"><b>{</b> administrative; item; derived item; summary score <b>}</b></td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
 	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">type_data</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Data type (in database)</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">date; timestamp; time;
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;"><b>{</b> date; timestamp; time;
 	  <span class="tooltip">character
 		<span class="tooltiptext">Character only used for categorical columns</span>
 	  </span>;
-	  text; integer; double</td>
+	  text; integer; double <b>}</b></td>
 	</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">NO</td>
 	</tr>
@@ -162,7 +163,7 @@ To save time on future queries, click the **Save Query** button. Your saved quer
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">type_level</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Measurement level/scale type</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">nominal; ordinal; interval; ratio</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;"><b>{</b>nominal; ordinal; interval; ratio <b>}</b></td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
 	</tr>
 	<tr>
@@ -282,7 +283,7 @@ To save time on future queries, click the **Save Query** button. Your saved quer
 </div>
 
 <div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
-  <span class="table-text">Levels Table</span>
+  <span class="table-text">Levels</span>
   <span class="arrow">▸</span>
 </div>
 <div class="table-open-collapsible-content">
@@ -292,10 +293,10 @@ To save time on future queries, click the **Save Query** button. Your saved quer
 		<th style="width: 10%; border: 1px solid #ddd; padding: 5px; text-align: center;">Column Name</th>
 		<th style="width: 10%; border: 1px solid #ddd; padding: 5px; word-wrap: break-word; white-space: normal; text-align: center;">JSON Element</th>
 		<th style="width: 35%; border: 1px solid #ddd; padding: 5px; text-align: center;">Description</th>
-		<th style="width: 10%; border: 1px solid #ddd; padding: 5px; text-align: center;">Examples</th>
+		<th style="width: 10%; border: 1px solid #ddd; padding: 5px; text-align: center;">Example</th>
 		<th style="width: 5%; border: 1px solid #ddd; padding: 5px; word-wrap: break-word; white-space: normal; text-align: center;">
       <span class="tooltip tooltip-left">Mutable
-        <span class="tooltiptext">Can change<br>across releases</span>
+        <span class="tooltiptext">Can change across releases</span>
       </span></th>
       </tr>
     </thead>
@@ -340,8 +341,6 @@ To save time on future queries, click the **Save Query** button. Your saved quer
       </tr>
 </table>
 </div>
-
-
 
 
 ## Globus Share Download
