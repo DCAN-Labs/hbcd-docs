@@ -311,7 +311,7 @@ To save time on future queries, click the **Save Query** button. Your saved quer
         <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">value</td>
         <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">left hand side</td>
         <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Value of the level</td>
-        <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Ex: 1</td>
+        <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">1</td>
         <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">NO</td>
       </tr>
       <tr>
@@ -321,21 +321,21 @@ To save time on future queries, click the **Save Query** button. Your saved quer
           <span class="tooltip">Position of the level
             <span class="tooltiptext">Indicates the order in which response options were displayed to participants and how they should be presented to data users in applications</span>
           </span></td>
-        <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Ex: 2</td>
+        <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">2</td>
         <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
       </tr>
       <tr>
         <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">label</td>
         <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">right hand side</td>
         <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Label of the level</td>
-        <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Ex: Yes</td>
+        <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Yes</td>
         <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
       </tr>
       <tr>
         <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">label_es</td>
         <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;"></td>
-        <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Spanish label of the level</td>
-        <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Ex: Si</td>
+        <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Label of the level (Spanish)</td>
+        <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Si</td>
         <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
       </tr>
 </table>
