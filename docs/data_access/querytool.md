@@ -24,7 +24,15 @@ On the Query Data page, you can toggle between the **Query Wizard** and the **Di
 <img src="../images/querytool/query_step2.png" width="100%" height="auto" class="center">
 
 #### Step 3: Navigate the Dictionary Query Tool
-When using the Dictionary Query Tool, you can filter data based on specific instruments or variables. Use the **column filters** or the **global search** to find exactly what you need quickly and efficiently.
+When using the Dictionary Query Tool, you can filter data based on specific instruments or variables. Use the **column filters** or the **global search** to find exactly what you need quickly and efficiently. 
+
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">See the <a href="#nbdc-data-dictionary">NBDC Data Dictionary</a> section for Query Tool column name definitions</span>
+  </div>
+</p>
+
 <img src="../images/querytool/query_step3.png" width="90%" height="auto" class="center">
 
 #### Step 4: Export the Data Dictionary
@@ -43,10 +51,9 @@ If you need both the data dictionary and the associated data:
 To save time on future queries, click the **Save Query** button. Your saved queries can be accessed later via the **Load Query** button. Select your saved query, click **Run**, and instantly download the most up-to-date data.
 <img src="../images/querytool/query_step6.png" width="100%" height="auto" class="center">
 
-## Data Dictionary: Definition of Terms
-
+#### NBDC Data Dictionary
 <div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
-  <span class="table-text">Data Dictionary Definitions</span>
+  <span class="table-text">Query Tool Column Definitions</span>
   <span class="arrow">▸</span>
 </div>
 <div class="table-open-collapsible-content">
