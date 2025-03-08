@@ -245,28 +245,28 @@ To save time on future queries, click the **Save Query** button. Your saved quer
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">url_table_warn_use</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Link to responsible use warning on HBCD Docs (table)</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Link to <a href="../resp_data_use/#warnings" target="_blank">responsible use warning</a> (table)</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
 	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">url_table_warn_data</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Link to data use warning on HBCD Docs (table)</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Link to <a href="../resp_data_use/#warnings" target="_blank">data warning</a> (table)</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
 	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">url_warn_use</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Link to responsible use warning on HBCD Docs (variable)</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Link to <a href="../resp_data_use/#warnings" target="_blank">responsible use warning</a> (variable)</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
 	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">url_warn_data</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Link to data use warning on HBCD Docs (variable)</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Link to <a href="../resp_data_use/#warnings" target="_blank">data warning</a> (variable)</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
 	</tr>

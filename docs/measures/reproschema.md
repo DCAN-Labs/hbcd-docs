@@ -114,6 +114,6 @@ Need help? Open an issue on [GitHub](https://github.com/ReproNim/hbcd-loris2repr
 
 ## References
 <div class="references">
-	<p>Chen Y, Jarecka D, Abraham SA, Gau R, Ng E, Low DM, Bevers I, Johnson A, Keshavan A, Klein A, Clucas J, Rosli Z, Hodge SM, Linkersdörfer J, Bartsch H, Das S, Fair D, Kennedy D, Ghosh SS. ReproSchema: Enhancing Research Reproducibility through Standardized Survey Data Collection. JMIR Preprints. 21/06/2024:63343. DOI: 10.2196/preprints.63343. URL: <a href="https://preprints.jmir.org/preprint/63343">https://preprints.jmir.org/preprint/63343 </a></p> 
+	<p>Chen Y, Jarecka D, Abraham SA, Gau R, Ng E, Low DM, Bevers I, Johnson A, Keshavan A, Klein A, Clucas J, Rosli Z, Hodge SM, Linkersdörfer J, Bartsch H, Das S, Fair D, Kennedy D, Ghosh SS. ReproSchema: Enhancing Research Reproducibility through Standardized Survey Data Collection. JMIR Preprints. 21/06/2024:63343. DOI: 10.2196/preprints.63343. URL: <a href="https://preprints.jmir.org/preprint/63343">https://preprints.jmir.org/preprint/63343</a></p> 
 </div>
 <br>
