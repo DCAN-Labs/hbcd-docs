@@ -50,124 +50,126 @@ To save time on future queries, click the **Save Query** button. Your saved quer
 </div>
 <div class="table-open-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 13px;">
-    <thead>
-      <tr>
+	<thead>
+	  <tr>
 		<th style="width: 10%; border: 1px solid #ddd; padding: 5px; text-align: center;">Column Name</th>
-		<th style="width: 5%; border: 1px solid #ddd; padding: 5px; word-wrap: break-word; white-space: normal; text-align: center;">BIDS JSON Element Name</th>
-		<th style="width: 35%; border: 1px solid #ddd; padding: 5px; text-align: center;">Description</th>
-		<th style="width: 30%; border: 1px solid #ddd; padding: 5px; text-align: center;">Possible Values / Examples</th>
+		<th style="width: 5%; border: 1px solid #ddd; padding: 5px; word-wrap: break-word; white-space: normal; text-align: center;">JSON Element</th>
+		<th style="width: 30%; border: 1px solid #ddd; padding: 5px; text-align: center;">Description</th>
+		<th style="width: 30%; border: 1px solid #ddd; padding: 5px; text-align: center;">Possible Values / Example(s)</th>
 		<th style="width: 5%; border: 1px solid #ddd; padding: 5px; word-wrap: break-word; white-space: normal; text-align: center;">
-      <span class="tooltip tooltip-left">Mutable
-        <span class="tooltiptext">Can change<br>across releases</span>
-      </span></th>
-      </tr>
-    </thead>
-    <tbody>
+	  <span class="tooltip tooltip-left">Mutable
+		<span class="tooltiptext">Can change<br>across releases</span>
+	  </span></th>
+	  </tr>
+	</thead>
+	<tbody>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">study</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Indicates whether table/measure is a core study component or belongs to sub/anxiliary studies</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Possible values: Core, Substudy</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Core; Substudy</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">NO</td>
 	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">domain</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Domain/Workgroup</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Ex: <i>Demographics; EEG</i> (see list under <a href="../../measures/#tabulated-data">Tabulated Data</a>)</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">
+		<span class="tooltip">Demographics; EEG
+        <span class="tooltiptext">See full list under <a href="../../measures/#tabulated-data">Tabulated Data</a></span>
+      </span></td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">NO</td>
 	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">table_name</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Table/measure name</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Ex: <code>mh_p_cbcl</code></td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;"><code>mh_p_cbcl</code></td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">NO</td>
 	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">table_label</td>
-		<td style="border: 1px solid #ddd; padding: 6px; word-wrap: break-word; white-space: normal;">
-      <span class="tooltip">Description
-        <span class="tooltiptext">MeasurementToolMetadata &gt; Description</span>
-      </span>
-    </td>
+		<td style="border: 1px solid #ddd; padding: 6px; word-wrap: break-word; white-space: normal; font-size: 10px;">MeasurementToolMetadata &gt; Description</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Table/measure label</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Example: Child Behavior Checklist [Parent]</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Child Behavior Checklist [Parent]</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
 	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">name</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Name of column/variable/question</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Ex: <code>mh_p_cbcl__aggr_001</code></td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;"><code>mh_p_cbcl__aggr_001</code></td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">NO</td>
 	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">label</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Description</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Label for column/variable/question</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Example: <i>Demands a lot of attention</i></td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">"Demands a lot of attention"</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
 	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">instruction</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Instructions preceding table/measure questions</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Ex: <i>The next set of question is about your child's behavior in different situations and contexts. Please fill in a response to all questions.</i></td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">"The next set of question is about your child's behavior in different situations and contexts. Please fill in a response to all questions."</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
 	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">header</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Intermediate headers/instructions for a specific set of questions.</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Ex: <i>Below is a list of items that describe children and youths. For each item that describes your child now or within the past 6 months, please choose whether the item is very true or often true of your child, somewhat or sometimes true of your child, or not true of your child. Please answer all items as well as you can, even if some do not seem to apply to your child.</i></td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">"Below is a list of items that describe children and youths. For each item that describes your child <span class="tooltip">...
+		<span class="tooltiptext">... now or within the past 6 months, please choose whether the item is very true or often true of your child, somewhat or sometimes true of your child, or not true of your child. Please answer all items as well as you can, even if some do not seem to apply to your child."</span>
+	  </span>
+	 </td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
 	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">note</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Note displayed to participants</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Ex: <i>Enter weight in pounds</i></td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">"Enter weight in pounds"</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
 	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">unit</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Units</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Unit of measurement</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Ex: m, cm2, lbs</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">m, cm2, lbs</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
 	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">type_var</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Derivative</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Type of column/variable/question</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Possible values: administrative; item; derived item; summary score</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">administrative; item; derived item; summary score</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
 	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">type_data</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Data type as represented in the data/database</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Possible values: date; timestamp; time;
-      <span class="tooltip">character
-        <span class="tooltiptext">Character only used for categorical columns</span>
-      </span>;
-      text; integer; double</td>
-    </td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">date; timestamp; time;
+	  <span class="tooltip">character
+		<span class="tooltiptext">Character only used for categorical columns</span>
+	  </span>;
+	  text; integer; double</td>
+	</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">NO</td>
 	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">type_level</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Measurement level/scale type</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Possible values: nominal; ordinal; interval; ratio</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">nominal; ordinal; interval; ratio</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
 	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">type_field</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Field type in electronic data capture system (i.e., how it was presented to the participant)</td>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Ex: dropdown; radio; checkbox</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">dropdown; radio; checkbox</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
 	</tr>
 	<tr>
@@ -279,8 +281,6 @@ To save time on future queries, click the **Save Query** button. Your saved quer
 </table>
 </div>
 
-
-
 <div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">Levels Table</span>
   <span class="arrow">▸</span>
@@ -290,7 +290,7 @@ To save time on future queries, click the **Save Query** button. Your saved quer
     <thead>
       <tr>
 		<th style="width: 10%; border: 1px solid #ddd; padding: 5px; text-align: center;">Column Name</th>
-		<th style="width: 10%; border: 1px solid #ddd; padding: 5px; word-wrap: break-word; white-space: normal; text-align: center;">BIDS JSON Element Name</th>
+		<th style="width: 10%; border: 1px solid #ddd; padding: 5px; word-wrap: break-word; white-space: normal; text-align: center;">JSON Element</th>
 		<th style="width: 35%; border: 1px solid #ddd; padding: 5px; text-align: center;">Description</th>
 		<th style="width: 10%; border: 1px solid #ddd; padding: 5px; text-align: center;">Examples</th>
 		<th style="width: 5%; border: 1px solid #ddd; padding: 5px; word-wrap: break-word; white-space: normal; text-align: center;">
