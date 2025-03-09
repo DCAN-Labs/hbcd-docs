@@ -40,9 +40,11 @@ nav:
   - ABOUT: index.md
   - Access Data:
     - How To Access Data: data_access/index.md
-    - How To Download Data: data_access/querytool.md
+    - How To Download Data:
+        - NBDC Data Dictionary: data_access/nbdc_datadictionary.md
+        - LASSO PORTAL: data_access/querytool.md
+        - DEAP: data_access/datadictionary.md
     - Responsible Data Use: data_access/resp_data_use.md
-    - Data Dictionary Explorer: data_access/datadictionary.md
   - Get Help:
     - FAQs: faq.md
     - Report Issues: reportissue.md
