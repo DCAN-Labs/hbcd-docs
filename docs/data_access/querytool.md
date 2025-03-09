@@ -160,7 +160,11 @@ To save time on future queries, click the **Save Query** button. Your saved quer
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
 	</tr>
 	<tr>
-		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Variable type</td>
+		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">
+		<span class="tooltip tooltip-right">Variable type
+		<span class="tooltiptext">Derivative element in BIDS JSON set to <i>true</i> if <i>type_var</i> = <i>summary score</i> or <i>derived item</i></span>
+	  </span>
+	  </td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">type_var</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Type of column/variable/question</td>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;"><b>{</b>administrative; item; derived item; summary score<b>}</b></td>
