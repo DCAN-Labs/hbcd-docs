@@ -78,7 +78,7 @@ QC procedures involved examining assay ranges and categorical versus continuous 
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<p>On July 1, 2024, the nail processing workflow was updated to optimize specimen use and enable confirmation testing for low sample quantities as described below. Data collected this point therefore does not use the remnant of ELISA extract for confirmation for specimens with too little sample.</p> 
+<p>As of July 1, 2024, the nail processing workflow was updated to optimize specimen use and allow confirmation testing for low sample quantities. Prior to this update, remnants of ELISA extract were not used for confirmation when specimens had insufficient sample.</p> 
 </div>
 </p>
 
