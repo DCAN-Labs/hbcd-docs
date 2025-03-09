@@ -1,8 +1,7 @@
 # NBDC Data Dictionary
-
 HBCD data is organized into tables, each of which contains a set of variables. The data dictionary provides detailed information about each variable in the HBCD data tables. The dictionary includes the variable name, label, description, data type, and other relevant information. Both the [Lasso Portal Query Tool](querytool.md#dictionary-query-tool) and the Data Exploration and Analysis Portal ([DEAP](datadictionary.md)) and can be used to explore the data dictionary and download HBCD data. 
 
-Below are the definitions for the columns in the data dictionaries for these utilities. Also note that some columns also correspond to elements in the BIDS JSON files that accompany all tabulated data (hover over <i class="fa fa-file-code-o" style="font-size:14px; color:blue;"></i> icon for details in table below).
+Below are the definitions for the columns in the data dictionaries for these utilities. Also note that some columns also correspond to elements in the BIDS JSON files that accompany all tabulated data (hover over <i class="bi bi-filetype-json" style="font-size:18px; color:blue;"></i> icon for details in table below).
 
 <div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">Data Dictionary Column Definitions</span>
@@ -49,7 +48,7 @@ Below are the definitions for the columns in the data dictionaries for these uti
     </tr>
     <tr>
         <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Table label&nbsp;
-        <span class="tooltip tooltip-right"> <i class="fa fa-file-code-o" style="font-size:15px"></i>
+        <span class="tooltip tooltip-right"><i class="bi bi-filetype-json" style="font-size:18px;"></i>
         <span class="tooltiptext">Corresponds to MeasurementToolMetadata > Description in BIDS JSON</span>
       </span>
       </td>
@@ -67,8 +66,7 @@ Below are the definitions for the columns in the data dictionaries for these uti
     </tr>
     <tr>
         <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Variable label&nbsp;
-        <span class="tooltip tooltip-right">
-        <span class="tooltip tooltip-right"> <i class="fa fa-file-code-o" style="font-size:15px"></i>
+        <span class="tooltip tooltip-right"><i class="bi bi-filetype-json" style="font-size:18px;"></i>
         <span class="tooltiptext">Corresponds to Description in BIDS JSON</span>
       </span>
       </td>
@@ -103,7 +101,7 @@ Below are the definitions for the columns in the data dictionaries for these uti
     </tr>
     <tr>
         <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Unit&nbsp;
-        <span class="tooltip tooltip-right"> <i class="fa fa-file-code-o" style="font-size:15px"></i>
+        <span class="tooltip tooltip-right"><i class="bi bi-filetype-json" style="font-size:18px;"></i>
         <span class="tooltiptext">Corresponds to Units in BIDS JSON</span>
       </span>
       </td>
@@ -114,7 +112,7 @@ Below are the definitions for the columns in the data dictionaries for these uti
     </tr>
     <tr>
         <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Variable type&nbsp;
-        <span class="tooltip tooltip-right"> <i class="fa fa-file-code-o" style="font-size:15px"></i>
+        <span class="tooltip tooltip-right"><i class="bi bi-filetype-json" style="font-size:18px;"></i>
         <span class="tooltiptext">Derivative element in BIDS JSON set to <i>true</i> if <i>type_var</i> = <i>summary score</i> or <i>derived item</i></span>
       </span>
       </td>
