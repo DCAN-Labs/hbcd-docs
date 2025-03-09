@@ -60,7 +60,7 @@
     white-space: nowrap; /* Prevents text wrapping */
 }
 
-* Position the tooltip to the right */
+/* Position the tooltip to the right */
 .tooltip-right .tooltiptext {
     /* Override default positioning */
     bottom: auto; /* Reset bottom positioning */
@@ -72,8 +72,5 @@
     left: 100%;
     transform: translateY(-50%);
     margin-left: 5px;
-    
-    /* Ensure proper display */
-    white-space: nowrap; /* Prevents text wrapping */
 }
 

@@ -115,7 +115,7 @@ To save time on future queries, click the **Save Query** button. Your saved quer
 	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">
-		<span class="tooltip">Variable Label
+		<span class="tooltip tooltip-right">Variable Label
 		<span class="tooltiptext">Corresponds to Description in BIDS JSON</span>
 	  </span>
 	  </td>
@@ -150,7 +150,7 @@ To save time on future queries, click the **Save Query** button. Your saved quer
 	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">
-		<span class="tooltip">Unit
+		<span class="tooltip tooltip-right">Unit
 		<span class="tooltiptext">Corresponds to Units in BIDS JSON</span>
 	  </span>
 	  </td>
