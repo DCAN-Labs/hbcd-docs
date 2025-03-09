@@ -11,15 +11,8 @@ The **Manage Selections and Downloads** page allows users to manage their select
 
 Note that warning labels are included next to relevant variables and tables; these link directly to Data and Responsible Use warnings provided in the release notes - see [here](resp_data_use.md#warnings) for details. 
 
-## Download Datasets
-
-## Organize & Share Datasets
-
-
-
-
-<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
-  <span class="table-text">Levels Term Definitions</span>
+<div id="level" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Level Term Definitions</span>
   <span class="arrow">▸</span>
 </div>
 <div class="table-open-collapsible-content">
@@ -77,3 +70,11 @@ Note that warning labels are included next to relevant variables and tables; the
       </tr>
 </table>
 </div>
+
+## Download Datasets
+
+## Organize & Share Datasets
+
+
+
+
