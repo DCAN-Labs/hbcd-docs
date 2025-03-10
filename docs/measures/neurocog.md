@@ -97,7 +97,7 @@ Designed specifically for HBCD, this measure informs assessment teams conducting
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<p>Instructions were updated with the additional response option of "Decline to answer" on November 8, 2024 to differentiate from behaviors that have never been seen (i.e. developmentally inappropriate). Therefore, "Decline to answer" is not an option available to individuals who completed this form in the reference sample from which the standard scores were derived.</p> 
+<p>The response option "Decline to answer" was added on November 8, 2024 to allow participants to not answer any questions they choose.  However, "Decline to answer" is not a response option on the published form and was not used in the reference sample from which the standard scores were derived. It is possible that participants chose “Decline to Answer” rather than “never” for behaviors that have never been seen (for example items related to reacting to food texture for an infant who has not been exposed to solids).</p> 
 </div>
 </p>
 
