@@ -5,7 +5,7 @@ The HBCD Data Release Docs is version-controlled and enables researchers to both
 
 <div class="copy-box">
   <div class="copy-text-container">
-    <span id="specific-text">HBCD Consortium. (2025). HBCD Data Release Docs (v0.0.2-beta). Zenodo. <a href="https://doi.org/10.5281/zenodo.14708091">https://doi.org/10.5281/zenodo.14708091</a></span>
+    <span id="specific-text">HBCD Consortium. (2025). HBCD Data Release Docs (beta). Zenodo. <a href="https://doi.org/10.5281/zenodo.15002830">https://doi.org/10.5281/zenodo.15002830</a></span>
     <button class="copy-button">Copy</button>
   </div>
 </div>
@@ -14,7 +14,7 @@ If it is necesssary for you to cite all versions of the website, please use the 
 
 <div class="copy-box">
   <div class="copy-text-container">
-    <span id="specific-text">HBCD Consortium. (2025). HBCD Data Release Docs (All Versions). Zenodo. <a href="https://doi.org/10.5281/zenodo.14706676">https://doi.org/10.5281/zenodo.14706676</a></span>
+    <span id="specific-text">HBCD Consortium. (2025). HBCD Data Release Docs (All Versions). Zenodo. <a href="https://doi.org/10.5281/zenodo.15002830">https://doi.org/10.5281/zenodo.15002829</a></span>
     <button class="copy-button">Copy</button>
   </div>
 </div>
