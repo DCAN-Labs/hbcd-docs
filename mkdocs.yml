@@ -43,8 +43,8 @@ nav:
     - How To Access Data: data_access/index.md
     - How To Download Data:
         - NBDC Data Dictionary: data_access/nbdc_datadictionary.md
-        - LASSO PORTAL: data_access/querytool.md
-        - DEAP: data_access/datadictionary.md
+        - LASSO PORTAL: data_access/lasso.md
+        - DEAP: data_access/DEAP.md
     - Responsible Data Use: data_access/resp_data_use.md
   - Get Help:
     - FAQs: faq.md

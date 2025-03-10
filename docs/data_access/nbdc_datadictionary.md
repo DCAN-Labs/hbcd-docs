@@ -1,5 +1,5 @@
 # NBDC Data Dictionary
-HBCD data is organized into tables, each of which contains a set of variables. The data dictionary provides detailed information about each variable in the HBCD data tables. The dictionary includes the variable name, label, description, data type, and other relevant information. Both the [Lasso Portal Query Tool](querytool.md#dictionary-query-tool) and the Data Exploration and Analysis Portal ([DEAP](datadictionary.md)) and can be used to explore the data dictionary and download HBCD data. 
+HBCD data is organized into tables, each of which contains a set of variables. The data dictionary provides detailed information about each variable in the HBCD data tables. The dictionary includes the variable name, label, description, data type, and other relevant information. Both the [Lasso Portal Query Tool](lasso.md#dictionary-query-tool) and the Data Exploration and Analysis Portal ([DEAP](DEAP.md)) and can be used to explore the data dictionary and download HBCD data. 
 
 Below are the definitions for the columns in the data dictionaries for these utilities. Also note that some columns also correspond to elements in the BIDS JSON files that accompany all tabulated data (hover over <i class="bi bi-filetype-json" style="font-size:18px; color:blue;"></i> icon for details in table below).
 
