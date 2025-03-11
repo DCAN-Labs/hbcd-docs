@@ -1,7 +1,7 @@
 # Known Issues
 
 <p>
-<div id="knownissue-discrimination" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="KI-discrimination" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Blank Cells in PhenX Discrimination Survey (<code>sed_bm_phx__discr.006</code>)</span>
   <span class="arrow">▸</span>
