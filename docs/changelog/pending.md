@@ -80,5 +80,22 @@ Release 1.1 will also include the addition of the following measures:
   </tbody>
 </table>
 
+### Improvements to Existing Data
+Release 1.1 will introduce the following enhancements to existing data:
+
+#### Enhanced Medication Classification for Pregnancy & Exposure Data  
+The interim release will refine medication classifications in the [Pregnancy & Exposure, Including Substance Use](../measures/index.md#pregexp) domain by categorizing them into more detailed components based on RxNorm IDs. Additional columns in the tabulated data will specify:
+
+- Brand Name
+- Ingredient
+- Precise Ingredient
+- Multiple Active Ingredients
+
+These enhancements will improve clarity and enable more granular analyses.
+
+
+
+
+
 
 
