@@ -25,7 +25,6 @@ The interim Release 1.1 will include:
   <ul style="margin: 0 0 20px 20px; padding: 0;">
 <li>Source data (e.g. DICOMs) for <a href="../../datacuration/rawbids">raw BIDS</a> (all imaging modalities)</li>
 <li>Processed V03 <a href="../../datacuration/derivatives">derivatives</a> for structural and functional MRI</li>
-<li><a href="../../measures/mri/qc/#brainswipes">BrainSwipes</a> QC results for processed MRI data</li>
 </ul>
 </div>
 
