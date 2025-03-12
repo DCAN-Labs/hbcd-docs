@@ -29,15 +29,15 @@ Before you begin the DUC process, please do the following:
 
 **Make sure that you meet the following access eligibility requirements:**
 
-1. You must have a research-related need to access the data. 
+1. You must have a research-related need to access the data. 
 2. You must be associated with an NIH-recognized research institution and have the approval of an authorized signatory official of that institution. Visit [Signing Official (SO)](https://www.era.nih.gov/erahelp/commons/commons/roles/SO.htm) on eRA Commons to learn about institutional signing officials.
-3. Your institution must have an active Federalwide Assurance (FWA). 
+3. Your institution must have an active Federalwide Assurance (FWA). 
 
 **Identify an authorized signatory official at your institution**. If you are unsure of who at your institution is an authorized signing official, do not know whether your institution has an FWA, or have any other questions, please email nbdc@mail.nih.gov.
 
 **Decide whether to submit an individual or group-level DUC**. Users may submit either an **individual** or **group-level** DUC. You may submit a DUC either as an individual recipient or submit a group-level DUC as a lead PI with others from your institution listed on the same DUC (recommended). For group-level DUCs, the lead PI must ensure that all listed recipients on the DUC comply with its terms and conditions. *Note: Recipients may only be listed on one DUC.*
 
-**Check whether you will need to submit second DUC.** Recipients who intend to disseminate findings from analyses of American Indian/Alaska Native (AI/AN) data separated out from other groups in presentations, pre-prints, publications, website posts, etc. must submit a second DUC governing use of AI/AN data (A-DUC) after obtaining approval on the general DUC. 
+**Check whether you will need to submit second DUC.** Recipients who intend to disseminate findings from analyses of American Indian/Alaska Native (AI/AN) data separated out from other groups in presentations, pre-prints, publications, website posts, etc. must submit a second DUC governing use of AI/AN data (A-DUC) after obtaining approval on the general DUC. 
 
 ## DUC Submission Instructions
 ### Fill Out DUC Forms
