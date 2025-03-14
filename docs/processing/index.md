@@ -20,9 +20,9 @@ All pipelines used for HBCD data processing must adhere to [HBCD Processing & An
 BIDS is a community-driven standard for organizing neuroimaging and behavioral data, making datasets **structured**, **shareable**, and **reproducible**. BIDS Apps are containerized applications that run on any system supporting [Docker](https://docs.docker.com/get-started/get-docker/) or [Apptainer](https://apptainer.org/docs/user/main/quick_start.html) (Singularity).
 
 **Benefits of Containerization:**        
-✅ Ensures all software dependencies are included.      
-✅ Guarantees consistent processing environments across systems.        
-✅ Simplifies reproducibility and collaboration.        
+<i class="fa fa-check-square"></i> Ensures all software dependencies are included.      
+<i class="fa fa-check-square"></i> Guarantees consistent processing environments across systems.        
+<i class="fa fa-check-square"></i> Simplifies reproducibility and collaboration.        
 
 ## Running an HBCD Processing Pipeline
 To process HBCD study data using one of these pipelines, follow the installation and usage instructions on the specific pipeline's documentation page (links below).
