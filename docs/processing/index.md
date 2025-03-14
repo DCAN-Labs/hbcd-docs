@@ -10,7 +10,7 @@
 The **HBCD processing pipelines** are a collection of modular tools used to process data from the HBCD study. These pipelines are not exclusive to HBCD, but are general-purpose tools for analyzing a variety of data modalities, including magnetic resonance imaging (MRI), electroencephalogram (EEG), magnetic resonance spectroscopy (MRS), and biosensor data. The pipelines are designed to be modular and flexible, allowing for customization to meet the specific needs of the HBCD study.
 
 ## Pipeline Standards & Design
-All pipelines used for HBCD data processing must adhere to [HBCD Processing & Analytic Software Standards](standards.md), which require:
+All pipelines used for HBCD data processing must adhere to [HBCD Processing & Analytic Software Standards](standards.md), which require, among other things:
 
 - NMIND peer review and DOI publication for reproducibility.
 - Compliance with the Brain Imaging Data Structure (BIDS) standard.
