@@ -1,4 +1,4 @@
-# Processing Pipelines & Documentation
+# HBCD Processing Pipelines
 <p>
 <div id="faq-qcrec" class="notification-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
@@ -6,7 +6,15 @@
 </div>
 </p>
 
+## Overview
+The HBCD Processing Pipelines are a collection of tools used to process and analyze data from the Healthy Brain Cognitive Development (HBCD) study. The pipelines are designed to process data from a variety of modalities, including magnetic resonance imaging (MRI), electroencephalogram (EEG), magnetic resonance spectroscopy (MRS), and biosensor data. The pipelines are designed to be modular and flexible, allowing for customization to meet the specific needs of the HBCD study.
+
+Per the [HBCD Processing & Analytic Software Standards](standards.md), all pipelines must undergo NMIND peer review and be published with a DOI. The pipelines must also be containerized and compatible with the Brain Imaging Data Structure (BIDS) standard input data. **ADD MORE ABOUT CONTAINERS HERE**
+
 Several of the processing pipelines query the `scans.tsv` (see [Scan-Level Data](../datacuration/rawbids.md#scan-level-data)) to determine which files to include/exclude for processing. The criteria used are listed under the 'Quality Control Selection Information' under [Tool Names](https://hbcd-cbrain-processing.readthedocs.io/latest/tool_details.html#tool-names) on the HBCD Processing page. Please visit the [HBCD Processing](https://hbcd-cbrain-processing.readthedocs.io/latest/) webpage for full documentation on how each of the following pipelines was used for HBCD processing.
+
+## Data Processing Pipelines
+The following is a list of the processing pipelines used for the HBCD study:
 
 ### Magnetic Resonance Imaging (MRI)
 <ul style="list-style-type: none; padding: 0; font-family: Arial, sans-serif;">

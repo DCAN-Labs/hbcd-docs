@@ -82,7 +82,7 @@ nav:
         - Phenotype: datacuration/phenotypes.md
         - Exclusion Criteria: datacuration/exclusions.md
     - Data Processing: 
-        - Pipelines & Processing: processing/pipelines.md
+        - Processing Pipelines: processing/index.md
         - Pipeline Software Standards: processing/standards.md
   - CHANGE LOG: 
     - Pending & Upcoming Updates: changelog/pending.md
