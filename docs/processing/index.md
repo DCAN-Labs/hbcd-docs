@@ -7,10 +7,31 @@
 </p>
 
 ## Overview
-The HBCD Processing Pipelines are a collection of tools used to process and analyze data from the Healthy Brain Cognitive Development (HBCD) study. The pipelines are designed to process data from a variety of modalities, including magnetic resonance imaging (MRI), electroencephalogram (EEG), magnetic resonance spectroscopy (MRS), and biosensor data. The pipelines are designed to be modular and flexible, allowing for customization to meet the specific needs of the HBCD study.
+The **HBCD processing pipelines** are a collection of modular tools used to process data from the HBCD study. These pipelines are not exclusive to HBCD, but are general-purpose tools for analyzing a variety of data modalities, including magnetic resonance imaging (MRI), electroencephalogram (EEG), magnetic resonance spectroscopy (MRS), and biosensor data. The pipelines are designed to be modular and flexible, allowing for customization to meet the specific needs of the HBCD study.
 
-Per the [HBCD Processing & Analytic Software Standards](standards.md), all pipelines must undergo NMIND peer review and be published with a DOI. The pipelines must also be containerized and compatible with the Brain Imaging Data Structure (BIDS) standard input data. **ADD MORE ABOUT CONTAINERS HERE**
+## Pipeline Standards & Design
+All pipelines used for HBCD data processing must adhere to [HBCD Processing & Analytic Software Standards](standards.md), which require:
 
+- NMIND peer review and DOI publication for reproducibility.
+- Compliance with the Brain Imaging Data Structure (BIDS) standard.
+- Implementation as BIDS Apps ([Gorgolewski et al.,2017](https://doi.org/10.1371/journal.pcbi.1005209)), ensuring containerized, standardized processing.
+
+### Why BIDS & BIDS Apps?
+BIDS is a community-driven standard for organizing neuroimaging and behavioral data, making datasets **structured**, **shareable**, and **reproducible**. BIDS Apps are containerized applications that run on any system supporting [Docker](https://docs.docker.com/get-started/get-docker/) or [Apptainer](https://apptainer.org/docs/user/main/quick_start.html) (Singularity).
+
+**Benefits of Containerization:**        
+✅ Ensures all software dependencies are included.      
+✅ Guarantees consistent processing environments across systems.        
+✅ Simplifies reproducibility and collaboration.        
+
+## Running an HBCD Processing Pipeline
+To process HBCD study data using one of these pipelines, follow the installation and usage instructions on the specific pipeline's documentation page (links below).
+
+**Choosing a Container System:**            
+**Singularity/Apptainer** → Recommended for university-affiliated HPC clusters, where users lack administrative privileges.         
+**Docker** → Preferred for personal computers due to its ease of installation (may require extra setup for HPC use).
+
+All processing containers are available on [Docker Hub](https://hub.docker.com/).
 
 ## Data Processing Pipelines
 The following is a list of the processing pipelines used for the HBCD study:
