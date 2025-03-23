@@ -6,7 +6,6 @@
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p><b><i>The text below is sourced directly from the ABCD Wiki <a href="https://data.abcdstudy.org/reports/wiki-release6/data-doc/imaging/resting-state-fmri.html#use-rsfmri">Responsible Use Warning: Head Motion</a>. While it specifically references ABCD, the same principles apply equally to HBCD.</i></b></p>
 <blockquote>
 <p>Head motion is a serious issue for neuroimaging, and especially for resting state fMRI. It creates brain-wide artifactual effects including elevated short-distance connectivity and attenuated long-distance connectivity (Power et al. 2012). In order to guard against artifactual effects due to head motion, researchers typically implement a variety of strategies that operate at multiple points of the data collection and processing pipeline, with guidance regularly evolving over time (Power et al. 2014; 2015; Satterthwaite et al. 2013; Siegel et al. 2017; Gratton et al. 2020). Some of these strategies include discarding entire runs of data that exceed certain motion thresholds and discarding individual functional imaging frames that are proximal to motion events (i.e., “motion censoring”). These strategies in particular typically lead to the exclusion of some participants from further analysis for lack of sufficient data.</p>
@@ -22,13 +21,15 @@
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
-<p>An issue with signal intensity clipping has been identified in a portion of Philips fMRI scans. Due to a scaling error in real-time reconstruction, high-intensity values are capped at 4095, creating hyperintense regions that drown out the signal of gray and white matter in that region. This affects derived measures such as ROI-ROI correlations.</p>
-<p>Initially detected during manual QC, the issue was rare early in the study and has since been addressed with a protocol patch applied at most Philips sites. However, sites VAN and CCH experienced more severe cases, as the patch was only implemented there in October 2024. Since then, no new severe cases have been observed. Overall, 20% of scans from VAN and CCH show varying levels of clipping, with 6.3% classified as severe and failing QC. In the future, real-time reconstruction will be updated in order to salvage this data, but in the interim, impacted scans are excluded from the release.</p> 
-<p>Severe cases typically fail manual QC (QC=0), but less severe cases often pass (QC=1) as they may not be visually apparent. The severity of intensity clipping artifacts can be approximated from the ratio of the median to maximum image intensity and fraction of voxels at maximum intensity within the brain mask (available in the <a href="../../../datacuration/rawbids/#participant-session-scan-level-data"><code>scans.tsv</code> file</a>): </p> 
+<p><b>Philips signal intensity clipping - Overview</b><br>
+A subset of Philips fMRI scans is affected by a signal intensity clipping issue. Due to a scaling error during real-time reconstruction, intensity values above 4095 are capped, resulting in hyperintense regions that obscure gray/white matter signal. This artifact can significantly impact BOLD registration and derived measures such as ROI-to-ROI correlations.</p>
+<p><b>Detection and Prevalence</b><br>
+The artifact was initially detected through manual quality control (QC) and addressed with a protocol patch applied at most Philips sites. However, the patch was implemented later (October 2024) at sites VAN and CCH, leading to residual cases at these locations. Severe cases typically fail manual QC (QC=0), while less severe cases often pass (QC=1), as they may not be visually apparent. Overall, 20% of scans from VAN and CCH show some degree of clipping, with 6.3% classified as severe enough to fail QC. Updates to real-time reconstruction are in development to recover affected data. In the meantime, only scans that pass QC, including those with mild clipping, are included in the release.</p>
+<p><b>How to Identify Affected Scans</b><br>
+Clipping severity can be estimated using the ratio of median to maximum image intensity and the fraction of voxels at maximum intensity within the brain mask (both available in the <a href="../../../datacuration/rawbids/#participant-session-scan-level-data"><code>scans.tsv</code> file</a>):</p> 
 <ul>
-<li>Severe clipping: brain_median / brain_max > 0.8 AND brain_fvox_max > 0.001</li> 
-<li>Potential clipping: brain_median / brain_max > 0.5 AND brain_fvox_max > 0.001</li> 
+<li><i>Severe clipping</i>: (brain_median / brain_max) > 0.8 AND brain_fvox_max > 0.001</li> 
+<li><i>Potential clipping</i>: (brain_median / brain_max) > 0.5 AND brain_fvox_max > 0.001</li> 
 </ul>
 </div>
 </p>
