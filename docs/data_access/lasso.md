@@ -222,7 +222,7 @@ Thank you for beta testing the Download Client on macOS. Your feedback has been 
 **Faster Downloads**
 
 
-## Lasso User Warnings & How to Resolve
+## Lasso User Warnings
 
 ### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Static Variable Warning
 To run a query successfully, your selection must include **at least one non-static instrument**—that is, data collected during specific **sessions or timepoints**. In the NBDC Data Release Platform, look for instruments **not marked as static** (i.e., not shaded differently or labeled as static). These will allow you to run your query and get the required data output. Please expand the following sections for details:  
