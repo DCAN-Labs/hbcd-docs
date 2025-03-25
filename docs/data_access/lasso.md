@@ -220,3 +220,53 @@ Thank you for beta testing the Download Client on macOS. Your feedback has been 
 **Better Progress Tracking** – Instead of only seeing chunks (currently set to 100 files), you’ll get an overall progress indicator.    
 **More Accurate Download Estimates**    
 **Faster Downloads**
+
+
+## Lasso User Warnings & How to Resolve
+### Static Variable Warning
+To run a query successfully, your selection must include **at least one non-static instrument**—that is, data collected during specific **sessions or timepoints**. In the NBDC Data Release Platform, look for instruments **not marked as static** (i.e., not shaded differently or labeled as static). These will allow you to run your query and get the required data output.  
+
+#### Why You Cannot Run a Query with Only Static Variables 
+The platform is designed to support **session-based and longitudinal analyses**—meaning, comparisons across different timepoints or visits.  
+**Static variables** refer to data that **do not change** across sessions for a participant. These include traits like:
+
+* Sex assigned at birth  
+* Date of birth  
+* Genetic ancestry  
+* Family relationships  
+
+Because static variables are constant, they do not provide meaningful variation over time. Querying *only* static variables undermines the ability to:  
+
+* Track developmental or behavioral changes  
+* Compare across timepoints or visits  
+* Contextualize outcomes within session-specific measures
+
+Therefore, to run a query, you must include at least one **non-static instrument**—data collected at specific visits, such as cognitive assessments or imaging.  
+
+#### Overview of Static Variable Sources  
+There are three main static measurement sources in the ABCD dataset. Here's what each includes:  
+
+  1. **Genetic Population Structure** (`gn_y_popstruct`)  
+  Derived from genotyping data, this includes principal components of genetic ancestry used to account for population stratification in genetic analyses.  
+  **Contains:**  
+    * `gn_y_popstruct_pc__01` to `gn_y_popstruct_pc__32`  
+    * Each variable represents a principal component capturing ancestry-related genetic variation  
+  2. **Genetic Relatedness** (`gn_y_genrel`)  
+  Describes genetic relationships between participants, such as familial ties or twin status.  
+  **Contains:**  
+    * `gn_y_genrel_id__fam`: Family ID based on genetic similarity  
+    * `gn_y_genrel_id__birth`: Birth event ID (e.g., twins)  
+    * `gn_y_genrel_pihat__01–04`: Identity-by-descent probabilities  
+    * `gn_y_genrel_zyg__01–04`: Inferred zygosity (e.g., monozygotic twin)  
+      These values are derived from genotype-based estimates of relatedness.  
+  3. **Static Demographics / Study Design Info** (`ab_g_stc`)  
+  Includes fixed participant metadata collected at enrollment or inferred from administrative records.  
+  **Contains:**  
+    * `ab_g_stc__design_id__fam`: Family ID based on caregiver report  
+    * `ab_g_stc__cohort_dob`: Anonymized date of birth  
+    * `ab_g_stc__cohort_saab`: Sex assigned at birth  
+    * Genetic ancestry principal components (duplicated from `gn_y_popstruct`)  
+    * Other design-level variables (e.g., nesting IDs, twin group IDs)  
+
+
+  
