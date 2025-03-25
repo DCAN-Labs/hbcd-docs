@@ -256,7 +256,7 @@ To run a query successfully, your selection must include **at least one non-stat
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
-<p>There are three main static measurement sources in the ABCD dataset. Here's what each includes: </p>
+<p>There are three main static measurement sources in the <b>ABCD</b> dataset. Here's what each includes: </p>
 
 <ul>
 <p>
