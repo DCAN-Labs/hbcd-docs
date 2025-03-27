@@ -12,7 +12,7 @@ The following programs are recommended for visualizing volumetric data (e.g. T1w
 A free, open-source software application used to visualize and segment 3D and 4D medical images. It is particularly useful for brain imaging files such as NIfTI (`.nii.gz`) MRI files (e.g. T1w, T2w, brain segmentations, etc.). See an overview of ITK-Snap on Andy's Brain Blog [here](https://andysbrainbook.readthedocs.io/en/latest/ITK-Snap/ITK-Snap_Overview.html#itk-snap-overview) for a primer.      
 [Download page for ITK-Snap <i class="fa fa-download"></i>](http://www.itksnap.org/pmwiki/pmwiki.php?n=Downloads.SNAP4)
 
-**[FSLeyes](https://fsl.fmrib.ox.ac.uk/fsleyes/)**      
+**[FSLeyes](https://fsl.fmrib.ox.ac.uk/fsl/docs/#/utilities/fsleyes)**      
 <span style="display: inline-block; background-color: #f0f8ff; color: #333; border-radius: 12px; padding: 1px 5px; font-size: 0.9em; border: 1px solid #d0e7ff;">
   <i class="fa-regular fa-lightbulb" style="margin-right: 6px; color:rgb(13, 148, 8);"></i>
   <strong>Good for:</strong> interactive visualization (volumetric data)
