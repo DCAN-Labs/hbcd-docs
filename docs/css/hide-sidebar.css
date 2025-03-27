@@ -1,0 +1,24 @@
+/* hide sidebar for Lasso User Warnings hidden pages */
+body[data-md-path="data_access/lasso/staticvarwarning"] .md-sidebar--primary,
+body[data-md-path="data_access/lasso/staticvarwarning"] .md-sidebar--secondary {
+  display: none;
+}
+
+body[data-md-path="data_access/lasso/staticvarwarning"] .md-main__inner {
+  margin-left: 0;
+}
+
+/* Full-page minimal view for a specific doc */
+body[data-md-path="data_access/lasso/staticvarwarning"] .md-header,
+body[data-md-path="data_access/lasso/staticvarwarning"] .md-footer,
+body[data-md-path="data_access/lasso/staticvarwarning"] .md-sidebar--primary,
+body[data-md-path="data_access/lasso/staticvarwarning"] .md-sidebar--secondary,
+body[data-md-path="data_access/lasso/staticvarwarning"] .md-tabs {
+  display: none !important;
+}
+
+body[data-md-path="data_access/lasso/staticvarwarning"] .md-main__inner {
+  margin: 0;
+  padding: 2rem;
+  max-width: none;
+}

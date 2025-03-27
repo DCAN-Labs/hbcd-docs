@@ -22,6 +22,7 @@ extra_css:
   - css/custom.css
   - css/copybox.css
   - css/banners.css
+  - css/hide-sidebar.css
   - css/hoverable_elements.css
   - css/legends.css
   - css/headers.css
@@ -45,6 +46,7 @@ nav:
         - NBDC Data Dictionary: data_access/nbdc_datadictionary.md
         - LASSO PORTAL: data_access/lasso.md
         - DEAP: data_access/DEAP.md
+    - Recommended Programs: data_access/recprograms.md
     - Responsible Data Use: data_access/resp_data_use.md
   - Get Help:
     - FAQs: faq.md
