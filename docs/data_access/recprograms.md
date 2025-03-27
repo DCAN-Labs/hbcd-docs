@@ -1,7 +1,9 @@
 # Recommended Programs
 
 ## Brain Imaging Data
-### Interactive Visualization, Analysis, & Processing
+### Interactive Visualization - Volumetric Data
+The following programs are recommended for visualizing volumetric data (e.g. T1w, T2w, DTI, etc.):
+
 **[ITK-Snap](http://www.itksnap.org/pmwiki/pmwiki.php)**        
 <span style="display: inline-block; background-color: #f0f8ff; color: #333; border-radius: 12px; padding: 1px 5px; font-size: 0.9em; border: 1px solid #d0e7ff;">
   <i class="fa-regular fa-lightbulb" style="margin-right: 6px; color:rgb(13, 148, 8);"></i>
@@ -18,17 +20,17 @@ A free, open-source software application used to visualize and segment 3D and 4D
 A free, open-source image viewer for medical images, particularly MRI data. It is part of the FSL software suite and provides a user-friendly interface for visualizing and analyzing neuroimaging data.       
 [Download instructions for FSLeyes <i class="fa fa-download"></i>](https://fsl.fmrib.ox.ac.uk/fsl/docs/#/utilities/fsleyes)
 
-**[Connectome Workbench](https://www.humanconnectome.org/software/workbench)**          
-A free, open-source software package for the visualization and analysis of neuroimaging data. For an overview of the different volumetric and surface-based file types, check out [NIfTI, CIFTI, GIFTI in the HCP and Workbench: a primer](https://mvpa.blogspot.com/2014/03/nifti-cifti-gifti-in-hcp-and-workbench.html). Recommended Workbench tools include:
+### Interactive Visualization & Processing - Surface Data
+**[Connectome Workbench](https://www.humanconnectome.org/software/workbench)** is a free, open-source software package particularly useful for visualizing connectivity data, surface-based analyses, and more. It is recommended for viewing and processing surface data (`.gii` files), volume data (`.nii/.nii.gz` files), and CIFTI data (dlabel, dscalar, dtseries, pconn, etc. files) - check out this [blog post](https://mvpa.blogspot.com/2014/03/cifti-primer.html) for a helpful primer on the difference between these various file formats. Useful Workbench tools include:
 
->**wb_view**       
+**wb_view**       
 <span style="display: inline-block; background-color: #f0f8ff; color: #333; border-radius: 12px; padding: 1px 5px; font-size: 0.9em; border: 1px solid #d0e7ff;">
   <i class="fa-regular fa-lightbulb" style="margin-right: 6px; color:rgb(13, 148, 8);"></i>
   <strong>Good for:</strong> interactive visualization (volumetric & surface data)
 </span>     
-An interactive GUI used for inspecting images, particularly useful for visualizing surface-based data. It allows users to view and manipulate 3D brain images, including the ability to rotate, zoom, and pan the images. It also provides tools for overlaying different types of data, such as functional and structural images, and for visualizing connectivity data. `wb_view` supports a variety of file formats, including: surface data (`.gii` files), volume data (`.nii/.nii.gz` files), and CIFTI data (dlabel, dscalar, dtseries, pconn, etc. files).
+An interactive GUI used for inspecting images, particularly useful for visualizing surface-based data. It allows users to view and manipulate 3D brain images, including the ability to rotate, zoom, and pan the images. It also provides tools for overlaying different types of data, such as functional and structural images, and for visualizing connectivity data. `wb_view` supports a variety of file formats, including: 
 
->**wb_command**          
+**wb_command**          
 <span style="display: inline-block; background-color: #f0f8ff; color: #333; border-radius: 12px; padding: 1px 5px; font-size: 0.9em; border: 1px solid #d0e7ff;">
   <i class="fa-regular fa-lightbulb" style="margin-right: 6px; color:rgb(13, 148, 8);"></i>
   <strong>Good for:</strong> processing & analysis
