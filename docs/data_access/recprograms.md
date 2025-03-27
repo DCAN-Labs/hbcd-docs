@@ -10,7 +10,7 @@ The following programs are recommended for visualizing volumetric data (e.g. T1w
   <strong>Good for:</strong> interactive visualization (volumetric data)
 </span>     
 A free, open-source software application used to visualize and segment 3D and 4D medical images. It is particularly useful for brain imaging files such as NIfTI (`.nii.gz`) MRI files (e.g. T1w, T2w, brain segmentations, etc.). See an overview of ITK-Snap on Andy's Brain Blog [here](https://andysbrainbook.readthedocs.io/en/latest/ITK-Snap/ITK-Snap_Overview.html#itk-snap-overview) for a primer.      
-[Download instructions for ITK-Snap <i class="fa fa-download"></i>](http://www.itksnap.org/pmwiki/pmwiki.php?n=Downloads.SNAP4)
+[Download page for ITK-Snap <i class="fa fa-download"></i>](http://www.itksnap.org/pmwiki/pmwiki.php?n=Downloads.SNAP4)
 
 **[FSLeyes](https://fsl.fmrib.ox.ac.uk/fsleyes/)**      
 <span style="display: inline-block; background-color: #f0f8ff; color: #333; border-radius: 12px; padding: 1px 5px; font-size: 0.9em; border: 1px solid #d0e7ff;">
@@ -18,7 +18,7 @@ A free, open-source software application used to visualize and segment 3D and 4D
   <strong>Good for:</strong> interactive visualization (volumetric data)
 </span>   
 A free, open-source image viewer for medical images, particularly MRI data. It is part of the FSL software suite and provides a user-friendly interface for visualizing and analyzing neuroimaging data.       
-[Download instructions for FSLeyes <i class="fa fa-download"></i>](https://fsl.fmrib.ox.ac.uk/fsl/docs/#/utilities/fsleyes)
+[Download page for FSLeyes <i class="fa fa-download"></i>](https://fsl.fmrib.ox.ac.uk/fsl/docs/#/utilities/fsleyes)
 
 ### Interactive Visualization & Processing - Surface Data
 **[Connectome Workbench](https://www.humanconnectome.org/software/workbench)** is a free, open-source software package particularly useful for visualizing connectivity data, surface-based analyses, and more. It is recommended for viewing and processing surface data (`.gii` files), volume data (`.nii/.nii.gz` files), and CIFTI data (dlabel, dscalar, dtseries, pconn, etc. files) - check out this [blog post](https://mvpa.blogspot.com/2014/03/cifti-primer.html) for a helpful primer on the difference between these various file formats. Useful Workbench tools include:
@@ -37,7 +37,7 @@ An interactive GUI used for inspecting images, particularly useful for visualizi
 </span>     
 A command-line tool that provides a variety of functions for processing and analyzing neuroimaging data. It can be used to perform a wide range of tasks, including image registration, surface generation, and statistical analysis. The command-line interface allows for batch processing of data and can be integrated into scripts for automated analysis.
 
-[Download instructions for Connectome Workbench <i class="fa fa-download"></i>](https://humanconnectome.org/software/get-connectome-workbench)
+[Download page for Connectome Workbench <i class="fa fa-download"></i>](https://humanconnectome.org/software/get-connectome-workbench)
 
 ### Programming Languages
 
@@ -61,8 +61,7 @@ Python is also commonly used in the field of neuroimaging: useful Python modules
   <strong>Good for:</strong> data visualization
 </span>   
 Especially strong for statistical plots, often used in conjunction with analysis results.       
-[Download instructions for R/RStudio <i class="fa fa-download"></i>](https://posit.co/download/rstudio-desktop/)
-
+[Download page for R/RStudio <i class="fa fa-download"></i>](https://posit.co/download/rstudio-desktop/)
 
 
 ## Electroencaphalography (EEG) Data
