@@ -9,11 +9,11 @@ This R package can be used to parse the columns or tables you want to use as a d
 
 ## Brain Imaging Data
 #### Interactive Visualization of Volumetric NIfTI (`.nii.gz`) files (e.g. T1w, T2w, DTI, etc.)
-<i class="fa-solid fa-magnifying-glass"></i> **[ITK-Snap](http://www.itksnap.org/pmwiki/pmwiki.php)**    
+<i class="fa-solid fa-eye"></i></i> **[ITK-Snap](http://www.itksnap.org/pmwiki/pmwiki.php)**    
 A free, open-source software application used to visualize and segment 3D and 4D medical images. See an overview of ITK-Snap on Andy's Brain Blog [here](https://andysbrainbook.readthedocs.io/en/latest/ITK-Snap/ITK-Snap_Overview.html#itk-snap-overview) for a primer.      
 [Download page for ITK-Snap <i class="fa fa-download"></i>](http://www.itksnap.org/pmwiki/pmwiki.php?n=Downloads.SNAP4)
 
-<i class="fa-solid fa-magnifying-glass"></i> **[FSLeyes](https://fsl.fmrib.ox.ac.uk/fsl/docs/#/utilities/fsleyes)**    
+<i class="fa-solid fa-eye"></i></i> **[FSLeyes](https://fsl.fmrib.ox.ac.uk/fsl/docs/#/utilities/fsleyes)**    
 A free, open-source image viewer for medical images, particularly MRI data. Part of the FSL software suite.    
 [Download page for FSLeyes <i class="fa fa-download"></i>](https://fsl.fmrib.ox.ac.uk/fsl/docs/#/utilities/fsleyes)
 
@@ -21,7 +21,7 @@ A free, open-source image viewer for medical images, particularly MRI data. Part
 **[Connectome Workbench](https://www.humanconnectome.org/software/connectome-workbench)** is a free, open-source software package particularly useful for visualizing connectivity data, surface-based analyses, and more. It is recommended for viewing and processing surface data (`.gii` files), volume data (`.nii/.nii.gz` files), and CIFTI data (dlabel, dscalar, dtseries, pconn, etc. files) - check out this [blog post](https://mvpa.blogspot.com/2014/03/nifti-cifti-gifti-in-hcp-and-workbench.html) for a helpful primer on the difference between these various file formats. Useful Workbench tools include wb_view and wb_command.    
 [Download page for Connectome Workbench <i class="fa fa-download"></i>](https://humanconnectome.org/software/get-connectome-workbench)
 
-<i class="fa-solid fa-magnifying-glass"></i> **wb_view**       
+<i class="fa-solid fa-eye"></i></i> **wb_view**       
 <span style="display: inline-block; background-color: #f0f8ff; color: #333; border-radius: 12px; padding: 1px 5px; font-size: 0.9em; border: 1px solid #d0e7ff;">
   <i class="fa-regular fa-lightbulb" style="margin-right: 6px; color:rgb(13, 148, 8);"></i>
   <strong>Good for:</strong> interactive visualization (volumetric & surface data)
