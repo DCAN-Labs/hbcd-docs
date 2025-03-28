@@ -1,5 +1,7 @@
 # Phenotype BIDS Data
-The `phenotype/` folder includes instrument data, visit data, biosample, and demographics information for all participants, each of which includes a `tsv` data file and associated `json` file with explanation of the data fields. 
+The data provided within the `phenotype/` folder contains tabulated data, including demographic, toxicology, and behavior. It also includes data associated with magnetic resonance imaging (MRI), spectroscopy (MRS), electroencephalography (EEG), and motion/accelerometry data (from [wearable sensor](../measures/sensors.md) recordings for leg motion). See the full list of included instruments and measures in the [Data Measures](../measures/index.md#data-measure-release-notes) overview of the Release Notes.
+
+Tabulated data is provided in both `.tsv` and `.parquet` formats and contain information for all participants. The `.parquet` files are a columnar storage format that is optimized for performance and efficiency, while the `.tsv` files are tab-separated values files that can be easily opened in spreadsheet software or text editors. Each set of files is additionally accompanied by a `.json` file that describes the structure of the data, including the names and types of each column, as well as any additional metadata.
 
 <pre class="folder-tree">
 bids/

@@ -1,23 +1,19 @@
 # Recommended Programs
 
+## Tabulated Data
+Tabulated data within the `phenotype/` folder, including demographic, toxicology, and behavioral data provided as `.tsv` and `.parquet` files (see details [here](../datacuration/phenotypes.md)). To work with these files, we recommend the following programs:
+
+**NBDCtools** [COMING SOON] - This R package can be used to parse the columns or tables you want to use as a data frame in R. The package will automatically determine the appropriate file to pull from and how to format the data based on the data dictionary. This allows for easy manipulation and analysis of the data without having to manually parse the files or worry about formatting issues.   
+[Download page for NBDCtools <i class="fa fa-download"></i>]() 
+
 ## Brain Imaging Data
 ### Interactive Visualization - Volumetric Data
-The following programs are recommended for visualizing volumetric data (e.g. T1w, T2w, DTI, etc.):
+The following programs are recommended for visualizing volumetric NIfTI (`.nii.gz`) files (e.g. T1w, T2w, DTI, etc.):
 
-**[ITK-Snap](http://www.itksnap.org/pmwiki/pmwiki.php)**        
-<span style="display: inline-block; background-color: #f0f8ff; color: #333; border-radius: 12px; padding: 1px 5px; font-size: 0.9em; border: 1px solid #d0e7ff;">
-  <i class="fa-regular fa-lightbulb" style="margin-right: 6px; color:rgb(13, 148, 8);"></i>
-  <strong>Good for:</strong> interactive visualization (volumetric data)
-</span>     
-A free, open-source software application used to visualize and segment 3D and 4D medical images. It is particularly useful for brain imaging files such as NIfTI (`.nii.gz`) MRI files (e.g. T1w, T2w, brain segmentations, etc.). See an overview of ITK-Snap on Andy's Brain Blog [here](https://andysbrainbook.readthedocs.io/en/latest/ITK-Snap/ITK-Snap_Overview.html#itk-snap-overview) for a primer.      
+**[ITK-Snap](http://www.itksnap.org/pmwiki/pmwiki.php)** - A free, open-source software application used to visualize and segment 3D and 4D medical images. See an overview of ITK-Snap on Andy's Brain Blog [here](https://andysbrainbook.readthedocs.io/en/latest/ITK-Snap/ITK-Snap_Overview.html#itk-snap-overview) for a primer.      
 [Download page for ITK-Snap <i class="fa fa-download"></i>](http://www.itksnap.org/pmwiki/pmwiki.php?n=Downloads.SNAP4)
 
-**[FSLeyes](https://fsl.fmrib.ox.ac.uk/fsl/docs/#/utilities/fsleyes)**      
-<span style="display: inline-block; background-color: #f0f8ff; color: #333; border-radius: 12px; padding: 1px 5px; font-size: 0.9em; border: 1px solid #d0e7ff;">
-  <i class="fa-regular fa-lightbulb" style="margin-right: 6px; color:rgb(13, 148, 8);"></i>
-  <strong>Good for:</strong> interactive visualization (volumetric data)
-</span>   
-A free, open-source image viewer for medical images, particularly MRI data. It is part of the FSL software suite and provides a user-friendly interface for visualizing and analyzing neuroimaging data.       
+**[FSLeyes](https://fsl.fmrib.ox.ac.uk/fsl/docs/#/utilities/fsleyes)** - A free, open-source image viewer for medical images, particularly MRI data. Part of the FSL software suite.    
 [Download page for FSLeyes <i class="fa fa-download"></i>](https://fsl.fmrib.ox.ac.uk/fsl/docs/#/utilities/fsleyes)
 
 ### Interactive Visualization & Processing - Surface Data
@@ -41,26 +37,11 @@ A command-line tool that provides a variety of functions for processing and anal
 
 ### Programming Languages
 
-**[MATLAB](https://www.mathworks.com/products/matlab.html)**        
-<span style="display: inline-block; background-color: #f0f8ff; color: #333; border-radius: 12px; padding: 1px 5px; font-size: 0.9em; border: 1px solid #d0e7ff;">
-  <i class="fa-regular fa-lightbulb" style="margin-right: 6px; color:rgb(13, 148, 8);"></i>
-  <strong>Good for:</strong> analysis and data visualization
-</span>          
-MATLAB has a variety of built-in functions and toolboxes for neuroimaging data. Note that it is proprietary, but may be provided at no-cost through your institution or department. See Andy's Brain Blog [Matlab for Neuroimagers](https://andysbrainbook.readthedocs.io/en/latest/Matlab/Matlab_Overview.html#matlab-for-neuroimagers) for a primer.
+**[MATLAB](https://www.mathworks.com/products/matlab.html)** - MATLAB has a variety of built-in functions and toolboxes for neuroimaging data. Note that it is proprietary, but may be provided at no-cost through your institution or department. See Andy's Brain Blog [Matlab for Neuroimagers](https://andysbrainbook.readthedocs.io/en/latest/Matlab/Matlab_Overview.html#matlab-for-neuroimagers) for a primer.
 
-**Python**      
-<span style="display: inline-block; background-color: #f0f8ff; color: #333; border-radius: 12px; padding: 1px 5px; font-size: 0.9em; border: 1px solid #d0e7ff;">
-  <i class="fa-regular fa-lightbulb" style="margin-right: 6px; color:rgb(13, 148, 8);"></i>
-  <strong>Good for:</strong> analysis and data visualization
-</span>   
-Python is also commonly used in the field of neuroimaging: useful Python modules for neuroimaging include NiBabel, Nilearn, Nipype, PyNIfTI, PySurfer, PyTorch, and others. See Andy's Brain Blog [Python for Neuroimagers](https://andysbrainbook.readthedocs.io/en/latest/PythonForNeuroimagers/PythonForNeuroimagers_Overview.html) for a primer. 
+**Python** - Python is also commonly used in the field of neuroimaging: useful Python modules for neuroimaging include NiBabel, Nilearn, Nipype, PyNIfTI, PySurfer, PyTorch, and others. See Andy's Brain Blog [Python for Neuroimagers](https://andysbrainbook.readthedocs.io/en/latest/PythonForNeuroimagers/PythonForNeuroimagers_Overview.html) for a primer. 
 
-**R/RStudio**   
-<span style="display: inline-block; background-color: #f0f8ff; color: #333; border-radius: 12px; padding: 1px 5px; font-size: 0.9em; border: 1px solid #d0e7ff;">
-  <i class="fa-regular fa-lightbulb" style="margin-right: 6px; color:rgb(13, 148, 8);"></i>
-  <strong>Good for:</strong> data visualization
-</span>   
-Especially strong for statistical plots, often used in conjunction with analysis results.       
+**R/RStudio** - Especially strong for statistical plots, often used in conjunction with analysis results.       
 [Download page for R/RStudio <i class="fa fa-download"></i>](https://posit.co/download/rstudio-desktop/)
 
 
