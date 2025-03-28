@@ -48,7 +48,7 @@ If you need both the data dictionary and the associated data:
 <img src="../images/querytool/query_step5.png" width="100%" height="auto" class="center">
 
 Note that the **shadow matrix** is downloadable as a CSV file and will appear as an additional option after running the query:
-<img src="../images/querytool/shadowmatrixdownload.png" width="50%" height="auto" class="center">
+<img src="../images/querytool/shadowmatrix.png" width="50%" height="auto" class="center">
 
 #### Step 6: Save and Reuse Your Queries
 To save time on future queries, click the **Save Query** button. Your saved queries can be accessed later via the **Load Query** button. Select your saved query, click **Run**, and instantly download the most up-to-date data.
