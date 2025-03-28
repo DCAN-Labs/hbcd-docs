@@ -7,16 +7,14 @@ Tabulated data within the `phenotype/` folder includes demographic, toxicology, 
 [Download page for NBDCtools <i class="fa fa-download"></i>]() 
 
 ## Brain Imaging Data
-### Interactive Visualization - Volumetric Data
-The following programs are recommended for visualizing volumetric NIfTI (`.nii.gz`) files (e.g. T1w, T2w, DTI, etc.):
-
+#### Interactive Visualization of Volumetric NIfTI (`.nii.gz`) files (e.g. T1w, T2w, DTI, etc.)
 **[ITK-Snap](http://www.itksnap.org/pmwiki/pmwiki.php)** - A free, open-source software application used to visualize and segment 3D and 4D medical images. See an overview of ITK-Snap on Andy's Brain Blog [here](https://andysbrainbook.readthedocs.io/en/latest/ITK-Snap/ITK-Snap_Overview.html#itk-snap-overview) for a primer.      
 [Download page for ITK-Snap <i class="fa fa-download"></i>](http://www.itksnap.org/pmwiki/pmwiki.php?n=Downloads.SNAP4)
 
 **[FSLeyes](https://fsl.fmrib.ox.ac.uk/fsl/docs/#/utilities/fsleyes)** - A free, open-source image viewer for medical images, particularly MRI data. Part of the FSL software suite.    
 [Download page for FSLeyes <i class="fa fa-download"></i>](https://fsl.fmrib.ox.ac.uk/fsl/docs/#/utilities/fsleyes)
 
-### Interactive Visualization & Processing - Surface Data
+#### Interactive Visualization & Processing of Surface Data
 **[Connectome Workbench](https://www.humanconnectome.org/software/connectome-workbench)** is a free, open-source software package particularly useful for visualizing connectivity data, surface-based analyses, and more. It is recommended for viewing and processing surface data (`.gii` files), volume data (`.nii/.nii.gz` files), and CIFTI data (dlabel, dscalar, dtseries, pconn, etc. files) - check out this [blog post](https://mvpa.blogspot.com/2014/03/nifti-cifti-gifti-in-hcp-and-workbench.html) for a helpful primer on the difference between these various file formats. Useful Workbench tools include:
 
 **wb_view**       
@@ -35,7 +33,7 @@ A command-line tool that provides a variety of functions for processing and anal
 
 [Download page for Connectome Workbench <i class="fa fa-download"></i>](https://humanconnectome.org/software/get-connectome-workbench)
 
-### Programming Languages
+## Programming Languages
 
 **[MATLAB](https://www.mathworks.com/products/matlab.html)** - MATLAB has a variety of built-in functions and toolboxes for neuroimaging data. Note that it is proprietary, but may be provided at no-cost through your institution or department. See Andy's Brain Blog [Matlab for Neuroimagers](https://andysbrainbook.readthedocs.io/en/latest/Matlab/Matlab_Overview.html#matlab-for-neuroimagers) for a primer.
 
