@@ -1,7 +1,7 @@
 # Recommended Programs & Utilities [🚧 UNDER CONSTRUCTION 🚧]
 
 ## Tabulated Data
-Tabulated data within the `phenotype/` folder includes demographic, toxicology, and behavioral data provided as `.tsv` and `.parquet` files (see details [here](../datacuration/phenotypes.md)). To work with these files, we recommend the following programs:
+Tabulated data within the `phenotype/` folder includes demographic, toxicology, and behavioral data provided as `.tsv` and `.parquet` files (see details [here](../../datacuration/phenotypes.md)). To work with these files, we recommend the following programs:
 
 <i class="fas fa-database"></i> **NBDCtools** [COMING SOON]   
 This R package can be used to parse the columns or tables you want to use as a data frame in R. The package will automatically determine the appropriate file to pull from and how to format the data based on the data dictionary. This allows for easy manipulation and analysis of the data without having to manually parse the files or worry about formatting issues.   
