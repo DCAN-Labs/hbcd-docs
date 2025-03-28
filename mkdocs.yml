@@ -43,10 +43,12 @@ nav:
   - Access Data:
     - How To Access Data: data_access/index.md
     - How To Download Data:
-        - NBDC Data Dictionary: data_access/nbdc_datadictionary.md
+        - Overview: data_access/overview.md
         - LASSO PORTAL: data_access/lasso.md
         - DEAP: data_access/DEAP.md
-    - Recommended Programs: data_access/recprograms.md
+    - "Data Formats & Tools":
+        - Tabulated Data: data_access/dataformats/tabulated.md
+        - Recommended Programs: data_access/dataformats/recprograms.md
     - Responsible Data Use: data_access/resp_data_use.md
   - Get Help:
     - FAQs: faq.md

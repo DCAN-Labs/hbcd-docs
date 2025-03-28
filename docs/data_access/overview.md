@@ -1,4 +1,8 @@
-# NBDC Data Dictionary
+# Overview
+
+The tabulated data in the BIDS `rawdata/phenotype/` directory are provided in both tab-separated values (TSV) and [Apache Parquet](https://parquet.apache.org/) formats. Parquet (along with comma-separated values, CSV, files) files are also an option when exporting the tabulated data using the Lasso File Based Query workflow. DEAP provides these and several additional export formats like those expected by different statistical software solutions (SPSS, Stata, R). See the sections on [Lasso](../data_access/lasso.md) and [DEAP](../data_access/DEAP.md) for details on exporting data. In addition to the tabulated data resource, some of the concatenated file-based data are also offered as both plain text (CSV) and Parquet files.
+
+## NBDC Data Dictionary
 HBCD data is organized into tables, each of which contains a set of variables. The data dictionary provides detailed information about each variable in the HBCD data tables. The dictionary includes the variable name, label, description, data type, and other relevant information. Both the [Lasso Portal Query Tool](lasso.md#dictionary-query-tool) and the Data Exploration and Analysis Portal ([DEAP](DEAP.md)) and can be used to explore the data dictionary and download HBCD data. 
 
 Below are the definitions for the columns in the data dictionaries for these utilities. Also note that some columns also correspond to elements in the BIDS JSON files that accompany all tabulated data (hover over <i class="bi bi-filetype-json" style="font-size:18px; color:blue;"></i> icon for details in table below).

@@ -139,4 +139,3 @@ Cohort types included in the data release are as follows, with each listed item 
 <br>
 </div>
 </p>
-
