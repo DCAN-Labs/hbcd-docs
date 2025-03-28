@@ -8,23 +8,23 @@ bids/
 |__ phenotype/
     |
     | <span class="hashtag"># BioSpecimen Data</span>
-    |__ bio_biosample_nails.tsv
-    |__ bio_biosample_nails.json
-    |__ bio_biosample_urine.tsv
-    |__ bio_biosample_urine.json
+    |__ bio_biosample_<span class="placeholder">&lt;nails|urine&gt;</span>.tsv
+    |__ bio_biosample_<span class="placeholder">&lt;nails|urine&gt;</span>.parquet
+    |__ bio_biosample_<span class="placeholder">&lt;nails|urine&gt;</span>.json
     |  
     | <span class="hashtag"># Visit Data</span>
     |__ par_visit_data.tsv
+    |__ par_visit_data.parquet
     |__ par_visit_data.json
     |
     | <span class="hashtag"># Demographics Data</span>
-    |__ sed_basic_demographics.tsv
-    |__ sed_basic_demographics.json
-    |__ sed_bm_demo.tsv
-    |__ sed_bm_demo.json
+    |__ sed_<span class="placeholder">&lt;basic_demographics|bm_demo&gt;</span>.tsv
+    |__ sed_<span class="placeholder">&lt;basic_demographics|bm_demo&gt;</span>.parquet
+    |__ sed_<span class="placeholder">&lt;basic_demographics|bm_demo&gt;</span>.json
     |
     | <span class="hashtag"># Instruments</span>
     |__ <span class="placeholder">&lt;instrument_name&gt;</span>.tsv
+    |__ <span class="placeholder">&lt;instrument_name&gt;</span>.parquet
     |__ <span class="placeholder">&lt;instrument_name&gt;</span>.json
 </pre>
 
