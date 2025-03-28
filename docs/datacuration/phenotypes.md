@@ -7,7 +7,7 @@ Tabulated data lists information for all participants in both `.tsv` and `.parqu
 bids/
 |__ phenotype/
     |
-    | <span class="hashtag"># BioSpecimen Data (preprended with 'bio_')</span>
+    | <span class="hashtag"># BioSpecimen Data (prepended with 'bio_')</span>
     |__ bio_biosample_<span class="placeholder">&lt;nails|urine&gt;</span>.tsv
     |__ bio_biosample_<span class="placeholder">&lt;nails|urine&gt;</span>.parquet
     |__ bio_biosample_<span class="placeholder">&lt;nails|urine&gt;</span>.json
