@@ -15,8 +15,7 @@ In contrast, [Apache Parquet](https://parquet.apache.org/documentation/latest/) 
 import pandas as pd
 parquet_df = pd.read_parquet("path/to/file.parquet")
 
-# Loading the data in R (requires 'arrow' package):
-library(readr)  
+# Loading the data in R (requires 'arrow' package):  
 library(arrow)
 parquet_df <- read_parquet("path/to/file.parquet")
 ```
