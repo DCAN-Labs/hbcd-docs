@@ -47,7 +47,7 @@ If you need both the data dictionary and the associated data:
 
 <img src="../images/querytool/query_step5.png" width="100%" height="auto" class="center">
 
-Note that the **[shadow matrix](dataformats/tabulated.md#shadow-matrix)** is downloadable as a CSV file and will appear as an additional option after running the query:
+Note that the **[shadow matrix](dataformats/tabulated.md#shadow-matrices)** is downloadable as a CSV file and will appear as an additional option after running the query:
 <img src="../images/querytool/shadowmatrix.png" width="50%" height="auto" class="center">
 
 #### Step 6: Save and Reuse Your Queries
