@@ -21,7 +21,7 @@ To avoid such issues, it's recommended to manually define column types using the
 [Apache Parquet](https://parquet.apache.org/documentation/latest/) is a modern, compressed, columnar format optimized for large-scale data. In contrast to TSV files, Parquet supports selective column loading and smaller file sizes. This improves loading speed and memory usage and enhances performance for analytical workflows. Crucially, parqet can store metadata (including column types, variable/value labels, and categorical coding) directly in the file, enabling accurate import without manual setup (see [here] for how DEAP handles Parquet export).
 
 
-<p style="margin-bottom: 0; padding-bottom: 0;">Example: Loading parquet file in Python (using <a href="https://docs.pola.rs/">polars</a> or <a href="https://pandas.pydata.org/docs/getting_started/index.html">pandas</a> modules)</p>
+<p style="margin-bottom: 0; padding-bottom: 0;"><b>Example: Loading parquet file in Python (using <a href="https://docs.pola.rs/">polars</a> or <a href="https://pandas.pydata.org/docs/getting_started/index.html">pandas</a> modules)</b></p>
 
 ```bash
 # Using `polars` module [RECOMMENDED]:
@@ -33,7 +33,7 @@ import pandas as pd
 parquet_df = pd.read_parquet("path/to/file.parquet")
 ```
 
-<p style="margin-bottom: 0; padding-bottom: 0;">Example: Loading parquet file in R (<a href="https://arrow.apache.org/docs/r/">arrow</a> package):</p>
+<p style="margin-bottom: 0; padding-bottom: 0;"><b>Example: Loading parquet file in R (<a href="https://arrow.apache.org/docs/r/">arrow</a> package):</b></p>
 
 ```bash 
 # Using `arrow` package:
@@ -55,7 +55,14 @@ Below is an illustrative example showing a data file (left) and its correspondin
 
 In HBCD, some participant responses like “Don’t know” or “Decline to answer” (which are typically considered non-responses) are deliberately converted to missing values in the data file, with the original response converted to a missingness reason stored in the shadow matrix. This prevents analytical errors such as inadvertently treating placeholder codes (like `777` or `999`, common in other datasets) as valid numeric values during analysis.
 
-While this approach supports cleaner analyses, there are situations where non-responses are themselves meaningful. For example, a researcher might be interested in how often participants do not understand a given question and how this relates to other variables. In such cases, users can re-integrate the non-responses from the shadow matrix back into the data. 
+<div id="parquetbids" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">When should I use shadow matrices?</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<p>While the approach of storing missingness reasons in a shadow matrix file supports cleaner analyses, there are situations where non-responses are themselves meaningful. For example, a researcher might be interested in how often participants do not understand a given question and how this relates to other variables. In such cases, users can re-integrate the non-responses from the shadow matrix back into the data.</p>
+</div>
 
 ### Working with Shadow Matrices in R and Python 
 Below we provide helper functions (for both **Python** and **R**) to help researchers with using the shadow matrix files in combination with the data files to, for example, explore and understand patterns of missing data. These functions join the tabulated data file with its corresponding shadow matrix file so data columns are combined with columns providing the reasons for missingness in the same data frame.
