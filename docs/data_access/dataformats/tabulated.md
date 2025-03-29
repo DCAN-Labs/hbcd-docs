@@ -20,20 +20,23 @@ To avoid such issues, it's recommended to manually define column types using the
 
 [Apache Parquet](https://parquet.apache.org/documentation/latest/) is a modern, compressed, columnar format optimized for large-scale data. In contrast to TSV files, Parquet supports selective column loading and smaller file sizes. This improves loading speed and memory usage and enhances performance for analytical workflows. Crucially, parqet can store metadata (including column types, variable/value labels, and categorical coding) directly in the file, enabling accurate import without manual setup (see [here] for how DEAP handles Parquet export).
 
-<p style="margin-bottom: 0; padding-bottom: 0; font-size: 1.1em">Loading parquet data in Python</p>
+
+<p style="margin-bottom: 0; padding-bottom: 0;">Example: Loading parquet file in Python (using <a href="https://docs.pola.rs/">polars</a> or <a href="https://pandas.pydata.org/docs/getting_started/index.html">pandas</a> modules)</p>
+
 ```bash
-# Loading data in Python using the `polars` module [RECOMMENDED]:
+# Using `polars` module [RECOMMENDED]:
 import polars as pl
 parquet_df = pl.read_parquet("path/to/file.parquet")
 
-# Loading data in Python using the `pandas` module:
+# Using `pandas` module:
 import pandas as pd
 parquet_df = pd.read_parquet("path/to/file.parquet")
 ```
 
-<p style="margin-bottom: 0; padding-bottom: 0; font-size: 1.1em">Loading parquet data in R</p>
-```bash
-# Loading the data in R (using the 'arrow' package):  
+<p style="margin-bottom: 0; padding-bottom: 0;">Example: Loading parquet file in R (<a href="https://arrow.apache.org/docs/r/">arrow</a> package):</p>
+
+```bash 
+# Using `arrow` package:
 library(arrow)
 parquet_df <- read_parquet("path/to/file.parquet")
 ```
