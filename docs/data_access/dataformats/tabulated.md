@@ -1,4 +1,4 @@
-# Tabulated Data [🚧 UNDER CONSTRUCTION 🚧]
+# Tabulated Data
 ## Plain text vs. Parquet files
 Tabulated data in the BIDS `rawdata/phenotype/` directory are available in both tab-separated values (TSV) and [Apache Parquet](https://parquet.apache.org/) formats. Some concatenated, file-based data are also offered as CSV and Parquet files.
 
