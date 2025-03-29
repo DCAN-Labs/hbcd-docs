@@ -51,7 +51,7 @@ While this approach supports cleaner analyses, there are situations where non-re
 Below we provide helper functions (for both **Python** and **R**) to help researchers with using the shadow matrix files in combination with the data files to, for example, explore and understand patterns of missing data. These functions join the tabulated data file with its corresponding shadow matrix file so data columns are combined with columns providing the reasons for missingness in the same data frame.
 These functions let you:
 
-* Quickly inspect why data is missing (e.g., `NOT_COLLECTED`, `DECLINED`)  
+* Quickly inspect why data is missing (e.g., `Decline to Answer`, `Logic Skipped`, etc.)  
 * Integrate missingness reasons into your analysis or use them during filtering  
 * Generate missing data visualizations to help understand patterns of missingness
 
