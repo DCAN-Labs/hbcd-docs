@@ -24,7 +24,7 @@ A free, open-source image viewer for medical images, particularly MRI data. Part
 <i class="fa-solid fa-eye"></i></i> **wb_view**       
 <span style="display: inline-block; background-color: #f0f8ff; color: #333; border-radius: 12px; padding: 1px 5px; font-size: 0.9em; border: 1px solid #d0e7ff;">
   <i class="fa-regular fa-lightbulb" style="margin-right: 6px; color:rgb(13, 148, 8);"></i>
-  <strong>Good for:</strong> interactive visualization (volumetric & surface data)
+  <strong>Good for:</strong> interactive visualization
 </span>     
 An interactive GUI used for inspecting images, particularly useful for visualizing surface-based data. It allows users to view and manipulate 3D brain images, including the ability to rotate, zoom, and pan the images. It also provides tools for overlaying different types of data, such as functional and structural images, and for visualizing connectivity data.  
 
