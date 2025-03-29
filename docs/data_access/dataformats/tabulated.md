@@ -32,14 +32,18 @@ parquet_df <- read_parquet("path/to/file.parquet")
 Both formats are provided to support a range of tools and user preferences. However, **we recommend using Parquet for NBDC tabulated data to ensure correctly specified data types, faster loading speeds, and lower memory usage.**
 
 ## Shadow Matrices
-Each TSV/Parquet ***data file*** in the BIDS `rawdata/phenotype/` directory has a corresponding TSV/Parquet ***shadow matrix file*** that mirrors the data file structure and column names. Shadow matrix files can be exported as CSV files via Lasso when running a query (see details [here](../lasso.md#step-5-query-the-associated-data)) or in a chosen file format via DEAP when downloading a dataset (see details [here]() - ADD LINK).
+Each TSV and Parquet ***data file*** in the BIDS `/rawdata/phenotype/` directory has a corresponding ***shadow matrix file*** in the same format (TSV or Parquet). These shadow matrix files mirror the structure and column names of the original data files.
 
-In the data files, missing values appear as blank cells. The shadow matrix provides essential context by reporting *the reason why a value is missing*. Each cell in the shadow matrix corresponds to the same cell in the data file:
+Shadow matrices can be exported as CSV files via Lasso when running a query (see details [here](../lasso.md#step-5-query-the-associated-data)) or downloaded in a chosen file format via DEAP (see details [here]() - ADD LINK).
 
-- If the data cell contains a value, the shadow matrix cell is blank.
-- If the data cell is missing, the corresponding shadow matrix cell includes a code or description indicating why the data is missing (e.g., “don’t know,” “decline to answer,” “missed visit”).
+In the data files, missing values are represented as blank cells. Shadow matrices provide essential context by indicating why a value is missing. Each cell in a shadow matrix corresponds to the same cell in the associated data file:
 
-[ADD VISUAL HERE THAT SHOWS THE STRUCTURE OF DATA AND SHADOW FILE]
+- If a data cell contains a value, the corresponding shadow matrix cell is blank.
+- If a data cell is missing, the corresponding shadow matrix cell includes a code or description indicating the reason (e.g., “don’t know,” “declined to answer,” “missed visit”).
+
+Below is an illustrative example showing a data file (left) and its corresponding shadow matrix (right). In the data file, missing values appear as blank cells. The corresponding cells in the shadow matrix contain the reason for each missing value (<mark style="background-color: #f9cb9b; font-weight: normal;">highlighted for clarity</mark>).
+
+![](../images/shadowmatrix.png)
 
 In HBCD, some participant responses like “Don’t know” or “Decline to answer” (which are typically considered non-responses) are deliberately converted to missing values in the data file, with the original response converted to a missingness reason stored in the shadow matrix. This prevents analytical errors such as inadvertently treating placeholder codes (like `777` or `999`, common in other datasets) as valid numeric values during analysis.
 
