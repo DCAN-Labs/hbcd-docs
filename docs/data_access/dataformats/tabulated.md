@@ -37,7 +37,6 @@ In HBCD, some participant responses like “Don’t know” or “Decline to ans
 While this approach supports cleaner analyses, there are situations where non-responses are themselves meaningful. For example, a researcher might be interested in how often participants do not understand a given question and how this relates to other variables. In such cases, users can re-integrate the non-responses from the shadow matrix back into the data. 
 
 ### Working with Shadow Matrices in R and Python 
-### 🚧 UNDER CONSTRUCTION 🚧 - CODE NEEDS TO BE TESTED
 Below we provide helper functions (for both **Python** and **R**) to help researchers with using the shadow matrix files in combination with the data files to, for example, explore and understand patterns of missing data. These functions join the tabulated data file with its corresponding shadow matrix file so data columns are combined with columns providing the reasons for missingness in the same data frame.
 These functions let you:
 
@@ -45,6 +44,7 @@ These functions let you:
 * Integrate missingness reasons into your analysis or use them during filtering  
 * Generate missing data visualizations to help understand patterns of missingness
 
+### 🚧 UNDER CONSTRUCTION 🚧 - CODE NEEDS TO BE TESTED
 #### 🐍 Python Helper Function 
 ```
 import pandas as pd
