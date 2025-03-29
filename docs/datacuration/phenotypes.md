@@ -1,7 +1,7 @@
 # Phenotype BIDS Data
 The data provided within the `phenotype/` folder contains tabulated data from measures and instruments listed under [Data Measure Release Notes](../measures/index.md#tabulated-data). This includes behavior, demographics, visit data, toxicology results, and tabulated data associated with brain imaging and other [file-based data types](../measures/index.md#file-based-data).
 
-Tabulated data lists information for all participants in both `.tsv` and `.parquet` format. The `.parquet` files are a columnar storage format that is optimized for performance and efficiency, while the `.tsv` files are tab-separated values files that can be easily opened in spreadsheet software or text editors. Each set of files is additionally accompanied by a `.json` file that describes the structure of the data, including the names and types of each column, as well as any additional metadata.
+Tabulated data lists information for all participants in both `.tsv` and `.parquet` format. The `.parquet` files are a columnar storage format that is optimized for performance and efficiency, while the `.tsv` files are tab-separated values files that can be easily opened in spreadsheet software or text editors. Each set of files is additionally accompanied by a `.json` metadata file that describes the structure of the data, including the names and types of each column.
 
 <pre class="folder-tree">
 bids/
