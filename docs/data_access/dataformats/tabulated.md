@@ -44,10 +44,10 @@ parquet_df <- read_parquet("path/to/file.parquet")
 ## Shadow Matrices
 Each TSV and Parquet ***data file*** in the BIDS `/rawdata/phenotype/` directory has a corresponding ***shadow matrix file*** in the same format (TSV or Parquet). These shadow matrix files mirror the structure and column names of the original data files. Shadow matrices can be exported as CSV files via Lasso when running a query (see details [here](../lasso.md#step-5-query-the-associated-data)) or downloaded in a chosen file format via DEAP (see details [here]() - ADD LINK).
 
-In the data files, missing values are represented as blank cells. Shadow matrices provide essential context by indicating why a value is missing. Each cell in a shadow matrix corresponds to the same cell in the associated data file:
+In the data files, missing values are represented as blank cells. Shadow matrices provide essential context by indicating the reason a value is missing (e.g., “don’t know,” “declined to answer,” “missed visit”). Each cell in a shadow matrix corresponds to the same cell in the associated data file:
 
 - If a data cell contains a value, the corresponding shadow matrix cell is blank.
-- If a data cell is missing, the corresponding shadow matrix cell includes a code or description indicating the reason (e.g., “don’t know,” “declined to answer,” “missed visit”), as illustrated below by the <mark style="background-color: #f9cb9b; font-weight: normal;">highlighted cells</mark> in the data file (*left*) vs. the corresponding shadow matrix (*right*).
+- If a data cell is missing, the corresponding shadow matrix cell includes a code or description indicating the reason the data is missing, as illustrated below by the <mark style="background-color: #f9cb9b; font-weight: normal;">highlighted cells</mark> in the data file (*left*) vs. the corresponding shadow matrix (*right*).
 
 ![](../images/shadowmatrix.png)
 
