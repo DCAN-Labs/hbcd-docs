@@ -264,74 +264,73 @@ done</span>
 
 <pre class="folder-tree">
 mcribs/
-sub-<span class="label">&lt;label&gt;</span>/
-|_ ses-<span class="label">&lt;label&gt;</span>/
-    |__ RawT2/
-    |   |__ <span class="subses">SUBSES</span>.nii.gz
-    |
-    |__ RawT2RadiologicalIsotropic/
-    |   |__ <span class="subses">SUBSES</span>.nii.gz_symlink_s3_object
-    |
-    |__ SurfReconDeformable/
-    |   |__ <span class="subses">SUBSES</span>/
-    |       |__ meshes/
-    |       |   |__ <span class="placeholder">&lt;internal|pial+internal|pial|white+internal|white&gt;</span>.vtp
-    |       |   |__ pial-<span class="placeholder">&lt;lh|rh&gt;</span>-reordered.vtp
-    |       |   |__ pial-<span class="placeholder">&lt;lh|rh&gt;</span>.vtp
-    |       |   |__ white-<span class="placeholder">&lt;lh|rh&gt;</span>.CortexMask.curv
-    |       |   |__ white-<span class="placeholder">&lt;lh|rh&gt;</span>.Normals.surf
-    |       |   |__ white-<span class="placeholder">&lt;lh|rh&gt;</span>.RegionId.curv
-    |       |   |__ white-<span class="placeholder">&lt;lh|rh&gt;</span>.vtp
-    |       |
-    |       |__ recon/
-    |       |   |__ cortical-hull-dmap.nii.gz
-    |       |   |__ regions.nii.gz 
-    |       |
-    |       |__ temp/
-    |           |__ <span class="placeholder">&lt;brain|cortex&gt;</span>-mask.nii.gz
-    |           |__ cerebrum-<span class="placeholder">&lt;1|2|3&gt;</span>.vtp
-    |           |__ cerebrum-<span class="placeholder">&lt;lh|rh&gt;</span>-<span class="placeholder">&lt;1|2|3&gt;</span>.vtp
-    |           |__ cerebrum-<span class="placeholder">&lt;lh|rh&gt;</span>-2-output_<span class="placeholder">#</span>.vtp
-    |           |__ cerebrum-<span class="placeholder">&lt;lh|rh&gt;</span>-dmap.nii.gz
-    |           |__ cerebrum-<span class="placeholder">&lt;lh|rh&gt;</span>-hull-<span class="placeholder">#</span>.vtp
-    |           |__ cerebrum-<span class="placeholder">&lt;lh|rh&gt;</span>-iso.vtp
-    |           |__ cerebrum-<span class="placeholder">&lt;lh|rh&gt;</span>-mask.nii.gz
-    |           |__ corpus-callosum-mask-<span class="placeholder">&lt;1|2|3&gt;</span>.nii.gz
-    |           |__ deep-gray-matter-mask-<span class="placeholder">&lt;1|2&gt;</span>.nii.gz
-    |           |__ gray-matter-mask-<span class="placeholder">&lt;1|2&gt;</span>.nii.gz
-    |           |__ pial-<span class="placeholder">&lt;#|#-output_#&gt;</span>.vtp
-    |           |__ pial-foreground.nii.gz
-    |           |__ t2w-image.nii.gz_symlink_s3_object
-    |           |__ ventricles-dmap.nii.gz
-    |           |__ ventricles-mask-<span class="placeholder">&lt;1|2&gt;</span>.nii.gz
-    |           |__ white-<span class="placeholder">&lt;#|#-output_#&gt;</span>.vtp
-    |           |__ white-foreground.nii.gz
-    |           |__ white-matter-mask-<span class="placeholder">&lt;1|2&gt;</span>.nii.gz
-    |
-    |__ TissueSeg/
-    |   |__ <span class="subses">SUBSES</span>_all_labels.nii.gz
-    |   |__ <span class="subses">SUBSES</span>_all_labels_manedit.nii.gz_symlink_s3_object
-    |   |__ <span class="subses">SUBSES</span>_brain_mask.nii.gz
-    |   |__ <span class="subses">SUBSES</span>_t2w_restore.nii.gz_symlink_s3_object
-    |
-    |__ TissueSegDrawEM/
-    |   |__ <span class="subses">SUBSES</span>/
-    |       |__ N4/
-    |           |__ <span class="subses">SUBSES</span>.nii.gz_symlink_s3_object
-    |
-    |__ freesurfer/ <span class="hashtag"># Only files unique to M-CRIB-S freesurfer/ folder displayed below</span>
-    |   |__ <span class="subses">SUBSES</span>/
-    |       |__ label/
-    |       |__ mri/
-    |       |   |__ brain.mgz_symlink_s3_object
-    |       |   |__ orig.mgz_symlink_s3_object
-    |       |__ stats/
-    |       |__ surf/
-    |
-    |__ logs/
-    |   |__ <span class="subses">SUBSES</span>.log
-    |
-    |__ command.txt
+sub-<span class="label">&lt;label&gt;</span>_ses-<span class="label">&lt;label&gt;</span>/
+|__ RawT2/
+|   |__ <span class="subses">SUBSES</span>.nii.gz
+|
+|__ RawT2RadiologicalIsotropic/
+|   |__ <span class="subses">SUBSES</span>.nii.gz_symlink_s3_object
+|
+|__ SurfReconDeformable/
+|   |__ <span class="subses">SUBSES</span>/
+|       |__ meshes/
+|       |   |__ <span class="placeholder">&lt;internal|pial+internal|pial|white+internal|white&gt;</span>.vtp
+|       |   |__ pial-<span class="placeholder">&lt;lh|rh&gt;</span>-reordered.vtp
+|       |   |__ pial-<span class="placeholder">&lt;lh|rh&gt;</span>.vtp
+|       |   |__ white-<span class="placeholder">&lt;lh|rh&gt;</span>.CortexMask.curv
+|       |   |__ white-<span class="placeholder">&lt;lh|rh&gt;</span>.Normals.surf
+|       |   |__ white-<span class="placeholder">&lt;lh|rh&gt;</span>.RegionId.curv
+|       |   |__ white-<span class="placeholder">&lt;lh|rh&gt;</span>.vtp
+|       |
+|       |__ recon/
+|       |   |__ cortical-hull-dmap.nii.gz
+|       |   |__ regions.nii.gz 
+|       |
+|       |__ temp/
+|           |__ <span class="placeholder">&lt;brain|cortex&gt;</span>-mask.nii.gz
+|           |__ cerebrum-<span class="placeholder">&lt;1|2|3&gt;</span>.vtp
+|           |__ cerebrum-<span class="placeholder">&lt;lh|rh&gt;</span>-<span class="placeholder">&lt;1|2|3&gt;</span>.vtp
+|           |__ cerebrum-<span class="placeholder">&lt;lh|rh&gt;</span>-2-output_<span class="placeholder">#</span>.vtp
+|           |__ cerebrum-<span class="placeholder">&lt;lh|rh&gt;</span>-dmap.nii.gz
+|           |__ cerebrum-<span class="placeholder">&lt;lh|rh&gt;</span>-hull-<span class="placeholder">#</span>.vtp
+|           |__ cerebrum-<span class="placeholder">&lt;lh|rh&gt;</span>-iso.vtp
+|           |__ cerebrum-<span class="placeholder">&lt;lh|rh&gt;</span>-mask.nii.gz
+|           |__ corpus-callosum-mask-<span class="placeholder">&lt;1|2|3&gt;</span>.nii.gz
+|           |__ deep-gray-matter-mask-<span class="placeholder">&lt;1|2&gt;</span>.nii.gz
+|           |__ gray-matter-mask-<span class="placeholder">&lt;1|2&gt;</span>.nii.gz
+|           |__ pial-<span class="placeholder">&lt;#|#-output_#&gt;</span>.vtp
+|           |__ pial-foreground.nii.gz
+|           |__ t2w-image.nii.gz_symlink_s3_object
+|           |__ ventricles-dmap.nii.gz
+|           |__ ventricles-mask-<span class="placeholder">&lt;1|2&gt;</span>.nii.gz
+|           |__ white-<span class="placeholder">&lt;#|#-output_#&gt;</span>.vtp
+|           |__ white-foreground.nii.gz
+|           |__ white-matter-mask-<span class="placeholder">&lt;1|2&gt;</span>.nii.gz
+|
+|__ TissueSeg/
+|   |__ <span class="subses">SUBSES</span>_all_labels.nii.gz
+|   |__ <span class="subses">SUBSES</span>_all_labels_manedit.nii.gz_symlink_s3_object
+|   |__ <span class="subses">SUBSES</span>_brain_mask.nii.gz
+|   |__ <span class="subses">SUBSES</span>_t2w_restore.nii.gz_symlink_s3_object
+|
+|__ TissueSegDrawEM/
+|   |__ <span class="subses">SUBSES</span>/
+|       |__ N4/
+|           |__ <span class="subses">SUBSES</span>.nii.gz_symlink_s3_object
+|
+|__ freesurfer/ <span class="hashtag"># Only files unique to M-CRIB-S freesurfer/ folder displayed below</span>
+|   |__ <span class="subses">SUBSES</span>/
+|       |__ label/
+|       |__ mri/
+|       |   |__ brain.mgz_symlink_s3_object
+|       |   |__ orig.mgz_symlink_s3_object
+|       |__ stats/
+|       |__ surf/
+|
+|__ logs/
+|   |__ <span class="subses">SUBSES</span>.log
+|
+|__ command.txt
 </pre>
 *See [Format of File Structure Visuals](#visformat) for further guidance on interpreting the folder tree above.*
 
@@ -342,51 +341,50 @@ M-CRIB-S converts and organizes its output into a FreeSurfer-compatible format, 
 
 <pre class="folder-tree">
 freesurfer/
-sub-<span class="label">&lt;label&gt;</span>/
-|_ ses-<span class="label">&lt;label&gt;</span>/
-    |__ label/
-    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc+DKTatlas.annot
-    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc+DKTatlas.auto.nomask.annot
-    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc.annot
-    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc.auto.nomask.annot
-    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.cortex.label
-    |
-    |__ mri/
-    |   |__ T2.mgz
-    |   |__ aparc+<span class="placeholder">&lt;DKTatlas&gt;</span>+aseg.mgz
-    |   |__ aseg.mgz
-    |   |__ aseg.<span class="placeholder">&lt;internal|presurf|presurf.preunwmfix&gt;</span>.mgz
-    |   |__ brain.mgz
-    |   |__ brainmask.mgz
-    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.ribbon.mgz
-    |   |__ norm.mgz
-    |   |__ orig.mgz
-    |   |__ ribbon.mgz
-    |
-    |__ scripts/
-    |   |__ mcribs.log
-    |
-    |__ stats/
-    |   |__aseg.stats
-    |   |__brainvol.stats
-    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc+DKTatlas.stats
-    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc.stats
-    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.curv.stats
-    |
-    |__ surf/
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.<span class="placeholder">&lt;area|area.mid|area.pial&gt;</span>
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.curv
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.inflated
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.inflated.<span class="placeholder">&lt;H|K&gt;</span>
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.midthickness
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.orig
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.pial
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.smoothwm
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.smoothwm.<span class="placeholder">&lt;BE|C|FI|H|K|K1|K2|S&gt;</span>.crv
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.smoothwm.<span class="placeholder">&lt;H|K&gt;</span>
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.sphere
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.sphere.<span class="placeholder">&lt;reg|reg2&gt;</span>
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.<span class="placeholder">&lt;sulc|thickness|volume|white&gt;</span>
+sub-<span class="label">&lt;label&gt;</span>_ses-<span class="label">&lt;label&gt;</span>/
+|__ label/
+|   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc+DKTatlas.annot
+|   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc+DKTatlas.auto.nomask.annot
+|   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc.annot
+|   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc.auto.nomask.annot
+|   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.cortex.label
+|
+|__ mri/
+|   |__ T2.mgz
+|   |__ aparc+<span class="placeholder">&lt;DKTatlas&gt;</span>+aseg.mgz
+|   |__ aseg.mgz
+|   |__ aseg.<span class="placeholder">&lt;internal|presurf|presurf.preunwmfix&gt;</span>.mgz
+|   |__ brain.mgz
+|   |__ brainmask.mgz
+|   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.ribbon.mgz
+|   |__ norm.mgz
+|   |__ orig.mgz
+|   |__ ribbon.mgz
+|
+|__ scripts/
+|   |__ mcribs.log
+|
+|__ stats/
+|   |__aseg.stats
+|   |__brainvol.stats
+|   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc+DKTatlas.stats
+|   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc.stats
+|   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.curv.stats
+|
+|__ surf/
+    |__ <span class="placeholder">&lt;lh|rh&gt;</span>.<span class="placeholder">&lt;area|area.mid|area.pial&gt;</span>
+    |__ <span class="placeholder">&lt;lh|rh&gt;</span>.curv
+    |__ <span class="placeholder">&lt;lh|rh&gt;</span>.inflated
+    |__ <span class="placeholder">&lt;lh|rh&gt;</span>.inflated.<span class="placeholder">&lt;H|K&gt;</span>
+    |__ <span class="placeholder">&lt;lh|rh&gt;</span>.midthickness
+    |__ <span class="placeholder">&lt;lh|rh&gt;</span>.orig
+    |__ <span class="placeholder">&lt;lh|rh&gt;</span>.pial
+    |__ <span class="placeholder">&lt;lh|rh&gt;</span>.smoothwm
+    |__ <span class="placeholder">&lt;lh|rh&gt;</span>.smoothwm.<span class="placeholder">&lt;BE|C|FI|H|K|K1|K2|S&gt;</span>.crv
+    |__ <span class="placeholder">&lt;lh|rh&gt;</span>.smoothwm.<span class="placeholder">&lt;H|K&gt;</span>
+    |__ <span class="placeholder">&lt;lh|rh&gt;</span>.sphere
+    |__ <span class="placeholder">&lt;lh|rh&gt;</span>.sphere.<span class="placeholder">&lt;reg|reg2&gt;</span>
+    |__ <span class="placeholder">&lt;lh|rh&gt;</span>.<span class="placeholder">&lt;sulc|thickness|volume|white&gt;</span>
 </pre>
 *See [Format of File Structure Visuals](#visformat) for further guidance on interpreting the folder tree above.*
 
