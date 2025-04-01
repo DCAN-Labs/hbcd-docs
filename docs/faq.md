@@ -127,6 +127,18 @@
 
 ## Tabulated Data
 <p>
+<div id="faq-subids" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">How do I determine whether data is associated with the birth parent or the child?</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<p>In the HBCD Study, <i>all</i> data is collected under the child's subject ID, including data provided by the birth parent or caregiver. This is because most of the information gathered from the parent or caregiver pertains to the child. To distinguish who provided the information, refer to the “source” component in the table name. This indicates whether the data came from the caregiver, child, or another source.</p>
+<p>For more details on cohort definitions and caregiver types included in the data release, please see Phenotype BIDS Data &gt; <a href="../datacuration/phenotypes/#cohort-caregiver-types">Cohort & Caregiver Types</a>.</p>
+</div>
+</p>
+
+<p>
 <div id="faq-age" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
   <span class="text">What is the difference between the fields reporting age?</span>
