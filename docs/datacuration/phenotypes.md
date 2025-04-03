@@ -39,7 +39,7 @@ For example, `mri_ra_prep` refers to MRI-related data entered by a research assi
 
 
 <div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
-  <span class="text">Potential Values For Domain and Source</span>
+  <span class="text">Values for 'domain' and 'source' components</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
