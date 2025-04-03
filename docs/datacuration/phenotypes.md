@@ -28,21 +28,20 @@ bids/
     |__ <span class="placeholder">&lt;instrument_name&gt;</span>.json
 </pre>
 
+
 ## Instrument File Naming Conventions
-Most protocol elements follow a standardized naming convention with the structure: `domain_source_acronym`. Each component represents the following:
+Most protocol elements follow a standardized naming convention with the structure: `domain_source_acronym`. Note that imaging derivatives do not follow this naming schemes, but are generally understood to be under the MRI, EEG, etc. domain and strictly for the 'Child.' Each component represents the following:
 
 - **domain**: The general domain or category the protocol element falls under (e.g., biospecimens, MRI, behavior).
 - **source**: Indicates who the protocol element is about or, in some cases, who completed the assessment. The source can represent either the *respondent* (who provided the information) or the *subject* (who the data is about).
 For example, `mri_ra_prep` refers to MRI-related data entered by a research assistant (RA), representing procedural details as opposed to not direct input from a child or caregiver.
 - **acronym/abbreviation**: A short form or code representing the specific protocol element.
 
-<p>
-<div id="demo-age" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+
+<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text">Potential Values For Domain and Source</span>
   <span class="arrow">▸</span>
 </div>
-
 <div class="collapsible-content">
   <div style="display: flex; gap: 40px; flex-wrap: wrap;">
     <div>
@@ -74,7 +73,22 @@ For example, `mri_ra_prep` refers to MRI-related data entered by a research assi
     </div>
   </div>
 </div>
-</p>
+
+<div id="demo-age" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">FYI: Correspondance to JSON Metadata</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<p>The <code>domain</code> and <code>source</code> are also included in the JSON metadata and are typically derived from the corresponding sections of the instrument name. However, in some cases, data are collected directly into fields or tables that do not follow the standard naming convention. In those instances, the domain and source values are added later during the Data Release process.</p>
+<strong>This applies to:</strong>
+<ul>
+<li>BioSpecimens  </li>
+<li>Imaging file based data &amp; derivatives  </li>
+<li>Some session-level elements (e.g. <code>informantID</code>)  </li>
+<li>Participant-level data</li>
+</ul>
+</div>
 
 ## Demographics Data 
 <p style="margin: 0 0 5px;">Demographic (<code>sed_basic_demographics.tsv</code>) information provided for each participant includes:</p>
