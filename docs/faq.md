@@ -135,21 +135,7 @@
 <div class="notification-collapsible-content">
 <p>In the HBCD Study, <i>all</i> data are collected under the child’s subject ID, even when provided by the birth parent or another caregiver. This is because most information collected from caregivers pertains to the child.</p> 
 
-<p>To help identify who provided the information, the <b>source</b> component in the table name can be used. This typically indicates whether the data came from the caregiver, child, or another source. However, note that the meaning of "source" may vary depending on the context as it can refer to either the respondent (who completed the assessment) or the subject (who the data is about). For example, <code>mri_ra_prep</code> is entered by a research assistant and reflects procedural information rather than direct child or caregiver input.</p>
-
-<p><strong>The options for <b>source</b> are as follows:</strong>  </p>
-<ul>
-<li><code>ch</code> - Child  </li>
-<li><code>bm</code> - Biological Mother  </li>
-<li><code>si</code> - Sibling  </li>
-<li><code>te</code> - Teacher  </li>
-<li><code>cl</code> - Clinician  </li>
-<li><code>ra</code> - RA (research assistant) </li>
-<li><code>ld</code> - Linked Data  </li>
-<li><code>fd</code> - Family Data</li>
-</ul>
-
-<p>For more details on cohort definitions and caregiver types included in the data release, please see Phenotype BIDS Data &gt; <a href="../datacuration/phenotypes/#cohort-caregiver-types">Cohort & Caregiver Types</a>.</p>
+<p>To help identify who provided the information, the <b>source</b> component in the table name may be helpful, as it typically indicates whether the data came from the caregiver, child, or another source. However, the meaning of source is not consistent across instruments - please see Phenotype BIDS Data &gt; <a href="../datacuration/phenotypes/#instrument-file-naming-conventions">Instrument File Naming Conventions</a> for details.</p>
 </div>
 </p>
 

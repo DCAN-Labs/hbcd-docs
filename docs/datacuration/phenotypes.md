@@ -28,6 +28,54 @@ bids/
     |__ <span class="placeholder">&lt;instrument_name&gt;</span>.json
 </pre>
 
+## Instrument File Naming Conventions
+Most protocol elements follow a standardized naming convention with the structure: `domain_source_acronym`. Each component represents the following:
+
+- **domain**: The general domain or category the protocol element falls under (e.g., biospecimens, MRI, behavior).
+- **source**: Indicates who the protocol element is about or, in some cases, who completed the assessment. The source can represent either the *respondent* (who provided the information) or the *subject* (who the data is about).
+For example, `mri_ra_prep` refers to MRI-related data entered by a research assistant (RA), representing procedural details as opposed to not direct input from a child or caregiver.
+- **acronym/abbreviation**: A short form or code representing the specific protocol element.
+
+<p>
+<div id="demo-age" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Potential Values For Domain and Source</span>
+  <span class="arrow">▸</span>
+</div>
+
+<div class="collapsible-content">
+  <div style="display: flex; gap: 40px; flex-wrap: wrap;">
+    <div>
+      <p><strong>Possible values for <b>domain</b>:</strong></p>
+      <ul>
+        <li><code>bio</code> - Biospecimens</li>
+        <li><code>mh</code> - Behavior/Child-Caregiver Interaction</li>
+        <li><code>sed</code> - Social/Environmental Health Determinants</li>
+        <li><code>sens</code> - Biosensor</li>
+        <li><code>ph</code> - Physical Health</li>
+        <li><code>ncl</code> - Neurocognition and Language</li>
+        <li><code>nt</code> - Novel Tech</li>
+        <li><code>eeg</code> - EEG</li>
+        <li><code>mri</code> - MRI</li>
+      </ul>
+    </div>
+    <div>
+      <p><strong>Possible values for <b>source</b>:</strong></p>
+      <ul>
+        <li><code>ch</code> - Child</li>
+        <li><code>bm</code> - Biological Mother</li>
+        <li><code>si</code> - Sibling</li>
+        <li><code>te</code> - Teacher</li>
+        <li><code>cl</code> - Clinician</li>
+        <li><code>ra</code> - RA (research assistant)</li>
+        <li><code>ld</code> - Linked Data</li>
+        <li><code>fd</code> - Family Data</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</p>
+
 ## Demographics Data 
 <p style="margin: 0 0 5px;">Demographic (<code>sed_basic_demographics.tsv</code>) information provided for each participant includes:</p>
 <ul>
