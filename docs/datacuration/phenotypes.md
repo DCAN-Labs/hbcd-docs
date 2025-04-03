@@ -76,7 +76,7 @@ For example, `mri_ra_prep` refers to MRI-related data entered by a research assi
 
 <div id="demo-age" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">FYI: Correspondance to JSON Metadata</span>
+  <span class="text">FYI: Correspondence to JSON Metadata</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
