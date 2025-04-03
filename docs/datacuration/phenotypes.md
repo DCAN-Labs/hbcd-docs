@@ -111,23 +111,23 @@ For example, `mri_ra_prep` refers to MRI-related data entered by a research assi
 <p style="margin: 0 0 5px;">Visit data (<code>par_visit_data.tsv</code>) contains all participant visit data, including:</p>
 <ul>
 <li>Visit information: Label, Stage, Date, if the visit was missed, and the reason if visit was missed</li>
-<li>Project, Cohort, and Site</li>
+<li>Project, <a href="#cohorts">Cohort</a>, and Site</li>
 <li>Withdrawal information: if the participant withdrew from the study, the reason, and date</li>
 <li>Protocol violation information: if there was a protocol exception and the date</li>
 <li>Visit details for SU flags raised by TLFB, Biospecimen, or Health-V2 as described above (<a href="#demographics-data">Demographics Data</a>)</li>
 </ul>
 
-## Cohort & Caregiver Types
-Cohort types included in the data release are as follows, with each listed item indicating a specific subtype or [Caregiver Type](#CGtype) (e.g., "HBCD Main Child - Postnatal Recruitment"):
-
-- **HBCD Main Child -** *Postnatal Recruitment*, *Type A-F*
-- **HBCD Multiple Birth -** *Main Child*, *Postnatal Recruitment*, *Postnatal Recruitment - Sibling*, *Type A-F*
-
-<div id="CGtype" class="table-banner" onclick="toggleCollapse(this)">
-  <span class="text">Caregiver Type A-F Definitions</span>
+<div id="cohorts" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="text">Cohort & Caregiver Types</span>
   <span class="arrow">▸</span>
 </div>
-<div class="table-open-collapsible-content">
+<div class="collapsible-content">
+<p>Cohort types included in the data release are as follows, with each listed item indicating a specific subtype or Caregiver Type (e.g., "HBCD Main Child - Postnatal Recruitment"):</p>
+<ul>
+<li><strong>HBCD Main Child -</strong> <em>Postnatal Recruitment</em>, <em>Type A-F</em></li>
+<li><strong>HBCD Multiple Birth -</strong> <em>Main Child</em>, <em>Postnatal Recruitment</em>, <em>Postnatal Recruitment - Sibling</em>, <em>Type A-F</em></li>
+</ul>
+<b>Caregiver Type A-F Definitions</b>
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
 <tbody>
 	<tr>
