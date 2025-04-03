@@ -135,7 +135,7 @@
 <div class="notification-collapsible-content">
 <p>In the HBCD Study, <i>all</i> data are collected under the child’s subject ID, even when provided by the birth parent or another caregiver. This is because most information collected from caregivers pertains to the child.</p> 
 
-<p>To help identify who provided the information, the <b>source</b> component in the table name may be helpful, as it typically indicates whether the data came from the caregiver, child, or another source. However, the meaning of source is not consistent across instruments - please see Phenotype BIDS Data &gt; <a href="../datacuration/phenotypes/#instrument-file-naming-conventions">Instrument File Naming Conventions</a> for details.</p>
+<p>To help identify who provided the information, the <b>source</b> component in the table name may be helpful, as it typically indicates whether the data came from the caregiver, child, or another source. However, the meaning of source is not consistent across all instruments at this time - please see Phenotype BIDS Data &gt; <a href="../datacuration/phenotypes/#instrument-file-naming-conventions">Instrument File Naming Conventions</a> for details.</p>
 </div>
 </p>
 
