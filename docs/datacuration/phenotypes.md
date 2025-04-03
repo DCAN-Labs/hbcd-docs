@@ -34,7 +34,7 @@ Most protocol elements follow a standardized naming convention with the structur
 
 - **domain**: The general domain or category the protocol element falls under (e.g., biospecimens, MRI, behavior).
 - **source**: Indicates who the protocol element is about or, in some cases, who completed the assessment. The source can represent either the *respondent* (who provided the information) or the *subject* (who the data is about).
-For example, `mri_ra_prep` refers to MRI-related data entered by a research assistant (RA), representing procedural details as opposed to not direct input from a child or caregiver.
+For example, `mri_ra_prep` refers to MRI-related data entered by a research assistant (RA), representing procedural details as opposed to direct input from a child or caregiver.
 - **acronym/abbreviation**: A short form or code representing the specific protocol element.
 
 
