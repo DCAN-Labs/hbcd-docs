@@ -67,7 +67,7 @@ Here we describe how researchers can use shadow matrix files in combination with
 
 For working in **R**, we recommend using the `NBDCtools` package - see details [here](recprograms.md#tabulated-data). For **Python**, the following helper function joins the tabulated data file with its corresponding shadow matrix file so data columns are combined with columns providing the reasons for missingness in the same data frame. 
 
-#### 🐍 Python Helper Function - 🚧 CODE NEEDS TO BE TESTED 🚧
+#### 🐍 Python Helper Function
 ```
 import pandas as pd
 import os
@@ -97,5 +97,7 @@ def load_data_with_shadow(data_path, shadow_path):
 
 # Example usage:
 df = load_data_with_shadow("data.tsv", "shadow_matrix.tsv", save=True)
-df[df["income"].isna()][["income_missing_reason"]]  # View reasons for missing income  
+
+# View reasons for missing data for a given column/variable in the data file 
+df[df["<COLUMN NAME>"].isna()][["<COLUMN NAME>_missing_reason"]]  
 ```
