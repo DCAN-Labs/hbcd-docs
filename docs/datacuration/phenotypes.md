@@ -1,7 +1,7 @@
 # Phenotype BIDS Data
 The data provided within the `phenotype/` folder contains tabulated data from measures and instruments listed under [Data Measure Release Notes](../measures/index.md#tabulated-data). This includes behavior, demographics, visit data, toxicology results, and tabulated data associated with brain imaging and other [file-based data types](../measures/index.md#file-based-data).
 
-Tabulated data lists information for all participants in both `.tsv` and `.parquet` format. The `.parquet` files are a columnar storage format that is optimized for performance and efficiency, while the `.tsv` files are tab-separated values files that can be easily opened in spreadsheet software or text editors. Each set of files is additionally accompanied by a `.json` metadata file that describes the structure of the data, including the names and types of each column.
+Tabulated data lists information for all participants in both plain text (`.tsv`) and Parquet (`.parquet`) format. The TSV files are tab-separated values files that can be easily opened in spreadsheet software or text editors, with metadata (including the names and types of each column) provided in a separate `.json` file. The Parquet files are a columnar storage format optimized for performance and efficiency, with metadata stored directly in the file. Certain sets of files are additionally accompanied by corresponding shadow matrices that mirror the structure of the data file with the values replaced by reason for data missingness. Please see the page [Data Formats & Tools > Tabulated Data](../data_access/dataformats/tabulated.md) for details on these file types and how to work with them.
 
 <pre class="folder-tree">
 bids/
@@ -14,17 +14,21 @@ bids/
     |  
     | <span class="hashtag"># Visit Data</span>
     |__ par_visit_data.tsv
+    |__ par_visit_data_shadow.tsv
     |__ par_visit_data.parquet
     |__ par_visit_data.json
     |
     | <span class="hashtag"># Demographics Data</span>
     |__ sed_<span class="placeholder">&lt;basic_demographics|bm_demo&gt;</span>.tsv
+    |__ sed_<span class="placeholder">&lt;basic_demographics|bm_demo&gt;</span>_shadow.tsv
     |__ sed_<span class="placeholder">&lt;basic_demographics|bm_demo&gt;</span>.parquet
     |__ sed_<span class="placeholder">&lt;basic_demographics|bm_demo&gt;</span>.json
     |
     | <span class="hashtag"># Instruments</span>
     |__ <span class="placeholder">&lt;instrument_name&gt;</span>.tsv
+    |__ <span class="placeholder">&lt;instrument_name&gt;</span>_shadow.tsv
     |__ <span class="placeholder">&lt;instrument_name&gt;</span>.parquet
+    |__ <span class="placeholder">&lt;instrument_name&gt;</span>_shadow.parquet
     |__ <span class="placeholder">&lt;instrument_name&gt;</span>.json
 </pre>
 
