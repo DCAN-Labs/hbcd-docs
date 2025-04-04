@@ -70,24 +70,45 @@ For working in **R**, we recommend using the `NBDCtools` package - see details [
 #### 🐍 Python Helper Function - 🚧 CODE NEEDS TO BE TESTED 🚧
 ```
 import pandas as pd
+import os
 
-def load_data_with_shadow(data_path, shadow_path):  
+def load_data_with_shadow(data_path, shadow_path, save=True):  
     """  
-    Loads a data CSV and its corresponding shadow matrix,  
-    and returns a DataFrame with an added '_missing_reason' suffix column  
-    for each column with missing data.  
-    """  
-    data = pd.read_csv(data_path)  
-    shadow = pd.read_csv(shadow_path)
+    Loads a data file (CSV or TSV) and its corresponding shadow matrix,  
+    adds '_missing_reason' columns for missing values, and optionally 
+    saves the result to a new file '<data>_shadow_integrated'.
 
-    # Annotate data with missingness reason columns  
-    for col in data.columns:  
-        if col in shadow.columns:  
-            data[f"{col}_missing_reason"] = shadow[col]
+    Parameters:
+    - data_path (str): Path to the main data file (.csv or .tsv)
+    - shadow_path (str): Path to the shadow matrix file (.csv or .tsv)
+    - save (bool): Whether to save the resulting DataFrame to a file (default: True)
+    """  
+
+    # Detect delimiter from file extension and load data
+    def get_delimiter(path):
+        ext = os.path.splitext(path)[1].lower()
+        return "\t" if ext == ".tsv" else ","
+
+    data = pd.read_csv(data_path, delimiter=get_delimiter(data_path))  
+    shadow = pd.read_csv(shadow_path, delimiter=get_delimiter(shadow_path))
+
+    # Annotate data with non-empty missingness reason columns (excluding participant_id 
+    # and session_id) in shadow matrix 
+    for col in data.columns[2:]:  
+        if col in shadow.columns:
+            if not shadow[col].isna().all() and not (shadow[col] == '').all():
+                data[f"{col}_missing_reason"] = shadow[col]
+
+    # Optionally save the annotated data
+    if save:
+        base, ext = os.path.splitext(os.path.basename(data_path))
+        output_filename = f"{base}_shadow_integrated{ext}"
+        output_path = os.path.join(os.path.dirname(data_path), output_filename)
+        data.to_csv(output_path, sep=get_delimiter(data_path), index=False)
+        print(f"Annotated data saved to: {output_path}")
 
     return data
 
-# Example usage:  
-df = load_data_with_shadow("data.csv", "shadow_matrix.csv")  
-df[df["income"].isna()][["income_missing_reason"]]  # View reasons for missing income  
+# Example usage:
+df = load_data_with_shadow("data.tsv", "shadow_matrix.tsv", save=True)
 ```
