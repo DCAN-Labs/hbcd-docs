@@ -4,9 +4,9 @@
 Tabulated data in the BIDS `rawdata/phenotype/` directory includes demographic, toxicology, and behavioral data (see details [here](../../datacuration/phenotypes.md)) available in both tab-separated values (TSV) and [Apache Parquet](https://parquet.apache.org/) formats. Some concatenated, file-based data are also offered as CSV and Parquet files. Both formats are provided to support a range of tools and user preferences. However, **we recommend using Parquet for NBDC tabulated data to ensure correctly specified data types, faster loading speeds, and lower memory usage.**
 
 ### Plain Text (TSV/CSV)
-Plain text formats (TSV/CSV) are widely compatible and easy to inspect, but less efficient for large datasets. They don't support selective column loading or preserve metadata, such as data type specification. As a result, tools like Python or R must guess data types during import, often incorrectly. For example, categorical values like "0"/"1" for "Yes"/"No" (commonly used in NBDC datasets) may be interpreted as numeric, and columns with mostly missing values may be treated as empty if the first few rows lack data.
+Plain text formats (TSV/CSV) are widely compatible and easy to inspect, but less efficient for large datasets. They don't support selective column loading or preserve metadata, such as data type specification; the metadata is instead available via the sidecar JSON files for plan text files. As a result, tools like Python or R must guess data types during import, often incorrectly. For example, categorical values like "0"/"1" for "Yes"/"No" (commonly used in NBDC datasets) may be interpreted as numeric, and columns with mostly missing values may be treated as empty if the first few rows lack data.
 
-To avoid such issues, it's recommended to manually define column types using the accompanying data dictionary during the import. The `NBDCtools` R package offers a helper function, `read_dsv_formatted()`, to automate this process (see [Recommended Programs](recprograms.md#tabulated-data) for details).
+To avoid such issues, it's recommended to manually define column types using the accompanying data dictionaries included in the sidecar JSON metadata files during the import. The `NBDCtools` R package offers a helper function, `read_dsv_formatted()`, to automate this process (see [Recommended Programs](recprograms.md#tabulated-data) for details).
 
 ### Parquet
 <div id="parquetbids" class="notification-banner" onclick="toggleCollapse(this)">
@@ -15,13 +15,13 @@ To avoid such issues, it's recommended to manually define column types using the
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<p>Please note that Parquet files are not officially supported by the <a href="https://bids-specification.readthedocs.io/en/stable/">BIDS specification</a>. For NBDC datasets, we decided to add Parquet as an alternative file format to the BIDS standard TSV to allow users to take advantage of the features of this modern and efficient open source format that is commonly used in the data science community.</p>
+<p>Please note that Parquet files are currently not officially supported by the <a href="https://bids-specification.readthedocs.io/en/stable/">BIDS specification</a>. For NBDC datasets, we decided to add Parquet as an alternative file format to the BIDS standard TSV to allow users to take advantage of the features of this modern and efficient open source format that is commonly used in the data science community.</p>
 </div>
 
-[Apache Parquet](https://parquet.apache.org/documentation/latest/) is a modern, compressed, columnar format optimized for large-scale data. In contrast to TSV files, Parquet supports selective column loading and smaller file sizes. This improves loading speed and memory usage and enhances performance for analytical workflows. Crucially, parqet can store metadata (including column types, variable/value labels, and categorical coding) directly in the file, enabling accurate import without manual setup (see [here] for how DEAP handles Parquet export).
+[Apache Parquet](https://parquet.apache.org/documentation/latest/) is a modern, compressed, columnar format optimized for large-scale data. In contrast to TSV files, Parquet supports selective column loading and smaller file sizes. This improves loading speed and memory usage and enhances performance for analytical workflows. Crucially, parqet can store metadata (including column types, variable/value labels, and categorical coding) directly in the file, enabling accurate import without manual setup. See details for how Parquet export is handled in [Lasso] (ADD LINK) and [DEAP] (ADD LINK).
 
 
-<p style="margin-bottom: 0; padding-bottom: 0;"><b>Example: Loading parquet file in Python (using <a href="https://docs.pola.rs/">polars</a> or <a href="https://pandas.pydata.org/docs/getting_started/index.html">pandas</a> modules)</b></p>
+<p style="margin-bottom: 0; padding-bottom: 0;"><b>Example: Loading Parquet file in Python (using <a href="https://docs.pola.rs/">polars</a> or <a href="https://pandas.pydata.org/docs/getting_started/index.html">pandas</a> modules)</b></p>
 
 ```bash
 # Using `polars` module [RECOMMENDED]:
@@ -33,7 +33,7 @@ import pandas as pd
 parquet_df = pd.read_parquet("path/to/file.parquet")
 ```
 
-<p style="margin-bottom: 0; padding-bottom: 0;"><b>Example: Loading parquet file in R (<a href="https://arrow.apache.org/docs/r/">arrow</a> package):</b></p>
+<p style="margin-bottom: 0; padding-bottom: 0;"><b>Example: Loading Parquet file in R (<a href="https://arrow.apache.org/docs/r/">arrow</a> package):</b></p>
 
 ```bash 
 # Using `arrow` package:
@@ -63,15 +63,11 @@ In HBCD, some participant responses like “Don’t know” or “Decline to ans
 </div>
 
 ### Working with Shadow Matrices in R and Python 
-Below we provide helper functions (for both **Python** and **R**) to help researchers with using the shadow matrix files in combination with the data files to, for example, explore and understand patterns of missing data. These functions join the tabulated data file with its corresponding shadow matrix file so data columns are combined with columns providing the reasons for missingness in the same data frame.
-These functions let you:
+Here we describe how researchers can use shadow matrix files in combination with the data files to, for example, explore and understand patterns of missing data or integrate missingness reasons (e.g., `Decline to Answer`, `Logic Skipped`, etc.) into your analysis. 
 
-* Quickly inspect why data is missing (e.g., `Decline to Answer`, `Logic Skipped`, etc.)  
-* Integrate missingness reasons into your analysis or use them during filtering  
-* Generate missing data visualizations to help understand patterns of missingness
+For working in **R**, we recommend using the `NBDCtools` package - see details [here](recprograms.md#tabulated-data). For **Python**, the following helper function joins the tabulated data file with its corresponding shadow matrix file so data columns are combined with columns providing the reasons for missingness in the same data frame. 
 
-### 🚧 UNDER CONSTRUCTION 🚧 - CODE NEEDS TO BE TESTED
-#### 🐍 Python Helper Function 
+#### 🐍 Python Helper Function - 🚧 CODE NEEDS TO BE TESTED 🚧
 ```
 import pandas as pd
 
@@ -94,28 +90,4 @@ def load_data_with_shadow(data_path, shadow_path):
 # Example usage:  
 df = load_data_with_shadow("data.csv", "shadow_matrix.csv")  
 df[df["income"].isna()][["income_missing_reason"]]  # View reasons for missing income  
-```
-
-#### <i class="fa fa-bar-chart"></i> R Helper Function For Visualization  
-```
-library(readr)  
-library(dplyr)  
-library(naniar)
-
-load_data_with_shadow <- function(data_path, shadow_path) {  
-  data <- read_csv(data_path, show_col_types = FALSE)  
-  shadow <- read_csv(shadow_path, show_col_types = FALSE)
-
-  # Rename shadow columns with _NA suffix (required by naniar)  
-  colnames(shadow) <- paste0(colnames(shadow), "_NA")
-
-  # Bind the data and the shadow matrix  
-  combined <- bind_cols(data, shadow)
-
-  return(combined)  
-}
-
-# Example usage:  
-df <- load_data_with_shadow("data.csv", "shadow_matrix.csv")  
-vis_miss(df)  # Visualize missingness and reasons  
 ```
