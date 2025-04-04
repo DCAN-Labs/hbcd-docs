@@ -72,16 +72,10 @@ For working in **R**, we recommend using the `NBDCtools` package - see details [
 import pandas as pd
 import os
 
-def load_data_with_shadow(data_path, shadow_path, save=True):  
+def load_data_with_shadow(data_path, shadow_path):  
     """  
-    Loads a data file (CSV or TSV) and its corresponding shadow matrix,  
-    adds '_missing_reason' columns for missing values, and optionally 
-    saves the result to a new file '<data>_shadow_integrated'.
-
-    Parameters:
-    - data_path (str): Path to the main data file (.csv or .tsv)
-    - shadow_path (str): Path to the shadow matrix file (.csv or .tsv)
-    - save (bool): Whether to save the resulting DataFrame to a file (default: True)
+    Loads a data file (CSV or TSV) and its corresponding shadow matrix  
+    (CSV or TSV) and adds '_missing_reason' columns for missing values.
     """  
 
     # Detect delimiter from file extension and load data
@@ -99,16 +93,9 @@ def load_data_with_shadow(data_path, shadow_path, save=True):
             if not shadow[col].isna().all() and not (shadow[col] == '').all():
                 data[f"{col}_missing_reason"] = shadow[col]
 
-    # Optionally save the annotated data
-    if save:
-        base, ext = os.path.splitext(os.path.basename(data_path))
-        output_filename = f"{base}_shadow_integrated{ext}"
-        output_path = os.path.join(os.path.dirname(data_path), output_filename)
-        data.to_csv(output_path, sep=get_delimiter(data_path), index=False)
-        print(f"Annotated data saved to: {output_path}")
-
     return data
 
 # Example usage:
 df = load_data_with_shadow("data.tsv", "shadow_matrix.tsv", save=True)
+df[df["income"].isna()][["income_missing_reason"]]  # View reasons for missing income  
 ```
