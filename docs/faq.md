@@ -240,7 +240,7 @@ Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
-<p>Quality control (QC) metrics derived from automated and manual raw data QC procedures (described in the section <a href="../measures/mri/qc/#raw-mr-data-qc">Raw MR Data QC</a>) are provided for each scan in the session-level <code>scans.tsv</code> file (see details <a href="../datacuration/rawbids/#scan-level-data">here</a>). A sampling approach was used to select a subset of data for manual review based on the automated QC metrics. Therefore, while automated QC metrics are available for all scans, not all will include manual QC metrics in the <code>scans.tsv</code> file. Also note that although the <code>QC</code> field is the overall manual QC score of 1 (pass) or 0 (fail), this field will automatically have a score of 1 if manual QC was not performed.</p>
+<p>Quality control (QC) metrics derived from automated and manual raw data QC procedures (described in the section <a href="../measures/mri/qc/#raw-mr-data-qc">Raw MR Data QC</a>) are provided for each scan in the session-level <code>sub-&lt;label&gt;_ses-&lt;label&gt;_scans.tsv</code> file (see details <a href="../measures/mri/qc/#location-of-raw-data-qc-results-in-data-release">here</a>). A sampling approach was used to select a subset of data for manual review based on the automated QC metrics. Therefore, while automated QC metrics are available for all scans, not all will include manual QC metrics in the <code>scans.tsv</code> file. Also note that although the <code>QC</code> field is the overall manual QC score of 1 (pass) or 0 (fail), this field will automatically have a score of 1 if only automated QC was performed.</p>
 </div>
 </p>
 
@@ -256,7 +256,7 @@ Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing
 <b>Raw Imaging Data:</b> 
 <ul>
 <li>Only data that meet QC standards, as described in <a href="../measures/mri/qc/#raw-mr-data-qc">Raw MR Data QC</a>, are included.</li>
-<li>QC metrics for raw data are available in the <code>sub-&lt;label&gt;_ses-&lt;label&gt;_scans.tsv</code> file within each subject session folder under <code>rawdata/</code>. See <a href="../datacuration/rawbids/#scan-level-data">Raw BIDS Data &gt; Scan-Level Data</a> for details.</li>
+<li>QC metrics for raw data are available in the <code>sub-&lt;label&gt;_ses-&lt;label&gt;_scans.tsv</code> file within each subject session folder under <code>rawdata/</code>. See <a href="../measures/mri/qc/#location-of-raw-data-qc-results-in-data-release">here</a> for details.</li>
 <li>Additional exclusion criteria include acquisition parameter checks and processing pipeline requirements (see <a href="../datacuration/exclusions/#imaging-spectroscopy-eeg-accelerometry">Exclusion Criteria</a>).</li>
 <li>Structural and functional MRI data undergo MRIQC processing to generate image quality metrics. See <a href="../datacuration/derivatives/#mriqc-mriqc">MRIQC derivatives</a> overview for more information. Researchers may use these outputs for further curation if needed.</li>
 </ul>
