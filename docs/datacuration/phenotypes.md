@@ -1,39 +1,40 @@
 # Phenotype BIDS Data
-The data provided within the `phenotype/` folder contains tabulated data from measures and instruments listed under [Data Measure Release Notes](../measures/index.md#tabulated-data). This includes behavior, demographics, visit data, toxicology results, and tabulated data associated with brain imaging and other [file-based data types](../measures/index.md#file-based-data).
+The data provided within the `rawdata/phenotype/` folder contains tabulated data from measures and instruments listed under [Data Measure Release Notes](../measures/index.md#tabulated-data). This includes behavior, demographics, visit data, toxicology results, and tabulated data associated with brain imaging and other [file-based data types](../measures/index.md#file-based-data).
 
 Tabulated data lists information for all participants in both plain text (`.tsv`) and Parquet (`.parquet`) format. The TSV files are tab-separated values files that can be easily opened in spreadsheet software or text editors, with metadata (including the names and types of each column) provided in a separate `.json` file. The Parquet files are a columnar storage format optimized for performance and efficiency, with metadata stored directly in the file. Each data file is additionally accompanied by a corresponding shadow matrix file (in `.tsv` and `.parquet` format) that mirrors the structure of the data file with the values replaced by reason for data missingness. Please see the page [Data Formats & Tools > Tabulated Data](../data_access/dataformats/tabulated.md) for details on these file types and how to work with them.
 
 <pre class="folder-tree">
-bids/
-|__ phenotype/
-    |
-    | <span class="hashtag"># BioSpecimen Data (prepended with 'bio_')</span>
-    |__ bio_biosample_<span class="placeholder">&lt;nails|urine&gt;</span>.tsv
-    |__ bio_biosample_<span class="placeholder">&lt;nails|urine&gt;</span>.json
-    |__ bio_biosample_<span class="placeholder">&lt;nails|urine&gt;</span>_shadow.tsv
-    |__ bio_biosample_<span class="placeholder">&lt;nails|urine&gt;</span>.parquet
-    |__ bio_biosample_<span class="placeholder">&lt;nails|urine&gt;</span>_shadow.parquet
-    |  
-    | <span class="hashtag"># Visit Data</span>
-    |__ par_visit_data.tsv
-    |__ par_visit_data.json
-    |__ par_visit_data_shadow.tsv
-    |__ par_visit_data.parquet
-    |__ par_visit_data_shadow.parquet
-    |
-    | <span class="hashtag"># Demographics Data</span>
-    |__ sed_<span class="placeholder">&lt;basic_demographics|bm_demo&gt;</span>.tsv
-    |__ sed_<span class="placeholder">&lt;basic_demographics|bm_demo&gt;</span>.json
-    |__ sed_<span class="placeholder">&lt;basic_demographics|bm_demo&gt;</span>_shadow.tsv
-    |__ sed_<span class="placeholder">&lt;basic_demographics|bm_demo&gt;</span>.parquet
-    |__ sed_<span class="placeholder">&lt;basic_demographics|bm_demo&gt;</span>_shadow.parquet
-    |
-    | <span class="hashtag"># Instruments</span>
-    |__ <span class="placeholder">&lt;instrument_name&gt;</span>.tsv
-    |__ <span class="placeholder">&lt;instrument_name&gt;</span>.json
-    |__ <span class="placeholder">&lt;instrument_name&gt;</span>_shadow.tsv
-    |__ <span class="placeholder">&lt;instrument_name&gt;</span>.parquet
-    |__ <span class="placeholder">&lt;instrument_name&gt;</span>_shadow.parquet
+r1.0/
+|__ hbcd/
+    |__ rawdata/ 
+        |__ phenotype/
+            | <span class="hashtag"># BioSpecimen Data (prepended with 'bio_')</span>
+            |__ bio_biosample_<span class="placeholder">&lt;nails|urine&gt;</span>.tsv
+            |__ bio_biosample_<span class="placeholder">&lt;nails|urine&gt;</span>.json
+            |__ bio_biosample_<span class="placeholder">&lt;nails|urine&gt;</span>_shadow.tsv
+            |__ bio_biosample_<span class="placeholder">&lt;nails|urine&gt;</span>.parquet
+            |__ bio_biosample_<span class="placeholder">&lt;nails|urine&gt;</span>_shadow.parquet
+            |  
+            | <span class="hashtag"># Visit Data</span>
+            |__ par_visit_data.tsv
+            |__ par_visit_data.json
+            |__ par_visit_data_shadow.tsv
+            |__ par_visit_data.parquet
+            |__ par_visit_data_shadow.parquet
+            |
+            | <span class="hashtag"># Demographics Data</span>
+            |__ sed_<span class="placeholder">&lt;basic_demographics|bm_demo&gt;</span>.tsv
+            |__ sed_<span class="placeholder">&lt;basic_demographics|bm_demo&gt;</span>.json
+            |__ sed_<span class="placeholder">&lt;basic_demographics|bm_demo&gt;</span>_shadow.tsv
+            |__ sed_<span class="placeholder">&lt;basic_demographics|bm_demo&gt;</span>.parquet
+            |__ sed_<span class="placeholder">&lt;basic_demographics|bm_demo&gt;</span>_shadow.parquet
+            |
+            | <span class="hashtag"># Instruments</span>
+            |__ <span class="placeholder">&lt;instrument_name&gt;</span>.tsv
+            |__ <span class="placeholder">&lt;instrument_name&gt;</span>.json
+            |__ <span class="placeholder">&lt;instrument_name&gt;</span>_shadow.tsv
+            |__ <span class="placeholder">&lt;instrument_name&gt;</span>.parquet
+            |__ <span class="placeholder">&lt;instrument_name&gt;</span>_shadow.parquet
 </pre>
 
 

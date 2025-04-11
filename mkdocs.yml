@@ -81,7 +81,7 @@ nav:
             - Magnetic Resonance Spectroscopy: measures/mri/mrs.md 
     - HBCD BIDS Data:
         - Overview: datacuration/overview.md
-        - Raw Data: datacuration/rawbids.md
+        - Raw BIDS Data: datacuration/rawbids.md
         - Derivatives: datacuration/derivatives.md
         - Phenotype: datacuration/phenotypes.md
         - Exclusion Criteria: datacuration/exclusions.md

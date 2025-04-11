@@ -3,26 +3,27 @@
 The `derivatives/` folder contains minimally preprocessed outputs from the [processing pipelines](../processing/index.md). A description of HBCD-specific processing parameters used for each pipeline is available on the [HBCD Processing](https://hbcd-cbrain-processing.readthedocs.io/latest/) webpage. The following sections outline the session-level file and folder contents for each pipeline. 
 
 <pre class="folder-tree">
-bids/
-|__ derivatives/ 
-    |__ bibsnet/
-    |__ hbcd_motion/
-    |__ freesurfer/
-    |__ made/
-    |__ mcribs/
-    |__ mriqc/
-    |__ nibabies/
-    |__ osprey/
-    |__ qmri_postproc/
-    |__ qsiprep/
-    |__ qsirecon/
-    |__ qsirecon-DIPYDKI/
-    |__ qsirecon-DSIStudio/
-    |__ qsirecon-NODDI/
-    |__ qsirecon-TORTOISE_model-MAPMRI/
-    |__ qsirecon-TORTOISE_model-tensor/
-    |__ symri/
-    |__ xcp_d/
+r1.0/
+|__ hbcd/
+    |__ derivatives/ 
+        |__ bibsnet/
+        |__ hbcd_motion/
+        |__ freesurfer/
+        |__ made/
+        |__ mcribs/
+        |__ mriqc/
+        |__ nibabies/
+        |__ osprey/
+        |__ qmri_postproc/
+        |__ qsiprep/
+        |__ qsirecon/
+        |__ qsirecon-DIPYDKI/
+        |__ qsirecon-DSIStudio/
+        |__ qsirecon-NODDI/
+        |__ qsirecon-TORTOISE_model-MAPMRI/
+        |__ qsirecon-TORTOISE_model-tensor/
+        |__ symri/
+        |__ xcp_d/
 </pre>
 
 <p>
