@@ -55,13 +55,12 @@ ReproSchema is a framework designed to address these challenges by providing a s
 </div>
 
 ## ReproSchema Workflow 
+The ReproSchema workflow for standardizing survey data collection consists of six key components, illustrated in Figure 1 below. For details, please see [https://www.repronim.org/reproschema](https://www.repronim.org/reproschema/) and [Chen et al., 2024](https://preprints.jmir.org/preprint/63343).
 
 <figure>
   <img src="../images/reproschema-fig1.jpg" alt="ReproSchema Figure 1">
-  <figcaption style="font-size: 0.9em;"><b>Figure 1. ReproSchema workflow overview.</b> This figure presents the ReproSchema workflow, which standardizes survey data collection to enhance research reproducibility and interoperability across studies. The workflow consists of six key components: <b>(A)</b> ReproSchema supports multiple input formats, including questionnaires in PDF or DOC format (which can be converted to ReproSchema format using large language models (LLMs), such as Claude 3.7 Sonnet, as demonstrated in the supplementary material), existing assessments from the ReproSchema library, and REDCap CSV exports (which can be automatically converted using redcap2reproschema). <b>(B)</b> The reproschema-protocol-cookiecutter tool provides a structured, stepwise process for researchers to create and publish a protocol on GitHub, ensuring organized metadata and version control. This tool enables schema validation and user interface (UI) serving. <b>(C)</b> ReproSchema protocols are stored in GitHub repositories (or other Git-compatible services), where version-controlled URIs ensure persistent access to protocols, activities, and assessment items, supporting reproducibility and provenance tracking. <b>(D)</b> The ReproSchema-UI provides a browser-based interface for interactive survey deployment, allowing researchers and participants to collect structured data while maintaining schema integrity. <b>(E)</b> Survey responses are stored in JSON-LD format, with embedded URIs linking each protocol, activity, and item to their respective sources in the ReproSchema library. This structure ensures data provenance, traceability, and semantic interoperability. <b>(F)</b> The reproschema-py tools facilitate output conversion into various standardized formats, including the National Institute of Mental Health (NIMH) Common Data Elements (reproschema2cde), the Brain Imaging Data Structure (BIDS) phenotype format (reproschema2bids), and REDCap CSV format (output2redcap), ensuring compatibility with existing research workflows.</figcaption>
+  <figcaption style="font-size: 0.9em;"><b>Figure 1. ReproSchema workflow overview.</b> <b>(A)</b> ReproSchema supports multiple input formats, including questionnaires in PDF or DOC format (which can be converted to ReproSchema format using large language models (LLMs) such as Claude 3.7 Sonnet), existing assessments from the ReproSchema library, and REDCap CSV exports (which can be automatically converted using <code>redcap2reproschema</code>). <b>(B)</b> The <code>reproschema-protocol-cookiecutter</code> tool provides a structured, stepwise process for researchers to create and publish a protocol on GitHub, ensuring organized metadata and version control. This tool enables schema validation and user interface (UI) serving. <b>(C)</b> ReproSchema protocols are stored in GitHub repositories, where version-controlled URIs ensure persistent access to protocols, activities, and assessment items, supporting reproducibility and provenance tracking. <b>(D)</b> The ReproSchema-UI provides a browser-based interface for interactive survey deployment, allowing researchers to collect structured data while maintaining schema integrity. <b>(E)</b> Survey responses are stored in JSON-LD format, with embedded URIs linking each protocol, activity, and item to their respective sources in the ReproSchema library. This structure ensures data provenance, traceability, and semantic interoperability. <b>(F)</b> The <code>reproschema-py</code> tools facilitate output conversion into various standardized formats, including National Institute of Mental Health (NIMH) Common Data Elements (<code>reproschema2cde</code>), Brain Imaging Data Structure (BIDS) (<code>reproschema2bids</code>), and REDCap CSV (<code>output2redcap</code>).</figcaption>
 </figure>
-
-For more information about reproschema, please visit [https://www.repronim.org/reproschema/](https://www.repronim.org/reproschema/) or read [Chen et al., 2024](https://preprints.jmir.org/preprint/63343). 
 
 ## Overview of Version Management
 In longitudinal studies like HBCD, where data is collected over extended periods, tracking every change in data collection instruments is vital. ReproSchema's systematic documentation allows researchers to:
@@ -100,17 +99,9 @@ The smallest unit in ReproSchema is an item, which refers to individual question
 
 Tracking these elements allows researchers to see when and how questions change, which is critical in studies that collect data over multiple years.
 
-## Quick Start Guide for Researchers
-In the HBCD Study, researchers collect data using REDCap, a web application for managing surveys and databases. To share and analyze this data, they convert it into the LORIS data dictionary format used for data releases. ReproSchema enables standardized and accurate transformation from REDCap to LORIS, ensuring questionnaire consistency and preserving data integrity across platforms and study phases.
-
-### Accessing and Using Questionnaires
-After obtaining access to the data (see instructions [here](../data_access/index.md)), researchers can easily access and compare questionnaires from the HBCD study by following these steps:
-
- - Each questionnaire includes a JSON file detailing its metadata, including version history.​ The metadata includes change logs detailing any modifications between versions.​
- - TO DO
-
-## Tracking Change 
-Need help? Open an issue on [GitHub](https://github.com/ReproNim/hbcd-loris2reproschema)
+## Additional Resources
+- [https://www.repronim.org/reproschema](https://www.repronim.org/reproschema/)
+- [hbcd-loris2reproschema](https://github.com/ReproNim/hbcd-loris2reproschema) GitHub repository
 
 ## References
 <div class="references">
