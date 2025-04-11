@@ -519,15 +519,15 @@ Based on the predefined threshold outlined in [Table 1](#nails-table1), a confir
     </tr>
     <tr>
         <td>c_amp_n_cat<b>*</b></td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Confirmatory test in nails: amphetamine (categorical) (amp/mamp)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Confirmatory test in nails: amphetamine (categorical) (<i>amp/mamp</i>)</td>
         <td>Categorical</td>
         <td>1: positive<br />0: negative<br />3: QNS<br />4: screen negative</td>
     </tr>
     <tr>
         <td>c_amp_n</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Confirmatory test in nails: amphetamine (amp/mamp)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Confirmatory test in nails: amphetamine (<i>amp/mamp</i>)</td>
         <td>Continuous</td>
-        <td>concentration value -999</td>
+        <td>concentration value<br>-999</td>
     </tr>
 </tbody>
 </table>
