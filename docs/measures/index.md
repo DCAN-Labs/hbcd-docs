@@ -16,7 +16,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
 The data release includes raw (`rawdata/`) and processed "derivative" (`derivatives/`) data for MRI, MRS, EEG, and motion/accelerometry, formatted to adhere to the Brain Imaging Data Structure (BIDS) standard. See [Raw BIDS Data](../datacuration/rawbids.md) and [Derivatives](../datacuration/derivatives.md) under the [HBCD BIDS Data](../datacuration/overview.md) section of the Release Notes for details.
 
 ## Tabulated Data
-The data provided within the `phenotype/` folder includes demographic, toxicology, behavior, and tabulated data associated with magnetic resonance imaging (MRI), spectroscopy (MRS), electroencephalography (EEG), and motion/accelerometry (i.e. [wearable sensor](sensors.md) recordings for leg motion) - see [Phenotype BIDS Data](../datacuration/phenotypes.md) under the [HBCD BIDS Data](../datacuration/overview.md) section of the Release Notes for details on the data structure and file formats. 
+The data provided within the `rawdata/phenotype/` folder includes demographic, toxicology, behavior, and tabulated data associated with magnetic resonance imaging (MRI), spectroscopy (MRS), electroencephalography (EEG), and motion/accelerometry (i.e. [wearable sensor](sensors.md) recordings for leg motion) - see [Phenotype BIDS Data](../datacuration/phenotypes.md) under the [HBCD BIDS Data](../datacuration/overview.md) section of the Release Notes for details on the data structure and file formats. 
 
 <button id="toggle-all-btn">Expand All Sections ↕️</button>
 
