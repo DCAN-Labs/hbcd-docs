@@ -1335,7 +1335,7 @@ The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are corre
         <td colspan="1" rowspan="2">
             <div>etgeia (s_etgeia_u)</div>
         </td>
-        <td>EthylGluc-0100 (c_ethglu_u0)</td>
+        <td>EthylGluc-0100 (c_ethglu_u)</td>
     </tr>
     <tr><td>EthylSul-100 (c_ethsyl_u)</td></tr>
     <tr>
