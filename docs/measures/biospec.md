@@ -1098,6 +1098,7 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
 </div>
 <div class="table-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+<tfoot><tr><td colspan="4"><b>*</b> <i>Categorical confirmatory test variable for nicotine follows a different convention and is ‘c_nicotine_u'</i></td></tr></tfoot>
     <thead>
       <tr>
         <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Variable</th>
@@ -1151,7 +1152,7 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
         <li>3: invalid</li></td>
     </tr>
     <tr>
-        <td>c_amp_u_cat</td>
+        <td>c_amp_u_cat<b>*</b></td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Confirmatory test in urine: amphetamine (categorical) (amp)</td>
         <td>Categorical</td>
         <td><li>1: positive</li>
@@ -1291,12 +1292,9 @@ The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are corre
         <td>Oxymorphone (c_oxym_u)</td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="2">
-            <div>mep (s_mep_u)</div>
-        </td>
-        <td>Meperidinem (c_mep_u)</td>
+        <td>mep (s_mep_u)</td>
+        <td>Normeperidine (c_nmep_u)</td>
     </tr>
-    <tr><td>Normeperidine (c_nmep_u)</td></tr>
     <tr>
         <td>tram (s_tram_u)</td>
         <td>Tramadol (c_tram_u)</td>
@@ -1345,7 +1343,7 @@ The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are corre
         <td colspan="1" rowspan="2">
             <div>zol (s_zol_u)</div>
         </td>
-        <td>Zolpidem (c_zol_u0)</td>
+        <td>Zolpidem (c_zol_u)</td>
     </tr>
     <tr>
         <td>Zolpidem CA (c_zolc_u)</td>
