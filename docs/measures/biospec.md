@@ -447,6 +447,7 @@ Based on the predefined threshold outlined in [Table 1](#nails-table1), a confir
 </div>
 <div class="table-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+<tfoot><tr><td colspan="4"><b>*</b> <i>Categorical confirmatory test variable for alcohol follows a different convention and is ‘c_ethanol_n’</i></td></tr></tfoot>
     <thead>
       <tr>
         <th>Variable</th>
@@ -517,8 +518,8 @@ Based on the predefined threshold outlined in [Table 1](#nails-table1), a confir
         <td>1: positive<br />0: negative<br />3: QNS</td>
     </tr>
     <tr>
-        <td>c_amp_n_cat</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">>Confirmatory test in nails: amphetamine (categorical) (amp/mamp)</td>
+        <td>c_amp_n_cat<b>*</b></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Confirmatory test in nails: amphetamine (categorical) (amp/mamp)</td>
         <td>Categorical</td>
         <td>1: positive<br />0: negative<br />3: QNS<br />4: screen negative</td>
     </tr>
