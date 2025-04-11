@@ -20,9 +20,9 @@ The current data release includes the following instruments:
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">sed_bm_bfy</td>
     </tr>
     <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#discrimination">PhenX+ Toolkit Discrimination</a></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#experiences-with-unfair-treatment">PhenX+ Toolkit Discrimination</a></td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">PhenX+ Discrimination</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Discrimination</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Experiences with Unfair Treatment</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">sed_bm_phx__discr</td>
     </tr>   
     <tr>
@@ -72,7 +72,7 @@ With the exception of PROMIS, all surveys, filled out by the parent, are child-u
         <td>4 min</td>
     </tr>
     <tr>
-        <td>Discrimination</td>
+        <td>Experiences with<br> Unfair Treatment</td>
         <td>Remote survey</td>
         <td>V01, V05, V07</td>
         <td>3 min</td>
@@ -190,8 +190,8 @@ The HBCD BFY includes a selection of questions from the [BFY Age 1 Survey Instru
 </div>
 </p>
 
-### Discrimination
-The [PhenX+ Toolkit Discrimination](https://www.phenxtoolkit.org/protocols/view/210302) measure is a questionnaire to assess perceived discriminatory experiences. Discrimination is an important factor in an individual’s health because it affects access to employment, housing, and education opportunities and can affect self-esteem and cause stress. 
+### Experiences with Unfair Treatment
+The [PhenX+ Toolkit Discrimination](https://www.phenxtoolkit.org/protocols/view/210302) measure is a questionnaire to assess perceived discriminatory experiences. Experiences with Unfair Treatment is an important factor in an individual’s health because it affects access to employment, housing, and education opportunities and can affect self-esteem and cause stress. 
 
 <p>
 <div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
@@ -210,7 +210,7 @@ The [PhenX+ Toolkit Discrimination](https://www.phenxtoolkit.org/protocols/view/
   </tr>
   <tr>
     <td style="width: 400px; word-wrap: break-word; white-space: normal;">
-      <small>In the following questions, we are interested in the way other people have treated you or your beliefs about how other people have treated you. Can you tell me if any of the following has ever happened to you? (Major Experiences of Discrimination)</small>
+      <small>In the following questions, we are interested in the way other people have treated you or your beliefs about how other people have treated you. Can you tell me if any of the following has ever happened to you? (Experiences with Unfair Treatment)</small>
     </td>
     <td style="width: 400px; word-wrap: break-word; white-space: normal;">
       <small>In the following questions, we are interested in your perceptions about the way other people have treated you.  Can you tell me if any of the following has ever happened to you?</small>
@@ -425,7 +425,7 @@ Note that the HBCD measures include the addition of response options “Don’t 
     <p>Noble, K. G., Magnuson, K., Gennetian, L. A., Duncan, G. J., Yoshikawa, H., Fox, N. A., &amp; Halpern-Meekin, S. (2021). Baby’s First Years: Design of a randomized controlled trial of poverty reduction in the United States. <em>Pediatrics</em>, 148(4), e2020049702. <a href="https://doi.org/10.1542/peds.2020-049702">https://doi.org/10.1542/peds.2020-049702</a></p>
     <p>Sanbonmatsu, L., Marvakov, J., Potter, N. A., Yang, F., Adam, E. K., Congdon, W. J., Duncan, G. J., Gennetian, L. A., Katz, L. F., Kling, J. R., Kessler, R. C., Lindau, S. T., Ludwig, J., &amp; McDade, T. W. (2012). The long-term effects of moving to opportunity on adult health and economic self-sufficiency. <em>Cityscape: A Journal of Policy Development and Research</em>, 14, 109-136.</p>
 
-    <p style="margin-bottom: 0; padding-bottom: 0;"><u>Discrimination</u></p>
+    <p style="margin-bottom: 0; padding-bottom: 0;"><u>Experiences with Unfair Treatment</u></p>
     <p>PhenX Toolkit. (2024 November 01). Discrimination, PhenX Toolkit. <a href="https://www.phenxtoolkit.org/protocols/view/210302">https://www.phenxtoolkit.org/protocols/view/210302</a></p>
     <p>Sternthal, M. J., Slopen, N., &amp; Williams, D. R. (2011). Racial disparities in health. <em>Du Bois Review: Social Science Research on Race</em>, 8(1), 95–113. <a href="https://doi.org/10.1017/s1742058x11000087">https://doi.org/10.1017/s1742058x11000087</a></p>
     <p>Williams, D. R. (2015). Measuring discrimination resource. <a href="http://scholar.harvard.edu/davidrwilliams/node/32777">http://scholar.harvard.edu/davidrwilliams/node/32777</a></li>
