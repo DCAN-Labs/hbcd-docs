@@ -69,7 +69,7 @@ nav:
             - Substance Use: measures/pregexp/substanceuse.md
             - Mental Health: measures/pregexp/mentalhealth.md
         - "Social & Environmental Determinants": measures/socenvdet.md
-        - Electroencephalogram: measures/eeg/index.md
+        - Electroencephalography: measures/eeg/index.md
         - Magnetic Resonance Imaging:
             - Overview: measures/mri/index.md
             - MRI Protocols (Leave Site): measures/mri/protocols.md            

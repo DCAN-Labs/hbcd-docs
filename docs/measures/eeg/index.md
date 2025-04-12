@@ -1,4 +1,4 @@
-# Electroencephalogram (EEG)
+# Electroencephalography (EEG)
 EEG tasks are acquired during visits V03, V04, and V06. For full details on the HBCD EEG protocol, please refer to [Fox et al. 2024](https://doi.org/10.1016/j.dcn.2024.101447) published in the Developmental Cognitive Neuroscience special issue on HBCD.
 
 ![](images/EEG_acquisition_protocol.png)
