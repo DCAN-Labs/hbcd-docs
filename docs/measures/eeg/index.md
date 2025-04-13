@@ -56,20 +56,24 @@ Please refer to the [Official EEG Acquisition Manual](https://docs.google.com/do
 </div>
 <div class="collapsible-content">
 <p>The EEG Core of the HBCD Data Coordinating Center (HDCC) has a GitHub repository with file notes and scripts for working with the first HBCD EEG data release. We recommend all users to review this page for important resources.</p> 
-<p>The GitHub website can be found here: <a href="https://github.com/ChildDevLab/HBCD-data-release-notes">https://github.com/ChildDevLab/HBCD-data-release-notes</a>.</p> 
-<p>Additionally, the user can contact us with any questions about working with the EEG data or using the GitHub repository at eegdata@umd.edu.</p>
+<p>The GitHub website can be found here: <a href="https://github.com/ChildDevLab/HBCD-data-release-notes">https://github.com/ChildDevLab/HBCD-data-release-notes</a>.</p>
 </div>
 </p>
 
 ### Faces Task
-The Faces task (v.11.29.23) is used to assess neural activity supporting face and object processing within the first years of life. It assesses child and infant face processing development including attention, perception, categorization, individuation and memory. The measure includes rigorous QC procedures to ensure data integrity and reliability. 
+The Faces task ("FACE") (v.11.29.23) is used to assess neural activity supporting face and object processing within the first years of life. Event-related potentials (ERPs) are recorded while infants view faces and objects using an oddball task designed to index different stages of processing including attention, perception, categorization, individuation, and memory. 
 
-To assess child and infant face processing abilities as well as the underlying neural activity supporting face and object processing, the task involves 2 blocks: 50 trials of upright faces & 50 trials of inverted faces and 50 trials of upright faces & 50 trials of objects. If the child loses attention, an attention getter may be played to bring the child’s focus back to the task.     
+**Task Details**:   
+ERPs that index different stages of processing are computed as a function of repeated presentation of faces and objects. The ERP components elicited by the Faces task are the P1, N290, and P400 components. The task consists of 2 blocks:
+> **Block 1**: 50 trials of upright faces   
+**Block 1**: 50 trials of inverted faces    
+**Block 2**: 50 trials of upright faces    
+**Block 2**: 50 trials of objects
    
 **Face task schematic (Face vs. Object)**<br>
 ![](images/eeg-facetask.png)
 
-Event-related potentials (ERPs) are computed as a function of repeated presentation of faces and objects. The ERPs index different stages of processing including attention, perception, categorization, individuation and memory. The ERP components elicited by the Faces task are the P1, N290, and P400 components. See [Fox et al. 2024](https://doi.org/10.1016/j.dcn.2024.101447) for additional information on the rationale for task/stimulus development and ERP findings from pilot data.   
+If the child loses attention, an attention getter may be played to bring the child’s focus back to the task. There are a total of 36 unique images in the set, with women all displaying neutral expressions, included from each of the following self-identifying demographics: Indigenous, Black, White, Asian, Hispanic/Latino, and South Asian.  See [Fox et al. 2024](https://doi.org/10.1016/j.dcn.2024.101447) for additional information on the rationale for task/stimulus development and ERP findings from pilot data.
 
 ### Auditory Mismatch Negativity Task (MMN)
 <p>
@@ -85,9 +89,10 @@ Event-related potentials (ERPs) are computed as a function of repeated presentat
 
 The Auditory Mismatch Negativity (MMN) Task (v.11.29.23) is designed to assess early speech sound processing in infants, incorporating rigorous quality control procedures to ensure data integrity and reliability. This task measures auditory evoked potentials and examines neural habituation and dishabituation by capturing differential responses to standard ("ba") and deviant ("da") stimuli.
 
-The resulting MMN difference wave, also known as the Mismatch Response (MMR), reflects auditory discrimination and the amplitude/latency has been associated with a range of developmental outcomes, including language ability (([Choudhury & Benasich, 2011](https://doi.org/10.1016/j.clinph.2010.05.035))), temperament and personality traits ([Gurrera et al., 2001](https://doi.org/10.1016/S0006-3223(00)01067-2); [Marshall et al., 2009](https://doi.org/10.1111/j.1467-7687.2008.00808.x)), internalizing problems ([Reeb-Sutherland et al., 2009](https://doi.org/10.1111/j.1469-7610.2009.02170.x)), externalizing and attention problems ([Gumenyuk et al., 2005](https://doi.org/10.1016/j.neulet.2004.10.081)), as well as neurodevelopmental conditions such as autism ([Lepistö et al., 2005](https://doi.org/10.1016/j.brainres.2005.10.052); [Schwartz et al., 2018](https://doi.org/10.1016/j.neubiorev.2018.01.008)) and reading difficulties/dyslexia ([Leppänen et al., 2010](https://doi.org/10.1016/j.cortex.2010.06.003); [Norton et al., 2021](https://doi.org/10.3389/fnhum.2021.624617)).
+The resulting MMN difference wave, also known as the Mismatch Response (MMR), reflects auditory discrimination and the amplitude/latency has been associated with a range of developmental outcomes, including language ability ([Choudhury & Benasich, 2011](https://doi.org/10.1016/j.clinph.2010.05.035)), temperament and personality traits ([Gurrera et al., 2001](https://doi.org/10.1016/S0006-3223(00)01067-2); [Marshall et al., 2009](https://doi.org/10.1111/j.1467-7687.2008.00808.x)), internalizing problems ([Reeb-Sutherland et al., 2009](https://doi.org/10.1111/j.1469-7610.2009.02170.x)), externalizing and attention problems ([Gumenyuk et al., 2005](https://doi.org/10.1016/j.neulet.2004.10.081)), as well as neurodevelopmental conditions such as autism ([Lepistö et al., 2005](https://doi.org/10.1016/j.brainres.2005.10.052); [Schwartz et al., 2018](https://doi.org/10.1016/j.neubiorev.2018.01.008)) and reading difficulties/dyslexia ([Leppänen et al., 2010](https://doi.org/10.1016/j.cortex.2010.06.003); [Norton et al., 2021](https://doi.org/10.3389/fnhum.2021.624617)).
 
-During the task, auditory syllables are presented while a video is played on an iPad to serve as a visual distractor (brightness set to maximum, in airplane mode, and unplugged).
+**Task Details**:   
+Standard ("ba") and deviant ("da") auditory stimuli are presented hile a video is played on an iPad to serve as a visual distractor (brightness set to maximum, in airplane mode, and unplugged). The task may be paused if breaks are needed. The `.wav` files for the auditory stimuli are 196 ms long for the “ba” stimulus and 198 ms long for the “da” stimulus.
 
 ### Video Resting State (RS)
 <p>
@@ -97,12 +102,13 @@ During the task, auditory syllables are presented while a video is played on an 
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<p>Researchers should be aware that the video content for the video RS task was modified between V03 and V04/V06.</p> 
+<p>Researchers should be aware that the video content for the video RS task was modified between V03 and V04/V06. Note that this is not a true resting state as there is a visual stimulus present.</p> 
 </div>
 </p>
 
-The Video Resting State (v.11.29.23) task provides assessment of the development of large scale neural networks during infancy and early childhood via information about neural oscillations measured in EEG power across the scalp. Developmental changes in oscillatory activity reflect underlying developing large scale neural networks associated with early self-regulatory, cognitive, and affective processes and developmental outcomes (Gabard-Durnam et al., 2019; E. J. Jones et al., 2020; Whedon et al., 2020). The metrics derived from the resting EEG signal include power across the frequency spectrum (Gabard-Durnam et al., 2019) and relative power between different scalp locations (Davidson & Fox, 1982). See [Fox et al. 2024](https://doi.org/10.1016/j.dcn.2024.101447) for more information about the RS.       
+The Video Resting State (RS) (v.11.29.23) task provides assessment of the development of large-scale neural networks during infancy and early childhood via information about neural oscillations measured in EEG power across the scalp. Developmental changes in oscillatory activity reflect underlying developing large-scale neural networks associated with early self-regulatory, cognitive, and affective processes and developmental outcomes (Gabard-Durnam et al., 2019; E. J. Jones et al., 2020; Whedon et al., 2020). The metrics derived from the resting EEG signal include power across the frequency spectrum (Gabard-Durnam et al., 2019) and relative power between different scalp locations (Davidson & Fox, 1982). See [Fox et al. 2024](https://doi.org/10.1016/j.dcn.2024.101447) for more information about the RS.       
 
+**Task Details**:     
 In V03, a silent video plays with a variety of colorful and abstract toys and visuals on screen. The child watches the video for the duration of the task:
 
 ![](images/eeg-RS-V03.png)
@@ -112,7 +118,6 @@ In V03, a silent video plays with a variety of colorful and abstract toys and vi
 In V04/6, a silent video plays with a variety of marble run and construction visuals on screen. The child watches the video for the duration of the task:    
 ![](images/eeg-RS-V04.png)
 
-***Users should be aware that, as noted in the title, this is not a true resting state as there is a visual stimulus present.***
 
 ### Visual Evoked Potential Task (VEP)
 The Visual Evoked Potential Task (v.11.29.23) measures development of visual cortex and response to stimuli, reflecting underlying cortical development via measurement of cortical responses to flashing checkerboard visual stimuli, shown for the duration of the task: 
