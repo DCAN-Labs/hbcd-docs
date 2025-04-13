@@ -73,7 +73,7 @@ The following is a list of the processing pipelines used for the HBCD study:
   </li>
 </ul>
 
-### Electroencephalogram (EEG)
+### Electroencephalography (EEG)
 <p style="list-style-type: none; padding: 0; font-family: Arial, sans-serif;">
     <a href="https://docs-hbcd-made.readthedocs.io/en/latest/" style="color: #2a7ae2; text-decoration: none; font-weight: bold;">
       HBCD-MADE
