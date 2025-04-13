@@ -114,7 +114,7 @@ made/
             | 
             |__ processed_data/
             |   |__ sub-<span class="label">&lt;label&gt;</span>_task-FACE_desc-<span class="placeholder">&lt;FACE-JPG&gt;</span>.jpg
-            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-FACE_desc-<span class="placeholder">&lt;MMN-JPG&gt;</span>.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-MMN_desc-<span class="placeholder">&lt;MMN-JPG&gt;</span>.jpg
             |   |__ sub-<span class="label">&lt;label&gt;</span>_task-RS_desc-<span class="placeholder">&lt;allChAvg|allCh|ROI&gt;</span>_PSD.jpg
             |   |__ sub-<span class="label">&lt;label&gt;</span>_task-RS_spectra.csv
             |   |__ sub-<span class="label">&lt;label&gt;</span>_task-RS_spectra.mat
