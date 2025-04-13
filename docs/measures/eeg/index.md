@@ -36,7 +36,6 @@ Please refer to the [Official EEG Acquisition Manual](https://docs.google.com/do
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p>The HBCD EEG data and EEG preprocessing outputs do not contain any personally identifiable information. It is important to consider that potentially stigmatizing conclusions could emerge from the inappropriate use of the EEG data together with available demographic information or questionnaires. Furthermore, all EEG tasks are all passive at the V03 age range and therefore conclusions should not be drawn about behavioral performance.</p> 
 <p>Methodologically, there are a number of best practices for responsible data use that will be included with each file. The first is selecting files that maintain a minimum trial threshold recommendation. For each task, there are three levels of quality control thresholds that can be used: (1) our QC thresholds used to provide feedback to sites on each upload, (2) a 30% trial retention threshold (which we use internally to indicate usability of an EEG recording), and (3) the reliability recommendations for each task.</p>
 <p><li><b>Threshold recommendations by task:</b></li>
@@ -56,7 +55,6 @@ Please refer to the [Official EEG Acquisition Manual](https://docs.google.com/do
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p>The EEG Core of the HBCD Data Coordinating Center (HDCC) has a GitHub repository with file notes and scripts for working with the first HBCD EEG data release. We recommend all users to review this page for important resources.</p> 
 <p>The GitHub website can be found here: <a href="https://github.com/ChildDevLab/HBCD-data-release-notes">https://github.com/ChildDevLab/HBCD-data-release-notes</a>.</p> 
 <p>Additionally, the user can contact us with any questions about working with the EEG data or using the GitHub repository at eegdata@umd.edu.</p>
@@ -64,12 +62,14 @@ Please refer to the [Official EEG Acquisition Manual](https://docs.google.com/do
 </p>
 
 ### Faces Task
-The Faces task (v.11.29.23) is used to assess neural activity supporting face and object processing within the first years of life. It assesses child and infant face processing development including attention, perception, categorization, individuation and memory. The measure includes rigorous QC procedures to ensure data integrity and reliability. To assess child and infant face processing abilities as well as the underlying neural activity supporting face and object processing, the task involves 2 blocks: 50 trials of upright faces & 50 trials of inverted faces and 50 trials of upright faces & 50 trials of objects. If the child loses attention, an attention getter may be played to bring the child’s focus back to the task.     
+The Faces task (v.11.29.23) is used to assess neural activity supporting face and object processing within the first years of life. It assesses child and infant face processing development including attention, perception, categorization, individuation and memory. The measure includes rigorous QC procedures to ensure data integrity and reliability. 
+
+To assess child and infant face processing abilities as well as the underlying neural activity supporting face and object processing, the task involves 2 blocks: 50 trials of upright faces & 50 trials of inverted faces and 50 trials of upright faces & 50 trials of objects. If the child loses attention, an attention getter may be played to bring the child’s focus back to the task.     
    
 **Face task schematic (Face vs. Object)**<br>
 ![](images/eeg-facetask.png)
 
-ERPs are computed as a function of repeated presentation of faces and objects. The ERPs index different stages of processing including attention, perception, categorization, individuation and memory. The ERP components elicited by the Faces task are the P1, N290, and P400 components. See [Fox et al. 2024](https://doi.org/10.1016/j.dcn.2024.101447) for additional information on the rationale for task/stimulus development and ERP findings from pilot data.   
+Event-related potentials (ERPs) are computed as a function of repeated presentation of faces and objects. The ERPs index different stages of processing including attention, perception, categorization, individuation and memory. The ERP components elicited by the Faces task are the P1, N290, and P400 components. See [Fox et al. 2024](https://doi.org/10.1016/j.dcn.2024.101447) for additional information on the rationale for task/stimulus development and ERP findings from pilot data.   
 
 ### Auditory Mismatch Negativity Task (MMN)
 <p>
@@ -79,12 +79,15 @@ ERPs are computed as a function of repeated presentation of faces and objects. T
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p>Researchers should be aware that the interstimulus interval (ISI) was updated between V03 and V04/V06. Please see <a href="https://doi.org/10.1016/j.dcn.2024.101447">Fox et al. 2024</a> and <a href="https://doi.org/10.1097/00003446-200204000-00005">Morr et al. 2002</a> for details.</p> 
 </div>
 </p>
 
-The Auditory mismatch negativity (MMN) Task (v.11.29.23) provides a comprehensive assessment of infant speech sound processing and includes rigorous QC procedures to ensure data integrity and reliability. The MMN facilitates examining auditory evoked potentials and habituation/dishabituation to auditory stimuli by capturing differences in neural responses to standard (“ba”) and deviant (“da”) stimuli. During auditory presentation of syllables, a video is played on an iPad as a distractor (with brightness all the way up, in airplane mode, and not plugged in). From this task the MMN difference wave is computed, which is also known as the Mismatch Response (MMR). The amplitude/latency of this difference wave has been linked to language (Choudhury & Benasich, 2011), temperament/personality (Gurrera et al., 2001; Marshall et al., 2009), internalizing problems (Reeb-Sutherland et al., 2009), externalizing/attention problems (Gumenyuk et al., 2005), and disorders including autism (Lepistö et al., 2005; Schwartz et al., 2018) and reading ability/dyslexia (Leppänen et al., 2010; Norton, Beach, et al., 2021). See [Fox et al. 2024](https://doi.org/10.1016/j.dcn.2024.101447) for more information about the MMN task.   
+The Auditory Mismatch Negativity (MMN) Task (v.11.29.23) is designed to assess early speech sound processing in infants, incorporating rigorous quality control procedures to ensure data integrity and reliability. This task measures auditory evoked potentials and examines neural habituation and dishabituation by capturing differential responses to standard ("ba") and deviant ("da") stimuli.
+
+The resulting MMN difference wave, also known as the Mismatch Response (MMR), reflects auditory discrimination and the amplitude/latency has been associated with a range of developmental outcomes, including language ability (([Choudhury & Benasich, 2011](https://doi.org/10.1016/j.clinph.2010.05.035))), temperament and personality traits ([Gurrera et al., 2001](https://doi.org/10.1016/S0006-3223(00)01067-2); [Marshall et al., 2009](https://doi.org/10.1111/j.1467-7687.2008.00808.x)), internalizing problems ([Reeb-Sutherland et al., 2009](https://doi.org/10.1111/j.1469-7610.2009.02170.x)), externalizing and attention problems ([Gumenyuk et al., 2005](https://doi.org/10.1016/j.neulet.2004.10.081)), as well as neurodevelopmental conditions such as autism ([Lepistö et al., 2005](https://doi.org/10.1016/j.brainres.2005.10.052); [Schwartz et al., 2018](https://doi.org/10.1016/j.neubiorev.2018.01.008)) and reading difficulties/dyslexia ([Leppänen et al., 2010](https://doi.org/10.1016/j.cortex.2010.06.003); [Norton et al., 2021](https://doi.org/10.3389/fnhum.2021.624617)).
+
+During the task, auditory syllables are presented while a video is played on an iPad to serve as a visual distractor (brightness set to maximum, in airplane mode, and unplugged).
 
 ### Video Resting State (RS)
 <p>
@@ -94,7 +97,6 @@ The Auditory mismatch negativity (MMN) Task (v.11.29.23) provides a comprehensiv
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p>Researchers should be aware that the video content for the video RS task was modified between V03 and V04/V06.</p> 
 </div>
 </p>
