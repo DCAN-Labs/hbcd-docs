@@ -60,6 +60,20 @@ Please refer to the [Official EEG Acquisition Manual](https://docs.google.com/do
 </div>
 </p>
 
+<div id="eeg-artifact-warning" class="warning-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
+  <span class="text">Data Warning: Stimtracker Artifact</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<p>Two subjects in the data release were found to have an electrical noise artifact originating from the stimtracker device used for stimuli timing. The artifact is especially apparent in the E55 electrode between the REF and COM electrodes, but does appear in a few surrounding channels as well. This artifact is time-locked to the stimulus onset and offset. This artifact appears in the data for the VEP, FACE, and MMN tasks for one subject and in the MMN task only for the other subject. It does not appear in the resting state data. No other participants show this artifact at channel E55.</p>
+<p>Below is an example of the electrical artifact detected in the MMN auditory oddball task in E55. The artifact is characterized by the negative deflection of the signal at the stimulus onset and the positive deflection of the signal at offset. Visit <a href="artifacts" target="_blank">this page</a> for additional details on how the artifact manifests in the time-frequency plots and ERP derivatives for various tasks.</p>
+<img src="images/Fig1.png" width="70%" height="auto" class="center">
+
+<p><strong>The EEG working group recommends that the tasks that display this artifact for these subjects be excluded from any analyses.</strong> The EEG working group is currently developing a method of ICA correction to remove this artifact.</p>
+<p><b>TO DO: ADD DESCRIPTION OF HOW IMPACTED SUBJECTS CAN BE IDENTIFIED</b></p>
+</div>
+
 ### Faces Task
 The Faces task ("FACE") (v.11.29.23) is used to assess neural activity supporting face and object processing within the first years of life. Event-related potentials (ERPs) are recorded while infants view faces and objects using an oddball task designed to index different stages of processing including attention, perception, categorization, individuation, and memory. 
 
