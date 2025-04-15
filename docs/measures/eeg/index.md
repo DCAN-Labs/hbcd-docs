@@ -66,11 +66,13 @@ Please refer to the [Official EEG Acquisition Manual](https://docs.google.com/do
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<p>Two subjects in the data release were found to have an electrical noise artifact originating from the stimtracker device used for stimuli timing. The artifact is especially apparent in the E55 electrode between the REF and COM electrodes, but does appear in a few surrounding channels as well. This artifact is time-locked to the stimulus onset and offset. This artifact appears in the data for the VEP, FACE, and MMN tasks for one subject and in the MMN task only for the other subject. It does not appear in the resting state data. No other participants show this artifact at channel E55.</p>
-<p>Below is an example of the electrical artifact detected in the MMN auditory oddball task in E55. The artifact is characterized by the negative deflection of the signal at the stimulus onset and the positive deflection of the signal at offset. Visit <a href="artifacts" target="_blank">this page</a> for additional details on how the artifact manifests in the time-frequency plots and ERP derivatives for various tasks.</p>
+<p>The MMN auditory oddball task for one subject in the data release was found to have an electrical noise artifact originating from the stimtracker device used for stimuli timing. The artifact is especially apparent in the E55 electrode between the REF and COM electrodes, but does appear in a few surrounding channels as well. This artifact is time-locked to the stimulus onset and offset and characterized by the negative deflection of the signal at the stimulus onset and the positive deflection of the signal at offset:</p>
+
 <img src="images/Fig1.png" width="70%" height="auto" class="center">
 
-<p><strong>The EEG working group recommends that the tasks that display this artifact for these subjects be excluded from any analyses.</strong> The EEG working group is currently developing a method of ICA correction to remove this artifact.</p>
+<p>No other participants show this artifact at channel E55. Visit <a href="artifacts" target="_blank">this page</a> for additional details on how the artifact manifests in the time-frequency plots and ERP derivatives for various tasks.</p>
+
+<p>The EEG working group is currently developing a method of ICA correction to remove this artifact. Until then, <strong>it is recommended to exclude the MMN task for this subject from analysis.</strong></p>
 <p><b>TO DO: ADD DESCRIPTION OF HOW IMPACTED SUBJECTS CAN BE IDENTIFIED</b></p>
 </div>
 
