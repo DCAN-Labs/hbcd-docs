@@ -78,14 +78,12 @@ Please refer to the [Official EEG Acquisition Manual](https://docs.google.com/do
 The Faces task ("FACE") (v.11.29.23) is used to assess neural activity supporting face and object processing within the first years of life. Event-related potentials (ERPs) are recorded while infants view faces and objects using an oddball task designed to index different stages of processing including attention, perception, categorization, individuation, and memory. 
 
 **Task Details**:   
-ERPs that index different stages of processing are computed as a function of repeated presentation of faces and objects. The ERP components elicited by the Faces task are the P1, N290, and P400 components. The task consists of 2 blocks:
-> **Block 1**: 50 trials of upright faces   
-**Block 1**: 50 trials of inverted faces    
-**Block 2**: 50 trials of upright faces    
-**Block 2**: 50 trials of objects
+ERPs that index different stages of processing are computed as a function of repeated presentation of faces and objects. The ERP components elicited by the Faces task are the P1, N290, and P400 components. The task consists of 2 blocks:    
+> **Block 1**: 50 trials of upright faces and 50 trials of inverted faces    
+**Block 2**: 50 trials of upright faces and 50 trials of objects
    
 **Face task schematic (Face vs. Object)**<br>
-![](images/eeg-facetask.png)
+<img src="images/eeg-facetask.png" width="50%" height="auto">
 
 If the child loses attention, an attention getter may be played to bring the child’s focus back to the task. There are a total of 36 unique images in the set, with women all displaying neutral expressions, included from each of the following self-identifying demographics: Indigenous, Black, White, Asian, Hispanic/Latino, and South Asian.  See [Fox et al. 2024](https://doi.org/10.1016/j.dcn.2024.101447) for additional information on the rationale for task/stimulus development and ERP findings from pilot data.
 
@@ -120,24 +118,32 @@ Standard ("ba") and deviant ("da") auditory stimuli are presented hile a video i
 </div>
 </p>
 
-The Video Resting State (RS) (v.11.29.23) task provides assessment of the development of large-scale neural networks during infancy and early childhood via information about neural oscillations measured in EEG power across the scalp. Developmental changes in oscillatory activity reflect underlying developing large-scale neural networks associated with early self-regulatory, cognitive, and affective processes and developmental outcomes (Gabard-Durnam et al., 2019; E. J. Jones et al., 2020; Whedon et al., 2020). The metrics derived from the resting EEG signal include power across the frequency spectrum (Gabard-Durnam et al., 2019) and relative power between different scalp locations (Davidson & Fox, 1982). See [Fox et al. 2024](https://doi.org/10.1016/j.dcn.2024.101447) for more information about the RS.       
+The Video Resting State (RS) (v.11.29.23) task provides assessment of the development of large-scale neural networks during infancy and early childhood via information about neural oscillations measured in EEG power across the scalp. Developmental changes in oscillatory activity reflect underlying developing large-scale neural networks associated with early self-regulatory, cognitive, and affective processes and developmental outcomes ([Gabard-Durnam et al., 2019](https://doi.org/10.1038/s41467-019-12202-9); [Jones et al., 2020](https://doi.org/10.1038/s41598-020-67687-y); [Whedon et al., 2020](https://doi.org/10.1016/j.bandc.2020.105636)). The metrics derived from the resting EEG signal include power across the frequency spectrum ([Gabard-Durnam et al., 2019](https://doi.org/10.1038/s41467-019-12202-9)) and relative power between different scalp locations ([Davidson & Fox, 1982](https://doi.org/10.1126/science.7146906)). See [Fox et al. 2024](https://doi.org/10.1016/j.dcn.2024.101447) for more information about the RS.       
 
 **Task Details**:     
-In V03, a silent video plays with a variety of colorful and abstract toys and visuals on screen. The child watches the video for the duration of the task:
 
-![](images/eeg-RS-V03.png)
+<div style="display: flex; align-items: center;">
+  <img src="images/eeg-RS-V03.png" width="50%" height="auto">
+  <div style="padding-left: 15px;">
+   In V03, a silent video plays with a variety of colorful and abstract toys and visuals on screen. The child watches the video for the duration of the task.
+  </div>
+</div>
+
 <br>
-<br>
 
-In V04/6, a silent video plays with a variety of marble run and construction visuals on screen. The child watches the video for the duration of the task:    
-![](images/eeg-RS-V04.png)
-
+<div style="display: flex; align-items: center;">
+  <img src="images/eeg-RS-V04.png" width="50%" height="auto">
+  <div style="padding-left: 15px;">
+   In V04/6, a silent video plays with a variety of marble run and construction visuals on screen. The child watches the video for the duration of the task.
+  </div>
+</div>
 
 ### Visual Evoked Potential Task (VEP)
-The Visual Evoked Potential Task (v.11.29.23) measures development of visual cortex and response to stimuli, reflecting underlying cortical development via measurement of cortical responses to flashing checkerboard visual stimuli, shown for the duration of the task: 
-![VEP checkerboard image](images/eeg-vep-checkerboard.png)
+The Visual Evoked Potential Task (v.11.29.23) measures development of visual cortex and response to stimuli, reflecting underlying cortical development. VEP amplitude and latency decreases with age during the first three years of life. The VEP has been associated with concurrent and later developmental outcomes as a function of prenatal substance exposures (Margolis et al., 2024), early visual enrichment or deprivation (Jensen et al., 2019), vision system maturation (Lippé et al., 2009), neurodevelopmental disorders (e.g., ASD and ADHD; Cremone- Caira et al., 2023; Nazhvani et al., 2013), and reading and learning disabilities (Shandiz et al., 2017). The morphology of the VEP likely reflects varying degrees of synaptic efficiency and as such, can be used as a readout of general cortical function. 
 
-VEP amplitude and latency decreases with age during the first three years of life. The VEP has been associated with concurrent and later developmental outcomes as a function of prenatal substance exposures (Margolis et al., 2024), early visual enrichment or deprivation (Jensen et al., 2019), vision system maturation (Lippé et al., 2009), neurodevelopmental disorders (e.g., ASD and ADHD; Cremone- Caira et al., 2023; Nazhvani et al., 2013), and reading and learning disabilities (Shandiz et al., 2017). The morphology of the VEP likely reflects varying degrees of synaptic efficiency and as such, can be used as a readout of general cortical function. The task elicits a VEP response in the occipital area (Oz), consisting of the, N1 (first negative peak), P1 (first positive peak), and N2 (second negative peak) components. See [Fox et al. 2024](https://doi.org/10.1016/j.dcn.2024.101447) for more information about the VEP task.  
+**Task Details**:  
+Measurement of VEP to flashing checkerboard visual stimuli, shown for the duration of the task. The task elicits a VEP response in the occipital area (Oz), consisting of the, N1 (first negative peak), P1 (first positive peak), and N2 (second negative peak) components. See [Fox et al. 2024](https://doi.org/10.1016/j.dcn.2024.101447) for more information about the VEP task.  
+<img src="images/eeg-vep-checkerboard.png" width="30%" height="auto" class="center"> 
 
 ## Resources
 
