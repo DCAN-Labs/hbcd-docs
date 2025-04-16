@@ -96,7 +96,7 @@ def load_data_with_shadow(data_path, shadow_path):
     return data
 
 # Example usage:
-df = load_data_with_shadow("data.tsv", "shadow_matrix.tsv", save=True)
+df = load_data_with_shadow("data.tsv", "shadow_matrix.tsv")
 
 # Example: View reasons for missing data for a given column/variable in the data file 
 df[df["<COLUMN NAME>"].isna()][["<COLUMN NAME>_missing_reason"]]  

@@ -468,17 +468,33 @@ Swipes display GIFs of full-resolution T2w images as a grayscale background, wit
 </p>
 
 #### How are final QC scores determined for a given modality? 
-Final QC scores are based on the evaluation of visual reports associated with each [QC procedure](#swipes-procedures) described above. Each report is independently reviewed, and the results are combined to calculate an overall QC score.
+Final QC scores are based on the evaluation of visual reports associated with each [QC procedure](#swipes-procedures) described above. Each report is independently reviewed, and the results are combined to calculate an overall QC score. Below we provide a Python helper function for reading a BrainSwipes TSV file into a Pandas DataFrame and filtering out all subject rows with an average overall QC score of greater than or equal to a threshold specified by the user:
 
-For example, **T1w/T2w image quality** is assessed through:
+```
+import pandas as pd
 
-- **Atlas registration quality**: Rated using 2 visual reports (atlas overlaid on T1w/T2w and T1w/T2w overlaid on the atlas).
-- **Surface delineation:** Rated using 7 visual reports showing different brain regions in coronal, axial, and sagittal planes.
+def read_and_filter_tsv(file_path, threshold):
+    """
+    Reads an HBCD BrainSwipes TSV file into a DataFrame and keeps subject rows where 
+	the overall average QC value is greater than or equal to the specified threshold.
 
-Each of these 9 reports must be reviewed by at least 10 independent reviewers (or it's marked as incomplete). Reviewers assign a score of 1 (Pass) or 0 (Fail) for each report. For a report to receive an overall Pass, the average QC score across reviewers must be at least 0.7. 
+    Parameters:
+    - file_path (str): Path to the .tsv file
+    - threshold (float): Threshold value for filtering
 
-To achieve an overall QC Pass for T1w/T2w images, **all 9 reports** must meet the passing threshold.
-Summary QC scores for BOLD and DWI are generated in the same fashion, based on visual reports evaluating functional registration and diffusion direction encoding, respectively.
+    Returns:
+    - pd.DataFrame: Filtered DataFrame
+    """
+    df = pd.read_csv(file_path, sep='\t')
+
+    fourth_col = df.columns[3]
+    return df[df[fourth_col] >= threshold]
+
+# Example usage:
+# Filter to keep only subjects with an average structural QC of at least 0.6 (60% pass rate)
+filtered_df = read_and_filter_tsv("img_brainswipes_xcpd_T2w.tsv", 0.6)
+print(filtered_df.head())
+```
 
 ## References
 <div class="references">
