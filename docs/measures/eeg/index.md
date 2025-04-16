@@ -55,8 +55,7 @@ Please refer to the [Official EEG Acquisition Manual](https://docs.google.com/do
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<p>The EEG Core of the HBCD Data Coordinating Center (HDCC) has a GitHub repository with file notes and scripts for working with the first HBCD EEG data release. We recommend all users to review this page for important resources.</p> 
-<p>The GitHub website can be found here: <a href="https://github.com/ChildDevLab/HBCD-data-release-notes">https://github.com/ChildDevLab/HBCD-data-release-notes</a>.</p>
+<p>The EEG Core of the HBCD Data Coordinating Center (HDCC) has built HBCD EEG Utilities for working with the first HBCD EEG data release. We recommend all users review these tools: <a href="">ADD READTHEDOCS LINK</a>
 </div>
 </p>
 
@@ -72,8 +71,7 @@ Please refer to the [Official EEG Acquisition Manual](https://docs.google.com/do
 
 <p>No other participants show this artifact at channel E55. Visit <a href="artifacts" target="_blank">this page</a> for additional details on how the artifact manifests in the time-frequency plots and ERP derivatives for various tasks.</p>
 
-<p>The EEG working group is currently developing a method of ICA correction to remove this artifact. Until then, <strong>it is recommended to exclude the MMN task for this subject from analysis.</strong></p>
-<p><b>TO DO: ADD DESCRIPTION OF HOW IMPACTED SUBJECTS CAN BE IDENTIFIED</b></p>
+<p>The EEG working group is currently developing a method of ICA correction to remove this artifact. Until then, <strong>it is recommended to exclude the MMN task for this subject from analysis (the impacted subject is flagged on the Loris platform).</strong></p>
 </div>
 
 ### Faces Task
