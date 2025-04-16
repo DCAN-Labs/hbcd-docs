@@ -175,7 +175,6 @@ The Visual Evoked Potential Task (v.11.29.23) measures development of visual cor
     <img src="images/eeg-vep-checkerboard.png" alt="EEG Face Task" width="25%" height="auto">
 </div></p>
 
-
 ## Resources
 - [HBCD EEG Data Release Notes GitHub Repository](https://github.com/ChildDevLab/HBCD-EEG-data-release-notes) 
 - [HBCD E-Prime Task Manual](https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing)
