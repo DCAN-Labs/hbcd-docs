@@ -1,7 +1,8 @@
 # Electroencephalography (EEG)
 EEG tasks are acquired during visits V03, V04, and V06. For full details on the HBCD EEG protocol, please refer to [Fox et al. 2024](https://doi.org/10.1016/j.dcn.2024.101447) published in the Developmental Cognitive Neuroscience special issue on HBCD.
 
-![](images/EEG_acquisition_protocol.png)
+![](images/EEG-Parameters.png)
+*Source: [HBCD Study Protocols - EEG](https://hbcdstudy.org/wp-content/uploads/2023/06/EEG-Parameters.pdf)*
 
 ## Quality Control    
 After EEG acquisition, quality control checks are performed using [EEG2BIDS Wizard](https://github.com/aces/eeg2bids), a custom MATLAB application installed at all HBCD sites. These checks are immediately provided to the user to ensure the data's integrity and usability. The process includes:
@@ -74,18 +75,35 @@ Please refer to the [Official EEG Acquisition Manual](https://docs.google.com/do
 <p>The EEG working group is currently developing a method of ICA correction to remove this artifact. Until then, <strong>it is recommended to exclude the MMN task for this subject from analysis (the impacted subject is flagged on the Loris platform).</strong></p>
 </div>
 
-### Faces Task
-The Faces task ("FACE") (v.11.29.23) is used to assess neural activity supporting face and object processing within the first years of life. Event-related potentials (ERPs) are recorded while infants view faces and objects using an oddball task designed to index different stages of processing including attention, perception, categorization, individuation, and memory. 
+### Faces Task (FACE)
+The Faces task (v.11.29.23) is used to assess neural activity supporting face and object processing within the first years of life. Event-related potentials (ERPs) are recorded while infants view faces and objects using an oddball task designed to index different stages of processing including attention, perception, categorization, individuation, and memory. 
 
-**Task Details**:   
-ERPs that index different stages of processing are computed as a function of repeated presentation of faces and objects. The ERP components elicited by the Faces task are the P1, N290, and P400 components. The task consists of 2 blocks:    
-> **Block 1**: 50 trials of upright faces and 50 trials of inverted faces    
-**Block 2**: 50 trials of upright faces and 50 trials of objects
-   
-**Face task schematic (Face vs. Object)**<br>
-<img src="images/eeg-facetask.png" width="50%" height="auto">
+#### Task Details   
+ERPs that index different stages of processing are computed as a function of repeated presentation of faces and objects. The ERP components elicited by the Faces task are the P1, N290, and P400 components. 
 
-If the child loses attention, an attention getter may be played to bring the child’s focus back to the task. There are a total of 36 unique images in the set, with women all displaying neutral expressions, included from each of the following self-identifying demographics: Indigenous, Black, White, Asian, Hispanic/Latino, and South Asian.  See [Fox et al. 2024](https://doi.org/10.1016/j.dcn.2024.101447) for additional information on the rationale for task/stimulus development and ERP findings from pilot data.
+<p>
+<u><b>Face task schematic (Face vs. Object) & Task Details:</b></u>
+<div style="display: flex; align-items: center;">
+  <img src="images/eeg-facetask.png" alt="EEG Face Task" width="45%" height="auto">
+  <div style="padding-left: 15px;">
+The task consists of 2 blocks:
+<blockquote>
+  <p><strong>Block 1</strong>: 50 trials of upright faces and 50 trials of inverted faces <br />
+  <strong>Block 2</strong>: 50 trials of upright faces and 50 trials of objects</p>
+</blockquote>
+
+Timing Details:
+<blockquote>
+  <p><strong>Stimulus duration</strong>: 500 ms <br />
+  <strong>Interstimulus interval</strong>: 600-700 ms <br />
+  <strong>Total trial length</strong>: 110-1200 ms</p>
+</blockquote>
+  </div>
+</div></p>
+
+If the child loses attention, an attention getter may be played to bring the child’s focus back to the task. There are a total of 36 unique images in the set, with women all displaying neutral expressions, included from each of the following self-identifying demographics: Indigenous, Black, White, Asian, Hispanic/Latino, and South Asian.  
+
+See [HBCD Study Protocols - EEG](https://hbcdstudy.org/wp-content/uploads/2023/06/EEG-Parameters.pdf) for details and [Fox et al. 2024](https://doi.org/10.1016/j.dcn.2024.101447) for additional information on the rationale for task/stimulus development and ERP findings from pilot data.
 
 ### Auditory Mismatch Negativity Task (MMN)
 <p>
@@ -99,12 +117,14 @@ If the child loses attention, an attention getter may be played to bring the chi
 </div>
 </p>
 
-The Auditory Mismatch Negativity (MMN) Task (v.11.29.23) is designed to assess early speech sound processing in infants, incorporating rigorous quality control procedures to ensure data integrity and reliability. This task measures auditory evoked potentials and examines neural habituation and dishabituation by capturing differential responses to standard ("ba") and deviant ("da") stimuli.
+The Auditory Mismatch Negativity (MMN) Task (v.11.29.23) is designed to assess early speech sound processing in infants, incorporating rigorous quality control procedures to ensure data integrity and reliability. This task measures auditory evoked potentials and examines neural habituation and dishabituation by capturing differential responses to standard and deviant stimuli.
 
 The resulting MMN difference wave, also known as the Mismatch Response (MMR), reflects auditory discrimination and the amplitude/latency has been associated with a range of developmental outcomes, including language ability ([Choudhury & Benasich, 2011](https://doi.org/10.1016/j.clinph.2010.05.035)), temperament and personality traits ([Gurrera et al., 2001](https://doi.org/10.1016/S0006-3223(00)01067-2); [Marshall et al., 2009](https://doi.org/10.1111/j.1467-7687.2008.00808.x)), internalizing problems ([Reeb-Sutherland et al., 2009](https://doi.org/10.1111/j.1469-7610.2009.02170.x)), externalizing and attention problems ([Gumenyuk et al., 2005](https://doi.org/10.1016/j.neulet.2004.10.081)), as well as neurodevelopmental conditions such as autism ([Lepistö et al., 2005](https://doi.org/10.1016/j.brainres.2005.10.052); [Schwartz et al., 2018](https://doi.org/10.1016/j.neubiorev.2018.01.008)) and reading difficulties/dyslexia ([Leppänen et al., 2010](https://doi.org/10.1016/j.cortex.2010.06.003); [Norton et al., 2021](https://doi.org/10.3389/fnhum.2021.624617)).
 
-**Task Details**:   
-Standard ("ba") and deviant ("da") auditory stimuli are presented hile a video is played on an iPad to serve as a visual distractor (brightness set to maximum, in airplane mode, and unplugged). The task may be paused if breaks are needed. The `.wav` files for the auditory stimuli are 196 ms long for the “ba” stimulus and 198 ms long for the “da” stimulus.
+#### Task Details
+Standard ("ba") and deviant ("da") auditory stimuli are presented while a video is played on an iPad to serve as a visual distractor (brightness set to maximum, in airplane mode, and unplugged). The task may be paused if breaks are needed. The `.wav` files for the auditory stimuli are 196 ms long for the “ba” stimulus and 198 ms long for the “da” stimulus.
+
+See [HBCD Study Protocols - EEG](https://hbcdstudy.org/wp-content/uploads/2023/06/EEG-Parameters.pdf) for additional details.
 
 ### Video Resting State (RS)
 <p>
@@ -120,18 +140,25 @@ Standard ("ba") and deviant ("da") auditory stimuli are presented hile a video i
 
 The Video Resting State (RS) (v.11.29.23) task provides assessment of the development of large-scale neural networks during infancy and early childhood via information about neural oscillations measured in EEG power across the scalp. Developmental changes in oscillatory activity reflect underlying developing large-scale neural networks associated with early self-regulatory, cognitive, and affective processes and developmental outcomes ([Gabard-Durnam et al., 2019](https://doi.org/10.1038/s41467-019-12202-9); [Jones et al., 2020](https://doi.org/10.1038/s41598-020-67687-y); [Whedon et al., 2020](https://doi.org/10.1016/j.bandc.2020.105636)). The metrics derived from the resting EEG signal include power across the frequency spectrum ([Gabard-Durnam et al., 2019](https://doi.org/10.1038/s41467-019-12202-9)) and relative power between different scalp locations ([Davidson & Fox, 1982](https://doi.org/10.1126/science.7146906)). See [Fox et al. 2024](https://doi.org/10.1016/j.dcn.2024.101447) for more information about the RS.       
 
-**Task Details**:    
+#### Task Details
 
 In **V03** (*left set of images below*), a silent video plays with a variety of colorful and abstract toys and visuals on screen. The child watches the video for the duration of the task. In **V04 & V06** (*right set of images below*), a silent video plays with a variety of marble run and construction visuals on screen. The child watches the video for the duration of the task.
 
 <img src="images/eeg-RS.png" width="100%" height="auto">
 
-### Visual Evoked Potential Task (VEP)
-The Visual Evoked Potential Task (v.11.29.23) measures development of visual cortex and response to stimuli, reflecting underlying cortical development. VEP amplitude and latency decreases with age during the first three years of life. The VEP has been associated with concurrent and later developmental outcomes as a function of prenatal substance exposures (Margolis et al., 2024), early visual enrichment or deprivation (Jensen et al., 2019), vision system maturation (Lippé et al., 2009), neurodevelopmental disorders (e.g., ASD and ADHD; Cremone- Caira et al., 2023; Nazhvani et al., 2013), and reading and learning disabilities (Shandiz et al., 2017). The morphology of the VEP likely reflects varying degrees of synaptic efficiency and as such, can be used as a readout of general cortical function. 
+See [HBCD Study Protocols - EEG](https://hbcdstudy.org/wp-content/uploads/2023/06/EEG-Parameters.pdf) for additional details.
 
-**Task Details**:  
-Measurement of VEP to flashing checkerboard visual stimuli, shown for the duration of the task. The task elicits a VEP response in the occipital area (Oz), consisting of the, N1 (first negative peak), P1 (first positive peak), and N2 (second negative peak) components. See [Fox et al. 2024](https://doi.org/10.1016/j.dcn.2024.101447) for more information about the VEP task.  
-<img src="images/eeg-vep-checkerboard.png" width="30%" height="auto" class="center"> 
+### Visual Evoked Potential Task (VEP)
+The Visual Evoked Potential Task (v.11.29.23) measures development of visual cortex and response to stimuli, reflecting underlying cortical development. VEP amplitude and latency decreases with age during the first three years of life. The VEP has been associated with concurrent and later developmental outcomes as a function of prenatal substance exposures ([Margolis et al., 2024](https://psycnet.apa.org/record/2024-66755-001)), early visual enrichment or deprivation ([Jensen et al., 2019](https://doi.org/10.1038/s41598-019-39242-x)), vision system maturation ([Lippé et al., 2009](https://doi.org/10.3389/neuro.09.048.2009)), neurodevelopmental disorders (e.g., ASD and ADHD; [Cremone-Caira et al., 2023](https://doi.org/10.1007/s10803-023-06005-7); [Nazhvani et al., 2013](https://doi.org/10.1016/j.clineuro.2013.08.009)), and reading and learning disabilities ([Shandiz et al., 2017](https://doi.org/10.4103/jovr.jovr_106_16)). The morphology of the VEP likely reflects varying degrees of synaptic efficiency and as such, can be used as a readout of general cortical function. 
+
+#### Task Details
+<p>
+<div style="display: flex; align-items: center;">
+  <div style="padding-right: 15px;">
+<p>The VEP is measured in response to a flashing checkerboard visual stimuli shown for the duration of the task. The task elicits a VEP response in the occipital area (Oz), consisting of the, N1 (first negative peak), P1 (first positive peak), and N2 (second negative peak) components. See <a href="https://doi.org/10.1016/j.dcn.2024.101447">Fox et al. 2024</a> for more information about the VEP task the <a href="https://hbcdstudy.org/wp-content/uploads/2023/06/EEG-Parameters.pdf">HBCD Study Protocols - EEG</a> for additional details.</p>
+  </div>
+    <img src="images/eeg-vep-checkerboard.png" alt="EEG Face Task" width="25%" height="auto">
+</div></p>
 
 ## Resources
 
