@@ -56,7 +56,7 @@ Please refer to the [Official EEG Acquisition Manual](https://docs.google.com/do
   <span class="arrow">▸</span>
 </div>
 <div class="warning-collapsible-content">
-<p>The EEG Core of the HBCD Data Coordinating Center (HDCC) has built HBCD EEG Utilities for working with the first HBCD EEG data release. We recommend all users review these tools: <a href="">ADD READTHEDOCS LINK</a>
+<p>The EEG Core of the HBCD Data Coordinating Center (HDCC) has developed some helpful tools for extracting summary statistics and trial measures from HBCD EEG release data. We encourage all users to explore these resources at the <a href="https://docs-hbcd-eeg-utilities.readthedocs.io">HBCD EEG Utilities</a> website.</p>
 </div>
 </p>
 
