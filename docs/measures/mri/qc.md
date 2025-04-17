@@ -459,12 +459,11 @@ Functional registration is evaluated by overlaying outlines of functional images
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Diffusion Direction Encoding:</b></p>
 Swipes display GIFs of full-resolution T2w images as a grayscale background, with the "Direction Encoded Color" (DEC) map overlaid. These GIFs sweep through a portion of the brain across the three anatomical planes. High-quality processed DWI images exhibit bands of color that closely follow the folds and contours of the grayscale background. These visuals are derived from the QSIPrep report.
 <p>
-<strong>Each visual report for a given modality is independently reviewed and rated as a pass or fail, which in the outputs are scored as values of 1 and 0 respectively. BrainSwipes generates a summary of these results that includes the average score as well as number of reviewers for each visual report per modality.</strong>
+<strong>Each visual report for a given modality is independently reviewed and rated as a pass or fail, which in the outputs are scored as values of 1 and 0 respectively. BrainSwipes generates a summary of these results that includes the average score as well as number of reviewers for each visual report of each modality.</strong>
 </div>
 </p>
 
 ### Location of BrainSwipes Results in Data Release
-
 <p>
 <div id="dwi-fyi" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
@@ -472,7 +471,7 @@ Swipes display GIFs of full-resolution T2w images as a grayscale background, wit
   <span class="arrow">▸</span>
 </div>
 <div class="notification-open-collapsible-content">
-<p>The release currently includes BrainSwipes results for only structural and functional MRI. Diffusion results will be included in a later release. However, existing automated QC procedures for processed diffusion data are fairly robust compared to sMRI and fMRI. Please see here (ADD LINK) for details.</p>
+<p>The release currently includes BrainSwipes results for only structural and functional MRI. Diffusion results will be included in a later release. However, existing automated QC procedures for processed diffusion data are fairly robust compared to sMRI and fMRI. The automated QC metrics are provided in the <a href="../../../datacuration/derivatives/#qsiprep-qsiprep">QSIPrep derivatives</a> - please see more information about automated QC on the QSIPrep website <a href="https://qsiprep.readthedocs.io/en/latest/preprocessing.html#quality-control-data">here</a>.</p>
 </div>
 </p>
 
