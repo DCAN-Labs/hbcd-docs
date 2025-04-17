@@ -64,7 +64,7 @@ Please refer to the [Official EEG Acquisition Manual](https://docs.google.com/do
 The Faces task (v.11.29.23) is used to assess neural activity supporting face and object processing within the first years of life. Event-related potentials (ERPs) are recorded while infants view faces and objects using an oddball task designed to index different stages of processing including attention, perception, categorization, individuation, and memory. 
 
 #### Task Details   
-ERPs that index different stages of processing are computed as a function of repeated presentation of faces and objects. The ERP components elicited by the Faces task are the P1, N290, and P400 components. 
+ERPs that index different stages of processing are computed as a function of repeated presentation of faces and objects. The ERP components elicited by the Faces task include P1, N290, and P400. 
 
 <p>
 <u><b>Face task schematic (Face vs. Object) & Task Details:</b></u>
@@ -139,7 +139,6 @@ Standard ("ba") and deviant ("da") auditory stimuli are presented while a video 
 A schematic of the trial progression for Visit 3 is below. See [HBCD Study Protocols - EEG](https://hbcdstudy.org/wp-content/uploads/2023/06/EEG-Parameters.pdf) for additional details.
 <img src="images/MMN.png" width="100%" height="auto" class="center">
 
-
 ### Video Resting State (RS)
 <p>
 <div id="rs-warning" class="warning-banner" onclick="toggleCollapse(this)">
@@ -155,7 +154,7 @@ A schematic of the trial progression for Visit 3 is below. See [HBCD Study Proto
 The Video Resting State (RS) (v.11.29.23) task provides assessment of the development of large-scale neural networks during infancy and early childhood via information about neural oscillations measured in EEG power across the scalp. Developmental changes in oscillatory activity reflect underlying developing large-scale neural networks associated with early self-regulatory, cognitive, and affective processes and developmental outcomes ([Gabard-Durnam et al., 2019](https://doi.org/10.1038/s41467-019-12202-9); [Jones et al., 2020](https://doi.org/10.1038/s41598-020-67687-y); [Whedon et al., 2020](https://doi.org/10.1016/j.bandc.2020.105636)). The metrics derived from the resting EEG signal include power across the frequency spectrum ([Gabard-Durnam et al., 2019](https://doi.org/10.1038/s41467-019-12202-9)) and relative power between different scalp locations ([Davidson & Fox, 1982](https://doi.org/10.1126/science.7146906)). See [Fox et al. 2024](https://doi.org/10.1016/j.dcn.2024.101447) for more information about the RS.       
 
 #### Task Details
-In **V03** (*left set of images below*), a silent video plays with a variety of colorful and abstract toys and visuals on screen. The child watches the video for the duration of the task. In **V04 & V06** (*right set of images below*), a silent video plays with a variety of marble run and construction visuals on screen. The child watches the video for the duration of the task.
+Participants watch a silent video for the duration of the RS task. In **V03** (*left set of images below*), the video displays a variety of colorful and abstract toys and other visuals. In **V04 & V06** (*right set of images below*), the video includes a variety of marble run and construction visuals.
 
 <img src="images/eeg-RS.png" width="100%" height="auto">
 
@@ -168,7 +167,7 @@ The Visual Evoked Potential Task (v.11.29.23) measures development of visual cor
 <p>
 <div style="display: flex; align-items: center;">
   <div style="padding-right: 15px;">
-<p>A flashing black and white 20x20 checkerboard with a red circle in the center is shown for the duration of the task (trial counts of 60 Checkerboard A and 60 Checkerboard B for a total of 120). The task elicits a VEP response in the occipital area (Oz), consisting of the, N1 (first negative peak), P1 (first positive peak), and N2 (second negative peak) components. See <a href="https://doi.org/10.1016/j.dcn.2024.101447">Fox et al. 2024</a> for more information about the VEP task the <a href="https://hbcdstudy.org/wp-content/uploads/2023/06/EEG-Parameters.pdf">HBCD Study Protocols - EEG</a> for additional details.</p>
+<p>A flashing black and white 20x20 checkerboard with a red circle in the center is shown for the duration of the task (trial counts of 60 Checkerboard A and 60 Checkerboard B for a total of 120). The task elicits a VEP response in the occipital area (Oz), consisting of N1 (first negative peak), P1 (first positive peak), and N2 (second negative peak) components. See <a href="https://doi.org/10.1016/j.dcn.2024.101447">Fox et al. 2024</a> for more information about the VEP task the <a href="https://hbcdstudy.org/wp-content/uploads/2023/06/EEG-Parameters.pdf">HBCD Study Protocols - EEG</a> for additional details.</p>
   </div>
     <img src="images/eeg-vep-checkerboard.png" alt="EEG Face Task" width="25%" height="auto">
 </div></p>
