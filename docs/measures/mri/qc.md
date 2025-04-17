@@ -5,8 +5,7 @@
     <span class="text">Responsible Use Warning</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
-<br>
+<div class="alert-collapsible-content">
 <p><b><i>The text below is sourced directly from the ABCD Wiki <a href="https://data.abcdstudy.org/reports/wiki-release6/data-doc/imaging/quality-control.html#use-qc">Responsible Use Warning: Quality Control</a>. While it specifically references ABCD, the same principles apply equally to HBCD.</i></b></p>
 <p>Researchers conducting analyses of neuroimaging data must consider the responsible use of variables related to race and ethnicity. Comparisons of neuroimaging data among participants who are grouped by race and/or ethnicity can be interpreted as evidence of biomarkers to explain neurobiological mechanisms through which some communities experience lower rates of achievement and poorer life outcomes compared to their White counterparts. To discourage continuation of this biological deficits framework, data analysts must recognize that ethical conduct in research includes ensuring that their analyses prevent further stigmatization, marginalization, and injustice toward individuals because race and ethnicity. Potential stigmatization may also be relevant to certain clinical diagnoses or outcomes. Prior to any data analysis or interpretation, researchers must consider the psychological, social, economic, and any other potentially harmful impacts their research could have on individuals, communities, and society.</p> 
 <p>Data analyses centered around comparisons of participant groups when the groupings are based on race and ethnicity alone (i.e., independent variables in isolation) are discouraged. Instead, researchers should consider factors that may perpetuate stigma in research and commit to the additional work that is needed to ensure that statistical models and analytic findings are fully contextualized, particularly with respect to variables related to social determinants of health.</p>
@@ -441,7 +440,6 @@ BrainSwipes harnesses the power of crowdsourcing to address the time-intensive t
     <img src="../images/brainswipes.png" alt="Example quality assessment of surface delineation in BrainSwipes" style="width: 100%; height: auto;">
     <p><i>Example quality assessment of surface delineation on BrainSwipes platform (displaying brain in axial plane at level of basal ganglia/putamen).</i></p>
 </div>
-
 <p>
 <div id="swipes-procedures" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">BrainSwipes QC Procedures</span>
@@ -452,25 +450,35 @@ BrainSwipes harnesses the power of crowdsourcing to address the time-intensive t
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Surface Delineation:</b></p>
 For structural QA, swipers are presented with image slices in coronal, axial, and sagittal planes to assess the accuracy of T1w and T2w surface delineations in differentiating gray and white matter. Images are derived from XCP-D visual reports.
 </p>
-
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Atlas Registration:</b></p>
 In addition to surface delineation, structural QA also includes atlas registration quality, evaluated by overlaying delineations of the subject’s image onto the atlas, and vice versa. Swipes display nine T1w slices for visual inspection, with three slices per anatomical plane. Quality is assessed based on the alignment of the outer boundaries of the overlaid contours with those of the underlying image, ensuring minimal gaps or misalignments. Images are derived from XCP-D visual reports.
-
 <p>
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Functional Registration:</b></p>
 Functional registration is evaluated by overlaying outlines of functional images onto structural images and vice versa. Swipes display nine slices of the same functional image for visual inspection, with three slices per anatomical plane. Quality is assessed similarly to structural atlas registration, focusing on the alignment of the overlaid contours. Additional evaluation includes checking for artifacts such as signal dropout. Images are derived from XCP-D visual reports.
 </p>
-
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Diffusion Direction Encoding:</b></p>
 Swipes display GIFs of full-resolution T2w images as a grayscale background, with the "Direction Encoded Color" (DEC) map overlaid. These GIFs sweep through a portion of the brain across the three anatomical planes. High-quality processed DWI images exhibit bands of color that closely follow the folds and contours of the grayscale background. These visuals are derived from the QSIPrep report.
 <p>
+<strong>Each visual report for a given modality is independently reviewed and rated as a pass or fail, which in the outputs are scored as values of 1 and 0 respectively. BrainSwipes generates a summary of these results that includes the average score as well as number of reviewers for each visual report per modality.</strong>
 </div>
 </p>
 
 ### Location of BrainSwipes Results in Data Release
-BrainSwipes QC results are provided as tabulated instrument data in the `rawdata/phenotype/` folder of the data release (see details [here](../../datacuration/phenotypes.md)), including `img_brainswipes_xcpd-T2w` and `img_brainswipes_xcpd-bold` files. These files contain the average overall QC score and number of reviewers across visual reports used for QC (as described in [QC procedure](#swipes-procedures) above) as well as the average QC score and number of reviewers for each individual visual report.
 
-Each visual report is independently reviewed and rated as a pass or fail, which in the outputs are translated to values of 1 and 0 respectively. The results are combined to calculate an overall average QC score. Below we provide a Python helper function for reading a BrainSwipes TSV file into a Pandas DataFrame and filtering out all subject rows with an average overall QC score of greater than or equal to a threshold specified by the user:
+<p>
+<div id="dwi-fyi" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Automated QC for Processed Diffusion Data</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="notification-open-collapsible-content">
+<p>The release currently includes BrainSwipes results for only structural and functional MRI. Diffusion results will be included in a later release. However, existing automated QC procedures for processed diffusion data are fairly robust compared to sMRI and fMRI. Please see here (ADD LINK) for details.</p>
+</div>
+</p>
+
+BrainSwipes QC results are provided as tabulated instrument data in the `rawdata/phenotype/` folder of the data release (see details [here](../../datacuration/phenotypes.md)), including `img_brainswipes_xcpd-T2w` and `img_brainswipes_xcpd-bold` instrument files. These files contain the BrainSwipes results reporting the average QC score and number of reviewers for each individual visual report. 
+
+The results are also combined for each subject modality to report the overall average QC score and average number of reviewers across visual reports per run. In other words, a single average QC score is provided for each session-level T2w and session-level BOLD run. Below we provide a Python helper function to read a BrainSwipes TSV file into a Pandas DataFrame and filter out all subject runs with an average overall QC score of greater than or equal to a threshold specified by the user:
 
 ```
 import pandas as pd
