@@ -1,7 +1,7 @@
 # Brain Imaging Data Structure (BIDS)
 As much as possible, HBCD processing utilizes the [Brain Imaging Data Structure](https://bids-specification.readthedocs.io/en/stable/) (BIDS) standard for data organization. At a high level, raw HBCD BIDS data has the folder structure displayed below, with all data nested under `r1.0/hbcd/`. The three main folders of interest are as follows: see linked sections for further details on the contents and folder structure of each.
 
-- [Raw BIDS Data](rawbids.md) (`rawdata/sub-<label>/`): raw imaging, EEG, and motion data converted to BIDS
+- [Raw BIDS Data](rawbids.md) (`rawdata/sub-<label>/`): raw imaging, EEG, and motion data converted to BIDS for processing through BIDS App pipelines (see details [here](../processing/index.md))
 - [Phenotype BIDS Data](phenotypes.md) (`rawdata/phenotype/`): tabulated demographic, biospecimen, and instrument data  
 - [Derivatives](derivatives.md) (`derivatives/`): pre-processed imaging, EEG, and motion data derived from processing pipelines
 
@@ -35,19 +35,17 @@ r1.0/
     |   |__ participants.json 
     |
     |__ derivatives/ 
-    |   |__ bibsnet/
-    |   |__ hbcd_motion/
-    |   |__ made/
-    |   |__ mriqc/
-    |   |__ nibabies/
-    |   |__ osprey/
-    |   |__ qmri_postproc/
-    |   |__ qsiprep/
-    |   |__ qsirecon/
-    |   |__ symri/
-    |   |__ xcp_d/
-    |
-    |__ README    
+        |__ bibsnet/
+        |__ hbcd_motion/
+        |__ made/
+        |__ mriqc/
+        |__ nibabies/
+        |__ osprey/
+        |__ qmri_postproc/
+        |__ qsiprep/
+        |__ qsirecon/
+        |__ symri/
+        |__ xcp_d/
 </pre>
 
 
