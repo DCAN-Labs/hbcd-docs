@@ -516,7 +516,7 @@ The data provided within the `rawdata/phenotype/` folder includes demographic, t
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/mri/smri">Structural MRI</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">sMRI</td>
     <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">
-    img_brainswipes_xcpd-T1w<br>img_brainswipes_xcpd-T2w<br>img_mriqc_T1w<br>img_mriqc_T2w<br>
+    img_brainswipes_xcpd-T2w<br>img_mriqc_T1w<br>img_mriqc_T2w<br>
     img_bibsnet_space-T1w_desc-aseg_volumes<br>
     img_bibsnet_space-T2w_desc-aseg_volumes<br>
     </td>
@@ -535,7 +535,7 @@ The data provided within the `rawdata/phenotype/` folder includes demographic, t
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/mri/dmri">Diffusion MRI</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">dMRI</td>
-    <td>img_brainswipes_qsiprep-dwi</td>
+    <td>N/A</td>
   </tr>
     <tr>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/mri/qmri">Quantitative MRI</a></td>

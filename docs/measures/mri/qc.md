@@ -467,8 +467,10 @@ Swipes display GIFs of full-resolution T2w images as a grayscale background, wit
 </div>
 </p>
 
-#### How are final QC scores determined for a given modality? 
-Final QC scores are based on the evaluation of visual reports associated with each [QC procedure](#swipes-procedures) described above. Each report is independently reviewed, and the results are combined to calculate an overall QC score. Below we provide a Python helper function for reading a BrainSwipes TSV file into a Pandas DataFrame and filtering out all subject rows with an average overall QC score of greater than or equal to a threshold specified by the user:
+### Location of BrainSwipes Results in Data Release
+BrainSwipes QC results are provided as tabulated instrument data in the `rawdata/phenotype/` folder of the data release (see details [here](../../datacuration/phenotypes.md)), including `img_brainswipes_xcpd-T2w` and `img_brainswipes_xcpd-bold` files. These files contain the average overall QC score and number of reviewers across visual reports used for QC (as described in [QC procedure](#swipes-procedures) above) as well as the average QC score and number of reviewers for each individual visual report.
+
+Each visual report is independently reviewed and rated as a pass or fail, which in the outputs are translated to values of 1 and 0 respectively. The results are combined to calculate an overall average QC score. Below we provide a Python helper function for reading a BrainSwipes TSV file into a Pandas DataFrame and filtering out all subject rows with an average overall QC score of greater than or equal to a threshold specified by the user:
 
 ```
 import pandas as pd
