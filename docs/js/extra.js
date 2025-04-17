@@ -42,7 +42,7 @@ function expandCollapsibleById(id) {
 
 // Auto-expand all collapsible banners on page load
 document.addEventListener('DOMContentLoaded', function () {
-  const collapsibleContents = document.querySelectorAll(['.collapsible-content', '.table-open-collapsible-content']);
+  const collapsibleContents = document.querySelectorAll(['.collapsible-content', '.alert-collapsible-content', '.warning-collapsible-content', '.table-open-collapsible-content']);
   const arrowIcons = document.querySelectorAll('.arrow');
 
   // Loop through all collapsible sections to open and rotate arrow
