@@ -13,7 +13,6 @@
 ##### Time-frequency plots overlaid by electrode position for subject data with artifact. Note that there is an influence of this artifact in the electrodes surrounding E55:
 <img src="../images/Fig3.png" width="90%" height="auto", class="center">
 
-
 ## Effects On ERP Derivatives 
 ##### VEP & FACE Tasks
 While the artifact is present at channel E55, it does not appear in the regions of interest (ROIs) for the **VEP** (*left*) and **FACE** (*right*) tasks, as illustrated for the Oz ROI for the subject data with artifact below:
