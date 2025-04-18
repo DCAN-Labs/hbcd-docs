@@ -63,7 +63,7 @@ For MLDS, QC procedures involve monitoring frequency of decline to answer and co
   <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="warning-collapsible-content">
 <p>Subject matter experts did not identify any issues with MLDS. However, they emphasize that this measure assesses a child’s exposure to language to guide the selection of appropriate measures for their next in-person study visit. It estimates the percentage of time the child is exposed to languages in caregiving environments, based on caregiver reports. These estimates are approximate and also may not account for all languages the child encounters. The measure does not evaluate or quantify the child’s interactions or their expressive or receptive language skills in a given language, but rather provides an estimate of the time spent in environments where specific languages are spoken.</p> 
 </div>
 </p>
@@ -77,8 +77,7 @@ Designed specifically for HBCD, this measure informs assessment teams conducting
   <span class="table-text">Scoring Procedures</span>
   <span class="notification-arrow">▸</span>
 </div>
-<div class="notification-collapsible-content">
-<br>
+<div class="closed-collapsible-content">
 <p>Total days per week and total hours per day were calculated for up to 10 non-parental childcare arrangements (Daycare, With Babysitter, With other family members outside of the household, and Other non-parental childcare arrangement). The language environment for each non-parental childcare arrangement was described based on the percentage of Spanish vs English spoken in the environment:</p>
 <ul>
   <li><b>Only Spanish OR Only English</b>: ≥30% of language AND &lt;30% of the other language is spoken</li>
@@ -96,7 +95,7 @@ Designed specifically for HBCD, this measure informs assessment teams conducting
   <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="warning-collapsible-content">
 <p>The response option "Decline to answer" was added on November 8, 2024 to allow participants to not answer any questions they choose.  However, "Decline to answer" is not a response option on the published form and was not used in the reference sample from which the standard scores were derived. It is possible that participants chose “Decline to Answer” rather than “never” for behaviors that have never been seen (for example items related to reacting to food texture for an infant who has not been exposed to solids).</p> 
 </div>
 </p>

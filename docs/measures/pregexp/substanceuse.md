@@ -91,7 +91,7 @@ For all measures, QC procedures involved review of response distributions (cross
     <span class="text">Responsible Use Warning</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="alert-collapsible-content">
 <p style="margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px solid #6b6b6b66;"><strong>ASSIST V1</strong></p>
 <p>Implicit in responsible stewardship of prenatal drug exposure data is the recognition of the structural racism in which drug policy in the United States has long been embedded (Coles 1993; Wakeman et al., 2022). Responsible use of prenatal drug exposure data also requires thoughtful interpretation of exposure-related outcomes in the context of measured and unmeasured confounders. These confounders include, but are not limited to, phenotypic risks associated with persistent alcohol, tobacco, and other drug use during pregnancy by birthing parents (Massey et al., 2011), and confounding by familial risk from within-family studies (Estabrook et al., 2016).</p>
 <p>Finally, unwarranted speculation about ‘neural bases of behavior’ form differences in neuroimaging between exposed and unexposed children in the absence of differences in behavioral performance can exacerbate stigma already faced by birthing parents with substance use disorders and their children (McAllister & Hart 2015).</p> 
@@ -104,7 +104,7 @@ For all measures, QC procedures involved review of response distributions (cross
   <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="warning-collapsible-content">
 <p>It was difficult for some participants to self-report the typical size of a single drink (in oz) to capture ‘standard drinks’ of alcohol for Assist, leading to some reports falling outside the expected range. Similarly, reporting the frequency of use for substances like electronic cigarette devices proved difficult, resulting in outliers. While sites were queried on these outliers, participants could not always be re-contacted for clarification.</p> 
 </div>
 </p>
@@ -184,7 +184,7 @@ Finally, additional screening for substance use (within three months before or d
     <span class="text">Responsible Use Warning</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="alert-collapsible-content">
 <p>HBCD was designed to enable the characterization of the known fluctuation in substance use across the perinatal period critical for advancing prevention and intervention (Massey et al., 2023, Bandoli et al., 2022, Si et al., 2024).</p>
 <p>Moreover, characterization of between- and within-person variability in substance use has been shown to enhance the sensitivity and specificity of risk prediction (Massey et al., 2021, Massey et al., 2018). Thus, the characterization of patterns or trajectories of use should be considered over the use of dichotomous exposure characterization. Another gap in literature concerns the extent, nature, and implications of polysubstance use during pregnancy since individual substances have primarily been examined alone in prior research (Massey et al., 2018). The power and scope of HBCD avails a unique opportunity to understand the prevalence and implications of such ‘real world’ patterns of substance use.</p> 
 </div>
@@ -195,7 +195,7 @@ Finally, additional screening for substance use (within three months before or d
   <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="warning-collapsible-content">
 <p>The sampling covers specific weeks before pregnancy (Weeks 1-2) and during pregnancy (Weeks 3-9). Consequently, substance use reported outside these weeks may not appear in the TLFB, and a positive biospecimen may lack corresponding TLFB data for the same reason. This sampling approach balances participant burden (avoiding a full 40-week TLFB) with capturing key pregnancy phases when behaviors often shift, such as before and after pregnancy recognition and in late pregnancy.</p>
 <p>Also, of note- participants were asked to report occasions (except cigarettes/cigarillos and drinks, reported as number), but some substances (e.g. electronic cigarette devices) are difficult to report in occasions and have outliers.</p>
 </div>

@@ -5,7 +5,7 @@
     <span class="text">Responsible Use Warning</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="alert-collapsible-content">
 <p><b><i>The text below is sourced directly from the ABCD Wiki <a href="https://data.abcdstudy.org/reports/wiki-release6/data-doc/imaging/resting-state-fmri.html#use-rsfmri">Responsible Use Warning: Head Motion</a>. While it specifically references ABCD, the same principles apply equally to HBCD.</i></b></p>
 <blockquote>
 <p>Head motion is a serious issue for neuroimaging, and especially for resting state fMRI. It creates brain-wide artifactual effects including elevated short-distance connectivity and attenuated long-distance connectivity (Power et al. 2012). In order to guard against artifactual effects due to head motion, researchers typically implement a variety of strategies that operate at multiple points of the data collection and processing pipeline, with guidance regularly evolving over time (Power et al. 2014; 2015; Satterthwaite et al. 2013; Siegel et al. 2017; Gratton et al. 2020). Some of these strategies include discarding entire runs of data that exceed certain motion thresholds and discarding individual functional imaging frames that are proximal to motion events (i.e., “motion censoring”). These strategies in particular typically lead to the exclusion of some participants from further analysis for lack of sufficient data.</p>
@@ -20,7 +20,7 @@
   <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="warning-collapsible-content">
 <p><b>Philips signal intensity clipping - Overview</b><br>
 A subset of Philips fMRI scans is affected by a signal intensity clipping issue. Due to a scaling error during real-time reconstruction, raw pixel intensity values above 4095 are capped, resulting in hyperintense regions that obscure gray/white matter signal. This artifact can significantly impact BOLD registration and derived measures such as ROI-to-ROI correlations.</p>
 <p><b>Detection and Prevalence</b><br>

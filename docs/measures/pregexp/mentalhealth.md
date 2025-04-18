@@ -109,7 +109,7 @@ The HBCD FAM MH assesses self-reported diagnoses and mental health conditions of
   <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="warning-collapsible-content">
 <p style="margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px solid #6b6b6b66;"><strong>Consideration of Mental Health Symptoms Experienced During Pregnancy</strong></p>
 <p>Concurrence of psychiatric symptoms and substance use is well-recognized during pregnancy (Massey et al., 2011, 2012). Phenotypic risk in birthing parents may influence neurodevelopmental outcomes via prenatal and postnatal influences other than direct exposures alone (Estabrook et al., 2016, Massey et al., 2016, Massey et al., 2018). These influences may confound exposure-related neuroimaging and neurodevelopmental findings, and also represent malleable targets for prevention and early intervention. Thus, consideration of mental health symptoms experienced by birthing parents as covariates is strongly encouraged when possible to address these confounds.</p> 
 </div>
@@ -154,7 +154,7 @@ Additional modifications are described below. Future publications should be sure
   <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="warning-collapsible-content">
 <p style="margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px solid #6b6b6b66;"><strong>Consideration of Mental Health Symptoms Experienced During Pregnancy</strong></p>
 <p>Concurrence of psychiatric symptoms and substance use is well-recognized during pregnancy (Massey et al., 2011, 2012). Phenotypic risk in birthing parents may influence neurodevelopmental outcomes via prenatal and postnatal influences other than direct exposures alone (Estabrook et al., 2016, Massey et al., 2016, Massey et al., 2018). These influences may confound exposure-related neuroimaging and neurodevelopmental findings, and also represent malleable targets for prevention and early intervention. Thus, consideration of mental health symptoms experienced by birthing parents as covariates is strongly encouraged when possibl to address these confounds.</p> 
 </div>

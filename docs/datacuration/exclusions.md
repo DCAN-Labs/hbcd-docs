@@ -106,7 +106,7 @@ Static elements are precisely identified hard-coded elements such as participant
     <span class="table-text">Excluded Instruments</span>
   <span class="notification-arrow">▸</span>
 </div>
-<div class="notification-collapsible-content">
+<div class="closed-collapsible-content">
 <ul>
     <li>Biosensor Receipt Form ('sens_ch_rcpt')</li>
     <li>EEG Acquisition Checklists
@@ -152,7 +152,7 @@ Static elements are precisely identified hard-coded elements such as participant
     <span class="table-text">Excluded Instrument Fields</span>
   <span class="notification-arrow">▸</span>
 </div>
-<div class="notification-collapsible-content">
+<div class="closed-collapsible-content">
 <ul>
     <li>Examiner ('Examiner’)  </li>
     <li>Date of Birth (‘DOB’)  </li>
@@ -177,7 +177,7 @@ Static elements are precisely identified hard-coded elements such as participant
     <span class="table-text">Filtered Out-Of-Range Field Values</span>
   <span class="notification-arrow">▸</span>
 </div>
-<div class="notification-collapsible-content">
+<div class="closed-collapsible-content">
 <p>Some fields can have out-of-range values considered “extreme.” Values outside of the valid ranges listed for the instruments below were filtered, i.e. changed to "n/a."</p>
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <thead>
@@ -228,7 +228,7 @@ Static elements are precisely identified hard-coded elements such as participant
     <span class="table-text">Dynamic Element Exclusions</span>
   <span class="notification-arrow">▸</span>
 </div>
-<div class="notification-collapsible-content">
+<div class="closed-collapsible-content">
 <ul>
 <b>Participant Filters:</b>
     <li>No brain rating or brain rating noted “abnormal” are not selected</li>

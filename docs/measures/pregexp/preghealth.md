@@ -139,7 +139,7 @@ For quality control, response distributions were reviewed for outliers.
     <span class="text">Responsible Use Warning</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="alert-collapsible-content">
 <p style="margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px solid #6b6b6b66;"><strong>Pregnancy Health (<code>Healthhx</code>): Pregnancy intention as a determinant of exposure</strong></p>
 <p>Amidst powerful societal expectations to ‘do what’s best for the baby’ during pregnancy (i.e. by stopping substance use), up to half of pregnancies in the United States are unintended with 1 in 5 unwanted (Bearak et al. 2020). This discrepancy contributes to implicit bias against pregnant individuals who use substances as ‘not caring about their babies’ which is neither humane, nor evidence based (Massey et al., 2022). While cessation of substance use during pregnancy is universally recognized as optimal, the ability to make this “parental” sacrifice varies substantially between birthing individuals and within individuals between their different pregnancies (Level et al., 2024). Failure to recognize this inherent heterogeneity in pregnancy intention stigmatizes substance users who did not intend to want to become pregnant. Summarily, inclusion of pregnancy intention as a covariate in all studies that characterize prenatal substance exposure (in the absence of a strong justification otherwise) is thus strongly recommended to acknowledge myriad experiences of birthing parents who participated in HBCD who made this research possible. </p> 
 </div>
@@ -151,7 +151,7 @@ For quality control, response distributions were reviewed for outliers.
   <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="warning-collapsible-content">
 <p>Subject matter experts note that there are potential issues relating to correct coding for (1) ICD codes from BioPortal ICD (used to capture reason(s) for medication use, ER visits, and hospitalizations), (2) symptom codes from World Health Organization, and (3) medication names from RxNORM. For instruments utilizing these coding systems, it was at times difficult for the participant to name or HBCD Study team member conducting the survey to find the correct code/name in a databases. The following instruments were impacted:</p> 
  <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <thead>
@@ -197,7 +197,7 @@ For quality control, response distributions were reviewed for outliers.
   <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="warning-collapsible-content">
 <p>Please note that out-of-range values were filtered (i.e. changed to "n/a") for Healthv2 Inf (<code>pex_bm_healthv2_inf</code>). Valid field values are documented in <a href="../../../datacuration/exclusions#filtered-values">Filtered Out-Of-Range Field Values</a> under the section on <a href="../../../datacuration/exclusions">Exclusion Criteria</a>.</p>
 </div><br>
 

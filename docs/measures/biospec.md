@@ -64,7 +64,7 @@ QC procedures involved examining assay ranges and categorical versus continuous 
   </span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="warning-collapsible-content">
 <p>For all toxicology screens, continuous variables should be interpreted with cautiong based on the threshold limits of quantification (LOQs), or the cutoff concentration used to categorize metabolites as positive or negative. LOQs are provided in <a href="#nails-table1">Table 1. Nail Assay Thresholds</a> and <a href="#urine-table1">Table 1. Urine Assay Thresholds for Analytes</a>.</p> 
 </div>
 </p>
@@ -77,7 +77,7 @@ QC procedures involved examining assay ranges and categorical versus continuous 
   </span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="warning-collapsible-content">
 <p>As of July 1, 2024, the nail processing workflow was updated to optimize specimen use and allow confirmation testing for low sample quantities. Prior to this update, remnants of ELISA extract were not used for confirmation when specimens had insufficient sample.</p> 
 </div>
 </p>
@@ -664,7 +664,7 @@ Based on the confirmatory test (i.e. reflexes from positive screening test) resu
   <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="warning-collapsible-content">
 <p>Only the initial creatinine results from sample validation are included in the data release: creatinine and specific gravity values are therefore provided for researchers who wish to adjust for urinary concentration in continuous measures or apply different thresholds.</p> 
 </div>
 </p>

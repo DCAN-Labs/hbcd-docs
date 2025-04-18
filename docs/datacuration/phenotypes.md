@@ -88,7 +88,7 @@ For example, `mri_ra_prep` refers to MRI-related data entered by a research assi
   <span class="text">FYI: Correspondence to JSON Metadata</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="notification-open-collapsible-content">
 <p>The <code>domain</code> and <code>source</code> are also included in the JSON metadata and are typically derived from the corresponding sections of the instrument name. However, in some cases, data are collected directly into fields or tables that do not follow the standard naming convention. In those instances, the domain and source values are added later during the Data Release process.</p>
 <strong>This applies to:</strong>
 <ul>
@@ -130,7 +130,7 @@ For example, `mri_ra_prep` refers to MRI-related data entered by a research assi
   <span class="text">Cohort & Caregiver Types</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="notification-open-collapsible-content">
 <p>Cohort types included in the data release are as follows, with each listed item indicating a specific subtype or Caregiver Type (e.g., "HBCD Main Child - Postnatal Recruitment"):</p>
 <ul>
 <li><strong>HBCD Main Child -</strong> <em>Postnatal Recruitment</em>, <em>Type A-F</em></li>
@@ -174,7 +174,7 @@ For example, `mri_ra_prep` refers to MRI-related data entered by a research assi
   <span class="text">Instrument-Specific Fields Reporting Age</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="notification-open-collapsible-content">
 <br>
 <b>Gestational Age at Administration</b> (<code>&lt;instrument_name&gt;_gestational_age</code>): 'GAA' is the time from the first day of the birth parent’s last menstrual period (LMP), estimated as EDD minus 280 days, to the instrument administration date. GAA is given in whole weeks, rounded down, for only the V01 visit. For a given participant, GAA typically varies by no more than 4 weeks across protocol elements except in cases where protocol exceptions were granted.
 <br>
@@ -194,7 +194,7 @@ For example, `mri_ra_prep` refers to MRI-related data entered by a research assi
   <span class="text">Demographics: Fields Reporting Age</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="notification-open-collapsible-content">
 <br>
 <i>Note that all of the following are single-point and static values.</i>
 <br>

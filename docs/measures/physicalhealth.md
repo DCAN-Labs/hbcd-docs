@@ -77,7 +77,7 @@ The QC procedures for all three measures involved monitoring the data dashboard 
   <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="warning-collapsible-content">
 <p>Breast feeding history is obtained via self-report, so is vulnerable to recall bias concerning the timing of starting and/or stopping breast feeding. In addition, as the data is obtained via a survey, it is likely that missing data will need to be statistically addressed during analysis.</p> 
 </div>
 </p>
@@ -91,7 +91,7 @@ Breastfeeding measures initiation, exclusivity, and cessation of breast milk fee
   <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="warning-collapsible-content">
 <p>Researchers should be aware that the validated measure uses Yes/No answers and does not account for missing data.</p> 
 </div>
 </p>
@@ -105,7 +105,7 @@ Food Insecurity, based on two items assessing the availability of food, is a scr
   <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="warning-collapsible-content">
 <p>Please note that range checks for Growth (<code>ph_ch_anthro</code>) were implemented in the database on 7/1/2024 so are not reflected in data included in the first data release. Outliers are possible.</p> 
 <p>However, out-of-range values were filtered (i.e. changed to "n/a") to some extent. Valid values for Growth fields are documented in the section on <a href="../../datacuration/exclusions">Exclusion Criteria</a> (see <a href="../../datacuration/exclusions#filtered-values">Filtered Out-Of-Range Field Values</a>) and provided below for quick reference:</p>
 <ul>
