@@ -57,6 +57,7 @@ nav:
   - Release Notes:
     - "Data Measures & Quality Control":
         - Overview: measures/index.md
+        - "Study Design & Conventions": measures/studydesign.md
         - ReproSchema: measures/reproschema.md
         - "Behavior & Caregiver-Child Interaction": measures/behCGinteraction.md   
         - Biospecimens: measures/biospec.md   
