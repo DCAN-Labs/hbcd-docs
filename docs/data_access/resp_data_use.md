@@ -18,7 +18,7 @@ There are 2 types of warnings, both of which may aid in more scientifically rigo
   <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="warning-collapsible-content">
 <p>The purpose of this warning is to improve transparency and offer technical assistance by alerting the user to issues of data quality, providing information on how variables were constructed, providing instructions on how to calculate or analyze specific variables, or providing code (if necessary).</p> 
 </div>
 </p>
@@ -29,7 +29,7 @@ There are 2 types of warnings, both of which may aid in more scientifically rigo
     <span class="text">Responsible Use Warning</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="alert-collapsible-content">
 <p>The purpose of this warning is to offer guidance for research design, data interpretation, and communication of findings, including conceptual information.</p>
 </div>
 </p>
