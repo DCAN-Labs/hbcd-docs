@@ -4,7 +4,7 @@
 The data structure in the HBCD Study, as designed by the HBCD Data Core, is intentionally organized with Child ID as the central key. Data provided by caregivers (e.g., biological mother, other caregivers) is also nested under the corresponding Child ID.
 
 ### Rationale
-The primary goal of the HBCD Study is to support longitudinal analyses of child development. By anchoring all data—including caregiver-reported measures—to the Child ID:
+The primary goal of the HBCD Study is to support longitudinal analyses of child development. By anchoring all data, including caregiver-reported measures, to the Child ID:
 
 1. **Child-focused analysis is streamlined:** Researchers can easily conduct longitudinal analyses of individual children without needing to re-map caregiver data.
 
