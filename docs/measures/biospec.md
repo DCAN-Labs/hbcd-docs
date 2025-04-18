@@ -626,7 +626,7 @@ Based on the confirmatory test (i.e. reflexes from positive screening test) resu
 <tr>
     <td colspan="1" rowspan="3">suf (s_suf_n)</td>
     <td>Alfentanil (c_afent_n)</td></tr>
-    <tr><td>Sufentanil (c_suf_u)</td></tr>
+    <tr><td>Sufentanil (c_suf_n)</td></tr>
     <tr><td>Norsufentanil (c_nsuf_n)</td>
 </tr>
 <tr>
@@ -1262,7 +1262,7 @@ The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are corre
     <tr><td>Alphahydroxytriazolam (c_aht_u)</td></tr>
     <tr><td>Lorazepam (c_lor_u)</td></tr>
     <tr>
-        <td colspan="1" rowspan="20">
+        <td colspan="1" rowspan="19">
             <div>opioids (c_any_opioid_u)</div>
         </td>
         <td colspan="1" rowspan="5">
@@ -1315,8 +1315,7 @@ The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are corre
         <td colspan="1" rowspan="2">
             <div>bup (s_bup_u)</div>
         </td>
-        <td>Buprenorphine (c_bup_u)</td>
-    </tr>
+        <td>Buprenorphine (c_bup_u)</td></tr>
     <tr><td>Norbuprenorpine (c_nbup_u)</td></tr>
     <tr>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;" colspan="1" rowspan="2">
