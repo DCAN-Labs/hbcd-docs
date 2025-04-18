@@ -57,7 +57,6 @@ nav:
   - Release Notes:
     - "Data Measures & Quality Control":
         - Overview: measures/index.md
-        - "Study Design & Conventions": measures/studydesign.md
         - ReproSchema: measures/reproschema.md
         - "Behavior & Caregiver-Child Interaction": measures/behCGinteraction.md   
         - Biospecimens: measures/biospec.md   
@@ -80,6 +79,7 @@ nav:
             - Diffusion MRI: measures/mri/dmri.md
             - Quantitative MRI: measures/mri/qmri.md
             - Magnetic Resonance Spectroscopy: measures/mri/mrs.md 
+    - HBCD Study Design: measures/studydesign.md
     - HBCD BIDS Data:
         - Overview: datacuration/overview.md
         - Raw BIDS Data: datacuration/rawbids.md
