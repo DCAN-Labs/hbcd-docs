@@ -165,6 +165,14 @@ mriqc/
 ## Infant-fMRIPrep (`nibabies/`)
 Infant-fMRIPrep (also known as NiBabies) outputs from minimal structural and functional MRI processing include visual quality assessment reports, preprocessed derivatives, and confounds to be used for denoising in subsequent processing procedures. Please see their webpage [here](https://nibabies.readthedocs.io/en/latest/outputs.html) for a detailed description of the file outputs.
 
+<p>
+<div id="fyi-nibabies" class="notification-banner">
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">NOTE: The current release includes Infant fMRIPrep derivatives for V02 only.
+	</span>
+</div>
+</p>
+
 <pre class="folder-tree">
 nibabies/
 sub-<span class="label">&lt;label&gt;</span>/
@@ -617,6 +625,13 @@ symri/
 ## XCP-D (`xcp_d/`)
 XCP-D performs functional MRI post-processing and noise regression from Infant-fMRIPrep derivatives. Please see the [XCP-D webpage](https://xcp-d.readthedocs.io/en/latest/) to learn more and read details about the output file types.
 
+<p>
+<div id="fyi-xcpd" class="notification-banner">
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">NOTE: The current release includes XCP-D derivatives for V02 only.
+	</span>
+</div>
+</p>
 
 <p style="margin-bottom: 0; padding-bottom: 0; font-size: smaller;">
   <b style="color: #0077cc;">SEG</b> label values: 4S1056Parcels, 4S156Parcels, 4S256Parcels, 4S356Parcels, 4S456Parcels, 4S556Parcels, 4S656Parcels, 4S756Parcels, 4S856Parcels, 4S956Parcels, Glasser, Gordon, HCP, MIDB, MyersLabonte, Tian
