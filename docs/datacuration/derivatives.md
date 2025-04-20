@@ -168,7 +168,7 @@ Infant-fMRIPrep (also known as NiBabies) outputs from minimal structural and fun
 <p>
 <div id="fyi-nibabies" class="notification-banner">
     <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">NOTE: The current release includes Infant fMRIPrep derivatives for V02 only.
+    <span class="text">NOTE: The current release includes Infant fMRIPrep (and consequently XCP-D) derivatives for V02 only.
 	</span>
 </div>
 </p>

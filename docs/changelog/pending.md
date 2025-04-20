@@ -24,11 +24,11 @@ The interim Release 1.1 will include:
   <b>Additional Brain Imaging Data:</b>
   <ul style="margin: 0 0 20px 20px; padding: 0;">
 <li>Source data (e.g. DICOMs) for <a href="../../datacuration/rawbids">raw BIDS</a> (all imaging modalities)</li>
-<li>Processed V03 <a href="../../datacuration/derivatives">derivatives</a> for structural and functional MRI</li>
+<li>Processed V03 <a href="../../datacuration/derivatives/#infant-fmriprep-nibabies" target="_blank">Infant fMRIPrep</a> and <a href="../../datacuration/derivatives/#xcp-d-xcp_d" target="_blank">XCP-D</a> derivatives for structural and functional MRI</li>
 </ul>
 </div>
 
-Release 1.1 will also include the addition of the following measures:
+Release 1.1 will also include the addition of the following tabulated data:
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
   <thead>

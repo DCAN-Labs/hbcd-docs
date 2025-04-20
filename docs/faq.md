@@ -187,6 +187,19 @@
 </p>
 
 <p>
+<div id="faq-no-v03" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Why is only V02 data available for some of the imaging pipelines?</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<p>The full MRI processing workflow includes <a href="../../datacuration/derivatives/#bibsnet-bibsnet" target="_blank">BIBSNet</a> (deep learning model-derived brain segmentation), <a href="../../datacuration/derivatives/#infant-fmriprep-nibabies" target="_blank">Infant fMRIPrep/Nibabies</a> (structural and functional preprocessing), and <a href="../../datacuration/derivatives/#xcp-d-xcp_d" target="_blank">XCP-D</a> (functional post-processing and noise regression). The current release includes V02 and V03 BIBSNet derivatives, but only V02 derivatives for the remaining pipelines.</p> 
+
+<p><a href="../measures/mri/qc/#brainswipes" target="_blank">BrainSwipes</a> quality control results generated from XCP-D visual reports also only include V02 as a result. Also note that at this age range, Infant fMRIPrep performs T2w-based surface reconstruction using M-CRIB-S, so T1w surface delineation and atlas registration QC is missing from BrainSwipes. However, the T1w, if present, was still used to inform the brain segmentation generated in BIBSNet, which is provided as an external input to Infant fMRIPrep processing.</p>
+</div>
+</p>
+
+<p>
 <div id="faq-FS" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
   <span class="text">Are FreeSurfer processing outputs included in the release data?</span>

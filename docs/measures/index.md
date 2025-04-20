@@ -535,7 +535,7 @@ The data provided within the `rawdata/phenotype/` folder includes demographic, t
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/mri/dmri">Diffusion MRI</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">dMRI</td>
-    <td>N/A</td>
+    <td>img_qsiprep_space-ACPC_desc-image_qc</td>
   </tr>
     <tr>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/mri/qmri">Quantitative MRI</a></td>
