@@ -56,7 +56,7 @@ Please refer to the [Official EEG Acquisition Manual](https://docs.google.com/do
   <span class="arrow">▸</span>
 </div>
 <div class="warning-collapsible-content">
-<p>The EEG Core of the HBCD Data Coordinating Center (HDCC) has developed some helpful tools for extracting summary statistics and trial measures from HBCD EEG release data. We encourage all users to explore these resources at the <a href="https://docs-hbcd-eeg-utilities.readthedocs.io">HBCD EEG Utilities</a> website.</p>
+<p>The EEG Core of the HBCD Data Coordinating Center (HDCC) has developed some helpful tools for extracting summary statistics and trial measures from HBCD EEG release data. We encourage all users to explore these resources at the <a href="https://childdevlab-hbcd-eeg-utilities.readthedocs.io/">HBCD EEG Utilities</a> website.</p>
 </div>
 </p>
 
