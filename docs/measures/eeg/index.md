@@ -67,7 +67,8 @@ Please refer to the [Official EEG Acquisition Manual](https://docs.google.com/do
 </div>
 <div class="warning-collapsible-content">
 <p>The MMN, VEP, and FACE task data for one participant included in the data release was found to contain an electrical noise artifact originating from the stimtracker device used for stimulus timing. All other participants' data were checked and confirmed to be artifact-free.</p> 
-<p>This artifact is most prominent in electrode E55 between the REF and COM electrodes, but is also visible in surrounding channels. It is time-locked to both stimulus onset and offset: as highlighted in the following EEG trace (MMN auditory oddball task in E55), the artifact presents as a negative deflection at onset and a positive deflection at offset. Please visit <a href="artifacts" target="_blank">this page</a> to see how this artifact appears in time-frequency plots.</p>
+<p>This artifact is most prominent in electrode E55 between the REF and COM electrodes, but is also visible in surrounding channels. It is time-locked to both stimulus onset and offset: as highlighted in the following EEG trace (MMN auditory oddball task in E55), the artifact presents as a negative deflection at onset and a positive deflection at offset. Please visit <a href="artifacts" target="_blank">this page</a> to see how this artifact appears in time-frequency plots and ERP derivatives.</p>
+
 <img src="images/Fig1.png" width="70%" height="auto" class="center">
 <p>The EEG workgroup is currently developing a method of ICA correction to remove this artifact. In the meantime, <strong>it is recommended to exclude the MMN, VEP, and FACE tasks for this participant from analyses</strong>. The affected subject is flagged on the <a href="../../../data_access/lasso" target="_blank">Lasso platform</a>.</p>
 </div>
