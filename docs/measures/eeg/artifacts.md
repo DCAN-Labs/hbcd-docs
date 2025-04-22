@@ -1,11 +1,14 @@
 # Stimtracker Artifact ([Data Warning](index.md#eeg-artifact-warning) cont.)
 
 ## Time-Frequency Plots
-##### Time-frequency plots (1-30 Hz) of all data release subjects at E55:
-<img src="../images/Fig2.png" width="90%" height="auto", class="center">
+##### Time-frequency plots (1-30 Hz) of data release subjects at E55 including (<i>left</i>) and excluding (<i>right</i>) subject with artifact:
 
-##### Time-frequency plots (1-30 Hz) of data release subjects at E55 without artifact (i.e. excluding subject with artifact):
-<img src="../images/Fig5.png" width="90%" height="auto", class="center">
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <img src="../images/Fig2.png" alt="NBDC-logo" style="width: 50%; margin-right: 20px;">
+  <img src="../images/Fig5.png" alt="Lasso-logo" style="width: 50%;">
+</div>
+
+<br>
 
 ##### Average time-frequency plots at E55 including (*left*) and excluding (*right*) subject data with artifact:
 <img src="../images/Fig4.png" width="100%" height="auto", class="center">

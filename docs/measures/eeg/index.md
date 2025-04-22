@@ -52,13 +52,26 @@ Please refer to the [Official EEG Acquisition Manual](https://docs.google.com/do
 <p>
 <div id="eeg-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Data Warning</span>
+  <span class="text">Data Warning: HBCD EEG Utilities</span>
   <span class="arrow">▸</span>
 </div>
 <div class="warning-collapsible-content">
 <p>The EEG Core of the HBCD Data Coordinating Center (HDCC) has developed some helpful tools for extracting summary statistics and trial measures from HBCD EEG release data. We encourage all users to explore these resources at the <a href="https://childdevlab-hbcd-eeg-utilities.readthedocs.io/">HBCD EEG Utilities</a> website.</p>
 </div>
 </p>
+
+<div id="eeg-artifact-warning" class="warning-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
+  <span class="text">Data Warning: Stimtracker Artifact</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="warning-collapsible-content">
+<p>The MMN, VEP, and FACE task data for one participant included in the data release was found to contain an electrical noise artifact originating from the stimtracker device used for stimulus timing. All other participants' data were checked and confirmed to be artifact-free.</p> 
+<p>This artifact is most prominent in electrode E55 between the REF and COM electrodes, but is also visible in surrounding channels. It is time-locked to both stimulus onset and offset, presenting as a negative deflection at onset and a positive deflection at offset:</p>
+<img src="images/Fig1.png" width="70%" height="auto" class="center">
+<p>For additional details on how this artifact appears in time-frequency plots and ERP derivatives, please visit <a href="artifacts" target="_blank">this page</a>.</p>
+<p>The EEG workgroup is currently developing a method of ICA correction to remove this artifact. In the meantime, <strong>it is recommended to exclude the MMN, VEP, and FACE tasks for this participant from analyses</strong>. The affected subject is flagged on the <a href="../../../data_access/lasso" target="_blank">Lasso platform</a>.</p>
+</div>
 
 ### Faces Task (FACE)
 The Faces task (v.11.29.23) is used to assess neural activity supporting face and object processing within the first years of life. Event-related potentials (ERPs) are recorded while infants view faces and objects using an oddball task designed to index different stages of processing including attention, perception, categorization, individuation, and memory. 
@@ -94,26 +107,13 @@ See [HBCD Study Protocols - EEG](https://hbcdstudy.org/wp-content/uploads/2023/0
 <p>
 <div id="mmn-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Data Warning: Updated ISI Between V03 & V04/06</span>
+  <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="warning-collapsible-content">
 <p>Researchers should be aware that the interstimulus interval (ISI) was updated between V03 and V04/V06. Please see <a href="https://doi.org/10.1016/j.dcn.2024.101447">Fox et al. 2024</a> and <a href="https://doi.org/10.1097/00003446-200204000-00005">Morr et al. 2002</a> for details.</p> 
 </div>
 </p>
-
-<div id="eeg-artifact-warning" class="warning-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Data Warning: Stimtracker Artifact</span>
-  <span class="arrow">▸</span>
-</div>
-<div class="warning-collapsible-content">
-<p>The MMN auditory oddball task data for one participant included in the data release was found to contain an electrical noise artifact originating from the stimtracker device used for stimulus timing. All other participants' data were checked and confirmed to be artifact-free.</p> 
-<p>This artifact is most prominent in electrode E55 between the REF and COM electrodes, but is also visible in surrounding channels. It is time-locked to both stimulus onset and offset, presenting as a negative deflection at onset and a positive deflection at offset:</p>
-<img src="images/Fig1.png" width="70%" height="auto" class="center">
-<p>For additional details on how this artifact appears in time-frequency plots and ERP derivatives, please visit <a href="artifacts" target="_blank">this page</a>.</p>
-<p>The EEG workgroup is currently developing a method of ICA correction to remove this artifact. In the meantime, <strong>it is recommended to exclude the MMN task for this participant from analyses</strong>. The affected subject is flagged on the <a href="../../../data_access/lasso" target="_blank">Lasso platform</a>.</p>
-</div>
 
 The Auditory Mismatch Negativity (MMN) Task (v.11.29.23) is designed to assess early speech sound processing in infants, incorporating rigorous quality control procedures to ensure data integrity and reliability. This task measures auditory evoked potentials and examines neural habituation and dishabituation by capturing differential responses to standard and deviant stimuli.
 
