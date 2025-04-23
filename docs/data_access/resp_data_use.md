@@ -8,7 +8,7 @@ To facilitate responsible data use, warnings have been added to tables and varia
 
 1.    	Review the data warnings for any variable that you will be downloading and/or using by clicking the link and reviewing the warning associated with that variable
 2.    	Review any resources and citations included with the warning and follow recommended guidelines
-3.    	Reach out to the HBCD Responsible Use of Data Committee (RUDC) chair Pilar Ossorio (<span class="blue-text">pnossorio@wisc.edu</span>) with any questions about data warnings or responsible data use.
+3.    	Reach out via the [Lasso Help Center](../reportissue.md) if you have questions about the data warning or how to use the data.
  
 There are 2 types of warnings, both of which may aid in more scientifically rigorous use of HBCD data:
 
@@ -33,8 +33,6 @@ There are 2 types of warnings, both of which may aid in more scientifically rigo
 <p>The purpose of this warning is to offer guidance for research design, data interpretation, and communication of findings, including conceptual information.</p>
 </div>
 </p>
-Warnings section of readthedocs RUD homepage: "These warnings also include conceptual information (e.g., difference between sex assigned at birth and gender identity, the possibility of bias due to attrition or non-response)." 
-We will remove the example, "(e.g., difference between sex assigned at birth and gender identity, the possibility of bias due to attrition or non-response)". This will be replaced with a new example. 
 
 ## Recommendations for Rigorous, Reproducible, and Responsible Data Use
 The HBCD Responsible Use of Data Committee (RUDC) provides the following guidance for researchers planning to use HBCD data:
@@ -84,7 +82,7 @@ The HBCD Responsible Use of Data Committee (RUDC) provides the following guidanc
 
 <b class="gray-text">Avoid oversimplifying complex constructs.</b> Constructs such as race and ethnicity are complex, shaped by historical, cultural, and social factors. These constructs do not refer to fixed, biological categories of people. At every stage of research, investigators should evaluate and decide whether use of such constructs is scientifically justified ([Cardenas-Inguinez & Gonzales, 2024](https://doi.org/10.1038/s41593-024-01608-4); [NASEM, 2024](https://doi.org/10.17226/27913)). 
 
-<b class="gray-text">Complex constructs, e.g., race, should not be used as proxies for variables such as socioeconomic status, access to healthcare, or environmental exposures.</b> Including social and environmental variables in one’s analysis allows for a more accurate understanding of underlying contributors to outcomes of interest ([Hoffman et al., 2022](https://doi.org/10.1016/j.jadohealth.2021.11.008)). HBCD has collected data on many social and environmental variables relevant for child development. For help finding these variables in the dataset or learning how to use them contact Pilar Ossorio (<span class="blue-text">pnossorio@wisc.edu</span>).
+<b class="gray-text">Complex constructs, e.g., race, should not be used as proxies for variables such as socioeconomic status, access to healthcare, or environmental exposures.</b> Including social and environmental variables in one’s analysis allows for a more accurate understanding of underlying contributors to outcomes of interest ([Hoffman et al., 2022](https://doi.org/10.1016/j.jadohealth.2021.11.008)). HBCD has collected data on many social and environmental variables relevant for child development.
 
 ### Promoting transparency and reproducibility in research. 
 <b class="gray-text">Transparency in reporting methods and results is essential.</b> A review of ABCD Study manuscripts found that sharing analytic scripts (e.g., on Github, OSF, Zenodo) and providing detailed information about missing data significantly improved transparency and reproducibility ([Lopez et al., 2024](https://doi.org/10.1016/j.dcn.2024.101408)). We recommend that HBCD data users review the [checklist of recommendations](https://www.sciencedirect.com/science/article/pii/S1878929324000690?via%3Dihub#tbl0010) to improve transparency and reproducibility.
