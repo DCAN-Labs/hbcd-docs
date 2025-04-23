@@ -4,10 +4,12 @@
 The HEALthy Brain and Child Development (HBCD) study dataset is a large, rich, and complex resource that can drive scientific discovery, provide a foundation for translation and implementation research, and inform development of public policy. To create this dataset, thousands of participants have given generously of their time and their bodies to help advance science. They have trusted us with sensitive information. The use of HBCD data carries ethical responsibilities to minimize risks of harm to participants and to treat them respectfully and justly. One way data users can respect participants’ contributions is by conducting careful, high-quality science.  
 
 ## Warnings
-To facilitate responsible data use, warnings have been added to tables and variables in the NBDC Data Dictionary and are linked to sections of the [Release Notes](../measures/index.md) to provide additional information for data users. We recommend that all data users:
+To facilitate responsible data use, warnings have been added to tables and variables in the NBDC Data Dictionary and are linked to sections of the [Release Notes](../measures/index.md) to provide additional information for data users. **Note that only [DEAP](../data_access/DEAP.md) currently has embedded links to data and responsible use warnings.** These links will be added to the [Lasso platform](../data_access/lasso.md) after the release, but the warnings can still be viewed by visiting the data measure description of interest in the [Release Notes](../measures/index.md) (for example, see [Data Warning](../../measures/biospec/#nails-warning) for Maternal Nails toxicology screening BioSpecimens).
 
-1.    	Review the data warnings for any variable that you will be downloading and/or using by clicking the link and reviewing the warning associated with that variable
-2.    	Review any resources and citations included with the warning and follow recommended guidelines
+We recommend that all data users:
+
+1.    	Review the data warnings for any variable that you will be downloading and/or using by clicking the link and reviewing the warning associated with that variable.
+2.    	Review any resources and citations included with the warning and follow recommended guidelines.
 3.    	Reach out via the [Lasso Help Center](../reportissue.md) if you have questions about the data warning or how to use the data.
  
 There are 2 types of warnings, both of which may aid in more scientifically rigorous use of HBCD data:
