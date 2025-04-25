@@ -41,7 +41,7 @@ In a large infant study, missing data is common, leading to variations in the nu
 <i>Age is reported with the following fields in the <code>sessions.tsv</code> and <code>scans.tsv</code> files for V02 onwards:</i>
 <br>
 <br>
-<b>Gestational Age at Time of Scan</b> (<code>age_gestational</code>): Reported in days, gestational age is the time from the estimated date of delivery (EDD)—a proxy for conception based on the first day of the birth parent's last menstrual period (LMP)—to the scan date.
+<b>Gestational Age at Time of Scan</b> (<code>age_adjusted</code>): Reported in days (not rounded), adjusted age is the time from the estimated date of delivery (EDD) to the scan date.
 <br>
 <br>
 <b>Chronological Age at Time of Scan</b> (<code>age</code>): Reported in years (to three decimal places), chronological age is the time from birth (with the birthdate jittered up to 7 days to mitigate identification risks) to the scan date. It is calculated by dividing the total days elapsed (rounded down) by 365.25. Reporting in years, rather than months, ensures consistency across developmental stages (e.g., toddlerhood, childhood), while three-decimal precision compensates for birthdate adjustments, yielding values closer to actual age.
