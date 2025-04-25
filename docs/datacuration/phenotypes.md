@@ -83,7 +83,7 @@ For example, `mri_ra_prep` refers to MRI-related data entered by a research assi
   </div>
 </div>
 
-<div id="demo-age" class="notification-banner" onclick="toggleCollapse(this)">
+<div id="json-metadata" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
   <span class="text">FYI: Correspondence to JSON Metadata</span>
   <span class="arrow">▸</span>
@@ -171,7 +171,12 @@ For example, `mri_ra_prep` refers to MRI-related data entered by a research assi
 <p>
 <div id="instrument-age" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Instrument-Specific Fields Reporting Age</span>
+    <span class="text-with-link">
+    <span class="text">Instrument-Specific Fields Reporting Age</span>
+    <a class="anchor-link" href="#instrument-age" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="arrow">▸</span>
 </div>
 <div class="notification-open-collapsible-content">
@@ -191,7 +196,12 @@ For example, `mri_ra_prep` refers to MRI-related data entered by a research assi
 <p>
 <div id="demo-age" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Demographics: Fields Reporting Age</span>
+    <span class="text-with-link">
+    <span class="text">Demographics: Fields Reporting Age</span>
+    <a class="anchor-link" href="#demo-age" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="arrow">▸</span>
 </div>
 <div class="notification-open-collapsible-content">

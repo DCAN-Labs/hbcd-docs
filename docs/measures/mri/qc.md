@@ -122,12 +122,16 @@ All quality control metrics are available in the `sub-<label>_ses-<label>_scans.
 </table>
 
 <div id="scanstsv" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="text-with-link">
   <span class="text">Full list of fields included in <code>scans.tsv</code> files</span>
+  <a class="anchor-link" href="#scanstsv" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="table-arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
-<tfoot><tr><td colspan="2"><b>**</b> <i>Age measures are computed based on a birthdate measure that is jittered up to 7 days</i></td></tr></tfoot>
 <tbody>
   <thead>
 	<tr>
@@ -157,11 +161,11 @@ All quality control metrics are available in the `sub-<label>_ses-<label>_scans.
 	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">age</td>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Age (in years) of the candidate at the time of the scan**</td>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Age (in years) of the candidate at the time of the scan</td>
 	</tr>
 	<tr>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">gestational_age</td>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Gestational age (in days) based on the EDD</td>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">age_adjusted</td>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Adjusted age (in days) based on the EDD</td>
 	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">head_size</td>
