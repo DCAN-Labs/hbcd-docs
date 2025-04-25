@@ -22,7 +22,12 @@ The data provided within the `rawdata/phenotype/` folder includes demographic, t
 
 
 <div id="behCGinteraction" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="text-with-link">
   <span class="table-text">Behavior & Caregiver-Child Interaction</span>
+  <a class="anchor-link" href="#behCGinteraction" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="table-arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
@@ -61,7 +66,12 @@ The data provided within the `rawdata/phenotype/` folder includes demographic, t
 </div>
 
 <div id="biospec" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="text-with-link">
   <span class="table-text">Biospecimen & Omics</span>
+  <a class="anchor-link" href="#biospec" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="table-arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
@@ -92,7 +102,12 @@ The data provided within the `rawdata/phenotype/` folder includes demographic, t
 </div>
 
 <div id="demographics" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="text-with-link">
   <span class="table-text">Demographics</span>
+  <a class="anchor-link" href="#demographics" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="table-arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
@@ -119,7 +134,12 @@ The data provided within the `rawdata/phenotype/` folder includes demographic, t
 </div>
 
 <div id="neurocog" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="text-with-link">
   <span class="table-text">Neurocognition & Language</span>
+  <a class="anchor-link" href="#neurocog" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="table-arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
@@ -152,7 +172,12 @@ The data provided within the `rawdata/phenotype/` folder includes demographic, t
 </div>
 
 <div id="sensors" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="text-with-link">
   <span class="table-text">Novel Technologies & Wearable Sensors</span>
+  <a class="anchor-link" href="#sensors" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="table-arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
@@ -236,7 +261,12 @@ The data provided within the `rawdata/phenotype/` folder includes demographic, t
 </div>
 
 <div id="pregexp" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="text-with-link">
   <span class="table-text">Pregnancy & Exposure, Including Substance Use</span>
+  <a class="anchor-link" href="#pregexp" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="table-arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
@@ -392,7 +422,12 @@ The data provided within the `rawdata/phenotype/` folder includes demographic, t
 </div>
 
 <div id="socenvdet" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="text-with-link">
   <span class="table-text">Social & Environmental Determinants</span>
+  <a class="anchor-link" href="#socenvdet" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="table-arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
@@ -449,7 +484,12 @@ The data provided within the `rawdata/phenotype/` folder includes demographic, t
 </div>
 
 <div id="eeg" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="text-with-link">
   <span class="table-text">EEG</span>
+  <a class="anchor-link" href="#eeg" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="table-arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
@@ -490,7 +530,12 @@ The data provided within the `rawdata/phenotype/` folder includes demographic, t
 </div>
 
 <div id="mri" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="text-with-link">
   <span class="table-text">MRI & MRS</span>
+  <a class="anchor-link" href="#mri" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="table-arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
