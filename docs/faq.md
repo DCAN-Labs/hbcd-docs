@@ -102,7 +102,12 @@
 <p>
 <div id="faq-ducsignoff" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Does the institutional signing official need to sign off for every individual that completes the DUC?</span>
+    <span class="text-with-link">
+    <span class="text">Does the institutional signing official need to sign off for every individual that completes the DUC?</span>
+    <a class="anchor-link" href="#faq-ducsignoff" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -113,7 +118,12 @@
 <p>
 <div id="faq-irb" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Do I need IRB approval to use these data?</span>
+    <span class="text-with-link">
+    <span class="text">Do I need IRB approval to use these data?</span>
+    <a class="anchor-link" href="#faq-irb" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -124,7 +134,12 @@
 <p>
 <div id="faq-ducmove" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">What steps are required if someone with a DUC moves to a new institution?</span>
+    <span class="text-with-link">
+    <span class="text">What steps are required if someone with a DUC moves to a new institution?</span>
+    <a class="anchor-link" href="#faq-ducmove" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -135,7 +150,12 @@
 <p>
 <div id="faq-ai" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Can I use ChatGPT or another generative AI tool to create figures and graphs representing HBCD data?</span>
+    <span class="text-with-link">
+    <span class="text">Can I use ChatGPT or another generative AI tool to create figures and graphs representing HBCD data?</span>
+    <a class="anchor-link" href="#faq-ai" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -147,7 +167,12 @@
 <p>
 <div id="faq-protocol" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Where can I find the protocol for the HBCD study?</span>
+    <span class="text-with-link">
+    <span class="text">Where can I find the protocol for the HBCD study?</span>
+    <a class="anchor-link" href="#faq-protocol" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -159,12 +184,16 @@
 <p>
 <div id="faq-subids" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">How do I determine whether data is associated with the birth parent or the child?</span>
+    <span class="text-with-link">
+    <span class="text">How do I determine whether data is associated with the birth parent or the child?</span>
+    <a class="anchor-link" href="#faq-subids" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
 <p>In the HBCD Study, <i>all</i> data are collected under the child’s subject ID, even when provided by the birth parent or another caregiver. This is because most information collected from caregivers pertains to the child. Please see details of the design logic <a href="../measures/studydesign/#study-design-logic-child-centric-data-structure">here</a>.</p> 
-
 <p>To help identify who provided the information, the <b>source</b> component in the table name may be helpful, as it typically indicates whether the data came from the caregiver, child, or another source. However, the meaning of source is not consistent across all instruments at this time - please see Phenotype BIDS Data &gt; <a href="../datacuration/phenotypes/#instrument-file-naming-conventions">Instrument File Naming Conventions</a> for details.</p>
 </div>
 </p>
@@ -172,7 +201,12 @@
 <p>
 <div id="faq-age" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">What is the difference between the fields reporting age?</span>
+    <span class="text-with-link">
+    <span class="text">What is the difference between the fields reporting age?</span>
+    <a class="anchor-link" href="#faq-age" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -184,7 +218,12 @@
 <p>
 <div id="faq-underscores" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">What is the significance of single versus double underscores in table and field names?</span>
+    <span class="text-with-link">
+    <span class="text">What is the significance of single versus double underscores in table and field names?</span>
+    <a class="anchor-link" href="#faq-underscores" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -197,7 +236,12 @@
 <p>
 <div id="faq-mriprotocol" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Where can I find more information about the imaging protocol?</span>
+    <span class="text-with-link">
+    <span class="text">Where can I find more information about the imaging protocol?</span>
+    <a class="anchor-link" href="#faq-mriprotocol" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -208,7 +252,12 @@
 <p>
 <div id="faq-dataproc" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">What methods were used for processing the imaging data to produce the minimally processed and tabulated imaging data?</span>
+    <span class="text-with-link">
+    <span class="text">What methods were used for processing the imaging data to produce the minimally processed and tabulated imaging data?</span>
+    <a class="anchor-link" href="#faq-dataproc" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -219,12 +268,16 @@
 <p>
 <div id="faq-no-v03" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Why is only V02 data available for some of the imaging pipelines?</span>
+    <span class="text-with-link">
+    <span class="text">Why is only V02 data available for some of the imaging pipelines?</span>
+    <a class="anchor-link" href="#faq-no-V03" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
 <p>The full MRI processing workflow includes <a href="../../datacuration/derivatives/#bibsnet-bibsnet" target="_blank">BIBSNet</a> (deep learning model-derived brain segmentation), <a href="../../datacuration/derivatives/#infant-fmriprep-nibabies" target="_blank">Infant fMRIPrep/Nibabies</a> (structural and functional preprocessing), and <a href="../../datacuration/derivatives/#xcp-d-xcp_d" target="_blank">XCP-D</a> (functional post-processing and noise regression). The current release includes V02 and V03 BIBSNet derivatives, but only V02 derivatives for the remaining pipelines.</p> 
-
 <p><a href="../measures/mri/qc/#brainswipes" target="_blank">BrainSwipes</a> quality control results generated from XCP-D visual reports also only include V02 as a result. Also note that at this age range, Infant fMRIPrep performs T2w-based surface reconstruction using M-CRIB-S, so T1w surface delineation and atlas registration QC is missing from BrainSwipes. However, the T1w, if present, was still used to inform the brain segmentation generated in BIBSNet, which is provided as an external input to Infant fMRIPrep processing.</p>
 </div>
 </p>
@@ -232,7 +285,12 @@
 <p>
 <div id="faq-FS" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Are FreeSurfer processing outputs included in the release data?</span>
+    <span class="text-with-link">
+    <span class="text">Are FreeSurfer processing outputs included in the release data?</span>
+    <a class="anchor-link" href="#faq-FS" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -243,7 +301,12 @@
 <p>
 <div id="faq-raw" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">How can I download raw DICOM or source data?</span>
+    <span class="text-with-link">
+    <span class="text">How can I download raw DICOM or source data?</span>
+    <a class="anchor-link" href="#faq-raw" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -254,7 +317,12 @@
 <p>
 <div id="faq-dmri" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Where are the dMRI gradient tables?  </span>
+    <span class="text-with-link">
+    <span class="text">Where are the dMRI gradient tables?  </span>
+    <a class="anchor-link" href="#faq-dmri" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -267,7 +335,12 @@ Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing
 <p>
 <div id="faq-fmap" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">When should I use EPI fieldmaps?  </span>
+    <span class="text-with-link">
+    <span class="text">When should I use EPI fieldmaps?</span>
+    <a class="anchor-link" href="#faq-fmap" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -279,7 +352,12 @@ Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing
 <p>
 <div id="faq-qc" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Why are certain QC scores available for only a subset of imaging data?</span>
+    <span class="text-with-link">
+    <span class="text">Why are certain QC scores available for only a subset of imaging data?</span>
+    <a class="anchor-link" href="#faq-qc" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -290,7 +368,12 @@ Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing
 <p>
 <div id="faq-qcrec" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Which imaging data are recommended for analysis?</span>
+    <span class="text-with-link">
+    <span class="text">Which imaging data are recommended for analysis?</span>
+    <a class="anchor-link" href="#faq-qrec" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -316,10 +399,15 @@ Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing
 <p>
 <div id="faq-fov" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Why is the cerebellum sometimes cut off in functional and diffusion MRI scans?</span>
+    <span class="text-with-link">
+    <span class="text">Why is the cerebellum sometimes cut off in functional and diffusion MRI scans?</span>
+    <a class="anchor-link" href="#faq-fov" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
-<p>Due to the relatively limited brain coverage in dMRI and fMRI acquisitions, the superior or inferior edges of the brain may occasionally fall outside the slice stack, referred to as field of view (FOV) cutoff. In cases where the cutoff is extreme (>30% of the image), the dMRI and fMRI series fail QC and are therefore excluded from inclusion in the data release. However, mild (<10%) to moderate (10–30%) FOV cutoff does not lead to QC failure. Brain regions outside of the FOV will have missing values in the tabulated imaging data, but the remaining areas remain usable. Automated post-processing QC metrics provide measurements of superior and inferior FOV cutoff, which researchers use for the exclusion of participants with significant FOV cutoff from analyses. See <a href="../measures/mri/qc/#hbcd-raw-mri-data-qc">HBCD Raw MRI Data QC</a> in the Release Notes for a description of automated and manual quality control procedures for raw imaging data.</p>
+<p>Due to the relatively limited brain coverage in dMRI and fMRI acquisitions, the superior or inferior edges of the brain may occasionally fall outside the slice stack, referred to as field of view (FOV) cutoff. In cases where the cutoff is extreme (>30% of the image), the dMRI and fMRI series fail QC and are therefore excluded from inclusion in the data release. However, mild (&lt;10%) to moderate (10–30%) FOV cutoff does not lead to QC failure. Brain regions outside of the FOV will have missing values in the tabulated imaging data, but the remaining areas remain usable. Automated post-processing QC metrics provide measurements of superior and inferior FOV cutoff, which researchers use for the exclusion of participants with significant FOV cutoff from analyses. See <a href="../measures/mri/qc/#hbcd-raw-mri-data-qc">HBCD Raw MRI Data QC</a> in the Release Notes for a description of automated and manual quality control procedures for raw imaging data.</p>
 </div>
 </p>
