@@ -44,7 +44,7 @@ In a large infant study, missing data is common, leading to variations in the nu
 <b>Adjusted Age at Time of Scan</b> (<code>age_adjusted</code>): Reported in days (not rounded), adjusted age is the time from the estimated date of delivery (EDD) to the scan date.
 <br>
 <br>
-<b>Chronological Age at Time of Scan</b> (<code>age</code>): Reported in years (to three decimal places), chronological age is the time from birth (with the birthdate jittered up to 7 days to mitigate identification risks) to the scan date. It is calculated by dividing the total days elapsed (rounded down) by 365.25. Reporting in years, rather than months, ensures consistency across developmental stages (e.g., toddlerhood, childhood), while three-decimal precision compensates for birthdate adjustments, yielding values closer to actual age.
+<b>Chronological Age at Time of Scan</b> (<code>age</code>): Reported in years (to three decimal places), chronological age is the time from birth (with the birthdate jittered up to 7 days to mitigate identification risks) to the date of data acquisition. It is calculated by dividing the total days elapsed (rounded down) by 365.25. Reporting in years, rather than months, ensures consistency across developmental stages (e.g., toddlerhood, childhood), while three-decimal precision compensates for birthdate adjustments, yielding values closer to actual age.
 <br>
 <br>
 </div>
