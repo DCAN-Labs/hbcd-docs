@@ -27,7 +27,7 @@ To facilitate responsible data use, table- and variable-level warnings are embed
 </div>
 </p>
 
-**Note that only [DEAP](../data_access/DEAP.md) currently has embedded links to data and responsible use warnings.** These links will be added to the [Lasso platform](../data_access/lasso.md) after the release, but the warnings can still be viewed by visiting the data measure description of interest in the [Release Notes](../measures/index.md) (for example, see [Data Warning](../../measures/biospec/#nails-warning) for Maternal Nails toxicology screening BioSpecimens).
+**Note that only [DEAP](../data_access/DEAP.md) currently has embedded links to data and responsible use warnings.** These links will be added to the [Lasso platform](../data_access/lasso.md) after the release, but the warnings can still be viewed by visiting the data measure description of interest in the [Release Notes](../measures/index.md) (for example, see [Data Warning](../measures/biospec.md#nails-warning) for Maternal Nails toxicology screening BioSpecimens).
 
 We recommend that all data users:
 

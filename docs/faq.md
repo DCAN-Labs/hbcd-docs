@@ -4,7 +4,12 @@
 <p>
 <div id="faq-access" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">How do I access the data?</span>
+    <span class="text-with-link">
+    <span class="text">How do I access the data?</span>
+    <a class="anchor-link" href="#faq-access" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -15,7 +20,12 @@
 <p>
 <div id="faq-nonus" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">I’m from a non-US institution - can I access the data?</span>
+    <span class="text-with-link">
+    <span class="text">I’m from a non-US institution - can I access the data?</span>
+    <a class="anchor-link" href="#faq-nonus" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -27,7 +37,12 @@
 <p>
 <div id="faq-cost" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Is there a cost to access the data?</span>
+    <span class="text-with-link">
+    <span class="text">Is there a cost to access the data?</span>
+    <a class="anchor-link" href="#faq-cost" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -38,7 +53,12 @@
 <p>
 <div id="faq-los" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">I am writing a proposal to use HBCD data, can you write a letter of support?</span>
+    <span class="text-with-link">
+    <span class="text">I am writing a proposal to use HBCD data, can you write a letter of support?</span>
+    <a class="anchor-link" href="#faq-los" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -49,7 +69,12 @@
 <p>
 <div id="faq-duc" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Can I have a student or trainee on my DUC? Can students have their own DUC?</span>
+    <span class="text-with-link">
+    <span class="text">Can I have a student or trainee on my DUC? Can students have their own DUC?</span>
+    <a class="anchor-link" href="#faq-duc" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -61,7 +86,12 @@
 <p>
 <div id="faq-aduc" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">If I obtain an A-DUC after receiving general DUC approval, which expiration date applies?</span>
+    <span class="text-with-link">
+    <span class="text">If I obtain an A-DUC after receiving general DUC approval, which expiration date applies?</span>
+    <a class="anchor-link" href="#faq-aduc" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">

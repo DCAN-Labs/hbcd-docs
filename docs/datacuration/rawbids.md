@@ -28,7 +28,12 @@ In a large infant study, missing data is common, leading to variations in the nu
 <p>
 <div id="age" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text-with-link">
   <span class="text">Raw BIDS Data: Fields Reporting Age</span>
+  <a class="anchor-link" href="#age" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="arrow">▸</span>
 </div>
 <div class="notification-open-collapsible-content">
