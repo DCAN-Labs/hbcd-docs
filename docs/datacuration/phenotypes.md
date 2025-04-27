@@ -23,11 +23,11 @@ r1.0/
             |__ par_visit_data_shadow.parquet
             |
             | <span class="hashtag"># Demographics Data</span>
-            |__ sed_<span class="placeholder">&lt;basic_demographics|bm_demo&gt;</span>.tsv
-            |__ sed_<span class="placeholder">&lt;basic_demographics|bm_demo&gt;</span>.json
-            |__ sed_<span class="placeholder">&lt;basic_demographics|bm_demo&gt;</span>_shadow.tsv
-            |__ sed_<span class="placeholder">&lt;basic_demographics|bm_demo&gt;</span>.parquet
-            |__ sed_<span class="placeholder">&lt;basic_demographics|bm_demo&gt;</span>_shadow.parquet
+            |__ sed_basic_demographics.tsv
+            |__ sed_basic_demographics.json
+            |__ sed_basic_demographics_shadow.tsv
+            |__ sed_basic_demographics.parquet
+            |__ sed_basic_demographics_shadow.parquet
             |
             | <span class="hashtag"># Instruments</span>
             |__ <span class="placeholder">&lt;instrument_name&gt;</span>.tsv

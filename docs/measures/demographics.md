@@ -22,7 +22,32 @@
 </div>
 </p>
 
-The HBCD Demographic survey is administered by a research assistant in-person and takes approximately 10 minutes to complete. The current release includes survey information acquired during Visit 1 and will be repeated during Visit 4 for both the primary caregiver and the child to be included in future releases. 
+## Instrument Details
+
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Instrument Name</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Visits</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Administration</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Completion Time</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Table Name</th>
+    </tr>
+  </thead>
+<tbody>
+    <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">HBCD Demographics V01</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">V01 & V04</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">
+         <span class="tooltip">RA
+        <span class="tooltiptext">Research assistant</a></span>
+      </span> (in person)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">10 min</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">sed_basic_demographics</td>
+    </tr>
+</table>
+
+The current release includes the HBCD Demographic survey information acquired during Visit 1. It will be administered a second time during Visit 4 for both the primary caregiver and the child (to be included in future releases). 
 
 Demographic information is crucial for understanding the child’s environment and identifying how social, structural, and economic factors influence development over time in a longitudinal study of child development. The HBCD Study demographics survey is designed to gather comprehensive information on socioeconomic status and various demographic factors. Its primary purpose is to capture data on race, ethnicity, nativity, income, education, and occupation, as well as gender identity, sexual orientation, relationship status, primary residence, and household composition of the parent carrying the child, and some basic information on the other biological parent. Please see [Cioffredi et al. 2024](https://doi.org/10.1016/j.dcn.2024.101429) for a detailed description of the HBCD Demographics survey.
 
