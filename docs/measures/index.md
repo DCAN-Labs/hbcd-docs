@@ -542,9 +542,9 @@ The data provided within the `rawdata/phenotype/` folder includes demographic, t
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
 <tfoot><tr>
 <td colspan="3" style="word-wrap: break-word; white-space: normal;">
-    <li><b class="blue-text">&lt;SEG&gt;</b> label: 4S1056Parcels, 4S156Parcels, 4S256Parcels, 4S356Parcels, 4S456Parcels, 4S556Parcels, 4S656Parcels, 4S756Parcels, 4S856Parcels, 4S956Parcels, HCP, Glasser, Gordon, MIDB, MyersLabonte, Tian</li>
-    <br>
-    <li><b class="blue-text">&lt;PROC&gt;</b> labels: HERCULES_diff1, HERCULES_diff2, HERCULES_sum, unedited_A</li>
+    <li><b class="blue-text">&lt;SEG-A&gt;</b> label values: 4S&lt;1-10&gt;Parcels, Glasser, Gordon, MIDB, MyersLabonte</li>
+    <li><b class="blue-text">&lt;SEG-F&gt;</b> label values: 4S&lt;1-10&gt;Parcels, Glasser, Gordon, MIDB, MyersLabonte, HCP, Tian</li>
+    <li><b class="blue-text">&lt;PROC&gt;</b> label values: HERCULES_&lt;diff1|diff2|sum&gt;, unedited_A</li>
 </td></tr>
 </tfoot>
   <thead>
@@ -564,18 +564,18 @@ The data provided within the `rawdata/phenotype/` folder includes demographic, t
     img_brainswipes_xcpd-T2w<br>img_mriqc_T1w<br>img_mriqc_T2w<br>
     img_bibsnet_space-T1w_desc-aseg_volumes<br>
     img_bibsnet_space-T2w_desc-aseg_volumes<br>
+    <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG-A&gt;</span>_stat-mean_desc-curv_morph  </li>
+    <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG-A&gt;</span>_stat-mean_desc-sulc_morph  </li>
+    <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG-A&gt;</span>_stat-mean_desc-thickness_morph  </li>
     </td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/mri/fmri">Functional MRI</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">fMRI</td>
     <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">img_brainswipes_xcpd-bold<br>img_mriqc_bold<br>
-    <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG&gt;</span>_stat-alff_bold  </li>
-    <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG&gt;</span>_stat-coverage_bold  </li>
-    <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG&gt;</span>_stat-reho_bold  </li>
-    <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG&gt;</span>_stat-mean_desc-curv_morph  </li>
-    <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG&gt;</span>_stat-mean_desc-sulc_morph  </li>
-    <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG&gt;</span>_stat-mean_desc-thickness_morph  </li>
+    <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG-F&gt;</span>_stat-alff_bold  </li>
+    <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG-F&gt;</span>_stat-coverage_bold  </li>
+    <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG-F&gt;</span>_stat-reho_bold  </li>
     </td>
   </tr>
   <tr>
