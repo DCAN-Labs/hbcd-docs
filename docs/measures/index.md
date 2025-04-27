@@ -498,31 +498,31 @@ The data provided within the `rawdata/phenotype/` folder includes demographic, t
   </tr>
   <tr>
     <tr>
-      <th style="width: 30%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Name of Instrument</th>
+      <th style="width: 20%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Name of Instrument</th>
       <th style="width: 10%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Acronym</th>
-      <th style="width: 15%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Table Name(s)</th>
+      <th style="width: 40%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Table Name(s)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/eeg/#faces-task">Faces Task</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Face</td>
-    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">eeg_made_task-FACE_acq-eeg_MADE_preprocessing_report<br>eeg_qc_task-FACE</td>
+    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">eeg_made_task-FACE_acq-eeg_preprocessingReport<br>eeg_qc_task-FACE</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/eeg/#auditory-mismatch-negativity-task-mmn">Auditory Mismatch Negativity Task</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">MMN</td>
-    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">eeg_made_task-MMN_acq-eeg_MADE_preprocessing_report<br>eeg_qc_task-MMN</td>
+    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">eeg_made_task-MMN_acq-eeg_preprocessingReport<br>eeg_qc_task-MMN</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/eeg/#video-resting-state-rs">Video Resting State Task</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">RS</td>
-    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">eeg_made_task-RS_acq-eeg_MADE_preprocessing_report<br>eeg_qc_task-RS</td>
+    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">eeg_made_task-RS_acq-eeg_preprocessingReport<br>eeg_qc_task-RS</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/eeg/#visual-evoked-potential-task-vep">Visual Evoked Potential Task</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">VEP</td>
-    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">eeg_made_task-RS_acq-eeg_VEP_preprocessing_report<br>eeg_qc_task-VEP<br>eeg_made_task-VEP_ERP-summaryStats</td>
+    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">eeg_made_task-VEP_acq-eeg_preprocessingReport<br>eeg_qc_task-VEP</td>
   </tr>
   <tr>
 </tbody>
@@ -572,10 +572,11 @@ The data provided within the `rawdata/phenotype/` folder includes demographic, t
     <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">img_brainswipes_xcpd-bold<br>img_mriqc_bold<br>
     <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG&gt;</span>_stat-alff_bold  </li>
     <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG&gt;</span>_stat-coverage_bold  </li>
+    <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG&gt;</span>_stat-reho_bold  </li>
     <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG&gt;</span>_stat-mean_desc-curv_morph  </li>
     <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG&gt;</span>_stat-mean_desc-sulc_morph  </li>
     <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG&gt;</span>_stat-mean_desc-thickness_morph  </li>
-    <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG&gt;</span>_stat-reho_bold  </li></td>
+    </td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/mri/dmri">Diffusion MRI</a></td>
