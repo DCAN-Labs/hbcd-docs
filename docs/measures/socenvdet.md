@@ -143,6 +143,7 @@ For the majority of instruments, the data dashboard was monitored for variable m
 <p>Some participants reported challenges in answering certain questions, such as those related to race and ethnicity (e.g. options did not capture identity) and occupation (i.e. imperfect option for job type and number of hours).</p> 
 </div>
 </p>
+
 Demographic information is crucial for understanding the child’s environment and identifying how social, structural, and economic factors influence development over time in a longitudinal study of child development. The HBCD Study demographics survey is designed to gather comprehensive information on socioeconomic status and various demographic factors. Its primary purpose is to capture data on race, ethnicity, nativity, income, education, and occupation, as well as gender identity, sexual orientation, relationship status, primary residence, and household composition of the parent carrying the child, and some basic information on the other biological parent. Please see [Cioffredi et al. 2024](https://doi.org/10.1016/j.dcn.2024.101429) for a detailed description of the HBCD Demographics survey.
 
 <div id="demo-hbcd-mods" class="table-banner" onclick="toggleCollapse(this)">
@@ -193,7 +194,6 @@ Demographic information is crucial for understanding the child’s environment a
 <br>
 <strong>&nbsp;&nbsp;Table 1. Demographics of Birth Parent</strong>
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
-<tfoot><tr><td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;" colspan="3"><b>ABCD</b>: Adolescent Brain Child Development Study; <b>BFY</b>: Baby's First Years; <b>BRFSS</b>: Behavioral Risk Factor Surveillance System; <b>ECHO</b>: Environmental Influences On Child Health Outcomes; <b>OMB</b>: Office of Management & Budget</td></tr></tfoot>
     <thead>
       <tr>
         <th>Construct</th>
@@ -229,7 +229,12 @@ Demographic information is crucial for understanding the child’s environment a
 	</tr>
 	<tr>
 		<td>Household Roster</td>
-		<td><a href="https://echochildren.org/wp-content/uploads/2024/02/ROSTER_Participant_Roster_20231010_v03.00_training1.pdf">ECHO</a></td>
+		<td>
+      <span class="tooltip">
+      <a href="https://echochildren.org/wp-content/uploads/2024/02/ROSTER_Participant_Roster_20231010_v03.00_training1.pdf">ECHO</a>
+      <span class="tooltiptext">Environmental Influences on Child Health Outcomes</span>
+      </span>
+    </td>
 		<td>None available</td>
 	</tr>
 	<tr>
@@ -244,12 +249,20 @@ Demographic information is crucial for understanding the child’s environment a
 	</tr>
 	<tr>
 		<td>Race/Ethnicity</td>
-		<td><a href="https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/">OMB</a></td>
+    <td>
+      <span class="tooltip"><a href="https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/">OMB</a>
+      <span class="tooltiptext">Office of Management & Budget</span>
+      </span>
+    </td>
 		<td>Federal Register 2023</td>
 	</tr>
 	<tr>
 		<td>Others Describe You</td>
-		<td>BRFSS</td>
+    <td>
+      <span class="tooltip">BRFSS
+      <span class="tooltiptext">Behavioral Risk Factor Surveillance System</span>
+      </span>
+    </td>
 		<td>Jones et al. 2008</td>
 	</tr>
 	<tr>
@@ -259,7 +272,11 @@ Demographic information is crucial for understanding the child’s environment a
 	</tr>
 	<tr>
 		<td>Income</td>
-		<td>ABCD</td>
+    <td>
+      <span class="tooltip">ABCD
+      <span class="tooltiptext">Adolescent Brain Child Development Study</span>
+      </span>
+    </td>
 		<td>Barch et al. 2017</td>
 	</tr>
 	<tr>
@@ -274,7 +291,11 @@ Demographic information is crucial for understanding the child’s environment a
 	</tr>
 	<tr>
 		<td>Currently Work for Pay</td>
-		<td>BFY</td>
+    <td>
+      <span class="tooltip">BFY
+      <span class="tooltiptext">Baby's First Years</span>
+      </span>
+    </td>
 		<td>Year 1 Protocol - G35, Mwork</td>
 	</tr>
 	<tr>
@@ -295,7 +316,11 @@ Demographic information is crucial for understanding the child’s environment a
 	</tr>
 	<tr>
 		<td>Jobs During Pregnancy - Shift Schedule</td>
-		<td>BFY</td>
+    <td>
+      <span class="tooltip">BFY
+      <span class="tooltiptext">Baby's First Years</span>
+      </span>
+    </td>
 		<td>Year 1 Protocol - G39, SchedMain</td>
 	</tr>
   </tbody>
@@ -303,7 +328,6 @@ Demographic information is crucial for understanding the child’s environment a
 
 <strong>&nbsp;&nbsp;Table 2. Demographics of Other Biological Parent</strong>
 <table class="docutils">
-<tfoot><tr><td colspan="3"><b>OMB</b>: Office of Management & Budget</td></tr></tfoot>
 <thead>
     <tr>
     <th>Construct</th>
@@ -319,7 +343,11 @@ Demographic information is crucial for understanding the child’s environment a
 </tr>
 <tr>
     <td>Race/Ethnicity</td>
-    <td><a href="https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/">OMB</a></td>
+    <td>
+      <span class="tooltip"><a href="https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/">OMB</a>
+      <span class="tooltiptext">Office of Management & Budget</span>
+      </span>
+    </td>
     <td>Federal Register 2023</td>
 </tr>
 <tr>
