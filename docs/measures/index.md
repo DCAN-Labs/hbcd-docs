@@ -13,7 +13,7 @@ The current release includes data from Visits 1, 2, and 3 (V01, V02, and V03) fo
 Below is a summary of measures included in Release 1.0. Note that the HBCD Data Release Docs only cover the measures currently available, with additional documentation to follow in future updates as additional measure data are released. For details on upcoming additions in Release 1.1, see [Pending & Upcoming Updates](../changelog/pending.md). Full study protocols are available on the [HBCD Study site](https://hbcdstudy.org/study-protocols/).
 
 ## Tabulated Demographics and Visit Data
-The `rawdata/phenotype/` folder includes *Basic Demographics* (`sed_basic_demographics`) and *Visit Data* (`par_visit_data`) associated with the HBCD study. Basic Demographics is a derived category gathering data from multiple sources, including *HBCD Demographics V01* (`sed_bm_demo`) under the [Social & Environmental Determinants](socenvdet.md) domain (see details [here](socenvdet.md#hbcd-demographics)) as well as some calculated fields for parent and child race & ethnicity.
+The `rawdata/phenotype/` folder includes *Basic Demographics* (`sed_basic_demographics`) and *Visit Data* (`par_visit_data`) associated with the HBCD study. Basic Demographics is a derived category gathering data from multiple sources, including [*HBCD Demographics V01*](socenvdet.md#hbcd-demographics) (`sed_bm_demo`) as well as some calculated fields for parent and child race & ethnicity.
 
 For details, please refer to [Demographics Data](../datacuration/phenotypes.md#demographics-data) and [Visit Data](../datacuration/phenotypes.md#visit-data) under the [HBCD BIDS Data](../datacuration/overview.md) section of the Release Notes.
 
