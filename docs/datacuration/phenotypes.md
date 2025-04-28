@@ -8,13 +8,6 @@ r1.0/
 |__ hbcd/
     |__ rawdata/ 
         |__ phenotype/
-            | <span class="hashtag"># BioSpecimen Data (prepended with 'bio_')</span>
-            |__ bio_biosample_<span class="placeholder">&lt;nails|urine&gt;</span>.tsv
-            |__ bio_biosample_<span class="placeholder">&lt;nails|urine&gt;</span>.json
-            |__ bio_biosample_<span class="placeholder">&lt;nails|urine&gt;</span>_shadow.tsv
-            |__ bio_biosample_<span class="placeholder">&lt;nails|urine&gt;</span>.parquet
-            |__ bio_biosample_<span class="placeholder">&lt;nails|urine&gt;</span>_shadow.parquet
-            |  
             | <span class="hashtag"># Visit Data</span>
             |__ par_visit_data.tsv
             |__ par_visit_data.json
@@ -100,7 +93,7 @@ For example, `mri_ra_prep` refers to MRI-related data entered by a research assi
 </div>
 
 ## Demographics Data 
-<p style="margin: 0 0 5px;">Demographic (<code>sed_basic_demographics.tsv</code>) information provided for each participant includes:</p>
+<p style="margin: 0 0 5px;">Demographic (<code>sed_basic_demographics</code>) information provided for each participant includes:</p>
 <ul>
 <li>Gestational age at delivery</li>
 <li>Sex</li>

@@ -12,11 +12,13 @@ The current release includes data from Visits 1, 2, and 3 (V01, V02, and V03) fo
 
 Below is a summary of measures included in Release 1.0. Note that the HBCD Data Release Docs only cover the measures currently available, with additional documentation to follow in future updates as additional measure data are released. For details on upcoming additions in Release 1.1, see [Pending & Upcoming Updates](../changelog/pending.md). Full study protocols are available on the [HBCD Study site](https://hbcdstudy.org/study-protocols/).
 
-## File-Based Data
-The data release includes raw (`rawdata/`) and processed "derivative" (`derivatives/`) data for MRI, MRS, EEG, and motion/accelerometry, formatted to adhere to the Brain Imaging Data Structure (BIDS) standard. See [Raw BIDS Data](../datacuration/rawbids.md) and [Derivatives](../datacuration/derivatives.md) under the [HBCD BIDS Data](../datacuration/overview.md) section of the Release Notes for details.
+## Tabulated Demographics and Visit Data
+The `rawdata/phenotype/` folder includes *Basic Demographics* (`sed_basic_demographics`) and *Visit Data* (`par_visit_data`) associated with the HBCD study. Basic Demographics is a derived category gathering data from multiple sources, including *HBCD Demographics V01* (`sed_bm_demo`) under the [Social & Environmental Determinants](socenvdet.md) domain (see details [here](socenvdet.md#hbcd-demographics)) as well as some calculated fields for parent and child race & ethnicity.
 
-## Tabulated Data
-The data provided within the `rawdata/phenotype/` folder includes demographic, toxicology, behavior, and tabulated data associated with magnetic resonance imaging (MRI), spectroscopy (MRS), electroencephalography (EEG), and motion/accelerometry (i.e. [wearable sensor](sensors.md) recordings for leg motion) - see [Phenotype BIDS Data](../datacuration/phenotypes.md) under the [HBCD BIDS Data](../datacuration/overview.md) section of the Release Notes for details on the data structure and file formats. 
+For details, please refer to [Demographics Data](../datacuration/phenotypes.md#demographics-data) and [Visit Data](../datacuration/phenotypes.md#visit-data) under the [HBCD BIDS Data](../datacuration/overview.md) section of the Release Notes.
+
+## Tabulated Instrument Data
+In addition to demographics and visit information, the `rawdata/phenotype/` folder includes toxicology, behavior, and tabulated data associated with magnetic resonance imaging (MRI), spectroscopy (MRS), electroencephalography (EEG), and motion/accelerometry (i.e. [wearable sensor](sensors.md) recordings for leg motion) - see [Phenotype BIDS Data](../datacuration/phenotypes.md) under the [HBCD BIDS Data](../datacuration/overview.md) section of the Release Notes for details.
 
 <button id="toggle-all-btn">Expand All Sections ↕️</button>
 
@@ -96,38 +98,6 @@ The data provided within the `rawdata/phenotype/` folder includes demographic, t
       <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Urine</td>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Toxicology Screen</td>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">bio_biosample_urine</td>
-  </tr>
-  </tbody>
-  </table>
-</div>
-
-<div id="demographics" class="table-banner" onclick="toggleCollapse(this)">
-  <span class="text-with-link">
-  <span class="table-text">Demographics</span>
-  <a class="anchor-link" href="#demographics" title="Copy link">
-  <i class="fa-solid fa-link"></i>
-  </a>
-  </span>
-  <span class="table-arrow">▸</span>
-</div>
-<div class="table-collapsible-content">
-<table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
-  <thead>
-  </tr>
-  <tr>
-    <tr>
-      <th style="width: 10%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Name of Instrument</th>
-      <th style="width: 10%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Acronym</th>
-      <th style="width: 30%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Construct</th>
-      <th style="width: 15%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Table Name</th>
-    </tr>
-  </thead>
-  <tbody>
-  <tr>
-      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="../measures/demographics">HBCD Demographics V01</a></td>
-      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Demographics</td>
-      <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Basic social characteristics related to the birthing parent, the other biological parent, and their household</td>
-      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">sed_basic_demographics</td>
   </tr>
   </tbody>
   </table>
@@ -443,6 +413,12 @@ The data provided within the `rawdata/phenotype/` folder includes demographic, t
     </tr>
   </thead>
   <tbody>
+    </tr>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/socenvdet/#hbcd-demographics">HBCD Demographics V01</a></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Demographics</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Basic social characteristics related to the birthing parent, the other biological parent, and their household</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">sed_bm_demo</td>
+    </tr>
   </tr>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/socenvdet/#babys-first-years">Baby’s First Years – Benefits/Services/Economic Stress</a></td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">BFY</td>
@@ -605,4 +581,6 @@ The data provided within the `rawdata/phenotype/` folder includes demographic, t
 </tbody>
 </table>
 </div>
-<br>
+
+## File-Based Data
+The data release includes raw (`rawdata/`) and processed "derivative" (`derivatives/`) data for MRI, MRS, EEG, and motion/accelerometry, formatted to adhere to the Brain Imaging Data Structure (BIDS) standard. See [Raw BIDS Data](../datacuration/rawbids.md) and [Derivatives](../datacuration/derivatives.md) under the [HBCD BIDS Data](../datacuration/overview.md) section of the Release Notes for details.
