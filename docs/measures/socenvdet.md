@@ -123,7 +123,7 @@ For the majority of instruments, the data dashboard was monitored for variable m
 
 ### HBCD Demographics
 <p>
-<div id="alert" class="alert-banner" onclick="toggleCollapse(this)">
+<div id="demo-alert" class="alert-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
     <span class="text">Responsible Use Warning</span>
   <span class="arrow">▸</span>
@@ -134,7 +134,7 @@ For the majority of instruments, the data dashboard was monitored for variable m
 </div>
 </p>
 <p>
-<div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="demo-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
