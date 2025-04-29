@@ -92,8 +92,8 @@ For example, `mri_ra_prep` refers to MRI-related data entered by a research assi
 </ul>
 </div>
 
-## Demographics Data 
-<p style="margin: 0 0 5px;">Demographic (<code>sed_basic_demographics</code>) information provided for each participant includes:</p>
+## Basic Demographics Data 
+<p style="margin: 0 0 5px;">Basic Demographics (<code>sed_basic_demographics</code>) contains data derived from multiple sources such as the <a href="../../measures/socenvdet/#hbcd-demographics">HBCD Demographics V01</a> instrument (<code>sed_bm_demo</code>) collected as part of Social & Environmental Determinants. Information provided for each participant includes:</p>
 <ul>
 <li>Gestational age at delivery</li>
 <li>Sex</li>
@@ -102,7 +102,7 @@ For example, `mri_ra_prep` refers to MRI-related data entered by a research assi
 <li>Birth parent's demographics (race, ethnicity, education, language at home)</li>
 </ul> 
 
-<p style="margin: 0 0 5px;">This file also includes <strong>substance use (SU) flags</strong> raised by any of the following (with details per visit provided in <a href="#visit-data">Visit Data</a>):</p>
+<p style="margin: 0 0 5px;">This file also includes <strong>substance use (SU) flags</strong> raised by any of the following instruments (with details per visit provided in <a href="#visit-data">Visit Data</a>):</p>
 <ul>
 <li><a href="../../measures/pregexp/substanceuse#tlfb">TLFB</a> Self-reported use</li>
 <li><a href="../../measures/biospec">Biospecimen results</a></li>
@@ -116,7 +116,7 @@ For example, `mri_ra_prep` refers to MRI-related data entered by a research assi
 <li>Project, <a href="#cohorts">Cohort</a>, and Site</li>
 <li>Withdrawal information: if the participant withdrew from the study, the reason, and date</li>
 <li>Protocol violation information: if there was a protocol exception and the date</li>
-<li>Visit details for SU flags raised by TLFB, Biospecimen, or Health-V2 as described above (<a href="#demographics-data">Demographics Data</a>)</li>
+<li>Visit details for SU flags raised by TLFB, Biospecimen, or Health-V2 as described above (<a href="#basic-emographics-data">Basic Demographics Data</a>)</li>
 </ul>
 
 <div id="cohorts" class="notification-banner" onclick="toggleCollapse(this)">

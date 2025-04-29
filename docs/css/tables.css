@@ -22,6 +22,7 @@ th, td {
   font-family: Lato; 
   color: #474646;
   cursor: pointer;
+  width: 100%;
 }
 .table-arrow {
   font-size: 1.7rem;
@@ -53,6 +54,8 @@ th, td {
   border-radius: 0 0 5px 5px;
   margin-bottom: 10px; /* Adds spacing below the section */
   width: 100%;
+  display: block;
+  overflow-x: auto; 
 }
 .table-collapsible-content b {
   color: #0077cc;

@@ -15,7 +15,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
 ## Demographics & Visit Data
 The `rawdata/phenotype/` folder includes tabulated *Basic Demographics* (`sed_basic_demographics`) and *Visit Data* (`par_visit_data`) associated with the HBCD study. Basic Demographics contains data derived from multiple sources, including [*HBCD Demographics V01*](socenvdet.md#hbcd-demographics) (`sed_bm_demo`), as well as some calculated fields for parent and child race & ethnicity.
 
-For details, please refer to [Demographics Data](../datacuration/phenotypes.md#demographics-data) and [Visit Data](../datacuration/phenotypes.md#visit-data) under the [HBCD BIDS Data](../datacuration/overview.md) section of the Release Notes.
+For details, please refer to [Basic Demographics Data](../datacuration/phenotypes.md#basic-demographics-data) and [Visit Data](../datacuration/phenotypes.md#visit-data) under the [HBCD BIDS Data](../datacuration/overview.md) section of the Release Notes.
 
 ## Tabulated Instrument Data
 In addition to demographics and visit information, the `rawdata/phenotype/` folder includes toxicology, behavior, and tabulated data associated with magnetic resonance imaging (MRI), spectroscopy (MRS), electroencephalography (EEG), and motion/accelerometry (i.e. [wearable sensor](sensors.md) recordings for leg motion) - see [Phenotype BIDS Data](../datacuration/phenotypes.md) under the [HBCD BIDS Data](../datacuration/overview.md) section of the Release Notes for details.

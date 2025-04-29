@@ -193,7 +193,7 @@ Demographic information is crucial for understanding the child’s environment a
 <div class="table-collapsible-content">
 <br>
 <strong>&nbsp;&nbsp;Table 1. Demographics of Birth Parent</strong>
-<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+<table style="width: 100%; border-collapse: collapse;">
     <thead>
       <tr>
         <th>Construct</th>
