@@ -293,4 +293,15 @@ Fixed participant metadata collected at enrollment or inferred from administrati
 </ul>
 </p>
 </div>
-<br>
+
+### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Blank Columns in Query Tool
+
+The following columns are blank in the Lasso Data Dictionary Query Tool for the HBCD Study because they are either not applicable, or will become available in future releases:
+
+- `atlas`
+- `metric`
+- `label_es`, `instruction_es`, `header_es`, `note_es`, `levels_es`
+- `name_nda`, `name_deap`, `name_redcap`, `name_redcap_exp`
+- `table_nda`, `table_nda_5_0`, `table_redcap`
+- `sub_domain`
+- `url_table`, `url_warn_use`, `url_warn_data`, `url_table_warn_use`, `url_table_warn_data`

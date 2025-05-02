@@ -4,6 +4,16 @@
 /* red: #be074c */ 
 /* black/gray: #6b6b6b */ 
 
+
+/* Remove background and border from inline code */
+code {
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+  color: #345678 !important;
+}
+
+
 /* Style for expand all button (measures overview page) */
 #toggle-all-btn {
   background-color: #d0dff0;
