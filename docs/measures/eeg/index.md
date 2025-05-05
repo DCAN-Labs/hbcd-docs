@@ -27,7 +27,7 @@ EEG capping quality ratings are used to determine inclusion in the data release 
 3.	Reference electrode is placed on the vertex of the scalp
 4.	Electrode E17 is placed on the nasion
 
-Please refer to the [Official EEG Acquisition Manual](https://docs.google.com/document/d/1tjrFJzntHOqJOrq-SRGy2Z0LOj56MFsZ2ZocgrUogSs/edit?usp=sharing) for additional information about capping requirements.
+Please refer to the [HBCD EEG Acquisition Protocol](https://zenodo.org/records/14795030) for additional information about capping requirements.
 
 ## EEG Task Details
 <p>
@@ -175,7 +175,7 @@ The Visual Evoked Potential Task (v.11.29.23) measures development of visual cor
 ## Resources
 - [HBCD EEG Utilities](https://childdevlab-hbcd-eeg-utilities.readthedocs.io/)
 - [HBCD E-Prime Task Manual](https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing)
-- [Official EEG Acquisition Manual](https://zenodo.org/records/14795030)
+- [HBCD EEG Acquisition Protocol](https://zenodo.org/records/14795030)
 
 ## References
 <div class="references">
