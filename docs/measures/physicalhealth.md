@@ -36,35 +36,39 @@ The current data release includes the following Physical Health Measures instrum
 
 ## Implementation & Data Collection
 
-The Breastfeeding and Food Insecurity surveys are child-specific and filled out remotely by the primary caregiver while growth is a direct measure in-person. Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). Additional information is as follows:
+All metrics are child-specific. Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). Additional information is as follows:
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+<tfoot><tr><td colspan="4"><small><b>**</b> V08 (31-45 months) only administered if still breastfeeding at prior visit</small></td></tr></tfoot>
   <thead>
     <tr>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Instrument</th>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Visits</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Administration</th>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Completion Time</th>      
     </tr>
   </thead>
 <tbody>
 	<tr>
 		<td>PHENX BF</td>
-		<td>V02, V03, V04, V06, V08 (31-45 months)**</td>
+		<td>V02, V03, V04, V06, V08<b>**</b></td>
+    <td>Remote (by Caregiver)</td>
 		<td>1 min</td>
 	</tr>
   <tr>
 		<td>2-Item Food Insecurity</td>
 		<td>V02, V03</td>
+    <td>Remote (by Caregiver)</td>
 		<td>1 min</td>
 	</tr>
   <tr>
 		<td>Growth</td>
-		<td>V02, V03, V04, V06, V08 (31-45 months)</td>
+		<td>V02, V03, V04, V06, V08</td>
+    <td>In Person</td>
 		<td>5 min</td>
 	</tr>  
 </tbody>
 </table>
-<small>**Only administered if still breastfeeding at prior visit</small>
 
 ## Quality Control
 The QC procedures for all three measures involved monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency.
@@ -106,16 +110,18 @@ Food Insecurity, based on two items assessing the availability of food, is a scr
   <span class="arrow">▸</span>
 </div>
 <div class="warning-collapsible-content">
-<p>Please note that range checks for Growth (<code>ph_ch_anthro</code>) were implemented in the database on 7/1/2024 so are not reflected in data included in the first data release. Outliers are possible.</p> 
-<p>However, out-of-range values were filtered (i.e. changed to "n/a") to some extent. Valid values for Growth fields are documented in the section on <a href="../../datacuration/exclusions">Exclusion Criteria</a> (see <a href="../../datacuration/exclusions#filtered-values">Filtered Out-Of-Range Field Values</a>) and provided below for quick reference:</p>
+<p>Please note that range checks for Growth (<code>ph_ch_anthro</code>) were implemented in the database on 7/1/2024 and so are not reflected in data included in the first data release. Outliers are possible.</p> 
+<p>However, out-of-range values were filtered (i.e. changed to "n/a") to some extent. Valid values for Growth fields are documented in the section on Exclusion Criteria (see <a href="../../datacuration/exclusions#filtered-values">Filtered Out-Of-Range Field Values</a>) and provided below for quick reference:</p>
 <ul>
   <li>Length (<code>len_001_i_03</code>): min 30 / max 130 (cm) </li>
   <li>Weight (<code>wei_001_i_03</code>): min 0.5 / max 30  (kg)</li>
   <li>Head Circumference (<code>head_001_i_03</code>): min 25 / max 55 (cm)</li>
 </ul>
+
+<p>In addition, because dates of birth are jittered and calculated chronologic and adjusted ages are ±6 days, we do NOT recommend calculating Z-scores using V02 data. Caution is recommended when calculating Z-scores using data from subsequent visits.</p>
 </div>
 </p>
-Growth is a standard direct measure of child height or length (in cm), weight (in kg), head circumference (cm). In older children, it will also include abdominal circumference (cm).
+Growth is a standard direct measure of child growth, including height or length (in cm), weight (in kg), and head circumference (cm). In older children, it will also include abdominal circumference (cm).
 
 ## References
 <div class="references">
