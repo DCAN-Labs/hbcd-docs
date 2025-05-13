@@ -33,7 +33,12 @@ Please refer to the [HBCD EEG Acquisition Protocol](https://zenodo.org/records/1
 <p>
 <div id="alert" class="alert-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
+    <span class="text-with-link">
     <span class="text">Responsible Use Warning</span>
+    <a class="anchor-link" href="#alert" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="arrow">▸</span>
 </div>
 <div class="alert-collapsible-content">
@@ -52,7 +57,12 @@ Please refer to the [HBCD EEG Acquisition Protocol](https://zenodo.org/records/1
 <p>
 <div id="eeg-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
+  <span class="text-with-link">
   <span class="text">Data Warning: HBCD EEG Utilities</span>
+  <a class="anchor-link" href="#eeg-warning" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="arrow">▸</span>
 </div>
 <div class="warning-collapsible-content">
@@ -62,7 +72,12 @@ Please refer to the [HBCD EEG Acquisition Protocol](https://zenodo.org/records/1
 
 <div id="eeg-artifact-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
+  <span class="text-with-link">
   <span class="text">Data Warning: Stimtracker Artifact</span>
+  <a class="anchor-link" href="#eeg-artifact-warning" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="arrow">▸</span>
 </div>
 <div class="warning-collapsible-content">
@@ -107,7 +122,12 @@ See [HBCD Study Protocols - EEG](https://hbcdstudy.org/wp-content/uploads/2023/0
 <p>
 <div id="mmn-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Data Warning</span>
+    <span class="text-with-link">
+    <span class="text">Data Warning</span>
+    <a class="anchor-link" href="#mmn-warning" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="arrow">▸</span>
 </div>
 <div class="warning-collapsible-content">
@@ -143,7 +163,12 @@ A schematic of the trial progression for Visit 3 is below. See [HBCD Study Proto
 <p>
 <div id="rs-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Data Warning</span>
+    <span class="text-with-link">
+    <span class="text">Data Warning</span>
+    <a class="anchor-link" href="#rs-warning" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="arrow">▸</span>
 </div>
 <div class="warning-collapsible-content">
