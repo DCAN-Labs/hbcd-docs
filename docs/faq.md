@@ -310,7 +310,7 @@
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
-<p>Unprocessed raw imaging DICOM files will be made publicly available in the interim <a href="../../changelog/pending/#release-11-release-date-tba">Release 1.1</a>. However, raw data converted to the Brain Imaging Data Structure (BIDS) standard is included in HBCD Release 1.0. See <a href="../datacuration/overview">Release Notes: HBCD BIDS Data</a> for a description of BIDS as well as conversion procedures.</p>
+<p>Unprocessed raw imaging DICOM files will be made publicly available in the interim <a href="../../changelog/pending/#release-11-release-date-tba">Release 1.1</a>. However, raw data converted to the Brain Imaging Data Structure (BIDS) standard is included in HBCD Release 1.0. See <a href="../datacuration/overview">HBCD Data Overview</a> for a description of BIDS as well as conversion procedures.</p>
 </div>
 </p>
 
@@ -327,7 +327,7 @@
 </div>
 <div class="notification-collapsible-content">
 <p>
-Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing raw data standardized to the Brain Imaging Data Structure (BIDS). See <a href="../datacuration/overview">Release Notes: HBCD BIDS Data</a> for an overview of BIDS and details of raw dMRI data <a href="../datacuration/rawbids/#diffusion-dwi">here</a>. Processed gradient tables, adjusted for head rotation, are additionally provided in the QSIPrep <code>derivatives/</code> - see details <a href="../datacuration/derivatives/#qsiprep-qsiprep">here</a>.
+Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing raw data standardized to the Brain Imaging Data Structure (BIDS). See <a href="../datacuration/overview">HBCD Data Overview</a> for an overview of BIDS and details of raw dMRI data <a href="../datacuration/rawbids/#diffusion-dwi">here</a>. Processed gradient tables, adjusted for head rotation, are additionally provided in the QSIPrep <code>derivatives/</code> - see details <a href="../datacuration/derivatives/#qsiprep-qsiprep">here</a>.
 </p>
 </div>
 </p>

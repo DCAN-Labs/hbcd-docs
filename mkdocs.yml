@@ -79,8 +79,8 @@ nav:
             - Quantitative MRI: measures/mri/qmri.md
             - Magnetic Resonance Spectroscopy: measures/mri/mrs.md 
     - HBCD Study Design: measures/studydesign.md
-    - HBCD BIDS Data:
-        - Overview: datacuration/overview.md
+    - HBCD Data Overview:
+        - BIDS Data Format: datacuration/overview.md
         - Raw BIDS Data: datacuration/rawbids.md
         - Derivatives: datacuration/derivatives.md
         - Phenotype: datacuration/phenotypes.md
