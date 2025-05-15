@@ -7,5 +7,4 @@ For the PhenX+ Discrimination survey, one of the multi-select questions (column 
 Empty string appears where there should be nulls.
 
 ### ⚠️ ICD Code Names/Labels Inconsistently Provided (Pregnancy & Infant Health)
-
 In cases where ICD codes are provided, corresponding names/labels are sometimes not provided. This is a known issue to be fixed in future releases. In the meantime, users can consider existing packages to merge ICD labels in [Stata](https://www.stata.com/features/overview/icd/), [SAS](https://hcup-us.ahrq.gov/toolssoftware/ccsr/dxccsr.jsp), or [R](https://www.rdocumentation.org/packages/icd/versions/3.3).
