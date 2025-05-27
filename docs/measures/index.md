@@ -12,18 +12,51 @@ The current release includes data from Visits 1, 2, and 3 (V01, V02, and V03) fo
 
 Below is a summary of measures included in Release 1.0. Note that the HBCD Data Release Docs only cover the measures currently available, with additional documentation to follow in future updates as additional measure data are released. For details on upcoming additions in Release 1.1, see [Pending & Upcoming Updates](../changelog/pending.md). Full study protocols are available on the [HBCD Study site](https://hbcdstudy.org/study-protocols/).
 
-## Demographics & Visit Data
-The `rawdata/phenotype/` folder includes tabulated *Basic Demographics* (`sed_basic_demographics`) and *Visit Data* (`par_visit_data`) associated with the HBCD study. Basic Demographics contains data derived from multiple sources, including [*HBCD Demographics V01*](socenvdet.md#hbcd-demographics) (`sed_bm_demo`), as well as some calculated fields for parent and child race & ethnicity.
-
-For details, please refer to [Basic Demographics Data](../datacuration/phenotypes.md#basic-demographics-data) and [Visit Data](../datacuration/phenotypes.md#visit-data) under the [HBCD Data Overview](../datacuration/overview.md) section of the Release Notes.
-
 ## File-Based Data
 The data release includes raw (`rawdata/`) and processed "derivative" (`derivatives/`) data for MRI, MRS, EEG, and motion/accelerometry, formatted to adhere to the Brain Imaging Data Structure (BIDS) standard. See [Raw BIDS Data](../datacuration/rawbids.md) and [Derivatives](../datacuration/derivatives.md) under the [HBCD Data Overview](../datacuration/overview.md) section of the Release Notes for details.
 
-## Tabulated Instrument Data
-In addition to demographics and visit information, the `rawdata/phenotype/` folder includes toxicology, behavior, and tabulated data associated with magnetic resonance imaging (MRI), spectroscopy (MRS), electroencephalography (EEG), and motion/accelerometry (i.e. [wearable sensor](sensors.md) recordings for leg motion) - see [Phenotype BIDS Data](../datacuration/phenotypes.md) under the [HBCD Data Overview](../datacuration/overview.md) section of the Release Notes for details.
+## Tabulated Data
+The `rawdata/phenotype/` folder includes demographics and visit information, toxicology, behavior, and tabulated data associated with magnetic resonance imaging (MRI), spectroscopy (MRS), electroencephalography (EEG), and motion/accelerometry (i.e. [wearable sensor](sensors.md) recordings for leg motion) - see [Phenotype BIDS Data](../datacuration/phenotypes.md) under the [HBCD Data Overview](../datacuration/overview.md) section of the Release Notes for details.
 
 <button id="toggle-all-btn">Expand All Sections ↕️</button>
+
+<div id="demo" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="text-with-link">
+  <span class="table-text">Demographics & Visit Information</span>
+  <a class="anchor-link" href="#demo" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
+  <span class="table-arrow">▸</span>
+</div>
+<div class="table-collapsible-content">
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
+  <thead>
+  </tr>
+  <tr>
+    <tr>
+      <th style="width: 40%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Name of Instrument</th>
+      <th style="width: 15%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Acronym</th>
+      <th style="width: 30%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Construct</th>
+      <th style="width: 15%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Table Name</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../datacuration/phenotypes/#basic-demographics-data">Basic Demographics</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Demographics</td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Demographics data derived from multiple sources</td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">sed_basic_demographics</td>
+  </tr>
+    <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../datacuration/phenotypes/#visit-data">Visit Level Data</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Visit Data</td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Participant visit information</td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">par_visit_data</td>
+  </tr>
+  </tbody>
+  </table>
+</div>
 
 
 <div id="behCGinteraction" class="table-banner" onclick="toggleCollapse(this)">
