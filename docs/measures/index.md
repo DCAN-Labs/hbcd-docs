@@ -474,39 +474,49 @@ In addition to demographics and visit information, the `rawdata/phenotype/` fold
 <div class="table-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
   <thead>
-  </tr>
-  <tr>
     <tr>
       <th style="width: 20%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Name of Instrument</th>
       <th style="width: 10%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Acronym</th>
-      <th style="width: 40%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Table Name(s)</th>
+      <th style="width: 40%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Table Name</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/eeg/#faces-task">Faces Task</a></td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Face</td>
-    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">eeg_made_task-FACE_acq-eeg_preprocessingReport<br>eeg_qc_task-FACE</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/eeg/#auditory-mismatch-negativity-task-mmn">Auditory Mismatch Negativity Task</a></td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">MMN</td>
-    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">eeg_made_task-MMN_acq-eeg_preprocessingReport<br>eeg_qc_task-MMN</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/eeg/#video-resting-state-rs">Video Resting State Task</a></td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">RS</td>
-    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">eeg_made_task-RS_acq-eeg_preprocessingReport<br>eeg_qc_task-RS</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/eeg/#visual-evoked-potential-task-vep">Visual Evoked Potential Task</a></td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">VEP</td>
-    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">eeg_made_task-VEP_acq-eeg_preprocessingReport<br>eeg_qc_task-VEP</td>
-  </tr>
-  <tr>
-</tbody>
+      <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;"><a href="../measures/eeg/#faces-task-face">Faces Task</a></td>
+      <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">Face</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">eeg_made_task-FACE_acq-eeg_preprocessingReport</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">eeg_qc_task-FACE</td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;"><a href="../measures/eeg/#auditory-mismatch-negativity-task-mmn">Auditory Mismatch Negativity Task</a></td>
+      <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">MMN</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">eeg_made_task-MMN_acq-eeg_preprocessingReport</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">eeg_qc_task-MMN</td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;"><a href="../measures/eeg/#video-resting-state-rs">Video Resting State Task</a></td>
+      <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">RS</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">eeg_made_task-RS_acq-eeg_preprocessingReport</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">eeg_qc_task-RS</td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;"><a href="../measures/eeg/#visual-evoked-potential-task-vep">Visual Evoked Potential Task</a></td>
+      <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">VEP</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">eeg_made_task-VEP_acq-eeg_preprocessingReport</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">eeg_qc_task-VEP</td>
+    </tr>
+  </tbody>
 </table>
 </div>
+
 
 <div id="mri" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text-with-link">
@@ -519,69 +529,72 @@ In addition to demographics and visit information, the `rawdata/phenotype/` fold
 </div>
 <div class="table-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
-<tfoot><tr>
-<td colspan="3" style="word-wrap: break-word; white-space: normal;">
-    <li><b class="blue-text">&lt;SEG-A&gt;</b> label values: 4S&lt;1-10&gt;Parcels, Glasser, Gordon, MIDB, MyersLabonte</li>
-    <li><b class="blue-text">&lt;SEG-F&gt;</b> label values: 4S&lt;1-10&gt;Parcels, Glasser, Gordon, MIDB, MyersLabonte, HCP, Tian</li>
-    <li><b class="blue-text">&lt;PROC&gt;</b> label values: HERCULES_&lt;diff1|diff2|sum&gt;, unedited_A</li>
-</td></tr>
-</tfoot>
   <thead>
-  </tr>
-  <tr>
     <tr>
       <th style="width: 30%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Name of Instrument</th>
       <th style="width: 10%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Acronym</th>
-      <th style="width: 15%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Table Name(s)</th>
+      <th style="width: 60%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Table Name</th>
     </tr>
   </thead>
   <tbody>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/mri/smri">Structural MRI</a></td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">sMRI</td>
-    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">
-    img_brainswipes_xcpd-T2w<br>img_mriqc_T1w<br>img_mriqc_T2w<br>
-    img_bibsnet_space-T1w_desc-aseg_volumes<br>
-    img_bibsnet_space-T2w_desc-aseg_volumes<br>
-    <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG-A&gt;</span>_stat-mean_desc-curv_morph  </li>
-    <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG-A&gt;</span>_stat-mean_desc-sulc_morph  </li>
-    <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG-A&gt;</span>_stat-mean_desc-thickness_morph  </li>
-    </td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/mri/fmri">Functional MRI</a></td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">fMRI</td>
-    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">img_brainswipes_xcpd-bold<br>img_mriqc_bold<br>
-    <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG-F&gt;</span>_stat-alff_bold  </li>
-    <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG-F&gt;</span>_stat-coverage_bold  </li>
-    <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG-F&gt;</span>_stat-reho_bold  </li>
-    </td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/mri/dmri">Diffusion MRI</a></td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">dMRI</td>
-    <td>img_qsiprep_space-ACPC_desc-image_qc</td>
-  </tr>
+    <!-- sMRI -->
     <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/mri/qmri">Quantitative MRI</a></td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">qMRI</td>
-    <td>N/A</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/mri/mrs">Magnetic Resonance Spectroscopy</a></td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">MRS</td>
-    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">
-      <li>img_osprey_<span class="blue-text">&lt;PROC&gt;</span>_AlphaCorrWaterScaledGroupNormed_Voxel_1_Basis_1  </li>
-      <li>img_osprey_<span class="blue-text">&lt;PROC&gt;</span>_AlphaCorrWaterScaled_Voxel_1_Basis_1</li>
-      <li>img_osprey_<span class="blue-text">&lt;PROC&gt;</span>_CSFWaterScaled_Voxel_1_Basis_1</li>
-      <li>img_osprey_<span class="blue-text">&lt;PROC&gt;</span>_TissCorrWaterScaled_Voxel_1_Basis_1</li>
-      <li>img_osprey_<span class="blue-text">&lt;PROC&gt;</span>_rawWaterScaled_Voxel_1_Basis_1</li>
-      <li>img_osprey_<span class="blue-text">&lt;PROC&gt;</span>_amplMets_Voxel_1_Basis_1  </li>
-      <li>img_osprey_<span class="blue-text">&lt;PROC&gt;</span>_tCr_Voxel_1_Basis_1  </li>
-      <li>img_osprey_HERCULES_qm_processed_spectra</li>
-      <li>img_osprey_unedited_qm_processed_spectra</li></td>
-  </tr>
-</tbody>
+      <td rowspan="8" style="border: 1px solid #ddd; padding: 8px;"><a href="../measures/mri/smri">Structural MRI</a></td>
+      <td rowspan="8" style="border: 1px solid #ddd; padding: 8px;">sMRI</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">img_brainswipes_xcpd-T2w</td>
+    </tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px;">img_mriqc_T1w</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px;">img_mriqc_T2w</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px;">img_bibsnet_space-T1w_desc-aseg_volumes</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px;">img_bibsnet_space-T2w_desc-aseg_volumes</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px;">img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG-A&gt;</span>_stat-mean_desc-curv_morph</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px;">img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG-A&gt;</span>_stat-mean_desc-sulc_morph</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px;">img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG-A&gt;</span>_stat-mean_desc-thickness_morph</td></tr>
+    <!-- fMRI -->
+    <tr>
+      <td rowspan="5" style="border: 1px solid #ddd; padding: 8px;"><a href="../measures/mri/fmri">Functional MRI</a></td>
+      <td rowspan="5" style="border: 1px solid #ddd; padding: 8px;">fMRI</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">img_brainswipes_xcpd-bold</td>
+    </tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px;">img_mriqc_bold</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px;">img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG-F&gt;</span>_stat-alff_bold</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px;">img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG-F&gt;</span>_stat-coverage_bold</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px;">img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG-F&gt;</span>_stat-reho_bold</td></tr>
+    <!-- dMRI -->
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><a href="../measures/mri/dmri">Diffusion MRI</a></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">dMRI</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">img_qsiprep_space-ACPC_desc-image_qc</td>
+    </tr>
+    <!-- qMRI -->
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><a href="../measures/mri/qmri">Quantitative MRI</a></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">qMRI</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">N/A</td>
+    </tr>
+    <!-- MRS -->
+    <tr>
+      <td rowspan="9" style="word-wrap: break-word; white-space: normal; border: 1px solid #ddd; padding: 8px;"><a href="../measures/mri/mrs">Magnetic Resonance Spectroscopy</a></td>
+      <td rowspan="9" style="border: 1px solid #ddd; padding: 8px;">MRS</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">img_osprey_<span class="blue-text">&lt;PROC&gt;</span>_AlphaCorrWaterScaledGroupNormed_Voxel_1_Basis_1</td>
+    </tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px;">img_osprey_<span class="blue-text">&lt;PROC&gt;</span>_AlphaCorrWaterScaled_Voxel_1_Basis_1</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px;">img_osprey_<span class="blue-text">&lt;PROC&gt;</span>_CSFWaterScaled_Voxel_1_Basis_1</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px;">img_osprey_<span class="blue-text">&lt;PROC&gt;</span>_TissCorrWaterScaled_Voxel_1_Basis_1</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px;">img_osprey_<span class="blue-text">&lt;PROC&gt;</span>_rawWaterScaled_Voxel_1_Basis_1</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px;">img_osprey_<span class="blue-text">&lt;PROC&gt;</span>_amplMets_Voxel_1_Basis_1</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px;">img_osprey_<span class="blue-text">&lt;PROC&gt;</span>_tCr_Voxel_1_Basis_1</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px;">img_osprey_HERCULES_qm_processed_spectra</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px;">img_osprey_unedited_qm_processed_spectra</td></tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="3" style="word-wrap: break-word; white-space: normal; padding: 10px;">
+          <li><b class="blue-text">&lt;SEG-A&gt;</b> label values: 4S&lt;1-10&gt;Parcels, Glasser, Gordon, MIDB, MyersLabonte</li>
+          <li><b class="blue-text">&lt;SEG-F&gt;</b> label values: 4S&lt;1-10&gt;Parcels, Glasser, Gordon, MIDB, MyersLabonte, HCP, Tian</li>
+          <li><b class="blue-text">&lt;PROC&gt;</b> label values: HERCULES_&lt;diff1|diff2|sum&gt;, unedited_A</li>
+      </td>
+    </tr>
+  </tfoot>
 </table>
 </div>
-
