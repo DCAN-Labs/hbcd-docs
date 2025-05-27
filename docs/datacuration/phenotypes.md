@@ -133,7 +133,7 @@ For example, `mri_ra_prep` refers to MRI-related data entered by a research assi
 </ul>
 
 ## Visit Data
-<p style="margin: 0 0 5px;">Visit data (<code>par_visit_data.tsv</code>) contains all participant visit data, including:</p>
+<p style="margin: 0 0 5px;">Visit Level Data (<code>par_visit_data</code>) contains all participant visit data, including:</p>
 <ul>
 <li>Visit information: Label, Stage, Date, if the visit was missed, and the reason if visit was missed</li>
 <li>Project, <a href="#cohorts">Cohort</a>, and Site</li>
@@ -141,6 +141,9 @@ For example, `mri_ra_prep` refers to MRI-related data entered by a research assi
 <li>Protocol violation information: if there was a protocol exception and the date</li>
 <li>Visit details for SU flags raised by TLFB, Biospecimen, or Health-V2 as described above (<a href="#basic-emographics-data">Basic Demographics Data</a>)</li>
 </ul>
+
+**Note that `cohort` and `site` are not currently described in the data dictionary, but are included in dataset downloads from Lasso and are equivalent to the columns `par_visit_data_cohort` and `par_visit_data_site` (see details [here](../data_access/lasso.md#additional-columns-cohort-site-not-defined-in-data-dictionary)).**
+
 
 <div id="cohorts" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="text">Cohort & Caregiver Types</span>

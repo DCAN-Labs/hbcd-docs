@@ -227,6 +227,9 @@ Thank you for beta testing the Download Client on macOS. Your feedback has been 
 
 ## Lasso User Warnings
 
+### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Additional Columns (`cohort` & `site`) Not Defined in Data Dictionary
+Dataset downloads from Lasso will contain two additional columns automatically, which are currently not described in the data dictionary: `cohort` (*HBCD Main Child*) and `site` (*site ID*). Please note, the `cohort` column contains the same information as the `par_visit_data_cohort` variable and the `site` column contains the same information as `par_visit_data_site` variable, both found in Visit Level Data table `par_visit_data` (see details [here](../datacuration/phenotypes.md/#visit-data)).
+
 ### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Static Variable Warning
 To run a query successfully, your selection must include **at least one non-static instrument**—that is, data collected during specific **sessions or timepoints**. In the NBDC Data Release Platform, look for instruments **not marked as static** (i.e., not shaded differently or labeled as static). These will allow you to run your query and get the required data output. Please expand the following sections for details:  
 <div id="query-static-only" class="notification-banner" onclick="toggleCollapse(this)">
