@@ -12,7 +12,6 @@
 </div>
 </p>
 
-## Overview
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <img src="images/NBDC-C-Horizontal.png" alt="NBDC-logo" style="width: 40%;">
   <img src="images/Format=Horizontal, Color=Black@2x.png" alt="Lasso-logo" style="width: 30%; margin-right: 80px;">

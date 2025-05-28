@@ -1,8 +1,7 @@
 # Tabulated Data
+Tabulated data in the BIDS `rawdata/phenotype/` directory includes demographic, toxicology, and behavioral data (see details [here](../datacuration/phenotypes.md)) available in both tab-separated values (TSV) and [Apache Parquet](https://parquet.apache.org/) formats. Some concatenated, file-based data are also offered as CSV and Parquet files. Both formats are provided to support a range of tools and user preferences. However, **we recommend using Parquet for NBDC tabulated data to ensure correctly specified data types, faster loading speeds, and lower memory usage.**
 
 ## Plain Text vs. Parquet Files
-Tabulated data in the BIDS `rawdata/phenotype/` directory includes demographic, toxicology, and behavioral data (see details [here](../../datacuration/phenotypes.md)) available in both tab-separated values (TSV) and [Apache Parquet](https://parquet.apache.org/) formats. Some concatenated, file-based data are also offered as CSV and Parquet files. Both formats are provided to support a range of tools and user preferences. However, **we recommend using Parquet for NBDC tabulated data to ensure correctly specified data types, faster loading speeds, and lower memory usage.**
-
 ### Plain Text (TSV/CSV)
 Plain text formats (TSV/CSV) are widely compatible and easy to inspect, but less efficient for large datasets. They don't support selective column loading or preserve metadata, such as data type specification; the metadata is instead available via the sidecar JSON files for plan text files. As a result, tools like Python or R must guess data types during import, often incorrectly. For example, categorical values like "0"/"1" for "Yes"/"No" (commonly used in NBDC datasets) may be interpreted as numeric, and columns with mostly missing values may be treated as empty if the first few rows lack data.
 
@@ -18,7 +17,7 @@ To avoid such issues, it's recommended to manually define column types using the
 <p>Please note that Parquet files are currently not officially supported by the <a href="https://bids-specification.readthedocs.io/en/stable/">BIDS specification</a>. For NBDC datasets, we decided to add Parquet as an alternative file format to the BIDS standard TSV to allow users to take advantage of the features of this modern and efficient open source format that is commonly used in the data science community.</p>
 </div>
 
-[Apache Parquet](https://parquet.apache.org/documentation/latest/) is a modern, compressed, columnar format optimized for large-scale data. In contrast to TSV files, Parquet supports selective column loading and smaller file sizes. This improves loading speed and memory usage and enhances performance for analytical workflows. Crucially, parqet can store metadata (including column types, variable/value labels, and categorical coding) directly in the file, enabling accurate import without manual setup. See details for how Parquet export is handled in [Lasso](../lasso.md) and [DEAP](../DEAP.md).
+[Apache Parquet](https://parquet.apache.org/documentation/latest/) is a modern, compressed, columnar format optimized for large-scale data. In contrast to TSV files, Parquet supports selective column loading and smaller file sizes. This improves loading speed and memory usage and enhances performance for analytical workflows. Crucially, parqet can store metadata (including column types, variable/value labels, and categorical coding) directly in the file, enabling accurate import without manual setup. See details for how Parquet export is handled in [Lasso](../download/lasso.md) and [DEAP](../download/DEAP.md).
 
 <p style="margin-bottom: 0; padding-bottom: 0;"><b>Example: Loading Parquet file in Python (using <a href="https://docs.pola.rs/">polars</a> or <a href="https://pandas.pydata.org/docs/getting_started/index.html">pandas</a> modules)</b></p>
 
@@ -41,7 +40,7 @@ parquet_df <- read_parquet("path/to/file.parquet")
 ```
 
 ## Shadow Matrices
-Each TSV and Parquet ***data file*** in the BIDS `/rawdata/phenotype/` directory has a corresponding ***shadow matrix file*** in the same format (TSV or Parquet). These shadow matrix files mirror the structure and column names of the original data files. Shadow matrices can be exported as CSV files via Lasso when running a query (see details [here](../lasso.md#step-5-query-the-associated-data)) or downloaded in a chosen file format via [DEAP](../DEAP.md).
+Each TSV and Parquet ***data file*** in the BIDS `/rawdata/phenotype/` directory has a corresponding ***shadow matrix file*** in the same format (TSV or Parquet). These shadow matrix files mirror the structure and column names of the original data files. Shadow matrices can be exported as CSV files via Lasso when running a query (see details [here](../download/lasso.md#step-5-query-the-associated-data)) or downloaded in a chosen file format via [DEAP](../download/DEAP.md).
 
 In the data files, missing values are represented as blank cells. Shadow matrices provide essential context by indicating the reason a value is missing (e.g., “don’t know,” “declined to answer,” “missed visit”). Each cell in a shadow matrix corresponds to the same cell in the associated data file:
 
@@ -100,3 +99,4 @@ df = load_data_with_shadow("data.tsv", "shadow_matrix.tsv")
 # Example: View reasons for missing data for a given column/variable in the data file 
 df[df["<COLUMN NAME>"].isna()][["<COLUMN NAME>_missing_reason"]]  
 ```
+<br>

@@ -1,9 +1,12 @@
-# Overview
+# Explore HBCD Data
+Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data dictionary via the **[Lasso Dictionary Query Tool](#lasso-dictionary-query-tool)** or DEAP.
 
-The tabulated data in the BIDS `rawdata/phenotype/` directory are provided in both tab-separated values (TSV) and [Apache Parquet](https://parquet.apache.org/) formats. Parquet (along with comma-separated values, CSV, files) files are also an option when exporting the tabulated data using the Lasso File Based Query workflow. DEAP provides these and several additional export formats like those expected by different statistical software solutions (SPSS, Stata, R). See the sections on [Lasso](../data_access/lasso.md) and [DEAP](../data_access/DEAP.md) for details on exporting data. In addition to the tabulated data resource, some of the concatenated file-based data are also offered as both plain text (CSV) and Parquet files.
+<p style="text-align: center;">
+  <a class="button-link" href="https://nbdc-splash-beta.lassoinformatics.com/hbcd-study">HBCD Study on NBDC Data Hub &nbsp; ↗️</a>
+</p>
 
 ## NBDC Data Dictionary
-HBCD data is organized into tables, each of which contains a set of variables. The data dictionary provides detailed information about each variable in the HBCD data tables. The dictionary includes the variable name, label, description, data type, and other relevant information. Both the [Lasso Portal Query Tool](lasso.md#dictionary-query-tool) and the Data Exploration and Analysis Portal ([DEAP](DEAP.md)) and can be used to explore the data dictionary and download HBCD data. 
+HBCD data is organized into tables, each of which contains a set of variables. The data dictionary provides detailed information about each variable in the HBCD data tables. The dictionary includes the variable name, label, description, data type, and other relevant information. Both the [Lasso Portal Query Tool](#lasso-dictionary-query-tool) and the Data Exploration and Analysis Portal ([DEAP](#deap-data-dictionary-explorer)) and can be used to explore the data dictionary and download HBCD data. 
 
 Below are the definitions for the columns in the data dictionaries for these utilities. Also note that some columns also correspond to elements in the BIDS JSON files that accompany all tabulated data (hover over <i class="bi bi-filetype-json" style="font-size:18px; color:blue;"></i> icon for details in table below).
 
@@ -259,3 +262,19 @@ Below are the definitions for the columns in the data dictionaries for these uti
 </tbody>
 </table>
 </div>
+
+## Lasso Dictionary Query Tool
+Once you have created on account on the [NBDC portal supported by Lasso](https://nbdc-hbcd-beta.lassoinformatics.com), even prior to obtaining data access via a DUC, you can explore the data dictionary via the **Dictionary Query Tool**: click on the **Query Data** tab in Lasso located in the left-hand side menu and toggle to **Dictionary Query Tool** in the upper right corner of the page.
+
+<img src="../download/images/querytool/query_step2.png" width="100%" height="auto" class="center">
+
+When using the Dictionary Query Tool, you can filter data based on specific instruments or variables. Use the **column filters** or the **global search** to find exactly what you need quickly and efficiently. See the [NBDC Data Dictionary](#nbdc-data-dictionary) for more information on the available columns and their definitions.
+
+<img src="../download/images/querytool/query_step3.png" width="90%" height="auto" class="center">
+
+## DEAP Data Dictionary Explorer
+
+NEED CONTENT
+
+
+

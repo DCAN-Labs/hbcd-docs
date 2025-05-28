@@ -1,23 +1,9 @@
 # How To Download Data: Lasso Portal
 
-## Dictionary Query Tool
-<div id="instruction-metadata-caution" class="warning-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Instruction metadata - Caution, please read carefully:</span>
-  <span class="arrow">▸</span>
-</div>
-<div class="warning-collapsible-content">
-<p>The text added to the 'instruction' column in the Data Dictionary metadata are extracted programmatically from the latest instruction field provided in the Data Dictionary of the form based on the order of the fields, and added to all fields up to the next set of instructions. Because of this, in some cases the instruction text may be broken into several instruction fields, of which only the last portion will currently be extracted, leading to partial instruction text. Likewise, since the instruction is provided for all fields up to the next set of instructions, in some cases the instruction provided may correspond to a previous section in the form. Instruction metadata will be fine-tuned manually for future releases. To ensure instructions are accurately interpreted, please refer to the original form.</p> 
-</div>
-
-<p style="text-align: center;">
-  <a class="button-link" href="https://nbdc-splash-beta.lassoinformatics.com/hbcd-study">HBCD Study on NBDC Data Hub &nbsp; ↗️</a>
-</p>
-
-*Below we describe how to use the Dictionary Query Tool on the [NBDC portal supported by Lasso](https://nbdc-hbcd-beta.lassoinformatics.com) to download data.*
+## Use Query Tool To Select Data for Download
 
 #### Step 1: Get Started with Approved Access  
-Once your **Data Use Certification** has been approved (see [How To Access Data](index.md)) and you’ve completed the required training, you’ll gain access to the **Query Data** tab in Lasso. This tab is conveniently located in the **left-hand side menu**.
+Once your **Data Use Certification** has been approved (see [How To Access Data](../data_access/index.md)) and you’ve completed the required training, you’ll be able to download data dictionaries, tabulated, and file-based data via the **Query Data** tab in Lasso. This tab is conveniently located in the **left-hand side menu**.
 
 #### Step 2: Choose Your Query Method
 On the Query Data page, you can toggle between the **Query Wizard** and the **Dictionary Query Tool**. Both tools offer flexible ways to build your queries, letting you choose the approach that best suits your needs. 
@@ -47,12 +33,19 @@ If you need both the data dictionary and the associated data:
 
 <img src="../images/querytool/query_step5.png" width="100%" height="auto" class="center">
 
-Note that the **[shadow matrix](dataformats/tabulated.md#shadow-matrices)** is downloadable as a CSV file and will appear as an additional option after running the query:
-<img src="../images/querytool/shadowmatrix.png" width="50%" height="auto" class="center">
+Note that the **[shadow matrix](../dataformats/tabulated.md#shadow-matrices)** is downloadable as a CSV file and will appear as an additional option after running the query:
+<img src="..images/querytool/shadowmatrix.png" width="50%" height="auto" class="center">
 
 #### Step 6: Save and Reuse Your Queries
 To save time on future queries, click the **Save Query** button. Your saved queries can be accessed later via the **Load Query** button. Select your saved query, click **Run**, and instantly download the most up-to-date data.
 <img src="../images/querytool/query_step6.png" width="100%" height="auto" class="center">
+
+
+
+
+
+
+
 
 ## Globus Share Download
 1 - [Login](https://nbdc-beta.lassoinformatics.com/) with your Globus ID after clicking the Globus button on the login screen. 
@@ -226,6 +219,9 @@ Thank you for beta testing the Download Client on macOS. Your feedback has been 
 
 
 ## Lasso User Warnings
+
+### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Instruction Metadata - Caution, Please Read Carefully
+The text added to the 'instruction' column in the Data Dictionary metadata are extracted programmatically from the latest instruction field provided in the Data Dictionary of the form based on the order of the fields, and added to all fields up to the next set of instructions. Because of this, in some cases the instruction text may be broken into several instruction fields, of which only the last portion will currently be extracted, leading to partial instruction text. Likewise, since the instruction is provided for all fields up to the next set of instructions, in some cases the instruction provided may correspond to a previous section in the form. Instruction metadata will be fine-tuned manually for future releases. To ensure instructions are accurately interpreted, please refer to the original form.
 
 ### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Additional Columns (`cohort` & `site`) Not Defined in Data Dictionary
 Dataset downloads from Lasso will contain two additional columns automatically, which are currently not described in the data dictionary: `cohort` (*HBCD Main Child*) and `site` (*site ID*). Please note, the `cohort` column contains the same information as the `par_visit_data_cohort` variable and the `site` column contains the same information as `par_visit_data_site` variable, both found in Visit Level Data table `par_visit_data` (see details [here](../datacuration/phenotypes.md/#visit-data)).

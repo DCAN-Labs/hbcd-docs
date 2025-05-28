@@ -1,7 +1,7 @@
 # Phenotype BIDS Data
-The data provided within the `rawdata/phenotype/` folder contains tabulated data from measures and instruments listed under [Data Measure Release Notes](../measures/index.md#tabulated-instrument-data). This includes behavior, demographics, visit data, toxicology results, and tabulated data associated with brain imaging and other [file-based data types](../measures/index.md#file-based-data).
+The data provided within the `rawdata/phenotype/` folder contains tabulated data from measures and instruments listed under [Data Measure Release Notes](../measures/index.md#tabulated-data). This includes behavior, demographics, visit data, toxicology results, and tabulated data associated with brain imaging and other [file-based data types](../measures/index.md#file-based-data).
 
-Tabulated data lists information for all participants in both plain text (`.tsv`) and Parquet (`.parquet`) format. The TSV files are tab-separated values files that can be easily opened in spreadsheet software or text editors, with metadata (including the names and types of each column) provided in a separate `.json` file. The Parquet files are a columnar storage format optimized for performance and efficiency, with metadata stored directly in the file. Each data file is additionally accompanied by a corresponding shadow matrix file (in `.tsv` and `.parquet` format) that mirrors the structure of the data file with the values replaced by reason for data missingness. Please see the page [Data Formats & Tools > Tabulated Data](../data_access/dataformats/tabulated.md) for details on these file types and how to work with them.
+Tabulated data lists information for all participants in both plain text (`.tsv`) and Parquet (`.parquet`) format. The TSV files are tab-separated values files that can be easily opened in spreadsheet software or text editors, with metadata (including the names and types of each column) provided in a separate `.json` file. The Parquet files are a columnar storage format optimized for performance and efficiency, with metadata stored directly in the file. Each data file is additionally accompanied by a corresponding shadow matrix file (in `.tsv` and `.parquet` format) that mirrors the structure of the data file with the values replaced by reason for data missingness. Please see the page [Data Formats & Tools > Tabulated Data](../dataformats/tabulated.md) for details on these file types and how to work with them.
 
 <pre class="folder-tree">
 r1.0/
@@ -142,7 +142,7 @@ For example, `mri_ra_prep` refers to MRI-related data entered by a research assi
 <li>Visit details for SU flags raised by TLFB, Biospecimen, or Health-V2 as described above (<a href="#basic-emographics-data">Basic Demographics Data</a>)</li>
 </ul>
 
-**Note that `cohort` and `site` are not currently described in the data dictionary, but are included in dataset downloads from Lasso and are equivalent to the columns `par_visit_data_cohort` and `par_visit_data_site` (see details [here](../data_access/lasso.md#additional-columns-cohort-site-not-defined-in-data-dictionary)).**
+**Note that `cohort` and `site` are not currently described in the data dictionary, but are included in dataset downloads from Lasso and are equivalent to the columns `par_visit_data_cohort` and `par_visit_data_site` (see details [here](../download/lasso.md#additional-columns-cohort-site-not-defined-in-data-dictionary)).**
 
 
 <div id="cohorts" class="notification-banner" onclick="toggleCollapse(this)">
