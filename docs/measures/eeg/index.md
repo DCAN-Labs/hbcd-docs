@@ -66,7 +66,7 @@ Please refer to the [HBCD EEG Acquisition Protocol](https://zenodo.org/records/1
   <span class="arrow">▸</span>
 </div>
 <div class="warning-collapsible-content">
-<p>The EEG Core of the HBCD Data Coordinating Center (HDCC) has developed some helpful tools for extracting summary statistics and trial measures from HBCD EEG release data. We encourage all users to explore these resources at the <a href="https://childdevlab-hbcd-eeg-utilities.readthedocs.io/">HBCD EEG Utilities</a> website.</p>
+<p>The EEG Core of the HBCD Data Coordinating Center (HDCC) has developed some helpful tools for extracting summary statistics and trial measures from HBCD EEG release data. We encourage all users to explore these resources at the <a href="https://hbcd-eeg-utilities.readthedocs.io/">HBCD EEG Utilities</a> website.</p>
 </div>
 </p>
 
@@ -198,7 +198,7 @@ The Visual Evoked Potential Task (v.11.29.23) measures development of visual cor
 </div></p>
 
 ## Resources
-- [HBCD EEG Utilities](https://childdevlab-hbcd-eeg-utilities.readthedocs.io/)
+- [HBCD EEG Utilities](https://hbcd-eeg-utilities.readthedocs.io/)
 - [HBCD E-Prime Task Manual](https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing)
 - [HBCD EEG Acquisition Protocol](https://zenodo.org/records/14795030)
 
