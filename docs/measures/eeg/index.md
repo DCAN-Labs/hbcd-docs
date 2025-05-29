@@ -31,11 +31,11 @@ Please refer to the [HBCD EEG Acquisition Protocol](https://zenodo.org/records/1
 
 ## EEG Task Details
 <p>
-<div id="alert" class="alert-banner" onclick="toggleCollapse(this)">
+<div id="resp-use-warning" class="alert-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
     <span class="text-with-link">
     <span class="text">Responsible Use Warning</span>
-    <a class="anchor-link" href="#alert" title="Copy link">
+    <a class="anchor-link" href="#resp-use-warning" title="Copy link">
     <i class="fa-solid fa-link"></i>
     </a>
     </span>
@@ -55,38 +55,33 @@ Please refer to the [HBCD EEG Acquisition Protocol](https://zenodo.org/records/1
 </p>
 
 <p>
-<div id="eeg-warning" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="data-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text-with-link">
-  <span class="text">Data Warning: HBCD EEG Utilities</span>
-  <a class="anchor-link" href="#eeg-warning" title="Copy link">
+  <span class="text">Data Warnings</span>
+  <a class="anchor-link" href="#data-warning" title="Copy link">
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
   <span class="arrow">▸</span>
 </div>
 <div class="warning-collapsible-content">
+<br>
+<b>HBCD EEG Utilities</b>
 <p>The EEG Core of the HBCD Data Coordinating Center (HDCC) has developed some helpful tools for extracting summary statistics and trial measures from HBCD EEG release data. We encourage all users to explore these resources at the <a href="https://hbcd-eeg-utilities.readthedocs.io/">HBCD EEG Utilities</a> website.</p>
-</div>
-</p>
-
-<div id="eeg-artifact-warning" class="warning-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text-with-link">
-  <span class="text">Data Warning: Stimtracker Artifact</span>
-  <a class="anchor-link" href="#eeg-artifact-warning" title="Copy link">
-  <i class="fa-solid fa-link"></i>
-  </a>
-  </span>
-  <span class="arrow">▸</span>
-</div>
-<div class="warning-collapsible-content">
+<br>
+<b>Stimtracker Artifact</b>
 <p>The MMN, VEP, and FACE task data for one participant included in the data release was found to contain an electrical noise artifact originating from the stimtracker device used for stimulus timing. All other participants' data were checked and confirmed to be artifact-free.</p> 
 <p>This artifact is most prominent in electrode E55 between the REF and COM electrodes, but is also visible in surrounding channels. It is time-locked to both stimulus onset and offset: as highlighted in the following EEG trace (MMN auditory oddball task in E55), the artifact presents as a negative deflection at onset and a positive deflection at offset. Please visit <a href="artifacts" target="_blank">this page</a> to see how this artifact appears in time-frequency plots and ERP derivatives.</p>
 
 <img src="images/Fig1.png" width="70%" height="auto" class="center">
 <p>The EEG workgroup is currently developing a method of ICA correction to remove this artifact. In the meantime, <strong>it is recommended to exclude the MMN, VEP, and FACE tasks for this participant from analyses</strong>. The affected subject is flagged on the <a href="../../../data_access/lasso" target="_blank">Lasso platform</a>.</p>
+<br>
+
+<b>Task Updates Between V03 and V04/V06 (MMN & RS)</b>
+<p>Researchers should be aware that the Auditory Mismatch Negativity (MMN) and Video Resting State (RS) tasks were updated between V03 and V04/V06. For MMN, the interstimulus interval (ISI) changed (see <a href="https://doi.org/10.1016/j.dcn.2024.101447">Fox et al. 2024</a> and <a href="https://doi.org/10.1097/00003446-200204000-00005">Morr et al. 2002</a> for details) and for RS, the video content was modified. Also note that RS is not a true resting state as there is a visual stimulus present.</p>
 </div>
+</p>
 
 ### Faces Task (FACE)
 The Faces task (v.11.29.23) is used to assess neural activity supporting face and object processing within the first years of life. Event-related potentials (ERPs) are recorded while infants view faces and objects using an oddball task designed to index different stages of processing including attention, perception, categorization, individuation, and memory. 
@@ -119,22 +114,6 @@ If the child loses attention, an attention getter may be played to bring the chi
 See [HBCD Study Protocols - EEG](https://hbcdstudy.org/wp-content/uploads/2023/06/EEG-Parameters.pdf) for details and [Fox et al. 2024](https://doi.org/10.1016/j.dcn.2024.101447) for additional information on the rationale for task/stimulus development and ERP findings from pilot data.
 
 ### Auditory Mismatch Negativity Task (MMN)
-<p>
-<div id="mmn-warning" class="warning-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-    <span class="text-with-link">
-    <span class="text">Data Warning</span>
-    <a class="anchor-link" href="#mmn-warning" title="Copy link">
-    <i class="fa-solid fa-link"></i>
-    </a>
-    </span>
-  <span class="arrow">▸</span>
-</div>
-<div class="warning-collapsible-content">
-<p>Researchers should be aware that the interstimulus interval (ISI) was updated between V03 and V04/V06. Please see <a href="https://doi.org/10.1016/j.dcn.2024.101447">Fox et al. 2024</a> and <a href="https://doi.org/10.1097/00003446-200204000-00005">Morr et al. 2002</a> for details.</p> 
-</div>
-</p>
-
 The Auditory Mismatch Negativity (MMN) Task (v.11.29.23) is designed to assess early speech sound processing in infants, incorporating rigorous quality control procedures to ensure data integrity and reliability. This task measures auditory evoked potentials and examines neural habituation and dishabituation by capturing differential responses to standard and deviant stimuli.
 
 The resulting MMN difference wave, also known as the Mismatch Response (MMR), reflects auditory discrimination and the amplitude/latency has been associated with a range of developmental outcomes, including language ability ([Choudhury & Benasich, 2011](https://doi.org/10.1016/j.clinph.2010.05.035)), temperament and personality traits ([Gurrera et al., 2001](https://doi.org/10.1016/S0006-3223(00)01067-2); [Marshall et al., 2009](https://doi.org/10.1111/j.1467-7687.2008.00808.x)), internalizing problems ([Reeb-Sutherland et al., 2009](https://doi.org/10.1111/j.1469-7610.2009.02170.x)), externalizing and attention problems ([Gumenyuk et al., 2005](https://doi.org/10.1016/j.neulet.2004.10.081)), as well as neurodevelopmental conditions such as autism ([Lepistö et al., 2005](https://doi.org/10.1016/j.brainres.2005.10.052); [Schwartz et al., 2018](https://doi.org/10.1016/j.neubiorev.2018.01.008)) and reading difficulties/dyslexia ([Leppänen et al., 2010](https://doi.org/10.1016/j.cortex.2010.06.003); [Norton et al., 2021](https://doi.org/10.3389/fnhum.2021.624617)).
@@ -160,22 +139,6 @@ A schematic of the trial progression for Visit 3 is below. See [HBCD Study Proto
 <img src="images/MMN.png" width="100%" height="auto" class="center">
 
 ### Video Resting State (RS)
-<p>
-<div id="rs-warning" class="warning-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-    <span class="text-with-link">
-    <span class="text">Data Warning</span>
-    <a class="anchor-link" href="#rs-warning" title="Copy link">
-    <i class="fa-solid fa-link"></i>
-    </a>
-    </span>
-  <span class="arrow">▸</span>
-</div>
-<div class="warning-collapsible-content">
-<p>Researchers should be aware that the video content for the video RS task was modified between V03 and V04/V06. Note that this is not a true resting state as there is a visual stimulus present.</p> 
-</div>
-</p>
-
 The Video Resting State (RS) (v.11.29.23) task provides assessment of the development of large-scale neural networks during infancy and early childhood via information about neural oscillations measured in EEG power across the scalp. Developmental changes in oscillatory activity reflect underlying developing large-scale neural networks associated with early self-regulatory, cognitive, and affective processes and developmental outcomes ([Gabard-Durnam et al., 2019](https://doi.org/10.1038/s41467-019-12202-9); [Jones et al., 2020](https://doi.org/10.1038/s41598-020-67687-y); [Whedon et al., 2020](https://doi.org/10.1016/j.bandc.2020.105636)). The metrics derived from the resting EEG signal include power across the frequency spectrum ([Gabard-Durnam et al., 2019](https://doi.org/10.1038/s41467-019-12202-9)) and relative power between different scalp locations ([Davidson & Fox, 1982](https://doi.org/10.1126/science.7146906)). See [Fox et al. 2024](https://doi.org/10.1016/j.dcn.2024.101447) for more information about the RS.       
 
 #### Task Details
