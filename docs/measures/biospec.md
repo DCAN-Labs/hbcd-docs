@@ -60,32 +60,25 @@ QC procedures involved examining assay ranges and categorical versus continuous 
 <p>
 <div id="biospec-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Data Warning</span>
+  <span class="text">Data Warnings</span>
   </span>
   <span class="arrow">▸</span>
 </div>
 <div class="warning-collapsible-content">
 <p>For all toxicology screens, continuous variables should be interpreted with cautiong based on the threshold limits of quantification (LOQs), or the cutoff concentration used to categorize metabolites as positive or negative. LOQs are provided in <a href="#nails-table1">Table 1. Nail Assay Thresholds</a> and <a href="#urine-table1">Table 1. Urine Assay Thresholds for Analytes</a>.</p> 
+
+<b>Nails</b>
+<p>As of July 1, 2024, the nail processing workflow was updated to optimize specimen use and allow confirmation testing for low sample quantities. Prior to this update, remnants of ELISA extract were not used for confirmation when specimens had insufficient sample.</p> 
+
+<b>Urine</b>
+<p>Only the initial creatinine results from sample validation are included in the data release: creatinine and specific gravity values are therefore provided for researchers who wish to adjust for urinary concentration in continuous measures or apply different thresholds.</p> 
 </div>
 </p>
 
 ### NAILS
-<p>
-<div id="nails-warning" class="warning-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Data Warning</span>
-  </span>
-  <span class="arrow">▸</span>
-</div>
-<div class="warning-collapsible-content">
-<p>As of July 1, 2024, the nail processing workflow was updated to optimize specimen use and allow confirmation testing for low sample quantities. Prior to this update, remnants of ELISA extract were not used for confirmation when specimens had insufficient sample.</p> 
-</div>
-</p>
-
 This dataset includes the results of toxicology assays conducted on fingernails and toenails. Specimens are sorted by weight, and those weighing at least 20 mg undergo ELISA screening, followed by LCMSMS confirmation for presumptive positives, each requiring an additional 20 mg. If insufficient specimen remains for LCMSMS, the remnant ELISA extract is used for confirmation.
 
 <img src="../../images/biospec/Fig1_nails.png" width="100%" height="auto">
-
 
 #### USDTL Assay Details
 Based on the predefined threshold outlined in [Table 1](#nails-table1), a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) was determined to be positive, negative, or invalid (*QNS* i.e. *quantity not sufficient*) ([Table 2](#nails-table2)).
@@ -658,17 +651,6 @@ Based on the confirmatory test (i.e. reflexes from positive screening test) resu
 
 
 ### URINE
-<p>
-<div id="urine-warning" class="warning-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Data Warning</span>
-  <span class="arrow">▸</span>
-</div>
-<div class="warning-collapsible-content">
-<p>Only the initial creatinine results from sample validation are included in the data release: creatinine and specific gravity values are therefore provided for researchers who wish to adjust for urinary concentration in continuous measures or apply different thresholds.</p> 
-</div>
-</p>
-
 These data are the results of urine toxicology assays. Test results for substances were determined to be positive or negative based on predefined thresholds, or invalid (for specimens identified as dilute, substituted, adulterated, or otherwise insufficient based on validation).
 <img src="../../images/biospec/Fig1_biospec_urine.png" width="90%" height="auto">
 
