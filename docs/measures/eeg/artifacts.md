@@ -1,4 +1,4 @@
-# Stimtracker Artifact ([Data Warning](index.md#eeg-artifact-warning) cont.)
+# Stimtracker Artifact ([Data Warning](index.md#data-warning) cont.)
 
 ## Time-Frequency Plots
 ##### Time-frequency plots (1-30 Hz) of data release subjects at E55 including (<i>left</i>) and excluding (<i>right</i>) subject with artifact:

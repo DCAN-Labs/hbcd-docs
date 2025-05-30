@@ -125,7 +125,18 @@ Below are the definitions for the columns in the data dictionaries for these uti
       </td>
         <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">type_var</td>
         <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Type of column/variable/question</td>
-        <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;"><b>{</b>administrative; item; derived item; summary score<b>}</b></td>
+        <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;"><b>{</b>
+        <span class="tooltip">administrative
+		<span class="tooltiptext">Data that gives context to the assessments, e.g. date of assessment, language, quality control, etc.</span>
+	  </span>;
+      <span class="tooltip">item
+		<span class="tooltiptext">Original data provided by the participant, e.g. questions in a questionnaire</span>
+	  </span>; 
+      <span class="tooltip">derived item
+		<span class="tooltiptext">Derived from original data provided by the participant</span>
+	  </span>; <span class="tooltip">summary score
+		<span class="tooltiptext">Summaries of items/raw data</span>
+	  </span><b>}</b></td>
         <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
     </tr>
     <tr>
@@ -262,6 +273,7 @@ Below are the definitions for the columns in the data dictionaries for these uti
 </tbody>
 </table>
 </div>
+
 
 ## Lasso Dictionary Query Tool
 Once you have created on account on the [NBDC portal supported by Lasso](https://nbdc-hbcd-beta.lassoinformatics.com), even prior to obtaining data access via a DUC, you can explore the data dictionary via the **Dictionary Query Tool**: click on the **Query Data** tab in Lasso located in the left-hand side menu and toggle to **Dictionary Query Tool** in the upper right corner of the page.
