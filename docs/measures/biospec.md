@@ -534,7 +534,7 @@ Based on the predefined threshold outlined in [Table 1](#nails-table1), a confir
 </div>
 </p>
 
-Based on the confirmatory test (i.e. reflexes from positive screening test) result for any substance, the class-level (e.g. *c_nictotine_u*) and sample-level (e.g. *c_any_specimen_n*) are correspondingly scored as positive (1), negative (0), and invalid (3). If all classes are negative (0), then sample-levels are negative (0). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in [Table 3](#nails-table3).
+Based on the confirmatory test (i.e. reflexes from positive screening test) result for any substance, the class-level (e.g. *c_any_X_n*) and screening-level (e.g. *s_X_n*) are correspondingly scored as positive (1), negative (0), and quantity not sufficient (QNS) (3). The confirmatory tests (*c_X_n*) are scored as (1) positive, (0) negative, 3 (QNS), and 4 (screen negative). If all classes are negative (0), then sample-levels are negative (0). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in [Table 3](#nails-table3).
 
 <div id="nails-table3" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">Table 3. Mapping from Class to Screening Tests and Confirmatory Tests for Nails</span>
@@ -1170,7 +1170,7 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
 </table>
 </div>
 
-The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are correspondingly scored as positive (1), negative (0), and invalid (3). If all classes are negative (0), then sample-levels are negative (0). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in [Table 3](#urine-table3).
+The class-level (*c_any_X_u*) and screen-level (*s_X_u*) are correspondingly scored as positive (1), negative (0), and invalid (3). The confirmatory tests (*c_X_u*) are scored as (1) positive, (0) negative, 3 (cancelled), and 4 (screen negative). If all classes are negative (0), then sample-levels are negative (0). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in [Table 3](#urine-table3).
 
 <div id="urine-table3" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">Table 3. Mapping From Class to Screening Tests and Confirmatory Tests</span>
