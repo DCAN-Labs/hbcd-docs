@@ -133,9 +133,9 @@ Below are the definitions for the columns in the data dictionaries for these uti
 		<span class="tooltiptext">Original data provided by the participant, e.g. questions in a questionnaire</span>
 	  </span>; 
       <span class="tooltip">derived item
-		<span class="tooltiptext">Derived from original data provided by the participant</span>
+		<span class="tooltiptext">Derived from original data provided by the participant - e.g. if the participant filled in two fields to enter their height in feet and inches, a derived item could integrate this information into one field that provides the height in inches</span>
 	  </span>; <span class="tooltip">summary score
-		<span class="tooltiptext">Summaries of items/raw data</span>
+		<span class="tooltiptext">Summary and/or score output based on algorithmic conversions of items/raw data</span>
 	  </span><b>}</b></td>
         <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
     </tr>
