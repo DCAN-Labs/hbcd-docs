@@ -297,10 +297,20 @@ Fixed participant metadata collected at enrollment or inferred from administrati
 
 The following columns are blank in the Lasso Data Dictionary Query Tool for the HBCD Study because they are either not applicable, or will become available in future releases:
 
-- `atlas`
-- `metric`
-- `label_es`, `instruction_es`, `header_es`, `note_es`, `levels_es`
-- `name_nda`, `name_deap`, `name_redcap`, `name_redcap_exp`
-- `table_nda`, `table_nda_5_0`, `table_redcap`
-- `sub_domain`
-- `url_table`, `url_warn_use`, `url_warn_data`, `url_table_warn_use`, `url_table_warn_data`
+<p style="margin-bottom: 0;"><em>Available in future release:</em></p>
+<ul>
+<li><code>label_es</code>, <code>instruction_es</code>, <code>header_es</code>, <code>note_es</code>, <code>levels_es</code></li>
+<li><code>unit</code></li>
+<li><code>url_table</code>, <code>url_warn_use</code>, <code>url_warn_data</code>, <code>url_table_warn_use</code>, <code>url_table_warn_data</code></li>
+</ul>
+
+<p style="margin-bottom: 0;"><em>Not applicable to HBCD:</em></p>
+<ul>
+<li><code>atlas</code></li>
+<li><code>metric</code></li>
+<li><code>name_nda</code>, <code>name_deap</code>, <code>name_redcap</code>, <code>name_redcap_exp</code></li>
+<li><code>table_nda</code>, <code>table_nda_5_0</code>, <code>table_redcap</code></li>
+<li><code>sub_domain</code></li>
+</ul>
+
+
