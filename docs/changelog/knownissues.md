@@ -22,8 +22,7 @@ The summary statistics for the MADE resting-state EEG data contained in the file
 
 ## Neurocognition & Language
 ##### ⚠️ SPM-2 T-Scores
-The t-scores are currently missing as the original conversion from raw score to t-score was incorrect. The t-scores will be corrected in a future data release. In the meantime, users can calculate their own t-scores using the raw scores and the SPM-2 manual, which is available [here](https://www.mhs.com/MHS-Assessment?prodname=spm2).
-
+The t-scores are currently not provided, as the original conversion from raw score to t-score was incorrect. The t-scores will be corrected and provided in a future data release.
 
 
 ## Pregnancy & Exposure, Including Substance Use
@@ -41,7 +40,7 @@ For the PhenX+ Discrimination survey, one of the multi-select questions (column 
 
 ## Visit Information
 ##### ⚠️ Invalid Participant Withdrawal Dates for Participants Who Did Not Withdraw
-Particpants who have “no” for `par_visit_data_participant_withdrawal` systematically have a withdrawal date of 12/26/1999 for 
+Participants who have “no” for `par_visit_data_participant_withdrawal` systematically have a withdrawal date of 12/26/1999 for 
 `par_visit_data_participant_withdrawal_date`. Participants who have “yes” for `par_visit_data_participant_withdrawal` have a valid date and are unimpacted.
 
 ##### ⚠️ Missing Substance Use Flags 
