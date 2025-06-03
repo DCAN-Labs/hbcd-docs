@@ -1,13 +1,13 @@
-# Known Issues To Be Addressed in Future Releases
+# Known Issues
+The following issues have been identified in the current HBCD data release. We are actively working to address them and will include fixes in future releases. This page will be updated as new issues are discovered.
+
+If you have questions or would like to report an issue, please submit a ticket through the Lasso Help Center by following the steps described in the [Report Issues](../reportissue.md) section.
 
 ## General
-
 ##### ⚠️ Discrepancy Between Parquet & CSV Files
 Empty string appears where there should be nulls.
 
-
 ## Basic Demographics
-
 ##### ⚠️ Duplicate Options for 'Mother Race' Variable
 The variable 'Mother Race' (`sed_basic_demographics_screen_mother_race`) has duplicate options for the selection of 'Black African American' (option #3). This option is not used for data entry, and instead the 'Black_or African American' option (option #5) should be used. No other variables are affected by this.
 
@@ -30,6 +30,9 @@ TO DO
 
 ##### ⚠️ ICD Code Names/Labels Inconsistently Provided (Pregnancy & Infant Health)
 In cases where ICD codes are provided, corresponding names/labels are sometimes not provided. This is a known issue to be fixed in future releases. In the meantime, users can consider existing packages to merge ICD labels in [Stata](https://www.stata.com/features/overview/icd/), [SAS](https://hcup-us.ahrq.gov/toolssoftware/ccsr/dxccsr.jsp), or [R](https://www.rdocumentation.org/packages/icd/versions/3.3).
+
+##### ⚠️ Infant Health Check 
+ TO DO
 
 
 ## Social & Environmental Determinants
