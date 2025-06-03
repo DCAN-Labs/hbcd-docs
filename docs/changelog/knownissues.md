@@ -8,7 +8,6 @@
 Empty string appears where there should be nulls.
 
 
-
 ## Basic Demographics
 
 ### ⚠️ Duplicate Options for 'Mother Race' Variable
