@@ -16,9 +16,8 @@ The variable `screen_mother_ethnicity` should be a 2-level variable, however it 
 
 
 ## Electroencephalography (EEG)
-##### ⚠️ MADE Resting-State Derivatives
-The summary statistics for the MADE resting-state EEG data contained in the file `sub-<label>_ses-<label>_task-RS_powerSummaryStats.csv` are currently incorrect due to a bug in the pipeline.
-
+##### ⚠️ HBCD-MADE Resting-State Derivatives
+The HBCD-MADE summary statistics for resting-state EEG data (found in the derivative file `derivatives/made/sub-<label>/ses-<label>sub-<label>/eeg/processed_data/sub-<label>_ses-<label>_task-RS_powerSummaryStats.csv`) are incorrect due to a former bug in the pipeline and should not be used for analysis. Users should instead generate these files themselves using scripts provided via [HBCD EEG Utilities](https://hbcd-eeg-utilities.readthedocs.io/en/stable/) for extracting summary statistics. 
 
 ## Neurocognition & Language
 ##### ⚠️ SPM-2 T-Scores
