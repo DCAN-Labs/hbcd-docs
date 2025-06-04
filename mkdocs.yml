@@ -58,6 +58,7 @@ nav:
     - "Data Measures & Quality Control":
         - Overview: measures/index.md
         - ReproSchema: measures/reproschema.md
+        - "Demographics & Visit Information": measures/demographics.md
         - "Behavior & Caregiver-Child Interaction": measures/behCGinteraction.md   
         - Biospecimens: measures/biospec.md   
         - "Neurocognition & Language": measures/neurocog.md    

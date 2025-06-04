@@ -31,7 +31,7 @@ r1.0/
 </pre>
 
 
-## Instrument File Naming Conventions
+## File Naming Conventions
 Most protocol elements follow a standardized naming convention with the structure: `domain_source_acronym`. Note that imaging derivatives do not follow this naming schemes, but are generally understood to be under the MRI, EEG, etc. domain and strictly for the 'Child.' Each component represents the following:
 
 - **domain**: The general domain or category the protocol element falls under (e.g., biospecimens, MRI, behavior).
@@ -92,99 +92,7 @@ For example, `mri_ra_prep` refers to MRI-related data entered by a research assi
 </ul>
 </div>
 
-## Basic Demographics Data 
 
-<p>
-<div id="demo-alert" class="alert-banner" onclick="toggleCollapse(this)">
-    <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
-    <span class="text">Responsible Use Warning</span>
-  <span class="arrow">▸</span>
-</div>
-<div class="alert-collapsible-content">
-<p>When using HBCD data, all data users must agree to responsible use as described in the DUC. When conceptualizing studies, analyzing data, and communicating findings from studies that use variables such as race, ethnicity, country of origin, and socioeconomic data, it is critical to consider strategies to avoid stigmatization of any groups and perpetuating harmful biases.</p> 
-<p>Race and ethnicity are collected as a part of the HBCD protocol to reflect social experiences (i.e., representing social constructs), and should not be conceptualized as as biological, natural, intrinsic, or fixed categories of people. In addition, researchers sometimes use race/ethnicity variables as a proxy for unmeasured social experiences or environmental exposures. HBCD measures a wide variety of social experiences and environmental exposures. In analyzing HBCD data, race/ethnicity should not be used as a proxy for measured variables.</p>
-</div>
-</p>
-<p>
-<div id="demo-warning" class="warning-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Data Warning</span>
-  <span class="arrow">▸</span>
-</div>
-<div class="warning-collapsible-content">
-<p>Some participants reported challenges in answering certain questions, such as those related to race and ethnicity (e.g. options did not capture identity) and occupation (i.e. imperfect option for job type and number of hours).</p> 
-</div>
-</p>
-
-<p style="margin: 0 0 5px;">Basic Demographics (<code>sed_basic_demographics</code>) contains data derived from multiple sources such as the <a href="../../measures/socenvdet/#hbcd-demographics">HBCD Demographics V01</a> instrument (<code>sed_bm_demo</code>) collected as part of Social & Environmental Determinants. Information provided for each participant includes:</p>
-<ul>
-<li>Gestational age at delivery</li>
-<li>Sex</li>
-<li>Recruitment site</li>
-<li>Child demographics (race, ethnicity)</li>
-<li>Birth parent's demographics (race, ethnicity, education, language at home)</li>
-</ul> 
-
-<p style="margin: 0 0 5px;">This file also includes <strong>substance use (SU) flags</strong> raised by any of the following instruments (with details per visit provided in <a href="#visit-data">Visit Data</a>):</p>
-<ul>
-<li><a href="../../measures/pregexp/substanceuse#tlfb">TLFB</a> Self-reported use</li>
-<li><a href="../../measures/biospec">Biospecimen results</a></li>
-<li><a href="../../measures/pregexp/preghealth#instruments">Health-V2 instrument</a> (<code>pex_bm_healthv2_inf</code>) Field <code>007</code> if option 1 (NOWS - Neonatal Opioid Withdrawal Syndrome) or 5 (FAS - Fetal Alcohol Syndrome) was selected</li>
-</ul>
-
-## Visit Data
-<p style="margin: 0 0 5px;">Visit Level Data (<code>par_visit_data</code>) contains all participant visit data, including:</p>
-<ul>
-<li>Visit information: Label, Stage, Date, if the visit was missed, and the reason if visit was missed</li>
-<li>Project, <a href="#cohorts">Cohort</a>, and Site</li>
-<li>Withdrawal information: if the participant withdrew from the study, the reason, and date</li>
-<li>Protocol violation information: if there was a protocol exception and the date</li>
-<li>Visit details for SU flags raised by TLFB, Biospecimen, or Health-V2 as described above (<a href="#basic-emographics-data">Basic Demographics Data</a>)</li>
-</ul>
-
-**Note that `cohort` and `site` are not currently described in the data dictionary, but are included in dataset downloads from Lasso and are equivalent to the columns `par_visit_data_cohort` and `par_visit_data_site` (see details [here](../download/lasso.md#additional-columns-cohort-site-not-defined-in-data-dictionary)).**
-
-
-<div id="cohorts" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="text">Cohort & Caregiver Types</span>
-  <span class="arrow">▸</span>
-</div>
-<div class="notification-open-collapsible-content">
-<p>Cohort types included in the data release are as follows, with each listed item indicating a specific subtype or Caregiver Type (e.g., "HBCD Main Child - Postnatal Recruitment"):</p>
-<ul>
-<li><strong>HBCD Main Child -</strong> <em>Postnatal Recruitment</em>, <em>Type A-F</em></li>
-<li><strong>HBCD Multiple Birth -</strong> <em>Main Child</em>, <em>Postnatal Recruitment</em>, <em>Postnatal Recruitment - Sibling</em>, <em>Type A-F</em></li>
-</ul>
-<b>Caregiver Type A-F Definitions</b>
-<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
-<tbody>
-	<tr>
-		<td>Type A</td>
-		<td>Temporary Alternative Caregiver</td>
-	</tr>
-	<tr>
-		<td>Type B</td>
-		<td style="word-wrap: break-word; white-space: normal;">Change in Primary Caregiver (Placement Only) Without Change in Legal Custody (But Birth Parent Unable to Complete Visit)</td>
-	</tr>
-	<tr>
-		<td>Type C</td>
-		<td>Change in Joint Custody</td>
-	</tr>
-	<tr>
-		<td>Type D</td>
-		<td style="word-wrap: break-word; white-space: normal;">Child Removed From Birth Parent and Placed in Foster Care (Change in Placement)</td>
-	</tr>
-	<tr>
-		<td>Type E</td>
-		<td>Change in Legal Custody and Placement (e.g. adoption)</td>
-	</tr>
-	<tr>
-		<td>Type F</td>
-		<td>Original Consented Parent</td>
-	</tr>            
-</tbody>
-</table>
-</div>
 
 ## Fields Reporting Age
 <p>
@@ -212,30 +120,3 @@ For example, `mri_ra_prep` refers to MRI-related data entered by a research assi
 </div>
 </p>
 
-<p>
-<div id="demo-age" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text-with-link">
-    <span class="text">Demographics: Fields Reporting Age</span>
-    <a class="anchor-link" href="#demo-age" title="Copy link">
-    <i class="fa-solid fa-link"></i>
-    </a>
-    </span>
-  <span class="arrow">▸</span>
-</div>
-<div class="notification-open-collapsible-content">
-<br>
-<i>Note that all of the following are single-point and static values.</i>
-<br>
-<br>
-<b>Maternal Age at V01 </b> (<code>mother_age_v01</code>): 'MAV01' is the birth parent's age, obtained from the scheduled date of the V01 visit. The age is reported in years to two decimal places, with fractional years calculated by dividing the number of whole months (rounded down) by 12.
-<br>
-<br>
-<b>Maternal Age at Delivery</b> (<code>mother_age_delivery</code>): 'MAD' is the birth parent’s age at their child’s birth. The age is reported in years to two decimal places, with fractional years calculated by dividing whole months (rounded down) by 12.
-<br>
-<br>
-<b>Gestational Age at Delivery</b> (<code>gestational_age_delivery</code>): 'GAD' is the time from the first day of the birth parent’s last menstrual period (LMP), derived from the estimated date of delivery (EDD) minus 280 days, to the child’s birth. Reported in whole weeks, rounded down.
-<br>
-<br>
-</div>
-</p>
