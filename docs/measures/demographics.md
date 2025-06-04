@@ -40,7 +40,7 @@ Note that candidate age (<code>candidate_age</code>) refers to the infant that w
 </div>
 </p>
 
-Basic Demographics (`sed_basic_demographics`) contains data derived from multiple sources, primarily the [HBCD Demographics V01](../socenvdet/#hbcd-demographics) instrument (`sed_bm_demo`) collected as part of Social & Environmental Determinants. Data was additionally obtained from administrative data at time of consent (e.g., age and race and ethnicity of pregnant study participant) and at the time of scheduling V02 (i.e., the first study visit after the child is born); at this time, the parent reported on the child’s sex and race and ethnicity.
+**Basic Demographics** (`sed_basic_demographics`) includes data compiled from multiple sources, primarily the [HBCD Demographics V01](../socenvdet/#hbcd-demographics) instrument (`sed_bm_demo`) collected under the Social & Environmental Determinants domain. Additional demographic information was obtained from administrative records at the time of consent (including the age and race/ethnicity of the pregnant study participant) and during scheduling of the V02 visit — the first study visit after the child’s birth (including the child’s sex and race/ethnicity).
 
 <p>
 <div id="demo-table" class="table-banner" onclick="toggleCollapse(this)">
@@ -50,7 +50,7 @@ Basic Demographics (`sed_basic_demographics`) contains data derived from multipl
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
 <div class="table-open-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 13px;">
@@ -146,12 +146,6 @@ Basic Demographics (`sed_basic_demographics`) contains data derived from multipl
 </div>
 </p>
 
-<p style="margin: 0 0 5px;">This file also includes <strong>substance use (SU) flags</strong> raised by any of the following instruments (with details per visit provided in <a href="#visit-data">Visit Data</a>):</p>
-<ul>
-<li><a href="../../measures/pregexp/substanceuse#tlfb">TLFB</a> Self-reported use</li>
-<li><a href="../../measures/biospec">Biospecimen results</a></li>
-<li><a href="../../measures/pregexp/preghealth#instruments">Health-V2 instrument</a> (<code>pex_bm_healthv2_inf</code>) Field <code>007</code> if option 1 (NOWS - Neonatal Opioid Withdrawal Syndrome) or 5 (FAS - Fetal Alcohol Syndrome) was selected</li>
-</ul>
 
 ## Visit Data
 <p style="margin: 0 0 5px;">Visit Level Data (<code>par_visit_data</code>) contains all participant visit data, including:</p>
