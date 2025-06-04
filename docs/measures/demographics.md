@@ -34,7 +34,7 @@ Note that candidate age (<code>candidate_age</code>) refers to the infant that w
 </div>
 </p>
 
-Basic Demographics (`sed_basic_demographics`) contains data derived from multiple sources, primarily the [HBCD Demographics V01](../measures/socenvdet/#hbcd-demographics) instrument (`sed_bm_demo`) collected as part of Social & Environmental Determinants. Data was additionally obtained from administrative data at time of consent (e.g., age and race and ethnicity of pregnant study participant) and at the time of scheduling V02 (i.e., the first study visit after the child is born); at this time, the parent reported on the child’s sex and race and ethnicity. Expand the section below to see a summary of variables included in Basic Demographics:
+Basic Demographics (`sed_basic_demographics`) contains data derived from multiple sources, primarily the [HBCD Demographics V01](../measures/socenvdet/#hbcd-demographics) instrument (`sed_bm_demo`) collected as part of Social & Environmental Determinants. Data was additionally obtained from administrative data at time of consent (e.g., age and race and ethnicity of pregnant study participant) and at the time of scheduling V02 (i.e., the first study visit after the child is born); at this time, the parent reported on the child’s sex and race and ethnicity.
 
 <p>
 <div id="demo-table" class="table-banner" onclick="toggleCollapse(this)">
@@ -46,7 +46,7 @@ Basic Demographics (`sed_basic_demographics`) contains data derived from multipl
   </span>
   <span class="notification-arrow">▸</span>
 </div>
-<div class="table-collapsible-content">
+<div class="table-open-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 13px;">
 <tfoot>
   <tr>
