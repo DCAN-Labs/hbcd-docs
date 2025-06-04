@@ -13,6 +13,7 @@
 <p>Race and ethnicity are collected as a part of the HBCD protocol to reflect social experiences (i.e., representing social constructs), and should not be conceptualized as as biological, natural, intrinsic, or fixed categories of people. In addition, researchers sometimes use race/ethnicity variables as a proxy for unmeasured social experiences or environmental exposures. HBCD measures a wide variety of social experiences and environmental exposures. In analyzing HBCD data, race/ethnicity should not be used as a proxy for measured variables.</p>
 </div>
 </p>
+
 <p>
 <div id="demo-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
@@ -22,19 +23,16 @@
 <div class="warning-collapsible-content">
 <p><b>Participant-Reported Challenges</b><br>
 Some participants reported challenges in answering certain questions, such as those related to race and ethnicity (e.g. options did not capture identity) and occupation (i.e. imperfect option for job type and number of hours).</p> 
-
 <p><b>Withheld Variables/Variable Data</b><br>
 Some variables with small cell sizes were withheld from the data release to minimize any risk of disclosure of identifying information. In addition, there are some variables that do not contain any data in the current data release (e.g., response options allowed for more household members and more jobs during pregnancy than were reported by the respondents who completed V01 to date). These variables are currently being retained because this could change as data collection proceeds.</p> 
-
 <p><b>Branching Logic</b><br>
 There are several items with branching logic; please consult the RedCAP questionnaire to see question flow and data dictionaries for information on skip patterns. Topics with branching logic include: <i>Household roster</i>, <i>Nativity</i>, <i>Jobs / work environment</i>, and items on <i>other biological parent</i> (responses opt in to answer this set of questions).</p>
-
 <p><b>V01 Candidate Age</b><br>
-Note that candidate age (<code>candidate_age</code>) refers to the infant that will be enrolled in HBCD; this variable does not have values in V01 Demographics, as this questionnaire is completed before the child is born. Please see <a href="../../datacuration/phenotypes/#demo-age">Demographics: Fields Reporting Age</a> for more information.</p>
+Note that candidate age (<code>candidate_age</code>) refers to the infant that will be enrolled in HBCD; this variable does not have values in V01 Demographics, as this questionnaire is completed before the child is born.</p>
 </div>
 </p>
 
-Basic Demographics (`sed_basic_demographics`) contains data derived from multiple sources, primarily the [HBCD Demographics V01](../measures/socenvdet/#hbcd-demographics) instrument (`sed_bm_demo`) collected as part of Social & Environmental Determinants. Data was additionally obtained from administrative data at time of consent (e.g., age and race and ethnicity of pregnant study participant) and at the time of scheduling V02 (i.e., the first study visit after the child is born); at this time, the parent reported on the child’s sex and race and ethnicity.
+Basic Demographics (`sed_basic_demographics`) contains data derived from multiple sources, primarily the [HBCD Demographics V01](../socenvdet/#hbcd-demographics) instrument (`sed_bm_demo`) collected as part of Social & Environmental Determinants. Data was additionally obtained from administrative data at time of consent (e.g., age and race and ethnicity of pregnant study participant) and at the time of scheduling V02 (i.e., the first study visit after the child is born); at this time, the parent reported on the child’s sex and race and ethnicity.
 
 <p>
 <div id="demo-table" class="table-banner" onclick="toggleCollapse(this)">
