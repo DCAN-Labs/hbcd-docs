@@ -125,7 +125,7 @@ For the majority of instruments, the data dashboard was monitored for variable m
 <p>
 <div id="demo-fyi" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">Please see section on <a href="../demographics">Basic Demographics</a>, a derived measure, for further information including data and responsible use warnings.</span>
+    <span class="text">Please see the section on <a href="../demographics/#basic-demographics">Basic Demographics</a>, a derived measure, for further information including data and responsible use warnings.</span>
 </div>
 </p>
 
