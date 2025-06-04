@@ -34,7 +34,7 @@ Note that candidate age (<code>candidate_age</code>) refers to the infant that w
 </div>
 </p>
 
-<p style="margin: 0 0 5px;">Basic Demographics (<code>sed_basic_demographics</code>) contains data derived from multiple sources, primarily the <a href="../../measures/socenvdet/#hbcd-demographics">HBCD Demographics V01</a> instrument (<code>sed_bm_demo</code>) collected as part of Social & Environmental Determinants. Data was additionally obtained from administrative data at time of consent (e.g., age and race and ethnicity of pregnant study participant) and at the time of scheduling V02 (i.e., the first study visit after the child is born); at this time, the parent reported on the child’s sex and race and ethnicity.</p>
+Basic Demographics (`sed_basic_demographics`) contains data derived from multiple sources, primarily the [HBCD Demographics V01](../measures/socenvdet/#hbcd-demographics) instrument (`sed_bm_demo`) collected as part of Social & Environmental Determinants. Data was additionally obtained from administrative data at time of consent (e.g., age and race and ethnicity of pregnant study participant) and at the time of scheduling V02 (i.e., the first study visit after the child is born); at this time, the parent reported on the child’s sex and race and ethnicity. Expand the section below to see a summary of variables included in Basic Demographics:
 
 <p>
 <div id="demo-table" class="table-banner" onclick="toggleCollapse(this)">
@@ -84,15 +84,16 @@ Note that candidate age (<code>candidate_age</code>) refers to the infant that w
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Maternal age at V01<br>[<code>mother_age_v01</code>]</td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Constructed variable that represents mother&rsquo;s age on the start date of Visit 01. It is reported in years, rounded to two decimal places, with fractional years calculated by dividing the total whole months (rounded down) by 12. This variable is static and does not change over time.</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">'MAV01' is a constructed variable that represents the birth parent's age, obtained from the scheduled date of the V01 visit. The age is reported in years to two decimal places, with fractional years calculated by dividing the number of whole months (rounded down) by 12. This variable is static and does not change over time.
+</td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Maternal Age at Delivery<br>[<code>mother_age_delivery</code>]</td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Constructed variable that represents the birthing parent's age at the time of their child's delivery (date of birth). It is reported in years to two decimal places, with fractional years calculated by dividing the total whole months (rounded down) by 12. This variable is static and does not change over time. <br />These data will be missing from V01 Basic Demographics, and available starting at V02.</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">'MAD' is a constructed variable that represents the birth parent’s age at the time of their child's delivery (date of birth). It is reported in years to two decimal places, with fractional years calculated by dividing the total whole months (rounded down) by 12. This variable is static and does not change over time. <br />These data will be missing from V01 Basic Demographics, and available starting at V02.</td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Gestational Age at Delivery<br>[<code>gestational_age_delivery</code>]</td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Constructed variable that represents the time elapsed between the first day of the mother&rsquo;s LMP and the child&rsquo;s date of birth. It is reported in whole weeks, rounded down to the nearest week. This variable is static and does not change over time. <br />These data will be missing from V01 Basic Demographics, and available starting at V02.</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">'GAD' is a constructed variable that represents the time elapsed between the first day of the birth parent’s last menstrual period (LMP), derived from the estimated date of delivery (EDD) minus 280 days, and the child's date of birth. It is reported in whole weeks, rounded down to the nearest week. This variable is static and does not change over time. <br />These data will be missing from V01 Basic Demographics, and available starting at V02.</td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Mother combined race and ethnicity at screening into study&ndash; multiracial category split into Hispanic and non-Hispanic groups<br>[<code>screen_mother_ethnoracial_acs_by_multi_ethnicity</code>]</td>
@@ -139,52 +140,12 @@ Note that candidate age (<code>candidate_age</code>) refers to the infant that w
 </div>
 </p>
 
-<p>
-<ul>
-<b>Information provided for each participant includes:</b>
-<li>Gestational age at delivery</li>
-<li>Sex</li>
-<li>Recruitment site</li>
-<li>Child demographics (race, ethnicity)</li>
-<li>Birth parent's demographics (race, ethnicity, education, language at home)</li>
-</ul> 
-</p>
-
 <p style="margin: 0 0 5px;">This file also includes <strong>substance use (SU) flags</strong> raised by any of the following instruments (with details per visit provided in <a href="#visit-data">Visit Data</a>):</p>
 <ul>
 <li><a href="../../measures/pregexp/substanceuse#tlfb">TLFB</a> Self-reported use</li>
 <li><a href="../../measures/biospec">Biospecimen results</a></li>
 <li><a href="../../measures/pregexp/preghealth#instruments">Health-V2 instrument</a> (<code>pex_bm_healthv2_inf</code>) Field <code>007</code> if option 1 (NOWS - Neonatal Opioid Withdrawal Syndrome) or 5 (FAS - Fetal Alcohol Syndrome) was selected</li>
 </ul>
-
-<p>
-<div id="demo-age" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text-with-link">
-    <span class="text">Demographics: Fields Reporting Age</span>
-    <a class="anchor-link" href="#demo-age" title="Copy link">
-    <i class="fa-solid fa-link"></i>
-    </a>
-    </span>
-  <span class="arrow">▸</span>
-</div>
-<div class="notification-open-collapsible-content">
-<br>
-<i>Note that all of the following are single-point and static values.</i>
-<br>
-<br>
-<b>Maternal Age at V01 </b> (<code>mother_age_v01</code>): 'MAV01' is the birth parent's age, obtained from the scheduled date of the V01 visit. The age is reported in years to two decimal places, with fractional years calculated by dividing the number of whole months (rounded down) by 12.
-<br>
-<br>
-<b>Maternal Age at Delivery</b> (<code>mother_age_delivery</code>): 'MAD' is the birth parent’s age at their child’s birth. The age is reported in years to two decimal places, with fractional years calculated by dividing whole months (rounded down) by 12.
-<br>
-<br>
-<b>Gestational Age at Delivery</b> (<code>gestational_age_delivery</code>): 'GAD' is the time from the first day of the birth parent’s last menstrual period (LMP), derived from the estimated date of delivery (EDD) minus 280 days, to the child’s birth. Reported in whole weeks, rounded down.
-<br>
-<br>
-</div>
-</p>
-
 
 ## Visit Data
 <p style="margin: 0 0 5px;">Visit Level Data (<code>par_visit_data</code>) contains all participant visit data, including:</p>
