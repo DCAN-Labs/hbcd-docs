@@ -128,7 +128,7 @@ ___3 = Hispanic, Latino, or Spanish<br>
 ___4 = Middle Eastern or North African<br>
 ___5 = Native Hawaiian or other Pacific Islander<br>
 ___6 = White<br>
-___7 = None of these fully describe me.</td>
+___7 = None of these fully describe me</td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Mother education<br>[<code>rc_mother_education</code>]</td>
