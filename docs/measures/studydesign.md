@@ -14,7 +14,7 @@ The primary goal of the HBCD Study is to support longitudinal analyses of child 
 
 ### Additional Notes
 
-1. Each variable includes "source" metadata in the data dictionary, specifying who provided the data (e.g., “Biological Mother", "Caregiver (Responsible Adult)", "Child", etc.) - see [Instrument File Naming Conventions](../datacuration/phenotypes.md#instrument-file-naming-conventions) for details.
+1. Each variable includes "source" metadata in the data dictionary, specifying who provided the data (e.g., “Biological Mother", "Caregiver (Responsible Adult)", "Child", etc.) - see [File Naming Conventions](../datacuration/phenotypes.md#file-naming-conventions) for details.
 
 2. The standardized variable and table naming conventions also incorporate this source information. 
 
