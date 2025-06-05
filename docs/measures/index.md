@@ -43,13 +43,13 @@ The `rawdata/phenotype/` folder includes demographics and visit information, tox
   </thead>
   <tbody>
   <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../datacuration/phenotypes/#basic-demographics-data">Basic Demographics</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/demographics/#basic-demographics">Basic Demographics</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Demographics</td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Demographics data derived from multiple sources</td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">sed_basic_demographics</td>
   </tr>
     <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../datacuration/phenotypes/#visit-data">Visit Level Data</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/demographics/#visit-data">Visit Level Data</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Visit Data</td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Participant visit information</td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">par_visit_data</td>
