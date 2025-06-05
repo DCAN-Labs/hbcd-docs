@@ -149,7 +149,12 @@ ___0=American Indian or Alaskan Native; ___1=Asian; ___2=Black, African American
 <li>Project, <a href="#cohorts">Cohort</a>, and Site</li>
 <li>Withdrawal information: if the participant withdrew from the study, the reason, and date</li>
 <li>Protocol violation information: if there was a protocol exception and the date</li>
-<li>Visit details for SU flags raised by TLFB, Biospecimen, or Health-V2 as described above (<a href="#basic-emographics-data">Basic Demographics Data</a>)</li>
+<li>Substance use flags raised by any of the following:
+<ul>
+<li><a href="../../measures/pregexp/substanceuse#tlfb">TLFB</a> (Self-reported use)
+<li><a href="../../measures/biospec">Biospecimen results</a>
+<li><a href="../../measures/pregexp/preghealth#instruments">Infant health- V2</a> (<code>pex_bm_healthv2_inf</code>) Field <code>007</code> when option 1 (NOWS - Neonatal Opioid Withdrawal Syndrome) or 5 (FAS - Fetal Alcohol Syndrome) was selected</li>
+</ul>
 </ul>
 
 **Note that `cohort` and `site` are not currently described in the data dictionary, but are included in dataset downloads from Lasso and are equivalent to the columns `par_visit_data_cohort` and `par_visit_data_site` (see details [here](../download/lasso.md#additional-columns-cohort-site-not-defined-in-data-dictionary)).**
