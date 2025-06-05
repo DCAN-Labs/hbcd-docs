@@ -196,7 +196,7 @@ Demographic information is crucial for understanding the child’s environment a
   </span>
   <span class="notification-arrow">▸</span>
 </div>
-<div class="table-collapsible-content">
+<div class="table-open-collapsible-content">
 <br>
 <strong>&nbsp;&nbsp;Table 1. Demographics of Birth Parent</strong>
 <table style="width: 100%; border-collapse: collapse;">
@@ -310,12 +310,12 @@ Demographic information is crucial for understanding the child’s environment a
 		<td>Cioffredi, et al. (2024)</td>
 	</tr>
 	<tr>
-    <td>Jobs During Pregnancy (JDP) - <br>
-      &emsp;JDP - All Jobs - Work 35+ Hr/Wk<br>
-      &emsp;JDP - At Least 1 Job At 20 Hr/Wk for 1 Month<br>
-      &emsp;JDP - Type of Work<br>
-      &emsp;JDP - Job Start/Stop Dates<br>
-      &emsp;JDP - Typical Hours/Week<br>
+    <td>Jobs During Pregnancy - <br>
+    <b>{</b> All Jobs - Work 35+ Hr/Wk<br>
+      At Least 1 Job At 20 Hr/Wk for 1 Month<br>
+      Type of Work<br>
+      Job Start/Stop Dates<br>
+      Typical Hours/Week <b>}</b>
     </td>
 		<td>HBCD</td>
 		<td>Cioffredi, et al. (2024)</td>
@@ -376,13 +376,7 @@ Demographic information is crucial for understanding the child’s environment a
     <td>Hamilton, et al. (2011)</td>
 </tr>
 <tr>
-     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Job At Conception (JAC) - <br>
-    <small>
-      &emsp;JAC - Work for Pay<br>
-      &emsp;JAC - Type of Work<br>
-      &emsp;JAC - Full Time/ Part Time<br>
-    </small>
-    </td>
+     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Job At Conception - <b>{</b> Work for Pay; Type of Work; Full Time/ Part Time <b>}</b></td>
     <td>HBCD</td>
     <td>Cioffredi, et al. (2024)</td>
 </tr>
