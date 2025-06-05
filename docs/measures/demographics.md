@@ -111,12 +111,24 @@ Additional details on Basic Demographics variables are provided below. Note that
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Mother race, indicator variables from screening<br>[<code>screen_mother_race_multi___{0 - 5}</code>]</td>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Indicator variables from ACS race screening question:<br>
-___0=White; ___1=Black or African American; ___2=American Indian or Alaskan Native; ___3=Asian; ___4=Native Hawaiian or other Pacific Islander; ___5="Other race"</td>
+___0 = White<br>
+___1 = Black or African American<br>
+___2 = American Indian or Alaskan Native<br>
+___3 = Asian<br>
+___4 = Native Hawaiian or other Pacific Islander<br>
+___5 = Other race</td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Mother race, indicator variables from survey item<br>[<code>rc_mother_race___{0 - 7}</code>]</td>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Indicator variables for responses to <a class="in-cell-link" href="https://support.researchallofus.org/hc/en-us/articles/360039299632-Race-and-ethnicity-generalizations" target="_blank">All of Us</a> combined race and ethnicity question part of the Demographic survey during screening:<br>
-___0=American Indian or Alaskan Native; ___1=Asian; ___2=Black, African American, or African; ___3=Hispanic, Latino, or Spanish; ___4=Middle Eastern or North African; ___5=Native Hawaiian or other Pacific Islander; ___6=White; 7=None of these fully describe me.</td>
+___0 = American Indian or Alaskan Native<br>
+___1 = Asian<br>
+___2 = Black, African American, or African<br>
+___3 = Hispanic, Latino, or Spanish<br>
+___4 = Middle Eastern or North African<br>
+___5 = Native Hawaiian or other Pacific Islander<br>
+___6 = White<br>
+___7 = None of these fully describe me.</td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Mother education<br>[<code>rc_mother_education</code>]</td>
