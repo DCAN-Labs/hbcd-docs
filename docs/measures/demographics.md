@@ -40,7 +40,7 @@ Note that candidate age (<code>candidate_age</code>) refers to the infant that w
 </div>
 </p>
 
-**Basic Demographics** (`sed_basic_demographics`) includes data compiled from multiple sources, primarily the [HBCD Demographics V01](socenvdet.md#hbcd-demographics) instrument (`sed_bm_demo`) collected under the Social & Environmental Determinants domain. Additional demographic information was obtained from administrative records at the time of consent (including the age and race/ethnicity of the pregnant study participant) and during scheduling of the V02 visit — the first study visit after the child’s birth (including the child’s sex and race/ethnicity).
+**Basic Demographics** (`sed_basic_demographics`) is a derived table that includes data compiled from the [HBCD Demographics V01](socenvdet.md#hbcd-demographics) instrument (`sed_bm_demo`) collected under the Social & Environmental Determinants domain and administrative records from the Ripple ‘Demographics Screener’ collected during the enrolment/screening process (e.g. the age and race/ethnicity of the pregnant study participant).
 
 Additional details on basic demographic variables are provided below. Note that within the table and the variable names, “child” refers to the child enrolled in HBCD and “mother” refers to the person carrying the child (i.e., pregnant with the child) at the time of V01.
 
