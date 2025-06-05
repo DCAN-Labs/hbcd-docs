@@ -22,7 +22,7 @@ The `rawdata/phenotype/` folder includes demographics and visit information, tox
 
 <div id="demo" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text-with-link">
-  <span class="table-text">Demographics & Visit Information</span>
+  <span class="table-text">Demographics</span>
   <a class="anchor-link" href="#demo" title="Copy link">
   <i class="fa-solid fa-link"></i>
   </a>
@@ -49,8 +49,8 @@ The `rawdata/phenotype/` folder includes demographics and visit information, tox
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">sed_basic_demographics</td>
   </tr>
     <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/demographics/#visit-data">Visit Level Data</a></td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Visit Data</td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/demographics/#visit-information">Visit Information</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Visit Information</td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Participant visit information</td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">par_visit_data</td>
   </tr>
