@@ -19,7 +19,36 @@
 
 **Basic Demographics** (`sed_basic_demographics`) is a derived table that includes data compiled from the [HBCD Demographics V01](socenvdet.md#hbcd-demographics) instrument (`sed_bm_demo`) collected under the Social & Environmental Determinants domain and administrative records from the Ripple ‘Demographics Screener’ collected during the enrolment/screening process (e.g. the age and race/ethnicity of the pregnant study participant).
 
-Additional details on basic demographic variables are provided below. Note that within the table and the variable names, “child” refers to the child enrolled in HBCD and “mother” refers to the person carrying the child (i.e., pregnant with the child) at the time of V01.
+Note that, compared to tabulated instrument data (see [Fields Reporting Age](../datacuration/phenotypes.md#fields-reporting-age) under HBCD Data Overview section), Basic Demographics includes a unique set of fields reporting age: 
+
+<p>
+<div id="demo-age" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text-with-link">
+    <span class="text">Demographics: Fields Reporting Age</span>
+    <a class="anchor-link" href="#demo-age" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="notification-open-collapsible-content">
+<br>
+<i>Note that all of the following are single-point and static values.</i>
+<br>
+<br>
+<b>Maternal Age at V01 </b> (<code>mother_age_v01</code>): 'MAV01' is the birth parent's age, obtained from the scheduled date of the V01 visit. Reported in years to two decimal places, with fractional years calculated by dividing the number of whole months (rounded down) by 12.
+<br>
+<br>
+<b>Maternal Age at Delivery</b> (<code>mother_age_delivery</code>): 'MAD' is the birth parent’s age at the time of their child's delivery (date of birth). Reported in years to two decimal places, with fractional years calculated by dividing the total whole months (rounded down) by 12.
+<br>
+<br>
+<b>Gestational Age at Delivery</b> (<code>gestational_age_delivery</code>): 'GAD' is the time elapsed between the first day of the birth parent’s last menstrual period (LMP) and the child's date of birth. Reported in whole weeks, rounded down to the nearest week.<br>
+<br>
+</div>
+</p>
+
+Additional details on Basic Demographics variables are provided below. Note that within the table and the variable names, `child` refers to the child enrolled in HBCD and `mother` refers to the person carrying the child (i.e., pregnant with the child) at the time of V01.
 
 <div id="demo-table" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text-with-link">
@@ -58,19 +87,6 @@ Additional details on basic demographic variables are provided below. Note that 
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Child race and ethnicity combined - multiracial aggregation by Black and non-Black distinction<br>[<code>child_ethnoracial_acs_by_multi_race</code>]</td>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Constructed from <code>child_race</code> and <code>child_ethnicity</code> following <span class="tooltip">current federal standards<span class="tooltiptext">i.e., if a child is identified as Hispanic or Latino based on the response to the ethnicity item, they will be categorized as such, regardless of their race</span></span>. Children with multiple races endorsed are classified as "multiracial" and split into those who do and do not include Black/African American as an identity. <i>Available for visit V02 onward.<i></td>
-</tr>
-<tr>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Maternal age at V01 ('MAV01')<br>[<code>mother_age_v01</code>]</td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Constructed variable of birth parent's age on the scheduled date of the V01 visit. Reported in years to two decimal places, with fractional years calculated by dividing the number of whole months (rounded down) by 12. This variable is static and does not change over time.
-</td>
-</tr>
-<tr>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Maternal Age at Delivery ('MAD')<br>[<code>mother_age_delivery</code>]</td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Constructed variable of birth parent’s age at the time of their child's delivery (date of birth). Reported in years to two decimal places, with fractional years calculated by dividing the total whole months (rounded down) by 12. This variable is static and does not change over time. <i>Available for visit V02 onward.<i></td>
-</tr>
-<tr>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Gestational Age at Delivery ('GAD')<br>[<code>gestational_age_delivery</code>]</td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Constructed variable of time elapsed between the first day of the birth parent’s last menstrual period (LMP) and the child's date of birth. Reported in whole weeks, rounded down to the nearest week. This variable is static and does not change over time. <i>Available for visit V02 onward.<i></td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Mother combined race and ethnicity at screening into study - multiracial category split into Hispanic and non-Hispanic groups<br>[<code>screen_mother_ethnoracial_acs_by_multi_ethnicity</code>]</td>

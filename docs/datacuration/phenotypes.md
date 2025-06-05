@@ -95,7 +95,7 @@ For example, `mri_ra_prep` refers to MRI-related data entered by a research assi
 
 ## Fields Reporting Age
 
-Note that Basic Demographics data (<code>sed_basic_demographics.tsv</code>) includes an additional set of fields reporting age - please see [Basic Demmographics](../measures/demographics.md#demo-table) for more information. The following fields report age at the time of instrument administration:
+Note that Basic Demographics data (<code>sed_basic_demographics.tsv</code>) includes an additional set of fields reporting age - please see [Basic Demographics](../measures/demographics.md#demo-table) for more information. The following fields report age at the time of instrument administration:
 <p>
 <div id="instrument-age" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
