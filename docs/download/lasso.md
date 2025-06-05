@@ -299,15 +299,15 @@ The following columns are blank in the Lasso Data Dictionary Query Tool for the 
 
 <p style="margin-bottom: 0;"><em>Available in future release:</em></p>
 <ul>
+<li><code>atlas</code></li>
 <li><code>label_es</code>, <code>instruction_es</code>, <code>header_es</code>, <code>note_es</code>, <code>levels_es</code></li>
+<li><code>metric</code></li>
 <li><code>unit</code></li>
 <li><code>url_table</code>, <code>url_warn_use</code>, <code>url_warn_data</code>, <code>url_table_warn_use</code>, <code>url_table_warn_data</code></li>
 </ul>
 
 <p style="margin-bottom: 0;"><em>Not applicable to HBCD:</em></p>
 <ul>
-<li><code>atlas</code></li>
-<li><code>metric</code></li>
 <li><code>name_nda</code>, <code>name_deap</code>, <code>name_redcap</code>, <code>name_redcap_exp</code></li>
 <li><code>table_nda</code>, <code>table_nda_5_0</code>, <code>table_redcap</code></li>
 <li><code>sub_domain</code></li>
