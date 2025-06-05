@@ -121,7 +121,7 @@ For the majority of instruments, the data dashboard was monitored for variable m
 
 ## Instrument Details
 
-### HBCD Demographics
+### HBCD Demographics V01
 <p>
 <div id="demo-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
