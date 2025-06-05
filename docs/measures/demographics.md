@@ -1,4 +1,4 @@
-# Demographics & Visit Information
+# Demographics
 
 ## Basic Demographics
 
@@ -119,7 +119,7 @@ ___0=American Indian or Alaskan Native; ___1=Asian; ___2=Black, African American
 </div>
 
 
-## Visit Data
+## Visit Information
 <p style="margin: 0 0 5px;">Visit Level Data (<code>par_visit_data</code>) contains all participant visit data, including:</p>
 <ul>
 <li>Visit information: Label, Stage, Date, if the visit was missed, and the reason if visit was missed</li>
