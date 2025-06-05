@@ -160,7 +160,7 @@ Demographic information is crucial for understanding the child’s environment a
       <li>Expansion of family/caregiver roles</li>
       </ul>
     </li>
-    <li><b>Race/Ethnicity</b> and <b>Others Describe You</b>: Inclusion of diverse racial and ethnic categories aligned with proposed <a href="https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/">OMB recommendations</a> using a combined race and ethnicity variable with 7 response options (<a href="https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards 
+    <li><b>Race/Ethnicity</b> and <b>Others Describe You</b>: Inclusion of diverse racial and ethnic categories aligned with proposed OMB recommendations using a combined race and ethnicity variable with 7 response options (<a href="https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards 
     ">Federal Register 2023</a>). Participant can select all that apply.</li>
     <li><b>Income</b>: Alteration of household income brackets.</li>
   </ul>
@@ -235,7 +235,7 @@ Demographic information is crucial for understanding the child’s environment a
 	<tr>
 		<td>Race/Ethnicity</td>
     <td>
-      <span class="tooltip"><a href="https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/">OMB</a>
+      <span class="tooltip"><a href="https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards">OMB</a>
       <span class="tooltiptext">Office of Management & Budget</span>
       </span>
     </td>
@@ -328,7 +328,7 @@ Demographic information is crucial for understanding the child’s environment a
 <tr>
     <td>Race/Ethnicity</td>
     <td>
-      <span class="tooltip"><a href="https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/">OMB</a>
+      <span class="tooltip"><a href="https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards">OMB</a>
       <span class="tooltiptext">Office of Management & Budget</span>
       </span>
     </td>
