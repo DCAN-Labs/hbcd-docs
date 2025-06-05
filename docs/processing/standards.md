@@ -55,7 +55,7 @@ To ensure data processing and analytic reproducibility, all HBCD pipelines must 
 
 <i>**Standards for testing may not be applicable for all HBCD processing pipelines. For example, depending on how specialized a given application is for HBCD, openly sharing representative test data for the workflow may not be feasible.</i>
 
-## Current HBCD Pipeline Evaluations
+## Current HBCD Pipeline & Utility Evaluations
 
 A full list of tools evaluated through the [NMIND Coding Standards Checklist](https://www.nmind.org/standards-checklist/) can be found on their webpage under [Evaluated Tools](https://www.nmind.org/proceedings/). Below are the badge rating details for pipelines integrated into the HBCD release environment:
 
@@ -66,6 +66,6 @@ A full list of tools evaluated through the [NMIND Coding Standards Checklist](ht
 - [QSIPrep](https://www.nmind.org/proceedings/qsiprep/) 
 - [QSIRecon](https://www.nmind.org/proceedings/qsirecon/)
 - [qMRI Postproc](https://www.nmind.org/proceedings/hbcd_qmri_postproc/)
-- [HBCD-MADE](https://www.nmind.org/proceedings/hbcdmade/)
+- [HBCD-MADE](https://www.nmind.org/proceedings/hbcdmade/) and [HBCD EEG Utilities](https://www.nmind.org/proceedings/hbcd-eeg-utilities/)
 - [OSPREY-BIDS](https://www.nmind.org/proceedings/osprey_bids/) (as well as base software [OSPREY](https://www.nmind.org/proceedings/osprey/))
 - [HBCD-Motion](https://www.nmind.org/proceedings/hbcd_motion_postproc/)
