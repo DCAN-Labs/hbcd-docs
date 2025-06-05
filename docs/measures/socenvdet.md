@@ -310,12 +310,7 @@ Demographic information is crucial for understanding the child’s environment a
 		<td>Cioffredi, et al. (2024)</td>
 	</tr>
 	<tr>
-    <td>Jobs During Pregnancy - <br>
-    <b>{</b> All Jobs - Work 35+ Hr/Wk<br>
-      At Least 1 Job At 20 Hr/Wk for 1 Month<br>
-      Type of Work<br>
-      Job Start/Stop Dates<br>
-      Typical Hours/Week <b>}</b>
+    <td style="border: 1px solid #ddd;  word-wrap: break-word; white-space: normal;">Jobs During Pregnancy - <b>{</b> All Jobs - Work 35+ Hr/Wk; At Least 1 Job At 20 Hr/Wk for 1 Month; Type of Work; Job Start/Stop Dates; Typical Hours/Week <b>}</b>
     </td>
 		<td>HBCD</td>
 		<td>Cioffredi, et al. (2024)</td>
@@ -376,7 +371,7 @@ Demographic information is crucial for understanding the child’s environment a
     <td>Hamilton, et al. (2011)</td>
 </tr>
 <tr>
-     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Job At Conception - <b>{</b> Work for Pay; Type of Work; Full Time/ Part Time <b>}</b></td>
+     <td style="border: 1px solid #ddd; word-wrap: break-word; white-space: normal;">Job At Conception - <b>{</b> Work for Pay; Type of Work; Full Time/ Part Time <b>}</b></td>
     <td>HBCD</td>
     <td>Cioffredi, et al. (2024)</td>
 </tr>
