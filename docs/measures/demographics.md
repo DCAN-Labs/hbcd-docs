@@ -97,11 +97,11 @@ Additional details on basic demographic variables are provided below. Note that 
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Mother combined race and ethnicity at screening into study - multiracial category split into Hispanic and non-Hispanic groups<br>[<code>screen_mother_ethnoracial_acs_by_multi_ethnicity</code>]</td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Constructed from participant responses to separate questions on race and ethnicity collected during screening where individuals are placed into a single category. Individuals that select more than one response for race are placed into a multiracial group, which is split into subcategories for those who do and do not indicate Hispanic or Latino ethnicity as one of their select identities.</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Derived from screening responses to separate race and ethnicity questions. Individuals are assigned a single category; those selecting multiple races are grouped as multiracial, split into subcategories for those who do and do not indicate Hispanic or Latino ethnicity as one of their select identities.</td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Mother combined race and ethnicity at screening into study &ndash; multiracial category split into Black and non-Black groups<br>[<code>screen_mother_ethnoracial_acs_by_multi_ethnicity</code>]</td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Constructed from participant responses to separate questions of race and ethnicity collected during screening where individuals are placed into a single category. Individuals that select more than one response for race are placed into a multiracial group, which is split into subcategories for those who do and do not indicate Black/African American as one of their selected identities.</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Derived from screening responses to separate race and ethnicity questions. Individuals are assigned a single category; those selecting multiple races are grouped as multiracial, split into subcategories for those who do and do not indicate Black/African American as one of their selected identities.</td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Mother race and ethnicity<br>[<code>rc_mother_ethnoracial_aou_race_ethnicity</code>]</td>
