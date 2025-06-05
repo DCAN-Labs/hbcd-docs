@@ -42,7 +42,8 @@ Note that candidate age (<code>candidate_age</code>) refers to the infant that w
 
 **Basic Demographics** (`sed_basic_demographics`) includes data compiled from multiple sources, primarily the [HBCD Demographics V01](../socenvdet/#hbcd-demographics) instrument (`sed_bm_demo`) collected under the Social & Environmental Determinants domain. Additional demographic information was obtained from administrative records at the time of consent (including the age and race/ethnicity of the pregnant study participant) and during scheduling of the V02 visit — the first study visit after the child’s birth (including the child’s sex and race/ethnicity).
 
-<p>
+Additional details on basic demographic variables are provided below. Note that within the table and the variable names, “child” refers to the child enrolled in HBCD and “mother” refers to the person carrying the child (i.e., pregnant with the child) at the time of V01.
+
 <div id="demo-table" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text-with-link">
   <span class="text">Basic Demographics Pre-processed Key Variables</span>
@@ -54,88 +55,83 @@ Note that candidate age (<code>candidate_age</code>) refers to the infant that w
 </div>
 <div class="table-open-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 13px;">
-<tfoot>
-  <tr>
-    <td colspan="3" style="white-space: normal; word-wrap: break-word; word-break: break-word; max-width: 600px;">
-      <i>NOTE: within this table and the variable names, “child” refers to the child enrolled in HBCD; “mother” refers to the person carrying the child (i.e., pregnant with the child) at the time of V01.</i>
-    </td>
-  </tr>
-</tfoot>
     <thead>
       <tr>
-        <th style="width: 30%; border: 1px solid #ddd; padding: 12px; text-align: center; word-wrap: break-word; white-space: normal;">Construct<br>[<code>Variable Name</code>]</th>
-        <th style="width: 70%; border: 1px solid #ddd; padding: 12px; text-align: center; word-wrap: break-word; white-space: normal;">Description</th>
+        <th style="width: 40%; border: 1px solid #ddd; padding: 12px; text-align: center; word-wrap: break-word; white-space: normal;">Construct<br>[<code>Variable Name</code>]</th>
+        <th style="width: 60%; border: 1px solid #ddd; padding: 12px; text-align: center; word-wrap: break-word; white-space: normal;">Description</th>
       </tr>
     </thead>
     <tbody>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Child sex<br>[<code>sex</code>]</td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Recorded by Research Assistant within administrative data once the child was born, as reported by parent. These data will be missing from V01 Basic Demographics, and available starting at V02.</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Obtained from <span class="tooltip">administrative data<span class="tooltiptext">Recorded by Research Assistant within administrative data once the child was born, as reported by parent.</span>.</span><br><i>Available starting visit V02.<i></td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Child ethnicity<br>[<code>child_ethnicity</code>]</td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Recorded by Research Assistant within administrative data once the child was born, as reported by parent. Information was collected using a standard item on ethnicity from the American Community Survey. <br />These data will be missing from V01 Basic Demographics, and available starting at V02.</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Obtained from <span class="tooltip">administrative data<span class="tooltiptext">Recorded by Research Assistant within administrative data once the child was born, as reported by parent.</span>:</span> standard item on ethnicity from the American Community Survey.<br><i>Available starting visit V02.<i></td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Child race<br>[<code>child_race</code>]</td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Recorded by Research Assistant within administrative data once the child was born, as reported by parent. Information was collected using a standard item asking about race from the American Community Survey. <br />These data will be missing from V01 Basic Demographics, and available starting at V02.</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Obtained from <span class="tooltip">administrative data<span class="tooltiptext">Recorded by Research Assistant within administrative data once the child was born, as reported by parent.</span>:</span> standard item on race from the American Community Survey.<br><i>Available starting visit V02.<i></td>
 </tr>
 <tr>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Child race and ethnicity combined &ndash; multiracial aggregation by Hispanic and non-Hispanic distinction<br>[<code>child_ethnoracial_acs_by_multi_ethnicity</code>]</td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Recorded by Research Assistant within administrative data once the child was born, as reported by parent. <br />Constructed using the separate items on child race and child ethnicity (above) following current federal standards (i.e., if a child is identified as Hispanic or Latino based on the response to the ethnicity item, they will be categorized as such, regardless of their race). <br />If the child has two or more racial categories endorsed, they are categorized as &ldquo;multiracial&rdquo; and the multiracial category is split into those who are Hispanic and those who are not.<br />These data will be missing from V01 Basic Demographics, and available starting at V02.</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Child race and ethnicity combined - multiracial aggregation by Hispanic and non-Hispanic distinction<br>[<code>child_ethnoracial_acs_by_multi_ethnicity</code>]</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Obtained from <span class="tooltip">administrative data<span class="tooltiptext">Recorded by Research Assistant within administrative data once the child was born, as reported by parent.</span>:</span> constructed from <code>child_race</code> and <code>child_ethnicity</code> following <span class="tooltip">current federal standards<span class="tooltiptext">i.e., if a child is identified as Hispanic or Latino based on the response to the ethnicity item, they will be categorized as such, regardless of their race</span></span>. Children with multiple races endorsed are classified as "multiracial" and split into Hispanic and non-Hispanic subgroups.<br><i>Available starting visit V02.<i></td>
 </tr>
 <tr>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Child race and ethnicity combined &ndash; multiracial aggregation by Black and non-Black distinction<br>[<code>child_ethnoracial_acs_by_multi_race</code>]</td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Recorded by Research Assistant within administrative data once the child was born, as reported by parent. Constructed using the separate items on child race and child ethnicity (above) following current federal standards (i.e., if a child is identified as Hispanic or Latino based on the response to the ethnicity item, they will be categorized as such, regardless of their race). <br /><br /><br />If the child has two or more racial categories endorsed, they are categorized as &ldquo;multiracial&rdquo; and the multiracial category is split into those that include Black/African American as an identity and those who do not.<br />These data will be missing from V01 Basic Demographics, and available starting at V02.</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Child race and ethnicity combined - multiracial aggregation by Black and non-Black distinction<br>[<code>child_ethnoracial_acs_by_multi_race</code>]</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Obtained from <span class="tooltip">administrative data<span class="tooltiptext">Recorded by Research Assistant within administrative data once the child was born, as reported by parent.</span>:</span> constructed from <code>child_race</code> and <code>child_ethnicity</code> following <span class="tooltip">current federal standards<span class="tooltiptext">i.e., if a child is identified as Hispanic or Latino based on the response to the ethnicity item, they will be categorized as such, regardless of their race</span></span>. Children with multiple races endorsed are classified as "multiracial" and split those who do and do not include Black/African American as an identity.<br><i>Available starting visit V02.<i></td>
 </tr>
 <tr>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Maternal age at V01<br>[<code>mother_age_v01</code>]</td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">'MAV01' is a constructed variable that represents the birth parent's age, obtained from the scheduled date of the V01 visit. The age is reported in years to two decimal places, with fractional years calculated by dividing the number of whole months (rounded down) by 12. This variable is static and does not change over time.
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Maternal age at V01 ('MAV01')<br>[<code>mother_age_v01</code>]</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Constructed variable of birth parent's age on the scheduled date of the V01 visit. Reported in years to two decimal places, with fractional years calculated by dividing the number of whole months (rounded down) by 12. This variable is static and does not change over time.
 </td>
 </tr>
 <tr>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Maternal Age at Delivery<br>[<code>mother_age_delivery</code>]</td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">'MAD' is a constructed variable that represents the birth parent’s age at the time of their child's delivery (date of birth). It is reported in years to two decimal places, with fractional years calculated by dividing the total whole months (rounded down) by 12. This variable is static and does not change over time. <br />These data will be missing from V01 Basic Demographics, and available starting at V02.</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Maternal Age at Delivery ('MAD')<br>[<code>mother_age_delivery</code>]</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Constructed variable of birth parent’s age at the time of their child's delivery (date of birth). Reported in years to two decimal places, with fractional years calculated by dividing the total whole months (rounded down) by 12. This variable is static and does not change over time.<br><i>Available starting visit V02.<i></td>
 </tr>
 <tr>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Gestational Age at Delivery<br>[<code>gestational_age_delivery</code>]</td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">'GAD' is a constructed variable that represents the time elapsed between the first day of the birth parent’s last menstrual period (LMP), derived from the estimated date of delivery (EDD) minus 280 days, and the child's date of birth. It is reported in whole weeks, rounded down to the nearest week. This variable is static and does not change over time. <br />These data will be missing from V01 Basic Demographics, and available starting at V02.</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Gestational Age at Delivery ('GAD')<br>[<code>gestational_age_delivery</code>]</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Constructed variable represetning the time elapsed between the first day of the birth parent’s last menstrual period (LMP) and the child's date of birth. Reported in whole weeks, rounded down to the nearest week. This variable is static and does not change over time.<br><i>Available starting visit V02.<i></td>
 </tr>
 <tr>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Mother combined race and ethnicity at screening into study&ndash; multiracial category split into Hispanic and non-Hispanic groups<br>[<code>screen_mother_ethnoracial_acs_by_multi_ethnicity</code>]</td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Using participant responses to separate questions of race and ethnicity collected during screening, we constructed a race and ethnicity variable where individuals are placed into a single category.<br />If an individual selected more than one response for race, they were placed into a multiracial group; this multiracial group was split into multiracial individuals who indicated Hispanic or Latino ethnicity as one of their select identities, and those who selected other combinations of more than one response.</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Mother combined race and ethnicity at screening into study - multiracial category split into Hispanic and non-Hispanic groups<br>[<code>screen_mother_ethnoracial_acs_by_multi_ethnicity</code>]</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Constructed from participant responses to separate questions on race and ethnicity collected during screening where individuals are placed into a single category. Individuals that select more than one response for race are placed into a multiracial group, which is split into subcategories for those who do and do not indicate Hispanic or Latino ethnicity as one of their select identities.</td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Mother combined race and ethnicity at screening into study &ndash; multiracial category split into Black and non-Black groups<br>[<code>screen_mother_ethnoracial_acs_by_multi_ethnicity</code>]</td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Using participant responses to separate questions of race and ethnicity collected during screening, we constructed a race and ethnicity variable where individuals are placed into a single category.<br />If an individual selected more than one response for race, they were placed into a multiracial group; this multiracial group was split into multiracial individuals who indicated Black/African American as one of their selected identities, and those who selected other combinations of more than one response.</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Constructed from participant responses to separate questions of race and ethnicity collected during screening where individuals are placed into a single category. Individuals that select more than one response for race are placed into a multiracial group, which is split into subcategories for those who do and do not indicate Black/African American as one of their selected identities.</td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Mother race and ethnicity<br>[<code>rc_mother_ethnoracial_aou_race_ethnicity</code>]</td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Responses to a single race and ethnicity item administered as part of the V01 Demographics survey (Source: <a class="in-cell-link" href="https://support.researchallofus.org/hc/en-us/articles/360039299632-Race-and-ethnicity-generalizations" target="_blank">All of Us</a> race and ethnicity item, and scoring followed OMB standards where individuals who identified as Hispanic/Latino alone, or in combination with some other category, were categorized as Hispanic/Latino) &ndash; all other groups are &rdquo;non-Hispanic&rdquo;.</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Derived from V01 Demographics Survey single race and ethnicity item (Source: <a class="in-cell-link" href="https://support.researchallofus.org/hc/en-us/articles/360039299632-Race-and-ethnicity-generalizations" target="_blank">All of Us</a>) and scored following OMB standards: anyone identifying as Hispanic/Latino (alone or with another group) is categorized as Hispanic/Latino; all others as non-Hispanic.</td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Mother ethnicity<br>[<code>Screen_mother_ethnicity</code>]</td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Participant response to a single question about ethnic identity, collected during screening using an item from the American Community Survey.<br />DATA NOTE: There is a known formatting error with this 2-level variable. Levels of 0 and 1 are included in error and are blank &ndash; all participants with valid data have a value of either &ldquo;2&rdquo; or &ldquo;3&rdquo;, with 2=Hispanic and 3=non-Hispanic. This issue will be corrected in a future data release.</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Participant response to a single item/question from the American Community Survey about ethnic identity collected during screening. See <a href="../../changelog/knownissues/#mother-ethnicity">Known Issue</a></td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Mother race, multi-categorical variable from screening<br>[<code>screen_mother_race</code>]</td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Participant response to a single question about racial identity, collected during screening using an item from the American Community Survey.</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Participant response to a single item/question from the American Community Survey about racial identity collected during screening.</td>
 </tr>
 <tr>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Mother race, indicator variables from screening item<br>[<code>screen_mother_race_multi___0</code> <br />&hellip;to&hellip; <code>screen_mother_race_multi___5</code>]</td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Indicator variables for responses to ACS race question at screening; ___0=White; ___1=Black or African American; ___2=American Indian or Alaskan Native; ___3=Asian; ___4=Native Hawaiian or other Pacific Islander; ___5=&rdquo;Other race&rdquo;</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Mother race, indicator variables from screening item<br>[<code>screen_mother_race_multi___{0 - 5}</code>]</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Indicator variables for responses to ACS race question during screening:<br>
+___0=White; ___1=Black or African American; ___2=American Indian or Alaskan Native; ___3=Asian; ___4=Native Hawaiian or other Pacific Islander; ___5="Other race"</td>
 </tr>
 <tr>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Mother race, indicator variables from survey item<br>[<code>rc_mother_race___0</code> &hellip;to&hellip; <code>rc_mother_race___7</code>]</td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Indicator variables for responses to <a class="in-cell-link" href="https://support.researchallofus.org/hc/en-us/articles/360039299632-Race-and-ethnicity-generalizations" target="_blank">All of Us</a> combined race and ethnicity question that is part of the Demographic survey; ___0=American Indian or Alaskan Native; ___1=Asian; ___2=Black, African American, or African; ___3=Hispanic, Latino, or Spanish; ___4=Middle Eastern or North African; ___5=Native Hawaiian or other Pacific Islander; ___6=White; 7=None of these fully describe me.</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Mother race, indicator variables from survey item<br>[<code>rc_mother_race___{0 - 7}</code>]</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Indicator variables for responses to <a class="in-cell-link" href="https://support.researchallofus.org/hc/en-us/articles/360039299632-Race-and-ethnicity-generalizations" target="_blank">All of Us</a> combined race and ethnicity question part of the Demographic survey during screening:<br>
+___0=American Indian or Alaskan Native; ___1=Asian; ___2=Black, African American, or African; ___3=Hispanic, Latino, or Spanish; ___4=Middle Eastern or North African; ___5=Native Hawaiian or other Pacific Islander; ___6=White; 7=None of these fully describe me.</td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Mother education<br>[<code>rc_mother_education</code>]</td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">This item comes from the V01 Demographics survey &ldquo;sed_bm_demo_edu_001&rdquo;</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">V01 Demographics survey variable <code>sed_bm_demo_edu_001</code></td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Total combined household income<br>[<code>rc_mother_income</code>]</td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">This item comes from the V01 Demographics survey &ldquo;sed_bm_demo_income_002&rdquo;</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">V01 Demographics survey variable <code>sed_bm_demo_income_002</code></td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Recruitment site<br>[<code>recruitment_site</code>]</td>
@@ -144,7 +140,6 @@ Note that candidate age (<code>candidate_age</code>) refers to the infant that w
 </tbody>
 </table>
 </div>
-</p>
 
 
 ## Visit Data
