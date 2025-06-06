@@ -10,7 +10,7 @@ The primary goal of the HBCD Study is to support longitudinal analyses of child 
 
 2. **Multi-birth (twins, triplets etc..) participants** are handled more effectively: In cases where one caregiver reports on multiple children (e.g., twins), the data remains clearly associated with each child, eliminating the need for complex joins or disambiguation steps.
 
-3. **Flexible informant tracking**: While the initial release (r1.0) may not include informant IDs, future versions will. The informant ID will provide additional detail at the participant/event level, enabling users to identify which caregiver provided data and to track any caregiver changes over time.
+3. **Flexible informant tracking**: While the initial release (1.0) may not include informant IDs, future versions will. The informant ID will provide additional detail at the participant/event level, enabling users to identify which caregiver provided data and to track any caregiver changes over time.
 
 ### Additional Notes
 
