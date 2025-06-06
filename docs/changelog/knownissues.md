@@ -14,6 +14,11 @@ The variable 'Mother Race' (`sed_basic_demographics_screen_mother_race`) has dup
 ##### ⚠️ Mother Ethnicity
 The variable `screen_mother_ethnicity` should be a 2-level variable, however it is currently noted as a 4-level variable in the data dictionary. Levels of 0 and 1 (in the data dictionary) are included in error, they do not appear in the dataset; all participants with valid data have a value of 2 (Hispanic) or 3 (non-Hispanic). 
 
+## Biospecimens
+
+##### ⚠️ Urine: Incorrect Specific Gravity Variable
+The urine specific gravity variable is incorrect (`bio_bm_biosample_urine_bio_spg_u`); do not analyze this variable. There are several participants with “1”. This variable should be expressed in the thousands and will be corrected in the next release.
+
 
 ## Electroencephalography (EEG)
 ##### ⚠️ HBCD-MADE Resting-State Derivatives
