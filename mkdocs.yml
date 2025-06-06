@@ -30,6 +30,7 @@ extra_css:
   - overrides/styles.css
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css
   - https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css
+  - css/reduce-righthand-whitespace.css
 
 plugins:
   - search
@@ -58,7 +59,6 @@ nav:
     - "Data Measures & Quality Control":
         - Overview: measures/index.md
         - Age Variables: measures/agevariables.md
-        - ReproSchema: measures/reproschema.md
         - "Demographics": measures/demographics.md
         - "Behavior & Caregiver-Child Interaction": measures/behCGinteraction.md   
         - Biospecimens: measures/biospec.md   
@@ -80,7 +80,9 @@ nav:
             - Diffusion MRI: measures/mri/dmri.md
             - Quantitative MRI: measures/mri/qmri.md
             - Magnetic Resonance Spectroscopy: measures/mri/mrs.md 
-    - HBCD Study Design: measures/studydesign.md
+    - HBCD Study Design: 
+        - Study Design Logic: measures/studydesign.md
+        - ReproSchema: reproschema.md
     - HBCD Data Overview:
         - BIDS Data Format: datacuration/overview.md
         - Raw BIDS Data: datacuration/rawbids.md

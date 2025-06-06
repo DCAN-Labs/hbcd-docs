@@ -1,0 +1,18 @@
+/* Shrink the width of the right-hand floating TOC */
+.wy-nav-content {
+  max-width: 90% !important;  /* Increase content area */
+}
+
+/* Adjust the right-hand TOC width */
+.rst-content .toc {
+  width: 200px !important;    /* Default is ~300px; adjust as needed */
+  right: 0 !important;
+  font-size: 90%;             /* Optional: shrink text a bit */
+}
+
+/* Push the main content over so it doesn’t overlap */
+@media (min-width: 1000px) {
+  .wy-nav-content {
+    margin-right: 220px;      /* Should be slightly more than TOC width */
+  }
+}
