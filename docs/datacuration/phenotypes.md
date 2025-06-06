@@ -4,30 +4,29 @@ The data provided within the `rawdata/phenotype/` folder contains tabulated data
 Tabulated data lists information for all participants in both plain text (`.tsv`) and Parquet (`.parquet`) format. The TSV files are tab-separated values files that can be easily opened in spreadsheet software or text editors, with metadata (including the names and types of each column) provided in a separate `.json` file. The Parquet files are a columnar storage format optimized for performance and efficiency, with metadata stored directly in the file. Each data file is additionally accompanied by a corresponding shadow matrix file (in `.tsv` and `.parquet` format) that mirrors the structure of the data file with the values replaced by reason for data missingness. Please see the page [Data Formats & Tools > Tabulated Data](../dataformats/tabulated.md) for details on these file types and how to work with them.
 
 <pre class="folder-tree">
-r1.0/
-|__ hbcd/
-    |__ rawdata/ 
-        |__ phenotype/
-            | <span class="hashtag"># Visit Data</span>
-            |__ par_visit_data.tsv
-            |__ par_visit_data.json
-            |__ par_visit_data_shadow.tsv
-            |__ par_visit_data.parquet
-            |__ par_visit_data_shadow.parquet
-            |
-            | <span class="hashtag"># Demographics Data</span>
-            |__ sed_basic_demographics.tsv
-            |__ sed_basic_demographics.json
-            |__ sed_basic_demographics_shadow.tsv
-            |__ sed_basic_demographics.parquet
-            |__ sed_basic_demographics_shadow.parquet
-            |
-            | <span class="hashtag"># Instruments</span>
-            |__ <span class="placeholder">&lt;instrument_name&gt;</span>.tsv
-            |__ <span class="placeholder">&lt;instrument_name&gt;</span>.json
-            |__ <span class="placeholder">&lt;instrument_name&gt;</span>_shadow.tsv
-            |__ <span class="placeholder">&lt;instrument_name&gt;</span>.parquet
-            |__ <span class="placeholder">&lt;instrument_name&gt;</span>_shadow.parquet
+hbcd/
+|__ rawdata/ 
+    |__ phenotype/
+        | <span class="hashtag"># Visit Data</span>
+        |__ par_visit_data.tsv
+        |__ par_visit_data.json
+        |__ par_visit_data_shadow.tsv
+        |__ par_visit_data.parquet
+        |__ par_visit_data_shadow.parquet
+        |
+        | <span class="hashtag"># Demographics Data</span>
+        |__ sed_basic_demographics.tsv
+        |__ sed_basic_demographics.json
+        |__ sed_basic_demographics_shadow.tsv
+        |__ sed_basic_demographics.parquet
+        |__ sed_basic_demographics_shadow.parquet
+        |
+        | <span class="hashtag"># Instruments</span>
+        |__ <span class="placeholder">&lt;instrument_name&gt;</span>.tsv
+        |__ <span class="placeholder">&lt;instrument_name&gt;</span>.json
+        |__ <span class="placeholder">&lt;instrument_name&gt;</span>_shadow.tsv
+        |__ <span class="placeholder">&lt;instrument_name&gt;</span>.parquet
+        |__ <span class="placeholder">&lt;instrument_name&gt;</span>_shadow.parquet
 </pre>
 
 

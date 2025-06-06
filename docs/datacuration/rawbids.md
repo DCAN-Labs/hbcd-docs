@@ -2,26 +2,26 @@
 The `rawdata/` folder includes raw file-based MR, EEG, and motion data converted to BIDS, organized under subject and session-specific directories for processing through BIDS App pipelines (see details [here](../processing/index.md)):
 
 <pre class="folder-tree">
-r1.0/
-|__ hbcd/
-    |__ rawdata/ 
-        |__ sub-<span class="label">&lt;label&gt;</span>/
-        |   |__ sub-<span class="label">&lt;label&gt;</span>_sessions.tsv
-        |   |__ sub-<span class="label">&lt;label&gt;</span>_sessions.json
-        |   |__ ses-<span class="label">&lt;label&gt;</span>/
-        |       |__ anat/
-        |       |__ dwi/
-        |       |__ eeg/
-        |       |__ fmap/
-        |       |__ func/
-        |       |__ motion/
-        |       |__ mrs/
-        |       |__ sub-<span class="label">&lt;label&gt;</span>_ses-<span class="label">&lt;label&gt;</span>_scans.tsv
-        |       |__ sub-<span class="label">&lt;label&gt;</span>_ses-<span class="label">&lt;label&gt;</span>_scans.json
-        |
-        |__ dataset_description.json
-        |__ participants.tsv
-        |__ participants.json 
+
+hbcd/
+|__ rawdata/ 
+    |__ sub-<span class="label">&lt;label&gt;</span>/
+    |   |__ sub-<span class="label">&lt;label&gt;</span>_sessions.tsv
+    |   |__ sub-<span class="label">&lt;label&gt;</span>_sessions.json
+    |   |__ ses-<span class="label">&lt;label&gt;</span>/
+    |       |__ anat/
+    |       |__ dwi/
+    |       |__ eeg/
+    |       |__ fmap/
+    |       |__ func/
+    |       |__ motion/
+    |       |__ mrs/
+    |       |__ sub-<span class="label">&lt;label&gt;</span>_ses-<span class="label">&lt;label&gt;</span>_scans.tsv
+    |       |__ sub-<span class="label">&lt;label&gt;</span>_ses-<span class="label">&lt;label&gt;</span>_scans.json
+    |
+    |__ dataset_description.json
+    |__ participants.tsv
+    |__ participants.json 
 </pre>
 In a large infant study, missing data is common, leading to variations in the number of folders and files available per subject and session. The HBCD acquisition spans multiple modalities, often collected at different times, with some acquisitions occurring on separate days even within the same modality. 
 
