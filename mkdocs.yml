@@ -57,6 +57,7 @@ nav:
   - Release Notes:
     - "Data Measures & Quality Control":
         - Overview: measures/index.md
+        - Age Variables: measures/agevariables.md
         - ReproSchema: measures/reproschema.md
         - "Demographics": measures/demographics.md
         - "Behavior & Caregiver-Child Interaction": measures/behCGinteraction.md   

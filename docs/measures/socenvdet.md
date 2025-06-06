@@ -150,7 +150,7 @@ There are several items with branching logic; please consult the RedCAP question
 </div>
 </p>
 
-Demographic information is crucial for understanding the child’s environment and identifying how social, structural, and economic factors influence development over time in a longitudinal study of child development. The HBCD Study demographics survey is designed to gather comprehensive information on socioeconomic status and various demographic factors. Its primary purpose is to capture data on race, ethnicity, nativity, income, education, and occupation, as well as gender identity, sexual orientation, relationship status, primary residence, and household composition of the parent carrying the child, and some basic information on the other biological parent. Please see [Cioffredi et al. 2024](https://doi.org/10.1016/j.dcn.2024.101429) for a detailed description of the HBCD Demographics survey.
+Demographic information is crucial for understanding the child’s environment and identifying how social, structural, and economic factors influence development over time in a longitudinal study of child development. The HBCD Study demographics survey is designed to gather comprehensive information on socioeconomic status and various demographic factors. Its primary purpose is to capture data on race, ethnicity, nativity, income, education, and occupation, as well as relationship status, primary residence, and household composition of the parent carrying the child, and some basic information on the other biological parent. Please see [Cioffredi et al. 2024](https://doi.org/10.1016/j.dcn.2024.101429) for a detailed description of the HBCD Demographics survey.
 
 <div id="demo-hbcd-mods" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text-with-link">
@@ -162,7 +162,7 @@ Demographic information is crucial for understanding the child’s environment a
   <span class="notification-arrow">▸</span>
 </div>
 <div class="closed-collapsible-content">
-<p>Below are alterations made to demographic constructs, informed by the HBCD Social and Environmental Determinants workgroup and Diversity, Equity, and Inclusion (DEI) Committee. The modifications were made to reduce bias and capture a more inclusive and accurate breadth of demographic information, e.g. by correcting for embedded assumptions of heteronormative nuclear-family structures.</p>
+<p>Below are alterations made to demographic constructs to tailor it to the HBCD Study. The modifications were made to reduce bias and capture a more inclusive and accurate breadth of demographic information, e.g. by correcting for embedded assumptions of heteronormative nuclear-family structures.</p>
   <ul>
     <li><b>Marital & Relationship Status</b> alterations to reduce heteronormative bias:
       <ul>
@@ -171,17 +171,10 @@ Demographic information is crucial for understanding the child’s environment a
       <li>"Member of an Unmarried Couple" replaced by "Partnered"</li>
       </ul>
     </li>
-    <li><b>Gender Identity</b> alterations to reduce heteronormative bias: Transgender Man/Transgender Woman options moved to primary tier of 2-tier question.</li>
-    <li><b>Sexual Orientation</b> alterations to reduce heteronormative bias: Inclusion of diverse response options to capture sexual orientation across three dimensions: attraction, identity, and behavior. Participant can select all that apply.</li>
-    <li><b>Primary Residence</b> destigmatization of diverse living situations: Inclusion of options for individuals in treatment facilities, shelters, or unhoused.</li>
-    <li><b>Household Roster</b> alterations to reduce heteronormative bias and nuclear family assumptions:
-      <ul>
-      <li>Changed "Sex" to "Gender"</li>
-      <li>Included Non-Binary and Transexual options for Gender</li>
-      <li>Expansion of family/caregiver roles</li>
-      </ul>
+    <li><b>Primary Residence</b> destigmatization of living situations: Inclusion of options for individuals in treatment facilities, shelters, or unhoused.</li>
+    <li><b>Household Roster</b> alteration to reduce nuclear family assumptions: expansion of family/caregiver roles</li>
     </li>
-    <li><b>Race/Ethnicity</b> and <b>Others Describe You</b>: Inclusion of diverse racial and ethnic categories aligned with proposed OMB recommendations using a combined race and ethnicity variable with 7 response options (<a href="https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards 
+    <li><b>Race/Ethnicity</b> and <b>Others Describe You</b>: Inclusion of racial and ethnic categories aligned with proposed OMB recommendations using a combined race and ethnicity variable with 7 response options (<a href="https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards 
     ">Federal Register 2023</a>). Participant can select all that apply.</li>
     <li><b>Income</b>: Alteration of household income brackets.</li>
   </ul>

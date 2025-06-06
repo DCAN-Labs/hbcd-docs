@@ -17,7 +17,7 @@
 <p>Race and ethnicity are collected as a part of the HBCD protocol to reflect social experiences (i.e., representing social constructs), and should not be conceptualized as as biological, natural, intrinsic, or fixed categories of people. In addition, researchers sometimes use race/ethnicity variables as a proxy for unmeasured social experiences or environmental exposures. HBCD measures a wide variety of social experiences and environmental exposures. In analyzing HBCD data, race/ethnicity should not be used as a proxy for measured variables.</p>
 </div>
 
-**Basic Demographics** (`sed_basic_demographics`) is a derived table that includes data compiled from the [HBCD Demographics V01](socenvdet.md#hbcd-demographics-v01) instrument (`sed_bm_demo`) collected under the Social & Environmental Determinants domain and administrative records from the Ripple ‘Demographics Screener’ collected during the enrolment/screening process (e.g. the age and race/ethnicity of the pregnant study participant).
+**Basic Demographics** (`sed_basic_demographics`) is a derived table that includes data compiled from the [HBCD Demographics V01](socenvdet.md#hbcd-demographics-v01) instrument (`sed_bm_demo`) collected under the Social & Environmental Determinants domain and administrative records from the ‘Demographics Screener’ collected during the enrolment/screening process (e.g. the age and race/ethnicity of the pregnant study participant).
 
 Note that, compared to tabulated instrument data (see [Fields Reporting Age](../datacuration/phenotypes.md#fields-reporting-age) under HBCD Data Overview section), Basic Demographics includes a unique set of fields reporting age: 
 
@@ -52,7 +52,7 @@ Additional details on Basic Demographics variables are provided below. Note that
 
 <div id="demo-table" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text-with-link">
-  <span class="text">Basic Demographics Pre-processed Key Variables</span>
+  <span class="text">Basic Demographics (Key Derived Variables)</span>
   <a class="anchor-link" href="#demo-table" title="Copy link">
   <i class="fa-solid fa-link"></i>
   </a>
