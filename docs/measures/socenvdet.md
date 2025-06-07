@@ -247,7 +247,7 @@ Demographic information is crucial for understanding the child’s environment a
 		<td>Household Roster</td>
 		<td>
       <span class="tooltip">
-      <a href="https://echochildren.org/wp-content/uploads/2024/02/ROSTER_Participant_Roster_20231010_v03.00_training1.pdf">ECHO</a>
+      <a href="https://echochildren.org/">ECHO</a>
       <span class="tooltiptext">Environmental Influences on Child Health Outcomes</span>
       </span>
     </td>
