@@ -123,6 +123,13 @@ For the majority of instruments, the data dashboard was monitored for variable m
 
 ### HBCD Demographics V01
 
+<p>
+<div id="demo-fyi" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">Please see the section on <a href="../demographics/#basic-demographics">Basic Demographics</a>, which includes variables derived from the HBCD Demographics V01 instrument and data collected during study enrolment/screening.</span>
+</div>
+</p>
+
 <div id="demo-alert" class="alert-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
   <span class="text-with-link">
@@ -152,19 +159,13 @@ For the majority of instruments, the data dashboard was monitored for variable m
 <div class="warning-collapsible-content">
 <p><b>Participant-Reported Challenges</b><br>
 Some participants reported challenges in answering certain questions, such as those related to race and ethnicity (e.g. options did not capture identity) and occupation (i.e. imperfect option for job type and number of hours).</p> 
-<p><b>Withheld Variables/Variable Data</b><br>
+<p><b>Withheld Variables/Variable Data With Small Cell Sizes</b><br>
 Some variables with small cell sizes were withheld from the data release to minimize any risk of disclosure of identifying information. In addition, there are some variables that do not contain any data in the current data release (e.g., response options allowed for more household members and more jobs during pregnancy than were reported by the respondents who completed V01 to date). These variables are currently being retained because this could change as data collection proceeds.</p> 
 <p><b>Branching Logic</b><br>
 There are several items with branching logic; please consult the RedCAP questionnaire to see question flow and data dictionaries for information on skip patterns. Topics with branching logic include: <i>Household roster</i>, <i>Nativity</i>, <i>Jobs / work environment</i>, and items on <i>other biological parent</i> (responses opt in to answer this set of questions).</p>
 </div>
 </p>
 
-<p>
-<div id="demo-fyi" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">Please see the section on <a href="../demographics/#basic-demographics">Basic Demographics</a>, a derived measure, for further information including responsible use warnings.</span>
-</div>
-</p>
 
 Demographic information is crucial for understanding the child’s environment and identifying how social, structural, and economic factors influence development over time in a longitudinal study of child development. The HBCD Study demographics survey is designed to gather comprehensive information on socioeconomic status and various demographic factors. Its primary purpose is to capture data on race, ethnicity, nativity, income, education, and occupation, as well as relationship status, primary residence, and household composition of the parent carrying the child, and some basic information on the other biological parent. Please see [Cioffredi et al. 2024](https://doi.org/10.1016/j.dcn.2024.101429) for a detailed description of the HBCD Demographics survey.
 

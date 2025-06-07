@@ -2,6 +2,13 @@
 
 ## Basic Demographics
 
+<p>
+<div id="demo-fyi" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">Please see the section on the <a href="../socenvdet/#hbcd-demographics-v01">HBCD Demographics V01</a> instrument for more detailed demographics information variables from which Basic Demographics was in part derived.</span>
+</div>
+</p>
+
 <div id="demo-alert" class="alert-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
   <span class="text-with-link">
@@ -29,15 +36,16 @@
   <span class="arrow">▸</span>
 </div>
 <div class="warning-collapsible-content">
+
+<p><b>⚠️ <a href="../../changelog/knownissues"><u>Known Issues</u></a> To Be Resolved in Future Release</b><br>
+<p><strong>'Mother Race' (<code>screen_mother_race</code>)</strong>: contains duplicate options for the selection of 'Black African American' (option #3). This option is not used for data entry, and instead the 'Black_or African American' option (option #5) should be used. No other variables are affected by this.</p>
+
+<p><strong>Mother Ethnicity (<code>screen_mother_ethnicity</code>)</strong>: should be a 2-level variable, but is currently noted as a 4-level variable in the data dictionary. Levels of 0 and 1 (in the data dictionary) are included in error, they do not appear in the dataset; all participants with valid data have a value of 2 (Hispanic) or 3 (non-Hispanic).</p>
+
 <p><b>Participant-Reported Challenges</b><br>
 Some participants reported challenges in answering certain questions, such as those related to race and ethnicity (e.g. options did not capture identity) and occupation (i.e. imperfect option for job type and number of hours).</p> 
-<p><b>Withheld Variables/Variable Data</b><br>
-Some variables with small cell sizes were withheld from the data release to minimize any risk of disclosure of identifying information. In addition, there are some variables that do not contain any data in the current data release (e.g., response options allowed for more household members and more jobs during pregnancy than were reported by the respondents who completed V01 to date). These variables are currently being retained because this could change as data collection proceeds.</p> 
-<p><b>Branching Logic</b><br>
-There are several items with branching logic; please consult the RedCAP questionnaire to see question flow and data dictionaries for information on skip patterns. Topics with branching logic include: <i>Household roster</i>, <i>Nativity</i>, <i>Jobs / work environment</i>, and items on <i>other biological parent</i> (responses opt in to answer this set of questions).</p>
 </div>
 </p>
-
 
 **Basic Demographics** (`sed_basic_demographics`) is a derived table that includes data compiled from the [HBCD Demographics V01](socenvdet.md#hbcd-demographics-v01) instrument (`sed_bm_demo`) collected under the Social & Environmental Determinants domain and administrative records from the ‘Demographics Screener’ collected during the enrolment/screening process (e.g. the age and race/ethnicity of the pregnant study participant).
 
