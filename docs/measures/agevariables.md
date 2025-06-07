@@ -27,7 +27,7 @@ All instrument data include fields that report age at the time of instrument adm
 </div>
 </p>
 
-**Basic Demographics** data (<code>sed_basic_demographics.tsv</code>) includes an additional set of fields reporting age - please see [Basic Demographics](../measures/demographics.md#basic-demographics) for more information:
+**Basic Demographics** data (<code>sed_basic_demographics</code>) includes an additional set of fields reporting age - please see [Basic Demographics](../measures/demographics.md#basic-demographics) for more information:
 
 <p>
 <div id="demo-age" class="notification-banner" onclick="toggleCollapse(this)">

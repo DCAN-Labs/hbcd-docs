@@ -49,7 +49,7 @@ Some participants reported challenges in answering certain questions, such as th
 
 **Basic Demographics** (`sed_basic_demographics`) is a derived table that includes data compiled from the [HBCD Demographics V01](socenvdet.md#hbcd-demographics-v01) instrument (`sed_bm_demo`) collected under the Social & Environmental Determinants domain and administrative records from the ‘Demographics Screener’ collected during the enrolment/screening process (e.g. the age and race/ethnicity of the pregnant study participant).
 
-Note that, compared to tabulated instrument data (see [Fields Reporting Age](../datacuration/phenotypes.md#fields-reporting-age) under HBCD Data Overview section), Basic Demographics includes a unique set of fields reporting age: 
+Note that, compared to tabulated instrument data (see [Instrument-Specific Fields Reporting Age](../measures/agevariables.md/#instrument-age)), Basic Demographics includes a unique set of fields reporting age: 
 
 <p>
 <div id="demo-age" class="notification-banner" onclick="toggleCollapse(this)">
