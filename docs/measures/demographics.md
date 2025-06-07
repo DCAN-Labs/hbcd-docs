@@ -78,7 +78,7 @@ Note that, compared to tabulated instrument data (see [Fields Reporting Age](../
 </div>
 </p>
 
-Additional details on Basic Demographics variables are provided below. Note that within the table and the variable names, `child` refers to the child enrolled in HBCD and `mother` refers to the person carrying the child (i.e., pregnant with the child) at the time of V01.
+Additional details on Basic Demographics variables are provided below. Note that within the table and the variable names, `child` refers to the child enrolled in HBCD and `mother` refers to the person carrying the child (i.e., pregnant with the child) at the time of V01. Note that all variables about the child are available beginning with V02, as the child is not born until after the V01 visit.
 
 <div id="demo-table" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text-with-link">
@@ -93,7 +93,7 @@ Additional details on Basic Demographics variables are provided below. Note that
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 13px;">
     <thead>
       <tr>
-        <th style="width: 30%; border: 1px solid #ddd; padding: 12px; text-align: center; word-wrap: break-word; white-space: normal;">Construct</th>
+        <th style="width: 25%; border: 1px solid #ddd; padding: 12px; text-align: center; word-wrap: break-word; white-space: normal;">Construct</th>
         <th style="width: 20%; border: 1px solid #ddd; padding: 12px; text-align: center; word-wrap: break-word; white-space: normal;">Variable Name</th>
         <th style="width: 50%; border: 1px solid #ddd; padding: 8px; text-align: center; word-wrap: break-word; white-space: normal;">Description</th>
       </tr>
@@ -102,37 +102,37 @@ Additional details on Basic Demographics variables are provided below. Note that
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Child sex</td>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;"><code>sex</code></td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Obtained from <span class="tooltip">administrative records<span class="tooltiptext">Recorded by Research Assistant within administrative data once the child was born, as reported by parent.</span>.</span> <i>Available for visit V02 onward.<i></td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Obtained from <span class="tooltip tooltip-left">administrative records<span class="tooltiptext">Recorded by Research Assistant within administrative data once the child was born, as reported by parent.</span>.</span> <span class="tooltip tooltip-left"><i>Visit V02 onward</i><span class="tooltiptext">Data are not collected prior to birth, i.e. at the prenatal V01 visit, and will be available starting at visit V02</span></span><i></i></td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Child ethnicity</td>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;"><code>child_ethnicity</code></td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;"><a href="https://www.census.gov/programs-surveys/acs.html">ACS</a>-standard ethnicity item in <span class="tooltip">administrative records<span class="tooltiptext">Recorded by Research Assistant within administrative data once the child was born, as reported by parent.</span></span>. <i>Available for visit V02 onward.<i></td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;"><a href="https://www.census.gov/programs-surveys/acs.html">ACS</a>-standard ethnicity item in <span class="tooltip">administrative records<span class="tooltiptext">Recorded by Research Assistant within administrative data once the child was born, as reported by parent.</span></span>. <span class="tooltip tooltip-left"><i>Visit V02 onward</i><span class="tooltiptext">Data are not collected prior to birth, i.e. at the prenatal V01 visit, and will be available starting at visit V02</span></span><i></i></td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Child race</td>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;"><code>child_race</code></td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;"><a href="https://www.census.gov/programs-surveys/acs.html">ACS</a>-standard race item in <span class="tooltip">administrative records<span class="tooltiptext">Recorded by Research Assistant within administrative data once the child was born, as reported by parent.</span></span>. <i>Available for visit V02 onward.<i></td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;"><a href="https://www.census.gov/programs-surveys/acs.html">ACS</a>-standard race item in <span class="tooltip">administrative records<span class="tooltiptext">Recorded by Research Assistant within administrative data once the child was born, as reported by parent.</span></span>. <span class="tooltip"><i>Visit V02 onward</i><span class="tooltiptext">Data are not collected prior to birth, i.e. at the prenatal V01 visit, and will be available starting at visit V02</span></span><i></i></td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Child race and ethnicity combined - multiracial aggregation by Hispanic and non-Hispanic distinction</td>
 <td style="border: 1px solid #ddd; padding: 4px; word-break: break-all; white-space: normal;"><code>child_ethnoracial_acs_by_multi_ethnicity</code></td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Constructed from <code>child_race</code> and <code>child_ethnicity</code> following <span class="tooltip">current federal standards<span class="tooltiptext">i.e., if a child is identified as Hispanic or Latino based on the response to the ethnicity item, they will be categorized as such, regardless of their race</span></span>. Children with multiple races endorsed are classified as "multiracial" and split into Hispanic and non-Hispanic subgroups. <i>Available for visit V02 onward.<i></td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Constructed from <code>child_race</code> and <code>child_ethnicity</code> following <span class="tooltip">current federal standards<span class="tooltiptext">i.e., if a child is identified as Hispanic or Latino based on the response to the ethnicity item, they will be categorized as such, regardless of their race</span></span>. Children with multiple races endorsed are classified as "multiracial" and split into Hispanic and non-Hispanic subgroups. <span class="tooltip"><i>Visit V02 onward</i><span class="tooltiptext">Data are not collected prior to birth, i.e. at the prenatal V01 visit, and will be available starting at visit V02</span></span><i></i></td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Child race and ethnicity combined - multiracial aggregation by Black and non-Black distinction</td>
 <td style="border: 1px solid #ddd; padding: 4px; word-break: break-all; white-space: normal;"><code>child_ethnoracial_acs_by_multi_race</code></td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Constructed from <code>child_race</code> and <code>child_ethnicity</code> following <span class="tooltip">current federal standards<span class="tooltiptext">i.e., if a child is identified as Hispanic or Latino based on the response to the ethnicity item, they will be categorized as such, regardless of their race</span></span>. Children with multiple races endorsed are classified as "multiracial" and split into those who do and do not include Black/African American as an identity. <i>Available for visit V02 onward.<i></td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Constructed from <code>child_race</code> and <code>child_ethnicity</code> following <span class="tooltip">current federal standards<span class="tooltiptext">i.e., if a child is identified as Hispanic or Latino based on the response to the ethnicity item, they will be categorized as such, regardless of their race</span></span>. Children with multiple races endorsed are classified as "multiracial" and split into those who do and do not include Black/African American as an identity. <span class="tooltip"><i>Visit V02 onward</i><span class="tooltiptext">Data are not collected prior to birth, i.e. at the prenatal V01 visit, and will be available starting at visit V02</span></span><i></i></td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Mother combined race and ethnicity - multiracial category split into Hispanic and non-Hispanic groups</td>
 <td style="border: 1px solid #ddd; padding: 4px; word-break: break-all; white-space: normal;"><code>screen_mother_ethnoracial_acs_by_multi_ethnicity</code></td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Derived from screening responses to separate race and ethnicity questions. Individuals are assigned a single category; those selecting multiple races are grouped as multiracial, split into subcategories for those who do and do not indicate Hispanic or Latino ethnicity as one of their selected identities.</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Derived from screening responses to separate race and ethnicity questions. Individuals are assigned a single category, with subcategories for multiracial individuals based on <span class="tooltip">Hispanic or Latino ethnicity<span class="tooltiptext">Participants who select multiple races are grouped as multiracial, split into subcategories for those who do and do not indicate Hispanic or Latino ethnicity as one of their selected identities.</span></span></td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Mother combined race and ethnicity - multiracial category split into Black and non-Black groups</td>
 <td style="border: 1px solid #ddd; padding: 4px; word-break: break-all; white-space: normal;"><code>screen_mother_ethnoracial_acs_by_multi_race</code></td>
-<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Derived from screening responses to separate race and ethnicity questions. Individuals are assigned a single category; those selecting multiple races are grouped as multiracial, split into subcategories for those who do and do not indicate Black/African American as one of their selected identities.</td>
+<td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Derived from screening responses to separate race and ethnicity questions. Individuals are assigned a single category, with subcategories for multiracial individuals based on <span class="tooltip">Black/African American identity<span class="tooltiptext">Participants who select multiple races are grouped as multiracial, split into subcategories for those who do and do not indicate Black/African American as one of their selected identities.</span></span></td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">Mother race and ethnicity</td>

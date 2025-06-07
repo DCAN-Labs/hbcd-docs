@@ -55,9 +55,6 @@
     right: 100%;
     transform: translateY(-50%);
     margin-right: 5px;
-    
-    /* Ensure proper display */
-    white-space: nowrap; /* Prevents text wrapping */
 }
 
 /* Position the tooltip to the right */
