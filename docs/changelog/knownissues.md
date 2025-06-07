@@ -1,5 +1,5 @@
 # Known Issues
-The following issues have been identified in the current HBCD data release. We are actively working to address them and will include fixes in future releases. This page will be updated as new issues are discovered.
+The following issues have been identified in the current HBCD data release. **We are actively working to address them and will include fixes in the next release unless stated otherwise**. This page will be updated as new issues are discovered.
 
 If you have questions or would like to report an issue, please submit a ticket through the Lasso Help Center by following the steps described in the [Report Issues](../reportissue.md) section.
 
@@ -18,6 +18,16 @@ The variable `screen_mother_ethnicity` should be a 2-level variable, however it 
 
 ##### ⚠️ Urine: Incorrect Specific Gravity Variable
 The urine specific gravity variable is incorrect (`bio_bm_biosample_urine_bio_spg_u`); do not analyze this variable. There are several participants with “1”. This variable should be expressed in the thousands and will be corrected in the next release.
+
+
+##### ⚠️ Urine Toxicology (Cotinine)
+
+There may be negative values for urinary toxicology results (e.g. `bio_bm_biosample_urine_bio_bm_biosample_urine_bio_c_cot_u`). Please note that negative values for these variables are not biologically plausible. We recommend users convert these values to 0 prior to analyzing their data.
+
+
+##### ⚠️ Negative Gestational Ages 
+ 
+There are two participants with negative gestational ages in the urine biosample dataset. Please do not include these two observations in your analysis. 
 
 
 ## Electroencephalography (EEG)
