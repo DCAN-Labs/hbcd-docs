@@ -1,6 +1,11 @@
-# How To Download Data: Lasso Portal
+# How To Download Data
 
-## Use Query Tool To Select Data for Download
+## DEAP
+
+The Data Exploration and Analysis Portal (DEAP) can be used to explore and download HBCD data. Please visit the DEAP website for detailed information and instructions: [ADD LINK]().
+
+## Lasso Portal
+### Use Query Tool To Select Data for Download
 
 #### Step 1: Get Started with Approved Access  
 Once your **Data Use Certification** has been approved (see [How To Access Data](../data_access/index.md)) and you’ve completed the required training, you’ll be able to download data dictionaries, tabulated, and file-based data via the **Query Data** tab in Lasso. This tab is conveniently located in the **left-hand side menu**.
@@ -34,20 +39,14 @@ If you need both the data dictionary and the associated data:
 <img src="../images/querytool/query_step5.png" width="100%" height="auto" class="center">
 
 Note that the **[shadow matrix](../dataformats/tabulated.md#shadow-matrices)** is downloadable as a CSV file and will appear as an additional option after running the query:
-<img src="..images/querytool/shadowmatrix.png" width="50%" height="auto" class="center">
+<img src="../images/querytool/shadowmatrix.png" width="50%" height="auto" class="center">
 
 #### Step 6: Save and Reuse Your Queries
 To save time on future queries, click the **Save Query** button. Your saved queries can be accessed later via the **Load Query** button. Select your saved query, click **Run**, and instantly download the most up-to-date data.
 <img src="../images/querytool/query_step6.png" width="100%" height="auto" class="center">
 
 
-
-
-
-
-
-
-## Globus Share Download
+### Globus Share Download
 1 - [Login](https://nbdc-beta.lassoinformatics.com/) with your Globus ID after clicking the Globus button on the login screen. 
 
 <img src="../images/querytool/gb1.jpg" width="90%" height="auto" class="center">
@@ -95,11 +94,11 @@ If you are already logged in, allow Lasso to use your globus id.
 <img src="../images/querytool/gb14.jpg" width="100%" height="auto" class="center">
 
 
-## Download Client User Guide (macOS Version)
-### Introduction
+### Download Client User Guide (macOS Version)
+#### Introduction
 The Download Client is a user-friendly application designed to help you securely download files from remote storage. This guide will walk you through downloading, installing, and using the client on macOS.
 
-### System Requirements
+#### System Requirements
 Before installing the Download Client, ensure your macOS system meets the following requirements:
 
 - **Operating System**: macOS 11 (Big Sur) or later
@@ -107,7 +106,7 @@ Before installing the Download Client, ensure your macOS system meets the follow
 - **Storage Space**: At least 500MB free disk space
 - **Authentication**: Lasso account credentials
 
-### Download & Installation Steps (macOS)
+#### Download & Installation Steps (macOS)
 1. Download the .dmg file from the download tools option on the [Pre-Release HBCD System](https://nbdc-hbcd-beta.lassoinformatics.com/download-tools) ![](images/querytool/dc_dmg.jpg)
 2. Alternatively, you can download the .dmg file from the Query Data Module: select **Choose Files For Download**, build a query, and click **Trigger Transfer**. Selecting "available here" on the Lasso Download Client (Beta) will redirect you to the Download Tools Page, where you can download the application based on your system. 
 <img src="../images/querytool/dc_choosefiles.jpg" width="50%" height="auto" class="center">
@@ -116,32 +115,32 @@ Before installing the Download Client, ensure your macOS system meets the follow
 4. Open the application from **Launchpad**.
 5. If prompted, allow the application to run in **System Preferences** > **Security & Privacy** under the **General** tab.
 
-### Running the Application for the First Time
+#### Running the Application for the First Time
 Please follow these steps to proceed with the download process:
 
-#### Step 1: Open the Application
+##### Step 1: Open the Application
 When you first try to open the application, you will see a warning that Apple cannot verify the developer. Click **OK** to close the warning.
 <img src="../images/querytool/dc_open.jpg" width="30%" height="auto" class="center">
 
-#### Step 2: Go to System Preferences
+##### Step 2: Go to System Preferences
 - Open **System Settings** from the Apple menu.
 - Navigate to **Privacy & Security**.
 - Scroll down to find the blocked application and click **Open Anyway**.
 <img src="../images/querytool/dc_security.jpg" width="80%" height="auto" class="center">
 
-#### Step 3: Confirm Security Exception
+##### Step 3: Confirm Security Exception
 - You will see another prompt asking if you are sure you want to open the app.
 - Click **Open Anyway**.
 
-#### Step 4: Enter Admin Credentials (If Asked)
+##### Step 4: Enter Admin Credentials (If Asked)
 - Some macOS versions require an administrator password or Touch ID confirmation to proceed.
 - Enter your credentials and confirm.
 
 **You can now easily access the Lasso Download Client from your menu bar:**
 <img src="../images/querytool/dc_menu.jpg" width="80%" height="auto">
 
-### First-Time Setup
-#### Step 1: Login
+#### First-Time Setup
+##### Step 1: Login
 - When you open the application for the first time, you will be prompted to log in.
 - Select **LOGIN** and enter your Lasso username and password.
 - If you are already logged into the Pre-Release HBCD System on your browser (click **Globus** to proceed), you may not be asked to enter your credentials again.
@@ -151,22 +150,22 @@ When you first try to open the application, you will see a warning that Apple ca
 - After successful login you will be redirected to a page with the message **Login Successful!**
 <img src="../images/querytool/dc_success.jpg" width="50%" height="auto" class="center">
 
-#### Step 2: Select a Download Directory
+##### Step 2: Select a Download Directory
 If no download folder is detected, you will see a message prompting you to choose a folder. Click the Settings button (⚙) in the top-right corner, select a folder where you want files to be saved, and click **Confirm**.
 <img src="../images/querytool/dc_choosedir.jpg" width="70%" height="auto" class="center">
 
-#### Step 3: Register Your Client
+##### Step 3: Register Your Client
 Some users may need to register their client before downloading. If prompted, follow the on-screen instructions to complete registration. 
 
-### Downloading Files
+#### Downloading Files
 - Once logged into the Pre-Release HBCD System, go to query data and click on choose files for download.
 - Select the files and tap on trigger transfer.
 - Next, select Download Client (Beta) as your preferred download tool.
 - The **Download Progress Section** will show the download speed, estimated time remaining, and file size.
 - Once a file is downloaded, it will appear in your selected folder.
 
-### Monitoring Downloads 
-***BETA TEST PHASE: the progress will be unavailable when downloading smaller datasets***
+#### Monitoring Downloads 
+
 <ul>
 <span>Active downloads will be listed in the <strong>Download Progress Section</strong>. Each file will display:</span>
 <li>Name</li>
@@ -177,7 +176,7 @@ Some users may need to register their client before downloading. If prompted, fo
 </ul>
 <img src="../images/querytool/dc_download.png" width="80%" height="auto" class="center">
 
-### Settings & Customization
+#### Settings & Customization
 <ul>
 <span>Click the <strong>Settings</strong> (⚙) button in the top-right corner to:</span>
 <li>Change the download folder.</li>
@@ -185,7 +184,7 @@ Some users may need to register their client before downloading. If prompted, fo
 <li>Check for application updates.</li>
 </ul>
 
-### Troubleshooting
+#### Troubleshooting
 <ul>
 <span><strong>Problem: Login Issues</strong></span>
 <li>Ensure you have entered the correct credentials.</li>
@@ -205,7 +204,7 @@ Some users may need to register their client before downloading. If prompted, fo
 <li>Ensure you have enough free disk space.</li>
 </ul>
 
-### Future Updates
+#### Future Updates
 Thank you for beta testing the Download Client on macOS. Your feedback has been invaluable, and we truly appreciate your patience as we work to make things better. We know the experience isn’t perfect yet—there are still bugs, and performance needs improvement. But we’re on it! Here’s what’s coming in the next update:
 
 **What's Changing in the Next Update:**
@@ -218,15 +217,15 @@ Thank you for beta testing the Download Client on macOS. Your feedback has been 
 **Faster Downloads**
 
 
-## Lasso User Warnings
+### Lasso User Warnings
 
-### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Instruction Metadata - Caution, Please Read Carefully
+#### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Instruction Metadata - Caution, Please Read Carefully
 The text added to the 'instruction' column in the Data Dictionary metadata are extracted programmatically from the latest instruction field provided in the Data Dictionary of the form based on the order of the fields, and added to all fields up to the next set of instructions. Because of this, in some cases the instruction text may be broken into several instruction fields, of which only the last portion will currently be extracted, leading to partial instruction text. Likewise, since the instruction is provided for all fields up to the next set of instructions, in some cases the instruction provided may correspond to a previous section in the form. Instruction metadata will be fine-tuned manually for future releases. To ensure instructions are accurately interpreted, please refer to the original form.
 
-### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Additional Columns (`cohort` & `site`) Not Defined in Data Dictionary
+#### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Additional Columns (`cohort` & `site`) Not Defined in Data Dictionary
 Dataset downloads from Lasso will contain two additional columns automatically, which are currently not described in the data dictionary: `cohort` (*HBCD Main Child*) and `site` (*site ID*). Please note, the `cohort` column contains the same information as the `par_visit_data_cohort` variable and the `site` column contains the same information as `par_visit_data_site` variable, both found in Visit Level Data table `par_visit_data` (see details [here](../measures/demographics.md#visit-information).
 
-### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Static Variable Warning
+#### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Static Variable Warning
 To run a query successfully, your selection must include **at least one non-static instrument**—that is, data collected during specific **sessions or timepoints**. In the NBDC Data Release Platform, look for instruments **not marked as static** (i.e., not shaded differently or labeled as static). These will allow you to run your query and get the required data output. Please expand the following sections for details:  
 <div id="query-static-only" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>

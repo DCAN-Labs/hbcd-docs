@@ -44,9 +44,7 @@ nav:
   - Access Data:
     - Explore Data: explore.md
     - How To Access Data: data_access/index.md
-    - How To Download Data:
-        - Lasso Portal: download/lasso.md
-        - DEAP: download/DEAP.md
+    - How To Download Data: download/lasso.md
     - "Data Formats & Tools":
         - Tabulated Data: dataformats/tabulated.md
         - Recommended Programs: dataformats/recprograms.md
