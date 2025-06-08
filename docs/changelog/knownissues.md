@@ -54,6 +54,11 @@ In cases where ICD codes are provided, corresponding names/labels are sometimes 
 ##### ⚠️ Blank Cells in PhenX Discrimination Survey
 For the PhenX+ Discrimination survey, one of the multi-select questions (column `sed_bm_phx__discr.006`: *"What do you think is the main reason for these experiences? If more than one main reason, check all that apply."*) is blank for some participants. 
 
+## Tabulated MRI Data
+
+##### ⚠️ BrainSwipes
+
+There are 8 participant sessions with existing processed structural/functional outputs present in the XCP-D derivatives of the release data without corresponding [BrainSwipes](../measures/mri/qc.md#brainswipes) QC results include in the `img_brainswipes_xcpd-T2w` and `img_brainswipes_xcpd-bold` tables. These participants will be included in the next release in addition to BrainSwipes QC results for newly processed sessions. Users may perform visual inspection of the visual reports themselves to determine whether to include these data in their analyses by inspecting the `sub-<label>_ses-<label>_executive_summary.html` XCP-D derivatives file (see details [here](../datacuration/derivatives.md#xcp-d-xcp_d)). For guidance on how to perform visual inspection, create an account at [BrainSwipes](https://brainswipes.us) and review the tutorials provided for [surface delineation](https://brainswipes.us/tutorial/anat), [atlas registration](https://brainswipes.us/tutorial/atlas), and [functional registration](https://brainswipes.us/tutorial/func).
 
 ## Visit Information
 ##### ⚠️ Invalid Participant Withdrawal Dates for Participants Who Did Not Withdraw
