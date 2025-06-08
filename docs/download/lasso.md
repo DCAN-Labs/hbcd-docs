@@ -292,7 +292,7 @@ Fixed participant metadata collected at enrollment or inferred from administrati
 </p>
 </div>
 
-### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Blank Columns in Query Tool
+#### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Blank Columns in Query Tool
 
 The following columns are blank in the Lasso Data Dictionary Query Tool for the HBCD Study because they are either not applicable, or will become available in future releases:
 
