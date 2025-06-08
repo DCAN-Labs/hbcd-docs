@@ -1,7 +1,5 @@
 # Known Issues
-The following issues have been identified in the current HBCD data release. **We are actively working to address them and will include fixes in the next release unless stated otherwise**. This page will be updated as new issues are discovered.
-
-If you have questions or would like to report an issue, please submit a ticket through the Lasso Help Center by following the steps described in the [Report Issues](../reportissue.md) section.
+The following issues have been identified in the current HBCD data release. **We are actively working to address them and will include fixes in the next release unless stated otherwise**. This page will be updated as new issues are discovered. If you have questions or would like to report an issue, please submit a ticket through the Lasso Help Center by following the steps described in the [Report Issues](../reportissue.md) section.
 
 ## General
 ##### ⚠️ Discrepancy Between Parquet & CSV Files
