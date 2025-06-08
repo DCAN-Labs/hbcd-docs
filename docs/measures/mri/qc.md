@@ -486,7 +486,7 @@ Swipes display GIFs of full-resolution T2w images as a grayscale background, wit
   <span class="arrow">▸</span>
 </div>
 <div class="notification-open-collapsible-content">
-<p>Please see a description of this known issue <a href="../../../changelog/knownissues/#️brainswipes">here</a> for details.</p>
+<p>Please see a description of this known issue <a href="../../../changelog/knownissues/#brainswipes">here</a> for details.</p>
 </div>
 </p>
 
