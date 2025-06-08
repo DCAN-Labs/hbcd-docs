@@ -27,7 +27,7 @@ There may be negative values for urinary toxicology results (e.g. `bio_bm_biosam
 
 ##### ⚠️ Negative Gestational Ages 
  
-There are two participants with negative gestational ages in the urine biosample dataset. Please do not include these two observations in your analysis. 
+There are two participants with negative gestational ages in the urine biosample dataset due to inaccurate collection dates of the biosample. Please do not include these two observations in your analysis. 
 
 
 ## Electroencephalography (EEG)
