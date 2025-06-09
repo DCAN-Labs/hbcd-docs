@@ -12,7 +12,7 @@ The variable `screen_mother_ethnicity` should be a 2-level variable, however it 
 
 ## Biospecimens
 
-##### ⚠️ General Biospecimens
+##### ⚠️ Nails & Urine: Collection & Analysis Dates Currently Missing
 Collection dates and analysis dates for Nails and Urine are not provided in the current release and will be provided in the future.            
 **Expected Fix:** Release 1.1
 
