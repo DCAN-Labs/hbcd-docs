@@ -1,4 +1,4 @@
-# Derivatives
+# Processed File-Based Derivative Data
 
 The `derivatives/` folder contains minimally preprocessed outputs from the [processing pipelines](../processing/index.md). A description of HBCD-specific processing parameters used for each pipeline is available on the [HBCD Processing](https://hbcd-cbrain-processing.readthedocs.io/latest/) webpage. The following sections outline the session-level file and folder contents for each pipeline. 
 

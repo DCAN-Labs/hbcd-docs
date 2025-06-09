@@ -65,10 +65,12 @@ nav:
         - ReproSchema: reproschema.md
     - HBCD Data Overview:
         - BIDS Data Format: datacuration/overview.md
-        - Raw BIDS Data: datacuration/rawbids.md
-        - Derivatives: datacuration/derivatives.md
-        - Phenotype: datacuration/phenotypes.md
+        - Tabulated Data: datacuration/phenotypes.md
+        - Raw File-Based Data: datacuration/rawbids.md
+        - Processed File-Based Data: datacuration/derivatives.md
         - Exclusion Criteria: datacuration/exclusions.md
+    # - NEW HBCD Data Overview:
+    #     - "Data Organization & Standards": curation/index.md
     - "Data Measures & Quality Control":
         - Overview: measures/index.md
         - Age Variables: measures/agevariables.md
