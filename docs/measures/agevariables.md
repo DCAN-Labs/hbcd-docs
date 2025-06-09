@@ -1,5 +1,44 @@
 # Age Variable Definitions
 
+Fields reporting age in the tabulated data include global, single-point (i.e. static) variables in [Basic Demographics](#basic-demographics) (e.g. Maternal Age at V01), and [instrument-specific variables](#tabulated-instrument-data) for age that vary depending on the date of administration for a given instrument. In the [raw file-based data](#raw-file-based-data) (EEG, magnetic resonance imaging/spectroscropy, and motion sensor data), fields reporting age vary depending on the date of data acquisition, reported in the session- and scan-level `.tsv` files. See details for each below. 
+
+## Basic Demographics
+
+Tabulated Basic Demographics data (`sed_basic_demographics`) includes variables derived across instruments, with the following set of variables reporting age - please see [Basic Demographics](demographics.md#basic-demographics) for more information. **Note that all of the following are single-point, static variables (i.e. they do not change over time) that should be present and consistent across all Visits (V01, V02, etc.):**
+
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 13px;">
+    <thead>
+      <tr>
+        <th style="width: 20%; padding: 5px; text-align: center;">Name</th>
+        <th style="width: 10%; padding: 5px; text-align: center;">Variable Name</th>
+        <th style="width: 30%; padding: 5px; text-align: center;">Description</th>
+        <th style="width: 30%; padding: 5px; text-align: center;">Unit & Calculation</th>
+      </tr>
+    </thead>
+    <tbody>
+<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Maternal Age at V01 (MAV01)</td>
+<td style="padding: 8px; word-wrap: break-word; white-space: normal;"><code>mother_age_v01</code></td>
+<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Birth parent's age, obtained from the scheduled date of the V01 visit</td>
+<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Years (to two decimal places), with fractional years calculated by dividing the number of whole months (rounded down) by 12</td>
+</tr>
+<tr>
+<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Maternal Age at Delivery (MAD)</td>
+<td style="padding: 8px; word-wrap: break-word; white-space: normal;"><code>mother_age_delivery</code></td>
+<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Birth parent's age at the time of their child's delivery (date of birth)</td>
+<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Years (to two decimal places), with fractional years calculated by dividing the total whole months (rounded down) by 12</td>
+</tr>
+<tr>
+<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Gestational Age at Delivery (GAD)</td>
+<td style="padding: 8px; word-wrap: break-word; white-space: normal;"><code>gestational_age_delivery</code></td>
+<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Time elapsed between the first day of the birth parent's <span class="tooltip">LMP
+		<span class="tooltiptext">last menstrual period, estimated as EDD minus 280 days</span>
+	  </span> and the child's date of birth</td>
+<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Whole weeks, rounded down to the nearest week</td>
+</tr>
+</tbody>
+</table>
+
+
 ## Tabulated Instrument Data
 
 All [tabulated data](../datacuration/phenotypes.md) include the following fields that report the age of the **child participants** at the time of instrument administration: 
@@ -47,43 +86,6 @@ All [tabulated data](../datacuration/phenotypes.md) include the following fields
 </tr>
 </tbody>
 </table>
-
-## Tabulated Basic Demographics
-
-Basic Demographics data (`sed_basic_demographics`) includes variables derived across instruments, with the following set of variables reporting age - please see [Basic Demographics](demographics.md#basic-demographics) for more information. **Note that all of the following are single-point, static variables (i.e. they do not change over time) that should be present and consistent across all Visits (V01, V02, etc.):**
-
-<table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 13px;">
-    <thead>
-      <tr>
-        <th style="width: 20%; padding: 5px; text-align: center;">Name</th>
-        <th style="width: 10%; padding: 5px; text-align: center;">Variable Name</th>
-        <th style="width: 30%; padding: 5px; text-align: center;">Description</th>
-        <th style="width: 30%; padding: 5px; text-align: center;">Unit & Calculation</th>
-      </tr>
-    </thead>
-    <tbody>
-<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Maternal Age at V01 (MAV01)</td>
-<td style="padding: 8px; word-wrap: break-word; white-space: normal;"><code>mother_age_v01</code></td>
-<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Birth parent's age, obtained from the scheduled date of the V01 visit</td>
-<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Years (to two decimal places), with fractional years calculated by dividing the number of whole months (rounded down) by 12</td>
-</tr>
-<tr>
-<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Maternal Age at Delivery (MAD)</td>
-<td style="padding: 8px; word-wrap: break-word; white-space: normal;"><code>mother_age_delivery</code></td>
-<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Birth parent's age at the time of their child's delivery (date of birth)</td>
-<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Years (to two decimal places), with fractional years calculated by dividing the total whole months (rounded down) by 12</td>
-</tr>
-<tr>
-<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Gestational Age at Delivery (GAD)</td>
-<td style="padding: 8px; word-wrap: break-word; white-space: normal;"><code>gestational_age_delivery</code></td>
-<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Time elapsed between the first day of the birth parent's <span class="tooltip">LMP
-		<span class="tooltiptext">last menstrual period, estimated as EDD minus 280 days</span>
-	  </span> and the child's date of birth</td>
-<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Whole weeks, rounded down to the nearest week</td>
-</tr>
-</tbody>
-</table>
-
 
 ## Raw File-Based Data
 
