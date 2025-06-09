@@ -38,10 +38,9 @@ Tabulated [Basic Demographics](demographics.md#basic-demographics) data (`sed_ba
 </tbody>
 </table>
 
-
 ## Tabulated Instrument Data
 
-All [tabulated data](../datacuration/phenotypes.md) include the following fields that report the age of the **child participants** at the time of instrument administration: 
+All [tabulated data](../datacuration/phenotypes.md) include the following fields that report the age of the **child participants** at the time of instrument administration. Note that the infobox ["Fields Reporting Age"](../datacuration/phenotypes.md#instrument-age) in the Tabulated Data section contains the same information as the following table, presented in a different format.
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 13px;">
     <thead>
@@ -89,7 +88,7 @@ All [tabulated data](../datacuration/phenotypes.md) include the following fields
 
 ## Raw File-Based Data
 
-Raw file-based data includes raw magnetic resonance imaging (MRI), spectroscopy (MRS), electroencephalography (EEG), and motion/accelerometry (see [here](../../datacuration/rawbids/#raw-file-based-bids-data) for details). This data is acquired from child participants and is thus unavailable for the prenatal visit V01. For visit V02 onward, age of the child on the date of data acquisition is reported within the subject folder-level `sub-<label>_sessions.tsv` and session folder-level `sub-<label>_ses-<label>_scans.tsv` files via the following:
+Raw file-based data includes raw magnetic resonance imaging (MRI), spectroscopy (MRS), electroencephalography (EEG), and motion/accelerometry (see [here](../../datacuration/rawbids/#raw-file-based-bids-data) for details - note that infobox ["Fields Reporting Age"](../datacuration/rawbids.md#age) on this page contains the same information as the following table, presented in a different format). This data is acquired from child participants and is thus unavailable for the prenatal visit V01. For visit V02 onward, age of the child on the date of data acquisition is reported within the subject folder-level `sub-<label>_sessions.tsv` and session folder-level `sub-<label>_ses-<label>_scans.tsv` files via the following:
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 13px;">
     <thead>
