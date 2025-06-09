@@ -12,6 +12,10 @@ The variable `screen_mother_ethnicity` should be a 2-level variable, however it 
 
 ## Biospecimens
 
+##### ⚠️ General Biospecimens
+Collection dates and analysis dates for Nails and Urine are not provided in the current release and will be provided in the future.            
+**Expected Fix:** Release 1.1
+
 ##### ⚠️ Urine: Incorrect Specific Gravity Variable
 The urine specific gravity variable is incorrect (`bio_bm_biosample_urine_bio_spg_u`); do not analyze this variable. There are several participants with “1”. This variable should be expressed in the thousands and will be corrected in the next release.     
 **Expected Fix:** Release 1.1
