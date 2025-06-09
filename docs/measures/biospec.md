@@ -71,7 +71,7 @@ QC procedures involved examining assay ranges and categorical versus continuous 
 <p>As of July 1, 2024, the nail processing workflow was updated to optimize specimen use and allow confirmation testing for low sample quantities. Prior to this update, remnants of ELISA extract were not used for confirmation when specimens had insufficient sample.</p> 
 
 <b>Urine</b>
-<p>Only the initial creatinine results from sample validation are included in the data release: creatinine and specific gravity values are therefore provided for researchers who wish to adjust for urinary concentration in continuous measures or apply different thresholds.</p> 
+<p>Urine concentrations vary by participant. Urinary concentration corrections can be made by creatine or specific gravity. There is a <a href="../../changelog/knownissues/#urine-incorrect-specific-gravity-variable">known issue</a> with the specific gravity values and they are not meaningful in the current data release; therefore, only the initial creatinine results from sample validation should be used for urinary concentration corrections. Creatinine values are provided for researchers who wish to adjust/correct for urinary concentration in continuous measures or apply different thresholds.</p> 
 </div>
 </p>
 
