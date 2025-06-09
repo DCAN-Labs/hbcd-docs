@@ -4,7 +4,7 @@ Fields reporting age in the tabulated data include global, single-point (i.e. st
 
 ## Basic Demographics
 
-Tabulated Basic Demographics data (`sed_basic_demographics`) includes variables derived across instruments, with the following set of variables reporting age - please see [Basic Demographics](demographics.md#basic-demographics) for more information. **Note that all of the following are single-point, static variables (i.e. they do not change over time) that should be present and consistent across all Visits (V01, V02, etc.):**
+Tabulated [Basic Demographics](demographics.md#basic-demographics) data (`sed_basic_demographics`) includes variables derived across instruments, with the following set of variables reporting age. **These are single-point, static variables (i.e. they do not change over time) that should be present and consistent across all Visits (V01, V02, etc.).** Note that the infobox ["Fields Reporting Age"](demographics.md#demo-age) in the Basic Demographics section contains the same information as the following table, presented in a different format.
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 13px;">
     <thead>
