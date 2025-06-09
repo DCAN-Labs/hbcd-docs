@@ -1,5 +1,5 @@
 # Raw File-Based BIDS Data
-The `rawdata/` folder includes raw file-based MR, EEG, and motion data converted to BIDS, organized under subject and session-specific directories for processing through BIDS App pipelines (see details [here](../processing/index.md)):
+The `rawdata/` folder includes raw file-based magnetic resonance imaging (MRI), spectroscopy (MRS), electroencephalography (EEG), and motion/accelerometry (i.e. [wearable sensor](../measures/sensors.md) recordings for leg motion) data, converted to BIDS and organized under subject and session-specific directories for processing through BIDS App pipelines (see details [here](../processing/index.md)):
 
 <pre class="folder-tree">
 
