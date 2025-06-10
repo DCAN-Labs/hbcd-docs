@@ -62,16 +62,16 @@ Additional details on Basic Demographics variables are provided below.
 </div>
 <div class="notification-open-collapsible-content">
 <p><b>Basic Demographics are global, visit-agnostic variables</b><br>
-These are single-point, static variables (i.e. they do not change over time) that should be present and consistent across all Visits (V01, V02, etc.). <strong>However</strong>, if only V01 data for a given participant is included in the release (due to ongoing enrollment, participant withdrawal, etc.), then items about the child will be missing, as the child is not born until after the V01 visit (all variables about the child are available beginning with V02).</p>
+Basic Demographics are single-point, static variables (i.e. they do not change over time) that should be present and consistent across all Visits (V01, V02, etc.). <strong>However</strong>, if only V01 data for a given participant is included in the release (due to ongoing enrollment, participant withdrawal, etc.), then items about the child will be missing, as the child is not born until after the V01 visit (all variables about the child are available beginning with V02).</p>
 
 <p><b>Child vs Mother Variables</b><br>
 Within the table and the variable names, <strong><code>child</code></strong> refers to the child enrolled in HBCD and <strong><code>mother</code></strong> refers to the person carrying the child (i.e., pregnant with the child) at the time of V01.</p>
 
 <p><b>Combined Race and Ethnicity Variable Logic</b><br>
-Variables that combine race and ethnicity are constructed from separate race and ethnicity variables following current federal standards: if an individual is identified as Hispanic or Latino based on the response to the ethnicity item, they will be categorized as such, regardless of their race. In addition, individuals who select more than one race are categorized as "multiracial."</p>
+Unless stated otherwise in the table below, wariables that combine race and ethnicity are constructed from separate race and ethnicity variables following current federal standards: if an individual is identified as Hispanic or Latino based on the response to the ethnicity item, they will be categorized as such, regardless of their race. In addition, individuals who select more than one race are categorized as "multiracial."</p>
 
 <p><b>Multiracial Individuals: Aggregation By Ethnicity Vs Race</b><br>
-There are two combined race and ethnicities variables that aggregate multiracial individuals into subcategories by ethnicity (<code>*_acs_by_multi_ethnicity</code>) vs race (<code>*_acs_by_multi_race</code>). For aggregation by ethnicity, individuals are subcategorized into those who do and do not select Hispanic as one of their identities. For race, individuals are subcategorized into those who do and do not select Black/African American as one of their identities.</p>
+There are two combined race and ethnicity variables that aggregate multiracial individuals into subcategories by ethnicity (<code>*_acs_by_multi_ethnicity</code>) vs race (<code>*_acs_by_multi_race</code>). For aggregation by ethnicity, individuals are subcategorized into those who do and do not select Hispanic as one of their identities. For race, individuals are subcategorized into those who do and do not select Black/African American as one of their identities.</p>
 </div>
 </p>
 
