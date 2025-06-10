@@ -210,8 +210,7 @@
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
-<p>Fields reporting age in the tabulated data include global, single-point (i.e. static) variables in Basic Demographics, e.g. <b>Maternal Age at V01</b>, and instrument-specific variables for age that vary depending on the date of administration for a given instrument.</p>
-<p>For the <a href="../datacuration/rawbids">raw BIDS</a> data (EEG, magnetic resonance imaging/spectroscropy, and motion sensor data), metrics for age are reported in the session- and scan-level <code>.tsv</code> files. Please see the description of these variables under <a href="../datacuration/rawbids/#age">Raw BIDS Data: Fields Reporting Age</a>.</p>
+<p>Fields reporting age include global, single-point (i.e. static) variables in Basic Demographics (see <a href="../measures/demographics#demo-age">infobox</a>), instrument-specific variables for age in tabulated data that vary depending on the date of administration for a given instrument (see <a href="../datacuration/phenotypes/#instrument-age">infobox</a>), and age variables for raw file-based data that vary based on data of acquisition (see <a href="../datacuration/rawbids/#age">infobox</a>). Age variables are summarized in table format under <a href="../measures/agevariables">Age Variable Definitions</a> as well as infoboxes containing the same information in an alternate format within each relevant section.</p>
 </div>
 </p>
 
