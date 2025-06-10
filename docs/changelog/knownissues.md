@@ -39,8 +39,8 @@ The t-scores are currently not provided, as the original conversion from raw sco
 **Expected Fix:** Release 1.1
 
 ## Pregnancy & Exposure, Including Substance Use
-##### ⚠️ APA Score Fields
-TO DO       
+##### ⚠️ Pregnancy Exposures, Including Substances (APA Level 2)
+Individual items for Level 2 domains are provided, but summary scores and corresponding t-scores are not provided. This will be corrected in a future release. In the meantime, users can calculate their own summary scores and convert them to t-scores based on the user documentation provided for this measure.        
 **Expected Fix:** Release 1.1
 
 ##### ⚠️ ICD Code Names/Labels Inconsistently Provided (Pregnancy & Infant Health)
