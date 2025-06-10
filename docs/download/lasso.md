@@ -219,13 +219,12 @@ Thank you for beta testing the Download Client on macOS. Your feedback has been 
 
 ### Lasso User Warnings
 
-#### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Instruction Metadata - Caution, Please Read Carefully
+#### General
+
+##### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Instruction Metadata - Caution, Please Read Carefully
 The text added to the 'instruction' column in the Data Dictionary metadata are extracted programmatically from the latest instruction field provided in the Data Dictionary of the form based on the order of the fields, and added to all fields up to the next set of instructions. Because of this, in some cases the instruction text may be broken into several instruction fields, of which only the last portion will currently be extracted, leading to partial instruction text. Likewise, since the instruction is provided for all fields up to the next set of instructions, in some cases the instruction provided may correspond to a previous section in the form. Instruction metadata will be fine-tuned manually for future releases. To ensure instructions are accurately interpreted, please refer to the original form.
 
-#### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Additional Columns (`cohort` & `site`) Not Defined in Data Dictionary
-Dataset downloads from Lasso will contain two additional columns automatically, which are currently not described in the data dictionary: `cohort` (*HBCD Main Child*) and `site` (*site ID*). Please note, the `cohort` column contains the same information as the `par_visit_data_cohort` variable and the `site` column contains the same information as `par_visit_data_site` variable, both found in Visit Level Data table `par_visit_data` (see details [here](../measures/demographics/#visit-information)).
-
-#### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Static Variable Warning
+##### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Static Variable Warning
 To run a query successfully, your selection must include **at least one non-static instrument**—that is, data collected during specific **sessions or timepoints**. In the NBDC Data Release Platform, look for instruments **not marked as static** (i.e., not shaded differently or labeled as static). These will allow you to run your query and get the required data output. Please expand the following sections for details:  
 <div id="query-static-only" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
@@ -292,7 +291,14 @@ Fixed participant metadata collected at enrollment or inferred from administrati
 </p>
 </div>
 
-#### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Blank Columns in Query Tool
+<br>
+
+#### HBCD-Specific
+
+##### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Additional Columns (`cohort` & `site`) Not Defined in Data Dictionary
+Dataset downloads from Lasso will contain two additional columns automatically, which are currently not described in the data dictionary: `cohort` (*HBCD Main Child*) and `site` (*site ID*). Please note, the `cohort` column contains the same information as the `par_visit_data_cohort` variable and the `site` column contains the same information as `par_visit_data_site` variable, both found in Visit Level Data table `par_visit_data` (see details [here](../measures/demographics/#visit-information)).
+
+##### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Blank Columns in Query Tool
 
 The following columns are blank in the Lasso Data Dictionary Query Tool for the HBCD Study because they are either not applicable, or will become available in future releases:
 
@@ -311,5 +317,3 @@ The following columns are blank in the Lasso Data Dictionary Query Tool for the 
 <li><code>table_nda</code>, <code>table_nda_5_0</code>, <code>table_redcap</code></li>
 <li><code>sub_domain</code></li>
 </ul>
-
-

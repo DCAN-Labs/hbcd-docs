@@ -44,17 +44,17 @@ nav:
   - Access Data:
     - Explore Data: explore.md
     - How To Access Data: data_access/index.md
-    - How To Download Data (Lasso): download/lasso.md
+    - How To Download Data: download/lasso.md
     - "Data Formats & Tools":
         - Tabulated Data: dataformats/tabulated.md
         - Recommended Programs: dataformats/recprograms.md
     - Responsible Data Use: resp_data_use.md
-  # - NEW Access Data:
-  #   - "Access & Download Data": download.md
-  #   - "Data Formats & Tools":
-  #       - Tabulated Data: dataformats/tabulated.md
-  #       - Recommended Programs: dataformats/recprograms.md
-  #   - Responsible Data Use: resp_data_use.md
+  - NEW Access Data:
+    - "Access & Download Data": access/download.md
+    - "Data Formats & Tools":
+        - Tabulated Data: dataformats/tabulated.md
+        - Recommended Programs: dataformats/recprograms.md
+    - Responsible Data Use: access/resp_data_use.md
   - Get Help:
     - FAQs: faq.md
     - Report Issues: reportissue.md
