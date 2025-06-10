@@ -25,30 +25,27 @@ Dataset downloads from Lasso will contain two additional columns automatically, 
 
 #### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Blank Columns in Query Tool
 
-The following columns are blank in the Lasso Data Dictionary Query Tool for the HBCD Study because they are either not applicable, or will become available in future releases:
-
-<p style="margin-bottom: 0;"><em>Available in future release:</em></p>
-<ul>
-<li><code>atlas</code></li>
-<li><code>label_es</code>, <code>instruction_es</code>, <code>header_es</code>, <code>note_es</code>, <code>levels_es</code></li>
-<li><code>metric</code></li>
-<li><code>unit</code></li>
-<li><code>url_table</code>, <code>url_warn_use</code>, <code>url_warn_data</code>, <code>url_table_warn_use</code>, <code>url_table_warn_data</code></li>
-</ul>
-
-<p style="margin-bottom: 0;"><em>Not applicable to HBCD:</em></p>
-<ul>
-<li><code>name_nda</code>, <code>name_deap</code>, <code>name_redcap</code>, <code>name_redcap_exp</code></li>
-<li><code>table_nda</code>, <code>table_nda_5_0</code>, <code>table_redcap</code></li>
-<li><code>sub_domain</code></li>
-</ul>
-
+The following columns are currently blank in the Lasso Dictionary Query Tool for the HBCD Study and will become available in a future release: **atlas**, **{label/instruction/header/note/levels}_es** , **metric**, **unit**, and **url_{table/warn_use/warn_data/table_warn_use/table_warn_data}**.
 
 ## Explore Data
 
 HBCD data is organized into tables, each of which contains a set of variables. The data dictionary provides detailed information about each variable in the HBCD data tables. The dictionary includes the variable name, label, description, data type, and other relevant information. 
 
 Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data dictionary via the **[Lasso Portal Query Tool]()** or **[DEAP]()** - ADD LINKS. Below are the definitions for the columns in the data dictionaries for these utilities. Note that some columns also correspond to elements in the BIDS JSON files that accompany all tabulated data (hover over <i class="bi bi-filetype-json" style="font-size:18px; color:blue;"></i> icon for details in table below).
+
+<div id="bdemo-fyi" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Extra Data Dictionary Columns</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="notification-open-collapsible-content">
+<p style="margin-bottom: 0;"><em>Note that the following columns are present in the NBDC data dictionary, but are not applicable to HBCD and are thus excluded from the table below. When querying the data via the Lasso Portal or DEAP, these columns will be blank.</em></p>
+<ul>
+<li><code>name_nda</code>, <code>name_deap</code>, <code>name_redcap</code>, <code>name_redcap_exp</code></li>
+<li><code>table_nda</code>, <code>table_nda_5_0</code>, <code>table_redcap</code></li>
+<li><code>sub_domain</code></li>
+</ul>
+</div>
 
 <div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">Data Dictionary Column Definitions</span>
@@ -152,7 +149,9 @@ Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data
         <span class="tooltiptext">Corresponds to Units in BIDS JSON</span>
       </span>
       </td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">unit</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">unit&nbsp;
+        <span class="tooltip"><i class="fas fa-exclamation-triangle" style="font-size:16px;"></i>
+        <span class="tooltiptext">Column in Lasso is currently blank - this will be resolved in a future release</i></span></td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Unit of measurement</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">m, cm2, lbs</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">YES</td>
