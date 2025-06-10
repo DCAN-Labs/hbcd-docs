@@ -223,10 +223,16 @@ Thank you for beta testing the Download Client on macOS. Your feedback has been 
 The text added to the 'instruction' column in the Data Dictionary metadata are extracted programmatically from the latest instruction field provided in the Data Dictionary of the form based on the order of the fields, and added to all fields up to the next set of instructions. Because of this, in some cases the instruction text may be broken into several instruction fields, of which only the last portion will currently be extracted, leading to partial instruction text. Likewise, since the instruction is provided for all fields up to the next set of instructions, in some cases the instruction provided may correspond to a previous section in the form. Instruction metadata will be fine-tuned manually for future releases. To ensure instructions are accurately interpreted, please refer to the original form.
 
 #### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Static Variable Warning
-To run a query successfully, your selection must include **at least one non-static instrument**—that is, data collected during specific **sessions or timepoints**. In the NBDC Data Release Platform, look for instruments **not marked as static** (i.e., not shaded differently or labeled as static). These will allow you to run your query and get the required data output. Please expand the following sections for details:  
+To run a query successfully, your selection must include **at least one non-static instrument**—that is, data collected during specific **sessions or timepoints**. In the NBDC Data Release Platform, look for instruments **not marked as static** (i.e., not shaded differently or labeled as static). These will allow you to run your query and get the required data output. Please expand the following sections for details:
+
 <div id="query-static-only" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text-with-link">
   <span class="text">Why You Cannot Run a Query with Only Static Variables</span>
+  <a class="anchor-link" href="#query-static-only" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -248,14 +254,20 @@ To run a query successfully, your selection must include **at least one non-stat
 <p>Therefore, to run a query, you must include at least one <b>non-static instrument</b>—data collected at specific visits, such as cognitive assessments or imaging.  </p>
 </div>
 
+
+
 <div id="static-var-src" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text-with-link">
   <span class="text">Overview of Static Variable Sources</span>
+  <a class="anchor-link" href="#static-var-src" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
 <p>There are three main static measurement sources in the <b>ABCD</b> dataset. Here's what each includes: </p>
-
 <ul>
 <p>
 <b>1. Genetic Population Structure</b> (<code>gn_y_popstruct</code>)<br>
