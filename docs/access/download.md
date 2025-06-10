@@ -20,7 +20,7 @@ After obtaining data access, users can download HBCD Study release data via the 
 ### Lasso HBCD User Warnings
 
 #### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Additional Columns (`cohort` & `site`) Not Defined in Data Dictionary
-Dataset downloads from Lasso will contain two additional columns automatically, which are currently not described in the data dictionary: `cohort` (*HBCD Main Child*) and `site` (*site ID*). The `cohort` and `site` columns are identical to the [Visit Information](../measures/demographics/#visit-information) variables `par_visit_data_cohort` and `par_visit_data_site`, respectively.
+Dataset downloads from Lasso will automatically contain two additional columns that are not currently described in the data dictionary: `cohort` (*HBCD Main Child*) and `site` (*site ID*). The `cohort` and `site` columns are identical to the [Visit Information](../measures/demographics/#visit-information) variables `par_visit_data_cohort` and `par_visit_data_site`, respectively.
 
 
 #### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Blank Columns in Query Tool
