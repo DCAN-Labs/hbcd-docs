@@ -71,3 +71,18 @@
     margin-left: 5px;
 }
 
+/* Position the tooltip underneath the element */
+.tooltip-bottom .tooltiptext {
+    top: 100%;                /* Place directly below the element */
+    left: 50%;                /* Center horizontally */
+    transform: translateX(-50%);
+    margin-top: 5px;
+
+    bottom: auto;             /* Ensure no conflict with vertical position */
+    right: auto;              /* Ensure no conflict with horizontal position */
+
+    width: auto;              /* Allow width to expand as needed */
+    max-width: 90vw;          /* Keep it responsive */
+    white-space: normal;      /* Allow wrapping */
+    word-wrap: break-word;    /* Ensure long words wrap */
+}
