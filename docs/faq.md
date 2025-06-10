@@ -210,7 +210,7 @@
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
-<p>Fields reporting age include global, single-point (i.e. static) variables in Basic Demographics (see <a href="../measures/demographics#demo-age">infobox</a>), instrument-specific variables for age in tabulated data that vary depending on the date of administration for a given instrument (see <a href="../datacuration/phenotypes/#instrument-age">infobox</a>), and age variables for raw file-based data that vary based on data of acquisition (see <a href="../datacuration/rawbids/#age">infobox</a>). All of this information is additionally summarized in a single location in table format in the <a href="../measures/agevariables">Age Variable Definitions</a> section.</p>
+<p>Fields reporting age include global, single-point (i.e. static) variables in Basic Demographics (see <a href="../measures/demographics#demo-age">infobox</a>), instrument-specific variables for age in tabulated data that vary depending on the date of administration for a given instrument (see <a href="../datacuration/phenotypes/#instrument-age">infobox</a>), and age variables for raw file-based data that vary based on date of acquisition (see <a href="../datacuration/rawbids/#age">infobox</a>). All of this information is additionally summarized in a single location in table format in the <a href="../measures/agevariables">Age Variable Definitions</a> section.</p>
 </div>
 </p>
 

@@ -224,16 +224,6 @@ Demographic information is crucial for understanding the child’s environment a
     <td>Hamilton, et al. (2011)</td>
     </tr>
 	<tr>
-		<td>Gender Identity</td>
-		<td><a href="https://www.phenxtoolkit.org/protocols/view/11801">PhenX</a></td>
-		<td>Hamilton, et al. (2011)</td>
-	</tr>
-	<tr>
-		<td>Sexual Orientation</td>
-		<td><a href="https://www.phenxtoolkit.org/protocols/view/11701">PhenX</a></td>
-		<td>Hamilton, et al. (2011)</td>
-	</tr>
-	<tr>
 		<td>Primary Residence</td>
 		<td>HBCD</td>
 		<td>Cioffredi, et al. (2024)</td>
