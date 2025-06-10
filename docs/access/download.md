@@ -39,7 +39,7 @@ Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
-<p>There are NBDC data dictionary column names that are currently inapplicable to HBCD study data and thus excluded from the table below. Note that these columns will still be present when querying the data dictionary via the Lasso Portal or DEAP, but the column values will be blank. Examples include <b><code>atlas</code></b>, <b><code>metric</code></b>, <b><code>sub_domain</code></b>, columns including <b><code>nda/deap/redcap</code></b>, etc. These columns can be safely ignored. Also see the <a href="#blank-columns-in-query-tool">Lasso User Warning</a> in the section above.</p>
+<p>There are NBDC data dictionary column names that are currently inapplicable to HBCD study data and thus excluded from the table below. Note that these columns will still be present when querying the data dictionary via the Lasso Portal or DEAP, but the column values will be blank. Examples include <b><code>atlas</code></b>, <b><code>metric</code></b>, <b><code>sub_domain</code></b>, columns including <b><code>nda/deap/redcap</code></b>, etc. These columns can be safely ignored. Also see the <a href="#blank-columns-in-query-tool">Lasso User Warning</a> in the section above for columns that are currently blank and expected to be populated in a future release.</p>
 </div>
 
 <div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
@@ -236,20 +236,6 @@ Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Note (Spanish)</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">note_es</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Note (Spanish)</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">YES</td>
-    </tr>
-  <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Required field (LORIS)</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><i>Not present</i></td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Specifies if a field is required in LORIS</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">YES</td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Collection Platform</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><i>Not present</i></td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Platform the data was collected with</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">&nbsp;</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">YES</td>
     </tr>
