@@ -38,7 +38,7 @@ In a large infant study, missing data is common, leading to variations in the nu
 </div>
 <div class="notification-open-collapsible-content">
 <br>
-<i>Age is reported with the following fields in the <code>sessions.tsv</code> and <code>scans.tsv</code> files for V02 onwards:</i>
+<i>Age is reported with the following fields in the <code>sessions.tsv</code> and <code>scans.tsv</code> files for V02 onwards. See the <a href="../../measures/agevariables">Age Variable Definitions</a> section for a summary of all age-related variables across the release, as well as the information summarized in table format <a href="../../measures/agevariables/#raw-file-based-data">here</a>.</i></i>
 <br>
 <br>
 <b>Adjusted Age at Time of Scan</b> (<code>age_adjusted</code>): Reported in days (not rounded), adjusted age is the time from the estimated date of delivery (EDD) to the scan date.

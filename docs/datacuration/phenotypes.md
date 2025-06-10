@@ -26,7 +26,8 @@ Tabulated data lists information for all participants in both plain text (`.tsv`
   <span class="arrow">▸</span>
 </div>
 <div class="notification-open-collapsible-content">
-<br>
+<p><i>See the <a href="../../measures/agevariables">Age Variable Definitions</a> section for a summary of all age-related variables across the release, as well as the information summarized in table format <a href="../../measures/agevariables/#tabulated-instrument-data">here</a>.</i></p>
+
 <b>Gestational Age at Administration</b> (<code>&lt;instrument_name&gt;_gestational_age</code>): 'GAA' is the time from the first day of the birth parent’s last menstrual period (LMP), estimated as EDD minus 280 days, to the instrument administration date. GAA is given in whole weeks, rounded down, for only the V01 visit. For a given participant, GAA typically varies by no more than 4 weeks across protocol elements except in cases where protocol exceptions were granted.
 <br>
 <br>
