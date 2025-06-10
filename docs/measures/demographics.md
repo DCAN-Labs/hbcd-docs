@@ -192,6 +192,8 @@ ___7 = None of these fully describe me</td>
 </table>
 </div>
 
+## HBCD V01 Demographics
+See instrument details under [Social & Environmental Determinants](socenvdet.md#hbcd-demographics-v01).
 
 ## Visit Information
 <p style="margin: 0 0 5px;">Visit Level Data (<code>par_visit_data</code>) contains all participant visit data, including:</p>

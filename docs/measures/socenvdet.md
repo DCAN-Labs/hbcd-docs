@@ -209,14 +209,14 @@ Demographic information is crucial for understanding the child’s environment a
 <div class="table-collapsible-content">
 <br>
 <strong>&nbsp;&nbsp;Table 1. Demographics of Birth Parent</strong>
-<table style="width: 100%; border-collapse: collapse;">
-    <thead>
-      <tr>
-        <th>Construct</th>
-        <th>Source</th>
-        <th>Citations</th>
-      </tr>
-    </thead>
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+<thead>
+    <tr>
+    <th style="width: 60%;">Construct</th>
+    <th style="width: 10%;">Source</th>
+    <th style="width: 20%;">Citations</th>
+    </tr>
+</thead>
     <tbody>
     <tr>
     <td>Marital and Relationship Status</td>
@@ -327,12 +327,12 @@ Demographic information is crucial for understanding the child’s environment a
   </tbody>
   </table>
 <strong>&nbsp;&nbsp;Table 2. Demographics of Other Biological Parent</strong>
-<table class="docutils">
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
 <thead>
     <tr>
-    <th>Construct</th>
-    <th>Source</th>
-    <th>Citations</th>
+    <th style="width: 60%;">Construct</th>
+    <th style="width: 10%;">Source</th>
+    <th style="width: 20%;">Citations</th>
     </tr>
 </thead>
     <tbody>
