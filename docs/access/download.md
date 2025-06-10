@@ -25,7 +25,13 @@ Dataset downloads from Lasso will automatically contain two additional columns t
 
 #### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Blank Columns in Query Tool
 
-The following columns are currently blank in the Lasso Dictionary Query Tool for the HBCD Study and will become available in a future release: **atlas**, **{label/instruction/header/note/levels}_es** , **metric**, **unit**, and **url_{table/warn_use/warn_data/table_warn_use/table_warn_data}**.
+The following columns are currently blank in the Lasso Dictionary Query Tool for the HBCD Study and will become available in a future release (columns not applicable to HBCD and thus expected to be blank are noted [here](#bdemo-fyi)):    
+**`atlas`**    
+**`{label/instruction/header/note/levels}_es`**   
+**`metric`**    
+**`unit`**    
+**`url_{table/warn_use/warn_data/table_warn_use/table_warn_data}`**   
+
 
 ## Explore Data
 
