@@ -50,6 +50,7 @@ nav:
         - Tabulated Data: dataformats/tabulated.md
         - Recommended Programs: dataformats/recprograms.md
     - Responsible Data Use: access/resp_data_use.md
+    - Data Use Acknowledgement: access/dua.md
   - Get Help:
     - FAQs: faq.md
     - Report Issues: reportissue.md
