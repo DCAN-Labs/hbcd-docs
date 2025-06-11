@@ -1,5 +1,11 @@
 # Report Issues
 
+Please report issues via the [Lasso Help Desk]() (**ADD LINK**). Detailed instructions for how to create and submit a ticket can be found [here]() (**ADD LINK**).
+
+
+
+## MOVE TO LASSO DOCS SITE
+
 <p>If you encounter any issues or have questions regarding the Data Release documentation or data access on the Lasso Informatics platform for HBCD, please submit a help desk ticket through the following steps:</p>
 
 <ol>
