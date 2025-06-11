@@ -1,34 +1,76 @@
 # Access & Download Data
 
-## How To Obtain Access To HBCD Study Data
+## Access HBCD Study Data
+
+HBCD Study data is publicly shared via the [NBDC](https://www.nbdc-datahub.org) **Data Use Certification (DUC)** that researchers sign in agreement to follow the rules outlined for data use. DUC submission is conducted through the [NBDC portal supported by Lasso](https://nbdc-datashare.lassoinformatics.com/). **Please visit the [NBDC Data Hub](https://www.nbdc-datahub.org/data-access-process) for detailed instructions on how to submit a DUC.**
+
+
+## Download HBCD Study Data
+
+After obtaining data access, users can download HBCD Study release data via the **[Lasso Portal](https://nbdc-datashare.lassoinformatics.com/)** or **Data Exploration and Analysis Portal**  ([DEAP]()) - ADD LINKS.
+
+### Lasso User Warnings - HBCD
+
+<div id="add-columns" class="warning-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
+  <span class="text-with-link">
+  <span class="text">Additional Columns (`cohort` & `site`) Not Defined in Data Dictionary</span>
+  <a class="anchor-link" href="#add-columns" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="warning-collapsible-content">
+<p>Dataset downloads from Lasso will automatically contain two additional columns that are not currently described in the data dictionary: 'cohort' (<em>HBCD Main Child</em>) and `site` (<em>site ID</em>). The `cohort` and `site` columns are identical to the <a href="../../measures/demographics/#visit-information">Visit Information</a> variables <b><code>par_visit_data_cohort</code></b> and <b><code>par_visit_data_site</code></b>, respectively.</p>
+</div>
+
+<div id="blank-columns" class="warning-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
+  <span class="text-with-link">
+  <span class="text">Blank Columns in Query Tool</span>
+  <a class="anchor-link" href="#blank-columns" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="warning-collapsible-content">
+<p>
+  The following columns are currently blank in the Lasso Dictionary Query Tool for the HBCD Study and will become available in a future release 
+  (columns not applicable to HBCD and thus expected to be blank are noted 
+  <a href="#dd-faq">here</a>): 
+  <strong>unit</strong>, column names appended with <strong>*_es</strong>, 
+  and columns prepended with <strong>url_*</strong>.
+</p>
+</div>
+
+<div id="metadata" class="warning-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
+  <span class="text-with-link">
+  <span class="text">Instruction Metadata - Caution, Please Read Carefully</span>
+  <a class="anchor-link" href="#metadata" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="warning-collapsible-content">
+<p>
+Instruction text in the Data Dictionary metadata is extracted programmatically from the most recent instruction field in each form, based on field order. This means:
+<ul>
+<li>If an instruction spans multiple fields, only the last portion will be captured, resulting in partial instructions.</li>
+<li>Because the instruction is provided for all fields up to the next set of instructions, some fields may display text intended for a previous section.</li>
+<li>Manual curation of instruction metadata is planned for future releases. For the most accurate information, always refer to the original form.</li>
+</ul>
+</p>
+</div>
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <img src="../images/NBDC-C-Horizontal.png" alt="NBDC-logo" style="width: 40%;">
   <img src="../images/Format=Horizontal, Color=Black@2x.png" alt="Lasso-logo" style="width: 30%; margin-right: 80px;">
 </div>
 
-HBCD Study data is publicly shared via the NBDC [Data Use Certification (DUC)](https://nbdc-splash-beta.lassoinformatics.com/data-access-process) that researchers sign in agreement to follow the rules outlined for data use. DUC submission is conducted through the [NBDC portal supported by Lasso](https://nbdc-hbcd-beta.lassoinformatics.com). The steps for signing onto this platform and submitting a DUC are outlined here [ADD LINK]().
-
-## How To Download HBCD Study Data
-
-After obtaining data access, users can download HBCD Study release data via the **[Lasso Portal]()** or **Data Exploration and Analysis Portal**  ([DEAP]()) - ADD LINKS.
-
-<p style="text-align: center;">
-  <a class="button-link" href="https://nbdc-splash-beta.lassoinformatics.com/hbcd-study">HBCD Study on NBDC Data Hub &nbsp; ↗️</a>
-</p>
-
-### Lasso HBCD User Warnings
-
-#### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Additional Columns (`cohort` & `site`) Not Defined in Data Dictionary
-Dataset downloads from Lasso will automatically contain two additional columns that are not currently described in the data dictionary: `cohort` (*HBCD Main Child*) and `site` (*site ID*). The `cohort` and `site` columns are identical to the [Visit Information](../measures/demographics/#visit-information) variables `par_visit_data_cohort` and `par_visit_data_site`, respectively.
-
-
-#### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Blank Columns in Query Tool
-
-The following columns are currently blank in the Lasso Dictionary Query Tool for the HBCD Study and will become available in a future release (columns not applicable to HBCD and thus expected to be blank are noted [here](#dd-faq)): **unit**, column names appended with **\*_es**, and columns prepended with **url_\***.
-
-#### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Instruction Metadata - Caution, Please Read Carefully
-The text added to the 'instruction' column in the Data Dictionary metadata are extracted programmatically from the latest instruction field provided in the Data Dictionary of the form based on the order of the fields, and added to all fields up to the next set of instructions. Because of this, in some cases the instruction text may be broken into several instruction fields, of which only the last portion will currently be extracted, leading to partial instruction text. Likewise, since the instruction is provided for all fields up to the next set of instructions, in some cases the instruction provided may correspond to a previous section in the form. Instruction metadata will be fine-tuned manually for future releases. To ensure instructions are accurately interpreted, please refer to the original form.
 
 ## Explore Data
 
