@@ -80,9 +80,9 @@ nav:
             - Diffusion MRI: measures/mri/dmri.md
             - Quantitative MRI: measures/mri/qmri.md
             - Magnetic Resonance Spectroscopy: measures/mri/mrs.md 
-    - Data Processing: 
-        - Processing Pipelines: processing/index.md
-        - Pipeline Software Standards: processing/standards.md
+  - "Data Processing & Standards": 
+      - Processing Pipelines: processing/index.md
+      - Software Standards: processing/standards.md
   - CHANGE LOG: 
     - Pending & Upcoming Updates: changelog/pending.md
     - Known Issues: changelog/knownissues.md
