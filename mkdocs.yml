@@ -40,23 +40,23 @@ plugins:
 docs_dir: docs
 
 nav: 
-  - Access Data:
+  - Data Usage:
     - "Access & Download Data": access/download.md
-    - "Data Formats & Tools":
-        - Tabulated Data: dataformats/tabulated.md
-        - Recommended Programs: dataformats/recprograms.md
     - Responsible Data Use: access/resp_data_use.md
     - Data Use Acknowledgement: access/dua.md
+  - "Data Types & Curation":
+    - BIDS Standard: datacuration/overview.md
+    - Tabulated Data: datacuration/phenotypes.md
+    - File-Based Data:
+        - Raw File-Based Data: datacuration/rawbids.md
+        - Processed File-Based Data: datacuration/derivatives.md
+    - Exclusion Criteria: datacuration/exclusions.md
+    - Tools: dataformats/recprograms.md  
+
   - Release Notes:
     - HBCD Study Design: 
         - Study Design Logic: measures/studydesign.md
         - ReproSchema: reproschema.md
-    - HBCD Data Overview:
-        - BIDS Data Format: datacuration/overview.md
-        - Tabulated Data: datacuration/phenotypes.md
-        - Raw File-Based Data: datacuration/rawbids.md
-        - Processed File-Based Data: datacuration/derivatives.md
-        - Exclusion Criteria: datacuration/exclusions.md
     - "Data Measures & Quality Control":
         - Overview: measures/index.md
         - Age Variables: measures/agevariables.md
