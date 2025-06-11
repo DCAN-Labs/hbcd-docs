@@ -40,10 +40,6 @@ plugins:
 docs_dir: docs
 
 nav: 
-  - ABOUT: index.md
-  - Move to Lasso:
-    - How To Access Data: lasso/duc.md
-    - "Query & Download Data": lasso/download.md
   - Access Data:
     - "Access & Download Data": access/download.md
     - "Data Formats & Tools":
