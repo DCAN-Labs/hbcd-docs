@@ -116,7 +116,7 @@ The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs,
 <p>
 <div id="assist" class="table-banner" onclick="toggleCollapse(this)">
     <span class="text-with-link">
-    <span class="table-text">Assist V1/2/3 Replacement Questions</span>
+    <span class="table-text">HBCD Modifications: Assist V1/2/3 Replacement Questions</span>
     <a class="anchor-link" href="#assist" title="Copy link">
     <i class="fa-solid fa-link"></i>
     </a>
@@ -147,7 +147,7 @@ Lifetime and problematic use, pre-pregnancy and pregnancy use was expanded into 
 <p>
 <div id="sub-options" class="table-banner" onclick="toggleCollapse(this)">
     <span class="text-with-link">
-    <span class="table-text">Assist Substance Type Options</span>
+    <span class="table-text">HBCD Modifications: Assist Substance Type Options</span>
     <a class="anchor-link" href="#sub-options" title="Copy link">
     <i class="fa-solid fa-link"></i>
     </a>
