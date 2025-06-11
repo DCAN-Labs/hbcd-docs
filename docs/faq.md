@@ -1,4 +1,4 @@
-# FAQs
+# Frequently Asked Questions
 ## Data Access/Use
 
 <p>

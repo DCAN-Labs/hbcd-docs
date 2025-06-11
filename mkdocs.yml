@@ -40,23 +40,24 @@ plugins:
 docs_dir: docs
 
 nav: 
-  - Access Data:
+  - Data Usage:
     - "Access & Download Data": access/download.md
     - "Data Formats & Tools":
         - Tabulated Data: dataformats/tabulated.md
         - Recommended Programs: dataformats/recprograms.md
     - Responsible Data Use: access/resp_data_use.md
     - Data Use Acknowledgement: access/dua.md
-  - Release Notes:
-    - HBCD Study Design: 
-        - Study Design Logic: measures/studydesign.md
-        - ReproSchema: reproschema.md
-    - HBCD Data Overview:
-        - BIDS Data Format: datacuration/overview.md
-        - Tabulated Data: datacuration/phenotypes.md
+  - Data Structure & File Types:
+    - Overview: datacuration/overview.md
+    - Tabulated Data: datacuration/phenotypes.md
+    - File-Based Data: 
         - Raw File-Based Data: datacuration/rawbids.md
         - Processed File-Based Data: datacuration/derivatives.md
         - Exclusion Criteria: datacuration/exclusions.md
+  - Data Measures:
+    - HBCD Study Design: 
+        - Study Design Logic: measures/studydesign.md
+        - ReproSchema: reproschema.md
     - "Data Measures & Quality Control":
         - Overview: measures/index.md
         - Age Variables: measures/agevariables.md
@@ -81,10 +82,10 @@ nav:
             - Diffusion MRI: measures/mri/dmri.md
             - Quantitative MRI: measures/mri/qmri.md
             - Magnetic Resonance Spectroscopy: measures/mri/mrs.md 
-    - Data Processing: 
+    - Data Processing & Standards: 
         - Processing Pipelines: processing/index.md
         - Pipeline Software Standards: processing/standards.md
-  - CHANGE LOG: 
+  - Release History: 
     - Pending & Upcoming Updates: changelog/pending.md
     - Known Issues: changelog/knownissues.md
     - Version History:    
