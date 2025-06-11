@@ -12,11 +12,6 @@
 </div>
 </p>
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="images/NBDC-C-Horizontal.png" alt="NBDC-logo" style="width: 40%;">
-  <img src="images/Format=Horizontal, Color=Black@2x.png" alt="Lasso-logo" style="width: 30%; margin-right: 80px;">
-</div>
-
 HBCD data is publicly shared with all researchers associated with an NIH-recognized research institution via the individual or investigator-led group NBDC [Data Use Agreement/Certification (DUC) process](https://nbdc-splash-beta.lassoinformatics.com/data-access-process), which governs data use for both the ABCD and HBCD studies. The DUC outlines rules that must be followed for data use and is signed electronically by both the submitter and the Institutional Signing Officer at their institution. 
 
 DUC approval is handled by the NIH Brain Development Cohort (NBDC) Data Access Committee (DAC), consisting of federal staff from NIH with expertise in science, policy, or bioinformatics resources. DUCs are approved based on satisfaction of basic pre-requisites and whether the data access request is reasonable and aligns with the terms of the DUC. Note that the quality of the science for which the data is intended to be used is not reviewed.
@@ -67,13 +62,13 @@ This section of the DUC process asks you to agree to electronically signing the 
 
 <ol>
     <p>
-    <li>First select the Electronic Record and Signature Disclosure checkbox, which will enable the <b>CONTINUE</b> button - click this<br><img src="images/submit_step1.png" alt="submit step 1"></li>
+    <li>First select the Electronic Record and Signature Disclosure checkbox, which will enable the <b>CONTINUE</b> button - click this<br><img src="../images/submit_step1.png" alt="submit step 1"></li>
     </p>
     <p>
-    <li>You will now see the form that requires your signature. Read through the contract and select <b>START</b> once you are ready to apply your electronic signature:<br><img src="images/esign_start.png" alt="Esign Start"></li>
+    <li>You will now see the form that requires your signature. Read through the contract and select <b>START</b> once you are ready to apply your electronic signature:<br><img src="../images/esign_start.png" alt="Esign Start"></li>
     </p>
     <p>
-    <li>Input your full name and initials in the fields of the following <i>Adopt Your Signature</i> dialogue box that appears:<br><img src="images/adopt_your_sig.png" alt="Adopt Your Signature"></li>
+    <li>Input your full name and initials in the fields of the following <i>Adopt Your Signature</i> dialogue box that appears:<br><img src="../images/adopt_your_sig.png" alt="Adopt Your Signature"></li>
     </p>
     <p>
     <li>Select <b>ADOPT AND SIGN</b> to apply the signature to the document signature page.</li>

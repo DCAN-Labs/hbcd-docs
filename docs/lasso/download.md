@@ -1,8 +1,13 @@
 # How To Download Data
 
-## DEAP
+## Lasso Dictionary Query Tool
+Once you have created on account on the [NBDC portal supported by Lasso](https://nbdc-hbcd-beta.lassoinformatics.com), even prior to obtaining data access via a DUC, you can explore the data dictionary via the **Dictionary Query Tool**: click on the **Query Data** tab in Lasso located in the left-hand side menu and toggle to **Dictionary Query Tool** in the upper right corner of the page.
 
-The Data Exploration and Analysis Portal (DEAP) can be used to explore and download HBCD data. Please visit the DEAP website for detailed information and instructions: [ADD LINK]().
+<img src="../images/querytool/query_step2.png" width="100%" height="auto" class="center">
+
+When using the Dictionary Query Tool, you can filter data based on specific instruments or variables. Use the **column filters** or the **global search** to find exactly what you need quickly and efficiently. 
+
+<img src="../images/querytool/query_step3.png" width="90%" height="auto" class="center">
 
 ## Lasso Portal
 ### Use Query Tool To Select Data for Download
@@ -16,13 +21,6 @@ On the Query Data page, you can toggle between the **Query Wizard** and the **Di
 
 #### Step 3: Navigate the Dictionary Query Tool
 When using the Dictionary Query Tool, you can filter data based on specific instruments or variables. Use the **column filters** or the **global search** to find exactly what you need quickly and efficiently. 
-
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">See the <a href="../nbdc_datadictionary" target="_blank">NBDC Data Dictionary</a> page for Query Tool column name definitions</span>
-  </div>
-</p>
 
 <img src="../images/querytool/query_step3.png" width="90%" height="auto" class="center">
 

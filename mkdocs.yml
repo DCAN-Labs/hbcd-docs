@@ -41,15 +41,10 @@ docs_dir: docs
 
 nav: 
   - ABOUT: index.md
+  - Move to Lasso:
+    - How To Access Data: lasso/duc.md
+    - "Query & Download Data": lasso/download.md
   - Access Data:
-    - Explore Data: explore.md
-    - How To Access Data: data_access/index.md
-    - How To Download Data: download/lasso.md
-    - "Data Formats & Tools":
-        - Tabulated Data: dataformats/tabulated.md
-        - Recommended Programs: dataformats/recprograms.md
-    - Responsible Data Use: resp_data_use.md
-  - NEW Access Data:
     - "Access & Download Data": access/download.md
     - "Data Formats & Tools":
         - Tabulated Data: dataformats/tabulated.md
