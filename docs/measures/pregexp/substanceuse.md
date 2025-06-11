@@ -111,21 +111,22 @@ For all measures, QC procedures involved review of response distributions (cross
 
 The Assist V1, V2, and V3 measures combine questions from the Family History Assessment Module (FHAM) and the All of Us Personal and Family Health History, which was then modified from the [NIDA Quick Screen (Modified Assist)](https://nida.nih.gov/sites/default/files/pdf/nmassist.pdf). The original quick screen was scored; however, our version is not scored. To acknowledge these changes in future publications, authors can note that questions were motivated from the NIDA Modified Assist.
 
-The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs, or illegal drugs in the last year*) was removed and replaced by questions to assess more details regarding types of substances used and the timeline of use before and during pregnancy:
+The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs, or illegal drugs in the last year*) was removed and replaced by questions to assess more details regarding types of substances used and the timeline of use before and during pregnancy. In addition, for lifetime and problematic use, and use pre-pregnancy, pregnancy, end-pregnancy, post-pregnancy, and past 3 months, use was expanded into the substances listed below for HBCD. For each substance, participants indicate whether they had ever used it and, if endorsed, frequency of use with options: 0 (Never), 1 (Once or Twice), 2 (Monthly), 3 (Weekly), or 4 (Daily or Almost Daily). For substances reported as used pre-pregnancy, during pregnancy, and end-pregnancy, participants were asked about modes of use and typical quantities/amounts of consumption for alcohol and opioids (if applicable). Click to expand the following infobox for details on both of these modifications:
 
 <p>
 <div id="assist" class="table-banner" onclick="toggleCollapse(this)">
     <span class="text-with-link">
-    <span class="table-text">HBCD Modifications: Assist V1/2/3 Replacement Questions</span>
+    <span class="table-text">HBCD Modification Detail</span>
     <a class="anchor-link" href="#assist" title="Copy link">
     <i class="fa-solid fa-link"></i>
     </a>
     </span>
-  <span class="arrow">▸</span>
+  <span class="notification-arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="closed-collapsible-content">
 <ul>
-<b>V1: Assess lifetime use and disordered use, or use causing problems in their lives</b>
+<b>Assist V1/2/3 Replacement Questions for NIDA Quick Screen Tool</b><br>
+<strong>V1: Assess lifetime use and disordered use, or use causing problems in their lives</strong>
 	<li>Have you EVER been concerned about your use of this substance or worried it was problematic use?</li>
 	<li>Has a friend, relative, or anyone else EVER expressed concern about your use of this substance</li>
 	<li>Have you EVER tried and failed to control, cut down, or stop using this substance?</li>
@@ -133,29 +134,16 @@ The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs,
 	<li>Have you EVER been clinically diagnosed with abuse, dependence, or a substance use disorder related to your use of this substance</li>
 	<li>Have you EVER taken (prescribed or otherwise) medication(s) as treatment for a problem substance</li>
 <br>  
-<b>V2: Assess use after pregnancy:</b>
+<strong>V2: Assess use after pregnancy:</strong>
 	<li>FROM THE TIME THAT YOU DELIVERED your child until now, how often have you used any of the following substances for any reason [followed by list of substance options from section above]</li>
 <br>  
-<b>V3: Assess impact of substance use after pregnancy:</b>
+<strong>V3: Assess impact of substance use after pregnancy:</strong>
 	<li>DURING THE PAST THREE MONTHS, has your use of this substance led to physical or mental health, social,or financial problems?</li>
     <li>DURING THE PAST THREE MONTHS, have you ever failed to do what was normally expected of you  (like work, go to school, be a parent, or household tasks) because of your use of this substance?</li>
     </ul>
-</div>
-</p>
 
-Lifetime and problematic use, pre-pregnancy and pregnancy use was expanded into the substances listed below for HBCD. For each substance, participants indicate whether they had ever used it and, if endorsed, frequency of use with options: 0 (Never), 1 (Once or Twice), 2 (Monthly), 3 (Weekly), or 4 (Daily or Almost Daily). For substances reported as used, participants were asked about modes of use and typical quantities of consumption for alcohol and opioids (if applicable) as outlined below:
-<p>
-<div id="sub-options" class="table-banner" onclick="toggleCollapse(this)">
-    <span class="text-with-link">
-    <span class="table-text">HBCD Modifications: Assist Substance Type Options</span>
-    <a class="anchor-link" href="#sub-options" title="Copy link">
-    <i class="fa-solid fa-link"></i>
-    </a>
-    </span>
-  <span class="arrow">▸</span>
-</div>
-<div class="collapsible-content">
-    <ul>
+<b>Expanded Assist Substance Type Options</b><br>
+ <ul>
       <li>Nicotine or tobacco products (cigarettes, e-cigarettes, chewing tobacco, cigars, etc.)</li>
         <li>Alcoholic beverages (beer, wine, spirits, etc.)
               <ul>
@@ -185,8 +173,6 @@ Lifetime and problematic use, pre-pregnancy and pregnancy use was expanded into 
     </ul>
 </div>
 </p>
-
-Finally, additional screening for substance use (within three months before or during pregnancy) was implemented for Assist V1 to trigger the Time Line Follow Back (TLFB). The additional questions ask which substances (from the list above) the person used for any reason (1) in the three months before becoming pregnant and (2) during pregnancy. For substances used, respondents were then asked to specify the specific substance type as well (e.g. type of alcohol, cannabinoid, stimulant, tobacco, hallucinogen, and/or opioid).
 
 ### TLFB
 <p>
