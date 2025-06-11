@@ -40,10 +40,6 @@ plugins:
 docs_dir: docs
 
 nav: 
-  - ABOUT: index.md
-  - Move to Lasso:
-    - How To Access Data: lasso/duc.md
-    - "Query & Download Data": lasso/download.md
   - Access Data:
     - "Access & Download Data": access/download.md
     - "Data Formats & Tools":
@@ -93,10 +89,10 @@ nav:
     - Known Issues: changelog/knownissues.md
     - Version History:    
         - Release 1: changelog/versions/R1.md
-  - Get Help:
+  - Help & Support:
     - FAQs: faq.md
-    - Report Issues: reportissue.md
-    - How To Cite Release Docs: citation.md
+    - Report Issues: help/reportissue.md
+    - How To Cite Release Docs: help/citation.md
 
   
 

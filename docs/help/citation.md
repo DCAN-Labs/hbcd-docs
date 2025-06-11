@@ -23,7 +23,7 @@ If it is necesssary for you to cite all versions of the website, please use the 
 To view previous versions of the Release Docs website, select a specific version from the flyout menu in the bottom-right corner of the page (see below). If you need to cite an older version, copy the citation provided on the corresponding version's page.
 
 <div class="img-with-text">
-    <img src="../images/flyout-addons.webp" alt="Opened flyout menu example image from ReadTheDocs" width="50%" height="auto" class="center">
+    <img src="../../images/flyout-addons.webp" alt="Opened flyout menu example image from ReadTheDocs" width="30%" height="auto" class="center">
     <p style="text-align: center;"><i>Opened flyout menu example (source: ReadtheDocs)</i></p>
 </div>
 
