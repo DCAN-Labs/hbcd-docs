@@ -27,6 +27,9 @@ Dataset downloads from Lasso will automatically contain two additional columns t
 
 The following columns are currently blank in the Lasso Dictionary Query Tool for the HBCD Study and will become available in a future release (columns not applicable to HBCD and thus expected to be blank are noted [here](#dd-faq)): **unit**, column names appended with **\*_es**, and columns prepended with **url_\***.
 
+#### <span style = "color: #ffa500;" class="fas fa-exclamation-triangle"></span> Instruction Metadata - Caution, Please Read Carefully
+The text added to the 'instruction' column in the Data Dictionary metadata are extracted programmatically from the latest instruction field provided in the Data Dictionary of the form based on the order of the fields, and added to all fields up to the next set of instructions. Because of this, in some cases the instruction text may be broken into several instruction fields, of which only the last portion will currently be extracted, leading to partial instruction text. Likewise, since the instruction is provided for all fields up to the next set of instructions, in some cases the instruction provided may correspond to a previous section in the form. Instruction metadata will be fine-tuned manually for future releases. To ensure instructions are accurately interpreted, please refer to the original form.
+
 ## Explore Data
 
 HBCD data is organized into tables, each of which contains a set of variables. The data dictionary provides detailed information about each variable in the HBCD data tables. The dictionary includes the variable name, label, description, data type, and other relevant information. 
