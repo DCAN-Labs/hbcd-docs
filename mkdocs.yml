@@ -83,12 +83,12 @@ nav:
   - "Data Processing & Standards": 
       - Processing Pipelines: processing/index.md
       - Software Standards: processing/standards.md
-  - CHANGE LOG: 
+  - Release History: 
     - Pending & Upcoming Updates: changelog/pending.md
     - Known Issues: changelog/knownissues.md
     - Version History:    
         - Release 1: changelog/versions/R1.md
-  - Get Help:
+  - Help & Support:
     - FAQs: faq.md
     - Report Issues: reportissue.md
     - How To Cite Release Docs: citation.md
