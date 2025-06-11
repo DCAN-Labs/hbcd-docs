@@ -50,10 +50,9 @@ nav:
     - File-Based Data:
         - Raw File-Based Data: datacuration/rawbids.md
         - Processed File-Based Data: datacuration/derivatives.md
-    - Exclusion Criteria: datacuration/exclusions.md
+        - Exclusion Criteria: datacuration/filebased/exclusions.md
     - Tools: dataformats/recprograms.md  
-
-  - Release Notes:
+  - Data Measures:
     - HBCD Study Design: 
         - Study Design Logic: measures/studydesign.md
         - ReproSchema: reproschema.md
