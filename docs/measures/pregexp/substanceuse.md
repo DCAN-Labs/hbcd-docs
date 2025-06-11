@@ -109,12 +109,18 @@ For all measures, QC procedures involved review of response distributions (cross
 </div>
 </p>
 
-The Assist V1, V2, and V3 measures were created from combining the Family History Assessment Module (FHAM) and the All of Us Personal and Family Health History, which was then modified from the [NIDA Quick Screen (Modified Assist)](https://nida.nih.gov/sites/default/files/pdf/nmassist.pdf). The original quick screen was scored; however, our version is not scored. To acknowledged these changes in future publications, authors can note that questions were motivated from the NIDA Modified Assist.
+The Assist V1, V2, and V3 measures combine questions from the Family History Assessment Module (FHAM) and the All of Us Personal and Family Health History, which was then modified from the [NIDA Quick Screen (Modified Assist)](https://nida.nih.gov/sites/default/files/pdf/nmassist.pdf). The original quick screen was scored; however, our version is not scored. To acknowledge these changes in future publications, authors can note that questions were motivated from the NIDA Modified Assist.
 
-The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs, or illegal drugs in the last year*) was removed and replaced by questions to assess more details regarding substances used and the timeline of use before and during pregnancy:
+The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs, or illegal drugs in the last year*) was removed and replaced by questions to assess more details regarding types of substances used and the timeline of use before and during pregnancy:
+
 <p>
-<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
+<div id="assist" class="table-banner" onclick="toggleCollapse(this)">
+    <span class="text-with-link">
     <span class="table-text">Assist V1/2/3 Replacement Questions</span>
+    <a class="anchor-link" href="#assist" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
@@ -139,8 +145,13 @@ The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs,
 
 Lifetime and problematic use, pre-pregnancy and pregnancy use was expanded into the substances listed below for HBCD. For each substance, participants indicate whether they had ever used it and, if endorsed, frequency of use with options: 0 (Never), 1 (Once or Twice), 2 (Monthly), 3 (Weekly), or 4 (Daily or Almost Daily). For substances reported as used, participants were asked about modes of use and typical quantities of consumption for alcohol and opioids (if applicable) as outlined below:
 <p>
-<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
-  <span class="table-text">Assist Substance Type Options</span>
+<div id="sub-options" class="table-banner" onclick="toggleCollapse(this)">
+    <span class="text-with-link">
+    <span class="table-text">Assist Substance Type Options</span>
+    <a class="anchor-link" href="#sub-options" title="Copy link">
+    <i class="fa-solid fa-link"></i>
+    </a>
+    </span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
