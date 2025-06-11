@@ -42,9 +42,6 @@ docs_dir: docs
 nav: 
   - Data Usage:
     - "Access & Download Data": access/download.md
-    - "Data Formats & Tools":
-        - Tabulated Data: dataformats/tabulated.md
-        - Recommended Programs: dataformats/recprograms.md
     - Responsible Data Use: access/resp_data_use.md
     - Data Use Acknowledgement: access/dua.md
   - Data Structure & File Types:
@@ -54,6 +51,7 @@ nav:
         - Raw File-Based Data: datacuration/rawbids.md
         - Processed File-Based Data: datacuration/derivatives.md
         - Exclusion Criteria: datacuration/exclusions.md
+    - Recommended Tools: dataformats/recprograms.md
   - Data Measures:
     - HBCD Study Design: 
         - Study Design Logic: measures/studydesign.md
