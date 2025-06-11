@@ -126,50 +126,63 @@ The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs,
 <div class="closed-collapsible-content">
 <ul>
 <b>Assist V1/2/3 Replacement Questions for NIDA Quick Screen Tool</b><br>
-<strong>V1: Assess lifetime use and disordered use, or use causing problems in their lives</strong>
-	<li>Have you EVER been concerned about your use of this substance or worried it was problematic use?</li>
-	<li>Has a friend, relative, or anyone else EVER expressed concern about your use of this substance</li>
-	<li>Have you EVER tried and failed to control, cut down, or stop using this substance?</li>
-	<li>Have you EVER sought or received treatment related to your use of this substance by a medical provider, spiritual leader, community mutual help group (like AA or SMART Recovery), counselors, or in other settings</li>
-	<li>Have you EVER been clinically diagnosed with abuse, dependence, or a substance use disorder related to your use of this substance</li>
-	<li>Have you EVER taken (prescribed or otherwise) medication(s) as treatment for a problem substance</li>
+<strong>V1: Assess lifetime use [lt] and disordered use, or use causing problems in their lives; Assess use 3 months pre-pregnancy [pre] and use during pregnancy [during]</strong>
+	<li>[lt_use] IN YOUR LIFE, which of the following substances have you EVER used for any reason? [followed by list of substance options from section below]</li>
+	<li>[concern] Have you EVER been concerned about your use of this substance or worried it was problematic use?</li>
+	<li>[concernoth] Has a friend, relative, or anyone else EVER expressed concern about your use of this substance?</li>
+	<li>[control] Have you EVER tried and failed to control, cut down, or stop using this substance?</li>
+	<li>[tx] Have you EVER sought or received treatment related to your use of this substance by a medical provider, spiritual leader, community mutual help group (like AA or SMART Recovery), counselors, or in other settings</li>
+	<li>[diagn] Have you EVER been clinically diagnosed with abuse, dependence, or a substance use disorder related to your use of this substance</li>
+  <li>[med] Have you EVER taken (prescribed or otherwise) medication(s) as treatment for a problem substance</li>
+  <li>[pre_use] IN THE THREE MONTHS BEFORE YOU BECAME PREGNANT, which of the following substances have you ever used for any reason? [followed by list of substance options from section below]</li>
+  <li>[during_use] DURING YOUR PREGNANCY, which of the following substances have you ever used for any reason? [followed by list of substance options from section below]</li>
+  <li>[during_med] DURING YOUR PREGNANCY, did you take (prescribed or otherwise) medication(s) as treatment for a problem substance? [followed by list of medications used to treat substance use problems]</li>
+
 <br>  
 <strong>V2: Assess use after pregnancy:</strong>
-	<li>FROM THE TIME THAT YOU DELIVERED your child until now, how often have you used any of the following substances for any reason [followed by list of substance options from section above]</li>
+	<li>[end_use] SINCE WE LAST MET UNTIL THE END OF PREGNANCY, which of the following substances did you use for any reason? [followed by list of substance options from section below]</li>
+  <li>[end_med] SINCE WE LAST MET UNTIL THE END OF PREGNANCY, did you take (prescribed or otherwise) medication(s) as treatment for a problem substance? [followed by list of medications used to treat substance use problems]</li>
+  <li>[post_use] FROM THE TIME THAT YOU DELIVERED your child until now, how often have you used any of the following substances for any reason? [followed by list of substance options from section below]</li>
 <br>  
-<strong>V3: Assess impact of substance use after pregnancy:</strong>
-	<li>DURING THE PAST THREE MONTHS, has your use of this substance led to physical or mental health, social,or financial problems?</li>
-    <li>DURING THE PAST THREE MONTHS, have you ever failed to do what was normally expected of you  (like work, go to school, be a parent, or household tasks) because of your use of this substance?</li>
-    </ul>
+<strong>V3: Assess use and impact of substance use after pregnancy in past 3 months (3m):</strong>
+	<li>[3m_use] IN THE PAST THREE MONTHS, how often have you used any of the following substances for any reason? [followed by list of substance options from section below]</li>
+  <li>[problem] DURING THE PAST THREE MONTHS, has your use of this substance led to physical or mental health, social, or financial problems?</li>
+  <li>[perform] DURING THE PAST THREE MONTHS, have you ever failed to do what was normally expected of you (like work, go to school, be a parent, or household tasks) because of your use of this substance?</li>
+  </ul>
 
 <b>Expanded Assist Substance Type Options</b><br>
  <ul>
-      <li>Nicotine or tobacco products (cigarettes, e-cigarettes, chewing tobacco, cigars, etc.)</li>
-        <li>Alcoholic beverages (beer, wine, spirits, etc.)
+      <li>[001] Nicotine or tobacco products (cigarettes, e-cigarettes, chewing tobacco, cigars, etc.)</li>
+        <li>[002] Alcoholic beverages (beer, wine, spirits, etc.)
               <ul>
                   <li><b>IF ENDORSED:</b> specify type and average volume of one glass/container typically consumed (U.S.-defined ‘standard drinks’ were then calculated by dividing the amount reported by 12oz (beer, hard cider, hard seltzer), 5oz (wine) or 1.5 oz (spirits))</li>
               </ul>
         </li>
-        <li>Cannabis (marijuana, weed, pot, hash, wax, blunts, dabs, gummies, vapes, etc.)</li>
-        <li>Cannabidiol (CBD; not containing THC)</li>
-        <li>Synthetic cannabinoids (K2, spice, etc.)
-        <li>Prescription opioids (oxycodone, morphine, codeine, fentanyl, tramadol, etc.)
+        <li>[003] Cannabis (marijuana, weed, pot, hash, wax, blunts, dabs, gummies, vapes, etc.)</li>
+        <li>[004] Cannabidiol (CBD; not containing THC)</li>
+        <li>[005] Synthetic cannabinoids (K2, spice, etc.)
+        <li>[006] Prescription opioids (oxycodone, morphine, codeine, fentanyl, tramadol, etc.)
               <ul>
                   <li><b>IF ENDORSED:</b> specify type of opioid used and typical quantities per occasion for the following: heroin (grams, bags), prescription opioids (pills), buprenorphine (pills, injectables, films), and methadone (mg)</li>
               </ul>
         </li>
-        <li>Heroin or other illicit opioids (fentanyl, oxycodone, etc.)</li>
-        <li>Methadone</li>
-        <li>Buprenorphine</li>
-        <li>Benzodiazepines, sedatives, or sleeping pills (Valium, Xanax, Ambien, barbiturates, etc.)</li>
-        <li>Cocaine (coke, crack, etc.)</li>
-        <li>Amphetamine type stimulants (speed, Adderall, diet pills, etc.)</li>
-        <li>Methamphetamine (meth, crystal meth, etc.)</li>
-        <li>Inhalants (nitrous, glue, petrol, paint thinner, etc.)</li>
-        <li>Hallucinogens or club drugs (LSD, acid, mushrooms, psilocybin, MDMA, molly, ecstasy, Special K, GHB, etc.)</li>
-        <li>Androgenic anabolic steroids (for performance enhancement)</li>
-        <li>Phencyclidine (PCP)</li>
-        <li>Kratom</li>
+        <li>[007] Heroin or other illicit opioids (fentanyl, oxycodone, etc.)</li>
+        <li>[008] Methadone</li>
+        <li>[009] Buprenorphine</li>
+        <li>[010] Benzodiazepines, sedatives, or sleeping pills (Valium, Xanax, Ambien, barbiturates, etc.)</li>
+        <li>[011] Cocaine (coke, crack, etc.)</li>
+        <li>[012] Amphetamine type stimulants (speed, Adderall, diet pills, etc.)</li>
+        <li>[013] Methamphetamine (meth, crystal meth, etc.)</li>
+        <li>[014] Inhalants (nitrous, glue, petrol, paint thinner, etc.)</li>
+        <li>[015] Hallucinogens or club drugs (LSD, acid, mushrooms, psilocybin, MDMA, molly, ecstasy, Special K, GHB, etc.)</li>
+        <li>[016] Androgenic anabolic steroids (for performance enhancement)</li>
+        <li>[017] Phencyclidine (PCP)</li>
+        <li>[018] Kratom</li>
+        <li>[019] Xylazine</li>
+      <strong>Medications used to treat substance use problems</strong>
+        <li>[001] Acamprosate (Campral), topiramate (Topamax), or gabapentin (Neurontin)</li>
+        <li>[002] Disulfiram (Antabuse)</li>
+        <li>[003] Naltrexone (Revia, Vivitrol)</li>
     </ul>
 </div>
 </p>
