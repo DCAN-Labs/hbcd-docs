@@ -48,7 +48,7 @@ nav:
     - Responsible Data Use: access/resp_data_use.md
     - Data Use Acknowledgement: access/dua.md
   - Data Structure & File Types:
-    - Overview: datacuration/overview.md
+    - Structure (BIDS): datacuration/overview.md
     - Tabulated Data: datacuration/phenotypes.md
     - File-Based Data: 
         - Raw File-Based Data: datacuration/rawbids.md
