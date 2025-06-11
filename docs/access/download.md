@@ -19,9 +19,9 @@ After obtaining data access, users can download HBCD Study release data via the 
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="arrow">▸</span>
+  <span class="notification-arrow">▸</span>
 </div>
-<div class="warning-collapsible-content">
+<div class="closed-collapsible-content">
 <p>Dataset downloads from Lasso will automatically contain two additional columns that are not currently described in the data dictionary: 'cohort' (<em>HBCD Main Child</em>) and `site` (<em>site ID</em>). The `cohort` and `site` columns are identical to the <a href="../../measures/demographics/#visit-information">Visit Information</a> variables <b><code>par_visit_data_cohort</code></b> and <b><code>par_visit_data_site</code></b>, respectively.</p>
 </div>
 
@@ -33,9 +33,9 @@ After obtaining data access, users can download HBCD Study release data via the 
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="arrow">▸</span>
+  <span class="notification-arrow">▸</span>
 </div>
-<div class="warning-collapsible-content">
+<div class="closed-collapsible-content">
 <p>
   The following columns are currently blank in the Lasso Dictionary Query Tool for the HBCD Study and will become available in a future release 
   (columns not applicable to HBCD and thus expected to be blank are noted 
@@ -53,9 +53,9 @@ After obtaining data access, users can download HBCD Study release data via the 
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="arrow">▸</span>
+  <span class="notification-arrow">▸</span>
 </div>
-<div class="warning-collapsible-content">
+<div class="closed-collapsible-content">
 <p>
 Instruction text in the Data Dictionary metadata is extracted programmatically from the most recent instruction field in each form, based on field order. This means:
 <ul>
