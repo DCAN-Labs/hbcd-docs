@@ -51,10 +51,6 @@ nav:
         - Recommended Programs: dataformats/recprograms.md
     - Responsible Data Use: access/resp_data_use.md
     - Data Use Acknowledgement: access/dua.md
-  - Get Help:
-    - FAQs: faq.md
-    - Report Issues: reportissue.md
-    - How To Cite Release Docs: citation.md
   - Release Notes:
     - HBCD Study Design: 
         - Study Design Logic: measures/studydesign.md
@@ -99,6 +95,10 @@ nav:
     - Known Issues: changelog/knownissues.md
     - Version History:    
         - Release 1: changelog/versions/R1.md
+  - Get Help:
+    - FAQs: faq.md
+    - Report Issues: reportissue.md
+    - How To Cite Release Docs: citation.md
 
   
 
