@@ -259,7 +259,7 @@
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
-<p>Please refer to the <a href="../../processing/pipelines">Release Notes: Data Processing</a> for an overview of the processing pipelines used and software standards. For full documentation on how each pipeline was used for HBCD processing, please visit the external <a href="https://hbcd-cbrain-processing.readthedocs.io/latest/">HBCD Processing</a> page.</p>
+<p>Please refer to the <a href="../../processing/#hbcd-processing-pipelines">HBCD Processing Pipelines</a> for an overview of the pipelines and software standards. For full documentation on how each pipeline was used for HBCD processing, please visit the external <a href="https://hbcd-cbrain-processing.readthedocs.io/latest/">HBCD Processing</a> page.</p>
 </div>
 </p>
 
@@ -325,7 +325,7 @@
 </div>
 <div class="notification-collapsible-content">
 <p>
-Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing raw data standardized to the Brain Imaging Data Structure (BIDS). See <a href="../../datacuration/overview">HBCD Data Overview</a> for an overview of BIDS and details of raw dMRI data <a href="../../datacuration/rawbids/#diffusion-dwi">here</a>. Processed gradient tables, adjusted for head rotation, are additionally provided in the QSIPrep <code>derivatives/</code> - see details <a href="../../datacuration/derivatives/#qsiprep-qsiprep">here</a>.
+Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing raw data standardized to the Brain Imaging Data Structure (BIDS). See <a href="../../datacuration/overview">here</a> for an overview of BIDS and <a href="../../datacuration/rawbids/#diffusion-dwi">here</a> for details of raw dMRI data. Processed gradient tables, adjusted for head rotation, are additionally provided in the QSIPrep <code>derivatives/</code> - see details <a href="../../datacuration/derivatives/#qsiprep-qsiprep">here</a>.
 </p>
 </div>
 </p>
