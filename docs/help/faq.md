@@ -194,7 +194,7 @@
 </div>
 <div class="notification-collapsible-content">
 <p>In the HBCD Study, <i>all</i> data are collected under the child’s subject ID, even when provided by the birth parent or another caregiver. This is because most information collected from caregivers pertains to the child. Please see details of the design logic <a href="../../measures/studydesign/#study-design-logic-child-centric-data-structure">here</a>.</p> 
-<p>To help identify who provided the information, the <b>source</b> component in the table name may be helpful, as it typically indicates whether the data came from the caregiver, child, or another source. However, the meaning of source is not consistent across all instruments at this time - please see Phenotype BIDS Data &gt; <a href="../../datacuration/phenotypes/#instrument-file-naming-conventions">Instrument File Naming Conventions</a> for details.</p>
+<p>To help identify who provided the information, the <b>source</b> component in the table name may be helpful, as it typically indicates whether the data came from the caregiver, child, or another source. However, the meaning of source is not consistent across all instruments at this time - please see <a href="../../datacuration/phenotypes/#file-naming-conventions">File Naming Conventions</a> for details.</p>
 </div>
 </p>
 
@@ -210,7 +210,7 @@
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
-<p>Fields reporting age include global, single-point (i.e. static) variables in Basic Demographics (see <a href="../../measures/demographics#demo-age">infobox</a>), instrument-specific variables for age in tabulated data that vary depending on the date of administration for a given instrument (see <a href="../../datacuration/phenotypes/#instrument-age">infobox</a>), and age variables for raw file-based data that vary based on date of acquisition (see <a href="../../datacuration/rawbids/#age">infobox</a>). All of this information is additionally summarized in a single location in table format in the <a href="../../measures/agevariables">Age Variable Definitions</a> section.</p>
+<p>Fields reporting age include global, single-point (i.e. static) variables in <b>Basic Demographics</b> (see <a href="../../measures/demographics#demo-age">infobox</a>), <b>instrument-specific variables</b> for age in tabulated data that vary depending on the date of administration for a given instrument (see <a href="../../datacuration/phenotypes/#instrument-age">infobox</a>), and age variables for <b>raw file-based data</b> that vary based on date of acquisition (see <a href="../../datacuration/rawbids/#age">infobox</a>). All of this information is additionally summarized in a single location in table format in the <a href="../../measures/agevariables">Age Variable Definitions</a> section.</p>
 </div>
 </p>
 
@@ -226,8 +226,7 @@
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
-<p>Instrument table and field names may contain either single or double underscores. For example: <code>ncl_ch_mlds</code> (MLDS) vs <code>ncl_cg_spm2__inf</code> (SPM-2) <a href="../../measures/neurocog/#neurocognition-language">Neurocognition & Language</a> instruments. The double underscore (<code>__</code>) originates from instances where a table name or field previously contained <code>_i_</code>, which was later removed in the Data Release process. When <code>_i_</code> was removed, it was replaced by a double underscore.</p> 
-<p>In terms of its significance, in some cases single underscores (<code>_</code>) are used at a higher level in the hierarchy and help distinguish between scales and sub-scale counters across different instruments. <i>However</i>, a unified naming scheme has not yet been employed in the current release, so this will not be consistent across variables. Future releases aim to implement a standardized naming scheme for consistency.</p>
+<p>Instrument table and field names may contain either single or double underscores. See the subsection of <a href="../../datacuration/phenotypes/#single-vs-double-underscores">File Naming Conventions</a> for details on the logic.
 </div>
 </p>
 

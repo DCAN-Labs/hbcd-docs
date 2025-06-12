@@ -29,7 +29,6 @@ Tabulated data lists information for all participants in both plain text (`.tsv`
 </div>
 <div class="notification-open-collapsible-content">
 <p><i>See the <a href="../../measures/agevariables">Age Variable Definitions</a> section for a summary of all age-related variables across the release, as well as the information summarized in table format <a href="../../measures/agevariables/#tabulated-instrument-data">here</a>.</i></p>
-
 <b>Gestational Age at Administration</b> (<code>&lt;instrument_name&gt;_gestational_age</code>): 'GAA' is the time from the first day of the birth parent’s last menstrual period (LMP), estimated as EDD minus 280 days, to the instrument administration date. GAA is given in whole weeks, rounded down, for only the V01 visit. For a given participant, GAA typically varies by no more than 4 weeks across protocol elements except in cases where protocol exceptions were granted.
 <br>
 <br>
@@ -146,6 +145,7 @@ df[df["<COLUMN NAME>"].isna()][["<COLUMN NAME>_missing_reason"]]
 
 ## File Naming Conventions
 
+### Overview
 Most protocol elements follow a standardized naming convention with the structure: `domain_source_acronym`. Note that imaging derivatives do not follow this naming scheme, but are generally understood to be under the MRI, EEG, etc. domain and strictly for the 'Child.' Each component represents the following:
 
 - **domain**: The general domain or category the protocol element falls under (e.g., biospecimens, MRI, behavior).
@@ -189,21 +189,23 @@ For example, `mri_ra_prep` refers to MRI-related data entered by a research assi
   </div>
 </div>
 
-<div id="json-metadata" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">FYI: Correspondence to JSON Metadata</span>
-  <span class="arrow">▸</span>
-</div>
-<div class="notification-open-collapsible-content">
-<p>The <code>domain</code> and <code>source</code> are also included in the JSON metadata and are typically derived from the corresponding sections of the instrument name. However, in some cases, data are collected directly into fields or tables that do not follow the standard naming convention. In those instances, the domain and source values are added later during the Data Release process.</p>
-<strong>This applies to:</strong>
-<ul>
-<li>BioSpecimens  </li>
-<li>Imaging file based data &amp; derivatives  </li>
-<li>Some session-level elements (e.g. <code>informantID</code>)  </li>
-<li>Participant-level data</li>
-</ul>
-</div>
+### Correspondence to JSON Metadata
+
+The `domain` and `source` are also included in the JSON metadata and are typically derived from the corresponding sections of the instrument name. However, in some cases, data are collected directly into fields or tables that do not follow the standard naming convention. In those instances, the domain and source values are added later during the Data Release process.
+
+**This applies to:**
+
+*   BioSpecimens
+*   Imaging file based data & derivatives
+*   Some session-level elements (e.g. `informantID`)
+*   Participant-level data
+
+### Single vs Double Underscores 
+
+Instrument table and field names may contain either single or double underscores. For example: `ncl_ch_mlds` (MLDS) vs `ncl_cg_spm2__inf` (SPM-2) [Neurocognition & Language](../../measures/neurocog/#neurocognition-language) instruments. The double underscore ( `__` ) originates from instances where a table name or field previously contained `_i_`, which was later removed in the Data Release process. When `_i_` was removed, it was replaced by a double underscore.
+
+In terms of its significance, in some cases single underscores ( `_` ) are used at a higher level in the hierarchy and help distinguish between scales and sub-scale counters across different instruments. _However_, a unified naming scheme has not yet been employed in the current release, so this will not be consistent across variables. Future releases aim to implement a standardized naming scheme for consistency.
+
 
 ## Exclusion Criteria
 
