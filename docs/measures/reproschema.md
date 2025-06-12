@@ -45,7 +45,7 @@ ReproSchema is a framework designed to address these challenges by providing a s
     <li><strong>Question:</strong> "On average, how many hours of sleep do you get in a 24-hour period, including naps?"</li>
     <li><strong>Response Options:</strong> Same as Release 2.0.</li>
   </ul>
-  <hr> <!-- A subtle separator for better readability -->
+  <hr>
   <ul>
   <b>Implications for Data Analysis:</b>
     <li><strong>Data Consistency:</strong> The shift from free-text to predefined categories (Release 1.0 → 2.0) standardizes responses, reducing variability but limiting detail.</li>

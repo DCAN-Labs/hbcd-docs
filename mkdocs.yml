@@ -55,7 +55,7 @@ nav:
   - Data Measures:
     - HBCD Study Design: 
         - Study Design Logic: measures/studydesign.md
-        - ReproSchema: reproschema.md
+        - ReproSchema: measures/reproschema.md
     - "Data Measures & Quality Control":
         - Overview: measures/index.md
         - Age Variables: measures/agevariables.md
@@ -80,7 +80,7 @@ nav:
             - Diffusion MRI: measures/mri/dmri.md
             - Quantitative MRI: measures/mri/qmri.md
             - Magnetic Resonance Spectroscopy: measures/mri/mrs.md 
-    - Data Processing & Standards: 
+    - Processing & Analytic Standards: 
         - Processing Pipelines: processing/index.md
         - Pipeline Software Standards: processing/standards.md
   - Release History: 
