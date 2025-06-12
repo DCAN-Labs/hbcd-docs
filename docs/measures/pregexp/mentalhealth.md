@@ -169,7 +169,12 @@ Scores on these scales assess trauma-related stress symptoms and do not differen
 
 
 ### EPDS
-The Edinburgh Postnatal Depression Scale (<a href="https://downloads.aap.org/AAP/PDF/Postnatal%20Depression%20Scale.pdf">EPDS</a>), a sensitive, 10-item screening tool for prenatal and postpartum depression symptoms, was selected to capture symptoms of maternal depression due to its ease of administration and widely accepted use. For HBCD, the response option 'refuse to answer' was added to all questions. Note that this does not impact scoring as questions answered with ‘refuse to answer’ are skipped. In addition, scores for EPDS suicide (score>1) or depression (overall score>11) triggered clinical alerts for study staff.
+The Edinburgh Postnatal Depression Scale (<a href="https://downloads.aap.org/AAP/PDF/Postnatal%20Depression%20Scale.pdf">EPDS</a>), a sensitive, 10-item screening tool for prenatal and postpartum depression symptoms, was selected to capture symptoms of prenatal and postnatal depression due to its ease of administration and widely accepted use. Responses are scored 0, 1, 2, or 3, and responses to items are summed for a total score. Note that items 3, 5, 6, 7, 8, 9, and 10 are reverse scored (i.e., 3, 2, 1, 0). For HBCD, the response option ‘Decline to answer’ was added to all questions. The response option ‘Don’t know’ was also included at the beginning of data collection, but was subsequently removed. Note that this does not impact scoring as questions answered with ‘Decline to answer’ or ‘Don’t know’ are skipped and marked as missing. Note that total scores are not prorated or left missing for missing items and data users should determine how to address missing data. In addition, scores for EPDS self-harm (score>1) or depression (total score>11) triggered clinical alerts for study staff.
+
+**Questionnaire prompt/instructions:**     
+*Since you are either pregnant or have recently had a baby, we want to know how you feel. MARK the answer that comes closest to how you have felt IN THE PAST 7 DAYS-not just how you feel today.*
+
+*In the past 7 days…*
 
 
 ## References
