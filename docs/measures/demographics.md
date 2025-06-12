@@ -128,13 +128,13 @@ There are two combined race and ethnicity variables that aggregate multiracial i
 <tr>
 <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Mother combined race and ethnicity - multiracial category split into Hispanic and non-Hispanic groups</td>
 <td style="word-break: break-all; white-space: normal"><code>screen_mother_ethnoracial_acs_by_multi_ethnicity</code></td>
-<td style="padding: 8px; word-wrap: break-word; white-space: normal;">V01 Demo</td>
+<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Admin</td>
 <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Individuals are assigned a single category, constructed from screening responses to separate race and ethnicity questions, with subcategories for multiracial individuals based on ethnicity following the logic described in the <a href="#bdemo-fyi">Variable Logic & Definitions</a> above.</td>
 </tr>
 <tr>
 <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Mother combined race and ethnicity - multiracial category split into Black and non-Black groups</td>
 <td style="word-break: break-all; white-space: normal;"><code>screen_mother_ethnoracial_acs_by_multi_race</code></td>
-<td style="padding: 8px; word-wrap: break-word; white-space: normal;">V01 Demo</td>
+<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Admin</td>
 <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Individuals are assigned a single category, constructed from screening responses to separate race and ethnicity questions, with subcategories for multiracial individuals based on race following the logic described in the <a href="#bdemo-fyi">Variable Logic & Definitions</a> above.</td>
 </tr>
 <tr>
@@ -170,7 +170,7 @@ There are two combined race and ethnicity variables that aggregate multiracial i
 <tr>
 <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Mother race, indicator variables from survey item</td>
 <td style="padding: 8px; word-wrap: break-word; white-space: normal;"><code>rc_mother_race___{0 - 7}</code></td>
-<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Admin</td>
+<td style="padding: 8px; word-wrap: break-word; white-space: normal;">V01 Demo</td>
 <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Indicator variables for responses to <a class="in-cell-link" href="https://support.researchallofus.org/hc/en-us/articles/360039299632-Race-and-ethnicity-generalizations" target="_blank">All of Us</a> combined race and ethnicity question:<br>
 0 = American Indian or Alaskan Native<br>
 1 = Asian<br>
