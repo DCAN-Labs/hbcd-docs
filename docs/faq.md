@@ -13,7 +13,7 @@
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
-<p>Please see instructions for data access under <a href="../data_access">How To Access Data</a>.</p>
+<p>Please see instructions for data access under <a href="../access/download">How To Access Data</a>.</p>
 </div>
 </p>
 
