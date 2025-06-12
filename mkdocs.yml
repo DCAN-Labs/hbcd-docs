@@ -65,6 +65,7 @@ nav:
         - "Neurocognition & Language": measures/neurocog.md    
         - "Novel Technologies & Wearable Sensors": measures/sensors.md                     
         - Physical Health: measures/physicalhealth.md
+        #- Pregnancy & Exposure: measures/pregexposures.md
         - "Pregnancy & Exposure": 
             - "Pregnancy & Infant Health": measures/pregexp/preghealth.md
             - Substance Use: measures/pregexp/substanceuse.md
