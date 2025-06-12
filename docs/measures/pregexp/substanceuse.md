@@ -215,7 +215,9 @@ Finally, the Time Line Follow Back (TLFB) was triggered when substance use was r
 </div>
 </p>
 
-The [original Timeline Follow Back](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf) is designed to cover the last 7 days from when the survey is administered. The [HBCD TLFB](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf), triggered by Assist responses, was adapted to instead record maternal substance use before and during pregnancy. Participants reported use during 9 weeks in total for each substance type (e.g., edible cannabis) reported on the ASSIST. For V01, this includes: pre-pregnancy use (Weeks 1-2: four weeks to two weeks before LMP), early pregnancy use (Weeks 3-6: two to six weeks after LMP), and current use (Week 7: the week prior to V1). The TLFB was repeated at V02 to capture substance use during the last two full weeks of gestation (Weeks 8-9). Daily usage frequency was recorded for all products except for cigarettes/cigarillos (count per day) and alcohol (single servings per day).
+The [original Timeline Follow Back](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf) is designed to cover the previous 7 days from when the survey is administered. The [HBCD TLFB](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf), triggered by responses on the ASSIST, was adapted to record substance use before and during pregnancy.
+
+Participants reported use during 9 weeks in total for each substance type reported on the ASSIST (e.g., edible cannabis). For V01, this includes: pre-pregnancy use (Weeks 1-2: four weeks to two weeks before LMP), early pregnancy use (Weeks 3-6: two to six weeks after LMP), and current use (Week 7: the week prior to V1). The TLFB was repeated at V02 to capture substance use during the last two full weeks of gestation (Weeks 8-9). Daily usage frequency was recorded for all products except for cigarettes/cigarillos (count per day) and alcohol (single servings per day).
 
 ## References
 <div class="references">
