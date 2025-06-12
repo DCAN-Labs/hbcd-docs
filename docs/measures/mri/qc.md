@@ -444,9 +444,16 @@ BrainSwipes harnesses the power of crowdsourcing to address the time-intensive t
     <img src="../images/brainswipes.png" alt="Example quality assessment of surface delineation in BrainSwipes" style="width: 100%; height: auto;">
     <p><i>Example quality assessment of surface delineation on BrainSwipes platform (displaying brain in axial plane at level of basal ganglia/putamen).</i></p>
 </div>
+
+
 <p>
 <div id="swipes-procedures" class="table-banner" onclick="toggleCollapse(this)">
+<span class="text-with-link">
   <span class="table-text">BrainSwipes QC Procedures</span>
+	<a class="anchor-link" href="#swipes-procedures" title="Copy link">
+  	<i class="fa-solid fa-link"></i>
+  	</a>
+  </span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
@@ -468,25 +475,20 @@ Swipes display GIFs of full-resolution T2w images as a grayscale background, wit
 </p>
 
 ### Location of BrainSwipes Results in Data Release
+
 <p>
 <div id="dwi-fyi" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text-with-link">
   <span class="text">Automated QC for Processed Diffusion Data</span>
+  <a class="anchor-link" href="#dwi-fyi" title="Copy link">
+  	<i class="fa-solid fa-link"></i>
+  	</a>
+  </span>
   <span class="arrow">▸</span>
 </div>
 <div class="notification-open-collapsible-content">
 <p>The release currently includes BrainSwipes results for only structural and functional MRI. Diffusion results will be included in a later release. However, existing automated QC procedures for processed diffusion data are fairly robust compared to sMRI and fMRI. The automated QC metrics are provided in the <a href="../../../datacuration/derivatives/#qsiprep-qsiprep">QSIPrep derivatives</a> - please see more information about automated QC on the QSIPrep website <a href="https://qsiprep.readthedocs.io/en/latest/preprocessing.html#quality-control-data">here</a>.</p>
-</div>
-</p>
-
-<p>
-<div id="knownissue-fyi" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Known Issue: Missing QC Data for 8 Participant Sessions</span>
-  <span class="arrow">▸</span>
-</div>
-<div class="notification-open-collapsible-content">
-<p>Please see a description of this known issue <a href="../../../changelog/knownissues/#brainswipes">here</a> for details.</p>
 </div>
 </p>
 
