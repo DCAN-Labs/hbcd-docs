@@ -255,8 +255,7 @@ See instrument details under [Social & Environmental Determinants](socenvdet.md#
 </ul>
 </ul>
 
-
-**Note that `cohort` and `site` are not currently described in the data dictionary, but are included in dataset downloads from Lasso and are equivalent to the columns `par_visit_data_cohort` and `par_visit_data_site` (see details [here](../download/lasso.md#additional-columns-cohort-site-not-defined-in-data-dictionary)).**
+**Note that `cohort` and `site` are not currently described in the data dictionary, but are included in dataset downloads from Lasso and are equivalent to the columns `par_visit_data_cohort` and `par_visit_data_site` (see details [here](../access/download/#add-columns)).**
 
 
 <div id="cohorts" class="notification-banner" onclick="toggleCollapse(this)">
