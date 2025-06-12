@@ -2,7 +2,7 @@
 
 The HBCD Data Release Documentation is version-controlled, allowing researchers to cite and view specific snapshots of the website. Because the documentation is regularly updated, we strongly recommend citing the version you consulted.
 
-To cite the current version, visit the most recent release on Zenodo at [https://doi.org/10.5281/zenodo.15002829](https://doi.org/10.5281/zenodo.15002829). The appropriate citation is listed in the **Citation** box on the right side of the page—simply copy and paste it into your references.
+To cite the current version, visit the most recent release on [Zenodo](https://doi.org/10.5281/zenodo.15002829). The appropriate citation is listed in the **Citation** box on the right side of the page—simply copy and paste it into your references.
 
 <img src="../../images/zenodo.png" alt="Citation" width="40%" height="auto" class="center">
 
