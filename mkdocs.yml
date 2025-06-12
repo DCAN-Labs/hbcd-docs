@@ -89,7 +89,7 @@ nav:
     - Version History:    
         - Release 1: changelog/versions/R1.md
   - Help & Support:
-    - FAQs: faq.md
+    - FAQs: help/faq.md
     - Report Issues: help/reportissue.md
     - How To Cite Release Docs: help/citation.md
 
