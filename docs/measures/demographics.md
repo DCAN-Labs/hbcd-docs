@@ -57,7 +57,12 @@ Additional details on Basic Demographics variables are provided below.
 <p>
 <div id="bdemo-fyi" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text-with-link">
   <span class="text">Variable Logic & Definitions</span>
+  <a class="anchor-link" href="#bdemo-fyi" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="arrow">▸</span>
 </div>
 <div class="notification-open-collapsible-content">
