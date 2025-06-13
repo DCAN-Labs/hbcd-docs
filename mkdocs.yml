@@ -99,12 +99,12 @@ nav:
                 - TLFB: instruments/pregexp/su/tlfb.md
         - Social & Environmental Determinants:
             - Baby's First Years: instruments/SED/bfy.md
-            - Demographics V01: instruments/SED/v01-demo.md
             - Unfair Treatment: instruments/SED/discr.md
             - Intimate Partner Violence: instruments/SED/ehits.md
+            - Demographics V01: instruments/SED/v01-demo.md
+            - Perceived Stress/Social Support: instruments/SED/promis.md
             - Neighborhood Safety: instruments/SED/safety.md
             - Protective Factors: instruments/SED/paces.md
-            - Perceived Stress/Social Support: instruments/SED/promis.md
     - Brain Activity - MRI & EEG:
         - Electroencephalography:
             - Overview & Quality Control: instruments/eeg/index.md
