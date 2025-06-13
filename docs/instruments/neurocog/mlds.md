@@ -1,6 +1,7 @@
 # MLDS
 
-**Full Name**: Multilingual Language Development Screener     
+**Full Name**: Multilingual Language Development Screener    
+**Acronym**: MLDS         
 **Table Name**: `ncl_ch_mlds`       
 **Construct**: Multilingual exposure
 
@@ -10,7 +11,7 @@
   <span class="notification-arrow">▸</span>
 </div>
 <div class="closed-collapsible-content">
-<p>Subject matter experts did not identify any issues with MLDS. However, they emphasize that this measure assesses a child’s exposure to language to guide the selection of appropriate measures for their next in-person study visit. It estimates the percentage of time the child is exposed to languages in caregiving environments, based on caregiver reports. These estimates are approximate and also may not account for all languages the child encounters. The measure does not evaluate or quantify the child’s interactions or their expressive or receptive language skills in a given language, but rather provides an estimate of the time spent in environments where specific languages are spoken.</p> 
+<p>This measure assesses a child’s exposure to language to guide the selection of appropriate measures for their next in-person study visit. It estimates the percentage of time the child is exposed to languages in caregiving environments, based on caregiver reports. These estimates are approximate and also may not account for all languages the child encounters. The measure does not evaluate or quantify the child’s interactions or their expressive or receptive language skills in a given language, but rather provides an estimate of the time spent in environments where specific languages are spoken.</p> 
 </div>
 
 
@@ -18,10 +19,12 @@
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 16px;">
 <tbody>
+<tr><td><b>Child Specific</b></td>
+<td>Yes</td></tr>
 <tr><td><b>Respondant</b></td>
-<td>Primary caregiver</td></tr>
+<td>Primary Caregiver</td></tr>
 <tr><td><b>Administration</b></td>
-<td style="word-wrap: break-word; white-space: normal;">Self-administered remotely or by HBCD Study team member in-person/remotely as needed. Surveys were translated to Spanish for HBCD by <a href="https://burgtranslations.com/our-services/">BURG Translations</a>.</td></tr>
+<td style="word-wrap: break-word; white-space: normal;">Self-administered remotely. If the caregiver does not complete the assessment remotely, it is conducted at the visit to document the child’s language exposure environments. The instrument can be administered by an HBCD Study team member in-person or via video as needed. Surveys were translated to Spanish for HBCD by <a href="https://burgtranslations.com/our-services/">BURG Translations</a>.</td></tr>
 <tr><td><b>Visits</b></td>
 <td>V03, V04, V05, V07</td></tr>
 <tr><td><b>Completion Time</b></td>
