@@ -45,6 +45,9 @@ nav:
     - Responsible Data Use: access/resp_data_use.md
     - Data Use Acknowledgement: access/dua.md
   - Data Structure & File Types:
+    - HBCD Study Design: 
+        - Study Design Logic: datacuration/studydesign.md
+        - ReproSchema: datacuration/reproschema.md
     - Structure (BIDS): datacuration/overview.md
     - Tabulated Data: datacuration/phenotypes.md
     - File-Based Data: 
@@ -118,13 +121,9 @@ nav:
             - Diffusion MRI: instruments/mri/dmri.md
             - Quantitative MRI: instruments/mri/qmri.md
             - Magnetic Resonance Spectroscopy: instruments/mri/mrs.md 
-  - ORGANIZE:
-    - HBCD Study Design: 
-        - Study Design Logic: measures/studydesign.md
-        - ReproSchema: measures/reproschema.md
-    - Processing & Analytic Standards: 
-        - Processing Pipelines: processing/index.md
-        - Pipeline Software Standards: processing/standards.md
+        - Processing & Analytic Standards: 
+            - Processing Pipelines: instruments/processing/index.md
+            - Pipeline Software Standards: instruments/processing/standards.md
   - Release History: 
     - Pending & Upcoming Updates: changelog/pending.md
     - Known Issues: changelog/knownissues.md
