@@ -3,10 +3,12 @@
 **Full Name**: Pregnancy Health-Chronic Conditions        
 **Acronym**: Exp I chroncond                            
 **Table Name**: `pex_bm_health_preg__chroncond`       
-**Construct**: Chronic conditions and sexually transmitted infections in pregnancy, including whether they are ongoing or resolved
+**Construct**: Chronic conditions and sexually transmitted infections in pregnancy, including whether they are ongoing or resolved.
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 16px;">
 <tbody>
+<tr><td><b>Child Specific</b></td>
+<td>No</td></tr>
 <tr><td><b>Respondant</b></td>
 <td>Pregnant person</td></tr>
 <tr><td><b>Administration</b></td>

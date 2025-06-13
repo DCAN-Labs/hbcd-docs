@@ -1,67 +1,8 @@
 # Pregnancy & Exposure, Including Substance Use
 
 ## Overview of Instruments
-#### Pregnancy & Infant Health
-<table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
-    <thead>
-      <tr>
-        <th style="width: 30%; padding: 8px; text-align: center;">Name of Instrument</th>
-        <th style="width: 20%; padding: 8px; text-align: center;">Acronym</th>
-        <th style="width: 30%; padding: 8px; text-align: center;">Construct</th>
-        <th style="width: 20%; padding: 8px; text-align: center;">Table Name</th>
-      </tr>
-    </thead>
-<tbody>
- <tr>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#instrument-details">Pregnancy Health</a></td>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Healthhx</td>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Pre-pregnancy and pregnancy health</td>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;">pex_bm_health_preg__healthhx</td>
-    </tr>          
-    <tr>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#instrument-details">Pregnancy Health-Exposures and Vaccines</a></td>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Vacc</td>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Vaccines in pregnancy</td>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;">pex_bm_health_preg__exp__vacc</td>
-    </tr>    
-    <tr>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#instrument-details">Pregnancy Health-Chronic Conditions</a></td>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Exp I chroncond</td>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Chronic conditions and sexually transmitted infections in pregnancy</td>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;">pex_bm_health_preg__chroncond</td>
-    </tr>  
-    <tr>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#instrument-details">Pregnancy Health-Illness</a></td>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Exp I illness</td>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Illness in pregnancy</td>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;">pex_bm_health_preg__illness</td>
-    </tr>     
-    <tr>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#instrument-details">Pregnancy Health-ER/Hospitalizations</a></td>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Exp I ERhosp</td>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;">ER visit or hospitalization in pregnancy</td>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;">pex_bm_health_preg__erhosp</td>
-    </tr>  
-    <tr>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#instrument-details">Pregnancy Health-Medications</a></td>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Exp I Meds</td>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Prescription and over the counter medications in pregnancy</td>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;">pex_bm_health_preg__meds</td>
-    </tr>  
-    <tr>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#instrument-details">Pregnancy Health-V2 (End of Pregnancy)</a></td>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Healthv2 Preg</td>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Updates information between enrollment and delivery</td>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;">pex_bm_healthv2_preg</td>
-    </tr>     
-    <tr>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#instrument-details">Infant health- V2</a></td>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Healthv2 Inf</td>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Delivery and birth outcomes</td>
-        <td style="padding: 8px; word-wrap: break-word; white-space: normal;">pex_bm_healthv2_inf</td>
-    </tr>   
-</tbody>
-</table>
+
+
 
 #### Mental Health
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">

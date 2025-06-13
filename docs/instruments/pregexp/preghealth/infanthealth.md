@@ -23,6 +23,8 @@
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 16px;">
 <tbody>
+<tr><td><b>Child Specific</b></td>
+<td>Yes</td></tr>
 <tr><td><b>Respondant</b></td>
 <td>Person who gave birth or primary caregiver</td></tr>
 <tr><td><b>Administration</b></td>

@@ -3,10 +3,12 @@
 **Full Name**: Pregnancy Health-Exposures and Vaccines          
 **Acronym**: Vacc                            
 **Table Name**: `pex_bm_health_preg__exp__vacc`       
-**Construct**: Vaccines in pregnancy, including receipt of common vaccines in pregnancy and trimester received
+**Construct**: Vaccines in pregnancy: includes receipt of common vaccines in pregnancy and trimester received.
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 16px;">
 <tbody>
+<tr><td><b>Child Specific</b></td>
+<td>No</td></tr>
 <tr><td><b>Respondant</b></td>
 <td>Pregnant person</td></tr>
 <tr><td><b>Administration</b></td>
