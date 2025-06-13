@@ -78,22 +78,22 @@ nav:
             - Growth: instruments/physhealth/growth.md
         - Pregnancy & Exposures:
             - Pregnancy & Infant Health:
-                - Pregnancy Health: instruments/pregexp/healthhx.md
-                - Exposures & Vaccines: instruments/pregexp/vacc.md
-                - Chronic Conditions: instruments/pregexp/chronconditions.md
-                - Illness: instruments/pregexp/illness.md
-                - ER/Hospitalizations: instruments/pregexp/er-hosp.md
-                - Medications: instruments/pregexp/medications.md
-                - End of Pregnancy: instruments/pregexp/end-preg.md
-                - Infant Health: instruments/pregexp/infanthealth.md
+                - Pregnancy Health: instruments/pregexp/preghealth/healthhx.md
+                - Exposures & Vaccines: instruments/pregexp/preghealth/vacc.md
+                - Chronic Conditions: instruments/pregexp/preghealth/chronconditions.md
+                - Illness: instruments/pregexp/preghealth/illness.md
+                - ER/Hospitalizations: instruments/pregexp/preghealth/er-hosp.md
+                - Medications: instruments/pregexp/preghealth/medications.md
+                - End of Pregnancy: instruments/pregexp/preghealth/end-preg.md
+                - Infant Health: instruments/pregexp/preghealth/infanthealth.md
             - Mental Health:
-                - Personal & Family Psychiatric History: instruments/pregexp/fam-mh.md
-                - APA 1/2: instruments/pregexp/apa12.md
-                - PTSD & Acute Stress: instruments/pregexp/ptsd.md
-                - Postnatal Depression: instruments/pregexp/epds.md
+                - Personal & Family Psychiatric History: instruments/pregexp/mh/fam-mh.md
+                - APA 1/2: instruments/pregexp/mh/apa12.md
+                - PTSD & Acute Stress: instruments/pregexp/mh/ptsd.md
+                - Postnatal Depression: instruments/pregexp/mh/epds.md
             - Substance Use:
-                - Assist V1/2/3: instruments/pregexp/assist.md
-                - TLFB: instruments/pregexp/tlfb.md
+                - Assist V1/2/3: instruments/pregexp/su/assist.md
+                - TLFB: instruments/pregexp/su/tlfb.md
         - Social & Environmental Determinants:
             - Baby's First Years: instruments/SED/bfy.md
             - Demographics V01: instruments/SED/v01-demo.md
