@@ -27,7 +27,7 @@ To facilitate responsible data use, table- and variable-level warnings are embed
 </div>
 </p>
 
-**Note that only [DEAP](download/DEAP.md) currently has embedded links to data and responsible use warnings.** These links will be added to the [Lasso platform](https://nbdc-datashare.lassoinformatics.com/) after the release, but the warnings can still be viewed by visiting the [study instrument documentation](../measures/index.md) of interest.
+**Note that only [DEAP](https://docs.deapscience.com/) currently has embedded links to data and responsible use warnings.** These links will be added to the [Lasso platform](https://nbdc-datashare.lassoinformatics.com/) after the release, but the warnings can still be viewed by visiting the [study instrument documentation](../instruments/index.md) of interest.
 
 We recommend that all data users:
 
