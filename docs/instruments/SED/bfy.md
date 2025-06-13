@@ -14,7 +14,7 @@
 <tr><td><b>Respondant</b></td>
 <td>Parent</td></tr>
 <tr><td><b>Administration</b></td>
-<td>In person</td></tr>
+<td style="word-wrap: break-word; white-space: normal;">HBCD Study Staff, in person. Surveys were translated to Spanish for HBCD by <a href="https://burgtranslations.com/our-services/">BURG Translations</a>.</td></tr>
 <tr><td><b>Visits</b></td>
 <td>V01, V05, V07</td></tr>
 <tr><td><b>Completion Time</b></td>
