@@ -52,38 +52,9 @@ nav:
         - Processed File-Based Data: datacuration/derivatives.md
         - Exclusion Criteria: datacuration/exclusions.md
     - Recommended Tools: dataformats/recprograms.md
-  - Data Measures:
-    - HBCD Study Design: 
-        - Study Design Logic: measures/studydesign.md
-        - ReproSchema: measures/reproschema.md
-    - "Data Measures & Quality Control":
-        - Age Variables: measures/agevariables.md
-        - "Demographics": measures/demographics.md
-        - "Behavior & Caregiver-Child Interaction": measures/behCGinteraction.md   
-        - Biospecimens: measures/biospec.md   
-        - "Neurocognition & Language": measures/neurocog.md    
-        - "Novel Technologies & Wearable Sensors": measures/sensors.md                     
-        - Physical Health: measures/physicalhealth.md
-        #- Pregnancy & Exposure: measures/pregexposures.md
-        - "Pregnancy & Exposure": 
-            - "Pregnancy & Infant Health": measures/pregexp/preghealth.md
-            - Substance Use: measures/pregexp/substanceuse.md
-            - Mental Health: measures/pregexp/mentalhealth.md
-        - "Social & Environmental Determinants": measures/socenvdet.md
-    - Processing & Analytic Standards: 
-        - Processing Pipelines: processing/index.md
-        - Pipeline Software Standards: processing/standards.md
-  - Release History: 
-    - Pending & Upcoming Updates: changelog/pending.md
-    - Known Issues: changelog/knownissues.md
-    - Version History:    
-        - Release 1: changelog/versions/R1.md
-  - Help & Support:
-    - FAQs: help/faq.md
-    - Report Issues: help/reportissue.md
-    - How To Cite Release Docs: help/citation.md
   - (DRAFT) Study Instruments:
     - Overview: instruments/index.md
+    - Age Variables: instruments/agevariables.md
     - Behavior & Environment:
         - Behavior & Caregiver-Child Interaction: 
             - ecPROMIS: instruments/bcgi/ecpromis.md
@@ -95,6 +66,9 @@ nav:
         - Neurocognition & Language:
             - MLDS: instruments/neurocog/mlds.md
             - SPM-2: instruments/neurocog/spm2.md
+        - Novel Technologies & Wearable Sensors:
+            - Wearable Sensors: instruments/sensors/wearsensors.md
+            - Infnat Sensor Questionnaire: instruments/sensors/questionnaire.md
         - Physical Health:
             - Breastfeeding: instruments/physhealth/bf.md
             - Food Insecurity: instruments/physhealth/food-insecurity.md
@@ -138,12 +112,28 @@ nav:
             - Diffusion MRI: instruments/mri/dmri.md
             - Quantitative MRI: instruments/mri/qmri.md
             - Magnetic Resonance Spectroscopy: instruments/mri/mrs.md 
-
-
-
-
-
-    
-
-  
-
+  - ORGANIZE:
+    - HBCD Study Design: 
+        - Study Design Logic: measures/studydesign.md
+        - ReproSchema: measures/reproschema.md
+    - "Data Measures & Quality Control":                  
+        - Physical Health: measures/physicalhealth.md
+        #- Pregnancy & Exposure: measures/pregexposures.md
+        - "Pregnancy & Exposure": 
+            - "Pregnancy & Infant Health": measures/pregexp/preghealth.md
+            - Substance Use: measures/pregexp/substanceuse.md
+            - Mental Health: measures/pregexp/mentalhealth.md
+        - "Social & Environmental Determinants": measures/socenvdet.md
+    - Processing & Analytic Standards: 
+        - Processing Pipelines: processing/index.md
+        - Pipeline Software Standards: processing/standards.md
+  - Release History: 
+    - Pending & Upcoming Updates: changelog/pending.md
+    - Known Issues: changelog/knownissues.md
+    - Version History:    
+        - Release 1: changelog/versions/R1.md
+  - Help & Support:
+    - FAQs: help/faq.md
+    - Report Issues: help/reportissue.md
+    - How To Cite Release Docs: help/citation.md
+ 
