@@ -69,7 +69,7 @@ nav:
         - Neurocognition & Language:
             - MLDS: instruments/neurocog/mlds.md
             - SPM-2: instruments/neurocog/spm2.md
-        - Novel Technologies & Wearable Sensors:
+        - Novel Tech & Wearable Sensors:
             - Wearable Sensors: instruments/sensors/wearsensors.md
             - Infnat Sensor Questionnaire: instruments/sensors/questionnaire.md
         - Physical Health:
