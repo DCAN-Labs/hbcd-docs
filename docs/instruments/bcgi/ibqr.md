@@ -11,7 +11,7 @@
   <span class="notification-arrow">▸</span>
 </div>
 <div class="closed-collapsible-content">
-<p>The IBQ-R (VSF)+BI  assess normative variations in child behavior and should be interpreted within the context of the child's age and developmental stage. This is not clinical or diagnostic instrument.</p> 
+<p>The IBQ-R (VSF)+BI assesses normative variations in child behavior and should be interpreted within the context of the child's age and developmental stage. This is not clinical or diagnostic instrument.</p> 
 </div>
 
 ## Administration & Quality Control

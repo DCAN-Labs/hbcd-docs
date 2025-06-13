@@ -11,7 +11,7 @@
   <span class="notification-arrow">▸</span>
 </div>
 <div class="closed-collapsible-content">
-<p>The ecPROMIS assess normative variations in child behavior and should be interpreted within the context of the child's age and developmental stage. This is not clinical or diagnostic instrument.</p> 
+<p>The ecPROMIS assesses normative variations in child behavior and should be interpreted within the context of the child's age and developmental stage. This is not clinical or diagnostic instrument.</p> 
 </div>
 
 
