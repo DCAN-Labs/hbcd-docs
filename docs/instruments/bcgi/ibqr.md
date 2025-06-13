@@ -1,15 +1,25 @@
 # IBQ-R (VSF)+BI
 
-**Full Name**: Infant Behavior Questionnaire – Revised Very Short Form + Behavior Inhibition                       
+**Full Name**: Infant Behavior Questionnaire – Revised Very Short Form + Behavior Inhibition           
+**Acronym**: IBQ-R (VSF)+BI                
 **Table Name**: `mh_cg_ibqr`       
 **Construct**: Temperamental Surgency/Extraversion, Negative Affectivity, Effortful Control, and Behavioral Inhibition
 
-## Administration & Quality Control
+<div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
+  <span class="text">Data Warning</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="closed-collapsible-content">
+<p>The IBQ-R (VSF)+BI  assess normative variations in child behavior and should be interpreted within the context of the child's age and developmental stage. This is not clinical or diagnostic instrument.</p> 
+</div>
 
-**TO ADD: CHILD SPECIFIC**
+## Administration & Quality Control
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 16px;">
 <tbody>
+<tr><td><b>Child Specific</b></td>
+<td>Yes</td></tr>
 <tr><td><b>Respondant</b></td>
 <td>Primary caregiver</td></tr>
 <tr><td><b>Administration</b></td>
@@ -30,7 +40,15 @@ The IBQ-R (VSF)+BI is a caregiver report form used to assess temperamental react
 
 In addition to the overall Surgency, Negative Affect and Effortful Control scales derived from the validated IBQ-R-VSF, the HBCD Workgroup and measure experts added a Behavior Inhibition (or Social Fear) scale using items from the long form of the IBQ-R (IBQ-R-LF) (see scale items listed in drowpdown menu below). The HBCD measure therefore consists of 4 scale domains: surgency/extraversion (13 items), negative affectivity (12 items), effortful control (12 items), and behavioral inhibition (13 items).
 
-Alterations were additionally made for use of gender-neutral terms. Measure instructions and individuals items that reference gendered pronouns (‘her/him’, ‘she/he’) were changed to “my/the baby/child” or “they/them” as fit for the wording. In addition, “parent” was replaced with “parent/caregiver” where appropriate. Because the psychometric validation for these measures was done using items from the original measures, future publications should account for and note edits made to individual items.
+<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="text">HBCD Modification Details</span>
+  </span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="closed-collapsible-content">
+<p>Alterations were made for use of gender-neutral terms and “parent” was replaced with “parent/caregiver” where appropriate. Because the psychometric validation for these measures was done using items from the original measures, future publications should account for and note edits made to individual items.</p>
+</div>
 
 <div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text">Scoring Procedures</span>
@@ -43,3 +61,9 @@ Alterations were additionally made for use of gender-neutral terms. Measure inst
 </div>
 
 ## References
+<div class="references">
+    <p>Gartstein, M. A., & Rothbart, M. K. (2003). Studying infant temperament via the Revised Infant Behavior Questionnaire. <i>Infant Behavior & Development</i>, 26(1), 64–86. <a href="https://doi.org/10.1016/s0163-6383(02)00169-8" target="_blank">https://doi.org/10.1016/s0163-6383(02)00169-8</a></p>  
+    <p>Putnam, S. P., Helbig, A. L., Gartstein, M. A., Rothbart, M. K., & Leerkes, E. (2014). Development and assessment of short and very short forms of the infant behavior questionnaire-revised. <i>Journal of Personapty Assessment</i>, 96(4), 445–458. <a href="https://doi.org/10.1080/00223891.2013.841171" target="_blank">https://doi.org/10.1080/00223891.2013.841171</a></p>  
+    <p>Rothbart, M. K. (1981). Measurement of temperament in infancy. <i>Child Development</i>, 52(2), 569–578. <a href="https://doi.org/10.1111/j.1467-8624.1981.tb03082.x" target="_blank">https://doi.org/10.1111/j.1467-8624.1981.tb03082.x</a></p>  
+</div>
+<br>

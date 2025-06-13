@@ -55,7 +55,7 @@ nav:
   - Study Instruments:
     - Overview: instruments/index.md
     - Age Variables: instruments/agevariables.md
-    - Behavior & Environment:
+    - Behavior, Biology, & Environment:
         - Behavior & Caregiver-Child Interaction: 
             - ecPROMIS: instruments/bcgi/ecpromis.md
             - IBQ-R (VSF)+BI: instruments/bcgi/ibqr.md
