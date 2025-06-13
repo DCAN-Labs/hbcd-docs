@@ -37,3 +37,11 @@
 </tbody>
 </table>
 
+## References
+<div class="references">
+    <p>Bearak, J., Popinchalk, A., Ganatra, B., Moller, A.-B., Tunçalp, Ö., Beavin, C., Kwok, L., & Alkema, L. (2020). Unintended pregnancy and abortion by income, region, and the legal status of abortion: estimates from a comprehensive model for 1990-2019. The Lancet. Global Health, 8(9), e1152–e1161. <a href="https://doi.org/10.1016/S2214-109X(20)30315-6">https://doi.org/10.1016/S2214-109X(20)30315-6</a></p>
+    <p>Massey, S. H., Neiderhiser, J. M., Shaw, D. S., Leve, L. D., Ganiban, J. M., & Reiss, D. (2012). Maternal self concept as a provider and cessation of substance use during pregnancy. Addictive Behaviors, 37(8), 956–961. <a href="https://doi.org/10.1016/j.addbeh.2012.04.002">https://doi.org/10.1016/j.addbeh.2012.04.002</a></p>
+    <p>Massey, S. H., Estabrook, R., Lapping-Carr, L., Newmark, R. L., Decety, J., Wisner, K. L., & Wakschlag, L. S. (2022). Are empathic processes mechanisms of pregnancy’s protective effect on smoking? Identification of a novel target for preventive intervention. Social Science & Medicine (1982), 305(115071), 115071. <a href="https://doi.org/10.1016/j.socscimed.2022.115071">https://doi.org/10.1016/j.socscimed.2022.115071</a></p>
+    <p>Schoenaker, D. A. J. M., Ploubidis, G. B., Goodman, A., & Mishra, G. D. (2017). Factors across the life course predict women’s change in smoking behaviour during pregnancy and in midlife: results from the National Child Development Study. Journal of Epidemiology and Community Health, 71(12), 1137–1144. <a href="https://doi.org/10.1136/jech-2017-209493">https://doi.org/10.1136/jech-2017-209493</a></p>
+</div>
+

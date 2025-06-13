@@ -8,7 +8,7 @@
 <div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text-with-link">
-  <span class="text">Data Warning: ICD, Symptom, & Medication Coding</i></span>
+  <span class="text">Data Warning: ICD & Symptom Coding</i></span>
   <a class="anchor-link" href="#warning" title="Copy link">
   <i class="fa-solid fa-link"></i>
   </a>
@@ -25,9 +25,9 @@
 <tr><td><b>Child Specific</b></td>
 <td>No</td></tr>
 <tr><td><b>Respondant</b></td>
-<td>Pregnant person</td></tr>
+<td>Pregnant Person</td></tr>
 <tr><td><b>Administration</b></td>
-<td style="word-wrap: break-word; white-space: normal;">Self-administered. Surveys were translated to Spanish for HBCD by <a href="https://burgtranslations.com/our-services/">BURG Translations</a>.</td></tr>
+<td style="word-wrap: break-word; white-space: normal;">HBCD Study Staff (in-person). Surveys were translated to Spanish for HBCD by <a href="https://burgtranslations.com/our-services/">BURG Translations</a>.</td></tr>
 <tr><td><b>Visits</b></td>
 <td>V01</td></tr>
 <tr><td><b>Completion Time</b></td>
