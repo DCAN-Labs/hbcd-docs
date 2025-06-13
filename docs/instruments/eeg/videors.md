@@ -1,6 +1,7 @@
 # Video Resting State Task
 
-**Full Name**: Video Resting State (RS)     
+**Full Name**: Video Resting State      
+**Acronym**: RS         
 **Table Name**: **TO DO**     
 
 The Video Resting State (RS) (v.11.29.23) task provides assessment of the development of large-scale neural networks during infancy and early childhood via information about neural oscillations measured in EEG power across the scalp. Developmental changes in oscillatory activity reflect underlying developing large-scale neural networks associated with early self-regulatory, cognitive, and affective processes and developmental outcomes ([Gabard-Durnam et al., 2019](https://doi.org/10.1038/s41467-019-12202-9); [Jones et al., 2020](https://doi.org/10.1038/s41598-020-67687-y); [Whedon et al., 2020](https://doi.org/10.1016/j.bandc.2020.105636)). The metrics derived from the resting EEG signal include power across the frequency spectrum ([Gabard-Durnam et al., 2019](https://doi.org/10.1038/s41467-019-12202-9)) and relative power between different scalp locations ([Davidson & Fox, 1982](https://doi.org/10.1126/science.7146906)). See [Fox et al. 2024](https://doi.org/10.1016/j.dcn.2024.101447) for more information about the RS.       
@@ -11,6 +12,10 @@ Participants watch a silent video for the duration of the RS task. In **V03** (*
 
 <img src="../images/eeg-RS.png" width="100%" height="auto">
 
+## Resources
+- [HBCD EEG Utilities](https://hbcd-eeg-utilities.readthedocs.io/)
+- [HBCD E-Prime Task Manual](https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing)
+- [HBCD EEG Acquisition Protocol](https://zenodo.org/records/14795030)
 
 ### References
 <div class="references">

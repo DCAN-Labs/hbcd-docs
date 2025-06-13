@@ -57,7 +57,6 @@ nav:
         - Study Design Logic: measures/studydesign.md
         - ReproSchema: measures/reproschema.md
     - "Data Measures & Quality Control":
-        - Overview: measures/index.md
         - Age Variables: measures/agevariables.md
         - "Demographics": measures/demographics.md
         - "Behavior & Caregiver-Child Interaction": measures/behCGinteraction.md   
@@ -71,16 +70,6 @@ nav:
             - Substance Use: measures/pregexp/substanceuse.md
             - Mental Health: measures/pregexp/mentalhealth.md
         - "Social & Environmental Determinants": measures/socenvdet.md
-        - Electroencephalography: measures/eeg/index.md
-        - Magnetic Resonance Imaging:
-            - Overview: measures/mri/index.md
-            - MRI Protocols (Leave Site): measures/mri/protocols.md            
-            - Quality Control Procedures: measures/mri/qc.md
-            - Structural MRI: measures/mri/smri.md
-            - Functional MRI: measures/mri/fmri.md
-            - Diffusion MRI: measures/mri/dmri.md
-            - Quantitative MRI: measures/mri/qmri.md
-            - Magnetic Resonance Spectroscopy: measures/mri/mrs.md 
     - Processing & Analytic Standards: 
         - Processing Pipelines: processing/index.md
         - Pipeline Software Standards: processing/standards.md
@@ -136,16 +125,19 @@ nav:
     - Brain Activity - MRI & EEG:
         - Electroencephalography:
             - Overview & Quality Control: instruments/eeg/index.md
+            - Faces Task: instruments/eeg/faces.md
+            - Auditory Mismatch Negativity Task: instruments/eeg/mmn.md
             - Video Resting State Task: instruments/eeg/videors.md
+            - Visual Evoked Potential Task: instruments/eeg/vep.md
         - Magnetic Resonance Imaging:
-            - Overview: measures/mri/index.md
-            - MRI Protocols (Leave Site): measures/mri/protocols.md            
-            - Quality Control Procedures: measures/mri/qc.md
-            - Structural MRI: measures/mri/smri.md
-            - Functional MRI: measures/mri/fmri.md
-            - Diffusion MRI: measures/mri/dmri.md
-            - Quantitative MRI: measures/mri/qmri.md
-            - Magnetic Resonance Spectroscopy: measures/mri/mrs.md 
+            - Overview: instruments/mri/index.md
+            - MRI Protocols (Leave Site): instruments/mri/protocols.md            
+            - Quality Control Procedures: instruments/mri/qc.md
+            - Structural MRI: instruments/mri/smri.md
+            - Functional MRI: instruments/mri/fmri.md
+            - Diffusion MRI: instruments/mri/dmri.md
+            - Quantitative MRI: instruments/mri/qmri.md
+            - Magnetic Resonance Spectroscopy: instruments/mri/mrs.md 
 
 
 
