@@ -2,8 +2,8 @@
 # Brain Imaging Data Structure (BIDS)
 As much as possible, HBCD processing utilizes the [Brain Imaging Data Structure](https://bids-specification.readthedocs.io/en/stable/) (BIDS) standard for data organization. At a high level, HBCD BIDS data has the folder structure displayed below, with all data nested under `hbcd/`. The three main folders of interest are as follows: see linked sections for further details on the contents and folder structure of each.
 
-- [**Tabulated Data**](phenotypes.md) (`rawdata/phenotype/`): tabulated demographics and visit information, toxicology, behavior, and tabulated data associated with magnetic resonance imaging (MRI), spectroscopy (MRS), electroencephalography (EEG), and motion/accelerometry (i.e. [wearable sensor](../measures/sensors.md) recordings for leg motion)                 
-- [**Raw File-Based Data**](rawbids.md) (`rawdata/sub-<label>/`): raw data for MRI, MRS, EEG, and motion/accelerometry, formatted to adhere to the Brain Imaging Data Structure (BIDS) standard for processing through BIDS App pipelines (see details [here](../processing/index.md))        
+- [**Tabulated Data**](phenotypes.md) (`rawdata/phenotype/`): tabulated demographics and visit information, toxicology, behavior, and tabulated data associated with magnetic resonance imaging (MRI), spectroscopy (MRS), electroencephalography (EEG), and motion/accelerometry (i.e. [wearable sensor](../instruments/sensors/wearsensors.md) recordings for leg motion)                 
+- [**Raw File-Based Data**](rawbids.md) (`rawdata/sub-<label>/`): raw data for MRI, MRS, EEG, and motion/accelerometry, formatted to adhere to the Brain Imaging Data Structure (BIDS) standard for processing through BIDS App pipelines (see details [here](../instruments/processing/index.md))        
 - [**Processed File-Based Data**](derivatives.md) (`derivatives/`): pre-processed MRI, MRS, EEG, and motion/accelerometry data derived from processing pipelines
 
 <pre class="folder-tree">
