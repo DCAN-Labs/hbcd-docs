@@ -1,8 +1,9 @@
-# Healthhx
+# Pregnancy Health
 
-**Full Name**: Pre-pregnancy and pregnancy health          
+**Full Name**: Pregnancy Health                
+**Acronym**: Healthhx       
 **Table Name**: `pex_bm_health_preg__healthhx`       
-**Construct**: Information acquired by this survey includes: gravidity and parity, height and weight, pregnancy intentions, use of assisted reproductive technology, start of prenatal care, prenatal vitamin or aspirin use, and secondhand smoke.
+**Construct**: Pre-pregnancy and pregnancy health. Information acquired by this survey includes: gravidity and parity, height and weight, pregnancy intentions, use of assisted reproductive technology, start of prenatal care, prenatal vitamin or aspirin use, and secondhand smoke.
 
 <div id="alert" class="alert-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
@@ -24,7 +25,7 @@
 <tr><td><b>Respondant</b></td>
 <td>Pregnant person</td></tr>
 <tr><td><b>Administration</b></td>
-<td>Self-administered</td></tr>
+<td style="word-wrap: break-word; white-space: normal;">Self-administered. Surveys were translated to Spanish for HBCD by <a href="https://burgtranslations.com/our-services/">BURG Translations</a>.</td></tr>
 <tr><td><b>Visits</b></td>
 <td>V01</td></tr>
 <tr><td><b>Completion Time</b></td>
