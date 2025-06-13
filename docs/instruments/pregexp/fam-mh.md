@@ -7,10 +7,10 @@
 
 ## Administration & Quality Control
 
-**CHILD UNSPECIFIC**
-
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 16px;">
 <tbody>
+<tr><td><b>Child Specific</b></td>
+<td>No</td></tr>
 <tr><td><b>Respondant</b></td>
 <td>Pregnant person</td></tr>
 <tr><td><b>Administration</b></td>
@@ -40,3 +40,9 @@ The HBCD FAM MH assesses self-reported diagnoses and mental health conditions of
 <p><b>All of Us</b></p>
 <p>Original response options including 'mom', 'dad', 'sibling', 'daughter', 'son', and 'grandparent' were modified to include only biological mother [bm] and biological father [bf]. Follow-up questions about age of diagnosis, treatment, and medications were excluded.</p>
 </div>
+
+## References
+<div class="references">
+<p>Rice, J. P., Reich, T., Bucholz, K., Neuman, R. J., Fishman, R., Rochberg, N., Hesselbrock, V. M., Numberger, J. I., Shuckit, M. A., & Begleiter, H. (1995). Comparison of Direct Interview and Family History Diagnoses of Alcohol Dependence.  <em>Alcoholism: Clinical and Experimental Research</em>, <em>19</em>, 1018-1023. <a href="https://doi.org/10.1111/j.1530-0277.1995.tb00983.x">https://doi.org/10.1111/j.1530-0277.1995.tb00983.x</a></p>
+</div>
+<br>
