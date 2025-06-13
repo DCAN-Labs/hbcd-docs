@@ -58,6 +58,9 @@ nav:
   - Study Instruments:
     - Overview: instruments/index.md
     - Age Variables: instruments/agevariables.md
+    - Demographics & Visit Information:
+        - Basic Demographics: instruments/demo/basicdemo.md
+        - Visit Information: instruments/demo/visitinfo.md
     - Behavior, Biology, & Environment:
         - Behavior & Caregiver-Child Interaction: 
             - ecPROMIS: instruments/bcgi/ecpromis.md
@@ -102,9 +105,6 @@ nav:
             - Neighborhood Safety: instruments/SED/safety.md
             - Protective Factors: instruments/SED/paces.md
             - Perceived Stress/Social Support: instruments/SED/promis.md
-    - Demographics & Visit Information:
-        - Basic Demographics: instruments/demo/basicdemo.md
-        - Visit Information: instruments/demo/visitinfo.md
     - Brain Activity - MRI & EEG:
         - Electroencephalography:
             - Overview & Quality Control: instruments/eeg/index.md
