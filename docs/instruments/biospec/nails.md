@@ -41,7 +41,7 @@
 ## Instrument Details - USDTL Assay
 Fingernail and toenail specimens are sorted by weight, and those weighing at least 20 mg undergo ELISA screening, followed by LCMSMS confirmation for presumptive positives, each requiring an additional 20 mg. If insufficient specimen remains for LCMSMS, the remnant ELISA extract is used for confirmation.
 
-<img src="../../../images/biospec/Fig1_nails.png" width="70%" height="auto" class="center">
+<img src="../images/Fig1_nails.png" width="70%" height="auto" class="center">
 
 Based on the predefined threshold outlined in [Table 1](#nails-table1), a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) is determined to be positive, negative, or invalid (*QNS* i.e. *quantity not sufficient*) ([Table 2](#nails-table2)).
 
