@@ -1,14 +1,9 @@
-# Assist V1/V2/V3
+# Assist V2
 
-**Full Name**: Alcohol, Smoking and Substance Involvement Screening Test V1.0/V2.0/V3.0                             
-**Acronym**: Assist V1/V2/V3                    
-**Table Name**: `pex_bm_assistv1`/`pex_bm_assistv2`/`pex_bm_assistv3`       
-**Constructs**: 
-
-- **Assist V1**: Substance use and problematic use before and during pregnancy
-- **Assist V2**: Substance use during end of pregnancy ( between V01 and delivery) and postnatal (weeks 0-4, between delivery and V2)
-- **Assist V3**: Substance use after 
-
+**Full Name**: Alcohol, Smoking and Substance Involvement Screening Test V2.0                            
+**Acronym**: Assist V2               
+**Table Name**: `pex_bm_assistv2`     
+**Constructs**: Substance use during end of pregnancy ( between V01 and delivery) and postnatal (weeks 0-4, between delivery and V2)
 
 <div id="assist-alert" class="alert-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
@@ -36,11 +31,11 @@
 <tr><td><b>Child Specific</b></td>
 <td>No</td></tr>
 <tr><td><b>Respondant</b></td>
-<td style="word-wrap: break-word; white-space: normal;">Pregnant Person</td></tr>
+<td style="word-wrap: break-word; white-space: normal;">Person who gave birth</td></tr>
 <tr><td><b>Administration</b></td>
 <td style="word-wrap: break-word; white-space: normal;">HBCD Study Staff, in-person (except in Alabama, where participants were trained to self-administer). Surveys were translated to Spanish for HBCD by <a href="https://burgtranslations.com/our-services/">BURG Translations</a>.</td></tr>
 <tr><td><b>Visits</b></td>
-<td>V01</td></tr>
+<td>V02</td></tr>
 <tr><td><b>Completion Time</b></td>
 <td>5 min</td></tr>
 <tr><td><b>Quality Control</b></td>
@@ -69,30 +64,11 @@ Finally, the Time Line Follow Back (TLFB) was triggered when substance use was r
 </div>
 <div class="closed-collapsible-content">
 <ul>
-<b>Assist V1/2/3 Replacement Questions for NIDA Quick Screen Tool</b><br>
-<strong>V1: Assess lifetime use [lt] and disordered use, or use causing problems in their lives; Assess use 3 months pre-pregnancy [pre] and use during pregnancy [during]</strong>
-    <li>[lt_use] IN YOUR LIFE, which of the following substances have you EVER used for any reason? [followed by list of substance options from section below]</li>
-    <li>[concern] Have you EVER been concerned about your use of this substance or worried it was problematic use?</li>
-    <li>[concernoth] Has a friend, relative, or anyone else EVER expressed concern about your use of this substance?</li>
-    <li>[control] Have you EVER tried and failed to control, cut down, or stop using this substance?</li>
-    <li>[tx] Have you EVER sought or received treatment related to your use of this substance by a medical provider, spiritual leader, community mutual help group (like AA or SMART Recovery), counselors, or in other settings</li>
-    <li>[diagn] Have you EVER been clinically diagnosed with abuse, dependence, or a substance use disorder related to your use of this substance</li>
-  <li>[med] Have you EVER taken (prescribed or otherwise) medication(s) as treatment for a problem substance</li>
-  <li>[pre_use] IN THE THREE MONTHS BEFORE YOU BECAME PREGNANT, which of the following substances have you ever used for any reason? [followed by list of substance options from section below]</li>
-  <li>[during_use] DURING YOUR PREGNANCY, which of the following substances have you ever used for any reason? [followed by list of substance options from section below]</li>
-  <li>[during_med] DURING YOUR PREGNANCY, did you take (prescribed or otherwise) medication(s) as treatment for a problem substance? [followed by list of medications used to treat substance use problems]</li>
-
-<br>  
+<b>Replacement Questions for NIDA Quick Screen Tool</b><br>
 <strong>V2: Assess use after pregnancy:</strong>
     <li>[end_use] SINCE WE LAST MET UNTIL THE END OF PREGNANCY, which of the following substances did you use for any reason? [followed by list of substance options from section below]</li>
   <li>[end_med] SINCE WE LAST MET UNTIL THE END OF PREGNANCY, did you take (prescribed or otherwise) medication(s) as treatment for a problem substance? [followed by list of medications used to treat substance use problems]</li>
   <li>[post_use] FROM THE TIME THAT YOU DELIVERED your child until now, how often have you used any of the following substances for any reason? [followed by list of substance options from section below]</li>
-<br>  
-<strong>V3: Assess use and impact of substance use after pregnancy in past 3 months (3m):</strong>
-    <li>[3m_use] IN THE PAST THREE MONTHS, how often have you used any of the following substances for any reason? [followed by list of substance options from section below]</li>
-  <li>[problem] DURING THE PAST THREE MONTHS, has your use of this substance led to physical or mental health, social, or financial problems?</li>
-  <li>[perform] DURING THE PAST THREE MONTHS, have you ever failed to do what was normally expected of you (like work, go to school, be a parent, or household tasks) because of your use of this substance?</li>
-  </ul>
 
 <b>Expanded Assist Substance Type Options</b><br>
  <ul>
@@ -129,33 +105,3 @@ Finally, the Time Line Follow Back (TLFB) was triggered when substance use was r
         <li>[003] Naltrexone (Revia, Vivitrol)</li>
     </ul>
 </div>
-
-
-## References
-
-<div class="references">
-<p>Coles, C. D. (1993). Saying “goodbye” to the “crack baby.” Neurotoxicology and Teratology, 15(5), 290–292; discussion 311-2. <a href="https://doi.org/10.1016/0892-0362(93)90024-i" target="_blank">https://doi.org/10.1016/0892-0362(93)90024-i</a></p>
-  <p>
-    Estabrook, R., Massey, S. H., Clark, C. A. C., Burns, J. L., Mustanski, B. S., Cook, E. H., O’Brien, T. C., Makowski, B., Espy, K. A., & Wakschlag, L. S. (2016). Separating family-level and direct exposure effects of smoking during pregnancy on offspring externalizing symptoms: Bridging the behavior genetic and behavior teratologic divide. <i>Behavior Genetics</i>, <b>46</b>(3), 389–402. <a href="https://doi.org/10.1007/s10519-015-9762-2" target="_blank">https://doi.org/10.1007/s10519-015-9762-2</a>
-  </p>
-  <p>
-    Gal, P., & Sharpless, M. K. (1984). Fetal drug exposure-behavioral teratogenesis. <i>Drug Intelligence & Clinical Pharmacy</i>, <b>18</b>(3), 186–201. <a href="https://doi.org/10.1177/106002808401800304" target="_blank">https://doi.org/10.1177/106002808401800304</a>
-  </p>
-  <p>
-    Level, R. A., Zhang, Y., Tiemeier, H., Estabrook, R., Shaw, D. S., Leve, L. D., Wakschlag, L. S., Reiss, D., Neiderhiser, J. M., & Massey, S. H. (2024). Unique influences of pregnancy and anticipated parenting on cigarette smoking: results and implications of a within-person, between-pregnancy study. <i>Archives of Women’s Mental Health</i>, <b>27</b>(2), 301–308. <a href="https://doi.org/10.1007/s00737-023-01396-z" target="_blank">https://doi.org/10.1007/s00737-023-01396-z</a>
-  </p>
-  <p>
-    Massey, S. H., Lieberman, D. Z., Reiss, D., Leve, L. D., Shaw, D. S., & Neiderhiser, J. M. (2010). Association of clinical characteristics and cessation of tobacco, alcohol, and illicit drug use during pregnancy. <i>The American Journal on Addictions</i>, no-no. <a href="https://doi.org/10.1111/j.1521-0391.2010.00110.x" target="_blank">https://doi.org/10.1111/j.1521-0391.2010.00110.x</a>
-  </p>
-  <p>
-    McAllister, D., & Hart, C. L. (2015). Inappropriate interpretations of prenatal drug use data can be worse than the drugs themselves. <i>Neurotoxicology and Teratology</i>, <b>52</b>, 57. <a href="https://doi.org/10.1016/j.ntt.2015.07.002" target="_blank">https://doi.org/10.1016/j.ntt.2015.07.002</a>
-  </p>
-  <p>National Institute on Drug Abuse. (n.d.). <em>NIDA Modified ASSIST</em>.</p>
-  <p>
-    Shah, S. K., Perez-Cardona, L., Helner, K., Massey, S. H., Premkumar, A., Edwards, R., Norton, E. S., Rogers, C. E., Miller, E. S., Smyser, C. D., Davis, M. M., & Wakschlag, L. S. (2023). How penalizing substance use in pregnancy affects treatment and research: a qualitative examination of researchers’ perspectives. <i>Journal of Law and the Biosciences</i>, <b>10</b>(2), lsad019. <a href="https://doi.org/10.1093/jlb/lsad019" target="_blank">https://doi.org/10.1093/jlb/lsad019</a>
-  </p>
-  <p>
-    Wakeman, S. E., Bryant, A., & Harrison, N. (2022). Redefining child protection. <i>Obstetrics and Gynecology</i>, <b>140</b>(2), 167–173. <a href="https://doi.org/10.1097/aog.0000000000004786" target="_blank">https://doi.org/10.1097/aog.0000000000004786</a>
-  </p>
-</div>
-<br>

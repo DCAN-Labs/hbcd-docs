@@ -370,19 +370,19 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   </thead>
   <tbody>
   <tr>
-    <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/su/assist">Alcohol, Smoking and Substance Involvement Screening Test V1.0</a></td>
+    <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/su/assistv1">Alcohol, Smoking and Substance Involvement Screening Test V1.0</a></td>
     <td>Assist V1</td>
     <td style="word-wrap: break-word; white-space: normal;">Substance use and problematic use before and during pregnancy</td>
     <td style="word-wrap: break-word; white-space: normal;"><code>pex_bm_assistv1</code></td>
   </tr>    
   <tr>
-    <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/su/assist">Alcohol, Smoking and Substance Involvement Screening Test V2.0</a></td>
+    <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/su/assistv2">Alcohol, Smoking and Substance Involvement Screening Test V2.0</a></td>
     <td style="word-wrap: break-word; white-space: normal;">Assist V2</td>
     <td style="word-wrap: break-word; white-space: normal;">Substance use during end of pregnancy ( between V1 and delivery) and postnatal (weeks 0-4, between delivery and V2)</td>
     <td style="word-wrap: break-word; white-space: normal;"><code>pex_bm_assistv2</code></td>
   </tr>    
   <tr>
-      <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/su/assist">Alcohol, Smoking and Substance Involvement Screening Test V3.0</a></td>
+      <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/su/assistv3">Alcohol, Smoking and Substance Involvement Screening Test V3.0</a></td>
       <td style="word-wrap: break-word; white-space: normal;">Assist V3</td>
       <td style="word-wrap: break-word; white-space: normal;">Substance use after pregnancy</td>
       <td style="word-wrap: break-word; white-space: normal;"><code>pex_bm_assistv3</code></td>

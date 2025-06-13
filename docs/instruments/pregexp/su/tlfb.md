@@ -25,6 +25,25 @@
 <p>Also, of note- participants were asked to report occasions (except cigarettes/cigarillos and drinks, reported as number), but some substances (e.g. electronic cigarette devices) are difficult to report in occasions and have outliers.</p>
 </div>
 
+## Administration & Quality Control
+
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 16px;">
+<tbody>
+<tr><td><b>Child Specific</b></td>
+<td>No</td></tr>
+<tr><td><b>Respondant</b></td>
+<td style="word-wrap: break-word; white-space: normal;">Pregnant who gave birth or Primary Caregiver</td></tr>
+<tr><td><b>Administration</b></td>
+<td style="word-wrap: break-word; white-space: normal;">HBCD Study Staff, in-person (except in Alabama, where participants were trained to self-administer). Surveys were translated to Spanish for HBCD by <a href="https://burgtranslations.com/our-services/">BURG Translations</a>.</td></tr>
+<tr><td><b>Visits</b></td>
+<td>V01, V02</td></tr>
+<tr><td><b>Completion Time</b></td>
+<td>10 min</td></tr>
+<tr><td><b>Quality Control</b></td>
+<td style="word-wrap: break-word; white-space: normal;">Response distributions are reviewed for outliers and additionally cross-checked with ASSIST V1/V2 to ensure consistency in reported substances.</td></tr>
+</tbody>
+</table>
+
 ## Instrument Details
 
 The [original Timeline Follow Back](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf) is designed to cover the previous 7 days from when the survey is administered. The [HBCD TLFB](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf), triggered by responses on the ASSIST, was adapted to record substance use before and during pregnancy.

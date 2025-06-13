@@ -95,7 +95,9 @@ nav:
                 - PTSD & Acute Stress: instruments/pregexp/mh/ptsd.md
                 - Postnatal Depression: instruments/pregexp/mh/epds.md
             - Substance Use:
-                - Assist V1/2/3: instruments/pregexp/su/assist.md
+                - Assist V1: instruments/pregexp/su/assistv1.md
+                - Assist V2: instruments/pregexp/su/assistv2.md
+                - Assist V3: instruments/pregexp/su/assistv3.md
                 - TLFB: instruments/pregexp/su/tlfb.md
         - Social & Environmental Determinants:
             - Baby's First Years: instruments/SED/bfy.md
