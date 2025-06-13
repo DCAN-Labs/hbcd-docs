@@ -93,6 +93,52 @@ nav:
     - FAQs: help/faq.md
     - Report Issues: help/reportissue.md
     - How To Cite Release Docs: help/citation.md
+  - (DRAFT) Study Instruments:
+    - Behavior & Environment:
+        - Behavior & Caregiver-Child Interaction: 
+            - ecPROMIS: instruments/bcgi/ecpromis.md
+        - Biospecimens & Omics:
+            - Nails: instruments/biospec/nails.md
+            - Urine: instruments/biospec/urine.md
+        - Neurocognition & Language:
+            - MLDS: instruments/neurocog/mlds.md
+            - SPM-2: instruments/neurocog/spm2.md
+        - Physical Health:
+            - Breastfeeding: instruments/physhealth/bf.md
+            - Food Insecurity: instruments/physhealth/food-insecurity.md
+            - Growth: instruments/physhealth/growth.md
+        - Pregnancy & Exposures:
+            - Pregnancy & Infant Health:
+                - Pre-pregnancy & Infant Health: instruments/pregexp/healthhx.md
+            - Mental Health:
+                - Personal & Family Psychiatric History: instruments/pregexp/fam-mh.md
+            - Substance Use:
+                - Assist V1/2/3: instruments/pregexp/assist.md
+                - TLFB: instruments/pregexp/tlfb.md
+        - Social & Environmental Determinants:
+            - Demographics V01: instruments/SED/v01-demo.md
+    - Demographics & Visit Information:
+        - Basic Demographics: instruments/demo/basicdemo.md
+        - Visit Information: instruments/demo/visitinfo.md
+    - Brain Activity - MRI & EEG:
+        - Electroencephalography:
+            - Overview & Quality Control: instruments/eeg/index.md
+            - Video Resting State Task: instruments/eeg/videors.md
+        - Magnetic Resonance Imaging:
+            - Overview: measures/mri/index.md
+            - MRI Protocols (Leave Site): measures/mri/protocols.md            
+            - Quality Control Procedures: measures/mri/qc.md
+            - Structural MRI: measures/mri/smri.md
+            - Functional MRI: measures/mri/fmri.md
+            - Diffusion MRI: measures/mri/dmri.md
+            - Quantitative MRI: measures/mri/qmri.md
+            - Magnetic Resonance Spectroscopy: measures/mri/mrs.md 
+
+
+
+
+
+    
 
   
 

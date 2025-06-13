@@ -57,7 +57,7 @@ For MLDS, QC procedures involve monitoring frequency of decline to answer and co
 
 ## Instrument Details
 ### MLDS
-<p>
+
 <div id="mlds-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Data Warning</span>
@@ -66,7 +66,6 @@ For MLDS, QC procedures involve monitoring frequency of decline to answer and co
 <div class="warning-collapsible-content">
 <p>Subject matter experts did not identify any issues with MLDS. However, they emphasize that this measure assesses a child’s exposure to language to guide the selection of appropriate measures for their next in-person study visit. It estimates the percentage of time the child is exposed to languages in caregiving environments, based on caregiver reports. These estimates are approximate and also may not account for all languages the child encounters. The measure does not evaluate or quantify the child’s interactions or their expressive or receptive language skills in a given language, but rather provides an estimate of the time spent in environments where specific languages are spoken.</p> 
 </div>
-</p>
 
 The Multilingual Language Development Screener (MLDS) consists of questionnaires evaluating parental concerns about the child’s hearing and the presence of English, Spanish, or other languages in the child’s home and childcare environments. The measure estimates the child’s language exposure and identifies hearing concerns through forced-choice questions and sliding scales, which assess the percentage of time spent in various environments (i.e., home, daycare, other family member household, babysitter). Up to ten non-parental childcare arrangements were sampled.
 
