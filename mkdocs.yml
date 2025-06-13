@@ -92,7 +92,13 @@ nav:
                 - Assist V1/2/3: instruments/pregexp/assist.md
                 - TLFB: instruments/pregexp/tlfb.md
         - Social & Environmental Determinants:
+            - Baby's First Years: instruments/SED/bfy.md
             - Demographics V01: instruments/SED/v01-demo.md
+            - Unfair Treatment: instruments/SED/discr.md
+            - Intimate Partner Violence: instruments/SED/ehits.md
+            - Neighborhood Safety: instruments/SED/safety.md
+            - Protective Factors: instruments/SED/paces.md
+            - Perceived Stress/Social Support: instruments/SED/promis.md
     - Demographics & Visit Information:
         - Basic Demographics: instruments/demo/basicdemo.md
         - Visit Information: instruments/demo/visitinfo.md
@@ -116,8 +122,6 @@ nav:
     - HBCD Study Design: 
         - Study Design Logic: measures/studydesign.md
         - ReproSchema: measures/reproschema.md
-    - "Data Measures & Quality Control":                  
-        - "Social & Environmental Determinants": measures/socenvdet.md
     - Processing & Analytic Standards: 
         - Processing Pipelines: processing/index.md
         - Pipeline Software Standards: processing/standards.md

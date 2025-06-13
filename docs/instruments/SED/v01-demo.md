@@ -38,12 +38,12 @@ Some variables with small cell sizes were withheld from the data release to mini
 There are several items with branching logic; please consult the RedCAP questionnaire to see question flow and data dictionaries for information on skip patterns. Topics with branching logic include: <i>Household roster</i>, <i>Nativity</i>, <i>Jobs / work environment</i>, and items on <i>other biological parent</i> (responses opt in to answer this set of questions).</p>
 </div>
 
-
-
 ## Administration & Quality Control
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 16px;">
 <tbody>
+<tr><td><b>Child Specific</b></td>
+<td>No</td></tr>
 <tr><td><b>Respondant</b></td>
 <td>Parent</td></tr>
 <tr><td><b>Administration</b></td>
