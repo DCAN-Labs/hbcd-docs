@@ -124,11 +124,8 @@ Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data
     <tr>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Domain</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">domain</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Domain/Workgroup</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">
-        <span class="tooltip">Demographics; EEG
-        <span class="tooltiptext">See full list under <a href="../../measures/#tabulated-data">Tabulated Data</a></span>
-      </span></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Domain/<a href="https://hbcdstudy.org/workgroups-and-committees/">HBCD Workgroup</a></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">e.g. "Demographics" or "EEG" - see domains listed under <a href="../../instruments/">Study Instruments</a></td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">NO</td>
     </tr>
     <tr>
