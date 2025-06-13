@@ -98,6 +98,8 @@ nav:
     - Behavior & Environment:
         - Behavior & Caregiver-Child Interaction: 
             - ecPROMIS: instruments/bcgi/ecpromis.md
+            - IBQ-R (VSF)+BI: instruments/bcgi/ibqr.md
+            - MAPS-TL: instruments/bcgi/maps-tl.md
         - Biospecimens & Omics:
             - Nails: instruments/biospec/nails.md
             - Urine: instruments/biospec/urine.md

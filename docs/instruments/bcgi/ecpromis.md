@@ -19,7 +19,7 @@
 <tr><td><b>Completion Time</b></td>
 <td>1-2 min</td></tr>
 <tr><td><b>Quality Control</b></td>
-<td style="word-wrap: break-word; white-space: normal;">QC procedures involved examination of missingness (by counting the number of items answered for each participant) and age to ensure that it falls within an expected range (3-9 months for ecPROMIS). Summary statistics and visualizations were generated to review item-level frequencies, age, and scores (calculated with application of prorated scoring to account for missing data). Finally, Cronbach's Alpha was calculated to assess reliability. Common errors noted during QC include incorrect administration ages and prorated scoring not being accurately applied to observations with missing responses.</td></tr>
+<td style="word-wrap: break-word; white-space: normal;">QC procedures involved examination of missingness (by counting the number of items answered for each participant) and age to ensure that it falls within an expected range of 3-9 months. Summary statistics and visualizations were generated to review item-level frequencies, age, and scores (calculated with application of prorated scoring to account for missing data). Finally, Cronbach's Alpha was calculated to assess reliability. Common errors noted during QC include incorrect administration ages and prorated scoring not being accurately applied to observations with missing responses.</td></tr>
 </tbody>
 </table>
 
