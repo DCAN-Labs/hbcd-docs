@@ -112,9 +112,19 @@ nav:
             - Growth: instruments/physhealth/growth.md
         - Pregnancy & Exposures:
             - Pregnancy & Infant Health:
-                - Pre-pregnancy & Infant Health: instruments/pregexp/healthhx.md
+                - Pregnancy Health: instruments/pregexp/healthhx.md
+                - Exposures & Vaccines: instruments/pregexp/vacc.md
+                - Chronic Conditions: instruments/pregexp/chronconditions.md
+                - Illness: instruments/pregexp/illness.md
+                - ER/Hospitalizations: instruments/pregexp/er-hosp.md
+                - Medications: instruments/pregexp/medications.md
+                - End of Pregnancy: instruments/pregexp/end-preg.md
+                - Infant Health: instruments/pregexp/infanthealth.md
             - Mental Health:
                 - Personal & Family Psychiatric History: instruments/pregexp/fam-mh.md
+                - APA 1/2: instruments/pregexp/apa12.md
+                - PTSD & Acute Stress: instruments/pregexp/ptsd.md
+                - Postnatal Depression: instruments/pregexp/epds.md
             - Substance Use:
                 - Assist V1/2/3: instruments/pregexp/assist.md
                 - TLFB: instruments/pregexp/tlfb.md
