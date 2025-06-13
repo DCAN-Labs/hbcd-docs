@@ -94,6 +94,7 @@ nav:
     - Report Issues: help/reportissue.md
     - How To Cite Release Docs: help/citation.md
   - (DRAFT) Study Instruments:
+    - Overview: instruments/index.md
     - Behavior & Environment:
         - Behavior & Caregiver-Child Interaction: 
             - ecPROMIS: instruments/bcgi/ecpromis.md
