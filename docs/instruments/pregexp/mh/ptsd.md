@@ -52,4 +52,4 @@ The HBCD Severity of Posttraumatic/Acute Stress Symptoms measure was developed t
 <div class="closed-collapsible-content">
 <p>Scores on these scales assess trauma-related stress symptoms and do not differentiate between PTSD and Acute Stress Disorder. Researchers should review individual items on each scale to determine the most relevant scale to their research. Individual total scores are provided for NSESSS-PTSD and NSESSS-Acute Stress Disorder, and are computed as the sum of scores from questions 1-9 for PTSD and questions 1-3 & 7-10 for Acute Stress. Note: If 3 or more items are left unanswered, the total score on the scale is not calculated. If 1 or 2 items are left unanswered, a prorated score is calculated by summing the scores of items that were answered to get a partial raw score, multiplying the partial raw score by the total number of items (i.e., 9 on NSESSS-PTSD and 7 on NSESSS-Acute Stress Disorder), and dividing the value by the number of items that were actually answered, rounded to the nearest whole number.</p>
 </div>
-
+<br>
