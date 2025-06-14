@@ -20,7 +20,7 @@
 <tbody>
 <tr><td><b>Child Specific</b></td>
 <td>Yes</td></tr>
-<tr><td><b>Respondant</b></td>
+<tr><td><b>Respondent</b></td>
 <td>Child</td></tr>
 <tr><td><b>Administration</b></td>
 <td style="word-wrap: break-word; white-space: normal;">Sensors are placed on the child by an HBCD Study team member during a visit and then worn for 72 hours, during which data were collected across typical activities in the natural environment.</td></tr>

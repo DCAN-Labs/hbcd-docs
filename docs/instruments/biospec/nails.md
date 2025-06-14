@@ -25,7 +25,7 @@
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 16px;">
 <tbody>
-<tr><td><b>Respondant</b></td>
+<tr><td><b>Respondent</b></td>
 <td>Pregnant/postpartum person</td></tr>
 <tr><td><b>Administration</b></td>
 <td>Self-collected under research team supervision, or collected by research team</td></tr>

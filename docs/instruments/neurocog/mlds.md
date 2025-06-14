@@ -21,7 +21,7 @@
 <tbody>
 <tr><td><b>Child Specific</b></td>
 <td>Yes</td></tr>
-<tr><td><b>Respondant</b></td>
+<tr><td><b>Respondent</b></td>
 <td>Primary Caregiver</td></tr>
 <tr><td><b>Administration</b></td>
 <td style="word-wrap: break-word; white-space: normal;">Self-administered remotely. If the caregiver does not complete the assessment remotely, it is conducted at the visit to document the child’s language exposure environments. The instrument can be administered by an HBCD Study team member in-person or via video as needed. Surveys were translated to Spanish for HBCD by <a href="https://burgtranslations.com/our-services/">BURG Translations</a>.</td></tr>

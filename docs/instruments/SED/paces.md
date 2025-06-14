@@ -12,7 +12,7 @@
 <tbody>
 <tr><td><b>Child Specific</b></td>
 <td>No</td></tr>
-<tr><td><b>Respondant</b></td>
+<tr><td><b>Respondent</b></td>
 <td>Parent</td></tr>
 <tr><td><b>Administration</b></td>
 <td style="word-wrap: break-word; white-space: normal;">Self, in person or remote. Surveys were translated to Spanish for HBCD by <a href="https://burgtranslations.com/our-services/">BURG Translations</a>.</td></tr>

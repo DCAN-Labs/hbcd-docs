@@ -83,7 +83,7 @@ EEG file inclusion in the data release is based in part on EEG capping quality: 
 
 ## Pipeline Criteria
  
-Please see the criteria for file selection when processing [here](../instruments/processing/index.md).
+Please see the criteria for file selection when processing [here](../instruments/processing/index.md#file-selection-for-processing).
 
 
 

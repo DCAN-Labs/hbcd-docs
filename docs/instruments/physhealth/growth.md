@@ -26,7 +26,7 @@
 <tbody>
 <tr><td><b>Child Specific</b></td>
 <td>Yes</td></tr>
-<tr><td><b>Respondant</b></td>
+<tr><td><b>Respondent</b></td>
 <td>Parent</td></tr>
 <tr><td><b>Administration</b></td>
 <td style="word-wrap: break-word; white-space: normal;">HBCD Study Staff, in person. Surveys were translated to Spanish for HBCD by <a href="https://burgtranslations.com/our-services/">BURG Translations</a>.</td></tr>

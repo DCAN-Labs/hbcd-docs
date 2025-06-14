@@ -30,7 +30,7 @@
 <tbody>
 <tr><td><b>Child Specific</b></td>
 <td>No</td></tr>
-<tr><td><b>Respondant</b></td>
+<tr><td><b>Respondent</b></td>
 <td style="word-wrap: break-word; white-space: normal;">Person who gave birth</td></tr>
 <tr><td><b>Administration</b></td>
 <td style="word-wrap: break-word; white-space: normal;">HBCD Study Staff, in-person (except in Alabama, where participants were trained to self-administer). Surveys were translated to Spanish for HBCD by <a href="https://burgtranslations.com/our-services/">BURG Translations</a>.</td></tr>

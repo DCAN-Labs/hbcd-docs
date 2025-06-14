@@ -19,7 +19,7 @@
 <tbody>
 <tr><td><b>Child Specific</b></td>
 <td>Yes</td></tr>
-<tr><td><b>Respondant</b></td>
+<tr><td><b>Respondent</b></td>
 <td>Primary Caregiver</td></tr>
 <tr><td><b>Administration</b></td>
 <td style="word-wrap: break-word; white-space: normal;">The child-specific Infant Sensor Questionnaire surveys were sent automatically to caregivers via their preferred method of contact (email or text message) marked by HBCD Study staff during the visit. Surveys were translated to Spanish for HBCD by <a href="https://burgtranslations.com/our-services/">BURG Translations</a>.</td></tr>
