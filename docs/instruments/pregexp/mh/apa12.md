@@ -12,7 +12,7 @@
 </div>
 <div class="closed-collapsible-content">
 <p style="margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px solid #6b6b6b66;"><strong>Consideration of Mental Health Symptoms Experienced During Pregnancy</strong></p>
-<p>Concurrence of psychiatric symptoms and substance use is well-recognized during pregnancy (Massey et al., 2011, 2012). Phenotypic risk in birthing parents may influence neurodevelopmental outcomes via prenatal and postnatal influences other than direct exposures alone (Estabrook et al., 2016, Massey et al., 2016, Massey et al., 2018). These influences may confound exposure-related neuroimaging and neurodevelopmental findings, and also represent malleable targets for prevention and early intervention. Thus, consideration of mental health symptoms experienced by birthing parents as covariates is strongly encouraged when possible to address these confounds.</p> 
+<p>Concurrence of psychiatric symptoms and substance use is well-recognized during pregnancy (Massey et al., 2011, 2012). Phenotypic risk in birthing parents may influence neurodevelopmental outcomes via prenatal and postnatal influences other than direct exposures alone (<a href="https://doi.org/10.1007/s10519-015-9762-2">Estabrook et al., 2016</a>, Massey et al., 2016, Massey et al., 2018). These influences may confound exposure-related neuroimaging and neurodevelopmental findings, and also represent malleable targets for prevention and early intervention. Thus, consideration of mental health symptoms experienced by birthing parents as covariates is strongly encouraged when possible to address these confounds.</p> 
 </div>
 
 ## Administration & Quality Control
