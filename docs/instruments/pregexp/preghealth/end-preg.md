@@ -16,7 +16,7 @@
   <span class="notification-arrow">▸</span>
 </div>
 <div class="closed-collapsible-content">
-<p>Subject matter experts note that there are potential issues relating to correct coding for (1) ICD codes from BioPortal ICD (used to capture reason(s) for medication use, ER visits, and hospitalizations) and (2) symptom codes from World Health Organization. For instruments utilizing these coding systems, it was at times difficult for the participant to name or HBCD Study team member conducting the survey to find the correct code/name in a databases.</p>
+<p>There are potential issues relating to correct coding for (1) ICD codes from BioPortal ICD (used to capture reason(s) for medication use, ER visits, and hospitalizations) and (2) symptom codes from World Health Organization. For instruments utilizing these coding systems, it was at times difficult for the participant to name or HBCD Study team member conducting the survey to find the correct code/name in a databases.</p>
 </div>
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 16px;">

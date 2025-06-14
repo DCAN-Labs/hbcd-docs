@@ -20,7 +20,7 @@
 <p>Please note that out-of-range values were filtered (i.e. changed to "n/a") for Healthv2 Inf (<code>pex_bm_healthv2_inf</code>). Valid field values are documented in <a href="../../../../datacuration/phenotypes/#filtered-values">Filtered Out-Of-Range Field Values</a>.</p>
 
 <p style="margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px solid #6b6b6b66;"><b>ICD & Symptom Coding</b></p>
-<p>Subject matter experts note that there are potential issues relating to correct coding for (1) ICD codes from BioPortal ICD (used to capture reason(s) for medication use, ER visits, and hospitalizations) and (2) symptom codes from World Health Organization. For instruments utilizing these coding systems, it was at times difficult for the participant to name or HBCD Study team member conducting the survey to find the correct code/name in a databases.</p>
+<p>There are potential issues relating to correct coding for (1) ICD codes from BioPortal ICD (used to capture reason(s) for medication use, ER visits, and hospitalizations) and (2) symptom codes from World Health Organization. For instruments utilizing these coding systems, it was at times difficult for the participant to name or HBCD Study team member conducting the survey to find the correct code/name in a databases.</p>
 </div>
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 16px;">

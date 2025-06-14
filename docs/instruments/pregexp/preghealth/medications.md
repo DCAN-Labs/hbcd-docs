@@ -16,8 +16,7 @@
   <span class="notification-arrow">▸</span>
 </div>
 <div class="closed-collapsible-content">
-<p>Subject matter experts note that there are potential issues relating to correct coding medication names from RxNORM. For instruments utilizing these coding systems, it was at times difficult for the participant to name or HBCD Study team member conducting the survey to find the correct code/name in a databases.</p> 
-<p>For Pregnancy Health-Medications, no option for preventive use made it difficult to code aspirin use for preeclampsia. Aspirin was specifically moved to the prenatal vitamin section a few months into the study. Some medications were also coded with dose, but this was not asked and should not be used.</p>
+<p>There are potential issues relating to correct coding medication names from RxNORM. For Pregnancy Health-Medications, no option for preventive use made it difficult to code aspirin use for preeclampsia. Aspirin was specifically moved to the prenatal vitamin section a few months into the study. Some medications were also coded with dose, but this was not asked and should not be used.</p>
 </div>
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 16px;">
