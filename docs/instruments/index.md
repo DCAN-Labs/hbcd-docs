@@ -34,13 +34,13 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   </thead>
   <tbody>
   <tr>
-    <td style="word-wrap: break-word; white-space: normal;"><a href="demo/basicdemo">Basic Demographics</a></td>
+    <td style="word-wrap: break-word; white-space: normal;"><a href="demo/basicdemo" target="_blank">Basic Demographics</a></td>
     <td style="word-wrap: break-word; white-space: normal;">Demographics</td>
     <td style="word-wrap: break-word; white-space: normal;">Demographics data derived from multiple sources</td>
     <td style="word-wrap: break-word; white-space: normal;"><code>sed_basic_demographics</code></td>
   </tr>
     <tr>
-    <td style="word-wrap: break-word; white-space: normal;"><a href="demo/visitinfo">Visit Information</a></td>
+    <td style="word-wrap: break-word; white-space: normal;"><a href="demo/visitinfo" target="_blank">Visit Information</a></td>
     <td style="word-wrap: break-word; white-space: normal;">Visit Information</td>
     <td style="word-wrap: break-word; white-space: normal;">Participant visit information</td>
     <td style="word-wrap: break-word; white-space: normal;"><code>par_visit_data</code></td>
@@ -71,19 +71,19 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   </thead>
   <tbody>
   <tr>
-    <td style="word-wrap: break-word; white-space: normal;"><a href="bcgi/ecpromis">Early Childhood Patient-Reported Outcome Measurement Information System Child/Caregiver Relationship Scale</a></td>
+    <td style="word-wrap: break-word; white-space: normal;"><a href="bcgi/ecpromis" target="_blank">Early Childhood Patient-Reported Outcome Measurement Information System Child/Caregiver Relationship Scale</a></td>
     <td style="word-wrap: break-word; white-space: normal;">ecPROMIS</td>
     <td style="word-wrap: break-word; white-space: normal;">Relationships</td>
     <td><code>mh_cg_pms__cc__inf</code></td>
   </tr>
   <tr>
-    <td style="word-wrap: break-word; white-space: normal;"><a href="bcgi/ibqr">Infant Behavior Questionnaire &ndash; Revised Very Short Form + Behavior Inhibition</a></td>
+    <td style="word-wrap: break-word; white-space: normal;"><a href="bcgi/ibqr" target="_blank">Infant Behavior Questionnaire &ndash; Revised Very Short Form + Behavior Inhibition</a></td>
     <td style="word-wrap: break-word; white-space: normal;">IBQ-R (VSF)+BI</td>
     <td style="word-wrap: break-word; white-space: normal;">Temperamental Surgency/Extraversion, Negative Affectivity, Effortful Control, and Behavioral Inhibition</td>
     <td><code>mh_cg_ibqr</code></td>
   </tr>
   <tr>
-    <td style="word-wrap: break-word; white-space: normal;"><a href="bcgi/maps-tl">Multidimensional Assessment Profiles - Temper Loss scale</a></td>
+    <td style="word-wrap: break-word; white-space: normal;"><a href="bcgi/maps-tl" target="_blank">Multidimensional Assessment Profiles - Temper Loss scale</a></td>
     <td style="word-wrap: break-word; white-space: normal;">MAPS-TL</td>
     <td style="word-wrap: break-word; white-space: normal;">Irritability</td>
     <td><code>mh_cg_mapdb__inf</code></td>
@@ -114,13 +114,13 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   </thead>
   <tbody>
       <tr>
-      <td style="text-align: left;"><a href="biospec/nails">Nails Toxicology Screen</a></td>
+      <td style="text-align: left;"><a href="biospec/nails" target="_blank">Nails Toxicology Screen</a></td>
       <td style="text-align: left;">Nails</td>
       <td style="text-align: left;">Toxicology Screen</td>
       <td style="text-align: left;"><code>bio_biosample_nails</code></td>
     </tr>
     <tr>
-        <td style="text-align: left;"><a href="biospec/urine">Urine Toxicology Screen</a></td>
+        <td style="text-align: left;"><a href="biospec/urine" target="_blank">Urine Toxicology Screen</a></td>
         <td style="text-align: left;">Urine</td>
         <td style="text-align: left;">Toxicology Screen</td>
         <td style="text-align: left;"><code>bio_biosample_urine</code></td>
@@ -150,13 +150,13 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   </thead>
   <tbody>
    <tr>
-      <td style="word-wrap: break-word; white-space: normal;"><a href="neurocog/mlds">Multilingual Language Development Screener</a></td>
+      <td style="word-wrap: break-word; white-space: normal;"><a href="neurocog/mlds" target="_blank">Multilingual Language Development Screener</a></td>
       <td style="word-wrap: break-word; white-space: normal;">MLDS</td>
       <td style="word-wrap: break-word; white-space: normal;">Multilingual exposure</td>
       <td style="word-wrap: break-word; white-space: normal;"><code>ncl_ch_mlds</code></td>
     </tr>
     <tr>
-      <td style="word-wrap: break-word; white-space: normal;"><a href="neurocog/spm2">Sensory Processing Measure – Infant/Toddler</a></td>
+      <td style="word-wrap: break-word; white-space: normal;"><a href="neurocog/spm2" target="_blank">Sensory Processing Measure – Infant/Toddler</a></td>
       <td style="word-wrap: break-word; white-space: normal;">SPM-2</td>
       <td style="word-wrap: break-word; white-space: normal;">Sensory processing</td>
       <td style="word-wrap: break-word; white-space: normal;"><code>ncl_cg_spm2__inf</code></td>
@@ -186,13 +186,13 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   </thead>
   <tbody>
     <tr>
-      <td style="word-wrap: break-word; white-space: normal;"><a href="sensors/wearsensors">Wearable Sensors</a></td>
+      <td style="word-wrap: break-word; white-space: normal;"><a href="sensors/wearsensors" target="_blank">Wearable Sensors</a></td>
       <td style="word-wrap: break-word; white-space: normal;">Channel setup</td>
       <td style="word-wrap: break-word; white-space: normal;">N/A</td>
       <td style="word-wrap: break-word; white-space: normal;"><code>sens_ch_setup</code></td>
     </tr>
     <tr>
-      <td style="word-wrap: break-word; white-space: normal;"><a href="sensors/questionnaire">Infant Sensor Questionnaire</a></td>
+      <td style="word-wrap: break-word; white-space: normal;"><a href="sensors/questionnaire" target="_blank">Infant Sensor Questionnaire</a></td>
       <td style="word-wrap: break-word; white-space: normal;">N/A</td>
       <td style="word-wrap: break-word; white-space: normal;">Motor behavior, physical activity, sleep</td>
       <td style="word-wrap: break-word; white-space: normal;"><code>nt_ch_sens__qtn_{1/2/3}</code></td>
@@ -222,19 +222,19 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   </thead>
   <tbody>
     <tr>
-      <td style="word-wrap: break-word; white-space: normal;"><a href="physhealth/bf">Breast Feeding History</a></td>
+      <td style="word-wrap: break-word; white-space: normal;"><a href="physhealth/bf" target="_blank">Breast Feeding History</a></td>
       <td style="word-wrap: break-word; white-space: normal;">PHENX BF</td>
       <td style="word-wrap: break-word; white-space: normal;">Nutrition</td>
       <td style="word-wrap: break-word; white-space: normal;"><code>ph_cg_phx__bfh</code></td>
     </tr>
     <tr>
-      <td style="word-wrap: break-word; white-space: normal;"><a href="physhealth/foodinsecurity">2-item Food Insecurity</a></td>
+      <td style="word-wrap: break-word; white-space: normal;"><a href="physhealth/foodinsecurity" target="_blank">2-item Food Insecurity</a></td>
       <td style="word-wrap: break-word; white-space: normal;">USDA short form</td>
       <td style="word-wrap: break-word; white-space: normal;">Food insecurity</td>
       <td style="word-wrap: break-word; white-space: normal;"><code><code>sed_cg_foodins</code></td>
     </tr>
     <tr>
-      <td style="word-wrap: break-word; white-space: normal;"><a href="physhealth/growth">Height/Weight/Head Circumference</a></td>
+      <td style="word-wrap: break-word; white-space: normal;"><a href="physhealth/growth" target="_blank">Height/Weight/Head Circumference</a></td>
       <td style="word-wrap: break-word; white-space: normal;">Growth</td>
       <td style="word-wrap: break-word; white-space: normal;">Growth</td>
       <td style="word-wrap: break-word; white-space: normal;"><code>ph_ch_anthro</code></td>
@@ -269,49 +269,49 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   </thead>
   <tbody>
   <tr>
-      <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/preghealth/healthhx">Pregnancy Health</a></td>
+      <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/preghealth/healthhx" target="_blank">Pregnancy Health</a></td>
       <td style="word-wrap: break-word; white-space: normal;">Healthhx</td>
       <td style="word-wrap: break-word; white-space: normal;">Pre-pregnancy and pregnancy health</td>
       <td style="word-wrap: break-word; white-space: normal;"><code>pex_bm_health_preg__healthhx</code></td>
     </tr>          
     <tr>
-    <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/preghealth/vacc">Pregnancy Health-Exposures and Vaccines</a></td>
+    <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/preghealth/vacc" target="_blank">Pregnancy Health-Exposures and Vaccines</a></td>
     <td style="word-wrap: break-word; white-space: normal;">Vacc</td>
     <td style="word-wrap: break-word; white-space: normal;">Vaccines in pregnancy</td>
     <td style="word-wrap: break-word; white-space: normal;"><code>pex_bm_health_preg__exp__vacc</code></td>
   </tr>    
   <tr>
-    <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/preghealth/chronconditions">Pregnancy Health-Chronic Conditions</a></td>
+    <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/preghealth/chronconditions" target="_blank">Pregnancy Health-Chronic Conditions</a></td>
     <td style="word-wrap: break-word; white-space: normal;">Exp I chroncond</td>
     <td style="word-wrap: break-word; white-space: normal;">Chronic conditions and sexually transmitted infections in pregnancy</td>
     <td style="word-wrap: break-word; white-space: normal;"><code>pex_bm_health_preg__chroncond</code></td>
   </tr>  
   <tr>
-    <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/preghealth/illness">Pregnancy Health-Illness</a></td>
+    <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/preghealth/illness" target="_blank">Pregnancy Health-Illness</a></td>
     <td style="word-wrap: break-word; white-space: normal;">Exp I illness</td>
     <td style="word-wrap: break-word; white-space: normal;">Illness in pregnancy</td>
     <td style="word-wrap: break-word; white-space: normal;"><code>pex_bm_health_preg__illness</code></td>
   </tr>     
   <tr>
-    <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/preghealth/er-hosp">Pregnancy Health-ER/Hospitalizations</a></td>
+    <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/preghealth/er-hosp" target="_blank">Pregnancy Health-ER/Hospitalizations</a></td>
     <td style="word-wrap: break-word; white-space: normal;">Exp I ERhosp</td>
     <td style="word-wrap: break-word; white-space: normal;">ER visit or hospitalization in pregnancy</td>
     <td style="word-wrap: break-word; white-space: normal;"><code>pex_bm_health_preg__erhosp</code></td>
   </tr>  
   <tr>
-    <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/preghealth/medications">Pregnancy Health-Medications</a></td>
+    <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/preghealth/medications" target="_blank">Pregnancy Health-Medications</a></td>
     <td style="word-wrap: break-word; white-space: normal;">Exp I Meds</td>
     <td style="word-wrap: break-word; white-space: normal;">Prescription and over the counter medications in pregnancy</td>
     <td style="word-wrap: break-word; white-space: normal;"><code>pex_bm_health_preg__meds</code></td>
   </tr>  
   <tr>
-    <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/preghealth/end-preg">Pregnancy Health-V2 (End of Pregnancy)</a></td>
+    <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/preghealth/end-preg" target="_blank">Pregnancy Health-V2 (End of Pregnancy)</a></td>
     <td style="word-wrap: break-word; white-space: normal;">Healthv2 Preg</td>
     <td style="word-wrap: break-word; white-space: normal;">Updates information between enrollment and delivery</td>
     <td style="word-wrap: break-word; white-space: normal;"><code>pex_bm_healthv2_preg</code></td>
   </tr>     
   <tr>
-    <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/preghealth/infanthealth">Infant health- V2</a></td>
+    <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/preghealth/infanthealth" target="_blank">Infant health- V2</a></td>
     <td style="word-wrap: break-word; white-space: normal;">Healthv2 Inf</td>
     <td style="word-wrap: break-word; white-space: normal;">Delivery and birth outcomes</td>
     <td style="word-wrap: break-word; white-space: normal;"><code>pex_bm_healthv2_inf</code></td>
@@ -331,25 +331,25 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   </thead>
   <tbody>
   <tr>
-      <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/mh/fam-mh">Personal and family psychiatric history</a></td>
+      <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/mh/fam-mh" target="_blank">Personal and family psychiatric history</a></td>
       <td style="word-wrap: break-word; white-space: normal;">FAM MH</td>
       <td style="word-wrap: break-word; white-space: normal;">Personal and family mental health</td>
       <td style="word-wrap: break-word; white-space: normal;"><code>pex_bm_psych</code></td>
     </tr>            
     <tr>
-      <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/mh/apa12">DSM-5 Self-Rated Level 1 and Level 2 (version 8a) Cross-Cutting Symptom Measure—Adult</a></td>
+      <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/mh/apa12" target="_blank">DSM-5 Self-Rated Level 1 and Level 2 (version 8a) Cross-Cutting Symptom Measure—Adult</a></td>
       <td style="word-wrap: break-word; white-space: normal;">APA 1/2</td>
       <td style="word-wrap: break-word; white-space: normal;">Mental Health</td>
       <td style="word-wrap: break-word; white-space: normal;"><code>pex_bm_apa</code></td>
     </tr>  
     <tr>
-      <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/mh/ptsd">National Stressful Events Survey- PTSD Short Scale/Acute Stress Disorder</a></td>
+      <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/mh/ptsd" target="_blank">National Stressful Events Survey- PTSD Short Scale/Acute Stress Disorder</a></td>
       <td style="word-wrap: break-word; white-space: normal;">NSESSS—PTSD/Acute Stress Disorder</td>
       <td style="word-wrap: break-word; white-space: normal;">PTSD/acute stress disorder symptom severity</td>
       <td style="word-wrap: break-word; white-space: normal;"><code>pex_bm_str__ptsd</code></td>
     </tr>      
     <tr>
-      <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/mh/epds">Edinburgh Postnatal Depression Scale</a></td>
+      <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/mh/epds" target="_blank">Edinburgh Postnatal Depression Scale</a></td>
       <td style="word-wrap: break-word; white-space: normal;">EPDS</td>
       <td style="word-wrap: break-word; white-space: normal;">Postnatal depression</td>
       <td style="word-wrap: break-word; white-space: normal;"><code>pex_bm_epds</code></td>
@@ -370,25 +370,25 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   </thead>
   <tbody>
   <tr>
-    <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/su/assistv1">Alcohol, Smoking and Substance Involvement Screening Test V1.0</a></td>
+    <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/su/assistv1" target="_blank">Alcohol, Smoking and Substance Involvement Screening Test V1.0</a></td>
     <td>Assist V1</td>
     <td style="word-wrap: break-word; white-space: normal;">Substance use and problematic use before and during pregnancy</td>
     <td style="word-wrap: break-word; white-space: normal;"><code>pex_bm_assistv1</code></td>
   </tr>    
   <tr>
-    <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/su/assistv2">Alcohol, Smoking and Substance Involvement Screening Test V2.0</a></td>
+    <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/su/assistv2" target="_blank">Alcohol, Smoking and Substance Involvement Screening Test V2.0</a></td>
     <td style="word-wrap: break-word; white-space: normal;">Assist V2</td>
     <td style="word-wrap: break-word; white-space: normal;">Substance use during end of pregnancy ( between V1 and delivery) and postnatal (weeks 0-4, between delivery and V2)</td>
     <td style="word-wrap: break-word; white-space: normal;"><code>pex_bm_assistv2</code></td>
   </tr>    
   <tr>
-      <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/su/assistv3">Alcohol, Smoking and Substance Involvement Screening Test V3.0</a></td>
+      <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/su/assistv3" target="_blank">Alcohol, Smoking and Substance Involvement Screening Test V3.0</a></td>
       <td style="word-wrap: break-word; white-space: normal;">Assist V3</td>
       <td style="word-wrap: break-word; white-space: normal;">Substance use after pregnancy</td>
       <td style="word-wrap: break-word; white-space: normal;"><code>pex_bm_assistv3</code></td>
   </tr>   
   <tr>
-      <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/su/tlfb">Timeline Follow Back</a></td>
+      <td style="word-wrap: break-word; white-space: normal;"><a href="pregexp/su/tlfb" target="_blank">Timeline Follow Back</a></td>
       <td style="word-wrap: break-word; white-space: normal;">TLFB</td>
       <td style="word-wrap: break-word; white-space: normal;">Substance use before and during pregnancy</td>
       <td style="word-wrap: break-word; white-space: normal;"><code>pex_ch_tlfb</code></td>
@@ -419,43 +419,43 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   </thead>
   <tbody>
     <tr>
-      <td style="word-wrap: break-word; white-space: normal;"><a href="SED/bfy">Baby’s First Years – Benefits/Services/Economic Stress</a></td>
+      <td style="word-wrap: break-word; white-space: normal;"><a href="SED/bfy" target="_blank">Baby’s First Years – Benefits/Services/Economic Stress</a></td>
       <td style="word-wrap: break-word; white-space: normal;">BFY</td>
       <td style="word-wrap: break-word; white-space: normal;">Benefits/Services/Economic Stress</td>
       <td style="word-wrap: break-word; white-space: normal;"><code>sed_bm_bfy</code></td>
     </tr>
     <tr>
-        <td style="word-wrap: break-word; white-space: normal;"><a href="SED/discr">Experiences with Unfair Treatment</a></td>
+        <td style="word-wrap: break-word; white-space: normal;"><a href="SED/discr" target="_blank">Experiences with Unfair Treatment</a></td>
         <td style="word-wrap: break-word; white-space: normal;">PhenX+ Discrimination</td>
         <td style="word-wrap: break-word; white-space: normal;">Experiences with Unfair Treatment</td>
         <td style="word-wrap: break-word; white-space: normal;"><code>sed_bm_phx__discr</code></td>
     </tr>   
     <tr>
-          <td style="word-wrap: break-word; white-space: normal;"><a href="SED/ehits">Extended – Hurt, Insult, Threaten, Scream</a></td>
+          <td style="word-wrap: break-word; white-space: normal;"><a href="SED/ehits" target="_blank">Extended – Hurt, Insult, Threaten, Scream</a></td>
           <td style="word-wrap: break-word; white-space: normal;">eHITS</td>
           <td style="word-wrap: break-word; white-space: normal;">Intimate Partner Violence</td>
           <td style="word-wrap: break-word; white-space: normal;"><code>sed_bm_ehits</code></td>
       </tr>  
       <tr>
-          <td style="word-wrap: break-word; white-space: normal;"><a href="SED/v01-demo">HBCD Demographics V01</a></td>
+          <td style="word-wrap: break-word; white-space: normal;"><a href="SED/v01-demo" target="_blank">HBCD Demographics V01</a></td>
           <td style="word-wrap: break-word; white-space: normal;">Demographics</td>
           <td style="word-wrap: break-word; white-space: normal;">Basic social characteristics related to the birthing parent, the other biological parent, and their household</td>
           <td style="word-wrap: break-word; white-space: normal;"><code>sed_bm_demo</code></td>
       </tr>     
       <tr>
-          <td style="word-wrap: break-word; white-space: normal;"><a href="SED/promis">Patient-Reported Outcome Measurement Information System</a></td>
+          <td style="word-wrap: break-word; white-space: normal;"><a href="SED/promis" target="_blank">Patient-Reported Outcome Measurement Information System</a></td>
           <td style="word-wrap: break-word; white-space: normal;">PROMIS</td>
           <td style="word-wrap: break-word; white-space: normal;">Perceived Stress/Social Support</td>
           <td style="word-wrap: break-word; white-space: normal;"><code>sed_bm_strsup</code></td>
       </tr> 
       <tr>
-          <td style="word-wrap: break-word; white-space: normal;"><a href="SED/safety">PhenX+ Toolkit Neighborhood Safety</a></td>
+          <td style="word-wrap: break-word; white-space: normal;"><a href="SED/safety" target="_blank">PhenX+ Toolkit Neighborhood Safety</a></td>
           <td style="word-wrap: break-word; white-space: normal;">Neighborhood Safety</td>
           <td style="word-wrap: break-word; white-space: normal;">Social Determinants of Health</td>
           <td style="word-wrap: break-word; white-space: normal;"><code>sed_bm_nbhsaf</code></td>
       </tr>          
       <tr>
-          <td style="word-wrap: break-word; white-space: normal;"><a href="SED/paces">Protective and Compensatory Experience</a></td>
+          <td style="word-wrap: break-word; white-space: normal;"><a href="SED/paces" target="_blank">Protective and Compensatory Experience</a></td>
           <td style="word-wrap: break-word; white-space: normal;">PACES</td>
           <td style="word-wrap: break-word; white-space: normal;">Protective Factors</td>
           <td style="word-wrap: break-word; white-space: normal;"><code>sed_bm_paces</code></td>
@@ -488,7 +488,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   <tbody>
 <!-- sMRI -->
     <tr>
-      <td rowspan="8"><a href="mri/smri">Structural MRI</a></td>
+      <td rowspan="8"><a href="mri/smri" target="_blank">Structural MRI</a></td>
       <td rowspan="8">sMRI</td>
       <td><code>img_brainswipes_xcpd-T2w</td>
     </tr>
@@ -501,7 +501,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
     <tr><td><code>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG-A&gt;</span>_stat-mean_desc-thickness_morph</code></td></tr>
 <!-- fMRI -->
     <tr>
-      <td rowspan="5"><a href="mri/fmri">Functional MRI</a></td>
+      <td rowspan="5"><a href="mri/fmri" target="_blank">Functional MRI</a></td>
       <td rowspan="5">fMRI</td>
       <td><code>img_brainswipes_xcpd-bold</td>
     </tr>
@@ -511,13 +511,13 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
     <tr><td><code>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG-F&gt;</span>_stat-reho_bold</code></td></tr>
 <!-- dMRI -->
     <tr>
-      <td><a href="mri/dmri">Diffusion MRI</a></td>
+      <td><a href="mri/dmri" target="_blank">Diffusion MRI</a></td>
       <td>dMRI</td>
       <td><code>img_qsiprep_space-ACPC_desc-image_qc</code></td>
     </tr>
     <!-- qMRI -->
     <tr>
-      <td><a href="mri/qmri">Quantitative MRI</a></td>
+      <td><a href="mri/qmri" target="_blank">Quantitative MRI</a></td>
       <td>qMRI</td>
       <td>N/A</td>
     </tr>
@@ -569,7 +569,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   </thead>
   <tbody>
       <tr>
-        <td rowspan="2"><a href="eeg/mmn">Auditory Mismatch Negativity Task</a></td>
+        <td rowspan="2"><a href="eeg/mmn" target="_blank">Auditory Mismatch Negativity Task</a></td>
         <td rowspan="2">MMN</td>
         <td><code>eeg_made_task-MMN_acq-eeg_preprocessingReport</code></td>
       </tr>
@@ -577,7 +577,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
         <td><code>eeg_qc_task-MMN</code></td>
       </tr>
       <tr>
-        <td rowspan="2"><a href="eeg/faces">Faces Task</a></td>
+        <td rowspan="2"><a href="eeg/faces" target="_blank">Faces Task</a></td>
         <td rowspan="2">Face</td>
         <td><code>eeg_made_task-FACE_acq-eeg_preprocessingReport</code></td>
       </tr>
@@ -585,7 +585,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
         <td><code>eeg_qc_task-FACE</code></td>
       </tr>
       <tr>
-        <td rowspan="2"><a href="eeg/videors">Video Resting State Task</a></td>
+        <td rowspan="2"><a href="eeg/videors" target="_blank">Video Resting State Task</a></td>
         <td rowspan="2">RS</td>
         <td><code>eeg_made_task-RS_acq-eeg_preprocessingReport</code></td>
       </tr>
@@ -593,7 +593,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
         <td><code>eeg_qc_task-RS</code></td>
       </tr>
       <tr>
-        <td rowspan="2"><a href="eeg/vep">Visual Evoked Potential Task</a></td>
+        <td rowspan="2"><a href="eeg/vep" target="_blank">Visual Evoked Potential Task</a></td>
         <td rowspan="2">VEP</td>
         <td><code>eeg_made_task-VEP_acq-eeg_preprocessingReport</code></td>
       </tr>
