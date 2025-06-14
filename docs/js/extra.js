@@ -28,7 +28,8 @@ function expandCollapsibleById(id) {
   const element = document.getElementById(id);
   
   if (element && (element.classList.contains('notification-banner') || 
-                  element.classList.contains('table-banner'))) {
+                  element.classList.contains('table-banner') ||
+                  element.classList.contains('warning-banner'))) {
     const collapsibleContent = element.nextElementSibling;
     const arrow = element.querySelector(['.arrow', '.notification-arrow', '.table-arrow']);
 
@@ -40,14 +41,29 @@ function expandCollapsibleById(id) {
   }
 }
 
-// Auto-expand all collapsible banners on page load
+// Auto-expand banners if navigated via external link
 document.addEventListener('DOMContentLoaded', function () {
-  const collapsibleContents = document.querySelectorAll(['.collapsible-content', '.notification-open-collapsible-content', '.alert-collapsible-content', '.warning-collapsible-content', '.table-open-collapsible-content']);
-  const arrowIcons = document.querySelectorAll('.arrow');
+  const hash = window.location.hash.substring(1);
+  if (hash) {
+    expandCollapsibleById(hash);
+  }
+});
 
-  // Loop through all collapsible sections to open and rotate arrow
-  collapsibleContents.forEach(content => content.classList.add('open'));
-  arrowIcons.forEach(arrow => arrow.classList.add('rotate'));
+
+// Expand only collapsible sections with arrows that have the "open-arrow" class
+document.addEventListener('DOMContentLoaded', function () {
+  const openArrows = document.querySelectorAll('.open-arrow');
+
+  openArrows.forEach(arrow => {
+    arrow.classList.add('rotate');
+
+    // Find the related collapsible content (assumes it is the next sibling or nearby)
+    const content = arrow.closest('.collapsible-header')?.nextElementSibling;
+
+    if (content && content.classList.contains('collapsible-content')) {
+      content.classList.add('open');
+    }
+  });
 
   // Auto-expand specific banner if navigated via external link
   const hash = window.location.hash.substring(1);
@@ -55,6 +71,22 @@ document.addEventListener('DOMContentLoaded', function () {
     expandCollapsibleById(hash);
   }
 });
+
+// // Auto-expand specific collapsible banners on page load
+// document.addEventListener('DOMContentLoaded', function () {
+//   const collapsibleContents = document.querySelectorAll(['.collapsible-content', '.notification-open-collapsible-content', '.alert-collapsible-content', '.table-open-collapsible-content']);
+//   const arrowIcons = document.querySelectorAll('.arrow');
+
+//   // Loop through all collapsible sections to open and rotate arrow
+//   collapsibleContents.forEach(content => content.classList.add('open'));
+//   arrowIcons.forEach(arrow => arrow.classList.add('rotate'));
+
+//   // Auto-expand specific banner if navigated via external link
+//   const hash = window.location.hash.substring(1);
+//   if (hash) {
+//     expandCollapsibleById(hash);
+//   }
+// });
 
 // Listen for hash changes to expand collapsible sections
 window.addEventListener('hashchange', () => {

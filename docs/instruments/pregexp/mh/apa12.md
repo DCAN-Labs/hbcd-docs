@@ -2,7 +2,6 @@
 
 ## TO DO LIST
 
-- add links to papers referenced in data warning and make sure they are included in References section as well
 - streamline Instrument Description section to be less redundant (eg can probably add information from HBCD Modification Details into main text and remove infobox)
 - list scoring procedures separately to streamline text
 
@@ -12,14 +11,19 @@
 **Table Name**: `pex_bm_apa`       
 **Construct**: Mental health
 
-<div id="apa-warning" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
+  <span class="text-with-link">
   <span class="text">Data Warning</span>
-  <span class="notification-arrow">▸</span>
+  <a class="anchor-link" href="#warning" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="warning-collapsible-content">
 <p style="margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px solid #6b6b6b66;"><strong>Consideration of Mental Health Symptoms Experienced During Pregnancy</strong></p>
-<p>Concurrence of psychiatric symptoms and substance use is well-recognized during pregnancy (Massey et al., 2011, 2012). Phenotypic risk in birthing parents may influence neurodevelopmental outcomes via prenatal and postnatal influences other than direct exposures alone (<a href="https://doi.org/10.1007/s10519-015-9762-2">Estabrook et al., 2016</a>, Massey et al., 2016, Massey et al., 2018). These influences may confound exposure-related neuroimaging and neurodevelopmental findings, and also represent malleable targets for prevention and early intervention. Thus, consideration of mental health symptoms experienced by birthing parents as covariates is strongly encouraged when possible to address these confounds.</p> 
+<p>Concurrence of psychiatric symptoms and substance use is well-recognized during pregnancy (<a href="https://doi.org/10.1111/j.1521-0391.2010.00110.x">Massey et al., 2011</a>, <a href="https://doi.org/10.1016/j.addbeh.2012.04.002">Massey et al., 2012</a>). Phenotypic risk in birthing parents may influence neurodevelopmental outcomes via prenatal and postnatal influences other than direct exposures alone (<a href="https://doi.org/10.1007/s10519-015-9762-2">Estabrook et al., 2016</a>, <a href="https://doi.org/10.1016/j.ntt.2015.11.010">Massey et al., 2016</a>, <a href="https://doi.org/10.1016/j.ntt.2018.02.003">Massey et al., 2018</a>). These influences may confound exposure-related neuroimaging and neurodevelopmental findings, and also represent malleable targets for prevention and early intervention. Thus, consideration of mental health symptoms experienced by birthing parents as covariates is strongly encouraged when possible to address these confounds.</p> 
 </div>
 
 ## Administration & Quality Control
@@ -82,7 +86,9 @@ Additional modifications are described below. Future publications should be sure
 <div class="references">
 <p>Doss, R. A., &amp; Lowmaster, S. E. (2022). Validation of the DSM-5 Level 1 Cross-Cutting Symptom Measure in a Community  Sample. <em>Psychiatry Research</em>, <em>318</em>, 114935. <a href="https://doi.org/10.1016/j.psychres.2022.114935">https://doi.org/10.1016/j.psychres.2022.114935</a></p>
 <p>Estabrook, R., Massey, S. H., Clark, C. A. C., Burns, J. L., Mustanski, B. S., Cook, E. H., O’Brien, T. C., Makowski, B., Espy, K. A., & Wakschlag, L. S. (2016). Separating family-level and direct exposure effects of smoking during pregnancy on offspring externalizing symptoms: Bridging the behavior genetic and behavior teratologic divide. Behavior Genetics, 46(3), 389–402. <a href="https://doi.org/10.1007/s10519-015-9762-2">https://doi.org/10.1007/s10519-015-9762-2</a></p>
+<p>Massey, S. H., Lieberman, D. Z., Reiss, D., Leve, L. D., Shaw, D. S., & Neiderhiser, J. M. (2011). Association of clinical characteristics and cessation of tobacco, alcohol, and illicit drug use during pregnancy. The American Journal on Addictions. <a href="https://doi.org/10.1111/j.1521-0391.2010.00110.x">https://doi.org/10.1111/j.1521-0391.2010.00110.x</a></p>
 <p>Massey, S. H., Mroczek, D. K., Burns, J. L., Clark, C. A. C., Espy, K. A., & Wakschlag, L. S. (2018). Positive parenting behaviors in women who spontaneously quit smoking during pregnancy: Clues to putative targets for preventive interventions. Neurotoxicology and Teratology, 67, 18–24.<a href="https://doi.org/10.1016/j.ntt.2018.02.003">https://doi.org/10.1016/j.ntt.2018.02.003</a></p>
+<p>Massey, S. H., Neiderhiser, J. M., Shaw, D. S., Leve, L. D., Ganiban, J. M., & Reiss, D. (2012). Maternal self concept as a provider and cessation of substance use during pregnancy. Addictive Behaviors, 37(8), 956–961. <a href="https://doi.org/10.1016/j.addbeh.2012.04.002">https://doi.org/10.1016/j.addbeh.2012.04.002</a></p>
 <p>Massey, S. H., Reiss, D., Neiderhiser, J. M., Leve, L. D., Shaw, D. S., & Ganiban, J. M. (2016). Maternal personality traits associated with patterns of prenatal smoking and exposure: Implications for etiologic and prevention research. Neurotoxicology and Teratology, 53, 48–54. <a href="https://doi.org/10.1016/j.ntt.2015.11.010">https://doi.org/10.1016/j.ntt.2015.11.010</a></p>
 <p>Roche, M. J., Pincus, A. L., &amp; Cole, P. E. (2019). Linking dimensions and dynamics in psychopathology research: An example using DSM-5 instruments. <em>Journal of Research in Personality</em>, <em>82</em>, 103852. <a href="https://doi.org/https://doi.org/10.1016/j.jrp.2019.103852">https://doi.org/https://doi.org/10.1016/j.jrp.2019.103852</a></p>
 </div>

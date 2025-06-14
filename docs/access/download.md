@@ -21,9 +21,9 @@ After obtaining data access, users can download HBCD Study release data via the 
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="warning-collapsible-content">
 <p>Dataset downloads from Lasso will automatically contain two additional columns that are not currently described in the data dictionary: 'cohort' (<em>HBCD Main Child</em>) and `site` (<em>site ID</em>). The `cohort` and `site` columns are identical to the <a href="../../measures/demographics/#visit-information">Visit Information</a> variables <b><code>par_visit_data_cohort</code></b> and <b><code>par_visit_data_site</code></b>, respectively.</p>
 </div>
 
@@ -35,9 +35,9 @@ After obtaining data access, users can download HBCD Study release data via the 
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="warning-collapsible-content">
 <p>
   The following columns are currently blank in the Lasso Dictionary Query Tool for the HBCD Study and will become available in a future release 
   (columns not applicable to HBCD and thus expected to be blank are noted 
@@ -55,9 +55,9 @@ After obtaining data access, users can download HBCD Study release data via the 
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="warning-collapsible-content">
 <p>
 Instruction text in the Data Dictionary metadata is extracted programmatically from the most recent instruction field in each form, based on field order. This means:
 <ul>
@@ -80,6 +80,7 @@ HBCD data is organized into tables, each of which contains a set of variables. T
 
 Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data dictionary via the **[Lasso Portal Query Tool]()** or **[DEAP](https://docs.deapscience.com)** - ADD LINKS. Below are the definitions for the columns in the data dictionaries for these utilities. Note that some columns also correspond to elements in the BIDS JSON files that accompany all tabulated data (hover over <i class="bi bi-filetype-json" style="font-size:18px; color:blue;"></i> icon for details in table below).
 
+#### Data Dictionary Column Definitions
 
 <div id="dd-faq" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
@@ -95,17 +96,13 @@ Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data
 <p>There are NBDC data dictionary column names that are currently inapplicable to HBCD study data and thus excluded from the table below. Note that these columns will still be present when querying the data dictionary via the Lasso Portal or DEAP, but the column values will be blank. Examples include <b><code>atlas</code></b>, <b><code>metric</code></b>, <b><code>sub_domain</code></b>, columns including <b><code>nda/deap/redcap</code></b>, etc. These columns can be safely ignored. Also see the <a href="#blank-columns">Lasso User Warning</a> in the section above for columns that are currently blank and expected to be populated in a future release.</p>
 </div>
 
-<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
-  <span class="table-text">Data Dictionary Column Definitions</span>
-  <span class="arrow">▸</span>
-</div>
-<div class="table-open-collapsible-content">
-<table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 13px;">
+
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
     <thead>
       <tr>
         <th style="width: 20%; border: 1px solid #ddd; padding: 5px; text-align: center;">Column Name<br>(DEAP)</th>
         <th style="width: 5%; border: 1px solid #ddd; padding: 5px; text-align: center;">Column Name<br>(Lasso)</th>
-        <th style="width: 30%; border: 1px solid #ddd; padding: 5px; text-align: center;">Description</th>
+        <th style="width: 25%; border: 1px solid #ddd; padding: 5px; text-align: center;">Description</th>
         <th style="width: 25%; border: 1px solid #ddd; padding: 5px; text-align: center;"><b>{</b>Possible Values<b>}</b> / Example(s)</th>
         <th style="width: 5%; border: 1px solid #ddd; padding: 5px; word-wrap: break-word; white-space: normal; text-align: center;">
             <span class="tooltip tooltip-left">Mutable
@@ -340,6 +337,3 @@ Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data
     </tr>
 </tbody>
 </table>
-</div>
-
-##
