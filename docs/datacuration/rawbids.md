@@ -1,5 +1,5 @@
 # Raw File-Based BIDS Data
-The `rawdata/` folder includes raw file-based magnetic resonance imaging (MRI), spectroscopy (MRS), electroencephalography (EEG), and motion/accelerometry (i.e. [wearable sensor](../measures/sensors.md) recordings for leg motion) data, converted to BIDS and organized under subject and session-specific directories for processing through BIDS App pipelines (see details [here](../processing/index.md)):
+The `rawdata/` folder includes raw file-based magnetic resonance imaging (MRI), spectroscopy (MRS), electroencephalography (EEG), and motion/accelerometry (i.e. [wearable sensor](../instruments/sensors/wearsensors.md) recordings for leg motion) data, converted to BIDS and organized under subject and session-specific directories for processing through BIDS App pipelines (see details [here](../processing/index.md)):
 
 <pre class="folder-tree">
 
@@ -38,7 +38,7 @@ In a large infant study, missing data is common, leading to variations in the nu
 </div>
 <div class="notification-open-collapsible-content">
 <br>
-<i>Age is reported with the following fields in the <code>sessions.tsv</code> and <code>scans.tsv</code> files for V02 onwards. See the <a href="../../measures/agevariables">Age Variable Definitions</a> section for a summary of all age-related variables across the release, as well as the information summarized in table format <a href="../../measures/agevariables/#raw-file-based-data">here</a>.</i></i>
+<i>Age is reported with the following fields in the <code>sessions.tsv</code> and <code>scans.tsv</code> files for V02 onwards. See the <a href="../../instruments/agevariables">Age Variable Definitions</a> section for a summary of all age-related variables across the release, as well as the information summarized in table format <a href="../../instruments/agevariables/#raw-file-based-data">here</a>.</i></i>
 <br>
 <br>
 <b>Adjusted Age at Time of Scan</b> (<code>age_adjusted</code>): Reported in days (not rounded), adjusted age is the time from the estimated date of delivery (EDD) to the scan date.
@@ -55,7 +55,7 @@ Participant-, session-, and scan-level data are stored in standardized `.tsv` fi
 
 - **Participant-level**: Stored in `rawdata/participants.tsv`, this file includes basic demographic and participant information (e.g., sex).
 - **Session-level**: Stored in `sub-<label>_sessions.tsv` within each subject folder, this file includes session information such as collection site, the participant’s age at each session, and head size.
-- **Scan-level**:  Each session folder includes a `sub-<label>_ses-<label>_scans.tsv` file with per-scan information including participant age at scan as well as all raw data QC scores (see [HBCD MR Quality Control Procedures](../measures/mri/qc.md)).
+- **Scan-level**:  Each session folder includes a `sub-<label>_ses-<label>_scans.tsv` file with per-scan information including participant age at scan as well as all raw data QC scores (see [HBCD MR Quality Control Procedures](../instruments/mri/qc.md)).
 
 ## Imaging
 
@@ -220,7 +220,7 @@ eeg/
 The `SET` files contain metadata and parameters for the EEG dataset, such as channel locations, sampling rate, and event information. The `FDT` files are field data table files containing EEG data.
 
 #### Location of Electrodes
-The location of electrodes, placed on either the head (`acq-eeg`) or chest (`acq-ecg`), is specified in the `*_electrodes.tsv` files following cartesian coordinates provided by the accompanying `*_coordsystem.json` file. For **task acquisitions**, the task is specified by `task-<label>`, with task options of `FACE`, `MMN`, `RS`, and `VEP` (see task details [here](../measures/eeg/index.md)).
+The location of electrodes, placed on either the head (`acq-eeg`) or chest (`acq-ecg`), is specified in the `*_electrodes.tsv` files following cartesian coordinates provided by the accompanying `*_coordsystem.json` file. For **task acquisitions**, the task is specified by `task-<label>`, with task options of `FACE`, `MMN`, `RS`, and `VEP` (see task details [here](../instruments/eeg/index.md)).
 
 #### Sourcedata
 <ul>

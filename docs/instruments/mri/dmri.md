@@ -1,5 +1,12 @@
 # Diffusion MRI (dMRI)
 
+<p>
+<div id="demo-fyi" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">See the <a href="..">Overview</a> for a summary of protocols, quality control information, etc.</span>
+</div>
+</p>
+
 ## Diffusion-Weighted Imaging (DWI)
 DWI refers to the raw image data acquired during scanning. The DWI protocol provides diffusion-weighted images that may be used to estimate multiple models of diffusion behavior in the central nervous system. The protocol acquires roughly 140 diffusion-weighted echo planar images at four b-values (diffusion-weighting) between 0 and 3000 s/mm^2 (12-13 minutes total acquisition time). For raw image acquisition, a minimum of 60% of the diffusion-weighted volumes are required to be collected for the acquisition to be deemed successful. 
 

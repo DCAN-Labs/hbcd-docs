@@ -1,10 +1,7 @@
 # Faces Task
 
 **Full Name**: Faces Task       
-**Acronym**: FACE          
-**Table Name**: **TO DO**  
-
-Add links to tabualted and file-based data info
+**Acronym**: FACE      
 
 <div id="resp-use-warning" class="alert-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
