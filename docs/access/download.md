@@ -2,12 +2,14 @@
 
 ## Access HBCD Study Data
 
-HBCD Study data is publicly shared via the [NBDC](https://www.nbdc-datahub.org) **Data Use Certification (DUC)** that researchers sign in agreement to follow the rules outlined for data use. DUC submission is conducted through the [NBDC portal supported by Lasso](https://nbdc-datashare.lassoinformatics.com/). **Please visit the [NBDC Data Hub](https://www.nbdc-datahub.org/data-access-process) for detailed instructions on how to submit a DUC.**
+***Please visit the [NBDC Data Hub](https://www.nbdc-datahub.org/data-access-process) for detailed instructions on how to submit a DUC.***
+
+HBCD Study data is publicly shared via the [NBDC](https://www.nbdc-datahub.org) **Data Use Certification (DUC)** that researchers sign in agreement to follow the rules outlined for data use. DUC submission is conducted through the [NBDC portal supported by Lasso](https://nbdc-datashare.lassoinformatics.com/). 
 
 
 ## Download HBCD Study Data
 
-After obtaining data access, users can download HBCD Study release data via the **[Lasso Portal](https://nbdc-datashare.lassoinformatics.com/)** or **Data Exploration and Analysis Portal**  ([DEAP]()) - ADD LINKS.
+After obtaining data access, users can download HBCD Study release data via the **[Lasso Portal](https://nbdc-datashare.lassoinformatics.com/)** or **Data Exploration and Analysis Portal** ([DEAP](https://docs.deapscience.com)).
 
 ### Lasso User Warnings - HBCD
 
@@ -76,15 +78,21 @@ Instruction text in the Data Dictionary metadata is extracted programmatically f
 
 HBCD data is organized into tables, each of which contains a set of variables. The data dictionary provides detailed information about each variable in the HBCD data tables. The dictionary includes the variable name, label, description, data type, and other relevant information. 
 
-Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data dictionary via the **[Lasso Portal Query Tool]()** or **[DEAP]()** - ADD LINKS. Below are the definitions for the columns in the data dictionaries for these utilities. Note that some columns also correspond to elements in the BIDS JSON files that accompany all tabulated data (hover over <i class="bi bi-filetype-json" style="font-size:18px; color:blue;"></i> icon for details in table below).
+Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data dictionary via the **[Lasso Portal Query Tool]()** or **[DEAP](https://docs.deapscience.com)** - ADD LINKS. Below are the definitions for the columns in the data dictionaries for these utilities. Note that some columns also correspond to elements in the BIDS JSON files that accompany all tabulated data (hover over <i class="bi bi-filetype-json" style="font-size:18px; color:blue;"></i> icon for details in table below).
+
 
 <div id="dd-faq" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+   <span class="text-with-link">
   <span class="text">Why are some data dictionary columns empty?</span>
+  <a class="anchor-link" href="#dd-faq" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
-<p>There are NBDC data dictionary column names that are currently inapplicable to HBCD study data and thus excluded from the table below. Note that these columns will still be present when querying the data dictionary via the Lasso Portal or DEAP, but the column values will be blank. Examples include <b><code>atlas</code></b>, <b><code>metric</code></b>, <b><code>sub_domain</code></b>, columns including <b><code>nda/deap/redcap</code></b>, etc. These columns can be safely ignored. Also see the <a href="#blank-columns-in-query-tool">Lasso User Warning</a> in the section above for columns that are currently blank and expected to be populated in a future release.</p>
+<p>There are NBDC data dictionary column names that are currently inapplicable to HBCD study data and thus excluded from the table below. Note that these columns will still be present when querying the data dictionary via the Lasso Portal or DEAP, but the column values will be blank. Examples include <b><code>atlas</code></b>, <b><code>metric</code></b>, <b><code>sub_domain</code></b>, columns including <b><code>nda/deap/redcap</code></b>, etc. These columns can be safely ignored. Also see the <a href="#blank-columns">Lasso User Warning</a> in the section above for columns that are currently blank and expected to be populated in a future release.</p>
 </div>
 
 <div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
@@ -116,11 +124,8 @@ Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data
     <tr>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Domain</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">domain</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Domain/Workgroup</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">
-        <span class="tooltip">Demographics; EEG
-        <span class="tooltiptext">See full list under <a href="../../measures/#tabulated-data">Tabulated Data</a></span>
-      </span></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Domain/<a href="https://hbcdstudy.org/workgroups-and-committees/">HBCD Workgroup</a></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">e.g. "Demographics" or "EEG" - see domains listed under <a href="../../instruments/">Study Instruments</a></td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">NO</td>
     </tr>
     <tr>

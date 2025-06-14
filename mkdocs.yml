@@ -40,63 +40,98 @@ plugins:
 docs_dir: docs
 
 nav: 
-  - ABOUT: index.md
-  - Move to Lasso:
-    - How To Access Data: lasso/duc.md
-    - "Query & Download Data": lasso/download.md
-  - Access Data:
+  - Data Usage:
     - "Access & Download Data": access/download.md
-    - "Data Formats & Tools":
-        - Tabulated Data: dataformats/tabulated.md
-        - Recommended Programs: dataformats/recprograms.md
     - Responsible Data Use: access/resp_data_use.md
     - Data Use Acknowledgement: access/dua.md
-  - Release Notes:
+  - Data Structure & File Types:
     - HBCD Study Design: 
-        - Study Design Logic: measures/studydesign.md
-        - ReproSchema: reproschema.md
-    - HBCD Data Overview:
-        - BIDS Data Format: datacuration/overview.md
-        - Tabulated Data: datacuration/phenotypes.md
+        - Study Design Logic: datacuration/studydesign.md
+        - ReproSchema: datacuration/reproschema.md
+    - Structure (BIDS): datacuration/overview.md
+    - Tabulated Data: datacuration/phenotypes.md
+    - File-Based Data: 
         - Raw File-Based Data: datacuration/rawbids.md
         - Processed File-Based Data: datacuration/derivatives.md
         - Exclusion Criteria: datacuration/exclusions.md
-    - "Data Measures & Quality Control":
-        - Overview: measures/index.md
-        - Age Variables: measures/agevariables.md
-        - "Demographics": measures/demographics.md
-        - "Behavior & Caregiver-Child Interaction": measures/behCGinteraction.md   
-        - Biospecimens: measures/biospec.md   
-        - "Neurocognition & Language": measures/neurocog.md    
-        - "Novel Technologies & Wearable Sensors": measures/sensors.md                     
-        - Physical Health: measures/physicalhealth.md
-        - "Pregnancy & Exposure": 
-            - "Pregnancy & Infant Health": measures/pregexp/preghealth.md
-            - Substance Use: measures/pregexp/substanceuse.md
-            - Mental Health: measures/pregexp/mentalhealth.md
-        - "Social & Environmental Determinants": measures/socenvdet.md
-        - Electroencephalography: measures/eeg/index.md
+    - Recommended Tools: dataformats/recprograms.md
+  - Study Instruments:
+    - Overview: instruments/index.md
+    - Age Variables: instruments/agevariables.md
+    - Demographics & Visit Information:
+        - Basic Demographics: instruments/demo/basicdemo.md
+        - Visit Information: instruments/demo/visitinfo.md
+    - Behavior, Biology, & Environment:
+        - Behavior & Caregiver-Child Interaction: 
+            - ecPROMIS: instruments/bcgi/ecpromis.md
+            - IBQ-R (VSF)+BI: instruments/bcgi/ibqr.md
+            - MAPS-TL: instruments/bcgi/maps-tl.md
+        - Biospecimens & Omics:
+            - Nails: instruments/biospec/nails.md
+            - Urine: instruments/biospec/urine.md
+        - Neurocognition & Language:
+            - MLDS: instruments/neurocog/mlds.md
+            - SPM-2: instruments/neurocog/spm2.md
+        - Novel Tech & Wearable Sensors:
+            - Wearable Sensors: instruments/sensors/wearsensors.md
+            - Infnat Sensor Questionnaire: instruments/sensors/questionnaire.md
+        - Physical Health:
+            - Breastfeeding: instruments/physhealth/bf.md
+            - Food Insecurity: instruments/physhealth/foodinsecurity.md
+            - Growth: instruments/physhealth/growth.md
+        - Pregnancy & Exposures:
+            - Pregnancy & Infant Health:
+                - Pregnancy Health: instruments/pregexp/preghealth/healthhx.md
+                - Exposures & Vaccines: instruments/pregexp/preghealth/vacc.md
+                - Chronic Conditions: instruments/pregexp/preghealth/chronconditions.md
+                - Illness: instruments/pregexp/preghealth/illness.md
+                - ER/Hospitalizations: instruments/pregexp/preghealth/er-hosp.md
+                - Medications: instruments/pregexp/preghealth/medications.md
+                - End of Pregnancy: instruments/pregexp/preghealth/end-preg.md
+                - Infant Health: instruments/pregexp/preghealth/infanthealth.md
+            - Mental Health:
+                - Personal & Family Psychiatric History: instruments/pregexp/mh/fam-mh.md
+                - APA 1/2: instruments/pregexp/mh/apa12.md
+                - PTSD & Acute Stress: instruments/pregexp/mh/ptsd.md
+                - Postnatal Depression: instruments/pregexp/mh/epds.md
+            - Substance Use:
+                - Assist V1: instruments/pregexp/su/assistv1.md
+                - Assist V2: instruments/pregexp/su/assistv2.md
+                - Assist V3: instruments/pregexp/su/assistv3.md
+                - TLFB: instruments/pregexp/su/tlfb.md
+        - Social & Environmental Determinants:
+            - Baby's First Years: instruments/SED/bfy.md
+            - Unfair Treatment: instruments/SED/discr.md
+            - Intimate Partner Violence: instruments/SED/ehits.md
+            - Demographics V01: instruments/SED/v01-demo.md
+            - Perceived Stress/Social Support: instruments/SED/promis.md
+            - Neighborhood Safety: instruments/SED/safety.md
+            - Protective Factors: instruments/SED/paces.md
+    - Brain Activity - MRI & EEG:
+        - Electroencephalography:
+            - Overview & Quality Control: instruments/eeg/index.md
+            - Faces Task: instruments/eeg/faces.md
+            - Auditory Mismatch Negativity Task: instruments/eeg/mmn.md
+            - Video Resting State Task: instruments/eeg/videors.md
+            - Visual Evoked Potential Task: instruments/eeg/vep.md
         - Magnetic Resonance Imaging:
-            - Overview: measures/mri/index.md
-            - MRI Protocols (Leave Site): measures/mri/protocols.md            
-            - Quality Control Procedures: measures/mri/qc.md
-            - Structural MRI: measures/mri/smri.md
-            - Functional MRI: measures/mri/fmri.md
-            - Diffusion MRI: measures/mri/dmri.md
-            - Quantitative MRI: measures/mri/qmri.md
-            - Magnetic Resonance Spectroscopy: measures/mri/mrs.md 
-    - Data Processing: 
-        - Processing Pipelines: processing/index.md
-        - Pipeline Software Standards: processing/standards.md
-  - CHANGE LOG: 
+            - Overview & MRI Protocols: instruments/mri/index.md
+            - Quality Control Procedures: instruments/mri/qc.md
+            - Structural MRI: instruments/mri/smri.md
+            - Functional MRI: instruments/mri/fmri.md
+            - Diffusion MRI: instruments/mri/dmri.md
+            - Quantitative MRI: instruments/mri/qmri.md
+            - Magnetic Resonance Spectroscopy: instruments/mri/mrs.md 
+        - Processing & Analytic Standards: 
+            - Processing Pipelines: instruments/processing/index.md
+            - Pipeline Software Standards: instruments/processing/standards.md
+  - Release History: 
     - Pending & Upcoming Updates: changelog/pending.md
     - Known Issues: changelog/knownissues.md
     - Version History:    
         - Release 1: changelog/versions/R1.md
-  - Get Help:
-    - FAQs: faq.md
-    - Report Issues: reportissue.md
-    - How To Cite Release Docs: citation.md
-
-  
-
+  - Help & Support:
+    - FAQs: help/faq.md
+    - Report Issues: help/reportissue.md
+    - How To Cite Release Docs: help/citation.md
+ 
