@@ -23,7 +23,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   <span class="table-arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
-<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px">
   <thead>
     <tr>
       <th style="width: 20%; text-align: center;">Name of Instrument</th>

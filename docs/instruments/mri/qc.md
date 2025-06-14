@@ -3,9 +3,9 @@
 <div id="qc-alert" class="alert-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
     <span class="text">Responsible Use Warning</span>
-  <span class="arrow">▸</span>
+  <span class="notification-arrow">▸</span>
 </div>
-<div class="alert-collapsible-content">
+<div class="closed-collapsible-content">
 <p><b><i>The text below is sourced directly from the ABCD Wiki <a href="https://data.abcdstudy.org/reports/wiki-release6/data-doc/imaging/quality-control.html#use-qc">Responsible Use Warning: Quality Control</a>. While it specifically references ABCD, the same principles apply equally to HBCD.</i></b></p>
 <p>Researchers conducting analyses of neuroimaging data must consider the responsible use of variables related to race and ethnicity. Comparisons of neuroimaging data among participants who are grouped by race and/or ethnicity can be interpreted as evidence of biomarkers to explain neurobiological mechanisms through which some communities experience lower rates of achievement and poorer life outcomes compared to their White counterparts. To discourage continuation of this biological deficits framework, data analysts must recognize that ethical conduct in research includes ensuring that their analyses prevent further stigmatization, marginalization, and injustice toward individuals because race and ethnicity. Potential stigmatization may also be relevant to certain clinical diagnoses or outcomes. Prior to any data analysis or interpretation, researchers must consider the psychological, social, economic, and any other potentially harmful impacts their research could have on individuals, communities, and society.</p> 
 <p>Data analyses centered around comparisons of participant groups when the groupings are based on race and ethnicity alone (i.e., independent variables in isolation) are discouraged. Instead, researchers should consider factors that may perpetuate stigma in research and commit to the additional work that is needed to ensure that statistical models and analytic findings are fully contextualized, particularly with respect to variables related to social determinants of health.</p>
