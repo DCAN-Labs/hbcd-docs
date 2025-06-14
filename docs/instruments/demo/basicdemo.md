@@ -36,6 +36,11 @@
 Some participants reported challenges in answering certain questions, such as those related to race and ethnicity (e.g. options did not capture identity) and occupation (i.e. imperfect option for job type and number of hours).</p> 
 </div>
 
+<div id="demo-fyi" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">Please see the section on the <a href="../../SED/v01-demo">HBCD Demographics V01</a> instrument for more detailed demographics information variables from which Basic Demographics was in part derived.</span>
+</div>
+
 ## Instrument Details
 
 <div id="bdemo-fyi" class="notification-banner" onclick="toggleCollapse(this)">
