@@ -1,8 +1,7 @@
 # Faces Task
 
 **Full Name**: Faces Task       
-**Acronym**: FACE          
-**Table Name**: **TO DO**     
+**Acronym**: FACE      
 
 <div id="resp-use-warning" class="alert-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
@@ -51,6 +50,14 @@
 The Faces task (v.11.29.23) is used to assess neural activity supporting face and object processing within the first years of life. Event-related potentials (ERPs) are recorded while infants view faces and objects using an oddball task designed to index different stages of processing including attention, perception, categorization, individuation, and memory. 
 
 ## Task Details   
+
+<p>
+<div id="demo-fyi" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">See the <a href="..">EEG Overview</a> for a summary of EEG protocols, quality control information, etc.</span>
+</div>
+</p>
+
 ERPs that index different stages of processing are computed as a function of repeated presentation of faces and objects. The ERP components elicited by the Faces task include P1, N290, and P400. 
 
 <p>
