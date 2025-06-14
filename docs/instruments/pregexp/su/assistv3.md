@@ -58,7 +58,7 @@ In addition, for lifetime and problematic use, and use pre-pregnancy, pregnancy,
   <li>[problem] DURING THE PAST THREE MONTHS, has your use of this substance led to physical or mental health, social, or financial problems?</li>
   <li>[perform] DURING THE PAST THREE MONTHS, have you ever failed to do what was normally expected of you (like work, go to school, be a parent, or household tasks) because of your use of this substance?</li>
   </ul>
-
+<br>
 <b>Expanded Assist Substance Type Options</b><br>
  <ul>
       <li>[001] Nicotine or tobacco products (cigarettes, e-cigarettes, chewing tobacco, cigars, etc.)</li>

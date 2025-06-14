@@ -78,7 +78,7 @@ Finally, the Time Line Follow Back (TLFB) was triggered when substance use was r
   <li>[pre_use] IN THE THREE MONTHS BEFORE YOU BECAME PREGNANT, which of the following substances have you ever used for any reason? [followed by list of substance options from section below]</li>
   <li>[during_use] DURING YOUR PREGNANCY, which of the following substances have you ever used for any reason? [followed by list of substance options from section below]</li>
   <li>[during_med] DURING YOUR PREGNANCY, did you take (prescribed or otherwise) medication(s) as treatment for a problem substance? [followed by list of medications used to treat substance use problems]</li>
-
+<br>
 <b>Expanded Assist Substance Type Options</b><br>
  <ul>
       <li>[001] Nicotine or tobacco products (cigarettes, e-cigarettes, chewing tobacco, cigars, etc.)</li>
