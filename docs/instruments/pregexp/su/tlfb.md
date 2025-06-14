@@ -48,7 +48,25 @@
 
 The [original Timeline Follow Back](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf) is designed to cover the previous 7 days from when the survey is administered. The [HBCD TLFB](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf), triggered by responses on the ASSIST, was adapted to record substance use before and during pregnancy.
 
-Participants reported use during 9 weeks in total for each substance type reported on the ASSIST (e.g., edible cannabis). For V01, this includes: pre-pregnancy use (Weeks 1-2: four weeks to two weeks before LMP), early pregnancy use (Weeks 3-6: two to six weeks after LMP), and current use (Week 7: the week prior to V1). The TLFB was repeated at V02 to capture substance use during the last two full weeks of gestation (Weeks 8-9). Daily usage frequency was recorded for all products except for cigarettes/cigarillos (count per day) and alcohol (single servings per day).
+Participants who reported any substance use in the three months before or during pregnancy were interviewed about their use of each substance with a TLFB approach. They were instructed to report their substance use during 9 weeks in total for each substance reported on the ASSIST, disaggregated into product type (e.g. edible cannabis products). 
+
+The **number of occasions of use per day** was captured for all products except for cigarettes and cigarillos (number per day) and alcohol (number of single servings per day). 
+
+The sampled weeks captured 9 weeks in total and were as follows: 
+
+**Visit 1:**
+
+- Pre-pregnancy use (Weeks 1-2: four weeks before LMP through two weeks before LMP)
+- Early pregnancy use (Weeks 3-6: two weeks after LMP through six weeks after LMP)
+- Current use (Week 7: the week prior to V1) 
+
+**Visit 2:**
+
+- Last two full weeks of gestation (Weeks 8-9) 
+
+While for most participants, the TLFB was administered by study staff, at the site where prenatal substance use was reportable by study staff, participants received training to enter their use directly into the TLFB.
+
+
 
 ## References
 <div class="references">
