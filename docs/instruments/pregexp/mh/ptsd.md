@@ -1,5 +1,11 @@
 # NSESSS—PTSD/Acute Stress Disorder
 
+## TO DO LIST
+
+- add links to papers referenced in data warning and make sure they are included in References section as well
+
+## CONTENT
+
 **Full Name**: National Stressful Events Survey- PTSD Short Scale/Acute Stress Disorder                
 **Acronym**: NSESSS—PTSD/Acute Stress Disorder     
 **Table Name**: `pex_bm_str__ptsd`       
