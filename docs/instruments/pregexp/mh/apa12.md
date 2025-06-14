@@ -1,5 +1,12 @@
 # Mental Health
 
+## TO DO LIST
+
+- add links to papers referenced in data warning and make sure they are included in References section as well
+- streamline Instrument Description section to be less redundant (eg can probably add information from HBCD Modification Details into main text and remove infobox)
+- list scoring procedures separately to streamline text
+
+## CONTENT
 **Full Name**: DSM-5 Self-Rated Level 1 and Level 2 (version 8a) Cross-Cutting Symptom Measure—Adult           
 **Acronym**: APA 1/2     
 **Table Name**: `pex_bm_apa`       
@@ -58,7 +65,7 @@ Additional modifications are described below. Future publications should be sure
 <div class="collapsible-content">
 <br>
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Excluded Questions and Gating</b></p>
-<p>Slight modifications were made due to the use of other measures and the study population. This mental health screening instrument has two levels. Level 1 includes one to two questions for each of thirteen mental health conditions. When symptoms were reported for Level 1, the participant answered several subsequent questions, which asked about additional symptoms associated with each mental health condition, including anger, anxiety, depression, mania, repetitive thoughts, somatic symptoms and sleep problems. Slight modifications were made due to the use of other measures and the study population. Specifically, the level 1 questions for substance use were not included. Also, participants proceed automatically to level 2 measures for personality inventory. In addition, all participants answer the level 1 questions on depression and somatic symptoms but proceed to level 2 questions irrespective of answers.</p>
+<p>This mental health screening instrument has two levels. Level 1 includes one to two questions for each of thirteen mental health conditions. When symptoms were reported for Level 1, the participant answered several subsequent questions, which asked about additional symptoms associated with each mental health condition, including anger, anxiety, depression, mania, repetitive thoughts, somatic symptoms and sleep problems. Slight modifications were made due to the use of other measures and the study population. Specifically, the level 1 questions for substance use were not included. Also, participants proceed automatically to level 2 measures for personality inventory. In addition, all participants answer the level 1 questions on depression and somatic symptoms but proceed to level 2 questions irrespective of answers.</p>
 
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Clinical Alerts</b></p>
 <p>For HBCD, this measure was modified to alert study staff if responses to the Level 1 APA self-harm question ('Thoughts of actually hurting yourself?') or Level 2 APA depression questionnaire (items from 'I felt worthless' to 'I felt that nothing could cheer me up') exceed thresholds of 0 and 32, respectively.</p>
