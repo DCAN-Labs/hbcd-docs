@@ -41,28 +41,17 @@ Some participants reported challenges in answering certain questions, such as th
     <span class="text">Please see the section on the <a href="../../SED/v01-demo">HBCD Demographics V01</a> instrument for more detailed demographics information variables from which Basic Demographics was in part derived.</span>
 </div>
 
-## Instrument Details
+## Variable Logic & Definitions
 
-<div id="bdemo-fyi" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text-with-link">
-  <span class="text">Variable Logic & Definitions</span>
-  <a class="anchor-link" href="#bdemo-fyi" title="Copy link">
-  <i class="fa-solid fa-link"></i>
-  </a>
-  </span>
-  <span class="arrow">▸</span>
-</div>
-<div class="notification-open-collapsible-content">
-<p><b>Basic Demographics are global, visit-agnostic variables</b><br>
+#### Basic Demographics are Global, Visit-Agnostic Variables
 Basic Demographics are single-point, static variables (i.e. they do not change over time) that should be present and consistent across all Visits (V01, V02, etc.). <strong>However</strong>, if only V01 data for a given participant is included in the release (due to ongoing enrollment, participant withdrawal, etc.), then items about the child will be missing, as the child is not born until after the V01 visit (all variables about the child are available beginning with V02).</p>
-<p><b>Child vs Mother Variables</b><br>
-Within the table and the variable names, <strong><code>child</code></strong> refers to the child enrolled in HBCD and <strong><code>mother</code></strong> refers to the person carrying the child (i.e., pregnant with the child) at the time of V01.</p>
-<p><b>Combined Race and Ethnicity Variable Logic</b><br>
+
+#### Combined Race and Ethnicity Variable Logic
 With the exception of <code>rc_mother_ethnoracial_aou_race_ethnicity</code> (only constructed for the birth parent, following <a href="https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards">OMB</a> standards as described in the table below), variables that combine race and ethnicity are constructed from separate race and ethnicity variables following current federal standards: if an individual is identified as Hispanic or Latino based on the response to the ethnicity item, they will be categorized as such, regardless of their race. In addition, individuals who select more than one race are categorized as "multiracial."</p>
-<p><b>Multiracial Individuals: Aggregation By Ethnicity Vs Race</b><br>
+
+#### Multiracial Individuals: Aggregation By Ethnicity Vs Race
 There are two combined race and ethnicity variables that aggregate multiracial individuals into subcategories by ethnicity (<code>*_acs_by_multi_ethnicity</code>) vs race (<code>*_acs_by_multi_race</code>). For aggregation by ethnicity, individuals are subcategorized into those who do and do not select Hispanic as one of their identities. For race, individuals are subcategorized into those who do and do not select Black/African American as one of their identities.</p>
-</div>
+
 
 <div id="demo-age" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
@@ -76,7 +65,7 @@ There are two combined race and ethnicity variables that aggregate multiracial i
 </div>
 <div class="notification-open-collapsible-content">
 <br>
-<i>Basic Demographics includes a unique set of fields reporting age compared to <a href="../measures/agevariables.md/#tabulated-instrument-data">tabulated instrument data</a>. See the <a href="../agevariables">Age Variable Definitions</a> section for a summary of all age-related variables across the release, as well as the information summarized in table format <a href="../agevariables/#basic-demographics">here</a>.</i>
+<i>Basic Demographics includes a unique set of fields reporting age compared to <a href="../../agevariables/#tabulated-instrument-data">tabulated instrument data</a>. See the <a href="../../agevariables">Age Variable Definitions</a> section for a summary of all age-related variables across the release, as well as the information summarized in table format <a href="../../agevariables/#basic-demographics">here</a>.</i>
 <br>
 <br>
 <b>Maternal Age at V01 </b> (<code>mother_age_v01</code>): 'MAV01' is the birth parent's age, obtained from the scheduled date of the V01 visit. Reported in years to two decimal places, with fractional years calculated by dividing the number of whole months (rounded down) by 12.
@@ -89,16 +78,6 @@ There are two combined race and ethnicity variables that aggregate multiracial i
 <br>
 </div>
 
-<div id="demo-table" class="table-banner" onclick="toggleCollapse(this)">
-  <span class="text-with-link">
-  <span class="text">Basic Demographics (Key Derived Variables)</span>
-  <a class="anchor-link" href="#demo-table" title="Copy link">
-  <i class="fa-solid fa-link"></i>
-  </a>
-  </span>
-  <span class="arrow">▸</span>
-</div>
-<div class="table-open-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 13px;">
     <thead>
       <tr>
@@ -129,7 +108,7 @@ There are two combined race and ethnicity variables that aggregate multiracial i
 </tr>
 <tr>
 <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Child race and ethnicity combined - multiracial aggregation by Hispanic and non-Hispanic distinction</td>
-<td style="word-break: break-all; white-space: normal;"><code>child_ethnoracial_acs_by_multi_ethnicity</code></td>
+<td style="padding: 8px; word-break: break-all; white-space: normal;"><code>child_ethnoracial_acs_by_multi_ethnicity</code></td>
 <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Admin</td>
 <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Individuals are assigned a single category, constructed from <code>child_race</code> and <code>child_ethnicity</code>, with subcategories for multiracial individuals based on ethnicity following the logic described in the <a href="#bdemo-fyi">Variable Logic & Definitions</a> above. <span class="tooltip"><i>Visit V02 onward</i><span class="tooltiptext">Data are not collected prior to birth, i.e. at the prenatal V01 visit, and will be available starting at visit V02</span></span><i></i></td>
 </tr>
@@ -215,7 +194,6 @@ There are two combined race and ethnicity variables that aggregate multiracial i
 </tr>
 </tbody>
 </table>
-</div>
 
 
 
