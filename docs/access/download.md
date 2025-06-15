@@ -27,6 +27,28 @@ Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data
 
 ### Data Dictionary Column Definitions
 
+<div id="metadata" class="warning-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
+  <span class="text-with-link">
+  <span class="text">Instruction Metadata - Caution, Please Read Carefully</span>
+  <a class="anchor-link" href="#metadata" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="warning-collapsible-content">
+<p>
+Instruction text in the Data Dictionary metadata is extracted programmatically from the most recent instruction field in each form, based on field order. This means:
+<ul>
+<li>If an instruction spans multiple fields, only the last portion will be captured, resulting in partial instructions.</li>
+<li>Because the instruction is provided for all fields up to the next set of instructions, some fields may display text intended for a previous section.</li>
+<li>Manual curation of instruction metadata is planned for future releases. For the most accurate information, always refer to the original form.</li>
+</ul>
+</p>
+<p>This is an issue with the Data Dictionary metadata for HBCD and will therefore be an issue in both Lasso and DEAP.</p>
+</div>
+
 <div id="dd-faq" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
    <span class="text-with-link">
@@ -317,27 +339,6 @@ Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data
   <a href="#dd-faq">here</a>): 
   <strong>unit</strong>, column names appended with <strong>*_es</strong>, 
   and columns prepended with <strong>url_*</strong>.
-</p>
-</div>
-
-<div id="metadata" class="warning-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text-with-link">
-  <span class="text">Instruction Metadata - Caution, Please Read Carefully</span>
-  <a class="anchor-link" href="#metadata" title="Copy link">
-  <i class="fa-solid fa-link"></i>
-  </a>
-  </span>
-  <span class="arrow">▸</span>
-</div>
-<div class="warning-collapsible-content">
-<p>
-Instruction text in the Data Dictionary metadata is extracted programmatically from the most recent instruction field in each form, based on field order. This means:
-<ul>
-<li>If an instruction spans multiple fields, only the last portion will be captured, resulting in partial instructions.</li>
-<li>Because the instruction is provided for all fields up to the next set of instructions, some fields may display text intended for a previous section.</li>
-<li>Manual curation of instruction metadata is planned for future releases. For the most accurate information, always refer to the original form.</li>
-</ul>
 </p>
 </div>
 
