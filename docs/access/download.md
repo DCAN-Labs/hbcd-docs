@@ -24,7 +24,7 @@ After obtaining data access, users can download HBCD Study release data via the 
   <span class="arrow">▸</span>
 </div>
 <div class="warning-collapsible-content">
-<p>Dataset downloads from Lasso will automatically contain two additional columns that are not currently described in the data dictionary: 'cohort' (<em>HBCD Main Child</em>) and `site` (<em>site ID</em>). The `cohort` and `site` columns are identical to the <a href="../../measures/demographics/#visit-information">Visit Information</a> variables <b><code>par_visit_data_cohort</code></b> and <b><code>par_visit_data_site</code></b>, respectively.</p>
+<p>Dataset downloads from Lasso will automatically contain two additional columns that are not currently described in the data dictionary: 'cohort' (<em>HBCD Main Child</em>) and `site` (<em>site ID</em>). The `cohort` and `site` columns are identical to the <a href="../../instruments/demo/visitinfo.md">Visit Information</a> variables <b><code>par_visit_data_cohort</code></b> and <b><code>par_visit_data_site</code></b>, respectively.</p>
 </div>
 
 <div id="blank-columns" class="warning-banner" onclick="toggleCollapse(this)">

@@ -4,7 +4,7 @@
 The HEALthy Brain and Child Development (HBCD) study dataset is a large, rich, and complex resource that can drive scientific discovery, provide a foundation for translation and implementation research, and inform development of public policy. To create this dataset, thousands of participants have given generously of their time and their bodies to help advance science. They have trusted us with sensitive information. The use of HBCD data carries ethical responsibilities to minimize risks of harm to participants and to treat them respectfully and justly. One way data users can respect participants’ contributions is by conducting careful, high-quality science.  
 
 ## Warnings
-To facilitate responsible data use, table- and variable-level warnings are embedded in the NBDC Data Dictionary linking to data and responsible use warnings within the [study instrument documentation](../measures/index.md). There are 2 types of warnings, both of which may aid in more scientifically rigorous use of HBCD data - click to expand each section below for a description of the function of these warnings:
+To facilitate responsible data use, table- and variable-level warnings are embedded in the NBDC Data Dictionary linking to data and responsible use warnings within the [study instrument documentation](../instruments/index.md). There are 2 types of warnings, both of which may aid in more scientifically rigorous use of HBCD data - click to expand each section below for a description of the function of these warnings:
 
 <div id="warning-banner" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
@@ -30,7 +30,7 @@ We recommend that all data users:
 
 1.    	Review the data warnings for any variable that you will be downloading and/or using by clicking the link and reviewing the warning associated with that variable.
 2.    	Review any resources and citations included with the warning and follow recommended guidelines.
-3.    	Reach out via the [Lasso Help Center](../help/reportissue.md) if you have questions about the data warning or how to use the data.
+3.    	Reach out via the [Lasso Help Center](https://nbdc-datashare.lassoinformatics.com/help-center) if you have questions about the data warning or how to use the data.
  
 ## Recommendations for Rigorous, Reproducible, and Responsible Data Use
 The HBCD Responsible Use of Data Committee (RUDC) provides the following guidance for researchers planning to use HBCD data:

@@ -83,7 +83,7 @@ parquet_df <- read_parquet("path/to/file.parquet")
 ```
 
 ### Shadow Matrices
-Each TSV and Parquet ***data file*** in the BIDS `/rawdata/phenotype/` directory has a corresponding ***shadow matrix file*** in the same format (TSV or Parquet). These shadow matrix files mirror the structure and column names of the original data files. Shadow matrices can be exported as CSV files via Lasso when running a query (see details [here](../download/lasso.md#step-5-query-the-associated-data)) or downloaded in a chosen file format via [DEAP](https://docs.deapscience.com/).
+Each TSV and Parquet ***data file*** in the BIDS `/rawdata/phenotype/` directory has a corresponding ***shadow matrix file*** in the same format (TSV or Parquet). These shadow matrix files mirror the structure and column names of the original data files and are available to download via Lasso and DEAP.
 
 In the data files, missing values are represented as blank cells. Shadow matrices provide essential context by indicating the reason a value is missing (e.g., “don’t know,” “declined to answer,” “missed visit”). Each cell in a shadow matrix corresponds to the same cell in the associated data file:
 
@@ -106,7 +106,7 @@ In HBCD, some participant responses like “Don’t know” or “Decline to ans
 #### Working with Shadow Matrices in R and Python 
 Here we describe how researchers can use shadow matrix files in combination with the data files to, for example, explore and understand patterns of missing data or integrate missingness reasons (e.g., `Decline to Answer`, `Logic Skipped`, etc.) into your analysis. 
 
-For working in **R**, we recommend using the `NBDCtools` package - see details [here](recprograms.md#tabulated-data). For **Python**, the following helper function joins the tabulated data file with its corresponding shadow matrix file so data columns are combined with columns providing the reasons for missingness in the same data frame. This function works with both TSV and CSV file formats, but can be updated for Parquet files using the loading logic shown under the section on Parquet files above ([here](../dataformats/recprograms.md)).
+For working in **R**, we recommend using the `NBDCtools` package - see details [here](recprograms.md#tabulated-data). For **Python**, the following helper function joins the tabulated data file with its corresponding shadow matrix file so data columns are combined with columns providing the reasons for missingness in the same data frame. This function works with both TSV and CSV file formats, but can be updated for Parquet files using the loading logic shown under the section on Parquet files above ([here](#parquet)).
 
 ##### 🐍 Python Helper Function
 ```
