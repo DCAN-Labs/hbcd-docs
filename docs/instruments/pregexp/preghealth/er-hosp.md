@@ -13,9 +13,9 @@
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="warning-collapsible-content">
 <p>There are potential issues relating to correct coding for ICD codes from BioPortal (used to capture reason(s) for medication use, ER visits, and hospitalizations). Instruments using these systems sometimes encountered difficulties either for participants attempting to describe or for HBCD Study team members trying to locate the correct ICD code.</p> 
 </div>
 

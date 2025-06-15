@@ -13,9 +13,9 @@
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="warning-collapsible-content">
 <p style="margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px solid #6b6b6b66;"><b>Out of Range Values</b></p>
 <p>Please note that out-of-range values were filtered (i.e. changed to "n/a") for Healthv2 Inf (<code>pex_bm_healthv2_inf</code>). Valid field values are documented in <a href="../../../../datacuration/phenotypes/#filtered-values">Filtered Out-Of-Range Field Values</a>.</p>
 

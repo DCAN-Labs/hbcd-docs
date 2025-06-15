@@ -13,9 +13,9 @@
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="warning-collapsible-content">
 <p>There are potential issues relating to correct coding for (1) ICD codes from BioPortal ICD (used to capture reason(s) for medication use, ER visits, and hospitalizations) and (2) symptom codes from World Health Organization. Instruments using these systems sometimes encountered difficulties either for participants attempting to describe their symptoms or for HBCD Study team members trying to locate the correct code or term in the relevant databases.</p> 
 <p>For Pregnancy Health-Illness, coding difficulty was noted for use of the ER for normal care (no diagnosis) or false alarms (e.g. thought water broke but it did not), resulting in the use of ‘don’t know.’</p>
 </div>

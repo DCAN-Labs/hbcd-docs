@@ -5,12 +5,12 @@
 **Table Name**: `ncl_cg_spm2__inf`       
 **Construct**: Sensory processing
 
-<div id="spm2-warning" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Data Warning</span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="warning-collapsible-content">
 <p>The response option "Decline to answer" was added on November 8, 2024 to allow participants to not answer any questions they choose. However, "Decline to answer" is not a response option on the published form and was not used in the reference sample from which the standard scores were derived. It is possible that participants chose “Decline to Answer” rather than “never” for behaviors that have never been seen (for example items related to reacting to food texture for an infant who has not been exposed to solids).</p> 
 </div>
 

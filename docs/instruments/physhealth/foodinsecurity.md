@@ -5,12 +5,12 @@
 **Table Name**: `sed_cg_foodins`       
 **Construct**: Food Insecurity, based on two items assessing the availability of food, is a screening measure used across many populations indicating risk of food insecurity in the last 12 months. Each question uses the same response options. This measure was modified slightly for HBCD to use gender-neutral terms (children are referred to as “the child” in place of gendered pronouns) as well as inclusion of "Don't know" as a response option to survey questions.
 
-<div id="foodins-warning" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Data Warning</span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="warning-collapsible-content">
 <p>Researchers should be aware that the validated measure uses Yes/No answers and does not account for missing data.</p> 
 </div>
 

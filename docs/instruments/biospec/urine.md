@@ -4,7 +4,7 @@
 **Table Name**: `bio_biosample_urine`       
 **Construct**: Toxicology screen for substances & environmental exposures
 
-<div id="biospec-warning" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Data Warnings</span>
   </span>

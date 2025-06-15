@@ -5,13 +5,13 @@
 **Construct**: Toxicology screen for substances & environmental exposures conducted on fingernails and toenails
 
 <p>
-<div id="biospec-warning" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Data Warnings</span>
   </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="warning-collapsible-content">
 <br>
 <b>Continuous Variables</b>
 <p>For all toxicology screens, continuous variables should be interpreted with cautiong based on the threshold limits of quantification (LOQs), or the cutoff concentration used to categorize metabolites as positive or negative. LOQs are provided in <a href="#nails-table1">Table 1. Nail Assay Thresholds</a>.</p> 

@@ -3,7 +3,7 @@
 **Table Name**: `sed_basic_demographics`       
 **Construct**: Derived demographics information computed from: (1) [**HBCD Demographics V01**](socenvdet.md#hbcd-demographics-v01) instrument (`sed_bm_demo`) collected under the Social & Environmental Determinants domain and (2) **Administrative screening records** collected by a research assistant, as reported by the birth parent, during the enrolment/screening process (e.g. the age and race/ethnicity of the pregnant study participant)
 
-<div id="demo-alert" class="alert-banner" onclick="toggleCollapse(this)">
+<div id="alert" class="alert-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
   <span class="text-with-link">
   <span class="text">Responsible Use Warning</span>
@@ -11,14 +11,14 @@
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="alert-collapsible-content">
 <p>When using HBCD data, all data users must agree to responsible use as described in the DUC. When conceptualizing studies, analyzing data, and communicating findings from studies that use variables such as race, ethnicity, country of origin, and socioeconomic data, it is critical to consider strategies to avoid stigmatization of any groups and perpetuating harmful biases.</p> 
 <p>Race and ethnicity are collected as a part of the HBCD protocol to reflect social experiences (i.e., representing social constructs), and should not be conceptualized as as biological, natural, intrinsic, or fixed categories of people. In addition, researchers sometimes use race/ethnicity variables as a proxy for unmeasured social experiences or environmental exposures. HBCD measures a wide variety of social experiences and environmental exposures. In analyzing HBCD data, race/ethnicity should not be used as a proxy for measured variables.</p>
 </div>
 
-<div id="demo-warning" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text-with-link">
   <span class="text">Data Warnings</span>
@@ -26,9 +26,9 @@
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="warning-collapsible-content">
 <p><b>⚠️ <a href="../../changelog/knownissues"><u>Known Issues</u></a> To Be Resolved in Future Release</b><br>
 <p><strong>'Mother Race' (<code>screen_mother_race</code>)</strong>: contains duplicate options for the selection of 'Black African American' (option #3). This option is not used for data entry, and instead the 'Black_or African American' option (option #5) should be used. No other variables are affected by this.</p>
 <p><strong>Mother Ethnicity (<code>screen_mother_ethnicity</code>)</strong>: should be a 2-level variable, but is currently noted as a 4-level variable in the data dictionary. Levels of 0 and 1 (in the data dictionary) are included in error, they do not appear in the dataset; all participants with valid data have a value of 2 (Hispanic) or 3 (non-Hispanic).</p>

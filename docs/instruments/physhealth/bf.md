@@ -5,12 +5,12 @@
 **Table Name**: `ph_cg_phx__bfh`       
 **Construct**: Nutrition - measures initiation, exclusivity, and cessation of breast milk feedings.
 
-<div id="bf-warning" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Data Warning</span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="warning-collapsible-content">
 <p>Breast feeding history is obtained via self-report, so is vulnerable to recall bias concerning the timing of starting and/or stopping breast feeding. In addition, as the data is obtained via a survey, it is likely that missing data will need to be statistically addressed during analysis.</p> 
 </div>
 

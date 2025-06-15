@@ -5,12 +5,12 @@
 **Table Name**: `pex_bm_assistv3`     
 **Constructs**: Substance use after pregnancy
 
-<div id="assist-warning" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Data Warning</span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="warning-collapsible-content">
 <p>It was difficult for some participants to self-report the typical size of a single drink (in oz) to capture ‘standard drinks’ of alcohol for Assist, leading to some reports falling outside the expected range. Similarly, reporting the frequency of use for substances like electronic cigarette devices proved difficult, resulting in outliers. While sites were queried on these outliers, participants could not always be re-contacted for clarification.</p> 
 </div>
 

@@ -13,9 +13,9 @@
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="warning-collapsible-content">
 <p>There are potential issues relating to correct coding medication names from RxNORM. For Pregnancy Health-Medications, no option for preventive use made it difficult to code aspirin use for preeclampsia. Aspirin was specifically moved to the prenatal vitamin section a few months into the study. Some medications were also coded with dose, but this was not asked and should not be used.</p>
 </div>
 

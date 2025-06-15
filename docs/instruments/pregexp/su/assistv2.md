@@ -5,22 +5,22 @@
 **Table Name**: `pex_bm_assistv2`     
 **Constructs**: Substance use during end of pregnancy ( between V01 and delivery) and postnatal (weeks 0-4, between delivery and V2)
 
-<div id="assist-alert" class="alert-banner" onclick="toggleCollapse(this)">
+<div id="alert" class="alert-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
     <span class="text">Responsible Use Warning</span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="alert-collapsible-content">
 <p>Implicit in responsible stewardship of prenatal drug exposure data is the recognition of the structural racism in which drug policy in the United States has long been embedded (Coles 1993; Wakeman et al., 2022). Responsible use of prenatal drug exposure data also requires thoughtful interpretation of exposure-related outcomes in the context of measured and unmeasured confounders. These confounders include, but are not limited to, phenotypic risks associated with persistent alcohol, tobacco, and other drug use during pregnancy by birthing parents (Massey et al., 2011), and confounding by familial risk from within-family studies (Estabrook et al., 2016).</p>
 <p>Finally, unwarranted speculation about ‘neural bases of behavior’ form differences in neuroimaging between exposed and unexposed children in the absence of differences in behavioral performance can exacerbate stigma already faced by birthing parents with substance use disorders and their children (McAllister & Hart 2015).</p> 
 </div>
 
-<div id="assist-warning" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Data Warning</span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="warning-collapsible-content">
 <p>It was difficult for some participants to self-report the typical size of a single drink (in oz) to capture ‘standard drinks’ of alcohol for Assist, leading to some reports falling outside the expected range. Similarly, reporting the frequency of use for substances like electronic cigarette devices proved difficult, resulting in outliers. While sites were queried on these outliers, participants could not always be re-contacted for clarification.</p> 
 </div>
 

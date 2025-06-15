@@ -5,12 +5,12 @@
 **Table Name**: `ph_ch_anthro`       
 **Construct**: Growth is a standard direct measure of child growth, including height or length (in cm), weight (in kg), and head circumference (cm). In older children, it will also include abdominal circumference (cm).
 
-<div id="growth-warning" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Data Warning</span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="warning-collapsible-content">
 <p>Please note that range checks for Growth (<code>ph_ch_anthro</code>) were implemented in the database on 7/1/2024 and so are not reflected in data included in the first data release. Extreme out-of-range values were excluded (converted to 'n/a'), but some outliers are possible. Valid values for Growth fields are documented in the section on Exclusion Criteria (see <a href="../../datacuration/exclusions#filtered-values">Filtered Out-Of-Range Field Values</a>) and provided below for quick reference:</p>
 <ul>
   <li>Length (<code>len_001_i_03</code>): min 30 / max 130 (cm) </li>

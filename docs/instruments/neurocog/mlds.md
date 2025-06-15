@@ -5,12 +5,12 @@
 **Table Name**: `ncl_ch_mlds`       
 **Construct**: Multilingual exposure
 
-<div id="mlds-warning" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Data Warning</span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="warning-collapsible-content">
 <p>This measure assesses a child’s exposure to language to guide the selection of appropriate measures for their next in-person study visit. It estimates the percentage of time the child is exposed to languages in caregiving environments, based on caregiver reports. These estimates are approximate and also may not account for all languages the child encounters. The measure does not evaluate or quantify the child’s interactions or their expressive or receptive language skills in a given language, but rather provides an estimate of the time spent in environments where specific languages are spoken.</p> 
 </div>
 

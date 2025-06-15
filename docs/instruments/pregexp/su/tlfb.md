@@ -5,22 +5,22 @@
 **Table Name**: `pex_ch_tlfb`       
 **Construct**: Substance use before and during pregnancy
 
-<div id="tlfb-alert" class="alert-banner" onclick="toggleCollapse(this)">
+<div id="alert" class="alert-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
     <span class="text">Responsible Use Warning</span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="alert-collapsible-content">
 <p>HBCD was designed to enable the characterization of the known fluctuation in substance use across the perinatal period critical for advancing prevention and intervention (Massey et al., 2023, Bandoli et al., 2022, Si et al., 2024).</p>
 <p>Moreover, characterization of between- and within-person variability in substance use has been shown to enhance the sensitivity and specificity of risk prediction (Massey et al., 2021, Massey et al., 2018). Thus, the characterization of patterns or trajectories of use should be considered over the use of dichotomous exposure characterization. Another gap in literature concerns the extent, nature, and implications of polysubstance use during pregnancy since individual substances have primarily been examined alone in prior research (Massey et al., 2018). The power and scope of HBCD avails a unique opportunity to understand the prevalence and implications of such ‘real world’ patterns of substance use.</p> 
 </div>
 
-<div id="tlfb-warning" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Data Warning</span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="warning-collapsible-content">
 <p>The sampling covers specific weeks before pregnancy (Weeks 1-2) and during pregnancy (Weeks 3-9). Consequently, substance use reported outside these weeks may not appear in the TLFB, and a positive biospecimen may lack corresponding TLFB data for the same reason. This sampling approach balances participant burden (avoiding a full 40-week TLFB) with capturing key pregnancy phases when behaviors often shift, such as before and after pregnancy recognition and in late pregnancy.</p>
 <p>Also, of note- participants were asked to report occasions (except cigarettes/cigarillos and drinks, reported as number), but some substances (e.g. electronic cigarette devices) are difficult to report in occasions and have outliers.</p>
 </div>
