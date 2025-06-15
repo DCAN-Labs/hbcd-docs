@@ -2,8 +2,6 @@
 
 ## Instrument Details
 
-
-
 <div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
   <span>
     <span class="text">FAM MH</span>
