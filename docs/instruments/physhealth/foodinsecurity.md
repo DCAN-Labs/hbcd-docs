@@ -6,8 +6,13 @@
 **Construct**: Food Insecurity, based on two items assessing the availability of food, is a screening measure used across many populations indicating risk of food insecurity in the last 12 months. Each question uses the same response options. This measure was modified slightly for HBCD to use gender-neutral terms (children are referred to as “the child” in place of gendered pronouns) as well as inclusion of "Don't know" as a response option to survey questions.
 
 <div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Data Warning</span>
+    <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
+  <span class="text-with-link">
+  <span class="text">Data Warning</i></span>
+  <a class="anchor-link" href="#warning" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="arrow">▸</span>
 </div>
 <div class="warning-collapsible-content">

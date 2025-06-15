@@ -4,12 +4,17 @@
 **Table Name**: `nt_ch_sens__qtn_1`, `nt_ch_sens__qtn_2`, `nt_ch_sens__qtn_3`       
 **Construct**: Motor behavior, physical activity, sleep
 
-<div id="survey-warning" class="warning-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Data Warning</span>
-  <span class="notification-arrow">▸</span>
+<div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
+    <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
+  <span class="text-with-link">
+  <span class="text">Data Warning</i></span>
+  <a class="anchor-link" href="#warning" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="warning-collapsible-content">
 <p>Researchers should consider that occurrence of caregiver non-response (see Quality Control information) may not be randomly distributed across the sample.</p>
 </div>
 

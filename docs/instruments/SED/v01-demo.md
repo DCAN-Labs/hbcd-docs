@@ -4,32 +4,32 @@
 **Table Name**: `sed_bm_demo`       
 **Construct**: Basic social characteristics related to the birthing parent, the other biological parent, and their household
 
-<div id="demo-alert" class="alert-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
+<div id="alert" class="alert-banner" onclick="toggleCollapse(this)">
+    <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
   <span class="text-with-link">
-  <span class="text">Responsible Use Warning</span>
-  <a class="anchor-link" href="#demo-alert" title="Copy link">
+  <span class="text">Responsible Use Warning</i></span>
+  <a class="anchor-link" href="#alert" title="Copy link">
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="alert-collapsible-content">
 <p>When using HBCD data, all data users must agree to responsible use as described in the DUC. When conceptualizing studies, analyzing data, and communicating findings from studies that use variables such as race, ethnicity, country of origin, and socioeconomic data, it is critical to consider strategies to avoid stigmatization of any groups and perpetuating harmful biases.</p> 
 <p>Race and ethnicity are collected as a part of the HBCD protocol to reflect social experiences (i.e., representing social constructs), and should not be conceptualized as as biological, natural, intrinsic, or fixed categories of people. In addition, researchers sometimes use race/ethnicity variables as a proxy for unmeasured social experiences or environmental exposures. HBCD measures a wide variety of social experiences and environmental exposures. In analyzing HBCD data, race/ethnicity should not be used as a proxy for measured variables.</p>
 </div>
 
-<div id="demo-warning" class="warning-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
+<div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
+    <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text-with-link">
-  <span class="text">Data Warnings</span>
-  <a class="anchor-link" href="#demo-warning" title="Copy link">
+  <span class="text">Data Warning</i></span>
+  <a class="anchor-link" href="#warning" title="Copy link">
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="warning-collapsible-content">
 <p><b>Participant-Reported Challenges</b><br>
 Some participants reported challenges in answering certain questions, such as those related to race and ethnicity (e.g. options did not capture identity) and occupation (i.e. imperfect option for job type and number of hours).</p> 
 <p><b>Withheld Variables/Variable Data With Small Cell Sizes</b><br>
