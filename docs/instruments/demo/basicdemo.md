@@ -59,7 +59,7 @@ Some participants reported challenges in answering certain questions, such as th
 </div>
 <div class="notification-open-collapsible-content">
 <p><b>Fields Reporting Age</b><br>
-Basic Demographics includes a unique set of fields reporting age compared to instrument data, including Maternal Age at V01 (MAV01), Maternal Age at Delivery (MAD), and Gestational Age at Delivery (GAD) (defined in the table below). See the <a href="../../agevariables">Age Variable Definitions</a> section for a summary of all age-related variables across the release.</p>
+Basic Demographics includes a unique set of fields reporting age compared to instrument data, including Maternal Age at V01 (MAV01), Maternal Age at Delivery (MAD), and Gestational Age at Delivery (GAD) of the child (defined in the table below). See the <a href="../../agevariables">Age Variable Definitions</a> section for a summary of all age-related variables across the release.</p>
 
 <p><b>Combined Race and Ethnicity Variable Logic</b><br>
 With the exception of <code>rc_mother_ethnoracial_aou_race_ethnicity</code> (only constructed for the birth parent, following <a href="https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards">OMB</a> standards as described in the table below), variables that combine race and ethnicity are constructed from separate race and ethnicity variables following current federal standards: if an individual is identified as Hispanic or Latino based on the response to the ethnicity item, they will be categorized as such, regardless of their race. In addition, individuals who select more than one race are categorized as "multiracial."</p>
@@ -85,7 +85,7 @@ There are two combined race and ethnicity variables that aggregate multiracial i
 </tr>
 <tr>
 <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Maternal Age at Delivery (MAD)</td>
-<td style="padding: 8px; word-wrap: break-word; white-space: normal;"><code>Mother_age_delivery</code></td>
+<td style="padding: 8px; word-wrap: break-word; white-space: normal;"><code>mother_age_delivery</code></td>
 <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Admin</td>
 <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Birth parent's age at the time of their child's delivery (date of birth). Reported in years to two decimal places, with fractional years calculated by dividing the total whole months (rounded down) by 12.</td>
 </tr>
