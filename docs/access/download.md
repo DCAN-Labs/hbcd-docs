@@ -27,42 +27,13 @@ Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data
 
 ### Data Dictionary Column Definitions
 
+<p>
 <div id="metadata" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text-with-link">
-  <span class="text">Instruction Metadata - Caution, Please Read Carefully</span>
-  <a class="anchor-link" href="#metadata" title="Copy link">
-  <i class="fa-solid fa-link"></i>
-  </a>
-  </span>
-  <span class="arrow">▸</span>
+  <span class="text">CAUTION – INSTRUCTION TEXT MAY BE INCOMPLETE OR MISALIGNED: Please review the details of this known issue carefully <a href="../../changelog/knownissues/#instruction-metadata-caution-please-read-carefully">HERE</a> before use.
+ </span>
 </div>
-<div class="warning-collapsible-content">
-<p>
-Instruction text in the Data Dictionary metadata is extracted programmatically from the most recent instruction field in each form, based on field order. This means:
-<ul>
-<li>If an instruction spans multiple fields, only the last portion will be captured, resulting in partial instructions.</li>
-<li>Because the instruction is provided for all fields up to the next set of instructions, some fields may display text intended for a previous section.</li>
-<li>Manual curation of instruction metadata is planned for future releases. For the most accurate information, always refer to the original form.</li>
-</ul>
 </p>
-<p>This is an issue with the Data Dictionary metadata for HBCD and will therefore be an issue in both Lasso and DEAP.</p>
-</div>
-
-<div id="dd-faq" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-   <span class="text-with-link">
-  <span class="text">Why are some data dictionary columns empty?</span>
-  <a class="anchor-link" href="#dd-faq" title="Copy link">
-  <i class="fa-solid fa-link"></i>
-  </a>
-  </span>
-  <span class="notification-arrow">▸</span>
-</div>
-<div class="notification-collapsible-content">
-<p>There are NBDC data dictionary column names that are currently inapplicable to HBCD study data and thus excluded from the table above. Note that these columns will still be present when querying the data dictionary via the Lasso Portal or DEAP, but the column values will be blank. Examples include <b><code>atlas</code></b>, <b><code>metric</code></b>, <b><code>sub_domain</code></b>, columns including <b><code>nda/deap/redcap</code></b>, etc. These columns can be safely ignored. Also see the <a href="#blank-columns">Lasso User Warning</a> in the section above for columns that are currently blank and expected to be populated in a future release.</p>
-</div>
-
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
     <thead>
@@ -304,6 +275,22 @@ Instruction text in the Data Dictionary metadata is extracted programmatically f
     </tr>
 </tbody>
 </table>
+
+<p>
+<div id="dd-faq" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+   <span class="text-with-link">
+  <span class="text">Why are some data dictionary columns empty?</span>
+  <a class="anchor-link" href="#dd-faq" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<p>There are NBDC data dictionary column names that are currently inapplicable to HBCD study data and thus excluded from the table above. Note that these columns will still be present when querying the data dictionary via the Lasso Portal or DEAP, but the column values will be blank. Examples include <b><code>atlas</code></b>, <b><code>metric</code></b>, <b><code>sub_domain</code></b>, columns including <b><code>nda/deap/redcap</code></b>, etc. These columns can be safely ignored. Also see the <a href="#blank-columns">Lasso User Warning</a> in the section above for columns that are currently blank and expected to be populated in a future release.</p>
+</div>
+</p>
 
 
 ### Lasso User Warnings - HBCD

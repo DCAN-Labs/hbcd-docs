@@ -1,5 +1,18 @@
 # Known Issues
-The following issues have been identified in the current HBCD data release. **We are actively working to address them and will include fixes in either the patch (Release 1.1) or next Release 2.0 unless stated otherwise**. This page will be updated as new issues are discovered. If you have questions or would like to report an issue, please submit a ticket through the Lasso Help Center by following the steps described in the [Report Issues](../reportissue.md) section.    
+The following issues have been identified in the current HBCD data release. **We are actively working to address them and will include fixes in either the patch (Release 1.1) or next Release 2.0 unless stated otherwise**. This page will be updated as new issues are discovered. If you have questions or would like to report an issue, please submit a ticket through the Lasso Help Center by following the steps described in the [Report Issues](../reportissue.md) section. 
+
+## General
+
+##### ⚠️ Instruction Metadata - Caution, Please Read Carefully
+
+Instruction text in the Data Dictionary metadata is extracted programmatically from the most recent instruction field in each form, based on field order. This means:
+
+*   If an instruction spans multiple fields, only the last portion will be captured, resulting in partial instructions.
+*   Because the instruction is provided for all fields up to the next set of instructions, some fields may display text intended for a previous section.
+*   Manual curation of instruction metadata is planned for future releases. For the most accurate information, always refer to the original form.       
+
+**Expected Fix:** Release 1.1  
+
 
 ## Basic Demographics
 ##### ⚠️ Duplicate Options for 'Mother Race' Variable
