@@ -10,5 +10,5 @@ When using HBCD Study data, processes, plans, and/or concepts in a publication, 
 > A full list of participating sites is available at [Study Sites-HBCD Study](https://hbcdstudy.org/recruitment-sites/). HBCD Study Consortium investigators designed and implemented the study and/or provided data but did not necessarily participate in the analysis or writing of this report. This manuscript reflects the views of the authors and may not reflect the opinions or views of the NIH or the HBCD Study Consortium investigators.
 
 **Add the following sentence for a report that uses data from a versioned data release.**
-> The HBCD dataset grows and changes over time. The HBCD data used in this report came from [NBDC Dig.ital Object Identifier (DOI)]. DOis can be found at [DOI URL].
+> The HBCD dataset grows and changes over time. The HBCD data used in this report came from [NBDC Digital Object Identifier (DOI)]. DOIs can be found at [DOI URL].
 

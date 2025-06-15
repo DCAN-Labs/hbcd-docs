@@ -1,5 +1,12 @@
 # Access & Download Data
 
+<div style="display: flex; justify-content: space-between; align-items: center; max-width: 100%; overflow: hidden; padding: 10px; box-sizing: border-box;">
+  <img src="../images/NBDC-Blk-Horizontal.png" alt="NBDC-logo" style="max-width: 30%; height: auto;">
+  <img src="../images/Format=Horizontal, Color=Black@2x.png" alt="Lasso-logo" style="max-width: 30%; height: auto;">
+  <img src="../images/ZEV103-DEAP-Logo-with-DEAP.png" alt="NBDC-DEAP logo" style="max-width: 30%; height: auto;">
+</div>
+
+
 ## Access HBCD Study Data
 
 ***Please visit the [NBDC Data Hub](https://www.nbdc-datahub.org/data-access-process) for detailed instructions on how to submit a DUC.***
@@ -11,68 +18,6 @@ HBCD Study data is publicly shared via the [NBDC](https://www.nbdc-datahub.org) 
 
 After obtaining data access, users can download HBCD Study release data via the **[Lasso Portal](https://nbdc-datashare.lassoinformatics.com/)** or **Data Exploration and Analysis Portal** ([DEAP](https://docs.deapscience.com)).
 
-### Lasso User Warnings - HBCD
-
-<div id="add-columns" class="warning-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text-with-link">
-  <span class="text">Additional Columns (`cohort` & `site`) Not Defined in Data Dictionary</span>
-  <a class="anchor-link" href="#add-columns" title="Copy link">
-  <i class="fa-solid fa-link"></i>
-  </a>
-  </span>
-  <span class="arrow">▸</span>
-</div>
-<div class="warning-collapsible-content">
-<p>Dataset downloads from Lasso will automatically contain two additional columns that are not currently described in the data dictionary: 'cohort' (<em>HBCD Main Child</em>) and `site` (<em>site ID</em>). The `cohort` and `site` columns are identical to the <a href="../../instruments/demo/visitinfo.md">Visit Information</a> variables <b><code>par_visit_data_cohort</code></b> and <b><code>par_visit_data_site</code></b>, respectively.</p>
-</div>
-
-<div id="blank-columns" class="warning-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text-with-link">
-  <span class="text">Blank Columns in Query Tool</span>
-  <a class="anchor-link" href="#blank-columns" title="Copy link">
-  <i class="fa-solid fa-link"></i>
-  </a>
-  </span>
-  <span class="arrow">▸</span>
-</div>
-<div class="warning-collapsible-content">
-<p>
-  The following columns are currently blank in the Lasso Dictionary Query Tool for the HBCD Study and will become available in a future release 
-  (columns not applicable to HBCD and thus expected to be blank are noted 
-  <a href="#dd-faq">here</a>): 
-  <strong>unit</strong>, column names appended with <strong>*_es</strong>, 
-  and columns prepended with <strong>url_*</strong>.
-</p>
-</div>
-
-<div id="metadata" class="warning-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text-with-link">
-  <span class="text">Instruction Metadata - Caution, Please Read Carefully</span>
-  <a class="anchor-link" href="#metadata" title="Copy link">
-  <i class="fa-solid fa-link"></i>
-  </a>
-  </span>
-  <span class="arrow">▸</span>
-</div>
-<div class="warning-collapsible-content">
-<p>
-Instruction text in the Data Dictionary metadata is extracted programmatically from the most recent instruction field in each form, based on field order. This means:
-<ul>
-<li>If an instruction spans multiple fields, only the last portion will be captured, resulting in partial instructions.</li>
-<li>Because the instruction is provided for all fields up to the next set of instructions, some fields may display text intended for a previous section.</li>
-<li>Manual curation of instruction metadata is planned for future releases. For the most accurate information, always refer to the original form.</li>
-</ul>
-</p>
-</div>
-
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="../images/NBDC-C-Horizontal.png" alt="NBDC-logo" style="width: 40%;">
-  <img src="../images/Format=Horizontal, Color=Black@2x.png" alt="Lasso-logo" style="width: 30%; margin-right: 80px;">
-</div>
-
 
 ## Explore Data
 
@@ -80,7 +25,7 @@ HBCD data is organized into tables, each of which contains a set of variables. T
 
 Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data dictionary via the **[Lasso Portal Query Tool]()** or **[DEAP](https://docs.deapscience.com)** - ADD LINKS. Below are the definitions for the columns in the data dictionaries for these utilities. Note that some columns also correspond to elements in the BIDS JSON files that accompany all tabulated data (hover over <i class="bi bi-filetype-json" style="font-size:18px; color:blue;"></i> icon for details in table below).
 
-#### Data Dictionary Column Definitions
+### Data Dictionary Column Definitions
 
 <div id="dd-faq" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
@@ -93,7 +38,7 @@ Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
-<p>There are NBDC data dictionary column names that are currently inapplicable to HBCD study data and thus excluded from the table below. Note that these columns will still be present when querying the data dictionary via the Lasso Portal or DEAP, but the column values will be blank. Examples include <b><code>atlas</code></b>, <b><code>metric</code></b>, <b><code>sub_domain</code></b>, columns including <b><code>nda/deap/redcap</code></b>, etc. These columns can be safely ignored. Also see the <a href="#blank-columns">Lasso User Warning</a> in the section above for columns that are currently blank and expected to be populated in a future release.</p>
+<p>There are NBDC data dictionary column names that are currently inapplicable to HBCD study data and thus excluded from the table above. Note that these columns will still be present when querying the data dictionary via the Lasso Portal or DEAP, but the column values will be blank. Examples include <b><code>atlas</code></b>, <b><code>metric</code></b>, <b><code>sub_domain</code></b>, columns including <b><code>nda/deap/redcap</code></b>, etc. These columns can be safely ignored. Also see the <a href="#blank-columns">Lasso User Warning</a> in the section above for columns that are currently blank and expected to be populated in a future release.</p>
 </div>
 
 
@@ -337,3 +282,63 @@ Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data
     </tr>
 </tbody>
 </table>
+
+
+### Lasso User Warnings - HBCD
+
+<div id="add-columns" class="warning-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
+  <span class="text-with-link">
+  <span class="text">Additional Columns (`cohort` & `site`) Not Defined in Data Dictionary</span>
+  <a class="anchor-link" href="#add-columns" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="warning-collapsible-content">
+<p>Dataset downloads from Lasso will automatically contain two additional columns that are not currently described in the data dictionary: 'cohort' (<em>HBCD Main Child</em>) and `site` (<em>site ID</em>). The `cohort` and `site` columns are identical to the <a href="../../instruments/demo/visitinfo.md">Visit Information</a> variables <b><code>par_visit_data_cohort</code></b> and <b><code>par_visit_data_site</code></b>, respectively.</p>
+</div>
+
+<div id="blank-columns" class="warning-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
+  <span class="text-with-link">
+  <span class="text">Blank Columns in Query Tool</span>
+  <a class="anchor-link" href="#blank-columns" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="warning-collapsible-content">
+<p>
+  The following columns are currently blank in the Lasso Dictionary Query Tool for the HBCD Study and will become available in a future release 
+  (columns not applicable to HBCD and thus expected to be blank are noted 
+  <a href="#dd-faq">here</a>): 
+  <strong>unit</strong>, column names appended with <strong>*_es</strong>, 
+  and columns prepended with <strong>url_*</strong>.
+</p>
+</div>
+
+<div id="metadata" class="warning-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
+  <span class="text-with-link">
+  <span class="text">Instruction Metadata - Caution, Please Read Carefully</span>
+  <a class="anchor-link" href="#metadata" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="warning-collapsible-content">
+<p>
+Instruction text in the Data Dictionary metadata is extracted programmatically from the most recent instruction field in each form, based on field order. This means:
+<ul>
+<li>If an instruction spans multiple fields, only the last portion will be captured, resulting in partial instructions.</li>
+<li>Because the instruction is provided for all fields up to the next set of instructions, some fields may display text intended for a previous section.</li>
+<li>Manual curation of instruction metadata is planned for future releases. For the most accurate information, always refer to the original form.</li>
+</ul>
+</p>
+</div>
+
+<br>
