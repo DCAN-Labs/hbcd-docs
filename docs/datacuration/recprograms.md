@@ -47,4 +47,4 @@ A command-line tool that provides a variety of functions for processing and anal
 
 
 ## Electroencaphalography (EEG) Data
-The EEG Core of the HBCD Data Coordinating Center (HDCC) has a [GitHub repository](https://github.com/ChildDevLab/HBCD-data-release-notes) with file notes and scripts for working with the first HBCD EEG data release. We recommend all users to review this page for important resources. Users can contact us with any questions about working with the EEG data or using the GitHub repository at eegdata@umd.edu.
+The EEG Core of the HBCD Data Coordinating Center (HDCC) has developed some helpful tools for extracting summary statistics and trial measures from HBCD EEG release data. We encourage all users to explore these resources at the [HBCD EEG Utilities](https://hbcd-eeg-utilities.readthedocs.io/en/latest/) website.
