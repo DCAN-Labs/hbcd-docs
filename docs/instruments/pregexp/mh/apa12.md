@@ -53,9 +53,9 @@ The DSM-5 Self-Rated Level 1 and Level 2 Cross-Cutting Symptom Measure (APA 1/2)
 
 **Level 1** includes 1-2 questions for each of eleven mental health domains, with scores calculated for depression, anger, mania, anxiety, somatic symptoms, suicidal ideation, psychosis, sleep disturbance, memory, repetitive behaviors, and dissociation. Note that Level 1 items for personality functioning and substance use were excluded. If symptoms are reported in Level 1, participants are subsequently administered the corresponding Level 2 symptom measure associated with each mental health domain, including anger, anxiety, depression, mania, somatic symptoms, repetitive thoughts, and sleep problems.
 
-**Level 2** measures include all [Level 2 Cross-Cutting Symptom Measures](https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/assessment-measures) with the exception of Substance Abuse. The Level 2 measures for Depression and Sleep Disturbance were replaced with the **PROMIS Short Forms v1.0** [Depression 8a questionnaire](https://www.phenxtoolkit.org/toolkit_content/supplemental_info/psychiatric/measures/07_Depressed_Mood.doc) and [Sleep Disturbance 8a](https://heal.nih.gov/files/CDEs/2024-07/promis-sleep-disturbance-8a-crf.pdf). Documentation for each measure and its scoring can be found [here](https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/assessment-measures). PROMIS scoring procedures for Depression can be found [here](https://www.healthmeasures.net/images/PROMIS/manuals/Scoring_Manual_Only/PROMIS_Depression_Scoring_Manual_05Dec2023.pdf) and for Sleep Disturbance can be found [here](https://www.healthmeasures.net/images/PROMIS/manuals/Scoring_Manual_Only/PROMIS_Sleep_Scoring_Manual.pdf).
+**Level 2** measures include all [Level 2 Cross-Cutting Symptom Measures](https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/assessment-measures) with the exception of Substance Abuse. The Level 2 measures for Depression and Sleep Disturbance were replaced with the **PROMIS Short Forms v1.0** [Depression 8a questionnaire](https://www.phenxtoolkit.org/toolkit_content/supplemental_info/psychiatric/measures/07_Depressed_Mood.doc) and [Sleep Disturbance 8a](https://heal.nih.gov/files/CDEs/2024-07/promis-sleep-disturbance-8a-crf.pdf). 
 
-Finally, the HBCD measure also integrates the [Personality Inventory for DSM-5 Brief](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_The-Personality-Inventory-For-DSM-5-Brief-Form-Adult.pdf), which assesses five personality trait domains including negative affect, detachment, antagonism, disinhibition, and psychoticism. Scoring for the Personality Inventory can be found [here](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_The-Personality-Inventory-For-DSM-5-Brief-Form-Adult.pdf).
+Finally, the HBCD measure also integrates the [Personality Inventory for DSM-5 Brief](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_The-Personality-Inventory-For-DSM-5-Brief-Form-Adult.pdf), which assesses five personality trait domains including negative affect, detachment, antagonism, disinhibition, and psychoticism. 
 
 Additional modifications are described below. Future publications should be sure to acknowledge the removal of Level 1 and 2 substance use and the gating mechanisms for somatic symptoms and personality inventory:
 
@@ -83,7 +83,11 @@ Additional modifications are described below. Future publications should be sure
 
 ### Scoring
 
-- [Level 1 scoring procedures](https://www.psychiatry.org/getmedia/e0b4b299-95b3-407b-b8c2-caa871ca218d/APA-DSM5TR-Level1MeasureAdult.pdf)
+- [Level 1 Cross-Cutting Symptom Measures](https://www.psychiatry.org/getmedia/e0b4b299-95b3-407b-b8c2-caa871ca218d/APA-DSM5TR-Level1MeasureAdult.pdf) 
+- [Level 2 Cross-Cutting Symptom Measures](https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/assessment-measures)
+- [Depression](https://www.healthmeasures.net/images/PROMIS/manuals/Scoring_Manual_Only/PROMIS_Depression_Scoring_Manual_05Dec2023.pdf) 
+- [Sleep Disturbance](https://www.healthmeasures.net/images/PROMIS/manuals/Scoring_Manual_Only/PROMIS_Sleep_Scoring_Manual.pdf)
+- [Personality Inventory for DSM-5 Brief](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_The-Personality-Inventory-For-DSM-5-Brief-Form-Adult.pdf)
 
 ## References
 <div class="references">
