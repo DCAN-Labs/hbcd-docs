@@ -3,10 +3,14 @@
 **Table Name**: `sed_basic_demographics`       
 
 
-Basic Demographics is **derived demographics** information computed from: 
+Basic Demographics is **derived** information computed from: 
 
-- [**HBCD Demographics V01**](../SED/v01-demo.md) instrument (`sed_bm_demo`) collected under the Social & Environmental Determinants domain
+- A subset of **V01 Demographics** (`sed_bm_demo`) Social & Environmental Determinants domain instrument variables - <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span> <i>See <a href="../../SED/v01-demo">V01 Demographics</a> for much more extensive demographics information</i>
+
 - **Administrative screening records** collected by HBCD Study staff, as reported by the birth parent, during the enrolment/screening process (e.g. the age and race/ethnicity of the pregnant study participant)
+
+Basic Demographics are **global, visit-agnostic variables** that do not change over time and should be present and consistent across all Visits (V01, V02, etc.). *However*, if only V01 data for a given participant is included in the release (due to ongoing enrollment, participant withdrawal, etc.), then items about the child will be missing, as the child is not born until after the V01 visit (all variables about the child are available beginning with V02).
+
 
 <div id="alert" class="alert-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
@@ -41,11 +45,6 @@ Basic Demographics is **derived demographics** information computed from:
 Some participants reported challenges in answering certain questions, such as those related to race and ethnicity (e.g. options did not capture identity) and occupation (i.e. imperfect option for job type and number of hours).</p> 
 </div>
 
-<div id="demo-fyi" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">Please see the section on the <a href="../../SED/v01-demo">HBCD Demographics V01</a> instrument for more detailed demographics information variables from which Basic Demographics was in part derived.</span>
-</div>
-
 ## Variable Logic & Definitions
 
 <div id="bdemo-fyi" class="notification-banner" onclick="toggleCollapse(this)">
@@ -59,11 +58,8 @@ Some participants reported challenges in answering certain questions, such as th
   <span class="arrow">▸</span>
 </div>
 <div class="notification-open-collapsible-content">
-<p><b>Basic Demographics are Global, Visit-Agnostic Variables</b><br>
-Basic Demographics are single-point, static variables (i.e. they do not change over time) that should be present and consistent across all Visits (V01, V02, etc.). <strong>However</strong>, if only V01 data for a given participant is included in the release (due to ongoing enrollment, participant withdrawal, etc.), then items about the child will be missing, as the child is not born until after the V01 visit (all variables about the child are available beginning with V02).</p>
-
 <p><b>Fields Reporting Age</b><br>
-Basic Demographics includes a unique set of fields reporting age compared to instrument data. See the <a href="../../agevariables">Age Variable Definitions</a> section for a summary of all age-related variables across the release.</p>
+Basic Demographics includes a unique set of fields reporting age compared to instrument data, including Maternal Age at V01 (MAV01), Maternal Age at Delivery (MAD), and Gestational Age at Delivery (GAD) (defined in the table below). See the <a href="../../agevariables">Age Variable Definitions</a> section for a summary of all age-related variables across the release.</p>
 
 <p><b>Combined Race and Ethnicity Variable Logic</b><br>
 With the exception of <code>rc_mother_ethnoracial_aou_race_ethnicity</code> (only constructed for the birth parent, following <a href="https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards">OMB</a> standards as described in the table below), variables that combine race and ethnicity are constructed from separate race and ethnicity variables following current federal standards: if an individual is identified as Hispanic or Latino based on the response to the ethnicity item, they will be categorized as such, regardless of their race. In addition, individuals who select more than one race are categorized as "multiracial."</p>
@@ -97,7 +93,7 @@ There are two combined race and ethnicity variables that aggregate multiracial i
 <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Gestational Age at Delivery (GAD)</td>
 <td style="padding: 8px; word-wrap: break-word; white-space: normal;"><code>gestational_age_delivery</code></td>
 <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Admin</td>
-<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Time elapsed between the first day of the birth parent’s last menstrual period (LMP) and the child's date of birth. Reported in whole weeks, rounded down to the nearest week.</td>
+<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Age of the child at delivery calculated as the time elapsed between the first day of the birth parent’s <span class="tooltip">LMP<span class="tooltiptext">last menstrual period</span></span> and the child's date of birth. Reported in whole weeks, rounded down to the nearest week.</td>
 </tr>
 <tr>
 <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Child sex</td>
