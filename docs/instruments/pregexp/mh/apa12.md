@@ -1,8 +1,11 @@
 # Mental Health
 
-## TO DO LIST
+## Potential modifications to documentation
 
-- streamline Instrument Description section to be less redundant (eg can probably add information from HBCD Modification Details into main text and remove infobox)
+See [Instrument Details - ALTERNATIVE VERSION](#instrument-details-alternative-version) below with the following changes:
+
+- streamline Instrument Description section to add important hbcd modification details to main text
+- potentially remove APA table or replace with a version that is specific to the HBCD instrument
 - list scoring procedures separately to streamline text
 
 ## CONTENT
@@ -88,6 +91,49 @@ Additional modifications are described below. Future publications should be sure
 - [Depression](https://www.healthmeasures.net/images/PROMIS/manuals/Scoring_Manual_Only/PROMIS_Depression_Scoring_Manual_05Dec2023.pdf) 
 - [Sleep Disturbance](https://www.healthmeasures.net/images/PROMIS/manuals/Scoring_Manual_Only/PROMIS_Sleep_Scoring_Manual.pdf)
 - [Personality Inventory for DSM-5 Brief](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_The-Personality-Inventory-For-DSM-5-Brief-Form-Adult.pdf)
+
+
+## Instrument Details - ALTERNATIVE VERSION
+
+The HBCD mental health screening instrument is a highly sensitive screening tool for use in community samples. It has two levels, adapted from DSM-5 Self-Rated [Level 1](https://www.psychiatry.org/getmedia/e0b4b299-95b3-407b-b8c2-caa871ca218d/APA-DSM5TR-Level1MeasureAdult.pdf) and [Level 2](https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/assessment-measures) (version 8a) Cross-Cutting Symptom Measures.
+
+**Level 1** includes 1 - 2 questions for each of <span class="tooltip">11 mental health conditions<span class="tooltiptext">depression, anger, mania, anxiety, somatic symptoms, suicidal ideation, psychosis, sleep disturbance, memory, repetitive behaviors, dissociation</span></span>. This excludes *personality functioning* and *substance use* present in the original measure (SU is captured by a separate set of instruments for HBCD - see measures listed [here](../../index.md#pregexp)). When symptoms were reported for Level 1, participants are subsequently administered the corresponding **Level 2** <span class="tooltip">Cross-Cutting Symptom Measures<span class="tooltiptext">including anger, anxiety, depression, mania, repetitive thoughts, somatic symptoms, and sleep problems</span></span> associated with each mental health condition (with the exception of substance use). For HBCD, symptom measures for *depression* and *sleep disturbance* were replaced with the *PROMIS Short Forms v1.0* [Depression 8a questionnaire](https://www.phenxtoolkit.org/toolkit_content/supplemental_info/psychiatric/measures/07_Depressed_Mood.doc) and [Sleep Disturbance 8a](https://heal.nih.gov/files/CDEs/2024-07/promis-sleep-disturbance-8a-crf.pdf). Level 2 additionally includes the [Personality Inventory for DSM-5 Brief](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_The-Personality-Inventory-For-DSM-5-Brief-Form-Adult.pdf), which assesses five personality trait domains, including negative affect, detachment, antagonism, disinhibition, and psychoticism.
+
+Gating was adapted for the HBCD study population so that participants proceed automatically to Level 2 measures for personality inventory. In addition, all participants answer the Level 1 questions on depression and somatic symptoms, but proceed to Level 2 questions irrespective of answers. Future publications should be sure to acknowledge the removal of Level 1 and 2 substance use and the gating mechanisms for personality inventory and somatic symptoms.
+
+<div id="hbcd-mod" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="text-with-link">
+  <span class="text">Additional HBCD Modification Details</span>
+  <a class="anchor-link" href="#hbcd-mod" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<p><b>Clinical Alerts</b><br>
+This measure was modified to alert HBCD study staff if responses to the Level 1 APA self-harm question ('Thoughts of actually hurting yourself?') or Level 2 APA depression questionnaire (items from 'I felt worthless' to 'I felt that nothing could cheer me up') exceed thresholds of 0 and 32, respectively.</p>
+
+<p><b>Response Option Changes</b>
+For HBCD, the response option ‘Decline to answer’ was added to all questions. The response option ‘Don’t know’ was also included at the beginning of data collection, but was subsequently removed. This does not impact scoring, as questions answered with ‘Decline to answer’ or ‘Don’t know’ are skipped and marked as missing.</p> 
+</div>
+</p>
+
+### Scoring Procedures
+
+<p>
+<div id="demo-fyi" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">Note: In early data releases, total scores are not calculated for Level 2 measures. Users are encouraged to score individual scales themselves according to the scoring procedures.</span>
+</div>
+</p>
+
+- [Level 1 Cross-Cutting Symptom Measures](https://www.psychiatry.org/getmedia/e0b4b299-95b3-407b-b8c2-caa871ca218d/APA-DSM5TR-Level1MeasureAdult.pdf) 
+- [Level 2 Cross-Cutting Symptom Measures](https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/assessment-measures)
+- [Depression](https://www.healthmeasures.net/images/PROMIS/manuals/Scoring_Manual_Only/PROMIS_Depression_Scoring_Manual_05Dec2023.pdf) 
+- [Sleep Disturbance](https://www.healthmeasures.net/images/PROMIS/manuals/Scoring_Manual_Only/PROMIS_Sleep_Scoring_Manual.pdf)
+- [Personality Inventory for DSM-5 Brief](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_The-Personality-Inventory-For-DSM-5-Brief-Form-Adult.pdf)
+
 
 ## References
 <div class="references">
