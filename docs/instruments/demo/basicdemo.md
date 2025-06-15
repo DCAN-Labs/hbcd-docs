@@ -29,7 +29,7 @@
   <span class="arrow">▸</span>
 </div>
 <div class="warning-collapsible-content">
-<p><b>⚠️ <a href="../../changelog/knownissues"><u>Known Issues</u></a> To Be Resolved in Future Release</b><br>
+<p><b>⚠️ <a href="../../../changelog/knownissues"><u>Known Issues</u></a> To Be Resolved in Future Release</b><br>
 <p><strong>'Mother Race' (<code>screen_mother_race</code>)</strong>: contains duplicate options for the selection of 'Black African American' (option #3). This option is not used for data entry, and instead the 'Black_or African American' option (option #5) should be used. No other variables are affected by this.</p>
 <p><strong>Mother Ethnicity (<code>screen_mother_ethnicity</code>)</strong>: should be a 2-level variable, but is currently noted as a 4-level variable in the data dictionary. Levels of 0 and 1 (in the data dictionary) are included in error, they do not appear in the dataset; all participants with valid data have a value of 2 (Hispanic) or 3 (non-Hispanic).</p>
 <p><b>Participant-Reported Challenges</b><br>
