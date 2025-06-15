@@ -1,7 +1,12 @@
 # Basic Demographics
    
 **Table Name**: `sed_basic_demographics`       
-**Construct**: Derived demographics information computed from: (1) [**HBCD Demographics V01**](../SED/v01-demo.md) instrument (`sed_bm_demo`) collected under the Social & Environmental Determinants domain and (2) **Administrative screening records** collected by a research assistant, as reported by the birth parent, during the enrolment/screening process (e.g. the age and race/ethnicity of the pregnant study participant)
+
+
+Basic Demographics is **derived demographics** information computed from: 
+
+- [**HBCD Demographics V01**](../SED/v01-demo.md) instrument (`sed_bm_demo`) collected under the Social & Environmental Determinants domain
+- **Administrative screening records** collected by HBCD Study staff, as reported by the birth parent, during the enrolment/screening process (e.g. the age and race/ethnicity of the pregnant study participant)
 
 <div id="alert" class="alert-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
@@ -54,47 +59,23 @@ Some participants reported challenges in answering certain questions, such as th
   <span class="arrow">▸</span>
 </div>
 <div class="notification-open-collapsible-content">
-<p><b>Basic Demographics are global, visit-agnostic variables</b><br>
+<p><b>Basic Demographics are Global, Visit-Agnostic Variables</b><br>
 Basic Demographics are single-point, static variables (i.e. they do not change over time) that should be present and consistent across all Visits (V01, V02, etc.). <strong>However</strong>, if only V01 data for a given participant is included in the release (due to ongoing enrollment, participant withdrawal, etc.), then items about the child will be missing, as the child is not born until after the V01 visit (all variables about the child are available beginning with V02).</p>
-<p><b>Child vs Mother Variables</b><br>
-Within the table and the variable names, <strong><code>child</code></strong> refers to the child enrolled in HBCD and <strong><code>mother</code></strong> refers to the person carrying the child (i.e., pregnant with the child) at the time of V01.</p>
+
+<p><b>Fields Reporting Age</b><br>
+Basic Demographics includes a unique set of fields reporting age compared to instrument data. See the <a href="../../agevariables">Age Variable Definitions</a> section for a summary of all age-related variables across the release.</p>
+
 <p><b>Combined Race and Ethnicity Variable Logic</b><br>
 With the exception of <code>rc_mother_ethnoracial_aou_race_ethnicity</code> (only constructed for the birth parent, following <a href="https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards">OMB</a> standards as described in the table below), variables that combine race and ethnicity are constructed from separate race and ethnicity variables following current federal standards: if an individual is identified as Hispanic or Latino based on the response to the ethnicity item, they will be categorized as such, regardless of their race. In addition, individuals who select more than one race are categorized as "multiracial."</p>
 <p><b>Multiracial Individuals: Aggregation By Ethnicity Vs Race</b><br>
 There are two combined race and ethnicity variables that aggregate multiracial individuals into subcategories by ethnicity (<code>*_acs_by_multi_ethnicity</code>) vs race (<code>*_acs_by_multi_race</code>). For aggregation by ethnicity, individuals are subcategorized into those who do and do not select Hispanic as one of their identities. For race, individuals are subcategorized into those who do and do not select Black/African American as one of their identities.</p>
 </div>
 
-<div id="demo-age" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text-with-link">
-    <span class="text">Demographics: Fields Reporting Age</span>
-    <a class="anchor-link" href="#demo-age" title="Copy link">
-    <i class="fa-solid fa-link"></i>
-    </a>
-    </span>
-  <span class="arrow">▸</span>
-</div>
-<div class="notification-open-collapsible-content">
-<br>
-<i>Basic Demographics includes a unique set of fields reporting age compared to <a href="../../agevariables/#tabulated-instrument-data">tabulated instrument data</a>. See the <a href="../../agevariables">Age Variable Definitions</a> section for a summary of all age-related variables across the release, as well as the information summarized in table format <a href="../../agevariables/#basic-demographics">here</a>.</i>
-<br>
-<br>
-<b>Maternal Age at V01 </b> (<code>mother_age_v01</code>): 'MAV01' is the birth parent's age, obtained from the scheduled date of the V01 visit. Reported in years to two decimal places, with fractional years calculated by dividing the number of whole months (rounded down) by 12.
-<br>
-<br>
-<b>Maternal Age at Delivery</b> (<code>mother_age_delivery</code>): 'MAD' is the birth parent’s age at the time of their child's delivery (date of birth). Reported in years to two decimal places, with fractional years calculated by dividing the total whole months (rounded down) by 12.
-<br>
-<br>
-<b>Gestational Age at Delivery</b> (<code>gestational_age_delivery</code>): 'GAD' is the time elapsed between the first day of the birth parent’s last menstrual period (LMP) and the child's date of birth. Reported in whole weeks, rounded down to the nearest week.<br>
-<br>
-</div>
-
-
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 13px;">
     <thead>
       <tr>
         <th style="width: 25%; text-align: center; word-wrap: break-word; white-space: normal;">Construct</th>
-        <th style="width: 20%; text-align: center; word-wrap: break-word; white-space: normal;"><span class="tooltip tooltip-bottom">Variable Name<span class="tooltiptext"><strong><code>child</code></strong> refers to the child enrolled in HBCD and <strong><code>mother</code></strong> refers to the person carrying the child (i.e., pregnant with the child) at the time of V01</span></span></th>
+        <th style="width: 20%; text-align: center; word-wrap: break-word; white-space: normal;">Variable Name</th>
         <th style="width: 10%; text-align: center; word-wrap: break-word; white-space: normal;"><span class="tooltip tooltip-bottom">Source<span class="tooltiptext">Administrative Records or V01 Demographics instrument</span></span></th>
         <th style="width: 40%; text-align: center; word-wrap: break-word; white-space: normal;">Description</th>
       </tr>
