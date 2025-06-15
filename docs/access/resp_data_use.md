@@ -4,9 +4,8 @@
 The HEALthy Brain and Child Development (HBCD) study dataset is a large, rich, and complex resource that can drive scientific discovery, provide a foundation for translation and implementation research, and inform development of public policy. To create this dataset, thousands of participants have given generously of their time and their bodies to help advance science. They have trusted us with sensitive information. The use of HBCD data carries ethical responsibilities to minimize risks of harm to participants and to treat them respectfully and justly. One way data users can respect participants’ contributions is by conducting careful, high-quality science.  
 
 ## Warnings
-To facilitate responsible data use, table- and variable-level warnings are embedded in the NBDC Data Dictionary linking to data and responsible use warnings within the [study instrument documentation](../measures/index.md). There are 2 types of warnings, both of which may aid in more scientifically rigorous use of HBCD data:
+To facilitate responsible data use, table- and variable-level warnings are embedded in the NBDC Data Dictionary linking to data and responsible use warnings within the [study instrument documentation](../measures/index.md). There are 2 types of warnings, both of which may aid in more scientifically rigorous use of HBCD data - click to expand each section below for a description of the function of these warnings:
 
-<p>
 <div id="warning-banner" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Data Warning</span>
@@ -15,8 +14,7 @@ To facilitate responsible data use, table- and variable-level warnings are embed
 <div class="warning-collapsible-content">
 <p>The purpose of this warning is to improve transparency and offer technical assistance by alerting the user to issues of data quality, providing information on how variables were constructed, providing instructions on how to calculate or analyze specific variables, or providing code (if necessary).</p> 
 </div>
-</p>
-<p>
+
 <div id="alert-banner" class="alert-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
     <span class="text">Responsible Use Warning</span>
@@ -25,7 +23,6 @@ To facilitate responsible data use, table- and variable-level warnings are embed
 <div class="alert-collapsible-content">
 <p>The purpose of this warning is to offer guidance for research design, data interpretation, and communication of findings, including conceptual information. These warnings also include information on stigma and stigmatizing language related to some variables, or information on the manner in which race variables were conceptualized and collected for this study.</p>
 </div>
-</p>
 
 **Note that only [DEAP](https://docs.deapscience.com/) currently has embedded links to data and responsible use warnings.** These links will be added to the [Lasso platform](https://nbdc-datashare.lassoinformatics.com/) after the release, but the warnings can still be viewed by visiting the [study instrument documentation](../instruments/index.md) of interest.
 
@@ -41,7 +38,7 @@ The HBCD Responsible Use of Data Committee (RUDC) provides the following guidanc
 ### Learn and abide by the provisions of the Data Use Certificate.
 <b class="gray-text">All users of HBCD data should be listed on a Data Use Certificate (DUC) and bound by it.</b> Among other things, the DUC prohibits any attempt to establish the identities of HBCD participants. To protect participants against identification, users agree to adhere to a minimum cell threshold of ten participants in publications and other public presentations. Epidemiologists, statisticians, and other data analysts argue that a cell size between 1 and 10 is usually too small for meaningful analysis; therefore, avoiding analysis of small cells can produce more rigorous, reproducible science and also helps protect study participants from identification.   
 
-<b class="gray-text">Access to HBCD data is limited to people who are listed on an active HBCD DUC.</b> This means you cannot enter HBCD data into a generative AI tool/large language model, such as ChatGPT, because doing so would leak HBCD data to people who do not have a DUC (see [FAQ: Can I Use ChatGPT...](faq.md/#faq-ai)).  
+<b class="gray-text">Access to HBCD data is limited to people who are listed on an active HBCD DUC.</b> This means you cannot enter HBCD data into a generative AI tool/large language model, such as ChatGPT, because doing so would leak HBCD data to people who do not have a DUC (see [FAQ: Can I Use ChatGPT...](../help/faq.md/#faq-ai)).  
 
 ### Consider ethical principles throughout the research process.
 <b class="gray-text">Equity-focused reflection:</b> Regulations for the protection of humans in federally-funded research (e.g., 45 C.F.R. 46) do not require IRBs to oversee research using anonymized data obtained from a repository. Nonetheless, the data come from people to whom we have ethical obligations, including obligations of respect, minimizing harm, and justice. Data users should keep these principles in mind at each stage of their research. 
