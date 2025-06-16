@@ -333,7 +333,7 @@
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
     <span class="text-with-link">
     <span class="text">Which imaging data are recommended for analysis?</span>
-    <a class="anchor-link" href="#faq-qrec" title="Copy link">
+    <a class="anchor-link" href="#faq-qcrec" title="Copy link">
     <i class="fa-solid fa-link"></i>
     </a>
     </span>
