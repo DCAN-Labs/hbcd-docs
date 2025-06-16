@@ -16,7 +16,7 @@
   <span class="arrow">▸</span>
 </div>
 <div class="warning-collapsible-content">
-<p>Please note that range checks for Growth (<code>ph_ch_anthro</code>) were implemented in the database on 7/1/2024 and so are not reflected in data included in the first data release. Extreme out-of-range values were excluded (converted to 'n/a'), but some outliers are possible. Valid values for Growth fields are documented in the section on Exclusion Criteria (see <a href="../../datacuration/exclusions#filtered-values">Filtered Out-Of-Range Field Values</a>) and provided below for quick reference:</p>
+<p>Please note that range checks for Growth (<code>ph_ch_anthro</code>) were implemented in the database on 7/1/2024 and so are not reflected in data included in the first data release. Extreme out-of-range values were excluded (converted to 'n/a'), but some outliers are possible. Valid values for Growth fields are documented in the section on Exclusion Criteria (see <a href="../../../../datacuration/phenotypes/#filtered-field-values">Filtered Field Values</a>) and provided below for quick reference:</p>
 <ul>
   <li>Length (<code>len_001_i_03</code>): min 30 / max 130 (cm) </li>
   <li>Weight (<code>wei_001_i_03</code>): min 0.5 / max 30  (kg)</li>
