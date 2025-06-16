@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-## DUC FAQs to potentiall move to NBDC Data Hub site or new Lasso Docs site
+## DUC FAQs to potentially move to NBDC Data Hub site or new Lasso Docs site
 
 <div id="faq-duc" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
