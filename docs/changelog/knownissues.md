@@ -5,7 +5,7 @@ The following issues have been identified in the current HBCD data release. **We
 
 ##### ⚠️ Instruction Metadata - Caution, Please Read Carefully
 
-Instruction text in the Data Dictionary metadata is extracted programmatically from the most recent instruction field in each form, based on field order. This means:
+Instruction text in the form's metadata is extracted programmatically from the most recent instruction field in the REDCap Data Dictionary for each form, based on field order. This means:
 
 *   If an instruction spans multiple fields, only the last portion will be captured, resulting in partial instructions.
 *   Because the instruction is provided for all fields up to the next set of instructions, some fields may display text intended for a previous section.
