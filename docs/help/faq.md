@@ -175,7 +175,7 @@
   <span class="arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
-<p>In the HBCD Study, <i>all</i> data are collected under the child’s subject ID, even when provided by the birth parent or another caregiver. This is because most information collected from caregivers pertains to the child. Please see details of the design logic <a href="../../measures/studydesign/#study-design-logic-child-centric-data-structure">here</a>.</p> 
+<p>In the HBCD Study, <i>all</i> data are collected under the child’s subject ID, even when provided by the birth parent or another caregiver. This is because most information collected from caregivers pertains to the child. Please see details of the design logic <a href="../../datacuration/studydesign/#study-design-logic-child-centric-data-structure">here</a>.</p> 
 <p>To help identify who provided the information, the <b>source</b> component in the table name may be helpful, as it typically indicates whether the data came from the caregiver, child, or another source. However, the meaning of source is not consistent across all instruments at this time - please see <a href="../../datacuration/phenotypes/#file-naming-conventions">File Naming Conventions</a> for details.</p>
 </div>
 
