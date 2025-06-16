@@ -54,7 +54,6 @@ nav:
     - File-Based Data: 
         - Raw File-Based Data: datacuration/rawbids.md
         - Processed File-Based Data: datacuration/derivatives.md
-        - Exclusion Criteria: datacuration/exclusions.md
     - Recommended Tools: datacuration/recprograms.md
   - Study Instruments:
     - Overview: instruments/index.md
