@@ -10,14 +10,12 @@ As much as possible, HBCD processing utilizes the [Brain Imaging Data Structure]
 
 hbcd/
 |__ rawdata/ 
-|   |__ phenotype/
-|   |   |__ bio_biosample_<span class="placeholder">&lt;nails|urine&gt;</span>.*
+|   |__ phenotype/     <span class="hashtag"># Tabulated Data (demographics, visit info, behavior, etc.)</span>
 |   |   |__ par_visit_data.*
 |   |   |__ sed_basic_demographics.*
-|   |   |__ sed_bm_demo.*
 |   |   |__ <span class="placeholder">&lt;instrument_name&gt;</span>.*
 |   |
-|   |__ sub-<span class="label">&lt;label&gt;</span>/
+|   |__ sub-<span class="label">&lt;label&gt;</span>/   <span class="hashtag"># Raw File-Based Data (MRI, EEG, etc.)</span>
 |   |   |__ sub-<span class="label">&lt;label&gt;</span>_sessions.tsv
 |   |   |__ sub-<span class="label">&lt;label&gt;</span>_sessions.json
 |   |   |__ ses-<span class="label">&lt;label&gt;</span>/
@@ -35,7 +33,7 @@ hbcd/
 |   |__ participants.tsv
 |   |__ participants.json 
 |
-|__ derivatives/ 
+|__ derivatives/        <span class="hashtag"># Processed File-Based Data (MRI, EEG, etc.)</span>
     |__ bibsnet/
     |__ hbcd_motion/
     |__ made/
@@ -48,3 +46,4 @@ hbcd/
     |__ symri/
     |__ xcp_d/
 </pre>
+<br>

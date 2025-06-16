@@ -48,7 +48,7 @@ Tabulated data is available in both tab-separated values (TSV) and [Apache Parqu
 #### Plain Text (TSV/CSV)
 Plain text formats (TSV/CSV) are widely compatible and easy to inspect, but less efficient for large datasets. They don't support selective column loading or preserve metadata, such as data type specification; the metadata is instead available via the sidecar JSON files for plan text files. As a result, tools like Python or R must guess data types during import, often incorrectly. For example, categorical values like "0"/"1" for "Yes"/"No" (commonly used in NBDC datasets) may be interpreted as numeric, and columns with mostly missing values may be treated as empty if the first few rows lack data.
 
-To avoid such issues, it's recommended to manually define column types using the accompanying data dictionaries included in the sidecar JSON metadata files during the import. The `NBDCtools` R package offers a helper function, `read_dsv_formatted()`, to automate this process (see [Recommended Tools](../dataformats/recprograms.md#tabulated-data) for details).
+To avoid such issues, it's recommended to manually define column types using the accompanying data dictionaries included in the sidecar JSON metadata files during the import. The `NBDCtools` R package offers a helper function, `read_dsv_formatted()`, to automate this process (see [Recommended Tools](recprograms.md#tabulated-data) for details).
 
 #### Parquet
 <div id="parquetbids" class="notification-banner" onclick="toggleCollapse(this)">
