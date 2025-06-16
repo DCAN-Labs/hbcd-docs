@@ -101,10 +101,10 @@ nav:
                 - Assist V3: instruments/pregexp/su/assistv3.md
                 - TLFB: instruments/pregexp/su/tlfb.md
         - Social & Environmental Determinants:
+            - V01 Demographics: instruments/SED/v01-demo.md
             - Baby's First Years: instruments/SED/bfy.md
             - Unfair Treatment: instruments/SED/discr.md
             - Intimate Partner Violence: instruments/SED/ehits.md
-            - Demographics V01: instruments/SED/v01-demo.md
             - Perceived Stress/Social Support: instruments/SED/promis.md
             - Neighborhood Safety: instruments/SED/safety.md
             - Protective Factors: instruments/SED/paces.md
