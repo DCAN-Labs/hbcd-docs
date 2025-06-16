@@ -1,5 +1,7 @@
 # Tabulated Data
 
+## Overview
+
 Tabulated data, located under `rawdata/phenotype/`, refers to data from measures and instruments listed under the documentation on [study instruments](../instruments/index.md). This includes behavior, demographics, visit data, toxicology results, and tabulated data associated with brain imaging and other file-based data:
 
 <pre class="folder-tree">
