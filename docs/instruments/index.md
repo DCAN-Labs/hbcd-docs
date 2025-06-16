@@ -466,7 +466,6 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
 
 ### Brain Activity - MRI & EEG
 
-
 <div id="mri" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text-with-link">
   <span class="table-text">MRI & MRS</span>
@@ -477,6 +476,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
+<p><strong><span class="emoji"><i class="fa-regular fa-lightbulb"></i></span> Also see <a href="mri">Overview & MRI Protocols</a> and <a href="mri/qc"> HBCD MR Quality Control Procedures</a></strong></p>
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px">
   <thead>
     <tr>
@@ -559,7 +559,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
-<p>See <a href="eeg">Overview & Quality Control</a></p>
+<p><strong><span class="emoji"><i class="fa-regular fa-lightbulb"></i></span> Also see <a href="eeg">Overview & Quality Control</a></strong></p>
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px">
   <thead>
     <tr>
