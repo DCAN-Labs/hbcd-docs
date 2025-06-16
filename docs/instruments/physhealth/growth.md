@@ -3,7 +3,6 @@
 **Full Name**: Height/Weight/Head Circumference              
 **Acronym**: Growth                  
 **Table Name**: `ph_ch_anthro`       
-**Construct**: Growth is a standard direct measure of child growth, including height or length (in cm), weight (in kg), and head circumference (cm). In older children, it will also include abdominal circumference (cm).
 
 <div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
@@ -44,6 +43,9 @@
 </tbody>
 </table>
 
+## Instrument Details
+
+Growth is a standard direct measure of child growth, including height or length (in cm), weight (in kg), and head circumference (cm). In older children, it will also include abdominal circumference (cm).
 
 
 

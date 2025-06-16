@@ -3,7 +3,6 @@
 **Full Name**: Breast Feeding History                     
 **Acronym**: PHENX BF                                 
 **Table Name**: `ph_cg_phx__bfh`       
-**Construct**: Nutrition - measures initiation, exclusivity, and cessation of breast milk feedings.
 
 <div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
@@ -38,7 +37,8 @@
 </tbody>
 </table>
 
+## Instrument Details
 
-
+Breast Feeding History is a nutrition construct that measures initiation, exclusivity, and cessation of breast milk feedings.
 
 
