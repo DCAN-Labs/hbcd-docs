@@ -56,7 +56,7 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
 
 <div id="urine-table1" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">Table 1. Urine Assay Thresholds for Analytes</span>
-  <span class="table-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
@@ -466,7 +466,7 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
 
 <div id="urine-table2" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">Table 2. Sample Data Dictionary from Urine Assays</span>
-  <span class="table-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
@@ -543,7 +543,7 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
 
 <div id="urine-table3" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">Table 3. Mapping From Class to Screening Tests and Confirmatory Tests</span>
-  <span class="table-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">

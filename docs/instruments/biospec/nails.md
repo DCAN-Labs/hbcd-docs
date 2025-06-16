@@ -53,7 +53,7 @@ Based on the confirmatory test (i.e. reflexes from positive screening test) resu
 
 <div id="nails-table1" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">Table 1. Nail Assay Thresholds</span>
-  <span class="table-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
@@ -407,7 +407,7 @@ Based on the confirmatory test (i.e. reflexes from positive screening test) resu
 
 <div id="nails-table2" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">Table 2. Sample-Data Dictionary Nail Assays</span>
-  <span class="table-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">

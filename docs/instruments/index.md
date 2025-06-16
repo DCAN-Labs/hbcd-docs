@@ -20,7 +20,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="table-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px">
@@ -57,7 +57,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="table-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px">
@@ -100,7 +100,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="table-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px">
@@ -136,7 +136,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="table-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px">
@@ -172,7 +172,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="table-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px">
@@ -208,7 +208,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="table-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px">
@@ -252,7 +252,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="table-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
 <br>
@@ -405,7 +405,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="table-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px">
@@ -474,7 +474,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="table-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px">
@@ -556,9 +556,10 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="table-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
+<p>See <a href="eeg">Overview & Quality Control</a></p>
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px">
   <thead>
     <tr>

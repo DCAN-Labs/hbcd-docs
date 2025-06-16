@@ -112,7 +112,7 @@ All quality control metrics are available in the `sub-<label>_ses-<label>_scans.
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="table-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
@@ -430,7 +430,7 @@ To account for such variations, most inclusion criteria are defined as acceptabl
 <p>
 <div id="acq-param-table" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">Acquisition Parameter Ranges for Data Release Eligibility</span>
-  <span class="table-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
 <div class="table-open-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">

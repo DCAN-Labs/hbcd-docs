@@ -24,17 +24,6 @@ th, td {
   cursor: pointer;
   width: 100%;
 }
-.table-arrow {
-  font-size: 1.7rem;
-  transition: transform 0.3s ease;
-  transform-origin: center;
-  display: inline-block;
-  color: #474646;
-  margin-left: auto; 
-}
-.table-arrow.rotate {
-  transform: rotate(90deg);
-}
 .table-text {
   flex: 1; /* Allows the text to take available space without overlapping */
   font-size: 1rem; 
@@ -63,41 +52,3 @@ th, td {
 .table-collapsible-content.open {
   max-height: none;
 }
-
-/* Collapsible tables sections for sections that are open by default */
-.table-open-collapsible-content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease-out;
-  background-color: #fff;
-  border: 1px solid #3333331a;
-  border-top: none;
-  padding: 0 0 0 0; /* Horizontal padding, no top or bottom padding */
-  border-radius: 0 0 5px 5px;
-  margin-bottom: 20px; /* Adds spacing below the section */
-  width: 100%; /* Make the collapsible section span the full width of its container */
-  box-sizing: border-box; /* Include padding and borders in the width calculation */
-}
-.table-open-collapsible-content b {
-  color: #0077cc;
-}
-.table-open-collapsible-content.open {
-  max-height: none;
-}
-.table-open-collapsible-content table {
-  width: 100%; /* Make the table span the full width of the parent container */
-  border-collapse: collapse; /* Ensure there are no gaps between borders */
-  table-layout: fixed; /* Distribute the column width evenly or based on content */
-}
-.table-open-collapsible-content th,
-.table-open-collapsible-content td {
-  border: 1px solid #ddd; /* Add consistent borders */
-  padding: 8px; /* Add consistent padding */
-  text-align: left; /* Align text to the left */
-  word-wrap: break-word; /* Prevent content overflow */
-}
-.table-open-collapsible-content tfoot {
-  margin: 0;
-  padding: 0;
-}
-
