@@ -134,4 +134,7 @@ nav:
     - FAQs: help/faq.md
     - Report Issues: help/reportissue.md
     - How To Cite Release Docs: help/citation.md
+  - Drafts:
+    - Instructions: instructions.md
+
  
