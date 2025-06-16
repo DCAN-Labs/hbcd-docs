@@ -68,6 +68,11 @@ In cases where ICD codes are provided, corresponding names/labels are sometimes 
 The TLFB Substance Use Flags are intended to indicate whether a participant had **ever met the substance-specific use criteria** during or after pregnancy across visits V01 and V02 at the time of survey administration. Currently, **only the alcohol use flag** correctly follows this logic. All other substance use flags are incorrect and will be corrected in a future release. In the meantime, users can derive their own substance use flag variables by applying “or” logic to determine whether the participant met the substance-specific criteria in **either** V01 or V02.     
 **Expected Fix:** Release 1.1
 
+
+##### ⚠️ Edinburgh Postnatal Depression Scale (EPDS)
+Users should be aware that each item for the EPDS is duplicated (for example, `epds_001` and `epds_001_01`); these duplicate columns contain the same data. Duplicate data will be removed in the future.           
+**Expected fix:** Release 1.1
+
 ## Social & Environmental Determinants
 ##### ⚠️ Blank Cells in PhenX Discrimination Survey
 For the PhenX+ Discrimination survey, one of the multi-select questions (column `sed_bm_phx__discr.006`: *"What do you think is the main reason for these experiences? If more than one main reason, check all that apply."*) is blank for some participants.       
