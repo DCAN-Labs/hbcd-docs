@@ -344,7 +344,7 @@
 <b>Raw Imaging Data:</b> 
 <ul>
 <li>Only data that meet QC standards, as described in <a href="../../instruments/mri/qc/#raw-mr-data-qc">Raw MR Data QC</a>, are included.</li>
-<li>QC metrics for raw data are available in the <code>sub-&lt;label&gt;_ses-&lt;label&gt;_scans.tsv</code> file within each subject session folder under <code>rawdata/</code>. See <a href="../../instruments/mri/qc/#location-of-raw-data-qc-results-in-data-release">here</a> for details.</li>
+<li>QC metrics for raw data are available in the <code>sub-&lt;label&gt;_ses-&lt;label&gt;_scans.tsv</code> file within each subject session folder under <code>rawdata/</code> (<a href="../../instruments/mri/qc/#location-of-raw-data-qc-results-in-data-release">see details</a>).</li>
 <li>Additional exclusion criteria include acquisition parameter checks and processing pipeline requirements (see <a href="../../datacuration/exclusions/#imaging-spectroscopy-eeg-accelerometry">Exclusion Criteria</a>).</li>
 <li>Structural and functional MRI data undergo MRIQC processing to generate image quality metrics. See <a href="../../datacuration/derivatives/#mriqc-mriqc">MRIQC derivatives</a> overview for more information. Researchers may use these outputs for further curation if needed.</li>
 </ul>
