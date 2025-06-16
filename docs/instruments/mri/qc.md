@@ -1,7 +1,7 @@
 # HBCD MR Quality Control Procedures
 
 ## Raw MR Data QC
-Quality control (QC) procedures involve automated and manual methods to evaluate unprocessed or minimally processed MRI data for issues such as incorrect acquisition parameters, imaging artifacts, or corrupted files. The purpose of raw data QC is to identify and exclude data with significant artifacts, preventing their inclusion in the released raw BIDS data as well as subsequent image processing (see [here](../processing/index.md#file-selection-for-processing) for details). 
+Quality control (QC) procedures involve automated and manual methods to evaluate unprocessed or minimally processed MRI data for issues such as incorrect acquisition parameters, imaging artifacts, or corrupted files. The purpose of raw data QC is to identify and exclude data with significant artifacts, preventing their inclusion in the released raw BIDS data as well as subsequent image processing ([see details](../processing/index.md#file-selection-for-processing)). 
 
 ### Automated QC
 After acquisition, data are sent to the HBCD Data Coordinating Center (HDCC), where automated QC is performed by first extracting information from DICOM headers to identify common issues and protocol deviations, such as missing files or incorrect patient orientation. Protocol compliance criteria include whether key imaging parameters, such as voxel size or repetition time, match the expected values for a given scanner. Out-of-compliance series are reviewed and sites are contacted if corrective action is required. For dMRI and fMRI series, the presence or absence of corresponding echo-planar imaging (EPI) sequences (often referred to as a “field map” or “B0 map”) used for distortion correction is checked. 
@@ -54,7 +54,7 @@ For dMRI, fMRI, and field maps, scored artifacts include **susceptibility artifa
 Series with severe artifacts that compromise data usability are rejected (QC = 0) and excluded from subsequent processing and analysis. The post-processing team selects from remaining series based on manual ratings, notes, and automated scores (e.g., minimum of 60% diffusion encoding volumes without significant artifacts).
 
 ### Location of Raw Data QC Results in Data Release
-All quality control metrics are available in the `sub-<label>_ses-<label>_scans.tsv` file provided per participant session (see details [here](../../datacuration/rawbids.md/#participant-session-scan-level-data)). The main QC score field, `QC`, is the overall manual QC score and will be a value of either 1 (pass) or 0 (fail). If the scan was not flagged for manual review and only has automated QC data, the `QC` field automatically has value of 1. 
+All quality control metrics are available in the `sub-<label>_ses-<label>_scans.tsv` file provided per participant session ([see details](../../datacuration/rawbids.md/#participant-session-scan-level-data)). The main QC score field, `QC`, is the overall manual QC score and will be a value of either 1 (pass) or 0 (fail). If the scan was not flagged for manual review and only has automated QC data, the `QC` field automatically has value of 1. 
 
 <p style="font-size: 1rem; font-weight: bold; margin-bottom: 0.5em;">Fields relevant to manual QC:</p>
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
@@ -419,10 +419,89 @@ All quality control metrics are available in the `sub-<label>_ses-<label>_scans.
 </table>
 </div>
 
+## Data Release Eligibility Criteria
+
+After converting MRI data to BIDS format, both the NIfTI and JSON files undergo additional verification to ensure data integrity. As part of this process, all images are checked to confirm they were acquired using a head coil before being included in the BIDS dataset.
+
+Acquisition parameters can vary depending on the scanner vendor. For example, while the GE protocol acquires structural data at **0.8 mm isotropic resolution**, the current protocol/software version upsamples the data during reconstruction and DICOM creation, resulting in an **in-plane resolution of 0.5 × 0.5 × 0.8 mm³**. This will be adjusted in a future software upgrade.
+
+To account for such variations, most inclusion criteria are defined as acceptable **ranges** rather than fixed values. The specific modality-based inclusion criteria are extracted directly from the image JSON files and evaluated accordingly.
+
+<p>
+<div id="acq-param-table" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Acquisition Parameter Ranges for Data Release Eligibility</span>
+  <span class="table-arrow">▸</span>
+</div>
+<div class="table-open-collapsible-content">
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+  <thead>
+    <tr>
+      <th style="width: 100%; border-collapse: collapse; table-layout: fixed;">File</th>
+      <th style="width: 100%; border-collapse: collapse; table-layout: fixed;">TR</th>   
+      <th style="width: 100%; border-collapse: collapse; table-layout: fixed;">TE</th>        
+      <th style="width: 100%; border-collapse: collapse; table-layout: fixed;">TI</th>    
+      <th style="width: 100%; border-collapse: collapse; table-layout: fixed;">Slice Thickness</th>  
+      <th style="width: 100%; border-collapse: collapse; table-layout: fixed;">Volume #</th>  
+    </tr>
+  </thead>
+<tbody>
+	<tr>
+		<td>T1w</td>
+		<td>2.3-2.41</td>
+    <td>0.002-0.0035</td>
+		<td>1.06-1.1</td>    
+    <td>0.8</td>    
+    <td>NA</td>    
+	</tr>
+	<tr>
+		<td>T2w</td>
+		<td>2.5-4.5</td>
+    <td>0.09-0.15</td>
+		<td>0.29-0.33</td>    
+    <td>0.563-0.565</td>    
+    <td>NA</td>
+	</tr>  
+	<tr>
+		<td>MRS Localizer</td>
+		<td>2.5-4.5</td>
+    <td>0.09-0.15</td>
+		<td>0.29-0.33</td>    
+    <td>0.563-0.565</td>    
+    <td>NA</td>
+	</tr>   
+	<tr>
+		<td>Diffusion</td>
+		<td>4.8</td>
+    <td>0.0880-0.0980</td>
+		<td>NA</td>    
+    <td>1.7</td>    
+    <td style="word-wrap: break-word; white-space: normal;">≥ 90 (AP + PA)</td>  
+	</tr>  
+	<tr>
+		<td>EPI Fieldmap</td>
+		<td>8.4-9.2</td>
+    <td>0.064-0.0661</td>
+		<td>2</td>    
+    <td>0.563-0.565</td>    
+    <td>NA</td>
+	</tr>  
+	<tr>
+		<td>Functional</td>
+		<td>1.725</td>
+    <td>0.0369-0.0371</td>
+		<td>NA</td>    
+    <td>2</td>  
+    <td>≥ 87 (~2.5 min)</td>   
+	</tr>  
+</tbody>
+</table>
+</div>
+</p>
+
 ## BrainSwipes
 Quality control procedures for various pipeline outputs—such as structural and functional derivatives from XCP-D and diffusion derivatives from QSIPrep-rely on manual visual inspection (the current gold standard for image QC) to identify image artifacts. To streamline this process, the visual reports included in these derivatives are integrated into [BrainSwipes](https://brainswipes.us/about), a gamified platform built off of the open-source [Swipes For Science](https://swipesforscience.org/) project.
 
-BrainSwipes harnesses the power of crowdsourcing to address the time-intensive task of evaluating MRI brain scan quality through visual inspection, particularly for large-scale studies. Users are guided through a simple [tutorial](https://brainswipes.us/tutorial-select) that teaches them how to navigate the platform and assess derivative files, enabling them to confidently classify images as either pass or fail. For a comprehensive guide to using BrainSwipes, visit the [BrainSwipes ReadTheDocs](https://brainswipes.readthedocs.io/).
+BrainSwipes harnesses the power of crowdsourcing to address the time-intensive task of evaluating MRI brain scan quality through visual inspection, particularly for large-scale studies. Users are guided through a simple [tutorial](https://brainswipes.us/tutorial-select) that teaches them how to navigate the platform and assess derivative files, enabling them to confidently classify images as either pass or fail.
 
 <div class="img-with-text" style="width: 80%; margin: 0 auto; text-align: center;">
     <img src="../images/brainswipes.png" alt="Example quality assessment of surface delineation in BrainSwipes" style="width: 100%; height: auto;">
@@ -480,6 +559,7 @@ BrainSwipes QC results are provided as tabulated instrument data in the `rawdata
 
 The results are also combined for each subject modality to report the overall average QC score and average number of reviewers across visual reports per run. In other words, a single average QC score is provided for each session-level T2w and session-level BOLD run. Below we provide a Python helper function to read a BrainSwipes TSV file into a Pandas DataFrame and filter out all subject runs with an average overall QC score of greater than or equal to a threshold specified by the user:
 
+##### 🐍 Python Helper Function
 ```
 import pandas as pd
 

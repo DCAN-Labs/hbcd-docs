@@ -1,5 +1,12 @@
 # Magnetic Resonance Spectroscopy (MRS)
 
+<p>
+<div id="fyi" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">Please see <a href="../#mri-protocols-sequence-installation">MRI Protocols</a> and <a href="../qc">MR Quality Control Procedures</a> for additional details.</span>
+</div>
+</p>
+
 Magnetic Resonance Spectroscopy (MRS) provides measures of biochemicals involved in neuronal metabolism, neurotransmission, and oxidative stress. These measures enable researchers to interrogate biochemical mechanisms underlying the structural, functional, and behavioral trajectories. HBCD is the first study of this magnitude to include MRS in a comprehensive pediatric neuroimaging protocol through the development of Integrated Short-TE and Hadamard Multi-Sequence, or ISTHMUS (Hui et al., 2024).
 
 The MRS acquisition protocol was optimized to maximize signal-to-noise across multiple low-concentration metabolites while maintaining an acquisition time (TA) under 9 minutes. The MRS acquisition centers on a single voxel Point-RESolved Spectroscopy (PRESS) (Bottomley, 1987) localization (30×23×23 mm 3) in the bilateral thalamus, with SVS localizer acquisitions to define the ROI. An advanced Hadamard encoded spectral editing scheme (Oeltzschner et al., 2019) was used to derive reliable and reproducible measures of the low-concentration metabolites. The primary metabolites measured for HBCD include: 

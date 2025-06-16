@@ -51,7 +51,7 @@ The Faces task (v.11.29.23) is used to assess neural activity supporting face an
 ## Task Details   
 
 <p>
-<div id="demo-fyi" class="notification-banner" onclick="toggleCollapse(this)">
+<div id="fyi" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
     <span class="text">See <a href="..">Overview</a> for a summary of EEG protocols and quality control information.</span>
 </div>

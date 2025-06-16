@@ -1,5 +1,12 @@
 # Functional MRI (fMRI)
+
 <p>
+<div id="fyi" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">Please see <a href="../#mri-protocols-sequence-installation">MRI Protocols</a> and <a href="../qc">MR Quality Control Procedures</a> for additional details.</span>
+</div>
+</p>
+
 <div id="alert" class="alert-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
   <span class="text-with-link">
@@ -14,9 +21,7 @@
 <p>Head motion is a serious issue for neuroimaging, and especially for resting state fMRI. It creates brain-wide artifactual effects including elevated short-distance connectivity and attenuated long-distance connectivity (Power et al. 2012). In order to guard against artifactual effects due to head motion, researchers typically implement a variety of strategies that operate at multiple points of the data collection and processing pipeline, with guidance regularly evolving over time (Power et al. 2014; 2015; Satterthwaite et al. 2013; Siegel et al. 2017; Gratton et al. 2020). Some of these strategies include discarding entire runs of data that exceed certain motion thresholds and discarding individual functional imaging frames that are proximal to motion events (i.e., “motion censoring”). These strategies in particular typically lead to the exclusion of some participants from further analysis for lack of sufficient data.</p>
 <p>Levels of head motion differ according to demographic factors such as sex, race/ethnicity, and SES (Cosgrove et al., 2022). Therefore, strategies to deal with head motion may introduce questions of fairness and may lead to differential exclusions across demographic groups. In addition, motion censoring causes sessions to vary by the amount of data remaining. Such variability may continue to inflate findings especially in the presence of conditions that may correlate with the motion artifact like autism or ADHD (Eggebrecht, 2017). The amount of data remaining influences the variation in the connectivity calculations by affecting the degrees of freedom. Therefore, even after motion censoring, issues concerning fairness may persist when examining factors that might be affected by motion like sex, race/ethnicity, SES, and BMI (Cosgrove et al., 2022). One strategy that avoids this confound is to strictly control the degrees of freedom, where functional connectivity measures are calculated with the exact same amount of data. Researchers should assess whether control of artifactual effects of head motion effects can be achieved by alternative means that mitigate this impact. Examples of such strategies could include data augmentation approaches such as sampling from other datasets, data processing strategies like the include use of ICA-based denoising (Pruim et al., 2015a; 2015b), use of bootstrap aggregation (Ramduny et al., 2024), or the creation of “pseudo-rest” by removing task signals from the task data (Fair et al. 2007), or post-hoc approaches like propensity weighting. To aid researchers in exploring this impact further, the ABCD study has released 5 minute- and 10 minute-trimmed and untrimmed functional connectivity datasets. Researchers interested in examining brain-behavior associations or multivariate predictions should follow strategies such as those in Eggebrecht 2017: 1) assess how missing data impacts dependent, independent variables and covariates, 2) examine the association between the degrees of freedom and non-FC variables, 3) use trimmed FC measures when needed to mitigate artifacts due to data quality.</p>
 </div>
-</p>
 
-<p>
 <div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text-with-link">
@@ -39,7 +44,6 @@ Clipping severity can be estimated using the ratio of median to maximum image in
 <li><i>Potential clipping</i>: (brain_median / brain_max) > 0.5 AND brain_fvox_max > 0.001</li> 
 </ul>
 </div>
-</p>
 
 Whole-brain functional activity as measured by functional magnetic resonance imaging (fMRI). The blood oxygen level dependent (BOLD) signal is measured at each voxel in 2mm isotropic space with a repetition time (TR) of 1725 ms and multi-band (MB) factor of 4. 
 

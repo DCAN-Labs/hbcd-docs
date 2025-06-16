@@ -1,9 +1,9 @@
 # Diffusion MRI (dMRI)
 
 <p>
-<div id="demo-fyi" class="notification-banner" onclick="toggleCollapse(this)">
+<div id="fyi" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">See the <a href="..">Overview</a> for a summary of protocols, quality control information, etc.</span>
+    <span class="text">Please see <a href="../#mri-protocols-sequence-installation">MRI Protocols</a> and <a href="../qc">MR Quality Control Procedures</a> for additional details.</span>
 </div>
 </p>
 

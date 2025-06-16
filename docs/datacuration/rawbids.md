@@ -1,8 +1,7 @@
 # Raw File-Based BIDS Data
-The `rawdata/` folder includes raw file-based magnetic resonance imaging (MRI), spectroscopy (MRS), electroencephalography (EEG), and motion/accelerometry (i.e. [wearable sensor](../instruments/sensors/wearsensors.md) recordings for leg motion) data, converted to BIDS and organized under subject and session-specific directories for processing through BIDS App pipelines (see details [here](../instruments/processing/index.md)):
+The `rawdata/` folder includes raw file-based magnetic resonance imaging (MRI), spectroscopy (MRS), electroencephalography (EEG), and motion/accelerometry (i.e. [wearable sensor](../instruments/sensors/wearsensors.md) recordings for leg motion) data, converted to BIDS and organized under subject and session-specific directories for processing through BIDS App pipelines ([see details](../instruments/processing/index.md)). *Note that the folder and file counts may vary across subjects and sessions, which is expected in a large-scale infant MRI study.*
 
 <pre class="folder-tree">
-
 hbcd/
 |__ rawdata/ 
     |__ sub-<span class="label">&lt;label&gt;</span>/
@@ -23,9 +22,8 @@ hbcd/
     |__ participants.tsv
     |__ participants.json 
 </pre>
-In a large infant study, missing data is common, leading to variations in the number of folders and files available per subject and session. The HBCD acquisition spans multiple modalities, often collected at different times, with some acquisitions occurring on separate days even within the same modality. 
 
-<p>
+
 <div id="age" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
   <span class="text-with-link">
@@ -48,7 +46,7 @@ In a large infant study, missing data is common, leading to variations in the nu
 <br>
 <br>
 </div>
-</p>
+
 
 ## Participant-, Session-, & Scan-Level Data
 Participant-, session-, and scan-level data are stored in standardized `.tsv` files, accompanied by a `.json` sidecar file that defines the columns and describes the data fields, located in the `rawdata/` directory and its subdirectories:
