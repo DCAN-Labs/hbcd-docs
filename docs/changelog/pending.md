@@ -6,7 +6,7 @@ The interim Release 1.1 will include:
 <div style="padding: 0;">
   <b>Documentation/Resources:</b>
   <ul style="margin: 0 0 20px 20px; padding: 0;">
-<li>Additional <a href="../../measures/#responsible-use-expert-review-warnings">Responsible Use & Expert Review warnings</a> </li>
+<li>Additional <a href="../../access/resp_data_use/#warnings">Responsible Use & Data Warnings</a></li>
 <li>Study Navigator Contact Form  </li>
 </ul>
 </div>
@@ -83,7 +83,7 @@ Release 1.1 will also include the addition of the following tabulated data:
 Release 1.1 will introduce the following enhancements to existing data:
 
 #### Enhanced Medication Classification for Pregnancy & Exposure Data  
-The interim release will refine medication classifications in the [Pregnancy & Exposure, Including Substance Use](../measures/index.md#pregexp) domain by categorizing them into more detailed components based on RxNorm IDs. Additional columns in the tabulated data will specify:
+The interim release will refine medication classifications in the [Pregnancy & Exposure, Including Substance Use](../instruments/index.md#pregexp) domain by categorizing them into more detailed components based on RxNorm IDs. Additional columns in the tabulated data will specify:
 
 - Brand Name
 - Ingredient
