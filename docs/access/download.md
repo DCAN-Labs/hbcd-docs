@@ -9,7 +9,7 @@
 
 ## Access HBCD Study Data
 
-***Please visit the [NBDC Data Hub](https://www.nbdc-datahub.org/data-access-process) for detailed instructions on how to submit a DUC.***
+***Please visit the [NBDC Data Hub](https://www.nbdc-datahub.org/data-access-process) and [FAQs](https://nbdc-splash-beta.lassoinformatics.com/faqs) for detailed instructions on how to submit a DUC.***
 
 HBCD Study data is publicly shared via the [NBDC](https://www.nbdc-datahub.org) **Data Use Certification (DUC)** that researchers sign in agreement to follow the rules outlined for data use. DUC submission is conducted through the [NBDC portal supported by Lasso](https://nbdc-datashare.lassoinformatics.com/). 
 
