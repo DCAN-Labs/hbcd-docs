@@ -61,7 +61,15 @@ In cases where ICD codes are provided, corresponding names/labels are sometimes 
 **Expected Fix:** Release 1.1
 
 ##### ⚠️ Infant Health Check 
- TO DO
+
+The following fields are 'Descriptive' fields and should have been excluded. They will be removed in a future release:
+
+- `pex_bm_healthv2_inf_001__00`
+- `pex_bm_healthv2_inf_002__00`
+- `pex_bm_healthv2_inf_003__00`
+- `pex_bm_healthv2_inf_004__00`
+- `pex_bm_healthv2_inf_005__00`
+
 **Expected Fix:** Release 1.1
 
 ##### ⚠️ PEX (TLFB Substance Use Flags)
