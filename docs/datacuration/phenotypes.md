@@ -202,5 +202,8 @@ The `domain` and `source` are also included in the JSON metadata and are typical
 
 ### Single vs Double Underscores 
 
-Instrument table and field names may contain either single ( `_` ) or double ( `__` ) underscores. For example: `ncl_ch_mlds` ([MLDS](../instruments/neurocog/mlds.md)) vs `ncl_cg_spm2__inf` ([SPM-2](../instruments/neurocog/spm2.md)) Neurocognition & Language instruments. Single underscores typically indicate a higher level in the hierarchy compared to double underscores to help distinguish between scales and sub-scale counters across different instruments. *However*, a unified naming scheme has not yet been employed in the current release, so this will not be consistent across variables. Future releases aim to implement a standardized naming scheme for consistency.
+Instrument table and field names may include either single ( `_` ) or double ( `__` ) underscores (e.g. `ncl_ch_mlds` vs `ncl_cg_spm2__inf` instruments in the [Neurocognition & Language](../instruments/index.md#neurocog) domain). Typically, a single underscore denotes a higher-level grouping (e.g., instrument or domain), while a double underscore is used to separate more granular elements like scales and subscale counters.
+
+However, a unified naming convention has not been consistently applied in the current release. As a result, naming patterns may vary across instruments and variables. A standardized naming scheme is planned for future releases to improve consistency and interpretability.
+
 
