@@ -284,6 +284,20 @@ Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data
 </tbody>
 </table>
 
+<div id="dd-faq" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+   <span class="text-with-link">
+  <span class="text">Why are some data dictionary columns empty?</span>
+  <a class="anchor-link" href="#dd-faq" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<p>There are NBDC data dictionary column names that are currently inapplicable to HBCD study data and thus excluded from the table above. Note that these columns will still be present when querying the data dictionary via the Lasso Portal or DEAP, but the column values will be blank. Examples include <b><code>atlas</code></b>, <b><code>metric</code></b>, <b><code>sub_domain</code></b>, columns including <b><code>nda/deap/redcap</code></b>, etc. These columns can be safely ignored. Also see the <a href="#blank-columns">Lasso User Warning</a> in the section above for columns that are currently blank and expected to be populated in a future release.</p>
+</div>
+
 ### Data Dictionary Levels
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 13px;">
     <thead>
@@ -338,22 +352,6 @@ Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data
         <td style="border: 1px solid #ddd; padding: 4px; word-wrap: break-word; white-space: normal;">YES</td>
       </tr>
 </table>
-
-<p>
-<div id="dd-faq" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-   <span class="text-with-link">
-  <span class="text">Why are some data dictionary columns empty?</span>
-  <a class="anchor-link" href="#dd-faq" title="Copy link">
-  <i class="fa-solid fa-link"></i>
-  </a>
-  </span>
-  <span class="notification-arrow">▸</span>
-</div>
-<div class="notification-collapsible-content">
-<p>There are NBDC data dictionary column names that are currently inapplicable to HBCD study data and thus excluded from the table above. Note that these columns will still be present when querying the data dictionary via the Lasso Portal or DEAP, but the column values will be blank. Examples include <b><code>atlas</code></b>, <b><code>metric</code></b>, <b><code>sub_domain</code></b>, columns including <b><code>nda/deap/redcap</code></b>, etc. These columns can be safely ignored. Also see the <a href="#blank-columns">Lasso User Warning</a> in the section above for columns that are currently blank and expected to be populated in a future release.</p>
-</div>
-</p>
 
 
 ### Lasso User Warnings - HBCD
