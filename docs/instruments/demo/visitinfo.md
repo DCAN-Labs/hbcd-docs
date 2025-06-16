@@ -10,9 +10,9 @@
 <li>Protocol violation information: if there was a protocol exception and the date</li>
 <li>Substance use flags raised by any of the following:
 <ul>
-<li><a href="../../measures/pregexp/substanceuse#tlfb">TLFB</a> (Self-reported use)
-<li><a href="../../measures/biospec">Biospecimen results</a>
-<li><a href="../../measures/pregexp/preghealth#instruments">Infant health- V2</a> Field <code>007</code> when option 1 (NOWS - Neonatal Opioid Withdrawal Syndrome) or 5 (FAS - Fetal Alcohol Syndrome) was selected</li>
+<li><a href="../../pregexp/su/tlfb">TLFB</a> (Self-reported use)
+<li><a href="../../#biospec">Biospecimen results</a>
+<li><a href="../../pregexp/preghealth/infanthealth">Infant health- V2</a> Field <code>007</code> when option 1 (NOWS - Neonatal Opioid Withdrawal Syndrome) or 5 (FAS - Fetal Alcohol Syndrome) was selected</li>
 </ul>
 </ul>
 
