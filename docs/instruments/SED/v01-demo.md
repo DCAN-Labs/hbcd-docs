@@ -70,9 +70,9 @@ Please see the section on <a href="../demographics/#basic-demographics">Basic De
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="collapsible-content">
 <p>Below are alterations made to demographic constructs to tailor it to the HBCD Study. The modifications were made to reduce bias and capture a more inclusive and accurate breadth of demographic information, e.g. by correcting for embedded assumptions of heteronormative nuclear-family structures.</p>
   <ul>
     <li><b>Marital & Relationship Status</b> alterations to reduce heteronormative bias:
@@ -98,7 +98,7 @@ Please see the section on <a href="../demographics/#basic-demographics">Basic De
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
 <br>

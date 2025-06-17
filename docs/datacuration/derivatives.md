@@ -244,9 +244,9 @@ M-CRIB-S is a surface reconstruction method developed for neonates using the sur
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="collapsible-content">
 <p>The M-CRIB-S subfolders (<code>TissueSeg/</code> and <code>freesurfer/mri/</code>) contain a total of 4 symlink files, which serve as references to data stored elsewhere. When these files are uploaded to the release bucket, they are renamed with the suffix <code>*_symlink_s3_object</code> to distinguish them from regular files. When downloaded, these symlink files appear as text files because they contain the S3 object path instead of the actual file content. To restore them as symlinks, run one of the following commands in the terminal:</p>
 <p>Option 1: This command simply prints what commands to run to restore individual symlinks and does not change anything:</p>
 <div class="copy-box">

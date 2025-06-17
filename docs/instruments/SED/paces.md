@@ -32,9 +32,9 @@ Protective and Compensatory Experience (PACES) is a 10-question scale with score
   <span>
     <span class="table-text">HBCD Modification Details</span>
   </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="collapsible-content">
 <br>
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Instruction Item Modifications</b></p>
 <table>

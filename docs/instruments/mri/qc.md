@@ -342,8 +342,8 @@ All quality control metrics are available in the `*_scans.tsv` file provided per
     <tr>
         <td style="word-wrap: break-word; white-space: normal;">nbad_frame_slices</td>
         <td style="word-wrap: break-word; white-space: normal;">Number of outlier frame-slices for dMRI</td>
+		<td style="word-wrap: break-word; white-space: normal;"> </td>
     </tr>
-    <td style="word-wrap: break-word; white-space: normal;"> </td>
     <tr>
         <td style="word-wrap: break-word; white-space: normal;">nbad_frames</td>
         <td style="word-wrap: break-word; white-space: normal;">Number of frames with outlier slices for dMRI</td>

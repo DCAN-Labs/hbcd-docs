@@ -31,9 +31,9 @@ The [PhenX+ Toolkit Discrimination](https://www.phenxtoolkit.org/protocols/view/
   <span>
     <span class="table-text">HBCD Modification Details</span>
   </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="collapsible-content">
 <br>
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Instruction/Assessment Item Modifications</b></p>
 <table>

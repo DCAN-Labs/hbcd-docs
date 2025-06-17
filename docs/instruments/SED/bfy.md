@@ -30,9 +30,9 @@ The HBCD BFY includes a selection of questions from the [BFY Age 1 Survey Instru
 
 <div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">HBCD Modification Details</span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="collapsible-content">
 <br>
 <p>Some slight modifications were made for the HBCD study by removing the Medicaid coverage question (asked elsewhere in the study) as well as the following assessment and response option modifications:</p>
 <table>
