@@ -8,7 +8,7 @@ The release currently includes BrainSwipes results for only structural and funct
 
 <p><b>Left</b>: Neighboring DWI Correlation (NDC) calculated pre and post processing for each vendor on the combined AP/PA scans. Processed data is represented by a solid line, while raw data is dashed.</p>
 <p><b>Right</b>: Contrast to Noise Ratio (CNR) per shell per vendor as calculated by Eddy. Distributions are likewise colored by vendor. As data included in these plots and in the beta release have already passed a preliminary QC check we do not have specific values recommended for exclusion. However, NDC and CNR are useful covariates to include when analyzing other derivatives.</p>
-<img src="../images/ndc_cnr_comparison.svg" width="90%" height="auto" class="center">
+<img src="../images/ndc_cnr_comparison.svg" width="85%" height="auto" class="center">
 
 <p>
 <div id="dwi-fyi" class="notification-banner" onclick="toggleCollapse(this)">
@@ -35,3 +35,11 @@ The release currently includes BrainSwipes results for only structural and funct
 
 
 ## MRI QC
+
+#### Functional Connectivity as data quality improves
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%">
+  <img src="../images/mriqc/fconnlt10.jpeg" style="width: 35%;">
+  <img src="../images/mriqc/fconnlt50.jpeg" style="width: 35%;">
+  <img src="../images/mriqc/fconnlt90.jpeg" style="width: 35%;">
+</div>
+<br>
