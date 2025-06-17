@@ -116,6 +116,7 @@ nav:
         - Magnetic Resonance Imaging:
             - Overview & MRI Protocols: instruments/mri/index.md
             - Quality Control Procedures: instruments/mri/qc.md
+            - QC Output Summaries: instruments/mri/qc-summaries.md
             - Structural MRI: instruments/mri/smri.md
             - Functional MRI: instruments/mri/fmri.md
             - Diffusion MRI: instruments/mri/dmri.md

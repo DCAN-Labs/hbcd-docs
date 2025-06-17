@@ -581,14 +581,7 @@ After converting MRI data to BIDS format, both the NIfTI and JSON files undergo 
 
 ## BrainSwipes
 
-Manual visual inspection remains the gold standard for identifying artifacts in structural and functional derivatives (e.g., from XCP-D) and diffusion derivatives (e.g., from QSIPrep). To streamline this process, derivative visual reports are integrated into [BrainSwipes](https://brainswipes.us/about), a gamified, crowdsourced QC platform built on the open-source [Swipes For Science](https://swipesforscience.org/) framework.		
-
-BrainSwipes engages users in evaluating brain image quality through an intuitive interface designed for large-scale studies. After creating an account, users are guided through a brief [tutorial](https://brainswipes.us/tutorial-select) that teaches them how to assess derivative images and classify them as pass or fail.
-
-<div class="img-with-text" style="width: 60%; margin: 0 auto; text-align: center;">
-    <img src="../images/brainswipes.png" alt="Example quality assessment of surface delineation in BrainSwipes" style="width: 100%; height: auto;">
-    <p><i>Example quality assessment of surface delineation on BrainSwipes platform (displaying brain in axial plane at level of basal ganglia/putamen).</i></p>
-</div>
+Manual visual inspection remains the gold standard for identifying artifacts in structural and functional derivatives (e.g., from XCP-D) and diffusion derivatives (e.g., from QSIPrep). To streamline this process, derivative visual reports are integrated into [BrainSwipes](https://brainswipes.us/about), a gamified, crowdsourced QC platform built on the open-source [Swipes For Science](https://swipesforscience.org/) framework. BrainSwipes engages users in evaluating brain image quality through an intuitive interface designed for large-scale studies. After creating an account, users are guided through a brief [tutorial](https://brainswipes.us/tutorial-select) that teaches them how to assess derivative images and classify them as pass or fail.
 
 <p>
 <div id="swipes-procedures" class="table-banner" onclick="toggleCollapse(this)">
@@ -618,19 +611,20 @@ Swipes display GIFs of full-resolution T2w images as a grayscale background, wit
 </div>
 </p>
 
+<div class="img-with-text" style="width: 60%; margin: 0 auto; text-align: center;">
+    <img src="../images/brainswipes.png" alt="Example quality assessment of surface delineation in BrainSwipes" style="width: 100%; height: auto;">
+    <p><i>Example quality assessment of surface delineation on BrainSwipes platform (displaying brain in axial plane at level of basal ganglia/putamen).</i></p>
+</div>
+
 ### Location of BrainSwipes Results in Data Release
 
 <p>
 <div id="dwi-fyi" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text-with-link">
-  <span class="text">Automated QC for Processed Diffusion Data</span>
-  <a class="anchor-link" href="#dwi-fyi" title="Copy link">
-  	<i class="fa-solid fa-link"></i>
-  	</a>
-  </span>
-  <span class="arrow">▸</span>
+  <span class="text">BrainSwipes results for diffusion will be included in a future release. In the meantime, please refer to the summary of automated QC metrics for processed diffusion data <a href="../qc-summaries">here</a>.</span>
 </div>
+
+
 <div class="notification-open-collapsible-content">
 <p>The release currently includes BrainSwipes results for only structural and functional MRI. Diffusion results will be included in a later release. However, existing automated QC procedures for processed diffusion data are fairly robust compared to sMRI and fMRI. The automated QC metrics are provided within <code>SUBSES_space-ACPC_desc-image_qc.tsv</code> in the <a href="../../../datacuration/derivatives/#qsiprep-qsiprep">QSIPrep derivatives</a> - please see more information about automated QC on the <a href="https://qsiprep.readthedocs.io/en/latest/preprocessing.html#quality-control-data">QSIPrep website</a>.</p>
 
@@ -647,17 +641,9 @@ BrainSwipes QC results are provided as tabulated instrument data in the `rawdata
 
 The results are also combined for each subject modality to report the overall average QC score and average number of reviewers across visual reports per run. In other words, a single average QC score is provided for each session-level T2w and session-level BOLD run. Below we provide a Python helper function to read a BrainSwipes TSV file into a Pandas DataFrame and filter out all subject runs with an average overall QC score of greater than or equal to a threshold specified by the user:
 
-<div id="helper-function" class="table-banner" onclick="toggleCollapse(this)">
-  <span class="text-with-link">
-  <span class="text">🐍 Python Helper Function</span>
-  <a class="anchor-link" href="#helper-function" title="Copy link">
-  <i class="fa-solid fa-link"></i>
-  </a>
-  </span>
-  <span class="arrow">▸</span>
-</div>
-<div class="table-collapsible-content">
-<pre class="folder-tree">
+##### 🐍 Python Helper Function
+
+```
 import pandas as pd
 
 def read_and_filter_tsv(file_path, threshold):
@@ -681,8 +667,7 @@ def read_and_filter_tsv(file_path, threshold):
 # Filter to keep only subjects with an average structural QC of at least 0.6 (60% pass rate)
 filtered_df = read_and_filter_tsv("img_brainswipes_xcpd_T2w.tsv", 0.6)
 print(filtered_df.head())
-</pre>
-</div>
+```
 
 ## References
 <div class="references">
