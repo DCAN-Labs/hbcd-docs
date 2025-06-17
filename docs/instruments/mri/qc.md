@@ -43,7 +43,7 @@ After acquisition, data are sent to the HBCD Data Coordinating Center (HDCC), wh
 </div>
 </p>
 
-#### Automated QC metrics for various modalities are as follows:
+##### Automated QC metrics for various modalities are as follows:
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px">
 <thead>
@@ -79,7 +79,7 @@ After acquisition, data are sent to the HBCD Data Coordinating Center (HDCC), wh
 ### Manual Review
 Based on the automated metrics above, a subset of series are selected for manual review using multivariate prediction and Bayesian classifiers to identify scans that are more likely to have issues. Trained technicians score data quality according to the severity of specific artifacts, rated on a scale of 0 to 3, where 0 indicates no artifact, 1 indicates mild, 2 moderate, and 3 severe. Series with severe artifacts that compromise data usability are rejected (QC = 0) and excluded from subsequent processing and analysis. The post-processing team selects from remaining series based on manual ratings, notes, and automated scores (e.g., minimum of 60% diffusion encoding volumes without significant artifacts).
 
-#### Manual QC metrics for various modalities are as follows:
+##### Manual QC metrics for various modalities are as follows:
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px">
 <thead>
