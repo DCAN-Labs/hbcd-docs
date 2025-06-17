@@ -508,7 +508,6 @@ BrainSwipes harnesses the power of crowdsourcing to address the time-intensive t
     <p><i>Example quality assessment of surface delineation on BrainSwipes platform (displaying brain in axial plane at level of basal ganglia/putamen).</i></p>
 </div>
 
-
 <p>
 <div id="swipes-procedures" class="table-banner" onclick="toggleCollapse(this)">
 <span class="text-with-link">
@@ -552,6 +551,7 @@ Swipes display GIFs of full-resolution T2w images as a grayscale background, wit
 </div>
 <div class="notification-open-collapsible-content">
 <p>The release currently includes BrainSwipes results for only structural and functional MRI. Diffusion results will be included in a later release. However, existing automated QC procedures for processed diffusion data are fairly robust compared to sMRI and fMRI. The automated QC metrics are provided in the <a href="../../../datacuration/derivatives/#qsiprep-qsiprep">QSIPrep derivatives</a> - please see more information about automated QC on the QSIPrep website <a href="https://qsiprep.readthedocs.io/en/latest/preprocessing.html#quality-control-data">here</a>.</p>
+<img src="../images/ndc_cnr_comparison.svg" width="70%" height="auto" class="center">
 </div>
 </p>
 
