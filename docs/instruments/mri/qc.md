@@ -432,7 +432,7 @@ To account for such variations, most inclusion criteria are defined as acceptabl
   <span class="table-text">Acquisition Parameter Ranges for Data Release Eligibility</span>
   <span class="arrow">▸</span>
 </div>
-<div class="table-open-collapsible-content">
+<div class="table-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <thead>
     <tr>
@@ -528,7 +528,7 @@ In addition to surface delineation, structural QA also includes atlas registrati
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Functional Registration:</b></p>
 Functional registration is evaluated by overlaying outlines of functional images onto structural images and vice versa. Swipes display nine slices of the same functional image for visual inspection, with three slices per anatomical plane. Quality is assessed similarly to structural atlas registration, focusing on the alignment of the overlaid contours. Additional evaluation includes checking for artifacts such as signal dropout. Images are derived from XCP-D visual reports.
 </p>
-<p style="font-size: 1em; margin: 0 0 5px;"><b>Diffusion Direction Encoding:</b></p>
+<p style="font-size: 1em; margin: 0 0 5px;"><b>Diffusion Direction Encoding (<i>to be included in future release</i>):</b></p>
 Swipes display GIFs of full-resolution T2w images as a grayscale background, with the "Direction Encoded Color" (DEC) map overlaid. These GIFs sweep through a portion of the brain across the three anatomical planes. High-quality processed DWI images exhibit bands of color that closely follow the folds and contours of the grayscale background. These visuals are derived from the QSIPrep report.
 <p>
 <strong>Each visual report for a given modality is independently reviewed and rated as a pass or fail, which in the outputs are scored as values of 1 and 0 respectively. BrainSwipes generates a summary of these results that includes the average score as well as number of reviewers for each visual report of each modality.</strong>
