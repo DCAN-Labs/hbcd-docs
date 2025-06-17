@@ -505,11 +505,7 @@ All quality control metrics are available in the `*_scans.tsv` file provided per
 
 ## Data Release Eligibility Criteria
 
-After converting MRI data to BIDS format, both the NIfTI and JSON files undergo additional verification to ensure data integrity. As part of this process, all images are checked to confirm they were acquired using a head coil before being included in the BIDS dataset.
-
-Acquisition parameters can vary depending on the scanner vendor. For example, while the GE protocol acquires structural data at **0.8 mm isotropic resolution**, the current protocol/software version upsamples the data during reconstruction and DICOM creation, resulting in an **in-plane resolution of 0.5 × 0.5 × 0.8 mm³**. This will be adjusted in a future software upgrade.
-
-To account for such variations, most inclusion criteria are defined as acceptable **ranges** rather than fixed values. The specific modality-based inclusion criteria are extracted directly from the image JSON files and evaluated accordingly.
+After converting MRI data to BIDS format, both the NIfTI and JSON files undergo additional verification to ensure data integrity. Acquisition parameters can vary depending on the scanner vendor. For example, while the GE protocol acquires structural data at **0.8 mm isotropic resolution**, the current protocol/software version upsamples the data during reconstruction and DICOM creation, resulting in an **in-plane resolution of 0.5 × 0.5 × 0.8 mm³**. This will be adjusted in a future software upgrade. To account for such variations, most inclusion criteria are defined as acceptable **ranges** rather than fixed values. The specific modality-based inclusion criteria are extracted directly from the image JSON files and evaluated accordingly.
 
 <p>
 <div id="acq-param-table" class="table-banner" onclick="toggleCollapse(this)">
@@ -517,7 +513,8 @@ To account for such variations, most inclusion criteria are defined as acceptabl
   <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
-<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+<p><i>NOTE: All images are additionally checked to confirm they were acquired using a head coil.</i></p>
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px;">
   <thead>
     <tr>
       <th style="width: 100%; border-collapse: collapse; table-layout: fixed;">File</th>
