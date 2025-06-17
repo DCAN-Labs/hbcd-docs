@@ -27,9 +27,33 @@
 ## Instrument Details
 The HBCD BFY includes a selection of questions from the [BFY Age 1 Survey Instrument](https://www.babysfirstyears.com/_files/ugd/88a466_5a28f2b284e74fa4b61b2c483008416e.docx?dn=BFY_Age%201%20Survey.docx). [Baby’s First Years](https://www.babysfirstyears.com/) is an NIH-funded study of infant and child development and assesses economic stress (originally sourced from the Moving to Opportunity (MTO) study), financial instability, ability to meet basic needs, and benefits/services received over the past 12 months on a 10-point Likert Scale ([Noble et al. 2021](https://doi.org/10.1542/peds.2020-049702)). 
 
+***TO DO: workgroup decide which version of the following they prefer:***
 
-<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
-  <span class="table-text">HBCD Modification Details</span>
+<div id="hbcd-mods" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="text-with-link">
+  <span class="text">HBCD Modification Details</i></span>
+  <a class="anchor-link" href="#hbcd-mods" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<ul>
+<b>The following modifications were made to this instrument for the HBCD study:</b>
+<li>Removal of the Medicaid coverage question (asked elsewhere in the study)</li>
+<li>The question about services received was rephrased as, "Have you received any of these services in the past 12 months" and response options include the addition of 'Free or reduced school lunch,' 'Don't know,' and 'Decline to answer'</li>
+<li>The question about eviction was rephrased as, "In the past 12 months, have you EVER been forced to leave or were evicted from your home?" and response options include the addition of 'Don't know' and 'Decline to answer'</li>
+</ul>
+</div>
+
+<div id="hbcd-mods" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="text-with-link">
+  <span class="text">HBCD Modification Details (MORE EXTENSIVE VERSION)</i></span>
+  <a class="anchor-link" href="#hbcd-mods" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
