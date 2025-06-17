@@ -4,14 +4,14 @@
 Quality control (QC) procedures involve automated and manual methods to evaluate unprocessed or minimally processed MRI data for issues such as incorrect acquisition parameters, imaging artifacts, or corrupted files. The purpose of raw data QC is to identify and exclude data with significant artifacts, preventing their inclusion in the released raw BIDS data as well as subsequent image processing ([see details](../processing/index.md#file-selection-for-processing)). 
 
 ### Automated QC
-After acquisition, data are sent to the HBCD Data Coordinating Center (HDCC), where automated QC is performed by first extracting information from DICOM headers to identify common issues and protocol deviations, such as missing files or incorrect patient orientation. Protocol compliance criteria include whether key imaging parameters, such as voxel size or repetition time, match the expected values for a given scanner. Out-of-compliance series are reviewed and sites are contacted if corrective action is required. For dMRI and fMRI series, the presence or absence of corresponding echo-planar imaging (EPI) sequences (often referred to as a “field map” or “B0 map”) used for distortion correction is checked. In addition to protocol adherence, each imaging series is also automatically checked for completeness - expand the infobox below for details:
+After acquisition, data are sent to the HBCD Data Coordinating Center (HDCC), where automated QC is performed by first extracting information from DICOM headers to identify common issues and protocol deviations, such as missing files or incorrect patient orientation. Protocol compliance criteria include whether key imaging parameters, such as voxel size or repetition time, match the expected values for a given scanner. Out-of-compliance series are reviewed and sites are contacted if corrective action is required. In addition to protocol adherence, each imaging series is also automatically checked for completeness - expand the infobox below for details:
 <p>
 <div id="complete-session" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text">Completeness Checks</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<p>Completeness checks are run to confirm that the number of files matches what was expected for each series on each scanner. Missing files are typically indicative of either an aborted scan or incomplete data transfer, the latter of which can usually be resolved through re-initiating the data transfer. A complete imaging session consists of the following valid series:</p>
+<p>Completeness checks are run to confirm that the number of files matches what was expected for each series on each scanner. For instance, for dMRI and fMRI series, the presence or absence of corresponding echo-planar imaging (EPI) sequences (often referred to as a “field map” or “B0 map”) used for distortion correction is checked. Missing files are typically indicative of either an aborted scan or incomplete data transfer, the latter of which can usually be resolved through re-initiating the data transfer. A complete imaging session consists of the following valid series:</p>
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
     <tbody>
     <tr>
