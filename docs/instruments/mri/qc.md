@@ -77,15 +77,40 @@ After acquisition, data are sent to the HBCD Data Coordinating Center (HDCC), wh
 </table>
 
 ### Manual Review
-Based on the automated metrics above, a subset of series are selected for manual review using multivariate prediction and Bayesian classifiers to identify scans that are more likely to have issues. Trained technicians use in-house software for standardized and efficient QC. For each subject, the technician inspects a display of multi-view and multi-slice image montages and enter scores. Each subject will also prompt for notes at the end of the review before confirming, repeating, or skipping the subject, further reducing room for human error. 
+Based on the automated metrics above, a subset of series are selected for manual review using multivariate prediction and Bayesian classifiers to identify scans that are more likely to have issues. Trained technicians score data quality according to the severity of specific artifacts, rated on a scale of 0 to 3, where 0 indicates no artifact, 1 indicates mild, 2 moderate, and 3 severe. Series with severe artifacts that compromise data usability are rejected (QC = 0) and excluded from subsequent processing and analysis. The post-processing team selects from remaining series based on manual ratings, notes, and automated scores (e.g., minimum of 60% diffusion encoding volumes without significant artifacts).
 
-During review, data quality is scored according to the severity of specific artifacts, rated on a scale of 0 to 3, where 0 indicates no artifact, 1 indicates mild, 2 moderate, and 3 severe. Structural scans include review of T1w, T2w, and qMRI. Reviewers rate scans for **motion artifacts** (e.g. ripples, blurring) and document other issues such as **intensity inhomogeneity** or **ghosting** (when the slice location is outside the FOV, creating a fainter displaced copy of the head, brain, or eyes). 
+#### Manual QC metrics for various modalities are as follows:
 
-Though not scored for motion, visual inspection is performed for additional scan types including B1 field maps, used for bias field correction of qMRI scans, and SVS localizer scans used to define the ROI for MRS (spectroscopy). For qMRI, QC is also performed on derived data, including parametric maps, region of interest analysis, and comparison of quantitative parametric values for 3D-QALAS. 
-
-For dMRI, fMRI, and field maps, scored artifacts include **susceptibility artifacts**, **FOV cutoff**, and **line artifacts** (horizontal lines present in the sagittal view, including dark slice-frame and interleaved sliced offset). **Susceptibility artifacts** are spatial and/or signal distortions, including “drop-out” regions in the brain with greatly reduced or no signal, signal bunching, and/or warping. Consistent with prior infant fMRI using posterior-anterior (PA) acquisitions, signal dropout is commonly noted in the posterior occipital cortex. Fractional anisotropy, visualized as a color-coded map that shows the directional preferences for diffusion, is additionally reviewed for DTI.
-
-Series with severe artifacts that compromise data usability are rejected (QC = 0) and excluded from subsequent processing and analysis. The post-processing team selects from remaining series based on manual ratings, notes, and automated scores (e.g., minimum of 60% diffusion encoding volumes without significant artifacts).
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px">
+<thead>
+<tr>
+    <th style="width: 20%; text-align: center;">Modality</th>
+    <th style="width: 80%; text-align: center;">QC Procedures</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T1w, T2w</td>
+<td style="word-wrap: break-word; white-space: normal;"> - Scored for <strong>motion artifacts</strong> (e.g., ripples, blurring) on a 0-3 scale (0 = none, 3 = severe)<br> - Other documented issues include intensity inhomogeneity and <span class="tooltip">ghosting<span class="tooltiptext">faint displaced copy of anatomy due to slices outside FOV</span></span></td>
+</tr>
+<tr>
+<td>qMRI</td>
+<td style="word-wrap: break-word; white-space: normal;"> - Same artifact scoring as above (0 - 3)<br> - Inspection of derived data (parametric maps, ROI analysis, and quantitative comparisons for 3D-QALAS)</td>
+</tr>
+<tr>
+<td>B1 field maps</td>
+<td style="word-wrap: break-word; white-space: normal;"> - Visual inspection only (not scored); used for bias field correction of qMRI scans.</td>
+</tr>
+<tr>
+<td>SVS localizer scans (MRS)</td>
+<td style="word-wrap: break-word; white-space: normal;"> - Visual inspection only (not scored); used to define ROI for spectroscopy.</td>
+</tr>
+<tr>
+<td>dMRI, fMRI, field maps</td>
+<td style="word-wrap: break-word; white-space: normal;">- Scored for susceptibility artifacts, FOV cutoff, and <span class="tooltip">line artifacts<span class="tooltiptext">horizontal lines present in the sagittal view, including dark slice-frame and interleaved sliced offset</span></span>.<br> - Susceptibility issues include <span class="tooltip">signal dropout<span class="tooltiptext">Consistent with prior infant fMRI using posterior-anterior (PA) acquisitions, signal dropout is commonly noted in the posterior occipital cortex</span></span>, signal bunching, and warping.</td>
+</tr>
+</tbody>
+</table>
 
 ### Location of Raw Data QC Results in Data Release
 All quality control metrics are available in the `*_scans.tsv` file provided per participant session ([see details](../../datacuration/rawbids.md/#participant-session-scan-level-data)). The main QC score field, `QC`, is the overall manual QC score and will be a value of either 1 (pass) or 0 (fail). If the scan was not flagged for manual review and only has automated QC data, the `QC` field automatically has value of 1. 
