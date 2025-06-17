@@ -503,7 +503,7 @@ Quality control procedures for various pipeline outputs—such as structural and
 
 BrainSwipes harnesses the power of crowdsourcing to address the time-intensive task of evaluating MRI brain scan quality through visual inspection, particularly for large-scale studies. Users are guided through a simple [tutorial](https://brainswipes.us/tutorial-select) that teaches them how to navigate the platform and assess derivative files, enabling them to confidently classify images as either pass or fail.
 
-<div class="img-with-text" style="width: 80%; margin: 0 auto; text-align: center;">
+<div class="img-with-text" style="width: 70%; margin: 0 auto; text-align: center;">
     <img src="../images/brainswipes.png" alt="Example quality assessment of surface delineation in BrainSwipes" style="width: 100%; height: auto;">
     <p><i>Example quality assessment of surface delineation on BrainSwipes platform (displaying brain in axial plane at level of basal ganglia/putamen).</i></p>
 </div>
