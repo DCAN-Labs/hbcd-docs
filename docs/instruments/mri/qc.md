@@ -8,9 +8,13 @@ After acquisition, data are sent to the HBCD Data Coordinating Center (HDCC), wh
 
 In addition to protocol adherence, each imaging series is also automatically checked for completeness to confirm that the number of files matches what was expected for each series on each scanner. Missing files are typically indicative of either an aborted scan or incomplete data transfer, the latter of which can usually be resolved through re-initiating the data transfer.
 
-A complete imaging session consists of the following valid series:
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0" data-sheets-root="1" data-sheets-baot="1"><colgroup><col width="200" /><col width="250" /></colgroup>
-<tbody>
+<div id="complete-session" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">A complete imaging session consists of the following valid series:</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="table-collapsible-content">
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+    <tbody>
     <tr>
         <td>Structural T1 Block:</td>
         <td>T1</td>
@@ -37,10 +41,40 @@ A complete imaging session consists of the following valid series:
     </tr>
 </tbody>
 </table>
+</div>
 
-Automated QC metrics such as signal-to-noise ratio (SNR) and head motion statistics are computed from the image data. For structural scans (T1w, T2w, and quantitative MRI), a deep learning model estimates motion artifacts. For dMRI, fMRI, and field maps, metrics are generated to assess for line artifacts and field-of-view (FOV) cutoff. In addition, head motion is quantified for dMRI and fMRI by frame-to-frame displacement, known as framewise displacement (FD). For fMRI, this includes average FD and the number of seconds with FD less than 0.2 mm, 0.3 mm, and 0.4 mm (Power et al. 2012). SNR is also assessed via full width half max spatial smoothness (FWHM) and temporal SNR (tSNR), computed after motion correction (Triantafyllou et al. 2005). 
+#### Automated QC metrics for various modalities are as follows:
 
-For dMRI series, head motion is estimated by registering each frame to a corresponding image synthesized from a tensor fit, accounting for variation in image contrast across diffusion orientations (Hagler et al. 2009). Dark slices, artifacts caused by abrupt head movements, are identified as outliers based on the root mean squared (RMS) difference between the original data and the tensor-fitted data. The total number of slices and frames affected by these motion artifacts are calculated for each dMRI series.
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px">
+<thead>
+<tr>
+    <th style="width: 20%; text-align: center;">Modality</th>
+    <th style="width: 80%; text-align: center;">QC Procedures</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="word-wrap: break-word; white-space: normal;">Structural (T1w, T2w, qMRI)</td>
+<td style="word-wrap: break-word; white-space: normal;">- Deep learning model estimates motion artifacts<br />- Signal-to-noise ratio (SNR) computed</td>
+</tr>
+<tr>
+<td style="word-wrap: break-word; white-space: normal;">dMRI</td>
+<td style="word-wrap: break-word; white-space: normal;">- Framewise displacement (FD) for head motion<br />- Head motion estimated via <span class="tooltip">registration to tensor-synthesized images<span class="tooltiptext">accounts for contrast differences across orientations</span></span> (<a href="https://doi.org/10.1002/hbm.20619">Hagler et al. 2009</a>)<br />- Identification of <span class="tooltip">dark slices<span class="tooltiptext">artifacts caused by abrupt head movements</span></span> via RMS difference between raw and tensor-fitted data<br />- Total slices and frames with motion artifacts calculated<br />- Metrics for line artifacts and field-of-view (FOV) cutoff</td>
+</tr>
+<tr>
+<td style="word-wrap: break-word; white-space: normal;">fMRI</td>
+<td style="word-wrap: break-word; white-space: normal;">- FD for head motion (average FD and seconds with FD &lt; 0.2 mm, 0.3 mm, 0.4 mm) (<a href="https://doi.org/10.1016/j.neuroimage.2011.10.018">Power et al., 2012</a>)<br />- Metrics for line artifacts and FOV cutoff<br />- <span class="tooltip">FWHM<span class="tooltiptext">Full width half max () spatial smoothness</span></span> and <span class="tooltip">tSNR<span class="tooltiptext">temporal SNR</span></span> computed after motion correction (<a href="https://doi.org/10.1016/j.neuroimage.2005.01.007">Triantafyllou et al. 2005</a>)</td>
+</tr>
+<tr>
+<td style="word-wrap: break-word; white-space: normal;">Field Maps</td>
+<td style="word-wrap: break-word; white-space: normal;">- Metrics for line artifacts and FOV cutoff</td>
+</tr>
+<tr>
+<td style="word-wrap: break-word; white-space: normal;">All Modalities</td>
+<td style="word-wrap: break-word; white-space: normal;">- SNR computed where applicable</td>
+</tr>
+</tbody>
+</table>
 
 ### Manual Review
 Based on the automated metrics above, a subset of series are selected for manual review using multivariate prediction and Bayesian classifiers to identify scans that are more likely to have issues. Trained technicians use in-house software for standardized and efficient QC. For each subject, the technician inspects a display of multi-view and multi-slice image montages and enter scores. Each subject will also prompt for notes at the end of the review before confirming, repeating, or skipping the subject, further reducing room for human error. 
@@ -499,10 +533,12 @@ To account for such variations, most inclusion criteria are defined as acceptabl
 </p>
 
 ## BrainSwipes
-Quality control procedures for various pipeline outputs—such as structural and functional derivatives from XCP-D and diffusion derivatives from QSIPrep-rely on manual visual inspection (the current gold standard for image QC) to identify image artifacts. To streamline this process, the visual reports included in these derivatives are integrated into [BrainSwipes](https://brainswipes.us/about), a gamified platform built off of the open-source [Swipes For Science](https://swipesforscience.org/) project.
 
-BrainSwipes harnesses the power of crowdsourcing to address the time-intensive task of evaluating MRI brain scan quality through visual inspection, particularly for large-scale studies. Users are guided through a simple [tutorial](https://brainswipes.us/tutorial-select) (note that you must create a BrainSwipes account first before viewing this tutorial) that teaches them how to navigate the platform and assess derivative files, enabling them to confidently classify images as either pass or fail.
-<div class="img-with-text" style="width: 70%; margin: 0 auto; text-align: center;">
+Manual visual inspection remains the gold standard for identifying artifacts in structural and functional derivatives (e.g., from XCP-D) and diffusion derivatives (e.g., from QSIPrep). To streamline this process, derivative visual reports are integrated into [BrainSwipes](https://brainswipes.us/about), a gamified, crowdsourced QC platform built on the open-source [Swipes For Science](https://swipesforscience.org/) framework.		
+
+BrainSwipes engages users in evaluating brain image quality through an intuitive interface designed for large-scale studies. After creating an account, users are guided through a brief [tutorial](https://brainswipes.us/tutorial-select) that teaches them how to assess derivative images and classify them as pass or fail.
+
+<div class="img-with-text" style="width: 60%; margin: 0 auto; text-align: center;">
     <img src="../images/brainswipes.png" alt="Example quality assessment of surface delineation in BrainSwipes" style="width: 100%; height: auto;">
     <p><i>Example quality assessment of surface delineation on BrainSwipes platform (displaying brain in axial plane at level of basal ganglia/putamen).</i></p>
 </div>
@@ -564,8 +600,17 @@ BrainSwipes QC results are provided as tabulated instrument data in the `rawdata
 
 The results are also combined for each subject modality to report the overall average QC score and average number of reviewers across visual reports per run. In other words, a single average QC score is provided for each session-level T2w and session-level BOLD run. Below we provide a Python helper function to read a BrainSwipes TSV file into a Pandas DataFrame and filter out all subject runs with an average overall QC score of greater than or equal to a threshold specified by the user:
 
-##### 🐍 Python Helper Function
-```
+<div id="helper-function" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="text-with-link">
+  <span class="text">🐍 Python Helper Function</span>
+  <a class="anchor-link" href="#helper-function" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="table-collapsible-content">
+<pre class="folder-tree">
 import pandas as pd
 
 def read_and_filter_tsv(file_path, threshold):
@@ -589,7 +634,8 @@ def read_and_filter_tsv(file_path, threshold):
 # Filter to keep only subjects with an average structural QC of at least 0.6 (60% pass rate)
 filtered_df = read_and_filter_tsv("img_brainswipes_xcpd_T2w.tsv", 0.6)
 print(filtered_df.head())
-```
+</pre>
+</div>
 
 ## References
 <div class="references">
