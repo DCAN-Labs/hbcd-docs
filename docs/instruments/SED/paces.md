@@ -28,9 +28,12 @@
 ## Instrument Details
 Protective and Compensatory Experience (PACES) is a 10-question scale with scores ranging between 0 and 10 assessing positive childhood experiences through age 18 such as: relationships, feeling of connectedness, physical activity, engagement, environment, and opportunities.
 
-<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="table-text">HBCD Modification Details</span>
+<div id="hbcd-mods" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="text-with-link">
+  <span class="text">HBCD Modification Details</span>
+  <a class="anchor-link" href="#hbcd-mods" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
   </span>
   <span class="arrow">▸</span>
 </div>

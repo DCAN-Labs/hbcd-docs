@@ -27,9 +27,12 @@
 ## Instrument Details
 The [PhenX+ Toolkit Discrimination](https://www.phenxtoolkit.org/protocols/view/210302) measure is a questionnaire to assess perceived discriminatory experiences. Experiences with Unfair Treatment is an important factor in an individual’s health because it affects access to employment, housing, and education opportunities and can affect self-esteem and cause stress. 
 
-<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="table-text">HBCD Modification Details</span>
+<div id="hbcd-mods" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="text-with-link">
+  <span class="text">HBCD Modification Details</span>
+  <a class="anchor-link" href="#hbcd-mods" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
   </span>
   <span class="arrow">▸</span>
 </div>
