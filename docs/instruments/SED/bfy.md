@@ -47,10 +47,10 @@ The HBCD BFY includes a selection of questions from the [BFY Age 1 Survey Instru
 </ul>
 </div>
 
-<div id="hbcd-mods" class="table-banner" onclick="toggleCollapse(this)">
+<div id="hbcd-mods2" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text-with-link">
   <span class="text">HBCD Modification Details (MORE EXTENSIVE VERSION)</i></span>
-  <a class="anchor-link" href="#hbcd-mods" title="Copy link">
+  <a class="anchor-link" href="#hbcd-mods2" title="Copy link">
   <i class="fa-solid fa-link"></i>
   </a>
   </span>
