@@ -61,10 +61,13 @@ The [PhenX+ Toolkit Discrimination](https://www.phenxtoolkit.org/protocols/view/
 Modifications made to the Everyday Discrimination Scale ("What do you think is the main reason for these experiences?") include:</p>
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px">
 <tfoot><tr><td colspan="2"><b>**</b> <i>Modified/added on 01/2024 based on participant feedback/comments</i></td></tr></tfoot>
+<thead>
   <tr>
     <th>Original Response Options</th>
     <th>Modified Response Options</th>
   </tr>
+</thead>
+<tbody>
   <tr>
     <td style="width: 400px; word-wrap: break-word; white-space: normal;">
     <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Your ancestry or national origin</label></li>
@@ -103,6 +106,7 @@ Modifications made to the Everyday Discrimination Scale ("What do you think is t
     <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Decline to Answer <i><b>(added)</b></i></label></li>    
     </td>
   </tr>
+</tbody>
 </table>
 
 <p><b>Scoring Changes</b><br>
