@@ -16,14 +16,14 @@ HBCD Study data is publicly shared via the [NBDC](https://www.nbdc-datahub.org) 
 
 ## Download HBCD Study Data
 
-After obtaining data access, users can download HBCD Study release data via the **[Lasso Portal](https://nbdc-datashare.lassoinformatics.com/)** or **Data Exploration and Analysis Portal** ([DEAP](https://docs.deapscience.com)).
+After obtaining data access, users can download HBCD Study release data via the **[Lasso Portal](https://nbdc-datashare.lassoinformatics.com/)** (also see further instruction and documentation [here](https://nbdc.lassoinformatics.com/data-query-and-downloads)) or the **Data Exploration and Analysis Portal** ([DEAP](https://docs.deapscience.com)).
 
 
 ## Explore Data
 
 HBCD data is organized into tables, each of which contains a set of variables. The data dictionary provides detailed information about each variable in the HBCD data tables. The dictionary includes the variable name, label, description, data type, and other relevant information. 
 
-Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data dictionary via the **[Lasso Portal Query Tool]()** or **[DEAP](https://docs.deapscience.com)** - ADD LINKS. Below are the definitions for the columns in the data dictionaries for these utilities. Note that some columns also correspond to elements in the BIDS JSON files that accompany all tabulated data (hover over <i class="bi bi-filetype-json" style="font-size:18px; color:blue;"></i> icon for details in table below).
+Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data dictionary via the **[Lasso Portal Query Tool](https://nbdc.lassoinformatics.com/data-query-and-downloads)** or **[DEAP](https://docs.deapscience.com)**. Below are the definitions for the columns in the data dictionaries for these utilities. Note that some columns also correspond to elements in the BIDS JSON files that accompany all tabulated data (hover over <i class="bi bi-filetype-json" style="font-size:18px; color:blue;"></i> icon for details in table below).
 
 ### Data Dictionary Column Definitions
 
@@ -70,7 +70,6 @@ Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Youth; Parent; Teacher; Experimenter; Linked external data</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">NO</td>
     </tr>
-
     <tr>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Table name</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">table_name</td>
