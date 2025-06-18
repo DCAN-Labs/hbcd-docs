@@ -74,14 +74,14 @@ The HBCD BFY includes a selection of questions from the [BFY Age 1 Survey Instru
       <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Women, Infants and Children (WIC)</label></li>
       <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> State Unemployment</label></li>
       <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Cash assistance</label></li>
-      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> <b>Free or reduced school lunch</b></label></li>      
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Free or reduced school lunch <i><b>(added)</b></i></label></li>      
       <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Medicaid coverage for self</label></li>
       <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Housing assistance</label></li>
       <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> LIHEAP/heat/AC assistance</label></li>
       <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Other</label></li>
       <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> None</label></li>
-      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> <b>Don't know</b></label></li>
-      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> <b>Decline to answer</b></label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Don't know <i><b>(added)</b></i></label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Decline to answer <i><b>(added)</b></i></label></li>
     </td>
   </tr>
     <tr>
@@ -100,8 +100,8 @@ The HBCD BFY includes a selection of questions from the [BFY Age 1 Survey Instru
       <br>
       <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Yes</label></li>
       <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> No</label></li>
-      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> <b>Don't know</b></label></li>
-      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> <b>Decline to answer</b></label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Don't know <i><b>(added)</b></i></label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Decline to answer <i><b>(added)</b></i></label></li>
     </td>
   </tr>
 </table>

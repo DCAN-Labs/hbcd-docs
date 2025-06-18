@@ -36,14 +36,16 @@ The [PhenX+ Toolkit Discrimination](https://www.phenxtoolkit.org/protocols/view/
   </span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
-<br>
+<div class="table-collapsible-content">
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Instruction/Assessment Item Modifications</b></p>
-<table>
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px">
+<thead>
   <tr>
     <th>Original Text</th>
     <th>Modified Text</th>
   </tr>
+</thead>
+<tbody>
   <tr>
     <td style="width: 400px; word-wrap: break-word; white-space: normal;">
       <small>In the following questions, we are interested in the way other people have treated you or your beliefs about how other people have treated you. Can you tell me if any of the following has ever happened to you? (Experiences with Unfair Treatment)</small>
@@ -52,11 +54,12 @@ The [PhenX+ Toolkit Discrimination](https://www.phenxtoolkit.org/protocols/view/
       <small>In the following questions, we are interested in your perceptions about the way other people have treated you.  Can you tell me if any of the following has ever happened to you?</small>
     </td>
   </tr>
-</table>
-<br>
-<p style="font-size: 1em; margin: 0 5px 5px;"><b>Answer/Response Option Changes</b></p>
-<p>Modifications made to the Everyday Discrimination Scale ("What do you think is the main reason for these experiences?") include:</p>
-<table style="border-collapse: collapse;">
+</tbody>
+</table>  
+
+<p><b>Answer/Response Option Changes</b><br>
+Modifications made to the Everyday Discrimination Scale ("What do you think is the main reason for these experiences?") include:</p>
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px">
 <tfoot><tr><td colspan="2"><small><b>**</b> Modified/added on 01/2024 based on participant feedback/comments</small></td></tr></tfoot>
   <tr>
     <th>Original Response Options</th>
@@ -101,9 +104,9 @@ The [PhenX+ Toolkit Discrimination](https://www.phenxtoolkit.org/protocols/view/
     </td>
   </tr>
 </table>
-<br>
-<p style="font-size: 1em; margin: 0 0 5px;"><b>Scoring Changes</b></p>
-<p>For the *Everyday Discrimination Scale* and *Major Experiences of Discrimination*, the Follow-up Question ("What do you think is the main reason for these experiences?") was asked once after both were complete to capture the main reasons for any items marked “a few times a year” (*Everyday Discrimination Scale*) or “yes” (*Major Experiences of Discrimination*). The original logic asked this question at the end of each individual scale.</p>
+
+<p><b>Scoring Changes</b><br>
+For the *Everyday Discrimination Scale* and *Major Experiences of Discrimination*, the Follow-up Question ("What do you think is the main reason for these experiences?") was asked once after both were complete to capture the main reasons for any items marked “a few times a year” (*Everyday Discrimination Scale*) or “yes” (*Major Experiences of Discrimination*). The original logic asked this question at the end of each individual scale.</p>
 </div>
 
 
