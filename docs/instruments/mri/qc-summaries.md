@@ -38,4 +38,9 @@ The release currently includes BrainSwipes results for only structural and funct
 ### Functional Connectivity as Data Quality Improves (Left -> Right)
 
 ##### Average Gordon Connectivity Matrices for V02 at Varying QC Thresholds
-<img src="../images/mriqc/mri_qc.png" style="width: 100%;" class="center">
+
+<figure>
+  <img src="../images/mriqc/mri_qc.png" style="width: 100%;" class="center">
+  <figcaption style="font-size: 0.9em;"><p>Average functional connectivity matrices were generated from the Gordon parcellation available in the <a href="../../../datacuration/derivatives/#xcp-d-xcp_d">XCP-D derivatives</a> for all V02 sessions included in the release using varying QC thresholds for the BrainSwipes QC results (<code>img_brainswipes_xcpd-bold</code>) - <a href="../qc/#brainswipes">see details</a>. Functional connectivity is not significantly impacted when including a greater amount of data with lower average QC scoring.</p></figcaption>
+</figure>
+
