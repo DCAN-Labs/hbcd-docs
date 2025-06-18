@@ -311,3 +311,31 @@
   color: #0077cc;
   line-height: 1;
 }
+
+
+.static-banner {
+  background-color: #f0f4ff;
+  border-left: 5px solid #5b8def;
+  padding: 8px 12px;           /* Reduced vertical padding */
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  line-height: 1.2;            /* Tighter line spacing */
+}
+
+.notification-static-content {
+  background-color: #f9fbff;
+  border-left: 5px solid #5b8def;
+  padding: 10px 12px;
+  margin-top: 0;
+}
+
+.notification-static-content p {
+  margin: 0;                   /* Remove extra margin from <p> */
+}
+
+
+.notification-static-content ul {
+ margin: 0;
+}

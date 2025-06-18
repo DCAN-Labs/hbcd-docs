@@ -37,10 +37,24 @@ The release currently includes BrainSwipes results for only structural and funct
 
 ### Functional Connectivity as Data Quality Improves (Left -> Right)
 
+<p>
+<div class="notification-banner static-banner">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">
+    BrainSwipes Quality Control (QC) Scoring
+  </span>
+</div>
+<div class="notification-static-content">
+<p>QC scores range from 0 to 1, where 0 indicates a "Fail" and 1 indicates a "Pass." Scores are averaged across reviewers. For example, an average QC score of 0.6 means that 60% of reviewers rated the image as a pass. Therefore, a threshold of > 0.1 includes data that received passing scores from more than 10% of reviewers.</p>
+</div>
+</p>
+
+
 ##### Average Gordon Connectivity Matrices for V02 at Varying QC Thresholds
 
 <figure>
   <img src="../images/mriqc/mri_qc.png" style="width: 100%;" class="center">
-  <figcaption style="font-size: 0.9em;"><p>Average functional connectivity matrices were generated from the Gordon parcellation available in the <a href="../../../datacuration/derivatives/#xcp-d-xcp_d">XCP-D derivatives</a> for all V02 sessions included in the release using varying QC thresholds for the BrainSwipes QC results (<code>img_brainswipes_xcpd-bold</code>) - <a href="../qc/#brainswipes">see details</a>. Functional connectivity is not significantly impacted when including a greater amount of data with lower average QC scoring.</p></figcaption>
+  <figcaption style="font-size: 0.9em;"><p>Average functional connectivity matrices were computed using the Gordon parcellation from <a href="../../../datacuration/derivatives/#xcp-d-xcp_d">XCP-D derivatives</a> for V02 sessions with data inclusion based on various thresholds of BrainSwipes QC results (<code>img_brainswipes_xcpd-bold</code>; <a href="../qc/#brainswipes">see details</a>). Functional connectivity patterns remained consistent even when incorporating data with lower QC scores, suggesting robustness to mild quality variations.
+ </p></figcaption>
 </figure>
 
