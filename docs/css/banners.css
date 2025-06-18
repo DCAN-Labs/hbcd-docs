@@ -340,6 +340,7 @@
 }
 
 .notification-static-content li {
-  margin-bottom: 0.3em;        /* Optional: slight spacing between items */
+  margin: 0; /* override even the slight spacing */
+  padding: 0;
 }
 
