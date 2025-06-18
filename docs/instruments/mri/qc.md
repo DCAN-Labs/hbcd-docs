@@ -730,8 +730,7 @@ print(filtered_df.head())
 <div class="notification-collapsible-content">
 <p>Curvature summary statistics for all V02 data included in the release (TOP) only V02 data with an average structural QC score of 0.7 (i.e. rated as a Pass by 70% of reviewers) (BOTTOM):</p>
 <img src="../images/mriqc/curv.jpeg" style="width: 100%;" class="center">
-<br>
-<b>ADD 70% FIGURE</b>
+<img src="../images/mriqc/curv_thresh.jpeg" style="width: 100%;" class="center">
 <br>
 </div>
 
@@ -748,8 +747,7 @@ print(filtered_df.head())
 <div class="notification-collapsible-content">
 <p>Sulcal depth summary statistics for all V02 data included in the release (TOP) only V02 data with an average structural QC score of 0.7 (i.e. rated as a Pass by 70% of reviewers) (BOTTOM):</p>
 <img src="../images/mriqc/sulc.jpeg" style="width: 100%;" class="center">
-<br>
-<b>ADD 70% FIGURE</b>
+<img src="../images/mriqc/sulc_thresh.jpeg" style="width: 100%;" class="center">
 <br>
 </div>
 

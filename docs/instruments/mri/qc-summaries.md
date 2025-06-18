@@ -54,8 +54,8 @@ Click to expand each section below to view surface morphometric summaries for (1
 </div>
 <div class="notification-collapsible-content">
 <img src="../images/mriqc/curv.jpeg" style="width: 100%;" class="center">
+<img src="../images/mriqc/curv_thresh.jpeg" style="width: 100%;" class="center">
 <br>
-<b>ADD 70% FIGURE</b>
 </div>
 
 <div id="surf" class="notification-banner" onclick="toggleCollapse(this)">
@@ -70,8 +70,8 @@ Click to expand each section below to view surface morphometric summaries for (1
 </div>
 <div class="notification-collapsible-content">
 <img src="../images/mriqc/sulc.jpeg" style="width: 100%;" class="center">
+<img src="../images/mriqc/sulc_thresh.jpeg" style="width: 100%;" class="center">
 <br>
-<b>ADD 70% FIGURE</b>
 </div>
 
 ### Functional Connectivity as Data Quality Improves (Left -> Right)
