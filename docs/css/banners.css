@@ -317,28 +317,28 @@
 /* STATIC BANNER */
 .static-banner {
   background-color: #f0f4ff;
-  padding: 8px 12px;           /* Reduced vertical padding */
+  padding: 4px 8px;           /* Reduced vertical padding */
   font-weight: bold;
   display: flex;
   align-items: center;
   gap: 10px;
-  line-height: 1.2;
+  line-height: 1;
+  font-size: 0.9em;
 }
-
 .notification-static-content {
   background-color: #f9fbff;
   border-left: 5px solid #007f49;
   padding: 10px 12px;
   margin-top: 0;
+  font-size: 0.9em;
 }
-
 .notification-static-content p,
 .notification-static-content ul,
 .notification-static-content ol {
   margin: 0;                   /* Remove extra spacing */
   padding-left: 20px;          /* Optional: indent for list items */
+  font-size: 0.9em;
 }
-
 .notification-static-content li {
   margin: 0; /* override even the slight spacing */
   padding: 0;
