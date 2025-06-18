@@ -35,6 +35,34 @@ The release currently includes BrainSwipes results for only structural and funct
 
 🚧 UNDER CONSTRUCTION 🚧
 
+### Surface Morphometrics & BrainSwipes QC Summaries
+
+##### Cumulative BrainSwipes Plot Shows Most of the Data Passes Visual Inspection
+<img src="../images/mriqc/brainswipes-T2-QC.png" style="width: 70%;" class="center">
+
+
+##### Surface Morphometrics
+
+<div id="surf" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="text-with-link">
+  <span class="text">Thickness, Curvature, and Sulcal Depth Across Networks</span>
+  <a class="anchor-link" href="#surf" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="table-collapsible-content">
+<img src="../images/mriqc/thickness.jpeg" style="width: 90%;" class="center">
+<img src="../images/mriqc/curv.jpeg" style="width: 90%;" class="center">
+<img src="../images/mriqc/sulc.jpeg" style="width: 90%;" class="center">
+</div>
+
+
+
+
+
+
 ### Functional Connectivity as Data Quality Improves (Left -> Right)
 
 <p>
