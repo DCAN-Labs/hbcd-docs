@@ -35,27 +35,27 @@ The release currently includes BrainSwipes results for only structural and funct
 
 🚧 UNDER CONSTRUCTION 🚧
 
-### Surface Morphometrics & BrainSwipes QC Summaries
+### T2w BrainSwipes QC Summary
 
-##### Cumulative BrainSwipes Plot Shows Most of the Data Passes Visual Inspection
+##### Cumulative BrainSwipes Plot: Most T2w Images Pass Visual Inspection
 <img src="../images/mriqc/brainswipes-T2-QC.png" style="width: 70%;" class="center">
 
 
-##### Surface Morphometrics
-
-<div id="surf" class="table-banner" onclick="toggleCollapse(this)">
+### Surface Morphometrics Summary
+<div id="surf" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
   <span class="text-with-link">
-  <span class="text">Thickness, Curvature, and Sulcal Depth Across Networks</span>
+  <span class="text">Thickness, Curvature, and Sulcal Depth Across Networks - <i>Click to expand</i></span>
   <a class="anchor-link" href="#surf" title="Copy link">
-  <i class="fa-solid fa-link"></i>
-  </a>
+    <i class="fa-solid fa-link"></i>
+    </a>
   </span>
   <span class="arrow">▸</span>
 </div>
-<div class="table-collapsible-content">
-<img src="../images/mriqc/thickness.jpeg" style="width: 90%;" class="center">
-<img src="../images/mriqc/curv.jpeg" style="width: 90%;" class="center">
-<img src="../images/mriqc/sulc.jpeg" style="width: 90%;" class="center">
+<div class="notification-collapsible-content">
+<img src="../images/mriqc/thickness.jpeg" style="width: 100%;" class="center">
+<img src="../images/mriqc/curv.jpeg" style="width: 100%;" class="center">
+<img src="../images/mriqc/sulc.jpeg" style="width: 100%;" class="center">
 </div>
 
 
