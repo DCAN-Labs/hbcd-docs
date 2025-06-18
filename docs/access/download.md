@@ -6,17 +6,29 @@
   <img src="../images/ZEV103-DEAP-Logo-with-DEAP.png" alt="NBDC-DEAP logo" style="max-width: 30%; height: auto;">
 </div>
 
-
 ## Access HBCD Study Data
 
-***Please visit the [NBDC Data Hub](https://www.nbdc-datahub.org/data-access-process) and [FAQs](https://nbdc-splash-beta.lassoinformatics.com/faqs) for detailed instructions on how to submit a DUC.***
+***See the [NBDC Data Hub](https://www.nbdc-datahub.org/data-access-process) for detailed instructions on how to submit a DUC.***
 
-HBCD Study data is publicly shared via the [NBDC](https://www.nbdc-datahub.org) **Data Use Certification (DUC)** that researchers sign in agreement to follow the rules outlined for data use. DUC submission is conducted through the [NBDC portal supported by Lasso](https://nbdc-datashare.lassoinformatics.com/). 
+HBCD Study data is publicly shared via the [NBDC](https://www.nbdc-datahub.org) Data Use Certification (DUC) that researchers sign in agreement to follow the rules outlined for data use. DUC submission is conducted through the [NBDC portal supported by Lasso](https://nbdc-datashare.lassoinformatics.com/). 
+
+<div class="notification-banner static-banner">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">
+    Additional Resources
+  </span>
+</div>
+<div class="notification-static-content">
+<ul>
+<li><a href="https://nbdc-splash-beta.lassoinformatics.com/faqs">Data Use Certification FAQs</a></li>
+<li><a href="https://nbdc.lassoinformatics.com/post-duc">What Can I Do While I Wait for My DUC Approval?</a></li>
+</ul>
+</div>
 
 
 ## Download HBCD Study Data
 
-After obtaining data access, users can download HBCD Study release data via the **[Lasso Portal](https://nbdc-datashare.lassoinformatics.com/)** (also see further instruction and documentation [here](https://nbdc.lassoinformatics.com/data-query-and-downloads)) or the **Data Exploration and Analysis Portal** ([DEAP](https://docs.deapscience.com)).
+After obtaining data access, users can download HBCD Study release data via the **[Lasso Portal](https://nbdc-datashare.lassoinformatics.com/)** (also see further instruction and documentation on the [Lasso Informatics Resource Hub](https://nbdc.lassoinformatics.com/data-query-and-downloads)) or the **Data Exploration and Analysis Portal** ([DEAP](https://docs.deapscience.com)).
 
 
 ## Explore Data
