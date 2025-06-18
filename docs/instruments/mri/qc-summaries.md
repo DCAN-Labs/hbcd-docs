@@ -38,10 +38,7 @@ The release currently includes BrainSwipes results for only structural and funct
 
 🚧 UNDER CONSTRUCTION 🚧
 
-#### Functional Connectivity as data quality improves
-<div style="display: flex; justify-content: space-between; align-items: center; width: 100%">
-  <img src="../images/mriqc/fconnlt10.jpeg" style="width: 35%;">
-  <img src="../images/mriqc/fconnlt50.jpeg" style="width: 35%;">
-  <img src="../images/mriqc/fconnlt90.jpeg" style="width: 35%;">
-</div>
-<br>
+### Functional Connectivity as Data Quality Improves (Left -> Right)
+
+##### Average Gordon Connectivity Matrices for V02 at Varying QC Thresholds
+<img src="../images/mriqc/mri_qc.png" style="width: 100%;" class="center">
