@@ -29,9 +29,10 @@ function expandCollapsibleById(id) {
   
   if (element && (element.classList.contains('notification-banner') || 
                   element.classList.contains('table-banner') ||
-                  element.classList.contains('warning-banner'))) {
+                  element.classList.contains('warning-banner') ||
+                  element.classList.contains('alert-banner'))) {
     const collapsibleContent = element.nextElementSibling;
-    const arrow = element.querySelector(['.arrow', '.notification-arrow', '.table-arrow']);
+    const arrow = element.querySelector(['.arrow', '.table-arrow']);
 
     if (collapsibleContent && !collapsibleContent.classList.contains('open')) {
       collapsibleContent.classList.add('open');
