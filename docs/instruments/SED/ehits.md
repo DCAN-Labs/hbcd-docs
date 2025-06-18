@@ -41,13 +41,8 @@ The eHITS is a self-administered 5 question Likert scale screener for experience
 <p>Various research groups made minor word changes. Sherin and colleagues developed the original instrument, HITS, published in 1998. Chan and colleagues expanded HITS to include a question regarding forced sexual activity <a href="https://doi.org/10.1177/102490791001700202">Chan et al. 2010</a>. To acknowledge these changes in future publications, we recommend including the exact verbiage of the HBCD-version of the item in the methods section of any reports, presentations, and manuscripts.</p>
 
 <p><b>Instruction/Assessment Item Modifications</b><br>
-The following outlines the differences in the wording and/or content of questions asked in the prior iterations of eHITS compared to HBCD. **Note that this first row contains the preceding text for all questions in rows following.</p>
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0" data-sheets-root="1" data-sheets-baot="1">
-  <colgroup>
-    <col width="266" />
-    <col width="405" />
-    <col width="434" />
-  </colgroup>
+The following outlines the differences in the wording and/or content of questions asked in the prior iterations of eHITS compared to HBCD.</p>
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px">
   <tbody>
     <tr>
       <th><b>SHERIN ET AL. 1998</b></th>
@@ -55,9 +50,18 @@ The following outlines the differences in the wording and/or content of question
       <th><b>HBCD 2024</b></th>
     </tr>
         <tr>
-        <td style="width: 400px; word-wrap: break-word; white-space: normal;"><i>How often does your partner...**</i></td>
-        <td style="width: 400px; word-wrap: break-word; white-space: normal;"><i>Has your partner ever...**<i></td>
-        <td style="width: 400px; word-wrap: break-word; white-space: normal;"><i>In the previous 12 months, how often has your current partner...**<i></td>
+        <td style="word-wrap: break-word; white-space: normal;"><span class="tooltip">How often does your partner...
+                <span class="tooltiptext">preceding text for following rows</span>
+            </span>
+        </td>
+        <td style="word-wrap: break-word; white-space: normal;"><span class="tooltip">Has your partner ever...
+                <span class="tooltiptext">preceding text for following rows</span>
+            </span>
+        </td>
+        <td style="word-wrap: break-word; white-space: normal;"><span class="tooltip">In the previous 12 months, how often has your current partner...
+                <span class="tooltiptext">preceding text for following rows</span>
+            </span>
+        </td>
     </tr>
     <tr>
       <td style="width: 400px; word-wrap: break-word; white-space: normal;">...physically hurt you?</td>
@@ -88,13 +92,15 @@ The following outlines the differences in the wording and/or content of question
 </table>
 
 <p style="font-size: 1em; margin: 0 5px 5px;"><b>Answer/Response Option Changes</b></p>
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0" data-sheets-root="1" data-sheets-baot="1"><colgroup><col width="266" /><col width="405" /><col width="434" /></colgroup>
-<tbody>
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px">
+<thead>
     <tr>
-        <th><b>SHERIN ET AL. 1998</b></th>
-        <th><b>CHAN ET AL. 2010</b></th>
-        <th><b>HBCD 2024</b></th>
+        <th style="width: 30%;"><b>SHERIN ET AL. 1998</b></th>
+        <th style="width: 30%;"><b>CHAN ET AL. 2010</b></th>
+        <th style="width: 30%;"><b>HBCD 2024</b></th>
     </tr>
+</thead>
+<tbody>
     <tr>
         <td>1 - Never<br /> 2 - Rarely<br /> 3 - Sometimes<br /> 4 -Fairly often<br /> 5 - Frequently</td>
         <td>1 - Never<br /> 2 - Rarely<br /> 3 - Sometimes<br /> 4 - Fairly often<br /> 5 - Frequently</td>
@@ -103,10 +109,10 @@ The following outlines the differences in the wording and/or content of question
 </tbody>
 </table>
 
-<p style="font-size: 1em; margin: 0 5px 5px;"><b>Scoring Procedures</b></p>
+<p><b>Scoring Procedures</b></p>
 <p>The eHITS summary score (sum of item ratings) is used clinically as a screening tool for intimate partner violence (IPV) based on a certain threshold. For HBCD, a clinical alert for IPV is triggered when the summary score is greater than 7 and/or the scores for “…physically hurt you?” or “…forced you to engage in sexual activity?” is greater than 0. If a respondent selects “Don’t know” for one or more questions, a clinical alert may not generate for a participant whose correct responses would result in a score sufficient to trigger an alert.</p>
 
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0" data-sheets-root="1" data-sheets-baot="1"><colgroup><col width="266" /><col width="405" /><col width="434" /></colgroup>
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px">
 <tbody>
     <tr>
         <th><b>SHERIN ET AL. 1998</b></th>
