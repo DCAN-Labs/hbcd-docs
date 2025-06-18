@@ -37,24 +37,25 @@ Protective and Compensatory Experience (PACES) is a 10-question scale with score
   </span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="table-collapsible-content">
 <br>
-<p style="font-size: 1em; margin: 0 0 5px;"><b>Instruction Item Modifications</b></p>
-<table>
+<p><b>Instruction Item Modifications</b></p>
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px">
   <tr>
     <th>Original Text</th>
     <th>Modified Text</th>
   </tr>
   <tr>
-    <td style="width: 400px; word-wrap: break-word; white-space: normal;">
+    <td style="word-wrap: break-word; white-space: normal;">
       <small>When answering these questions, think about the last 12 months. On a scale of 1 to 5, fill the circle of the number that best describes how often each of the items occurred.</small>
     </td>
-    <td style="width: 400px; word-wrap: break-word; white-space: normal;">
+    <td style="word-wrap: break-word; white-space: normal;">
       <small>When answering these questions, think about the last 12 months. Please select the response that best describes you.</small>
     </td>
   </tr>
 </table>
-<p>For responses options, “Declined to answer” was added as an option.</p>
+<p><b>For responses options, “Declined to answer” was added for all items.</b></p>
+<br>
 </div>
 
 ## References
