@@ -313,29 +313,33 @@
 }
 
 
+
+/* STATIC BANNER */
 .static-banner {
   background-color: #f0f4ff;
-  border-left: 5px solid #5b8def;
   padding: 8px 12px;           /* Reduced vertical padding */
   font-weight: bold;
   display: flex;
   align-items: center;
   gap: 10px;
-  line-height: 1.2;            /* Tighter line spacing */
+  line-height: 1.2;
 }
 
 .notification-static-content {
   background-color: #f9fbff;
-  border-left: 5px solid #5b8def;
+  border-left: 5px solid #007f49;
   padding: 10px 12px;
   margin-top: 0;
 }
 
-.notification-static-content p {
-  margin: 0;                   /* Remove extra margin from <p> */
+.notification-static-content p,
+.notification-static-content ul,
+.notification-static-content ol {
+  margin: 0;                   /* Remove extra spacing */
+  padding-left: 20px;          /* Optional: indent for list items */
 }
 
-
-.notification-static-content ul {
- margin: 0;
+.notification-static-content li {
+  margin-bottom: 0.3em;        /* Optional: slight spacing between items */
 }
+
