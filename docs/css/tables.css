@@ -36,7 +36,7 @@ th, td {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
-  background-color: #fff;
+  background-color: #d0dff02c;
   border: 1px solid #3333331a;
   border-top: none;
   padding: 0 0;
@@ -46,6 +46,11 @@ th, td {
   display: block;
   overflow-x: auto; 
 }
+
+.table-collapsible-content table {
+  background-color: #ffffff;
+}
+
 .table-collapsible-content b {
   color: #0077cc;
 }
