@@ -27,8 +27,6 @@
 ## Instrument Details
 The HBCD BFY includes a selection of questions from the [BFY Age 1 Survey Instrument](https://www.babysfirstyears.com/_files/ugd/88a466_5a28f2b284e74fa4b61b2c483008416e.docx?dn=BFY_Age%201%20Survey.docx). [Baby’s First Years](https://www.babysfirstyears.com/) is an NIH-funded study of infant and child development and assesses economic stress (originally sourced from the Moving to Opportunity (MTO) study), financial instability, ability to meet basic needs, and benefits/services received over the past 12 months on a 10-point Likert Scale ([Noble et al. 2021](https://doi.org/10.1542/peds.2020-049702)). 
 
-***TO DO: workgroup decide which version of the following they prefer:***
-
 <div id="hbcd-mods" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text-with-link">
   <span class="text">HBCD Modification Details</i></span>
@@ -38,35 +36,16 @@ The HBCD BFY includes a selection of questions from the [BFY Age 1 Survey Instru
   </span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
-<ul>
-<b>The following modifications were made to this instrument for the HBCD study:</b>
-<li>Removal of the Medicaid coverage question (asked elsewhere in the study)</li>
-<li>The question about services received was rephrased as, "Have you received any of these services in the past 12 months" and response options include the addition of 'Free or reduced school lunch,' 'Don't know,' and 'Decline to answer'</li>
-<li>The question about eviction was rephrased as, "In the past 12 months, have you EVER been forced to leave or were evicted from your home?" and response options include the addition of 'Don't know' and 'Decline to answer'</li>
-</ul>
-</div>
-
-<div id="hbcd-mods2" class="table-banner" onclick="toggleCollapse(this)">
-  <span class="text-with-link">
-  <span class="text">HBCD Modification Details (MORE EXTENSIVE VERSION)</i></span>
-  <a class="anchor-link" href="#hbcd-mods2" title="Copy link">
-  <i class="fa-solid fa-link"></i>
-  </a>
-  </span>
-  <span class="arrow">▸</span>
-</div>
-<div class="collapsible-content">
-<br>
-<p>Some slight modifications were made for the HBCD study by removing the Medicaid coverage question (asked elsewhere in the study) as well as the following assessment and response option modifications:</p>
-<table>
+<div class="table-collapsible-content">
+<p><strong>Slight modifications were made for the HBCD study by removing the Medicaid coverage question (asked elsewhere in the study) as well as the following assessment and response option modifications:</strong></p>
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px">
   <tr>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Original Text</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Modified Text</th>   
+      <th>Original Text</th>
+      <th>Modified Text</th>   
   </tr>
   <tr>
     <td style="width: 400px; word-wrap: break-word; white-space: normal;">
-      <small>I am going to read a list of services, government benefits, and support. Please tell me after each one if you receive it or not</small>
+      <b>I am going to read a list of services, government benefits, and support. Please tell me after each one if you receive it or not</b>
       <br>
       <br>
       <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Food stamps SNAP / EBT</label></li>
@@ -85,7 +64,7 @@ The HBCD BFY includes a selection of questions from the [BFY Age 1 Survey Instru
       <br>
     </td>
     <td style="width: 400px; word-wrap: break-word; white-space: normal;">
-      <small>Have you received any of these services in the past 12 months</small>
+      <b>Have you received any of these services in the past 12 months</b>
       <br>
       <br>
       <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Food stamps SNAP / EBT</label></li>
@@ -107,7 +86,7 @@ The HBCD BFY includes a selection of questions from the [BFY Age 1 Survey Instru
   </tr>
     <tr>
     <td style="width: 400px; word-wrap: break-word; white-space: normal;">
-      <small>Since [CHILDNAMEF]’s birth, have you EVER been forced to leave or were evicted from your home?</small>
+      <b>Since [CHILDNAMEF]’s birth, have you EVER been forced to leave or were evicted from your home?</b>
       <br>
       <br>
       <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Yes</label></li>
@@ -116,7 +95,7 @@ The HBCD BFY includes a selection of questions from the [BFY Age 1 Survey Instru
       <br>
     </td>
     <td style="width: 400px; word-wrap: break-word; white-space: normal;">
-      <small>In the past 12 months, have you EVER been forced to leave or were evicted from your home?</small>
+      <b>In the past 12 months, have you EVER been forced to leave or were evicted from your home?</b>
       <br>
       <br>
       <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Yes</label></li>

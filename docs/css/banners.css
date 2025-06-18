@@ -16,9 +16,7 @@
   opacity: 1;
 }
 
-
-/* General Non-Collapsible Banner Settings */
-
+/* General Banner Settings */
 /* arrow */
 .arrow {
   font-size: 1.8rem;
@@ -27,14 +25,11 @@
   color: #3e3e3e;
   margin-left: auto; /* Pushes the arrow to the right */
 }
-
 /* Rotate when explicitly marked or when JS adds rotate class */
 .arrow.rotate,
 .arrow.open-arrow {
   transform: rotate(90deg);
 }
-
-
 .banner {
   background-color: #eaf9f0;
   border: 1px solid #3333331a;
