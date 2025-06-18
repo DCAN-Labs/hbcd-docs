@@ -8,9 +8,7 @@
 
 ## Access HBCD Study Data
 
-***See the [NBDC Data Hub](https://www.nbdc-datahub.org/data-access-process) for detailed instructions on how to submit a DUC.***
-
-HBCD Study data is publicly shared via the [NBDC](https://www.nbdc-datahub.org) Data Use Certification (DUC) that researchers sign in agreement to follow the rules outlined for data use. DUC submission is conducted through the [NBDC portal supported by Lasso](https://nbdc-datashare.lassoinformatics.com/). 
+HBCD Study data is publicly shared via the [NBDC](https://www.nbdc-datahub.org) Data Use Certification (DUC) that researchers sign in agreement to follow the rules outlined for data use. DUC submission is conducted through the [NBDC portal supported by Lasso](https://nbdc-datashare.lassoinformatics.com/). ***See the [NBDC Data Hub](https://www.nbdc-datahub.org/data-access-process) for detailed instructions on how to submit a DUC.***
 
 <div class="notification-banner static-banner">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
@@ -19,10 +17,10 @@ HBCD Study data is publicly shared via the [NBDC](https://www.nbdc-datahub.org) 
   </span>
 </div>
 <div class="notification-static-content">
-<ul>
-<li><a href="https://nbdc-splash-beta.lassoinformatics.com/faqs">Data Use Certification FAQs</a></li>
-<li><a href="https://nbdc.lassoinformatics.com/post-duc">What Can I Do While I Wait for My DUC Approval?</a></li>
-</ul>
+<p> 
+• <a href="https://nbdc-splash-beta.lassoinformatics.com/faqs">Data Use Certification FAQs</a> <br>
+• <a href="https://nbdc.lassoinformatics.com/post-duc">What Can I Do While I Wait for My DUC Approval?</a>
+</p>
 </div>
 
 
