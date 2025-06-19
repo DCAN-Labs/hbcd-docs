@@ -25,12 +25,15 @@ extra_css:
   - css/hide-sidebar.css
   - css/hoverable_elements.css
   - css/legends.css
+  - css/notifications.css
   - css/headers.css
   - css/tables.css
   - overrides/styles.css
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css
   - https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css
   - css/reduce-righthand-whitespace.css
+  - css/warnings.css
+  - css/alerts.css
 
 plugins:
   - search
