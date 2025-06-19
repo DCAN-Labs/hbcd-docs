@@ -27,7 +27,7 @@ Tabulated data lists information for all participants in both plain text (`.tsv`
     </span>
   <span class="arrow">▸</span>
 </div>
-<div class="notification-open-collapsible-content">
+<div class="notification-collapsible-content">
 <p><i>See the <a href="../../instruments/agevariables">Age Variable Definitions</a> section for a summary of all age-related variables across the release, as well as the information summarized in table format <a href="../../instruments/agevariables/#tabulated-instrument-data">here</a>.</i></p>
 <b>Gestational Age at Administration</b> (<code>&lt;instrument_name&gt;_gestational_age</code>): 'GAA' is the time from the first day of the birth parent’s last menstrual period (LMP), estimated as EDD minus 280 days, to the instrument administration date. GAA is given in whole weeks, rounded down, for only the V01 visit. For a given participant, GAA typically varies by no more than 4 weeks across protocol elements except in cases where protocol exceptions were granted.
 <br>
@@ -56,7 +56,7 @@ To avoid such issues, it's recommended to manually define column types using the
   <span class="text">Note: Parquet Not Currently Supported by BIDS</span>
   <span class="arrow">▸</span>
 </div>
-<div class="notification-open-collapsible-content">
+<div class="notification-collapsible-content">
 <p>Please note that Parquet files are currently not officially supported by the <a href="https://bids-specification.readthedocs.io/en/stable/">BIDS specification</a>. For NBDC datasets, we decided to add Parquet as an alternative file format to the BIDS standard TSV to allow users to take advantage of the features of this modern and efficient open source format that is commonly used in the data science community.</p>
 </div>
 
@@ -99,7 +99,7 @@ In HBCD, some participant responses like “Don’t know” or “Decline to ans
   <span class="text">When should I use shadow matrices?</span>
   <span class="arrow">▸</span>
 </div>
-<div class="notification-open-collapsible-content">
+<div class="notification-collapsible-content">
 <p>While the approach of storing missingness reasons in a shadow matrix file supports cleaner analyses, there are situations where non-responses are themselves meaningful. For example, a researcher might be interested in how often participants do not understand a given question and how this relates to other variables. In such cases, users can re-integrate the non-responses from the shadow matrix back into the data.</p>
 </div>
 

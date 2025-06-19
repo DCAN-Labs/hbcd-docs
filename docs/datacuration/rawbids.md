@@ -34,7 +34,7 @@ hbcd/
   </span>
   <span class="arrow">▸</span>
 </div>
-<div class="notification-open-collapsible-content">
+<div class="notification-collapsible-content">
 <br>
 <i>Age is reported with the following fields in the <code>sessions.tsv</code> and <code>scans.tsv</code> files for V02 onwards. See the <a href="../../instruments/agevariables">Age Variable Definitions</a> section for a summary of all age-related variables across the release, as well as the information summarized in table format <a href="../../instruments/agevariables/#raw-file-based-data">here</a>.</i></i>
 <br>
@@ -62,7 +62,7 @@ Participant-, session-, and scan-level data are stored in standardized `.tsv` fi
   <span class="text">BIDS Conversion Procedures: Imaging</span>
   <span class="arrow">▸</span>
 </div>
-<div class="notification-open-collapsible-content">
+<div class="notification-collapsible-content">
 <p>To convert imaging data to BIDS standard formatting, the DICOM image files are processed through an <a href="https://github.com/rordenlab/dcm2niix/tree/c5caaa9f858b704b61d3ff4a7989282922dd712e">HBCD-customized version</a> of the <a href="https://github.com/rordenlab/dcm2niix">dcm2niix</a> tool. </p>
 <br>
 
@@ -165,7 +165,7 @@ Functional files include BOLD functional resting state images under `func/`. Eac
   <span class="text">BIDS Conversion Procedures: MRS</span>
   <span class="arrow">▸</span>
 </div>
-<div class="notification-open-collapsible-content">
+<div class="notification-collapsible-content">
 <p>For MRS, vendor-specific raw data formats (Siemens <code>.dat</code>; Philips data/list; GE P-file) were converted to BIDS using a wrapper (<a href="https://github.com/DCAN-Labs/hbcd_mrs_to_nii_conversion">hbcd_mrs_to_nii_conversion</a>) for <a href="https://github.com/wtclarke/spec2nii">spec2nii v0.7.0</a>.</p>
 </div>
 
@@ -189,7 +189,7 @@ mrs/
   <span class="text">BIDS Conversion Procedures: EEG</span>
   <span class="arrow">▸</span>
 </div>
-<div class="notification-open-collapsible-content">
+<div class="notification-collapsible-content">
 <p>EEG BIDS conversion was handled by <a href="https://github.com/aces/eeg2bids">EEG2BIDS Wizard</a>, a custom MATLAB application developed for HBCD EEG data management and BIDS formatting installed at all HBCD sites. After each EEG session, raw data are uploaded to the Wizard, which, among other things, converts this data to the BIDS standard data structure.</p>
 </div>
 

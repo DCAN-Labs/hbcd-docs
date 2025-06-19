@@ -20,7 +20,7 @@
   <span class="text">Cohort & Caregiver Types</span>
   <span class="arrow">▸</span>
 </div>
-<div class="notification-open-collapsible-content">
+<div class="notification-collapsible-content">
 <p>Cohort types included in the data release are as follows, with each listed item indicating a specific subtype or Caregiver Type (e.g., "HBCD Main Child - Postnatal Recruitment"):</p>
 <ul>
 <li><strong>HBCD Main Child -</strong> <em>Postnatal Recruitment</em>, <em>Type A-F</em></li>

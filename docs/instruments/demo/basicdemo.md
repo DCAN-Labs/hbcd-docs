@@ -63,7 +63,7 @@ Some participants reported challenges in answering certain questions, such as th
   </span>
   <span class="arrow">▸</span>
 </div>
-<div class="notification-open-collapsible-content">
+<div class="notification-collapsible-content">
 <p><b>Fields Reporting Age</b><br>
 Basic Demographics includes a unique set of fields reporting age compared to instrument data, including Maternal Age at V01 (MAV01), Maternal Age at Delivery (MAD), and Gestational Age at Delivery (GAD) of the child (defined in the table below). See the <a href="../../agevariables">Age Variable Definitions</a> section for a summary of all age-related variables across the release.</p>
 

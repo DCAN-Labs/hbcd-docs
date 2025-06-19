@@ -32,7 +32,7 @@ hbcd/
   <span class="text">Format of File Structure Visuals</span>
   <span class="arrow">▸</span>
 </div>
-<div class="notification-open-collapsible-content">
+<div class="notification-collapsible-content">
 <br>
 <li><strong>The following formatting was employed to enhance readability of the file structure visuals:</strong></li>
 <ul>

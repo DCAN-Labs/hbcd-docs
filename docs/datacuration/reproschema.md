@@ -22,7 +22,7 @@ ReproSchema is a framework designed to address these challenges by providing a s
     <span class="text">Practical Example: Evolution of a Sleep Quality Question Across Data Releases</span>
     <span class="arrow">▸</span>
 </div>
-<div class="notification-open-collapsible-content">
+<div class="notification-collapsible-content">
   <ul>
   <b>Release 1.0 (Initial Version):</b>
     <li><strong>Question:</strong> "How many hours do you sleep on a typical night?"</li>
