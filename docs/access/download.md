@@ -1,4 +1,4 @@
-# Access & Download Data
+# Access, Download, & Explore Data
 
 <div class="logo-row">
   <a href="https://www.nbdc-datahub.org/">
