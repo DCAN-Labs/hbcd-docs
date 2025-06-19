@@ -39,7 +39,7 @@ Once access is granted, data can be downloaded through either of the following:
 - **Data Exploration and Analysis Portal** ([DEAP](https://docs.deapscience.com))
 
 
-## Explore Data
+## Explore HBCD Study Data
 
 HBCD data is organized into tables, each of which contains a set of variables. The data dictionary provides detailed information about each variable in the HBCD data tables. The dictionary includes the variable name, label, description, data type, and other relevant information. 
 
