@@ -15,7 +15,7 @@
 
 ## Access HBCD Study Data
 
-To access HBCD Study data, researchers must submit a **Data Use Certification (DUC)** through the NBDC portal supported by Lasso - see the [NBDC Data Hub](https://www.nbdc-datahub.org/data-access-process) for detailed DUC submission instructions.
+To access HBCD Study data, researchers must submit a **Data Use Certification (DUC)** through the [NBDC Data Hub](https://www.nbdc-datahub.org/) - see [here](https://www.nbdc-datahub.org/data-access-process) for detailed DUC submission instructions.
 
 <div class="notification-banner static-banner">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
