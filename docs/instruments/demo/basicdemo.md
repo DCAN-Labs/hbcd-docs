@@ -153,13 +153,13 @@ There are two combined race and ethnicity variables that aggregate multiracial i
 <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Mother ethnicity</td>
 <td style="padding: 8px; word-wrap: break-word; white-space: normal;"><code>screen_mother_ethnicity</code></td>
 <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Admin</td>
-<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Participant response to <a href="https://www.census.gov/programs-surveys/acs.html">ACS</a> item about ethnic identity collected during screening. <i>See <a href="../../changelog/knownissues/#mother-ethnicity">Known Issue</a>.</i></td>
+<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Participant response to <a href="https://www.census.gov/programs-surveys/acs.html">ACS</a> item about ethnic identity collected during screening. <i>See <a href="../../../changelog/knownissues/#mother-ethnicity">Known Issue</a>.</i></td>
 </tr>
 <tr>
 <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Mother race, multi-categorical</td>
 <td style="padding: 8px; word-wrap: break-word; white-space: normal;"><code>screen_mother_race</code></td>
 <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Admin</td>
-<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Participant response to <a href="https://www.census.gov/programs-surveys/acs.html">ACS</a> item/question about racial identity collected during screening.  <i>See <a href="../../changelog/knownissues/#duplicate-options-for-mother-race-variable">Known Issue</a>.</i></td>
+<td style="padding: 8px; word-wrap: break-word; white-space: normal;">Participant response to <a href="https://www.census.gov/programs-surveys/acs.html">ACS</a> item/question about racial identity collected during screening.  <i>See <a href="../../../changelog/knownissues/#duplicate-options-for-mother-race-variable">Known Issue</a>.</i></td>
 </tr>
 <tr>
 <td style="padding: 8px; word-wrap: break-word; white-space: normal;">Mother race, indicator variables from screening</td>
