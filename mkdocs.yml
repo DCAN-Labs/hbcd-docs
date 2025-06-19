@@ -20,6 +20,7 @@ extra_javascript:
 
 extra_css:
   - css/custom.css
+  - css/collapsible.css
   - css/copybox.css
   - css/banners.css
   - css/hide-sidebar.css
@@ -137,7 +138,4 @@ nav:
     - FAQs: help/faq.md
     - Report Issues: help/reportissue.md
     - How To Cite Release Docs: help/citation.md
-  - Drafts:
-    - Instructions: instructions.md
-
  

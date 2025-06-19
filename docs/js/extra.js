@@ -9,7 +9,15 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Collapsible content: toggles open class AND rotate class to ON when arrow is clicked to expand/collapse the section.
+// Collapsible content - new logic
+function toggleNotificationCollapse(banner) {
+  const content = banner.nextElementSibling;
+  if (content && content.classList.contains('open-collapsible-content')) {
+    content.classList.toggle('open');
+  }
+}
+
+// Collapsed content: toggles open class AND rotate class to ON when arrow is clicked to expand/collapse the section.
 function toggleCollapse(element) {
   const collapsibleContent = element.nextElementSibling;
   const arrow = element.querySelector(['.arrow']);

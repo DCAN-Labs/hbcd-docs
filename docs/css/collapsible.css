@@ -1,0 +1,59 @@
+/* Interactive Collapsible Banner */
+.open-banner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #25ae7049;
+  border: 1px solid #3333331a;
+  padding: 6px 16px;
+  border-radius: 0;
+  font-family: Lato, sans-serif;
+  font-size: 0.95em;
+  color: #3e3e3e;
+  cursor: pointer;
+  gap: 10px;
+}
+.open-banner .emoji {
+  font-size: 1.2rem;
+  color: #007f49;
+}
+
+/* Collapsible content section */
+.open-collapsible-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: #25ae700e;
+  border: 1px solid #3333331a;
+  border-top: none;
+  padding: 0 20px;
+  border-radius: 0 0 5px 5px;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+.open-collapsible-content.open {
+  max-height: 1000px; /* Large value to allow smooth expansion */
+  padding: 10px 20px;
+}
+
+/* Typography and list styling */
+.open-collapsible-content p {
+  margin: 0.8em 0;
+  line-height: 1.3;
+}
+.open-collapsible-content b {
+  color: #0077cc;
+}
+.open-collapsible-content ul {
+  margin: 1rem 0 0.5rem 1rem;
+  padding-left: 0.4rem;
+}
+.open-collapsible-content li {
+  margin-bottom: 0.1rem;
+}
+.open-collapsible-content ul ul {
+  margin-top: 0.1rem;
+}
+.open-collapsible-content li b {
+  color: #0077cc;
+}
