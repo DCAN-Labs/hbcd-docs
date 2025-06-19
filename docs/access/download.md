@@ -386,7 +386,7 @@ Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data
 <p>
   The following columns are currently blank in the Lasso Dictionary Query Tool for the HBCD Study and will become available in a future release: 
   <b>unit</b>, column names appended with <b>*_es</b>, and columns prepended with <b>url_*</b>.
-  <p>There are also columns that are currently inapplicable to HBCD study data. These columns will still be present when querying the data dictionary via the Lasso Portal, but the column values will be blank. Examples include <b>atlas</b>, <b>metric</b>, <b>sub_domain</b>, columns including <b>nda/deap/redcap</b>, etc. These columns can be safely ignored.</p>
+  <p>Some columns in the data dictionary are not applicable to HBCD study data. These columns will appear in Lasso Portal queries, but will have blank values. Examples include <b>atlas</b>, <b>metric</b>, <b>sub_domain</b>, columns including <b>nda/deap/redcap</b>, etc. These columns can be safely ignored.</p>
 </p>
 </div>
 
