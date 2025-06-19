@@ -73,22 +73,6 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 
-// // Auto-expand specific collapsible banners on page load
-// document.addEventListener('DOMContentLoaded', function () {
-//   const collapsibleContents = document.querySelectorAll(['.collapsible-content', '.notification-open-collapsible-content', '.alert-collapsible-content', '.table-open-collapsible-content']);
-//   const arrowIcons = document.querySelectorAll('.arrow');
-
-//   // Loop through all collapsible sections to open and rotate arrow
-//   collapsibleContents.forEach(content => content.classList.add('open'));
-//   arrowIcons.forEach(arrow => arrow.classList.add('rotate'));
-
-//   // Auto-expand specific banner if navigated via external link
-//   const hash = window.location.hash.substring(1);
-//   if (hash) {
-//     expandCollapsibleById(hash);
-//   }
-// });
-
 // Listen for hash changes to expand collapsible sections
 window.addEventListener('hashchange', () => {
   const hash = window.location.hash.substring(1);
