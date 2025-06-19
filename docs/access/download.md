@@ -33,7 +33,10 @@ To access HBCD Study data, researchers must submit a **Data Use Certification (D
 
 ## Download HBCD Study Data
 
-After obtaining data access, users can download HBCD Study release data via the **[Lasso Portal](https://nbdc-datashare.lassoinformatics.com/)** (also see further instruction and documentation on the [Lasso Informatics Resource Hub](https://nbdc.lassoinformatics.com/data-query-and-downloads)) or the **Data Exploration and Analysis Portal** ([DEAP](https://docs.deapscience.com)).
+Once access is granted, data can be downloaded through either of the following:
+
+- **[Lasso Portal](https://nbdc.lassoinformatics.com/)**
+- **Data Exploration and Analysis Portal** ([DEAP](https://docs.deapscience.com))
 
 
 ## Explore Data
