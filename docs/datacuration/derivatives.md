@@ -239,7 +239,7 @@ M-CRIB-S is a surface reconstruction method developed for neonates using the sur
 
 <div id="symlinks" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text-with-link">
-  <span class="table-text">Restoring Symlink Files</span>
+  <span class="text">Restoring Symlink Files</span>
   <a class="anchor-link" href="#symlinks" title="Copy link">
   <i class="fa-solid fa-link"></i>
   </a>

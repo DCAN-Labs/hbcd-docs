@@ -65,7 +65,7 @@ Finally, the Time Line Follow Back (TLFB) was triggered when substance use was r
 
 <div id="assist" class="table-banner" onclick="toggleCollapse(this)">
     <span class="text-with-link">
-    <span class="table-text">HBCD Modification Details</span>
+    <span class="text">HBCD Modification Details</span>
     <a class="anchor-link" href="#assist" title="Copy link">
     <i class="fa-solid fa-link"></i>
     </a>

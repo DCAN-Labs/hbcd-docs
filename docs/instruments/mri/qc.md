@@ -509,7 +509,7 @@ After converting MRI data to BIDS format, both the NIfTI and JSON files undergo 
 
 <p>
 <div id="acq-param-table" class="table-banner" onclick="toggleCollapse(this)">
-  <span class="table-text">Acquisition Parameter Ranges for Data Release Eligibility</span>
+  <span class="text">Acquisition Parameter Ranges for Data Release Eligibility</span>
   <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
@@ -586,7 +586,7 @@ Manual visual inspection remains the gold standard for identifying artifacts in 
 <p>
 <div id="swipes-procedures" class="table-banner" onclick="toggleCollapse(this)">
 <span class="text-with-link">
-  <span class="table-text">BrainSwipes QC Procedures</span>
+  <span class="text">BrainSwipes QC Procedures</span>
 	<a class="anchor-link" href="#swipes-procedures" title="Copy link">
   	<i class="fa-solid fa-link"></i>
   	</a>

@@ -47,7 +47,7 @@ The HBCD Severity of Posttraumatic/Acute Stress Symptoms measure was developed t
 
 <div id="ptsd-scoring" class="table-banner" onclick="toggleCollapse(this)">
     <span class="text-with-link">
-    <span class="table-text">Scoring</span>
+    <span class="text">Scoring</span>
     <a class="anchor-link" href="#ptsd-scoring" title="Copy link">
     <i class="fa-solid fa-link"></i>
     </a>

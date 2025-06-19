@@ -24,14 +24,6 @@ th, td {
   cursor: pointer;
   width: 100%;
 }
-.table-text {
-  flex: 1; /* Allows the text to take available space without overlapping */
-  font-size: 1rem; 
-  font-weight: bold; 
-  text-align-last: left;
-  margin-right: 10px; /* Adds space between text and the arrow */
-  word-wrap: break-word; /* Ensures text wraps if too long */
-}  
 .table-collapsible-content {
   max-height: 0;
   overflow: hidden;

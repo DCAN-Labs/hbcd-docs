@@ -15,7 +15,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
 ### Demographics & Visit Information
 <div id="demo" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text-with-link">
-  <span class="table-text">Basic Demographics & Visit Info</span>
+  <span class="text">Basic Demographics & Visit Info</span>
   <a class="anchor-link" href="#demo" title="Copy link">
   <i class="fa-solid fa-link"></i>
   </a>
@@ -52,7 +52,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
 ### Behavior, Biology, & Environment
 <div id="bcgi" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text-with-link">
-  <span class="table-text">Behavior & Caregiver-Child Interaction</span>
+  <span class="text">Behavior & Caregiver-Child Interaction</span>
   <a class="anchor-link" href="#bcgi" title="Copy link">
   <i class="fa-solid fa-link"></i>
   </a>
@@ -95,7 +95,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
 
 <div id="biospec" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text-with-link">
-  <span class="table-text">Biospecimen & Omics</span>
+  <span class="text">Biospecimen & Omics</span>
   <a class="anchor-link" href="#biospec" title="Copy link">
   <i class="fa-solid fa-link"></i>
   </a>
@@ -131,7 +131,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
 
 <div id="neurocog" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text-with-link">
-  <span class="table-text">Neurocognition & Language</span>
+  <span class="text">Neurocognition & Language</span>
   <a class="anchor-link" href="#neurocog" title="Copy link">
   <i class="fa-solid fa-link"></i>
   </a>
@@ -167,7 +167,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
 
 <div id="sensors" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text-with-link">
-  <span class="table-text">Novel Technologies & Wearable Sensors</span>
+  <span class="text">Novel Technologies & Wearable Sensors</span>
   <a class="anchor-link" href="#sensors" title="Copy link">
   <i class="fa-solid fa-link"></i>
   </a>
@@ -203,7 +203,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
 
 <div id="physhealth" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text-with-link">
-  <span class="table-text">Physical Health</span>
+  <span class="text">Physical Health</span>
   <a class="anchor-link" href="#physhealth" title="Copy link">
   <i class="fa-solid fa-link"></i>
   </a>
@@ -247,7 +247,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
 
 <div id="pregexp" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text-with-link">
-  <span class="table-text">Pregnancy & Exposure, Including Substance Use</span>
+  <span class="text">Pregnancy & Exposure, Including Substance Use</span>
   <a class="anchor-link" href="#pregexp" title="Copy link">
   <i class="fa-solid fa-link"></i>
   </a>
@@ -400,7 +400,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
 
 <div id="socenvdet" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text-with-link">
-  <span class="table-text">Social & Environmental Determinants</span>
+  <span class="text">Social & Environmental Determinants</span>
   <a class="anchor-link" href="#socenvdet" title="Copy link">
   <i class="fa-solid fa-link"></i>
   </a>
@@ -468,7 +468,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
 
 <div id="mri" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text-with-link">
-  <span class="table-text">MRI & MRS</span>
+  <span class="text">MRI & MRS</span>
   <a class="anchor-link" href="#mri" title="Copy link">
   <i class="fa-solid fa-link"></i>
   </a>
@@ -551,7 +551,7 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
 
 <div id="eeg" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text-with-link">
-  <span class="table-text">EEG</span>
+  <span class="text">EEG</span>
   <a class="anchor-link" href="#eeg" title="Copy link">
   <i class="fa-solid fa-link"></i>
   </a>
