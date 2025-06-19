@@ -55,7 +55,12 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
 Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) is determined to be positive, negative, or invalid ([Table 2](#urine-table2)). The class-level (*c_any_X_u*) and screen-level (*s_X_u*) are correspondingly scored as positive (1), negative (0), and invalid (3). The confirmatory tests (*c_X_u*) are scored as (1) positive, (0) negative, 3 (cancelled), and 4 (screen negative). If all classes are negative (0), then sample-levels are negative (0). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in [Table 3](#urine-table3).
 
 <div id="urine-table1" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="text-with-link">
   <span class="text">Table 1. Urine Assay Thresholds for Analytes</span>
+  <a class="anchor-link" href="#urine-table1" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
@@ -465,7 +470,12 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
 </div>
 
 <div id="urine-table2" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="text-with-link">
   <span class="text">Table 2. Sample Data Dictionary from Urine Assays</span>
+  <a class="anchor-link" href="#urine-table2" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
@@ -541,8 +551,14 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
 </table>
 </div>
 
+
 <div id="urine-table3" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="text-with-link">
   <span class="text">Table 3. Mapping From Class to Screening Tests and Confirmatory Tests</span>
+  <a class="anchor-link" href="#urine-table3" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">

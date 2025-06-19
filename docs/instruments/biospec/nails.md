@@ -52,7 +52,12 @@ Based on the predefined threshold outlined in [Table 1](#nails-table1), a confir
 Based on the confirmatory test (i.e. reflexes from positive screening test) result for any substance, the class-level (e.g. *c_any_X_n*) and screening-level (e.g. *s_X_n*) are correspondingly scored as positive (1), negative (0), and quantity not sufficient (QNS) (3). The confirmatory tests (*c_X_n*) are scored as (1) positive, (0) negative, 3 (QNS), and 4 (screen negative). If all classes are negative (0), then sample-levels are negative (0). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in [Table 3](#nails-table3).
 
 <div id="nails-table1" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="text-with-link">
   <span class="text">Table 1. Nail Assay Thresholds</span>
+  <a class="anchor-link" href="#nails-table1" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
@@ -406,7 +411,12 @@ Based on the confirmatory test (i.e. reflexes from positive screening test) resu
 
 
 <div id="nails-table2" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="text-with-link">
   <span class="text">Table 2. Sample-Data Dictionary Nail Assays</span>
+  <a class="anchor-link" href="#nails-table2" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
@@ -502,7 +512,12 @@ Based on the confirmatory test (i.e. reflexes from positive screening test) resu
 
 
 <div id="nails-table3" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="text-with-link">
   <span class="text">Table 3. Mapping from Class to Screening Tests and Confirmatory Tests for Nails</span>
+  <a class="anchor-link" href="#nails-table3" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
