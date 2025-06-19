@@ -253,18 +253,6 @@
   margin-right: 10px;
   color: #007f49;
 }
-
-.notification-arrow {
-  font-size: 1.8rem;
-  transition: transform 0.3s ease;
-  display: inline-block;
-  transform-origin: center;
-  color: #3e3e3e;
-  margin-left: auto; /* Pushes the arrow to the right */
-}
-.notification-arrow.rotate {
-  transform: rotate(90deg);
-}
 .notification-collapsible-content {
   max-height: 0;
   overflow: hidden;

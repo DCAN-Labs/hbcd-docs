@@ -47,9 +47,9 @@ Designed specifically for HBCD, this measure informs assessment teams conducting
 
 <div id="mlds-scoring-procedures" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">Scoring Procedures</span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="collapsible-content">
 <p>Total days per week and total hours per day were calculated for up to 10 non-parental childcare arrangements (Daycare, With Babysitter, With other family members outside of the household, and Other non-parental childcare arrangement). The language environment for each non-parental childcare arrangement was described based on the percentage of Spanish vs English spoken in the environment:</p>
 <ul>
   <li><b>Only Spanish OR Only English</b>: ≥30% of language AND &lt;30% of the other language is spoken</li>

@@ -50,9 +50,9 @@ Future publications should note that this measure is a combination of these and 
   <span>
     <span class="text">Modification Details: Excluded Items & Alterations</span>
   </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="collapsible-content">
 <p><b>FHAM</b></p>
 <p>FAM MH excludes the following FHAM items: (1) items for Antisocial Personality Disorder [ASP] and Undifferentiated Psychiatric Disorder [UPD] and (2) items asking about any treatment for mental or emotional problems, hospitalization, and suicide. In addition, the original response options including 'parents', 'grandparents', 'siblings', 'aunts', 'uncles', and 'cousins' were modified to include only biological mom [001], biological dad [002], biological maternal grandmother [003], biological maternal grandfather [004], biological paternal grandmother [005], and biological paternal grandfather [006].</p>
 <p><b>All of Us</b></p>

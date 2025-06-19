@@ -49,17 +49,17 @@ The ecPROMIS (Early Childhood Patient-Reported Outcome Measurement Information S
   <span>
     <span class="text">HBCD Modification Details</span>
   </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="collapsible-content">
 <p>Alterations were made for use of gender-neutral terms and “parent” was replaced with “parent/caregiver” where appropriate. Because the psychometric validation for these measures was done using items from the original measures, future publications should account for and note edits made to individual items.</p>
 </div>
 
 <div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text">Scoring Procedures</span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="collapsible-content">
 <p>Each of the 5 items for ecPROMIS Child-Caregiver Interaction is answered on a scale of 1-5: 1 (Never), 2 (Rarely), 3  (Sometimes), 4 (Often), and 5 (Always). A sum score is generated when the caregiver answers at least 3 out of the 5 items (<i>ecpromis1, ecpromis2, ecpromis3, ecpromis4, ecpromis5</i>). If caregivers answer 3 or 4 items, a prorated sum score is calculated using the formula: <code>(sum of items answered/the number of items answered)*5</code>. If fewer than 3 items are completed, the sum score is marked as missing.</p>
 </div>
 

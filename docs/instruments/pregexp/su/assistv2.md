@@ -70,9 +70,9 @@ Finally, the Time Line Follow Back (TLFB) was triggered when substance use was r
     <i class="fa-solid fa-link"></i>
     </a>
     </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="collapsible-content">
 <ul>
 <b>Replacement Questions for NIDA Quick Screen Tool</b><br>
 <strong>V2: Assess use after pregnancy:</strong>

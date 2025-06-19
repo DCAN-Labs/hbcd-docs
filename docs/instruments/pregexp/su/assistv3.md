@@ -53,9 +53,9 @@ In addition, for lifetime and problematic use, and use pre-pregnancy, pregnancy,
     <i class="fa-solid fa-link"></i>
     </a>
     </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="collapsible-content">
 <ul>
 <b>Replacement Questions for NIDA Quick Screen Tool</b><br>
 <strong>V3: Assess use and impact of substance use after pregnancy in past 3 months (3m):</strong>

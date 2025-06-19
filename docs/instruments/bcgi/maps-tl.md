@@ -46,17 +46,17 @@ Multidimensional Assessment Profiles- Temper Loss scale (MAPS-TL) is a well-vali
   <span>
     <span class="text">HBCD Modification Details</span>
   </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="collapsible-content">
 <p>Alterations were made for use of gender-neutral terms and “parent” was replaced with “parent/caregiver” where appropriate. Because the psychometric validation for these measures was done using items from the original measures, future publications should account for and note edits made to individual items.</p>
 </div>
 
 <div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text">Scoring Procedures</span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="closed-collapsible-content">
+<div class="collapsible-content">
 <p>Each of the 17 items for MAPS-TL is answered on a scale of 1 to 6: 1 [Never], 2 [Rarely (Less than once per week)], 3 [Some (1-3) days of the week], 4 [Most (4-6) days of the week], 5 [Every day of the week], 6 [Many times each day]. A **sum score** is generated when the caregiver provides a numerical score of 1 to 6 for at least 9 out of the 17 items. If fewer than 9 items are completed, the score is marked as missing. When responses are available for 9 to 16 items, a prorated score is calculated using the formula: <code>(sum of items answered / number of items answered) * 17</code>.</p>
 </div>
 

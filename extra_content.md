@@ -132,7 +132,7 @@ These data are the results of toxicology assays in dried blood spots collected a
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="text">PEth Assay Details</span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
 <br>
