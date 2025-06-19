@@ -1,0 +1,52 @@
+/* Logo hover styling (Download page) */
+.logo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 10px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+.logo-row img {
+  transition: filter 0.2s ease, transform 0.2s ease;
+}
+.logo-row img:hover {
+  filter: brightness(0) saturate(100%) invert(28%) sepia(95%) saturate(3000%) hue-rotate(200deg) brightness(95%) contrast(90%);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.logo-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: flex-start; /* aligns logos to the left */
+  align-items: center;
+}
+.logo {
+  height: auto;
+  max-height: 110px;
+  width: auto;
+  max-width: 100%;
+}
+
+/* Adjust logo size by type if needed */
+.logo.nbdc {
+  max-height: 110px;
+}
+.logo.lasso {
+  max-height: 50px;
+}
+.logo.deap {
+  max-height: 60px;
+}
+/* Optional: responsive scaling on smaller screens */
+@media (max-width: 600px) {
+  .logo {
+    max-height: 60px;
+  }
+  .logo.lasso {
+    max-height: 40px;
+  }
+}

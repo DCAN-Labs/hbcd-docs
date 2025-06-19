@@ -2,15 +2,16 @@
 
 <div class="logo-row">
   <a href="https://www.nbdc-datahub.org/">
-    <img src="../images/NBDC-Blk-Horizontal.png" alt="NBDC-logo" style="height: 110px; width: auto;">
+    <img src="../images/NBDC-Blk-Horizontal.png" alt="NBDC-logo" class="logo nbdc">
   </a>
   <a href="https://nbdc.lassoinformatics.com/">
-    <img src="../images/Format=Horizontal, Color=Black@2x.png" alt="Lasso-logo" style="height: 50px; width: auto;">
+    <img src="../images/Format=Horizontal, Color=Black@2x.png" alt="Lasso-logo" class="logo lasso">
   </a>
   <a href="https://docs.deapscience.com/">
-    <img src="../images/ZEV103-DEAP-Logo-with-DEAP.png" alt="NBDC-DEAP logo" style="height: 70px; width: auto;">
+    <img src="../images/ZEV103-DEAP-Logo-with-DEAP.png" alt="DEAP-logo" class="logo deap">
   </a>
 </div>
+
 
 ## Access HBCD Study Data
 
