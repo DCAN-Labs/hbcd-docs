@@ -36,14 +36,14 @@ To access HBCD Study data, researchers must submit a **Data Use Certification (D
 Once access is granted, data can be downloaded through either of the following:
 
 - **[Lasso Portal](https://nbdc.lassoinformatics.com/)**
-- **Data Exploration and Analysis Portal** ([DEAP](https://docs.deapscience.com))
+- **Data Exploration and Analysis Portal** ([DEAP](https://hbcd.deapscience.com/))
 
 
 ## Explore HBCD Study Data
 
 HBCD data is organized into tables, each of which contains a set of variables. The data dictionary provides detailed information about each variable in the HBCD data tables. The dictionary includes the variable name, label, description, data type, and other relevant information. 
 
-Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data dictionary via the **[Lasso Portal Query Tool](https://nbdc.lassoinformatics.com/data-query-and-downloads)** or **[DEAP](https://docs.deapscience.com)**. Below are the definitions for the columns in the data dictionaries for these utilities. Note that some columns also correspond to elements in the BIDS JSON files that accompany all tabulated data (hover over <i class="bi bi-filetype-json" style="font-size:18px; color:blue;"></i> icon for details in table below).
+Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data dictionary via the **[Lasso Portal Query Tool](https://nbdc.lassoinformatics.com/data-query-and-downloads)** or **[DEAP's data dictionary & ontology browser](https://docs.deapscience.com)**. Below are the definitions for the columns in the data dictionaries for these utilities. Note that some columns also correspond to elements in the BIDS JSON files that accompany all tabulated data (hover over <i class="bi bi-filetype-json" style="font-size:18px; color:blue;"></i> icon for details in table below).
 
 ### Data Dictionary Column Definitions
 
@@ -360,12 +360,12 @@ Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data
 </table>
 
 
-### User Warnings - HBCD
+### Lasso User Warnings - HBCD
 
 <div id="add-columns" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text-with-link">
-  <span class="text">Additional Columns Not Defined in Data Dictionary</span>
+  <span class="text">Additional Columns ('cohort' & 'site') Not Defined in Data Dictionary</span>
   <a class="anchor-link" href="#add-columns" title="Copy link">
   <i class="fa-solid fa-link"></i>
   </a>
@@ -374,11 +374,7 @@ Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data
 </div>
 <div class="warning-collapsible-content">
 <ul>
-<p>Dataset downloads from both Lasso and DEAP contain the following additional columns, specific to each platform, not described in the data dictionary:</p>
-<p>
-• <strong>Lasso</strong>: <b>cohort</b> and <b>site</b> (identical to <a href="../../instruments/demo/visitinfo">Visit Information</a> variables <b>par_visit_data_&lt;<i>cohort|site</i>&gt;</b>)<br>
-• <strong>DEAP</strong>: <b>participant_id</b> and <b>session_id</b>
-</p>
+<p>Dataset downloads contain 2 additional columns not described in the data dictionary. This includes <b>cohort</b> and <b>site</b>, identical to <a href="../../instruments/demo/visitinfo">Visit Information</a> variables <b>par_visit_data_&lt;<i>cohort|site</i>&gt;</b>.</p>
 </div>
 
 <div id="blank-columns" class="warning-banner" onclick="toggleCollapse(this)">
