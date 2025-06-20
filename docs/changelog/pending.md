@@ -111,3 +111,6 @@ The interim release will include birth parent sexual orientation information (**
 - Decline to answer
 
 <span class="blue-text"><b>**</b></span> <span><i>Note: Further information on this response option (via branching logic) will not be included in release.</i></span>
+
+
+## Release 2.0 (Release Date TBA)
