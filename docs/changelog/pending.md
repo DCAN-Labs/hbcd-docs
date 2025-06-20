@@ -1,42 +1,31 @@
 # Pending & Upcoming Updates
 
 ## Release 1.1 (Release Date TBA)
-The interim Release 1.1 will include:
 
-<div style="padding: 0;">
-  <b>Documentation/Resources:</b>
-  <ul style="margin: 0 0 20px 20px; padding: 0;">
-<li>Additional <a href="../../access/resp_data_use/#warnings">Responsible Use & Data Warnings</a></li>
-<li>Study Navigator Contact Form  </li>
-</ul>
-</div>
+### Additional Data & Information Expected
 
-<div style="padding: 0;">
-  <b>Additional Participant Data:</b>
-  <ul style="margin: 0 0 20px 20px; padding: 0;">
-<li>Multiple birth participants (i.e. twins or other cases where multiple participants from the same birth are enrolled in the study)</li>
-<li>Participants from the University of Florida (UF is no longer an active site and participants were excluded from release 1.0)</li>
-<li>Postnatal Recruits (PNR): participants allowed to join the study in the postnatal period, completing a modified V01 and V02 after the child is born</li>
-</ul>
-</div>
+##### Documentation/Resources:
 
-<div style="padding: 0;">
-  <b>Additional Brain Imaging Data & Information:</b>
-  <ul style="margin: 0 0 20px 20px; padding: 0;">
-<li>Source data (e.g. DICOMs) for <a href="../../datacuration/rawbids">raw BIDS</a> (all imaging modalities)</li>
-<li>Processed V03 <a href="../../datacuration/derivatives/#infant-fmriprep-nibabies" target="_blank">Infant fMRIPrep</a> and <a href="../../datacuration/derivatives/#xcp-d-xcp_d" target="_blank">XCP-D</a> derivatives for structural and functional MRI</li>
-<li>Scanner information (one scanner per site), including:
-  <ul>
-  <li>ScannerManufacturer</li>
-  <li>ScannerModel</li>
-  <li>ScannerSofwareVersion</li>
-  <li>ScannerSerialNumber (Used to differentiate different scanners at the same site)</li>
-  </ul>
-</li>
-</ul>
-</div>
+*   Additional [Responsible Use & Data Warnings](../access/resp_data_use/#warnings)
+*   Study Navigator Contact Form
 
-**Release 1.1 will also include the addition of the following tabulated data:**
+##### Participant Data:
+
+*   Multiple birth participants (i.e. twins or other cases where multiple participants from the same birth are enrolled in the study)
+*   Participants from the University of Florida (UF is no longer an active site and participants were excluded from release 1.0)
+*   Postnatal Recruits (PNR): participants allowed to join the study in the postnatal period, completing a modified V01 and V02 after the child is born
+
+##### Brain Imaging Data & Metadata:
+
+*   Source data (e.g. DICOMs) for [raw BIDS](../datacuration/rawbids) (all imaging modalities)
+*   Processed V03 [Infant fMRIPrep](../datacuration/derivatives/#infant-fmriprep-nibabies) and [XCP-D](../datacuration/derivatives/#xcp-d-xcp_d) derivatives for structural and functional MRI
+*   Scanner information (one scanner per site), including:
+    *   ScannerManufacturer
+    *   ScannerModel
+    *   ScannerSofwareVersion
+    *   ScannerSerialNumber (Used to differentiate different scanners at the same site)
+
+##### Tabulated study instrument data:
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
   <thead>
@@ -88,7 +77,6 @@ The interim Release 1.1 will include:
 </table>
 
 ### Improvements to Existing Data
-Release 1.1 will introduce the following enhancements to existing data:
 
 #### Enhanced Medication Classification for Pregnancy & Exposure Data  
 The interim release will refine medication classifications in the [Pregnancy & Exposure, Including Substance Use](../instruments/index.md#pregexp) domain by categorizing them into more detailed components based on RxNorm IDs. These enhancements will improve clarity and enable more granular analyses. Additional columns in the tabulated data will specify:
