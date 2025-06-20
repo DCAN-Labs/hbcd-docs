@@ -118,6 +118,11 @@ Please see the section on <a href="../demographics/#basic-demographics">Basic De
     <td>Hamilton, et al. (2011)</td>
     </tr>
     <tr>
+		<td>Sexual Orientation</td>
+		<td><a href="https://www.phenxtoolkit.org/protocols/view/11701">PhenX</a></td>
+		<td>Hamilton, et al. (2011)</td>
+	</tr>
+    <tr>
         <td>Primary Residence</td>
         <td>HBCD</td>
         <td>Cioffredi, et al. (2024)</td>
