@@ -80,14 +80,14 @@ Prior to obtaining data access via DUC, users can explore the NBDC Data Hub data
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Domain</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">domain</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Domain/<a href="https://hbcdstudy.org/workgroups-and-committees/">HBCD Workgroup</a></td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">e.g. "Demographics" or "EEG" - see domains listed under <a href="../../instruments/">Study Instruments</a></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Biospecimens, MRI, etc. (<a href="../../datacuration/phenotypes/#domain-source">see details</a>)</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">YES</td>
     </tr>
         <tr>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Source</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">source</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Source of information for this table/measure</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Youth; Parent; Teacher; Experimenter; Linked external data</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Child, Biological Mother, etc. (<a href="../../datacuration/phenotypes/#domain-source">see details</a>)</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">YES</td>
     </tr>
     <tr>

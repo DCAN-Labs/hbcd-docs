@@ -153,8 +153,14 @@ Most protocol elements follow a standardized naming convention with the structur
 For example, `mri_ra_prep` refers to MRI-related data entered by a research assistant (RA), representing procedural details as opposed to direct input from a child or caregiver.
 - **acronym/abbreviation**: A short form or code representing the specific protocol element.
 
-<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
+
+<div id="domain-source" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="text-with-link">
   <span class="text">Values for 'domain' and 'source' components</span>
+  <a class="anchor-link" href="#domain-source" title="Copy link">
+  <i class="fa-solid fa-link"></i>
+  </a>
+  </span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
