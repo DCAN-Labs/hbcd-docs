@@ -44,7 +44,7 @@ Once access is granted, data can be downloaded through either of the following:
 Prior to obtaining data access via DUC, users can explore the data included in the release via the **[Lasso Portal Query Tool](https://nbdc.lassoinformatics.com/data-query-and-downloads)** or **[DEAP's data dictionary & ontology browser](https://docs.deapscience.com)**. HBCD data is organized into tables, each of which contains a set of variables. The metadata for studies released via the NBDC Data Hub consists of:
 
  - **Data dictionary**: Provides detailed information about the variables in the tabulated data resource, including the variable name, label, description, data type, and other relevant information. 
- - **Levels table**: Provides information about the levels of categorical variables in the tabulated data resource (label, order, etc.)
+ - **Levels table**: Provides information about the levels of categorical variables in the tabulated data (label, order, etc.)
 
 Below are the definitions for the columns in the data dictionary and levels table. Note that some columns also correspond to elements in the BIDS JSON files that accompany all tabulated data (hover over <i class="bi bi-filetype-json" style="font-size:18px; color:blue;"></i> icon for details in table below).
 
