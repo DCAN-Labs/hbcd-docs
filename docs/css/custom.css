@@ -11,6 +11,7 @@ code {
   border: none !important;
   padding: 0 !important;
   color: #345678 !important;
+  font-size: 0.9em !important;
 }
 
 /* Style for expand all button (measures overview page) */
