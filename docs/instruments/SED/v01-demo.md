@@ -36,6 +36,8 @@ Some participants reported challenges in answering certain questions, such as th
 Some variables with small cell sizes were withheld from the data release to minimize any risk of disclosure of identifying information. In addition, there are some variables that do not contain any data in the current data release (e.g., response options allowed for more household members and more jobs during pregnancy than were reported by the respondents who completed V01 to date). These variables are currently being retained because this could change as data collection proceeds.</p> 
 <p><b>Branching Logic</b><br>
 There are several items with branching logic; please consult the RedCAP questionnaire to see question flow and data dictionaries for information on skip patterns. Topics with branching logic include: <i>Household roster</i>, <i>Nativity</i>, <i>Jobs / work environment</i>, and items on <i>other biological parent</i> (responses opt in to answer this set of questions).</p>
+<p><b>Birth Parent Sexual Orientation Excluded From Current Release</b><br>
+This item will be available in the interm Release 1.1 - <a href="../../../changelog/pending/#inclusion-of-birth-parent-sexual-orientation">see details</a>.</p>
 </div>
 
 ## Administration & Quality Control
