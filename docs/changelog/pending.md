@@ -83,18 +83,23 @@ Release 1.1 will also include the addition of the following tabulated data:
 Release 1.1 will introduce the following enhancements to existing data:
 
 #### Enhanced Medication Classification for Pregnancy & Exposure Data  
-The interim release will refine medication classifications in the [Pregnancy & Exposure, Including Substance Use](../instruments/index.md#pregexp) domain by categorizing them into more detailed components based on RxNorm IDs. Additional columns in the tabulated data will specify:
+The interim release will refine medication classifications in the [Pregnancy & Exposure, Including Substance Use](../instruments/index.md#pregexp) domain by categorizing them into more detailed components based on RxNorm IDs. These enhancements will improve clarity and enable more granular analyses. Additional columns in the tabulated data will specify:
 
 - Brand Name
 - Ingredient
 - Precise Ingredient
 - Multiple Active Ingredients
 
-These enhancements will improve clarity and enable more granular analyses.
 
+#### Inclusion of Birth Parent Sexual Orientation
 
+The interim release will include birth parent sexual orientation information (**Which of the following best represents how you think of yourself?**), collected with the following response options:
 
+- Gay / Lesbian
+- Straight; that is, not gay or lesbian, etc.
+- Bisexual
+- None of these describe me, and I'd like to see additional options <span class="blue-text"><b>**</b></span>
+- Don't know
+- Decline to answer
 
-
-
-
+<span class="blue-text"><b>**</b></span> <span><i>Note: Further information on this response option (via branching logic) will not be included in release.</i></span>
