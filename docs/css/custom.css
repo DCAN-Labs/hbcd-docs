@@ -5,8 +5,8 @@
 /* black/gray: #6b6b6b */ 
 
 
-/* Remove background and border from inline code */
-code {
+/* Inline code styling */
+:not(pre) > code {
   background: none !important;
   border: none !important;
   padding: 0 !important;

@@ -1,7 +1,5 @@
 # Tabulated Data
 
-## Overview
-
 Tabulated data, located under `rawdata/phenotype/`, refers to data from measures and instruments listed under the documentation on [study instruments](../instruments/index.md). This includes behavior, demographics, visit data, toxicology results, and tabulated data associated with brain imaging and other file-based data:
 
 <pre class="folder-tree">
@@ -142,74 +140,3 @@ df = load_data_with_shadow("data.tsv", "shadow_matrix.tsv")
 # Example: View reasons for missing data for a given column/variable in the data file 
 df[df["<COLUMN NAME>"].isna()][["<COLUMN NAME>_missing_reason"]]  
 ```
-
-## File Naming Conventions
-
-### Overview
-Most protocol elements follow a standardized naming convention with the structure: `domain_source_acronym`. Note that imaging derivatives do not follow this naming scheme, but are generally understood to be under the MRI, EEG, etc. domain and strictly for the 'Child.' Each component represents the following:
-
-- **domain**: The general domain or category the protocol element falls under (e.g., biospecimens, MRI, behavior).
-- **source**: Indicates who the protocol element is about or, in some cases, who completed the assessment. The source can represent either the *respondent* (who provided the information) or the *subject* (who the data is about).
-For example, `mri_ra_prep` refers to MRI-related data entered by a research assistant (RA), representing procedural details as opposed to direct input from a child or caregiver.
-- **acronym/abbreviation**: A short form or code representing the specific protocol element.
-
-
-<div id="domain-source" class="table-banner" onclick="toggleCollapse(this)">
-  <span class="text-with-link">
-  <span class="text">Values for 'domain' and 'source' components</span>
-  <a class="anchor-link" href="#domain-source" title="Copy link">
-  <i class="fa-solid fa-link"></i>
-  </a>
-  </span>
-  <span class="arrow">▸</span>
-</div>
-<div class="collapsible-content">
-  <div style="display: flex; gap: 40px; flex-wrap: wrap;">
-    <div>
-      <p><strong>Possible values for <b>domain</b>:</strong></p>
-      <ul>
-        <li><code>bio</code> - Biospecimens</li>
-        <li><code>mh</code> - Behavior/Child-Caregiver Interaction</li>
-        <li><code>sed</code> - Social/Environmental Health Determinants</li>
-        <li><code>sens</code> - Biosensor</li>
-        <li><code>ph</code> - Physical Health</li>
-        <li><code>ncl</code> - Neurocognition and Language</li>
-        <li><code>nt</code> - Novel Tech</li>
-        <li><code>eeg</code> - EEG</li>
-        <li><code>mri</code> - MRI</li>
-      </ul>
-    </div>
-    <div>
-      <p><strong>Possible values for <b>source</b>:</strong></p>
-      <ul>
-        <li><code>ch</code> - Child</li>
-        <li><code>bm</code> - Biological Mother</li>
-        <li><code>si</code> - Sibling</li>
-        <li><code>te</code> - Teacher</li>
-        <li><code>cl</code> - Clinician</li>
-        <li><code>ra</code> - RA (research assistant)</li>
-        <li><code>ld</code> - Linked Data</li>
-        <li><code>fd</code> - Family Data</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-### Correspondence to JSON Metadata
-
-The `domain` and `source` are also included in the JSON metadata and are typically derived from the corresponding sections of the instrument name. However, in some cases, data are collected directly into fields or tables that do not follow the standard naming convention. In those instances, the domain and source values are added later during the Data Release process.
-
-**This applies to:**
-
-*   BioSpecimens
-*   Imaging file based data & derivatives
-*   Some session-level elements (e.g. `informantID`)
-*   Participant-level data
-
-### Single vs Double Underscores 
-
-Instrument table and field names may include either single ( `_` ) or double ( `__` ) underscores (e.g. `ncl_ch_mlds` vs `ncl_cg_spm2__inf` instruments in the [Neurocognition & Language](../instruments/index.md#neurocog) domain). Typically, a single underscore denotes a higher-level grouping (e.g., instrument or domain), while a double underscore is used to separate more granular elements like scales and subscale counters.
-
-However, a unified naming convention has not been consistently applied in the current release. As a result, naming patterns may vary across instruments and variables. A standardized naming scheme is planned for future releases to improve consistency and interpretability.
-
-
