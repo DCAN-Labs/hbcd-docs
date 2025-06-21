@@ -18,6 +18,8 @@
 <div class="warning-collapsible-content">
 <p style="margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px solid #6b6b6b66;"><strong>Consideration of Mental Health Symptoms Experienced During Pregnancy</strong></p>
 <p>Concurrence of psychiatric symptoms and substance use is well-recognized during pregnancy (<a href="https://doi.org/10.1111/j.1521-0391.2010.00110.x">Massey et al., 2011</a>, <a href="https://doi.org/10.1016/j.addbeh.2012.04.002">Massey et al., 2012</a>). Phenotypic risk in birthing parents may influence neurodevelopmental outcomes via prenatal and postnatal influences other than direct exposures alone (<a href="https://doi.org/10.1007/s10519-015-9762-2">Estabrook et al., 2016</a>, <a href="https://doi.org/10.1016/j.ntt.2015.11.010">Massey et al., 2016</a>, <a href="https://doi.org/10.1016/j.ntt.2018.02.003">Massey et al., 2018</a>). These influences may confound exposure-related neuroimaging and neurodevelopmental findings, and also represent malleable targets for prevention and early intervention. Thus, consideration of mental health symptoms experienced by birthing parents as covariates is strongly encouraged when possible to address these confounds.</p> 
+<p style="margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px solid #6b6b6b66;"><strong>Level 2 Scoring Not Available in Current Release</strong></p>
+<p>Note that calculated scores for Level 2 measures will be included in a future release. In the interim, users are encouraged to score individual scales themselves according to the scoring procedures (<a href="#scoring-procedures">see details</a>).</p>
 </div>
 
 ## Administration & Quality Control
@@ -67,13 +69,6 @@ For HBCD, the response option ‘Decline to answer’ was added to all questions
 </p>
 
 ### Scoring Procedures
-
-<p>
-<div id="demo-fyi" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">Note: Calculated scores for Level 2 measures are not included in the current data release. Users are therefore encouraged to score individual scales themselves according to the scoring procedures.</span>
-</div>
-</p>
 
 - [Level 1 Cross-Cutting Symptom Measures](https://www.psychiatry.org/getmedia/e0b4b299-95b3-407b-b8c2-caa871ca218d/APA-DSM5TR-Level1MeasureAdult.pdf) 
 - [Level 2 Cross-Cutting Symptom Measures](https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/assessment-measures)
