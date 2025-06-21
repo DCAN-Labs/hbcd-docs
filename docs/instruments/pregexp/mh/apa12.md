@@ -71,7 +71,7 @@ For HBCD, the response option ‘Decline to answer’ was added to all questions
 <p>
 <div id="demo-fyi" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">Note: In early data releases, total scores are not calculated for Level 2 measures. Users are encouraged to score individual scales themselves according to the scoring procedures.</span>
+    <span class="text">Note: Calculated scores for Level 2 measures are not included in the current data release. Users are therefore encouraged to score individual scales themselves according to the scoring procedures.</span>
 </div>
 </p>
 
