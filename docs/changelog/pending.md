@@ -6,7 +6,7 @@
 
 ##### Documentation/Resources:
 
-*   Additional [Responsible Use & Data Warnings](../access/resp_data_use/#warnings)
+*   Additional [Responsible Use & Data Warnings](../access/resp_data_use.md#warnings)
 *   Study Navigator Contact Form
 
 ##### Participant Data:
@@ -17,8 +17,8 @@
 
 ##### Brain Imaging Data & Metadata:
 
-*   Source data (e.g. DICOMs) for [raw BIDS](../datacuration/rawbids) (all imaging modalities)
-*   Processed V03 [Infant fMRIPrep](../datacuration/derivatives/#infant-fmriprep-nibabies) and [XCP-D](../datacuration/derivatives/#xcp-d-xcp_d) derivatives for structural and functional MRI
+*   Source data (e.g. DICOMs) for [raw BIDS](../datacuration/rawbids.md) (all imaging modalities)
+*   Processed V03 [Infant fMRIPrep](../datacuration/derivatives.md/#infant-fmriprep-nibabies) and [XCP-D](../datacuration/derivatives.md/#xcp-d-xcp_d) derivatives for structural and functional MRI
 *   Scanner information (one scanner per site), including:
     *   ScannerManufacturer
     *   ScannerModel
