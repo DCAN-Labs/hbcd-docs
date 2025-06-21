@@ -357,9 +357,6 @@ Below are the definitions for the columns in the data dictionary and levels tabl
 </p>
 </div>
 
-<br>
-
-
 ## File Naming Conventions
 
 Most protocol elements follow a standardized naming convention with the structure: `domain_source_acronym`. Note that imaging derivatives do not follow this naming scheme, but are generally understood to be under the MRI, EEG, etc. domain and strictly for the 'Child.' Each component represents the following:
