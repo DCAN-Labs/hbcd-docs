@@ -492,7 +492,7 @@ Based on the confirmatory test (i.e. reflexes from positive screening test) resu
     </tr>
     <tr>
         <td><span class="tooltip tooltip-right">c_amp_n_cat
-                <span class="tooltiptext" style="font-size: 0.8em;">Categorical confirmatory test variable for alcohol follows a different convention and is ‘c_ethanol_n’</span>
+                <span class="tooltiptext" style="font-size: 0.9em;">Categorical confirmatory test variable for alcohol follows a different convention and is ‘c_ethanol_n’</span>
             </span></td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Confirmatory test in nails: amphetamine (categorical) (<i>amp/mamp</i>)</td>
         <td>Categorical</td>

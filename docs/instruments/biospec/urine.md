@@ -132,7 +132,7 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
         <td>No consensus</td>
     </tr>
         <tr>
-        <td><span class="tooltip tooltip-right">Cotinine<span class="tooltiptext"> Based on DRI® Cotinine assay for the qualitative and semiquantitative determination of Cotinine</span></span></td>
+        <td><span class="tooltip tooltip-right">Cotinine<span class="tooltiptext" style="font-size: 0.9em;"> Based on DRI® Cotinine assay for the qualitative and semiquantitative determination of Cotinine</span></span></td>
         <td>34</td>
         <td>34</td>
         <td>500</td>
@@ -533,7 +533,7 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
         <li>3: invalid</li></td>
     </tr>
     <tr>
-        <td><span class="tooltip tooltip-right">c_amp_u_cat<span class="tooltiptext">Categorical confirmatory test variable for nicotine follows a different convention and is ‘c_nicotine_u'</span></span></td>
+        <td><span class="tooltip tooltip-right">c_amp_u_cat<span class="tooltiptext" style="font-size: 0.9em;">Categorical confirmatory test variable for nicotine follows a different convention and is ‘c_nicotine_u'</span></span></td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Confirmatory test in urine: amphetamine (categorical) (amp)</td>
         <td>Categorical</td>
         <td><li>1: positive</li>
